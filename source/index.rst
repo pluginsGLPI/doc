@@ -15,3 +15,6 @@ You'll find here user documentation for various `GLPi <http://glpi-project.org>`
 .. toctree::
    :maxdepth: 2
 
+   presentation
+   empty/index
+   example/index
