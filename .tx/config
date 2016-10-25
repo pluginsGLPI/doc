@@ -1,0 +1,39 @@
+[main]
+host = https://www.transifex.com
+type = PO
+
+[glpi-plugins-documentation.index]
+file_filter = source/locale/<lang>/LC_MESSAGES/index.po
+source_file = build/locale/index.pot
+source_lang = en
+
+[glpi-plugins-documentation.empty]
+file_filter = source/locale/<lang>/LC_MESSAGES/empty.po
+source_file = build/locale/empty.pot
+source_lang = en
+
+[glpi-plugins-documentation.presentation]
+file_filter = source/locale/<lang>/LC_MESSAGES/presentation.po
+source_file = build/locale/presentation.pot
+source_lang = en
+
+[glpi-plugins-documentation.globals]
+file_filter = source/locale/<lang>/LC_MESSAGES/globals.po
+source_file = build/locale/globals.pot
+source_lang = en
+
+[glpi-plugins-documentation.example]
+file_filter = source/locale/<lang>/LC_MESSAGES/example.po
+source_file = build/locale/example.pot
+source_lang = en
+
+[glpi-plugins-documentation.example--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/example/index.po
+source_file = build/locale/example/index.pot
+source_lang = en
+
+[glpi-plugins-documentation.empty--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/empty/index.po
+source_file = build/locale/empty/index.pot
+source_lang = en
+
