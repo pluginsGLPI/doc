@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Teclib'
+# This file is distributed under the same license as the GLPi plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPi plugins 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-25 21:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2016\n"
+"Language-Team: Turkish (Turkey) (https://www.transifex.com/teclib/teams/28042/tr_TR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+# 86f1351d7fd040a5bec04feb2f3997d1
+#: ../../source/presentation.rst:2
+msgid "Presentation"
+msgstr "Sunum"
+
+# e8f92f1ce7e045f1b50e444b082e7396
+#: ../../source/presentation.rst:4
+msgid ""
+"Plugins are a way to extend `GLPi <http://glpi-project.org>`_ possibilities "
+"withour modifying core source code. In a perfect world, plugins should "
+"provided specific features; while core's may provided features everyone (or "
+"almost!) mays find usefull."
+msgstr ""
+"Uygulama ekleri ile çekirdek kaynak kodu değiştirilmeden`GLPi <http://glpi-"
+"project.org>`_ kullanım alanları genişletilebilir. Kusursuz bir dünyada "
+"çekirdek kodu herkes (ya da çoğu kişi) tarafından kullanışlı bulunacak "
+"özellikleri sağlarken belirli özellikler uygulama ekleri tarafından "
+"sağlanmalıdır."
+
+# e36eeca539204d58bc69422d7b3cc07c
+#: ../../source/presentation.rst:6
+msgid ""
+"Some of the existing plugins are very complex, other are very simple. Some "
+"may require you to  read their documentation before using, some does not... "
+"Some may provide you configuration possibilities, acces rights management, "
+"and so on.... Or not! There are so many plugins already!"
+msgstr ""
+"Varolan uygulama eklerinin bazıları oldukça karmaşıkken bazıları da oldukça "
+"basittir. Bazı uygulama eklerini kullanabilmek için önce belgelerini okumak "
+"gerekirken bazıları için gerekmez... Bazı uygulama eklerinde ayarlama "
+"seçenekleri, erişim izinleri yönetimi gibi ek ayarlar bulunur... Oldukça çok"
+" uygulama eki vardır!"
+
+# f4d1b5b22bca404c95180a5720ae67fc
+#: ../../source/presentation.rst:8
+msgid ""
+"If you're looking for a feature that does not exists yet in GLPi's core, "
+"take a look at the `plugins repository <http://plugins.glpi-project.org/>`_."
+" You can search for a plugin name or a feature, see what core's versiosn are"
+" compatible, and so on."
+msgstr ""
+"Henüz GLPi çekirdeğinde bulunmayan bir özellik arıyorsanız `uygulama ekleri "
+"deposuna <http://plugins.glpi-project.org/>`_. bakın. Uygulama eki adı, "
+"özellik ya da uyumlu çekirdek sürümüne gibi ölçütlere göre arama "
+"yapılabilir."
+
+# 286fa9f23ba944c4bda76a9f602185e7
+#: ../../source/presentation.rst:10
+msgid ""
+"The goal of the present documentation is to centralize documentations, but "
+"we cannot pretend all plugins documentations are hosted here."
+msgstr ""
+"Güncel belgelerin amacı, belgeleri bir araya getirmektir. Ancak tüm uygulama"
+" eki belgelerinin buradan sunulması amaçlanmıyor."
+
+# 5fbc5162270e4a57b0714b730eaf69dd
+#: ../../source/presentation.rst:12
+msgid "Anyways, happy GLPi-ing!"
+msgstr "Her neyse, mutllu GLPi kullanmalar!"
+
+# 080b467d32ac4852a701e5ff9534a60a
+#: ../../source/presentation.rst:15
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"

@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Teclib'
+# This file is distributed under the same license as the GLPi plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPi plugins 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-25 21:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2016\n"
+"Language-Team: Turkish (Turkey) (https://www.transifex.com/teclib/teams/28042/tr_TR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+# f05ce9c7c40a4324abf4b29834e6b096
+#: ../../source/example/index.rst:2
+msgid "Example"
+msgstr "Örnek"
+
+# 4182d994d622445090b4afc4aeeb370e
+#: ../../source/example/index.rst:4
+msgid "Sources link: https://github.com/pluginsGLPI/example"
+msgstr "Kaynak bağlantısı: https://github.com/pluginsGLPI/example"
+
+# 20749fe32a744ac2a31208839759667e
+#: ../../source/example/index.rst:5
+msgid "Download: *not relevant*"
+msgstr "İndir: *ilgisiz*"
+
+# 0f39ee7a87c54ec6ae150d746c39359c
+#: ../../source/example/index.rst:7
+msgid ""
+"An example plugin... This is designed to show you various possibilities that"
+" are offered to plugins from GLPi core."
+msgstr ""
+"Örnek uygulama eki... GLPi çekirdeğinden uygulama ekleri ile yapılabilecek "
+"uygulamaları göstermek amacıyla geliştirilmiştir."
+
+# 2ee448a9126e4bcba5b7aa6e677350f5
+#: ../../source/example/index.rst:9
+msgid ""
+"As this plugin does nothing in reality, there is no documentation for it. "
+"You would like to refer to :doc:`plugins presentation <../presentation>`, "
+"`plugins developer manual <http://glpi-developer-"
+"documentation.readthedocs.io/en/master/plugins.html>`_ or even :doc:`empty "
+"plugin <../empty/index>` to get started."
+msgstr ""
+"Bu uygulama eki aslında bir şey yapmadığı için bir belgesi de yoktur. "
+"Geliştirmeye bir başlangıç noktası oluşturmak için :doc:`uygulama eki sunumu"
+" <../presentation>`, `uygulama eki geliştirici kılavuzu <http://glpi-"
+"developer-documentation.readthedocs.io/en/master/plugins.html>`_ ya da "
+":doc:`boş uygulama eki <../empty/index>` belgelerine bakabilirsiniz."
+
+# 797b8923e4d94eeb98282d3307965f88
+#: ../../source/example/index.rst:12
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"
