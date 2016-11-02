@@ -18,3 +18,4 @@ You'll find here user documentation for various `GLPi <http://glpi-project.org>`
    presentation
    empty/index
    example/index
+   genericobject/index
