@@ -109,13 +109,11 @@ Once it has been ran, a ``locale/mygreatplugin.pot`` file will be created/update
 
 For the second and third step, you'll have to make a choice. You can use gettext tools to update your ``PO`` files and translate them using a dedicated tool, like `poedit <https://poedit.net/>`_; or you can use an online translation system like `Transifex <http://transifex.com/>`_ or `Zanata <http://zanata.org/>`_. GLPi core and many of existing plugins are translated using Transifex right now.
 
-Once you get your updated ``PO`` files, you'll have to compile them to ``MO`` files:
+Once you get your updated ``PO`` files, you'll have to compile them to ``MO`` filesi. You can run it manually, the release script will compile them again anywways; see the :ref:`compiling MO files section <compile_mo>`.
 
-.. todo::
+.. note::
 
-   Add and document a tool to update MO files
-
-This last step will be automaticcally run using the :ref:`release_script`.
+   Once you have compiled MO files, you'll have to restart your PHP process (or your webserver if you use ``mod_php``) in order to see the results in the application.
 
 .. _release_script:
 
@@ -126,6 +124,17 @@ A release script is provided in ``tools/release``. This is a "simple" `Python <h
 
 Using just the defaults, the script will try to retrieve the latest tag in your git repository, and will propose you to release it.
 
+Requirements
+++++++++++++
+
+You will need a python interpreter installed as well as the following modules:
+
+* `termcolor <https://pypi.python.org/pypi/termcolor>`_,
+* `gitdb <https://github.com/gitpython-developers/gitdb>`_,
+* optionally, `github <https://github.com/PyGithub/PyGithub>`_ (to check for existing versions in also in drafts, and to create github releases)
+
+If you want to get help on the script, try to run ``./tools/release -h``.
+
 Process
 +++++++
 
@@ -135,11 +144,45 @@ The release process will achieve the following tasks for you:
 * check if a release already exists, locally, and remotely (assuming your project is hosted in the *pluginsGLPI* oarganization and the release is public);
 * make a `git archive` of the paths that are not excluded (``.git``, ``tools``, ``tests``, ...);
 * if any, install composer dependencies;
-* if any; compile you ``MO`` files;
+* if any, compile you ``MO`` files;
 * create a release archive with all that; that will be available in the ``dist`` directory;
 * use GPG to sign the archive.
 
-.. todo::
+.. note::
 
-   * a word about possible arguments
-   * a word about signing
+   The standard release process will not work on your files directly, it will make a copy in the ``dist/src`` directory before. The only exception is the :ref:`MO compiling option <compile_mo>`.
+
+.. _compile_mo:
+
+Compiling MO files
+++++++++++++++++++
+
+The release process will automatically compile every ``PO`` file it will found in your ``locales`` directory. But you probably want the sources to conatin the latests ``MO`` files, for testing purposes. The release script provide the ``-m`` (or ``--compile-mo``) to achieve that:
+
+.. code-block:: bash
+
+   $ ./tools/release -m
+
+.. warning::
+
+   The above command will work on your plugins files directly; not on a copy as does all other commands
+
+Pre-releases
+++++++++++++
+
+Per default, the release script will work only on existing tags. Any pre-release should have its own tag; but you may want to create a release archive without any tags in some circumstances.
+
+In order to tell the release script what it should archive, you'll have to specify several parameters:
+
+* ``--commit`` (or ``-c``) giving the commit hash,
+* ``--version`` (or ``-v``) giving the version (usually, it will be the next release version),
+* ``--extra`` (or ``-e``) to specify an extra string (such as *alpha*, *beta*, *rc1*, etc...)
+
+.. code-block:: bash
+
+   $ ./tools/release --commit 632d515d4ac0 --version 1.9.5 --extra alpha1
+
+Signing releases
+++++++++++++++++
+
+Signing releases with a GPG key would permit users to check download integrity before installing. You'll need a GPG key publically available to users; the sign option is activated per default, you can deactive using the ``--nosign`` (or ``-S``) option.
