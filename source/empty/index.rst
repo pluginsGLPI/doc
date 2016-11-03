@@ -145,27 +145,44 @@ The release process will achieve the following tasks for you:
 * make a `git archive` of the paths that are not excluded (``.git``, ``tools``, ``tests``, ...);
 * if any, install composer dependencies;
 * if any, compile you ``MO`` files;
+* if any, compile you CSS stylesheets and your Javascript files (using `Robo.li <http://robo.li>`_);
 * create a release archive with all that; that will be available in the ``dist`` directory;
 * use GPG to sign the archive.
 
 .. note::
 
-   The standard release process will not work on your files directly, it will make a copy in the ``dist/src`` directory before. The only exception is the :ref:`MO compiling option <compile_mo>`.
+   The standard release process will not work on your files directly, it will make a copy in the ``dist/src`` directory before. The only exceptionis are the :ref:`MO compiling option <compile_mo>` and the :ref:`minify option <minify>`.
 
 .. _compile_mo:
 
 Compiling MO files
 ++++++++++++++++++
 
-The release process will automatically compile every ``PO`` file it will found in your ``locales`` directory. But you probably want the sources to conatin the latests ``MO`` files, for testing purposes. The release script provide the ``-m`` (or ``--compile-mo``) to achieve that:
+The release process will automatically compile every ``PO`` file it will found in your ``locales`` directory. But you probably want the sources to contain the latests ``MO`` files, for testing purposes. The release script provide the ``--compile-mo`` (or ``-m``) to achieve that:
 
 .. code-block:: bash
 
-   $ ./tools/release -m
+   $ ./tools/release --compile-mo
 
 .. warning::
 
-   The above command will work on your plugins files directly; not on a copy as does all other commands
+   The above command will work on your plugins files directly; not on a copy as does other commands but :ref:`minify <minify>`.
+
+.. _minify:
+
+Minifying
++++++++++
+
+The release process will automatically minify every CSS stylesheet found into your ``css`` directory, and every javascript file found under your ``js`` directory; but for testing purposes, you may want to get them minified. The release script provide the ``--minify`` (or ``-M``) to achieve that:
+
+.. code-block:: bash
+
+   $ ./tools/release --minify
+
+.. warning::
+
+   The above command will work on your plugins files directly; not on a copy as does other commands but :ref:`compiling mo <compile_mo>`.
+
 
 Pre-releases
 ++++++++++++
