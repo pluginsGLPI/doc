@@ -219,3 +219,24 @@ Signing releases
 Signing releases with a GPG key would permit users to check download integrity before installing. You'll need a GPG key publically available to users; the sign option is activated per default, you can deactivate using the ``--nosign`` (or ``-S``) option.
 
 A file containing the signature with the same name as the archive with a ``.asc`` extension will be created in the ``dist`` directory.
+
+GitHub release
++++++++++++++++
+
+With the optional option ``--github`` (or ``-g``), the release script will create a release on your GitHub repository; as a draft.
+
+.. note::
+
+   Unfortunately, I wa snot able to get the newly created archive uploaded to this new release... Maybe that could be fixed in the future.
+
+In order to use this feature, you will need the `github <https://github.com/PyGithub/PyGithub>`_ installed; and you will need an access token. Access token is valid per user, and gives accesss to all his repositories.
+
+You'll have to go to your `github account settings page, in the personnal access token tab <https://github.com/settings/tokens>`_. Click on *generate new token*, give the description you want, and make sure you'll check the *public_repo* box only (no need to check anything else, you can create several access token if you need).
+
+The token will be displayed only once; store it in the ``.gh_token`` file in your plugin directory; and that's all!
+
+Just call the release script with the option:
+
+.. code-block:: bash
+
+   $ ./tools/release --github
