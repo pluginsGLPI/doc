@@ -122,7 +122,17 @@ Release script
 
 A release script is provided in ``tools/release``. This is a "simple" `Python <http://python.org>`_ script; you should just have Python installed on your system (this is instaleld by defautl on most linux distributions).
 
-Using just the defaults, the script will try to retrieve the latest tag in your git repository, and will propose you to release it.
+Using just the defaults, the script will try to retrieve the latest tag in your git repository, and will propose you to release it:
+
+.. code-block:: bash
+
+   $ ./tools/release
+   Do you want to build version 1.9.5? [Yes/no] y
+   Building glpi-order-1.9.5...
+   Archiving GIT tag 1.9.5
+   Adding vendor libraries
+   $ ls dist
+   glpi-order-1.9.5.tar.bz2  glpi-order-1.9.5.tar.bz2.asc
 
 Requirements
 ++++++++++++
@@ -195,11 +205,17 @@ In order to tell the release script what it should archive, you'll have to speci
 * ``--version`` (or ``-v``) giving the version (usually, it will be the next release version),
 * ``--extra`` (or ``-e``) to specify an extra string (such as *alpha*, *beta*, *rc1*, etc...)
 
+As an example with the *order* plugin:
+
 .. code-block:: bash
 
    $ ./tools/release --commit 632d515d4ac0 --version 1.9.5 --extra alpha1
+   $ ls dist
+   glpi-order-1.9.5-alpha1-20161103-632d515d4a.tar.bz2
 
 Signing releases
 ++++++++++++++++
 
-Signing releases with a GPG key would permit users to check download integrity before installing. You'll need a GPG key publically available to users; the sign option is activated per default, you can deactive using the ``--nosign`` (or ``-S``) option.
+Signing releases with a GPG key would permit users to check download integrity before installing. You'll need a GPG key publically available to users; the sign option is activated per default, you can deactivate using the ``--nosign`` (or ``-S``) option.
+
+A file containing the signature with the same name as the archive with a ``.asc`` extension will be created in the ``dist`` directory.
