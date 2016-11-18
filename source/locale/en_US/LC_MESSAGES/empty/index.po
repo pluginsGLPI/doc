@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Teclib'
+# This file is distributed under the same license as the GLPi plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPi plugins 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-02 11:32+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Shawn Long <webaccounts@kkg.org>, 2016\n"
+"Language-Team: English (United States) (https://www.transifex.com/teclib/teams/28042/en_US/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/empty/index.rst:2
+msgid "Empty"
+msgstr "Empty"
+
+#: ../../source/empty/index.rst:4
+msgid "Sources link: https://github.com/pluginsGLPI/empty"
+msgstr "Sources link: https://github.com/pluginsGLPI/empty"
+
+#: ../../source/empty/index.rst:5
+msgid "Download: *not relevant*"
+msgstr "Download: *not relevant*"
+
+#: ../../source/empty/index.rst:7
+msgid "This plugins does... nothing. Really!"
+msgstr "This plugins does... nothing. Really!"
+
+#: ../../source/empty/index.rst:9
+msgid ""
+"This is designed to be a start point for writing plugins, with very minimal "
+"defaults usefull scripts, and some advices. If you\"re looking for plugins "
+"possibilities, take a look at :doc:`the example plugin <../example/index>`."
+msgstr ""
+"This is designed to be a start point for writing plugins, with very minimal "
+"defaults useful scripts, and some advice. If you're looking for plugins "
+"possibilities, take a look at :doc:`the example plugin <../example/index>`."
+
+#: ../../source/empty/index.rst:12
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"
