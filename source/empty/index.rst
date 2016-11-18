@@ -161,7 +161,7 @@ The release process will achieve the following tasks for you:
 
 .. note::
 
-   The standard release process will not work on your files directly, it will make a copy in the ``dist/src`` directory before. The only exceptionis are the :ref:`MO compiling option <compile_mo>` and the :ref:`minify option <minify>`.
+   The standard release process will not work on your files directly, it will make a copy in the ``dist/src`` directory before. The only exception are the :ref:`MO compiling option <compile_mo>` and the :ref:`minify option <minify>`.
 
 .. _compile_mo:
 
