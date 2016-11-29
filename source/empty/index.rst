@@ -137,7 +137,7 @@ You will need a python interpreter installed as well as the following modules:
 
 * `termcolor <https://pypi.python.org/pypi/termcolor>`_,
 * `gitdb <https://github.com/gitpython-developers/gitdb>`_,
-* optionally, `github <https://github.com/PyGithub/PyGithub>`_ (to check for existing versions in also in drafts, and to create github releases)
+* `github <https://github.com/PyGithub/PyGithub>`_ (to check for existing versions in also in drafts, and to create github releases), unless you use the ``--nogithub`` option
 
 If you want to get help on the script, try to run ``./tools/release -h``.
 
@@ -219,7 +219,7 @@ A file containing the signature with the same name as the archive with a ``.asc`
 GitHub release
 +++++++++++++++
 
-With the optional option ``--github`` (or ``-g``), the release script will create a release on your GitHub repository; as a draft.
+The release script will create a release on your GitHub repository, as a draft, unless you use ``--nogithub`` (or ``-g``) option.
 
 .. note::
 
@@ -230,9 +230,3 @@ In order to use this feature, you will need the `github <https://github.com/PyGi
 You'll have to go to your `github account settings page, in the personnal access token tab <https://github.com/settings/tokens>`_. Click on *generate new token*, give the description you want, and make sure you'll check the *public_repo* box only (no need to check anything else, you can create several access token if you need).
 
 The token will be displayed only once; store it in the ``.gh_token`` file in your plugin directory; and that's all!
-
-Just call the release script with the option:
-
-.. code-block:: bash
-
-   $ ./tools/release --github
