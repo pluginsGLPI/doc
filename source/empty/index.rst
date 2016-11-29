@@ -103,17 +103,13 @@ GLPi and its plugins use gettext for internationnalization. Several steps are re
 3 ``PO`` files must be translated,
 4 ``MO`` files must be compiled from the latest ``PO``.
 
-In the ``tools`` directory, you'll find a ``extract_template.sh`` script. This is designed to extract translatable strings from your sourcedoe (see first point above).
+In the ``tools`` directory, you'll find a ``extract_template.sh`` script. This is designed to extract translatable strings from your source code (see first point above).
 
 Once it has been ran, a ``locale/mygreatplugin.pot`` file will be created/updated.
 
 For the second and third step, you'll have to make a choice. You can use gettext tools to update your ``PO`` files and translate them using a dedicated tool, like `poedit <https://poedit.net/>`_; or you can use an online translation system like `Transifex <http://transifex.com/>`_ or `Zanata <http://zanata.org/>`_. GLPi core and many of existing plugins are translated using Transifex right now.
 
-Once you get your updated ``PO`` files, you'll have to compile them to ``MO`` filesi. You can run it manually, the release script will compile them again anywways; see the :ref:`compiling MO files section <compile_mo>`.
-
-.. note::
-
-   Once you have compiled MO files, you'll have to restart your PHP process (or your webserver if you use ``mod_php``) in order to see the results in the application.
+Once you get your updated ``PO`` files, you'll have to compile them to ``MO`` files. You can run it manually, the release script will compile them again anywways; see the :ref:`compiling MO files section <compile_mo>`.
 
 .. _release_script:
 
@@ -151,7 +147,7 @@ Process
 The release process will achieve the following tasks for you:
 
 * check if the version constant is the same as the tag you've requested;
-* check if a release already exists, locally, and remotely (assuming your project is hosted in the *pluginsGLPI* oarganization and the release is public);
+* check if a release already exists, locally, and remotely (assuming your project is hosted in the *pluginsGLPI* organization and the release is public);
 * make a `git archive` of the paths that are not excluded (``.git``, ``tools``, ``tests``, ...);
 * if any, install composer dependencies;
 * if any, compile you ``MO`` files;
@@ -227,7 +223,7 @@ With the optional option ``--github`` (or ``-g``), the release script will creat
 
 .. note::
 
-   Unfortunately, I wa snot able to get the newly created archive uploaded to this new release... Maybe that could be fixed in the future.
+   Unfortunately, I was not able to get the newly created archive uploaded to this new release... Maybe that could be fixed in the future.
 
 In order to use this feature, you will need the `github <https://github.com/PyGithub/PyGithub>`_ installed; and you will need an access token. Access token is valid per user, and gives accesss to all his repositories.
 
