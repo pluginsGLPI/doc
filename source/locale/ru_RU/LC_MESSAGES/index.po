@@ -10,26 +10,24 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-29 09:12+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Johan Cwiklinski <trasher@x-tnd.be>, 2016\n"
-"Language-Team: French (France) (https://www.transifex.com/teclib/teams/28042/fr_FR/)\n"
+"Last-Translator: Alexey Petukhov <lexx015@gmail.com>, 2016\n"
+"Language-Team: Russian (Russia) (https://www.transifex.com/teclib/teams/28042/ru_RU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr_FR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 #: ../../source/index.rst:7
 msgid "GLPi plugins's documentation"
-msgstr "Documentation des plugins GLPi"
+msgstr "Документация по плагинам GLPI"
 
 #: ../../source/index.rst:13
 msgid ""
 "You'll find here user documentation for various `GLPi <http://glpi-"
 "project.org>`_ plugins."
 msgstr ""
-"Vous trouverez ici la documentation de divers plugins `GLPi <http://glpi-"
-"project.org>`_."
 
 #: ../../source/index.rst:24
 msgid "|ccbyncnd|"
-msgstr "|ccbyncnd|"
+msgstr ""

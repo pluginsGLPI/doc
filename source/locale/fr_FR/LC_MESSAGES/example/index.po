@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPi plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-25 21:13+0200\n"
+"POT-Creation-Date: 2016-11-29 09:12+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Johan Cwiklinski <trasher@x-tnd.be>, 2016\n"
 "Language-Team: French (France) (https://www.transifex.com/teclib/teams/28042/fr_FR/)\n"
@@ -18,22 +18,18 @@ msgstr ""
 "Language: fr_FR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-# f05ce9c7c40a4324abf4b29834e6b096
 #: ../../source/example/index.rst:2
 msgid "Example"
 msgstr "Exemple"
 
-# 4182d994d622445090b4afc4aeeb370e
 #: ../../source/example/index.rst:4
 msgid "Sources link: https://github.com/pluginsGLPI/example"
 msgstr "Lien des sources : https://github.com/pluginsGLPI/example"
 
-# 20749fe32a744ac2a31208839759667e
 #: ../../source/example/index.rst:5
 msgid "Download: *not relevant*"
 msgstr "Téléchargement : *non pertinent*"
 
-# 0f39ee7a87c54ec6ae150d746c39359c
 #: ../../source/example/index.rst:7
 msgid ""
 "An example plugin... This is designed to show you various possibilities that"
@@ -42,7 +38,6 @@ msgstr ""
 "Un plugin d'exemple... Prévu pour vous montrer les différentes possibilités "
 "qui sont offertes aux plugins depuis le cœur de GLPi."
 
-# 2ee448a9126e4bcba5b7aa6e677350f5
 #: ../../source/example/index.rst:9
 msgid ""
 "As this plugin does nothing in reality, there is no documentation for it. "
@@ -57,7 +52,6 @@ msgstr ""
 "developer-documentation.readthedocs.io/en/master/plugins.html>`_ ou encore "
 "au :doc:`plugin \"empty\" <../empty/index>` comme point de départ."
 
-# 797b8923e4d94eeb98282d3307965f88
 #: ../../source/example/index.rst:12
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"

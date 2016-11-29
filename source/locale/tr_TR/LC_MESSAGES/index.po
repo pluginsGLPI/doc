@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPi plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-25 21:13+0200\n"
+"POT-Creation-Date: 2016-11-29 09:12+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2016\n"
 "Language-Team: Turkish (Turkey) (https://www.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -18,12 +18,10 @@ msgstr ""
 "Language: tr_TR\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-# 7533db802f59459f870db0aef0957049
 #: ../../source/index.rst:7
 msgid "GLPi plugins's documentation"
 msgstr "GLPi uygulama eki belgeleri"
 
-# 49020bcd13a54f74a00d40177b5364a6
 #: ../../source/index.rst:13
 msgid ""
 "You'll find here user documentation for various `GLPi <http://glpi-"
@@ -32,7 +30,6 @@ msgstr ""
 "Bu bölümde çeşitli `GLPi <http://glpi-project.org>`_ uygulama ekleri ile "
 "ilgili belgeleri bulabilirsiniz."
 
-# 503a57ad1e58496e8641ceac8399cf56
-#: ../../source/index.rst:23
+#: ../../source/index.rst:24
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPi plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-02 11:32+0100\n"
+"POT-Creation-Date: 2016-11-29 09:12+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: David Stepan <stepand@tiscali.cz>, 2016\n"
 "Language-Team: Czech (Czech Republic) (https://www.transifex.com/teclib/teams/28042/cs_CZ/)\n"
@@ -37,13 +37,452 @@ msgstr "Tento plugin nic nedělá. Skutečně'"
 #: ../../source/empty/index.rst:9
 msgid ""
 "This is designed to be a start point for writing plugins, with very minimal "
-"defaults usefull scripts, and some advices. If you\"re looking for plugins "
+"defaults usefull scripts, and some advices. If you're looking for plugins "
 "possibilities, take a look at :doc:`the example plugin <../example/index>`."
 msgstr ""
-"Toto je navrženo jako startovní bod pro psaní pluginů, s minimálním použití "
-"uživatelských skriptů a s mnoha radami. Pokud hledáte možnosti pro pluginy, "
-"podívejte se na :doc: `vzorový plugin  <../example/index>`."
 
 #: ../../source/empty/index.rst:12
+msgid "Create a new plugin"
+msgstr ""
+
+#: ../../source/empty/index.rst:14
+msgid ""
+"An utility script to create a new plugin - ``plugin.sh`` is provided. You "
+"will call it with a plugin name, a version, an optionally the path where "
+"your want it to be created:"
+msgstr ""
+
+#: ../../source/empty/index.rst:20
+msgid ""
+"The script will sanityze and lowercase the name you provided, copy the "
+"templates files into the new directory, and then make some replacements."
+msgstr ""
+
+#: ../../source/empty/index.rst:22
+msgid ""
+"Using the script without destination parameter, it will create you directory"
+" plugin, ``mygreatplugin`` just beside its own directory. Otherwise, it "
+"would create the new directory in the specified path:"
+msgstr ""
+
+#: ../../source/empty/index.rst:29
+msgid "Features"
+msgstr ""
+
+#: ../../source/empty/index.rst:32
+msgid "Coding standards"
+msgstr ""
+
+#: ../../source/empty/index.rst:34
+msgid ""
+"A `PHPCodeSniffer <http://pear.php.net/package/PHP_CodeSniffer>`_ ruleset, "
+"based on core's GLPi is provided as ``tools/phpcs-rules.xml``."
+msgstr ""
+
+#: ../../source/empty/index.rst:36
+msgid "To check coding standards, just run:"
+msgstr ""
+
+#: ../../source/empty/index.rst:44
+msgid ""
+"The above command will ignore ``vendor`` directory for wich we do not want "
+"to check standards. If there are other directories you want to exclude, "
+"adapt the command."
+msgstr ""
+
+#: ../../source/empty/index.rst:46
+msgid ""
+"Remember to also adapt the :ref:`automated checks configuration file "
+"<empty_travis>` if you do so."
+msgstr ""
+
+#: ../../source/empty/index.rst:51
+msgid "Automated checks"
+msgstr ""
+
+#: ../../source/empty/index.rst:53
+msgid ""
+"For convenience; a ``.travis.yml`` file is also provided, that is setup to:"
+msgstr ""
+
+#: ../../source/empty/index.rst:55
+msgid "check coding standards,"
+msgstr ""
+
+#: ../../source/empty/index.rst:56
+msgid "run on a bunch on different configuration"
+msgstr ""
+
+#: ../../source/empty/index.rst:58
+msgid ""
+"You still have to enable travis-ci builds from the website in order to "
+"activate automated tests."
+msgstr ""
+
+#: ../../source/empty/index.rst:60
+msgid ""
+"Of course, the ``.travis.yml`` file can be pimped; you can run unit tests, "
+"create/update a database, activate notifications, and so on. Refer to the "
+"`Travis-CI documentation <https://docs.travis-ci.com/>`_ to know more."
+msgstr ""
+
+#: ../../source/empty/index.rst:63
+msgid "Minifying CSS ans JS"
+msgstr ""
+
+#: ../../source/empty/index.rst:65
+msgid ""
+"A convenient script, using `Robo.li <http://robo.li>`_ is provided. You'll "
+"find two files related:"
+msgstr ""
+
+#: ../../source/empty/index.rst:67
+msgid ""
+"``RoboFilePlugin.php`` in which are declared common usefull methods you may "
+"want to use (see below);"
+msgstr ""
+
+#: ../../source/empty/index.rst:68
+msgid ""
+"``RoboFile.php`` an empty class, which extends ``RoboFilePlugin`` in which "
+"you can set you own stuff."
+msgstr ""
+
+#: ../../source/empty/index.rst:70
+msgid ""
+"That way, you can quite easily update the common file and get your own tasks"
+" remaining the same."
+msgstr ""
+
+#: ../../source/empty/index.rst:72
+msgid ""
+"To get the required libs installed, you'll have to `get composer installed "
+"<http://getcomposer.org>`_ and then run:"
+msgstr ""
+
+#: ../../source/empty/index.rst:78
+msgid "There are three available targets:"
+msgstr ""
+
+#: ../../source/empty/index.rst:80
+msgid "``minify`` that will minify all CSS and JS files (see below),"
+msgstr ""
+
+#: ../../source/empty/index.rst:81
+msgid ""
+"``minify:css`` that will minify all css  stylesheets files in the ``css`` "
+"directory of your plugin, creating a ``.min.css`` version along with the "
+"original file,"
+msgstr ""
+
+#: ../../source/empty/index.rst:82
+msgid ""
+"``minify:js`` that will minify all javascript files in the ``js`` directory "
+"of your plugin, creating a ``.min.js`` version along with the original file."
+msgstr ""
+
+#: ../../source/empty/index.rst:84
+msgid "Just choose a target, and run something like:"
+msgstr ""
+
+#: ../../source/empty/index.rst:92
+msgid ""
+"Remember compiled files should not be commited on your repository sources. "
+"It is a release process to minify files."
+msgstr ""
+
+#: ../../source/empty/index.rst:94
+msgid ""
+"Also remember to adapt your scripts so they load your minified versions if "
+"available, and the original one otherwise :)"
+msgstr ""
+
+#: ../../source/empty/index.rst:97
+msgid "Translations"
+msgstr ""
+
+#: ../../source/empty/index.rst:99
+msgid ""
+"GLPi and its plugins use gettext for internationnalization. Several steps "
+"are required before that can work:"
+msgstr ""
+
+#: ../../source/empty/index.rst:101
+msgid ""
+"1 translatable strings must be extracted from source files, a ``POT`` file "
+"will be created or updated accordingly, 2 ``PO`` files must be created or "
+"updated from the ``POT`` file, 3 ``PO`` files must be translated, 4 ``MO`` "
+"files must be compiled from the latest ``PO``."
+msgstr ""
+
+#: ../../source/empty/index.rst:106
+msgid ""
+"In the ``tools`` directory, you'll find a ``extract_template.sh`` script. "
+"This is designed to extract translatable strings from your source code (see "
+"first point above)."
+msgstr ""
+
+#: ../../source/empty/index.rst:108
+msgid ""
+"Once it has been ran, a ``locale/mygreatplugin.pot`` file will be "
+"created/updated."
+msgstr ""
+
+#: ../../source/empty/index.rst:110
+msgid ""
+"For the second and third step, you'll have to make a choice. You can use "
+"gettext tools to update your ``PO`` files and translate them using a "
+"dedicated tool, like `poedit <https://poedit.net/>`_; or you can use an "
+"online translation system like `Transifex <http://transifex.com/>`_ or "
+"`Zanata <http://zanata.org/>`_. GLPi core and many of existing plugins are "
+"translated using Transifex right now."
+msgstr ""
+
+#: ../../source/empty/index.rst:112
+msgid ""
+"Once you get your updated ``PO`` files, you'll have to compile them to "
+"``MO`` files. You can run it manually, the release script will compile them "
+"again anywways; see the :ref:`compiling MO files section <compile_mo>`."
+msgstr ""
+
+#: ../../source/empty/index.rst:117
+msgid "Release script"
+msgstr ""
+
+#: ../../source/empty/index.rst:119
+msgid ""
+"A release script is provided in ``tools/release``. This is a \"simple\" "
+"`Python <http://python.org>`_ script; you should just have Python installed "
+"on your system (this is instaleld by defautl on most linux distributions)."
+msgstr ""
+
+#: ../../source/empty/index.rst:121
+msgid ""
+"Using just the defaults, the script will try to retrieve the latest tag in "
+"your git repository, and will propose you to release it:"
+msgstr ""
+
+#: ../../source/empty/index.rst:134
+msgid "Requirements"
+msgstr ""
+
+#: ../../source/empty/index.rst:136
+msgid ""
+"You will need a python interpreter installed as well as the following "
+"modules:"
+msgstr ""
+
+#: ../../source/empty/index.rst:138
+msgid "`termcolor <https://pypi.python.org/pypi/termcolor>`_,"
+msgstr ""
+
+#: ../../source/empty/index.rst:139
+msgid "`gitdb <https://github.com/gitpython-developers/gitdb>`_,"
+msgstr ""
+
+#: ../../source/empty/index.rst:140
+msgid ""
+"optionally, `github <https://github.com/PyGithub/PyGithub>`_ (to check for "
+"existing versions in also in drafts, and to create github releases)"
+msgstr ""
+
+#: ../../source/empty/index.rst:142
+msgid ""
+"If you want to get help on the script, try to run ``./tools/release -h``."
+msgstr ""
+
+#: ../../source/empty/index.rst:145
+msgid "Process"
+msgstr ""
+
+#: ../../source/empty/index.rst:147
+msgid "The release process will achieve the following tasks for you:"
+msgstr ""
+
+#: ../../source/empty/index.rst:149
+msgid "check if the version constant is the same as the tag you've requested;"
+msgstr ""
+
+#: ../../source/empty/index.rst:150
+msgid ""
+"check if a release already exists, locally, and remotely (assuming your "
+"project is hosted in the *pluginsGLPI* organization and the release is "
+"public);"
+msgstr ""
+
+#: ../../source/empty/index.rst:151
+msgid ""
+"make a `git archive` of the paths that are not excluded (``.git``, "
+"``tools``, ``tests``, ...);"
+msgstr ""
+
+#: ../../source/empty/index.rst:152
+msgid "if any, install composer dependencies;"
+msgstr ""
+
+#: ../../source/empty/index.rst:153
+msgid "if any, compile you ``MO`` files;"
+msgstr ""
+
+#: ../../source/empty/index.rst:154
+msgid ""
+"if any, compile you CSS stylesheets and your Javascript files (using "
+"`Robo.li <http://robo.li>`_);"
+msgstr ""
+
+#: ../../source/empty/index.rst:155
+msgid ""
+"create a release archive with all that; that will be available in the "
+"``dist`` directory;"
+msgstr ""
+
+#: ../../source/empty/index.rst:156
+msgid "use GPG to sign the archive."
+msgstr ""
+
+#: ../../source/empty/index.rst:160
+msgid ""
+"The standard release process will not work on your files directly, it will "
+"make a copy in the ``dist/src`` directory before. The only exception are the"
+" :ref:`MO compiling option <compile_mo>` and the :ref:`minify option "
+"<minify>`."
+msgstr ""
+
+#: ../../source/empty/index.rst:165
+msgid "Compiling MO files"
+msgstr ""
+
+#: ../../source/empty/index.rst:167
+msgid ""
+"The release process will automatically compile every ``PO`` file it will "
+"found in your ``locales`` directory. But you probably want the sources to "
+"contain the latests ``MO`` files, for testing purposes. The release script "
+"provide the ``--compile-mo`` (or ``-m``) to achieve that:"
+msgstr ""
+
+#: ../../source/empty/index.rst:175
+msgid ""
+"The above command will work on your plugins files directly; not on a copy as"
+" does other commands but :ref:`minify <minify>`."
+msgstr ""
+
+#: ../../source/empty/index.rst:180
+msgid "Minifying"
+msgstr ""
+
+#: ../../source/empty/index.rst:182
+msgid ""
+"The release process will automatically minify every CSS stylesheet found "
+"into your ``css`` directory, and every javascript file found under your "
+"``js`` directory; but for testing purposes, you may want to get them "
+"minified. The release script provide the ``--minify`` (or ``-M``) to achieve"
+" that:"
+msgstr ""
+
+#: ../../source/empty/index.rst:190
+msgid ""
+"The above command will work on your plugins files directly; not on a copy as"
+" does other commands but :ref:`compiling mo <compile_mo>`."
+msgstr ""
+
+#: ../../source/empty/index.rst:194
+msgid "Pre-releases"
+msgstr ""
+
+#: ../../source/empty/index.rst:196
+msgid ""
+"Per default, the release script will work only on existing tags. Any pre-"
+"release should have its own tag; but you may want to create a release "
+"archive without any tags in some circumstances."
+msgstr ""
+
+#: ../../source/empty/index.rst:198
+msgid ""
+"In order to tell the release script what it should archive, you'll have to "
+"specify several parameters:"
+msgstr ""
+
+#: ../../source/empty/index.rst:200
+msgid "``--commit`` (or ``-c``) giving the commit hash,"
+msgstr ""
+
+#: ../../source/empty/index.rst:201
+msgid ""
+"``--version`` (or ``-v``) giving the version (usually, it will be the next "
+"release version),"
+msgstr ""
+
+#: ../../source/empty/index.rst:202
+msgid ""
+"``--extra`` (or ``-e``) to specify an extra string (such as *alpha*, *beta*,"
+" *rc1*, etc...)"
+msgstr ""
+
+#: ../../source/empty/index.rst:204
+msgid "As an example with the *order* plugin:"
+msgstr ""
+
+#: ../../source/empty/index.rst:213
+msgid "Signing releases"
+msgstr ""
+
+#: ../../source/empty/index.rst:215
+msgid ""
+"Signing releases with a GPG key would permit users to check download "
+"integrity before installing. You'll need a GPG key publically available to "
+"users; the sign option is activated per default, you can deactivate using "
+"the ``--nosign`` (or ``-S``) option."
+msgstr ""
+
+#: ../../source/empty/index.rst:217
+msgid ""
+"A file containing the signature with the same name as the archive with a "
+"``.asc`` extension will be created in the ``dist`` directory."
+msgstr ""
+
+#: ../../source/empty/index.rst:220
+msgid "GitHub release"
+msgstr ""
+
+#: ../../source/empty/index.rst:222
+msgid ""
+"With the optional option ``--github`` (or ``-g``), the release script will "
+"create a release on your GitHub repository; as a draft."
+msgstr ""
+
+#: ../../source/empty/index.rst:226
+msgid ""
+"Unfortunately, I was not able to get the newly created archive uploaded to "
+"this new release... Maybe that could be fixed in the future."
+msgstr ""
+
+#: ../../source/empty/index.rst:228
+msgid ""
+"In order to use this feature, you will need the `github "
+"<https://github.com/PyGithub/PyGithub>`_ installed; and you will need an "
+"access token. Access token is valid per user, and gives accesss to all his "
+"repositories."
+msgstr ""
+
+#: ../../source/empty/index.rst:230
+msgid ""
+"You'll have to go to your `github account settings page, in the personnal "
+"access token tab <https://github.com/settings/tokens>`_. Click on *generate "
+"new token*, give the description you want, and make sure you'll check the "
+"*public_repo* box only (no need to check anything else, you can create "
+"several access token if you need)."
+msgstr ""
+
+#: ../../source/empty/index.rst:232
+msgid ""
+"The token will be displayed only once; store it in the ``.gh_token`` file in"
+" your plugin directory; and that's all!"
+msgstr ""
+
+#: ../../source/empty/index.rst:234
+msgid "Just call the release script with the option:"
+msgstr ""
+
+#: ../../source/empty/index.rst:241
 msgid "|ccbyncnd|"
 msgstr "ccbyncnd"
