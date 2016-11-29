@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPi plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-29 09:12+0100\n"
+"POT-Creation-Date: 2016-11-29 11:18+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: David Stepan <stepand@tiscali.cz>, 2016\n"
 "Language-Team: Czech (Czech Republic) (https://www.transifex.com/teclib/teams/28042/cs_CZ/)\n"
@@ -282,8 +282,9 @@ msgstr ""
 
 #: ../../source/empty/index.rst:140
 msgid ""
-"optionally, `github <https://github.com/PyGithub/PyGithub>`_ (to check for "
-"existing versions in also in drafts, and to create github releases)"
+"`github <https://github.com/PyGithub/PyGithub>`_ (to check for existing "
+"versions in also in drafts, and to create github releases), unless you use "
+"the ``--nogithub`` option"
 msgstr ""
 
 #: ../../source/empty/index.rst:142
@@ -446,8 +447,8 @@ msgstr ""
 
 #: ../../source/empty/index.rst:222
 msgid ""
-"With the optional option ``--github`` (or ``-g``), the release script will "
-"create a release on your GitHub repository; as a draft."
+"The release script will create a release on your GitHub repository, as a "
+"draft, unless you use ``--nogithub`` (or ``-g``) option."
 msgstr ""
 
 #: ../../source/empty/index.rst:226
@@ -479,10 +480,6 @@ msgid ""
 " your plugin directory; and that's all!"
 msgstr ""
 
-#: ../../source/empty/index.rst:234
-msgid "Just call the release script with the option:"
-msgstr ""
-
-#: ../../source/empty/index.rst:241
+#: ../../source/empty/index.rst:235
 msgid "|ccbyncnd|"
 msgstr "ccbyncnd"
