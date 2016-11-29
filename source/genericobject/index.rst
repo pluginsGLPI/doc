@@ -1,6 +1,9 @@
 Generic Object
 ==============
 
+* Sources link: https://github.com/pluginsGLPI/genericobject
+* Download: https://github.com/pluginsGLPI/genericobject/releases
+
 This user manuel applies to version 2.0 of the GLPI Generic Object Plugin.
 
 Requirements
