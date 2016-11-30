@@ -1,0 +1,418 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Teclib'
+# This file is distributed under the same license as the GLPi plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPi plugins 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-30 11:06+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Johan Cwiklinski <trasher@x-tnd.be>, 2016\n"
+"Language-Team: French (France) (https://www.transifex.com/teclib/teams/28042/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../source/fields/index.rst:2
+msgid "Fields"
+msgstr "Champs additionnels"
+
+#: ../../source/fields/index.rst:4
+msgid "Sources link: https://github.com/pluginsGLPI/fields"
+msgstr "Lien des sources : https://github.com/pluginsGLPI/fields"
+
+#: ../../source/fields/index.rst:5
+msgid "Download: https://github.com/pluginsGLPI/fields/releases"
+msgstr "Téléchargement : https://github.com/pluginsGLPI/fields/releases"
+
+#: ../../source/fields/index.rst:7
+msgid ""
+"Fields plugin allows to add additional fields on various items GLPi manages:"
+" tickets, computers, users, ..."
+msgstr ""
+"Le plugin champs additionnels vous permet d'ajouter de nouveaux champs à "
+"différents objets de GLPi : tickets, ordinateurs, utilisateurs, ..."
+
+#: ../../source/fields/index.rst:10
+msgid "Requirements"
+msgstr "Pré-requis"
+
+#: ../../source/fields/index.rst:12
+msgid "This plugin requires :"
+msgstr "Ce plugin requiert:"
+
+#: ../../source/fields/index.rst:14
+msgid "GLPI 0.85 or higher,"
+msgstr "GLPi 0.85 ou supérieur"
+
+#: ../../source/fields/index.rst:15
+msgid ""
+"PHP 5.4 or higher when used with GLPi 9.1, and PHP 5.5 or higher when used "
+"with a previous GLPi release."
+msgstr ""
+"PHP 5.4 ou supérieur lorsqu'il est utilisé avec GLPi 9.1, et PHP 5.5 ou "
+"supérieur lorsqu'il est utilisé avec une version antérieure de GLPi."
+
+#: ../../source/fields/index.rst:19
+msgid "Features"
+msgstr "Fonctionnalités"
+
+#: ../../source/fields/index.rst:21
+msgid "Add containers block on various items,"
+msgstr ""
+
+#: ../../source/fields/index.rst:22
+msgid "Add fields into blocks,"
+msgstr ""
+
+#: ../../source/fields/index.rst:23
+msgid "Display blocks in an existing tab or in their own tab,"
+msgstr ""
+
+#: ../../source/fields/index.rst:24
+msgid "Many fields types available,"
+msgstr ""
+
+#: ../../source/fields/index.rst:25
+msgid "Fields can be flagged as required,"
+msgstr ""
+
+#: ../../source/fields/index.rst:26
+msgid "Manage profiles ACLs per container,"
+msgstr ""
+
+#: ../../source/fields/index.rst:27
+msgid "..."
+msgstr "..."
+
+#: ../../source/fields/index.rst:30
+msgid "Install the Plugin"
+msgstr ""
+
+#: ../../source/fields/index.rst:32
+msgid "Uncompress the archive."
+msgstr ""
+
+#: ../../source/fields/index.rst:33
+msgid "Move the ``fields`` directory to the ``<GLPI_ROOT>/plugins`` directory"
+msgstr ""
+
+#: ../../source/fields/index.rst:34
+msgid "Navigate to the *Configuration > Plugins* page,"
+msgstr ""
+
+#: ../../source/fields/index.rst:35
+msgid "Install and activate the plugin."
+msgstr ""
+
+#: ../../source/fields/index.rst:38
+msgid "Usage"
+msgstr "Utilisation"
+
+#: ../../source/fields/index.rst:40
+msgid ""
+"The plugin will create required tables in the database and some files on "
+"disk (into ``<GLPI_ROOT>/files/_plugins/fields``) automatically. Those files"
+" and tables will be updated along with the plugin."
+msgstr ""
+
+#: ../../source/fields/index.rst:42
+msgid "Plugin usage is quite simple:"
+msgstr ""
+
+#: ../../source/fields/index.rst:44
+msgid "create a block linked with some items,"
+msgstr ""
+
+#: ../../source/fields/index.rst:45
+msgid "create fields in this block."
+msgstr ""
+
+#: ../../source/fields/index.rst:47
+msgid ""
+"You will access the plugin configuration from the *Setup* > *Aditionnal "
+"fields* menu."
+msgstr ""
+
+#: ../../source/fields/index.rst:50
+msgid "Adding a new block"
+msgstr ""
+
+#: ../../source/fields/index.rst:54 ../../source/fields/index.rst:82
+msgid "`Label`: the label of the block that will appears on items forms,"
+msgstr ""
+
+#: ../../source/fields/index.rst:55
+msgid "`Type`: type of display, one of:"
+msgstr ""
+
+#: ../../source/fields/index.rst:57
+msgid "`Add tab`: will add a new tab on the item form containing the block,"
+msgstr ""
+
+#: ../../source/fields/index.rst:58
+msgid ""
+"`Insertion in the form`: will add the block at the end of the main item "
+"form,"
+msgstr ""
+
+#: ../../source/fields/index.rst:59
+msgid ""
+"`Insertion in the form of a specific tab`: will add the block at the end of "
+"a specific tab of the item."
+msgstr ""
+
+#: ../../source/fields/index.rst:61
+msgid ""
+"`Associated item type`: a list of items types on which the block will be "
+"added,"
+msgstr ""
+
+#: ../../source/fields/index.rst:62
+msgid "`Active`: whether the block is active or not."
+msgstr ""
+
+#: ../../source/fields/index.rst:66
+msgid ""
+"You can add only one block of the type `Insertion in the form` for an "
+"associated item type."
+msgstr ""
+
+#: ../../source/fields/index.rst:68
+msgid ""
+"Once a block have been created, it is possible to change its label or is "
+"active flag, but not its type or associated items list."
+msgstr ""
+
+#: ../../source/fields/index.rst:71
+msgid "Profiles"
+msgstr "Profils"
+
+#: ../../source/fields/index.rst:73
+msgid ""
+"You can refine profiles access on the block using the `Profiles` tab from "
+"the block. You will be able to choose either `No access`, `Read` or `Write` "
+"for every existing profile."
+msgstr ""
+
+#: ../../source/fields/index.rst:78
+msgid "Adding a new field"
+msgstr ""
+
+#: ../../source/fields/index.rst:83
+msgid "`Type` field type, one of:"
+msgstr ""
+
+#: ../../source/fields/index.rst:85
+msgid "`Header`: an header label, for visual distinction,"
+msgstr ""
+
+#: ../../source/fields/index.rst:86
+msgid "`Text (single line)`: a single line (``input/@type=\"text\"``) of text,"
+msgstr ""
+
+#: ../../source/fields/index.rst:87
+msgid "`Text (multiples lines)`: a multiline (``textarea``) text,"
+msgstr ""
+
+#: ../../source/fields/index.rst:88
+msgid "`Number`: a single number (no text allowed),"
+msgstr ""
+
+#: ../../source/fields/index.rst:89
+msgid ""
+"`Dropdown`: a configurable dropdown list, values are configured from the "
+"main GLPi dropdown configuration you can find in *Setup* > *Dropdowns* menu,"
+msgstr ""
+
+#: ../../source/fields/index.rst:90
+msgid "`Yes/No`: a dropdown list with only `Yes` and `No` values,"
+msgstr ""
+
+#: ../../source/fields/index.rst:91
+msgid "`Date`: a standalone date with a date picker,"
+msgstr ""
+
+#: ../../source/fields/index.rst:92
+msgid ""
+"`Date & time`: a date field with a date picker and a time dropdown field "
+"(step is configured from GLPi core),"
+msgstr ""
+
+#: ../../source/fields/index.rst:93
+msgid "`Users`: list of users."
+msgstr ""
+
+#: ../../source/fields/index.rst:95
+msgid "`Active`: whether the block is active or not,"
+msgstr ""
+
+#: ../../source/fields/index.rst:96
+msgid "`Read only`: flag this field as read only,"
+msgstr ""
+
+#: ../../source/fields/index.rst:97
+msgid "`Default values`: default field values,"
+msgstr ""
+
+#: ../../source/fields/index.rst:98
+msgid "`Mandatory field`: flag this field as mandatory."
+msgstr ""
+
+#: ../../source/fields/index.rst:102
+msgid ""
+"Of course, you will need to pay attention playing with the various "
+"options... For example, if you flag a field as mandatory and as read only, "
+"and if you do not provide a default value, form validation will fail."
+msgstr ""
+
+#: ../../source/fields/index.rst:104
+msgid ""
+"Another example: you should not set a text default value for a number "
+"field... That kind of things ;)"
+msgstr ""
+
+#: ../../source/fields/index.rst:106
+msgid ""
+"Once fields have been created, you can reorder or edit them from the Fields "
+"tab of the block:"
+msgstr ""
+
+#: ../../source/fields/index.rst:110
+msgid "And see what it should look like on a `User` item for example:"
+msgstr ""
+
+#: ../../source/fields/index.rst:115
+msgid "Search"
+msgstr "Recherche"
+
+#: ../../source/fields/index.rst:117
+msgid ""
+"All fields that have been added are available in the attached items search "
+"forms."
+msgstr ""
+
+#: ../../source/fields/index.rst:120
+msgid "Simplified Interface"
+msgstr "Interface simplifiée"
+
+#: ../../source/fields/index.rst:122
+msgid ""
+"Only blocks attached to tickets and with the type `Insertion in the form` "
+"will be displayed in the simplified interface of ticket creation. Of course,"
+" it will also take care of current profile rights!"
+msgstr ""
+
+#: ../../source/fields/index.rst:125
+msgid "Translations"
+msgstr "Traductions"
+
+#: ../../source/fields/index.rst:127
+msgid ""
+"The plugin itself is available in various languages, you can `check the "
+"project on Transifex <https://www.transifex.com/teclib/glpi-plugin-plugin-"
+"fields/dashboard/>`_ for more informations."
+msgstr ""
+
+#: ../../source/fields/index.rst:129
+msgid ""
+"Actually, blocks and fields labels cannot be translated; the same label will"
+" be displayed in every language. For dropdown values, they'll be handled as "
+"any other GLPi dropdowns."
+msgstr ""
+
+#: ../../source/fields/index.rst:132
+msgid "Entities"
+msgstr "Entités"
+
+#: ../../source/fields/index.rst:134
+msgid ""
+"If you are using entities in your GLPi instance, a block will be displayed "
+"only if the entity it is attached to is compatible with the one of the item "
+"it applies to."
+msgstr ""
+
+#: ../../source/fields/index.rst:136
+msgid ""
+"When you create or edit a block in multi entities mode, you'll have to "
+"choose if the block will be available in children entities:"
+msgstr ""
+
+#: ../../source/fields/index.rst:140
+msgid "As an example, let's say our entities have the following structure:"
+msgstr ""
+
+#: ../../source/fields/index.rst:142
+msgid "``root``"
+msgstr "``racine``"
+
+#: ../../source/fields/index.rst:144
+msgid "``A``"
+msgstr "``A``"
+
+#: ../../source/fields/index.rst:146
+msgid "``C``"
+msgstr "``C``"
+
+#: ../../source/fields/index.rst:148
+msgid "``B``"
+msgstr "``B``"
+
+#: ../../source/fields/index.rst:150
+msgid ""
+"The following table will tell you in wich cases the block is displayed or "
+"not:"
+msgstr ""
+
+#: ../../source/fields/index.rst:153
+msgid "Block entity"
+msgstr "Entité du bloc"
+
+#: ../../source/fields/index.rst:153
+msgid "Recursive block"
+msgstr "Bloc récursif"
+
+#: ../../source/fields/index.rst:153
+msgid "Item entity"
+msgstr "Entité de l'objet"
+
+#: ../../source/fields/index.rst:153
+msgid "Block displayed"
+msgstr "Blo affiché"
+
+#: ../../source/fields/index.rst:155 ../../source/fields/index.rst:155
+#: ../../source/fields/index.rst:156 ../../source/fields/index.rst:157
+#: ../../source/fields/index.rst:158
+msgid "A"
+msgstr "A"
+
+#: ../../source/fields/index.rst:155 ../../source/fields/index.rst:156
+msgid "Yes or No"
+msgstr "Oui ou Non"
+
+#: ../../source/fields/index.rst:155 ../../source/fields/index.rst:157
+#: ../../source/fields/index.rst:157
+msgid "Yes"
+msgstr "Oui"
+
+#: ../../source/fields/index.rst:156
+msgid "B"
+msgstr "B"
+
+#: ../../source/fields/index.rst:156 ../../source/fields/index.rst:158
+#: ../../source/fields/index.rst:158
+msgid "No"
+msgstr "Non"
+
+#: ../../source/fields/index.rst:157 ../../source/fields/index.rst:158
+msgid "C"
+msgstr "C"
+
+#: ../../source/fields/index.rst:162
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"

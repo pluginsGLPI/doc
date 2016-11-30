@@ -32,3 +32,7 @@ file_filter = source/locale/<lang>/LC_MESSAGES/genericobject/index.po
 source_file = build/locale/genericobject/index.pot
 source_lang = en
 
+[glpi-plugins-documentation.fields--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/fields/index.po
+source_file = build/locale/fields/index.pot
+source_lang = en
