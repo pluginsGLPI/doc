@@ -20,3 +20,4 @@ You'll find here user documentation for various `GLPi <http://glpi-project.org>`
    example/index
    genericobject/index
    fields/index
+   formcreator/index
