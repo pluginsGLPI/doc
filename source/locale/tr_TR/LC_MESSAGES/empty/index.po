@@ -90,10 +90,12 @@ msgid ""
 "A `PHPCodeSniffer <http://pear.php.net/package/PHP_CodeSniffer>`_ ruleset, "
 "based on core's GLPi is provided as ``tools/phpcs-rules.xml``."
 msgstr ""
+"Bir `PHP KodTarayıcı <http://pear.php.net/package/PHP_CodeSniffer>`_ kural "
+"kümesi, çekirdek GLPi ile ``tools/phpcs-rules.xml`` biçiminde sunulur."
 
 #: ../../source/empty/index.rst:36
 msgid "To check coding standards, just run:"
-msgstr ""
+msgstr "Kodlama standartlarını denetlemek için şunu çalıştırın:"
 
 #: ../../source/empty/index.rst:44
 msgid ""
@@ -101,35 +103,44 @@ msgid ""
 "to check standards. If there are other directories you want to exclude, "
 "adapt the command."
 msgstr ""
+"Yukarıdaki komut standartlarının denetlenmesi istenmeyen ``vendor`` "
+"klasörünü yok sayar. Katılmasını istemediğiniz başka klasörler varsa komutu "
+"değiştirin."
 
 #: ../../source/empty/index.rst:46
 msgid ""
 "Remember to also adapt the :ref:`automated checks configuration file "
 "<empty_travis>` if you do so."
 msgstr ""
+"Bunu yapmak isterseniz  :ref:`otomatik denetim ayar dosyasını "
+"<empty_travis>` düzenlemeyi unutmayın."
 
 #: ../../source/empty/index.rst:51
 msgid "Automated checks"
-msgstr ""
+msgstr "Otomatik denetimler"
 
 #: ../../source/empty/index.rst:53
 msgid ""
 "For convenience; a ``.travis.yml`` file is also provided, that is setup to:"
 msgstr ""
+"Kolaylık sağlamak için önceden hazırlanmış bir ``.travis.yml`` dosyası "
+"sunulmuştur ve şunları kapsar:"
 
 #: ../../source/empty/index.rst:55
 msgid "check coding standards,"
-msgstr ""
+msgstr "kodlama standartlarını denetler,"
 
 #: ../../source/empty/index.rst:56
 msgid "run on a bunch on different configuration"
-msgstr ""
+msgstr "farklı ayarlar üzerinde çalışır"
 
 #: ../../source/empty/index.rst:58
 msgid ""
 "You still have to enable travis-ci builds from the website in order to "
 "activate automated tests."
 msgstr ""
+"Otomatik denetimlerin yapılabilmesi için web sitesi üzerinde travis-ci "
+"yapımlarını etkinleştirmeniz gerekir."
 
 #: ../../source/empty/index.rst:60
 msgid ""
@@ -137,6 +148,10 @@ msgid ""
 "create/update a database, activate notifications, and so on. Refer to the "
 "`Travis-CI documentation <https://docs.travis-ci.com/>`_ to know more."
 msgstr ""
+"``.travis.yml`` dosyası değiştirilebilir. Birim denetimleri yürütmek, bir "
+"veritabanını oluşturmak ya da güncellemek, bildirimleri etkinleştirmek gibi "
+"işlemler ekleyebilirsiniz. Ayrıntılı bilgi almak için `Travis-CI belgelerine"
+" <https://docs.travis-ci.com/>`_ bakın."
 
 #: ../../source/empty/index.rst:63
 msgid "Minifying CSS ans JS"
