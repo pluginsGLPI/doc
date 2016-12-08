@@ -147,6 +147,7 @@ Process
 The release process will achieve the following tasks for you:
 
 * check if the version constant is the same as the tag you've requested;
+* check if the version in the website XML file is the same as the tag you've requested;
 * check if a release already exists, locally, and remotely (assuming your project is hosted in the *pluginsGLPI* organization and the release is public);
 * make a `git archive` of the paths that are not excluded (``.git``, ``tools``, ``tests``, ...);
 * if any, install composer dependencies;
@@ -198,14 +199,14 @@ Per default, the release script will work only on existing tags. Any pre-release
 In order to tell the release script what it should archive, you'll have to specify several parameters:
 
 * ``--commit`` (or ``-c``) giving the commit hash,
-* ``--version`` (or ``-v``) giving the version (usually, it will be the next release version),
+* ``--release`` (or ``-r``) giving the release version (usually, it will be the next release version),
 * ``--extra`` (or ``-e``) to specify an extra string (such as *alpha*, *beta*, *rc1*, etc...)
 
 As an example with the *order* plugin:
 
 .. code-block:: bash
 
-   $ ./tools/release --commit 632d515d4ac0 --version 1.9.5 --extra alpha1
+   $ ./tools/release --commit 632d515d4ac0 --release 1.9.5 --extra alpha1
    $ ls dist
    glpi-order-1.9.5-alpha1-20161103-632d515d4a.tar.bz2
 
