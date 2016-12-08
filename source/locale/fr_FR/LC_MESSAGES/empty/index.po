@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPi plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-30 11:06+0100\n"
+"POT-Creation-Date: 2016-12-08 11:34+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Johan Cwiklinski <trasher@x-tnd.be>, 2016\n"
 "Language-Team: French (France) (https://www.transifex.com/teclib/teams/28042/fr_FR/)\n"
@@ -395,6 +395,14 @@ msgstr "vérifie que la constante de version soit identique au tag demandé ;"
 
 #: ../../source/empty/index.rst:150
 msgid ""
+"check if the version in the website XML file is the same as the tag you've "
+"requested;"
+msgstr ""
+"vérifie que la version dans le fichier XML pour le site web est la même que "
+"celle du tag demandé ;"
+
+#: ../../source/empty/index.rst:151
+msgid ""
 "check if a release already exists, locally, and remotely (assuming your "
 "project is hosted in the *pluginsGLPI* organization and the release is "
 "public);"
@@ -403,7 +411,7 @@ msgstr ""
 "votre plugin soit héberge sur l'organisation github *pluginsGLPI* et qu'elle"
 " soit publique) ;"
 
-#: ../../source/empty/index.rst:151
+#: ../../source/empty/index.rst:152
 msgid ""
 "make a `git archive` of the paths that are not excluded (``.git``, "
 "``tools``, ``tests``, ...);"
@@ -411,15 +419,15 @@ msgstr ""
 "crée une archive des chemins qui ne sont pas exclus (`.git``, ``tools``, "
 "``tests``, ...) ;"
 
-#: ../../source/empty/index.rst:152
+#: ../../source/empty/index.rst:153
 msgid "if any, install composer dependencies;"
 msgstr "s'il y en a, installe les dépendances ;"
 
-#: ../../source/empty/index.rst:153
+#: ../../source/empty/index.rst:154
 msgid "if any, compile you ``MO`` files;"
 msgstr "s'il y en a, compile vos fichier ``MO`` ;"
 
-#: ../../source/empty/index.rst:154
+#: ../../source/empty/index.rst:155
 msgid ""
 "if any, compile you CSS stylesheets and your Javascript files (using "
 "`Robo.li <http://robo.li>`_);"
@@ -427,7 +435,7 @@ msgstr ""
 "s'il y en a, compile vos feuilles de style CSS et vos fichiers Javascript "
 "(en utilisant `Robo.li <http://robo.li>`_) ;"
 
-#: ../../source/empty/index.rst:155
+#: ../../source/empty/index.rst:156
 msgid ""
 "create a release archive with all that; that will be available in the "
 "``dist`` directory;"
@@ -435,11 +443,11 @@ msgstr ""
 "créé une archive de release avec tout cela ; et la met à disposition dans le"
 " dossier ``dist`` ;"
 
-#: ../../source/empty/index.rst:156
+#: ../../source/empty/index.rst:157
 msgid "use GPG to sign the archive."
 msgstr "utilise GPG pour signer l'archive ;"
 
-#: ../../source/empty/index.rst:160
+#: ../../source/empty/index.rst:161
 msgid ""
 "The standard release process will not work on your files directly, it will "
 "make a copy in the ``dist/src`` directory before. The only exception are the"
@@ -452,11 +460,11 @@ msgstr ""
 ":ref:`compilation des fichiers MO <compile_mo>` et les :ref:`options de "
 "minimification <minify>`."
 
-#: ../../source/empty/index.rst:165
+#: ../../source/empty/index.rst:166
 msgid "Compiling MO files"
 msgstr "Compilation des fichiers MO"
 
-#: ../../source/empty/index.rst:167
+#: ../../source/empty/index.rst:168
 msgid ""
 "The release process will automatically compile every ``PO`` file it will "
 "found in your ``locales`` directory. But you probably want the sources to "
@@ -468,7 +476,7 @@ msgstr ""
 "fichiers ``MO`` soient présents dans els sources, à des fins de tests. Le "
 "script de release fournit l'option ``--compile-mo`` (ou ``-m``) pour cela."
 
-#: ../../source/empty/index.rst:175
+#: ../../source/empty/index.rst:176
 msgid ""
 "The above command will work on your plugins files directly; not on a copy as"
 " does other commands but :ref:`minify <minify>`."
@@ -477,11 +485,11 @@ msgstr ""
 " copie, à l'inverse de toutes les autres sauf :ref:`la minimification` "
 "<minify>."
 
-#: ../../source/empty/index.rst:180
+#: ../../source/empty/index.rst:181
 msgid "Minifying"
 msgstr "Minimifier"
 
-#: ../../source/empty/index.rst:182
+#: ../../source/empty/index.rst:183
 msgid ""
 "The release process will automatically minify every CSS stylesheet found "
 "into your ``css`` directory, and every javascript file found under your "
@@ -495,7 +503,7 @@ msgstr ""
 "souhaiterez certainement pouvoir le faire vous-même. Le script de release "
 "fournit l'option ``--minify`` (ou ``-M``) pour cela."
 
-#: ../../source/empty/index.rst:190
+#: ../../source/empty/index.rst:191
 msgid ""
 "The above command will work on your plugins files directly; not on a copy as"
 " does other commands but :ref:`compiling mo <compile_mo>`."
@@ -504,11 +512,11 @@ msgstr ""
 " copie, à l'inverse de toutes les autres sauf :ref:`la compilation des "
 "fichiers MO` <compile_mo>."
 
-#: ../../source/empty/index.rst:194
+#: ../../source/empty/index.rst:195
 msgid "Pre-releases"
 msgstr "Pré-releases"
 
-#: ../../source/empty/index.rst:196
+#: ../../source/empty/index.rst:197
 msgid ""
 "Per default, the release script will work only on existing tags. Any pre-"
 "release should have its own tag; but you may want to create a release "
@@ -518,7 +526,7 @@ msgstr ""
 "Toute pré-release devrait être dûment taguée ; mais il est possible que vous"
 " souhaitiez créer une archive sans tag dans certaines circonstances."
 
-#: ../../source/empty/index.rst:198
+#: ../../source/empty/index.rst:199
 msgid ""
 "In order to tell the release script what it should archive, you'll have to "
 "specify several parameters:"
@@ -526,19 +534,19 @@ msgstr ""
 "Pour indiquer au script de release ce qu'il doit archiver, vous devrez "
 "spécifier plusieurs paramètres :"
 
-#: ../../source/empty/index.rst:200
+#: ../../source/empty/index.rst:201
 msgid "``--commit`` (or ``-c``) giving the commit hash,"
 msgstr "``--commit`` (or ``-c``) fournissant le hash du commit,"
 
-#: ../../source/empty/index.rst:201
+#: ../../source/empty/index.rst:202
 msgid ""
-"``--version`` (or ``-v``) giving the version (usually, it will be the next "
-"release version),"
+"``--release`` (or ``-r``) giving the release version (usually, it will be "
+"the next release version),"
 msgstr ""
-"``--version`` (or ``-v``) fournissant la version (habituellement, la version"
+"``--release`` (ou ``-r``) fournissant la version (habituellement, la version"
 " à venir),"
 
-#: ../../source/empty/index.rst:202
+#: ../../source/empty/index.rst:203
 msgid ""
 "``--extra`` (or ``-e``) to specify an extra string (such as *alpha*, *beta*,"
 " *rc1*, etc...)"
@@ -546,15 +554,15 @@ msgstr ""
 "``--extra`` (or ``-e``) pour préciser une chaîne complémentaire (telle que "
 "*alpha*, *beta*, *rc1*, etc...)"
 
-#: ../../source/empty/index.rst:204
+#: ../../source/empty/index.rst:205
 msgid "As an example with the *order* plugin:"
 msgstr "Par exemple pour le plugin *order* :"
 
-#: ../../source/empty/index.rst:213
+#: ../../source/empty/index.rst:214
 msgid "Signing releases"
 msgstr "Signature des releases"
 
-#: ../../source/empty/index.rst:215
+#: ../../source/empty/index.rst:216
 msgid ""
 "Signing releases with a GPG key would permit users to check download "
 "integrity before installing. You'll need a GPG key publically available to "
@@ -567,7 +575,7 @@ msgstr ""
 "par défaut, vous pouvez la désactiver en utilisant l'option ``--nosign`` (ou"
 " ``-S``)."
 
-#: ../../source/empty/index.rst:217
+#: ../../source/empty/index.rst:218
 msgid ""
 "A file containing the signature with the same name as the archive with a "
 "``.asc`` extension will be created in the ``dist`` directory."
@@ -575,11 +583,11 @@ msgstr ""
 "Un fichier contenant la signature portant l\"e même nom que l'archive avec "
 "une extension ``.asc`` sera créé dans le dossier ``dist``."
 
-#: ../../source/empty/index.rst:220
+#: ../../source/empty/index.rst:221
 msgid "GitHub release"
 msgstr "Release GitHub"
 
-#: ../../source/empty/index.rst:222
+#: ../../source/empty/index.rst:223
 msgid ""
 "The release script will create a release on your GitHub repository, as a "
 "draft, unless you use ``--nogithub`` (or ``-g``) option."
@@ -588,7 +596,7 @@ msgstr ""
 "brouillon, à moins que vous ne spécifiez l'option ``--nogithub`` (ou "
 "``-g``)."
 
-#: ../../source/empty/index.rst:226
+#: ../../source/empty/index.rst:227
 msgid ""
 "Unfortunately, I was not able to get the newly created archive uploaded to "
 "this new release... Maybe that could be fixed in the future."
@@ -596,7 +604,7 @@ msgstr ""
 "Malheureusement, je n'ai pas été en mesure de téléverser la nouvelle archive"
 " sur cette release... Peut-être cela sera-t-il fixé dans le futur."
 
-#: ../../source/empty/index.rst:228
+#: ../../source/empty/index.rst:229
 msgid ""
 "In order to use this feature, you will need the `github "
 "<https://github.com/PyGithub/PyGithub>`_ installed; and you will need an "
@@ -608,7 +616,7 @@ msgstr ""
 " vous faudra un token d'accès. Les tokens d'accès sont valides par "
 "utilisateur et donnent accès à l'ensemble de ses dépôts."
 
-#: ../../source/empty/index.rst:230
+#: ../../source/empty/index.rst:231
 msgid ""
 "You'll have to go to your `github account settings page, in the personnal "
 "access token tab <https://github.com/settings/tokens>`_. Click on *generate "
@@ -623,7 +631,7 @@ msgstr ""
 "*public_repo* uniquement (il n'est pas nécessaire de cocher quoi que ce soit"
 " d'autre, vous pourrez créer plusieurs tokens au besoin)."
 
-#: ../../source/empty/index.rst:232
+#: ../../source/empty/index.rst:233
 msgid ""
 "The token will be displayed only once; store it in the ``.gh_token`` file in"
 " your plugin directory; and that's all!"
@@ -631,6 +639,6 @@ msgstr ""
 "Le token ne sera affiché qu'une fois ; enregistrez-le dans le fichier "
 "``.gh_token`` dans le répertoire de votre plugin, et c'est tout !"
 
-#: ../../source/empty/index.rst:235
+#: ../../source/empty/index.rst:236
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
