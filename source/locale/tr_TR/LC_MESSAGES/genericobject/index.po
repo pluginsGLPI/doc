@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPi plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-08 11:34+0100\n"
+"POT-Creation-Date: 2016-12-16 14:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2016\n"
 "Language-Team: Turkish (Turkey) (https://www.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -24,11 +24,11 @@ msgstr "Genel Nesne"
 
 #: ../../source/genericobject/index.rst:4
 msgid "Sources link: https://github.com/pluginsGLPI/genericobject"
-msgstr ""
+msgstr "Kaynak bağlantısı: https://github.com/pluginsGLPI/genericobject"
 
 #: ../../source/genericobject/index.rst:5
 msgid "Download: https://github.com/pluginsGLPI/genericobject/releases"
-msgstr ""
+msgstr "İndirin: https://github.com/pluginsGLPI/genericobject/releases"
 
 #: ../../source/genericobject/index.rst:7
 msgid ""
@@ -217,212 +217,228 @@ msgstr ""
 
 #: ../../source/genericobject/index.rst:77
 msgid "The plugin creates :"
-msgstr ""
+msgstr "Bu uygulama eki şunları oluşturur:"
 
 #: ../../source/genericobject/index.rst:79
 msgid "a language file for the current language"
-msgstr ""
+msgstr "geçerli dil için bir dil dosyası"
 
 #: ../../source/genericobject/index.rst:80
 msgid "a language file for the default GLPI language"
-msgstr ""
+msgstr "varsayılan GLPI dili için bir dil dosyası"
 
 #: ../../source/genericobject/index.rst:84
 msgid ""
 "If the current and default languages are the same, only one file is created."
-msgstr ""
+msgstr "Geçerli ve varsayılan dil aynı ise yalnız bir dosya oluşturulur."
 
 #: ../../source/genericobject/index.rst:86
 msgid ""
 "To change the label of the itemtype, for the english language, edit the "
 "file:"
 msgstr ""
+"İngilizce dilinde öge türünün etiketini değiştirmek için şu dosyayı "
+"düzenleyin:"
 
 #: ../../source/genericobject/index.rst:95
 msgid "Setup behaviour"
-msgstr ""
+msgstr "Kurulum davranışı"
 
 #: ../../source/genericobject/index.rst:97
 msgid ""
 "**Example:** Describe the behaviour of a *car*: visible in subentity, retain"
 " history, etc."
 msgstr ""
+"**Örnek:** Bir *aracın* davranışını belirtin: Alt varlıkta görüntülensin, "
+"geçmişi kaydedilsin gibi."
 
 #: ../../source/genericobject/index.rst:99
 msgid ""
 "The new type will be managed the same way as the usual GLPI types (computer,"
 " monitor, network device, etc.)"
 msgstr ""
+"Yeni tür normal GLPI türleri (bilgisayar, ekran, ağ aygıtı vb) ile aynı "
+"şekilde yönetilir"
 
 #: ../../source/genericobject/index.rst:103
 msgid "All objects are at least assigned to an *entity*"
-msgstr ""
+msgstr "Tüm nesneler için atanmış en az bir *varlık* olmalıdır"
 
 #: ../../source/genericobject/index.rst:105
 msgid "The Behaviour tab allows you to define:"
-msgstr ""
+msgstr "Davranış sekmesinde şunlar tanımlanabilir:"
 
 #: ../../source/genericobject/index.rst:107
 msgid "*child-entities:* allows the type to be recursive;"
-msgstr ""
+msgstr "*alt kayıtlar:* türün alta doğru genişletilmesini sağlar;"
 
 #: ../../source/genericobject/index.rst:108
 msgid "*Helpdesk:* allows an object to be associated to a ticket;"
 msgstr ""
+"*Destek masası:* Bir nesnenin bir çağrı kaydı ile ilişkilendirilmesini "
+"sağlar:"
 
 #: ../../source/genericobject/index.rst:109
 msgid "*Trash:* use GLPI's trash functionnality;"
-msgstr ""
+msgstr "*Çöp:* GLPI Çöp Kutusu özelliğini kullanır;"
 
 #: ../../source/genericobject/index.rst:110
 msgid "*Notes:* use GLPI's note functionnality;"
-msgstr ""
+msgstr "*Notlar:* GLPI not özelliğini kullanır;"
 
 #: ../../source/genericobject/index.rst:111
 msgid "*History:* allow history for this type;"
-msgstr ""
+msgstr "*Geçmiş:* Bu türün geçmişini kaydeder;"
 
 #: ../../source/genericobject/index.rst:112
 msgid "*Templates:* allows template management;"
-msgstr ""
+msgstr "*Kalıplar:* Kalıpların yönetimini sağlar;"
 
 #: ../../source/genericobject/index.rst:113
 msgid ""
 "*Documents:* allows documents to be attached to an object of this type;"
-msgstr ""
+msgstr "*Belgeler:* Bu türdeki nesnelere belge eklenebilmesini sağlar;"
 
 #: ../../source/genericobject/index.rst:114
 msgid "*Loans:* allows objects to be loaned;"
-msgstr ""
+msgstr "*Ödünç Verme:* Nesnelerin ödünç verilebilmesini sağlar;"
 
 #: ../../source/genericobject/index.rst:115
 msgid "*Contracts:* link an object to one or more contracts;"
-msgstr ""
+msgstr "*Sözleşmeler:* Bir nesneyi bir ya da bir kaç kişi ile ilişkilendirir;"
 
 #: ../../source/genericobject/index.rst:116
 msgid ""
 "*Network connections:* allow ports to be used and management for this type;"
 msgstr ""
+"*Ağ Bağlantıları:* Bu tür için yönetim ve kapı numaralarının "
+"kullanılabilmesini sağlar;"
 
 #: ../../source/genericobject/index.rst:117
 msgid ""
 "*CSV file injection plugin:* allows this type to be available for use in the"
 " plugin;"
 msgstr ""
+"*CSV file injection uygulama eki:* Bu türün şu uygulama ekiyle "
+"kullanılabilmesini sağlar;"
 
 #: ../../source/genericobject/index.rst:118
 msgid "*Item uninstallation plugin:* allows this type to be uninstalled;"
-msgstr ""
+msgstr "*Item uninstallation uygulama eki:* Bu türün kaldırılmasını sağlar;"
 
 #: ../../source/genericobject/index.rst:119
 msgid "*Order management plugin:* allows this type to be linked to an order;"
 msgstr ""
+"*Order management uygulama eki:* Bu türün bir sipariş ile "
+"ilişkilendirilmesini sağlar;"
 
 #: ../../source/genericobject/index.rst:122
 msgid "Add Fields"
-msgstr ""
+msgstr "Alan Ekle"
 
 #: ../../source/genericobject/index.rst:124
 msgid ""
 "**Example:** Add the accurate fields for a *car*, like: *name*, *serial "
 "number*, *inventory number*, *type*, *model*, *color*, *state*, etc."
 msgstr ""
+"**Örnek:** *Araçlar* için kullanılacak alanları ekleyin: *ad*, *seri "
+"numarası*, *stok kodu*, *tür*, *model*, *renk*, *durum*, gibi."
 
 #: ../../source/genericobject/index.rst:126
 msgid "Navigate to the *Fields* tab."
-msgstr ""
+msgstr "*Alanlar* sekmesine gidin."
 
 #: ../../source/genericobject/index.rst:128
 msgid "The plugin comes with several ready to use fields:"
-msgstr ""
+msgstr "Bu uygulama eki ile kullanılmaya hazır bazı alanlar gelir:"
 
 #: ../../source/genericobject/index.rst:130
 msgid "Name"
-msgstr ""
+msgstr "Ad"
 
 #: ../../source/genericobject/index.rst:131
 msgid "Type"
-msgstr ""
+msgstr "Tür"
 
 #: ../../source/genericobject/index.rst:132
 msgid "Model"
-msgstr ""
+msgstr "Model"
 
 #: ../../source/genericobject/index.rst:133
 msgid "Serial number"
-msgstr ""
+msgstr "Seri Numarası"
 
 #: ../../source/genericobject/index.rst:134
 msgid "Inventory number"
-msgstr ""
+msgstr "Stok Numarası"
 
 #: ../../source/genericobject/index.rst:135
 msgid "Item's user"
-msgstr ""
+msgstr "Ögenin Kullanıcısı"
 
 #: ../../source/genericobject/index.rst:136
 msgid "Group"
-msgstr ""
+msgstr "Grup"
 
 #: ../../source/genericobject/index.rst:137
 msgid "Status"
-msgstr ""
+msgstr "Durum"
 
 #: ../../source/genericobject/index.rst:138
 msgid "Comments"
-msgstr ""
+msgstr "Yorumlar"
 
 #: ../../source/genericobject/index.rst:139
 msgid "Notes"
-msgstr ""
+msgstr "Notlar"
 
 #: ../../source/genericobject/index.rst:140
 msgid "Location"
-msgstr ""
+msgstr "Konum"
 
 #: ../../source/genericobject/index.rst:141
 msgid "Other"
-msgstr ""
+msgstr "Diğer"
 
 #: ../../source/genericobject/index.rst:142
 msgid "Manufacturer"
-msgstr ""
+msgstr "Üretici"
 
 #: ../../source/genericobject/index.rst:143
 msgid "URL"
-msgstr ""
+msgstr "İnternet Adresi"
 
 #: ../../source/genericobject/index.rst:144
 msgid "Creation date"
-msgstr ""
+msgstr "Eklenme Tarihi"
 
 #: ../../source/genericobject/index.rst:145
 msgid "Expiration date"
-msgstr ""
+msgstr "Son Kullanma Tarihi"
 
 #: ../../source/genericobject/index.rst:146
 msgid "Category"
-msgstr ""
+msgstr "Kategori"
 
 #: ../../source/genericobject/index.rst:147
 msgid "Visible in Helpdesk"
-msgstr ""
+msgstr "Destek Merkezinde Görüntülensin"
 
 #: ../../source/genericobject/index.rst:148
 msgid "Technician in charge of the hardware"
-msgstr ""
+msgstr "Donanımdan sorumlu kişi"
 
 #: ../../source/genericobject/index.rst:149
 msgid "Domain"
-msgstr ""
+msgstr "Etki Alanı"
 
 #: ../../source/genericobject/index.rst:150
 msgid "Contact"
-msgstr ""
+msgstr "İlgili"
 
 #: ../../source/genericobject/index.rst:151
 msgid "Contact number"
-msgstr ""
+msgstr "İlgilinin telefonu"
 
 #: ../../source/genericobject/index.rst:155
 msgid "Using some behaviour will automatically add some fields to the object:"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPi plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-08 11:34+0100\n"
+"POT-Creation-Date: 2016-12-16 14:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2016\n"
 "Language-Team: Turkish (Turkey) (https://www.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -155,45 +155,56 @@ msgstr ""
 
 #: ../../source/empty/index.rst:63
 msgid "Minifying CSS ans JS"
-msgstr ""
+msgstr "CSS ve JS Küçültülüyor"
 
 #: ../../source/empty/index.rst:65
 msgid ""
 "A convenient script, using `Robo.li <http://robo.li>`_ is provided. You'll "
 "find two files related:"
 msgstr ""
+"`Robo.li <http://robo.li>`_ kullanan bir betik sunulmuştur. İlgili iki "
+"dosyayı şurada bulunabilir:"
 
 #: ../../source/empty/index.rst:67
 msgid ""
 "``RoboFilePlugin.php`` in which are declared common usefull methods you may "
 "want to use (see below);"
 msgstr ""
+"``RoboFilePlugin.php`` içinde ortaklaşa kullanmak isteyebileceğiniz yararlı "
+"yöntemler bulunur (aşağıya bakın):"
 
 #: ../../source/empty/index.rst:68
 msgid ""
 "``RoboFile.php`` an empty class, which extends ``RoboFilePlugin`` in which "
 "you can set you own stuff."
 msgstr ""
+"``RoboFile.php``, ``RoboFilePlugin`` tarafından kullanılan ve içine kendi "
+"kodlarınızı ekleyebileceğiniz boş bir sınıftır."
 
 #: ../../source/empty/index.rst:70
 msgid ""
 "That way, you can quite easily update the common file and get your own tasks"
 " remaining the same."
 msgstr ""
+"Böylece ortak dosyayı kolayca güncelleyerek kendi görevlerinizin aynı "
+"kalmasını sağlayabilirsiniz."
 
 #: ../../source/empty/index.rst:72
 msgid ""
 "To get the required libs installed, you'll have to `get composer installed "
 "<http://getcomposer.org>`_ and then run:"
 msgstr ""
+"Gerekli kitaplıkların yüklenmesi için get composer "
+"<http://getcomposer.org>`_ yükleyip şunu çalıştırmalısınız:"
 
 #: ../../source/empty/index.rst:78
 msgid "There are three available targets:"
-msgstr ""
+msgstr "Üç hedef seçilebilir:"
 
 #: ../../source/empty/index.rst:80
 msgid "``minify`` that will minify all CSS and JS files (see below),"
 msgstr ""
+"``küçült`` tüm CSS ve JavaScript dosyalarını küçültür (aşağıya bakın),"
 
 #: ../../source/empty/index.rst:81
 msgid ""
@@ -201,32 +212,42 @@ msgid ""
 "directory of your plugin, creating a ``.min.css`` version along with the "
 "original file,"
 msgstr ""
+"``küçült:css`` uygulama ekinizin ``css`` klasöründeki tüm css stil "
+"sayfalarını küçülterek özgün dosyaların yanında ``.min.css`` sürümlerini "
+"oluşturur."
 
 #: ../../source/empty/index.rst:82
 msgid ""
 "``minify:js`` that will minify all javascript files in the ``js`` directory "
 "of your plugin, creating a ``.min.js`` version along with the original file."
 msgstr ""
+"``küçült:js`` uygulama ekinizin ``js`` klasöründeki tüm javascript "
+"dosyalarını küçülterek özgün dosyaların yanında ``.min.js`` sürümlerini "
+"oluşturur."
 
 #: ../../source/empty/index.rst:84
 msgid "Just choose a target, and run something like:"
-msgstr ""
+msgstr "Yalnız hedefi seçin ve şunun gibi bir şey çalıştırın:"
 
 #: ../../source/empty/index.rst:92
 msgid ""
 "Remember compiled files should not be commited on your repository sources. "
 "It is a release process to minify files."
 msgstr ""
+"Derlenmiş dosyaların depo kaynaklarınıza yüklenmeyeceğini unutmayın. Bu "
+"işlem yayınlamadan önce dosyaları küçültmek içindir."
 
 #: ../../source/empty/index.rst:94
 msgid ""
 "Also remember to adapt your scripts so they load your minified versions if "
 "available, and the original one otherwise :)"
 msgstr ""
+"Ayrıca betiklerinizi varsa küçültülmüş sürümleri yoksa özgün sürümleri "
+"yükleyecek şekilde uyarlamayı unutmayın :)"
 
 #: ../../source/empty/index.rst:97
 msgid "Translations"
-msgstr ""
+msgstr "Çeviriler"
 
 #: ../../source/empty/index.rst:99
 msgid ""
@@ -274,7 +295,7 @@ msgstr ""
 
 #: ../../source/empty/index.rst:117
 msgid "Release script"
-msgstr ""
+msgstr "Yayınlama Betiği"
 
 #: ../../source/empty/index.rst:119
 msgid ""
@@ -291,21 +312,21 @@ msgstr ""
 
 #: ../../source/empty/index.rst:134
 msgid "Requirements"
-msgstr ""
+msgstr "Gereksinimler"
 
 #: ../../source/empty/index.rst:136
 msgid ""
 "You will need a python interpreter installed as well as the following "
 "modules:"
-msgstr ""
+msgstr "Python derleyici ile şu modüllerin yüklenmiş olması gerekir:"
 
 #: ../../source/empty/index.rst:138
 msgid "`termcolor <https://pypi.python.org/pypi/termcolor>`_,"
-msgstr ""
+msgstr "`termcolor <https://pypi.python.org/pypi/termcolor>`_,"
 
 #: ../../source/empty/index.rst:139
 msgid "`gitdb <https://github.com/gitpython-developers/gitdb>`_,"
-msgstr ""
+msgstr "`gitdb <https://github.com/gitpython-developers/gitdb>`_,"
 
 #: ../../source/empty/index.rst:140
 msgid ""
@@ -313,11 +334,16 @@ msgid ""
 "versions in also in drafts, and to create github releases), unless you use "
 "the ``--nogithub`` option"
 msgstr ""
+"`github <https://github.com/PyGithub/PyGithub>`_ (varolan sürümleri ve "
+"taslakları denetlemek ve github sürümlerini oluşturmak için ), "
+"``--nogithub`` seçeneğini kullanmadığınız sürece"
 
 #: ../../source/empty/index.rst:142
 msgid ""
 "If you want to get help on the script, try to run ``./tools/release -h``."
 msgstr ""
+"Betik ile ilgili yardım sayfasını görüntülemek için ``./tools/release -h`` "
+"yazın."
 
 #: ../../source/empty/index.rst:145
 msgid "Process"

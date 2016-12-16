@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPi plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-08 11:34+0100\n"
+"POT-Creation-Date: 2016-12-16 14:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2016\n"
 "Language-Team: Turkish (Turkey) (https://www.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -143,7 +143,7 @@ msgstr ""
 msgid "Adding a new block"
 msgstr ""
 
-#: ../../source/fields/index.rst:54 ../../source/fields/index.rst:82
+#: ../../source/fields/index.rst:54 ../../source/fields/index.rst:86
 msgid "`Label`: the label of the block that will appears on items forms,"
 msgstr ""
 
@@ -184,235 +184,269 @@ msgid ""
 msgstr ""
 
 #: ../../source/fields/index.rst:68
+msgid "Inserting a block in a specific tab is only possible for one item:"
+msgstr ""
+
+#: ../../source/fields/index.rst:72
 msgid ""
 "Once a block have been created, it is possible to change its label or is "
 "active flag, but not its type or associated items list."
 msgstr ""
 
-#: ../../source/fields/index.rst:71
+#: ../../source/fields/index.rst:75
 msgid "Profiles"
 msgstr ""
 
-#: ../../source/fields/index.rst:73
+#: ../../source/fields/index.rst:77
 msgid ""
 "You can refine profiles access on the block using the `Profiles` tab from "
 "the block. You will be able to choose either `No access`, `Read` or `Write` "
 "for every existing profile."
 msgstr ""
 
-#: ../../source/fields/index.rst:78
+#: ../../source/fields/index.rst:82
 msgid "Adding a new field"
 msgstr ""
 
-#: ../../source/fields/index.rst:83
+#: ../../source/fields/index.rst:87
 msgid "`Type` field type, one of:"
 msgstr ""
 
-#: ../../source/fields/index.rst:85
+#: ../../source/fields/index.rst:89
 msgid "`Header`: an header label, for visual distinction,"
 msgstr ""
 
-#: ../../source/fields/index.rst:86
+#: ../../source/fields/index.rst:90
 msgid "`Text (single line)`: a single line (``input/@type=\"text\"``) of text,"
 msgstr ""
 
-#: ../../source/fields/index.rst:87
+#: ../../source/fields/index.rst:91
 msgid "`Text (multiples lines)`: a multiline (``textarea``) text,"
 msgstr ""
 
-#: ../../source/fields/index.rst:88
+#: ../../source/fields/index.rst:92
 msgid "`Number`: a single number (no text allowed),"
 msgstr ""
 
-#: ../../source/fields/index.rst:89
+#: ../../source/fields/index.rst:93
 msgid ""
 "`Dropdown`: a configurable dropdown list, values are configured from the "
 "main GLPi dropdown configuration you can find in *Setup* > *Dropdowns* menu,"
 msgstr ""
 
-#: ../../source/fields/index.rst:90
+#: ../../source/fields/index.rst:94
 msgid "`Yes/No`: a dropdown list with only `Yes` and `No` values,"
 msgstr ""
 
-#: ../../source/fields/index.rst:91
+#: ../../source/fields/index.rst:95
 msgid "`Date`: a standalone date with a date picker,"
 msgstr ""
 
-#: ../../source/fields/index.rst:92
+#: ../../source/fields/index.rst:96
 msgid ""
 "`Date & time`: a date field with a date picker and a time dropdown field "
 "(step is configured from GLPi core),"
 msgstr ""
 
-#: ../../source/fields/index.rst:93
+#: ../../source/fields/index.rst:97
 msgid "`Users`: list of users."
 msgstr ""
 
-#: ../../source/fields/index.rst:95
+#: ../../source/fields/index.rst:99
 msgid "`Active`: whether the block is active or not,"
 msgstr ""
 
-#: ../../source/fields/index.rst:96
+#: ../../source/fields/index.rst:100
 msgid "`Read only`: flag this field as read only,"
 msgstr ""
 
-#: ../../source/fields/index.rst:97
+#: ../../source/fields/index.rst:101
 msgid "`Default values`: default field values,"
 msgstr ""
 
-#: ../../source/fields/index.rst:98
+#: ../../source/fields/index.rst:102
 msgid "`Mandatory field`: flag this field as mandatory."
 msgstr ""
 
-#: ../../source/fields/index.rst:102
+#: ../../source/fields/index.rst:106
 msgid ""
 "Of course, you will need to pay attention playing with the various "
 "options... For example, if you flag a field as mandatory and as read only, "
 "and if you do not provide a default value, form validation will fail."
 msgstr ""
 
-#: ../../source/fields/index.rst:104
+#: ../../source/fields/index.rst:108
 msgid ""
 "Another example: you should not set a text default value for a number "
 "field... That kind of things ;)"
 msgstr ""
 
-#: ../../source/fields/index.rst:106
+#: ../../source/fields/index.rst:110
 msgid ""
 "Once fields have been created, you can reorder or edit them from the Fields "
 "tab of the block:"
 msgstr ""
 
-#: ../../source/fields/index.rst:110
+#: ../../source/fields/index.rst:114
 msgid "And see what it should look like on a `User` item for example:"
 msgstr ""
 
-#: ../../source/fields/index.rst:115
+#: ../../source/fields/index.rst:119
 msgid "Search"
 msgstr ""
 
-#: ../../source/fields/index.rst:117
+#: ../../source/fields/index.rst:121
 msgid ""
 "All fields that have been added are available in the attached items search "
 "forms."
 msgstr ""
 
-#: ../../source/fields/index.rst:120
+#: ../../source/fields/index.rst:124
 msgid "Simplified Interface"
 msgstr ""
 
-#: ../../source/fields/index.rst:122
+#: ../../source/fields/index.rst:126
 msgid ""
 "Only blocks attached to tickets and with the type `Insertion in the form` "
 "will be displayed in the simplified interface of ticket creation. Of course,"
 " it will also take care of current profile rights!"
 msgstr ""
 
-#: ../../source/fields/index.rst:125
+#: ../../source/fields/index.rst:129 ../../source/fields/index.rst:166
 msgid "Translations"
 msgstr ""
 
-#: ../../source/fields/index.rst:127
+#: ../../source/fields/index.rst:131
 msgid ""
 "The plugin itself is available in various languages, you can `check the "
 "project on Transifex <https://www.transifex.com/teclib/glpi-plugin-plugin-"
 "fields/dashboard/>`_ for more informations."
 msgstr ""
 
-#: ../../source/fields/index.rst:129
+#: ../../source/fields/index.rst:133
 msgid ""
 "Actually, blocks and fields labels cannot be translated; the same label will"
 " be displayed in every language. For dropdown values, they'll be handled as "
 "any other GLPi dropdowns."
 msgstr ""
 
-#: ../../source/fields/index.rst:132
+#: ../../source/fields/index.rst:136
 msgid "Entities"
 msgstr ""
 
-#: ../../source/fields/index.rst:134
+#: ../../source/fields/index.rst:138
 msgid ""
 "If you are using entities in your GLPi instance, a block will be displayed "
 "only if the entity it is attached to is compatible with the one of the item "
 "it applies to."
 msgstr ""
 
-#: ../../source/fields/index.rst:136
+#: ../../source/fields/index.rst:140
 msgid ""
 "When you create or edit a block in multi entities mode, you'll have to "
 "choose if the block will be available in children entities:"
 msgstr ""
 
-#: ../../source/fields/index.rst:140
+#: ../../source/fields/index.rst:144
 msgid "As an example, let's say our entities have the following structure:"
 msgstr ""
 
-#: ../../source/fields/index.rst:142
+#: ../../source/fields/index.rst:146
 msgid "``root``"
 msgstr ""
 
-#: ../../source/fields/index.rst:144
+#: ../../source/fields/index.rst:148
 msgid "``A``"
 msgstr ""
 
-#: ../../source/fields/index.rst:146
+#: ../../source/fields/index.rst:150
 msgid "``C``"
 msgstr ""
 
-#: ../../source/fields/index.rst:148
+#: ../../source/fields/index.rst:152
 msgid "``B``"
 msgstr ""
 
-#: ../../source/fields/index.rst:150
+#: ../../source/fields/index.rst:154
 msgid ""
 "The following table will tell you in wich cases the block is displayed or "
 "not:"
 msgstr ""
 
-#: ../../source/fields/index.rst:153
+#: ../../source/fields/index.rst:157
 msgid "Block entity"
 msgstr ""
 
-#: ../../source/fields/index.rst:153
+#: ../../source/fields/index.rst:157
 msgid "Recursive block"
 msgstr ""
 
-#: ../../source/fields/index.rst:153
+#: ../../source/fields/index.rst:157
 msgid "Item entity"
 msgstr ""
 
-#: ../../source/fields/index.rst:153
+#: ../../source/fields/index.rst:157
 msgid "Block displayed"
 msgstr ""
 
-#: ../../source/fields/index.rst:155 ../../source/fields/index.rst:155
-#: ../../source/fields/index.rst:156 ../../source/fields/index.rst:157
-#: ../../source/fields/index.rst:158
+#: ../../source/fields/index.rst:159 ../../source/fields/index.rst:159
+#: ../../source/fields/index.rst:160 ../../source/fields/index.rst:161
+#: ../../source/fields/index.rst:162
 msgid "A"
 msgstr ""
 
-#: ../../source/fields/index.rst:155 ../../source/fields/index.rst:156
+#: ../../source/fields/index.rst:159 ../../source/fields/index.rst:160
 msgid "Yes or No"
 msgstr ""
 
-#: ../../source/fields/index.rst:155 ../../source/fields/index.rst:157
-#: ../../source/fields/index.rst:157
+#: ../../source/fields/index.rst:159 ../../source/fields/index.rst:161
+#: ../../source/fields/index.rst:161
 msgid "Yes"
 msgstr ""
 
-#: ../../source/fields/index.rst:156
+#: ../../source/fields/index.rst:160
 msgid "B"
 msgstr ""
 
-#: ../../source/fields/index.rst:156 ../../source/fields/index.rst:158
-#: ../../source/fields/index.rst:158
+#: ../../source/fields/index.rst:160 ../../source/fields/index.rst:162
+#: ../../source/fields/index.rst:162
 msgid "No"
 msgstr ""
 
-#: ../../source/fields/index.rst:157 ../../source/fields/index.rst:158
+#: ../../source/fields/index.rst:161 ../../source/fields/index.rst:162
 msgid "C"
 msgstr ""
 
-#: ../../source/fields/index.rst:162
+#: ../../source/fields/index.rst:170
+msgid ""
+"Plugin itself is translated using `the transifex services "
+"<https://www.transifex.com/teclib/glpi-plugin-plugin-fields>`_; but you aslo"
+" can translate the label values for blocs and fields; the process is "
+"identical on both those ones:"
+msgstr ""
+
+#: ../../source/fields/index.rst:172
+msgid "On the block form, choose the *Translations* tab:"
+msgstr ""
+
+#: ../../source/fields/index.rst:176
+msgid ""
+"On block creation, a new translation with current language and value set as "
+"label will be created; you can add as many translations as you want."
+msgstr ""
+
+#: ../../source/fields/index.rst:180
+msgid ""
+"Dropdown values can be translated using the core's dropdown configuration."
+msgstr ""
+
+#: ../../source/fields/index.rst:184
+msgid ""
+"As of GLPi 9.1.1; some issues on the core side prevent dropdown plugin "
+"values to be translated; the possibility has been deactivated in the plugin."
+" It will be enabled again once the core has been fixed."
+msgstr ""
+
+#: ../../source/fields/index.rst:187
 msgid "|ccbyncnd|"
 msgstr ""
