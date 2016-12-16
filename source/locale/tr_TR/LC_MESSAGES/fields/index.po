@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPi plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-16 14:42+0100\n"
+"POT-Creation-Date: 2016-12-16 15:11+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2016\n"
 "Language-Team: Turkish (Turkey) (https://www.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -312,112 +312,11 @@ msgid ""
 " it will also take care of current profile rights!"
 msgstr ""
 
-#: ../../source/fields/index.rst:129 ../../source/fields/index.rst:166
+#: ../../source/fields/index.rst:129
 msgid "Translations"
 msgstr ""
 
-#: ../../source/fields/index.rst:131
-msgid ""
-"The plugin itself is available in various languages, you can `check the "
-"project on Transifex <https://www.transifex.com/teclib/glpi-plugin-plugin-"
-"fields/dashboard/>`_ for more informations."
-msgstr ""
-
 #: ../../source/fields/index.rst:133
-msgid ""
-"Actually, blocks and fields labels cannot be translated; the same label will"
-" be displayed in every language. For dropdown values, they'll be handled as "
-"any other GLPi dropdowns."
-msgstr ""
-
-#: ../../source/fields/index.rst:136
-msgid "Entities"
-msgstr ""
-
-#: ../../source/fields/index.rst:138
-msgid ""
-"If you are using entities in your GLPi instance, a block will be displayed "
-"only if the entity it is attached to is compatible with the one of the item "
-"it applies to."
-msgstr ""
-
-#: ../../source/fields/index.rst:140
-msgid ""
-"When you create or edit a block in multi entities mode, you'll have to "
-"choose if the block will be available in children entities:"
-msgstr ""
-
-#: ../../source/fields/index.rst:144
-msgid "As an example, let's say our entities have the following structure:"
-msgstr ""
-
-#: ../../source/fields/index.rst:146
-msgid "``root``"
-msgstr ""
-
-#: ../../source/fields/index.rst:148
-msgid "``A``"
-msgstr ""
-
-#: ../../source/fields/index.rst:150
-msgid "``C``"
-msgstr ""
-
-#: ../../source/fields/index.rst:152
-msgid "``B``"
-msgstr ""
-
-#: ../../source/fields/index.rst:154
-msgid ""
-"The following table will tell you in wich cases the block is displayed or "
-"not:"
-msgstr ""
-
-#: ../../source/fields/index.rst:157
-msgid "Block entity"
-msgstr ""
-
-#: ../../source/fields/index.rst:157
-msgid "Recursive block"
-msgstr ""
-
-#: ../../source/fields/index.rst:157
-msgid "Item entity"
-msgstr ""
-
-#: ../../source/fields/index.rst:157
-msgid "Block displayed"
-msgstr ""
-
-#: ../../source/fields/index.rst:159 ../../source/fields/index.rst:159
-#: ../../source/fields/index.rst:160 ../../source/fields/index.rst:161
-#: ../../source/fields/index.rst:162
-msgid "A"
-msgstr ""
-
-#: ../../source/fields/index.rst:159 ../../source/fields/index.rst:160
-msgid "Yes or No"
-msgstr ""
-
-#: ../../source/fields/index.rst:159 ../../source/fields/index.rst:161
-#: ../../source/fields/index.rst:161
-msgid "Yes"
-msgstr ""
-
-#: ../../source/fields/index.rst:160
-msgid "B"
-msgstr ""
-
-#: ../../source/fields/index.rst:160 ../../source/fields/index.rst:162
-#: ../../source/fields/index.rst:162
-msgid "No"
-msgstr ""
-
-#: ../../source/fields/index.rst:161 ../../source/fields/index.rst:162
-msgid "C"
-msgstr ""
-
-#: ../../source/fields/index.rst:170
 msgid ""
 "Plugin itself is translated using `the transifex services "
 "<https://www.transifex.com/teclib/glpi-plugin-plugin-fields>`_; but you aslo"
@@ -425,28 +324,115 @@ msgid ""
 "identical on both those ones:"
 msgstr ""
 
-#: ../../source/fields/index.rst:172
+#: ../../source/fields/index.rst:135
 msgid "On the block form, choose the *Translations* tab:"
 msgstr ""
 
-#: ../../source/fields/index.rst:176
+#: ../../source/fields/index.rst:139
 msgid ""
 "On block creation, a new translation with current language and value set as "
 "label will be created; you can add as many translations as you want."
 msgstr ""
 
-#: ../../source/fields/index.rst:180
+#: ../../source/fields/index.rst:143
 msgid ""
 "Dropdown values can be translated using the core's dropdown configuration."
 msgstr ""
 
-#: ../../source/fields/index.rst:184
+#: ../../source/fields/index.rst:147
 msgid ""
 "As of GLPi 9.1.1; some issues on the core side prevent dropdown plugin "
 "values to be translated; the possibility has been deactivated in the plugin."
 " It will be enabled again once the core has been fixed."
 msgstr ""
 
-#: ../../source/fields/index.rst:187
+#: ../../source/fields/index.rst:150
+msgid "Entities"
+msgstr ""
+
+#: ../../source/fields/index.rst:152
+msgid ""
+"If you are using entities in your GLPi instance, a block will be displayed "
+"only if the entity it is attached to is compatible with the one of the item "
+"it applies to."
+msgstr ""
+
+#: ../../source/fields/index.rst:154
+msgid ""
+"When you create or edit a block in multi entities mode, you'll have to "
+"choose if the block will be available in children entities:"
+msgstr ""
+
+#: ../../source/fields/index.rst:158
+msgid "As an example, let's say our entities have the following structure:"
+msgstr ""
+
+#: ../../source/fields/index.rst:160
+msgid "``root``"
+msgstr ""
+
+#: ../../source/fields/index.rst:162
+msgid "``A``"
+msgstr ""
+
+#: ../../source/fields/index.rst:164
+msgid "``C``"
+msgstr ""
+
+#: ../../source/fields/index.rst:166
+msgid "``B``"
+msgstr ""
+
+#: ../../source/fields/index.rst:168
+msgid ""
+"The following table will tell you in wich cases the block is displayed or "
+"not:"
+msgstr ""
+
+#: ../../source/fields/index.rst:171
+msgid "Block entity"
+msgstr ""
+
+#: ../../source/fields/index.rst:171
+msgid "Recursive block"
+msgstr ""
+
+#: ../../source/fields/index.rst:171
+msgid "Item entity"
+msgstr ""
+
+#: ../../source/fields/index.rst:171
+msgid "Block displayed"
+msgstr ""
+
+#: ../../source/fields/index.rst:173 ../../source/fields/index.rst:173
+#: ../../source/fields/index.rst:174 ../../source/fields/index.rst:175
+#: ../../source/fields/index.rst:176
+msgid "A"
+msgstr ""
+
+#: ../../source/fields/index.rst:173 ../../source/fields/index.rst:174
+msgid "Yes or No"
+msgstr ""
+
+#: ../../source/fields/index.rst:173 ../../source/fields/index.rst:175
+#: ../../source/fields/index.rst:175
+msgid "Yes"
+msgstr ""
+
+#: ../../source/fields/index.rst:174
+msgid "B"
+msgstr ""
+
+#: ../../source/fields/index.rst:174 ../../source/fields/index.rst:176
+#: ../../source/fields/index.rst:176
+msgid "No"
+msgstr ""
+
+#: ../../source/fields/index.rst:175 ../../source/fields/index.rst:176
+msgid "C"
+msgstr ""
+
+#: ../../source/fields/index.rst:180
 msgid "|ccbyncnd|"
 msgstr ""

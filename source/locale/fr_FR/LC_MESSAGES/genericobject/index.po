@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPi plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-16 14:42+0100\n"
+"POT-Creation-Date: 2016-12-16 15:11+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Johan Cwiklinski <trasher@x-tnd.be>, 2016\n"
 "Language-Team: French (France) (https://www.transifex.com/teclib/teams/28042/fr_FR/)\n"
@@ -139,29 +139,30 @@ msgstr ""
 
 #: ../../source/genericobject/index.rst:46
 msgid "Install the Plugin"
-msgstr ""
+msgstr "Installer le plugin"
 
 #: ../../source/genericobject/index.rst:48
 msgid "Uncompress the archive."
-msgstr ""
+msgstr "Décompresser l'archive."
 
 #: ../../source/genericobject/index.rst:49
 msgid ""
 "Move the ``genericobject`` directory to the ``<GLPI_ROOT>/plugins`` "
 "directory"
 msgstr ""
+"Déplacer le répertoire ``fields`` dans le répertoire `<GLPI_ROOT>/plugins``."
 
 #: ../../source/genericobject/index.rst:50
 msgid "Navigate to the *Configuration > Plugins* page,"
-msgstr ""
+msgstr "Aller à la page *Configuration > Plugins*,"
 
 #: ../../source/genericobject/index.rst:51
 msgid "Install and activate the plugin."
-msgstr ""
+msgstr "Installer et activer le plugin."
 
 #: ../../source/genericobject/index.rst:54
 msgid "Usage"
-msgstr ""
+msgstr "Utilisation"
 
 #: ../../source/genericobject/index.rst:57
 msgid "Create a new object type"
