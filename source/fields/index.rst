@@ -65,6 +65,10 @@ Adding a new block
 
    You can add only one block of the type `Insertion in the form` for an associated item type.
 
+Inserting a block in a specific tab is only possible for one item:
+
+.. image:: images/new_block_tab.png
+
 Once a block have been created, it is possible to change its label or is active flag, but not its type or associated items list.
 
 Profiles
@@ -157,3 +161,24 @@ A            Yes or No       B           No
 A            Yes             C           Yes
 A            No              C           No
 ============ =============== =========== ===============
+
+Translations
+------------
+
+.. versionadded:: 1.4.0
+
+Plugin itself is translated using `the transifex services <https://www.transifex.com/teclib/glpi-plugin-plugin-fields>`_; but you aslo can translate the label values for blocs and fields; the process is identical on both those ones:
+
+On the block form, choose the *Translations* tab:
+
+.. image:: images/translate_block_label.png
+
+On block creation, a new translation with current language and value set as label will be created; you can add as many translations as you want.
+
+.. image:: images/add_block_label_translation.png
+
+Dropdown values can be translated using the core's dropdown configuration.
+
+.. warning::
+
+   As of GLPi 9.1.1; some issues on the core side prevent dropdown plugin values to be translated; the possibility has been deactivated in the plugin. It will be enabled again once the core has been fixed.
