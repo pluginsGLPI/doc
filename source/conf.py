@@ -192,6 +192,9 @@ html_static_path = ['_static']
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'GLPipluginsdoc'
 
+def setup(app):
+    app.add_stylesheet('glpiplugins.css')
+    app.add_javascript('glpiplugins.js')
 
 # -- Options for LaTeX output ---------------------------------------------
 

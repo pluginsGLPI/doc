@@ -1,0 +1,16 @@
+#glpiplugins-langs {
+    margin-top: .5em;
+}
+
+#glpiplugins-langs dl:first-child {
+    text-align: center;
+}
+
+#glpiplugins-langs dd {
+    display: inline-block;
+    padding: .1em .2em;
+}
+
+#glpiplugins-langs dd a {
+    color: white;
+}
