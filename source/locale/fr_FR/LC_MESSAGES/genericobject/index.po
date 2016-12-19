@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-16 15:11+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Johan Cwiklinski <trasher@x-tnd.be>, 2016\n"
+"Last-Translator: Pierre <plebel@teclib.com>, 2016\n"
 "Language-Team: French (France) (https://www.transifex.com/teclib/teams/28042/fr_FR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -67,75 +67,81 @@ msgstr ""
 
 #: ../../source/genericobject/index.rst:22
 msgid "It supports following GLPI features:"
-msgstr "Il supporte les fonctionnalités suivantes de GLPi:"
+msgstr "Il supporte les fonctionnalités suivantes de GLPi :"
 
 #: ../../source/genericobject/index.rst:24
 msgid "entity and sub-entities management;"
-msgstr "Gestion des Entités et sous-Entités;"
+msgstr "gestion des Entités et sous-Entités ;"
 
 #: ../../source/genericobject/index.rst:25
 msgid "search;"
-msgstr "Recherche;"
+msgstr "recherche ;"
 
 #: ../../source/genericobject/index.rst:26
 msgid "templates;"
-msgstr "Modèles;"
+msgstr "modèles ;"
 
 #: ../../source/genericobject/index.rst:27
 msgid "history;"
-msgstr "Historique;"
+msgstr "historique ;"
 
 #: ../../source/genericobject/index.rst:28
 msgid "helpdesk integration;"
-msgstr ""
+msgstr "intégration dans l'assistance ;"
 
 #: ../../source/genericobject/index.rst:29
 msgid "CSV file injection plugin integration;"
-msgstr ""
+msgstr "intégration dans le plugin d'injection de fichiers CSV :"
 
 #: ../../source/genericobject/index.rst:30
 msgid "Item uninstallation plugin integration;"
-msgstr ""
+msgstr "intégration dans le plugin de désinstallation d'objets ;"
 
 #: ../../source/genericobject/index.rst:31
 msgid "order management plugin integration."
-msgstr ""
+msgstr "intégration dans le plugin de gestion des commandes."
 
 #: ../../source/genericobject/index.rst:34
 msgid "Example of usage"
-msgstr ""
+msgstr "Exemple d'utilisation"
 
 #: ../../source/genericobject/index.rst:36
 msgid "**Objective:** Manage your car fleet like the rest of your IT Assets."
 msgstr ""
+"**Objectif :** gérer votre flotte de véhicules de la même manière que le "
+"reste de votre parc."
 
 #: ../../source/genericobject/index.rst:38
 msgid "Create a new type of inventory object *car*."
-msgstr ""
+msgstr "Créer un nouvel objet d'inventaire de type *véhicule*."
 
 #: ../../source/genericobject/index.rst:39
 msgid ""
 "Add the accurate fields for a *car*, like: *name*, *serial number*, "
 "*inventory number*, *type*, *model*, *color*, *state*, etc."
 msgstr ""
+"Ajouter les champs adéquats pour un *véhicule*, comme : *nom*, *numéro de "
+"série*, *numéro d'inventaire*, *type*, *modèle*, *couleur*, *état*, etc."
 
 #: ../../source/genericobject/index.rst:40
 msgid ""
 "Describe the behaviour of a *car*: visible in subentity, retain history, "
 "etc."
 msgstr ""
+"Décrire le comportement d'un *véhicule* : visible dans les sous entités, "
+"conserver l'historique, etc."
 
 #: ../../source/genericobject/index.rst:41
 msgid "Adjust the rights on *cars*."
-msgstr ""
+msgstr "Ajuster les droits sur *véhicules*."
 
 #: ../../source/genericobject/index.rst:42
 msgid "Activate the *cars* object."
-msgstr ""
+msgstr "Activer l'objet *véhicules*."
 
 #: ../../source/genericobject/index.rst:43
 msgid "Manage your collection of *cars* in GLPI."
-msgstr ""
+msgstr "Gérer votre collection de *véhicules* dans GLPI."
 
 #: ../../source/genericobject/index.rst:46
 msgid "Install the Plugin"
@@ -166,258 +172,281 @@ msgstr "Utilisation"
 
 #: ../../source/genericobject/index.rst:57
 msgid "Create a new object type"
-msgstr ""
+msgstr "Créer un nouveau type d'objet"
 
 #: ../../source/genericobject/index.rst:59
 msgid "This is the first step."
-msgstr ""
+msgstr "Ceci constitue la première étape."
 
 #: ../../source/genericobject/index.rst:61
 msgid "Click on the *+* button in  the plugin configuration form."
 msgstr ""
+"Cliquer sur le bouton *+* dans le formulaire de configuration du plugin."
 
 #: ../../source/genericobject/index.rst:62
 msgid "Create the new type of inventory object:"
-msgstr ""
+msgstr "Créer un nouvel objet de type inventaire :"
 
 #: ../../source/genericobject/index.rst:64
 msgid "*name*: mandatory, lowercase, and must be composed of letters only;"
 msgstr ""
+"nom* : requis, en minuscules, et doit être composé de lettres uniquement ;"
 
 #: ../../source/genericobject/index.rst:65
 msgid "*label*: by default, the same as the name."
-msgstr ""
+msgstr "*libellé* : par défaut, identique au nom."
 
 #: ../../source/genericobject/index.rst:67
 msgid "Validate."
-msgstr ""
+msgstr "Valider."
 
 #: ../../source/genericobject/index.rst:68
 msgid "Activate the new item type to use it."
-msgstr ""
+msgstr "Activer le nouveau type d'objet pour l'utiliser."
 
 #: ../../source/genericobject/index.rst:70
 msgid "**Example:** Create a new type of inventory object *car*."
-msgstr ""
+msgstr "**Exemple :** créer un nouveau type d'objet d'inventaire *véhicule*."
 
 #: ../../source/genericobject/index.rst:73
 msgid "Edit labels"
-msgstr ""
+msgstr "Modifier les libellés"
 
 #: ../../source/genericobject/index.rst:75
 msgid ""
 "For each type, a language file is available in "
 "``<GLPI_ROOT>/files/_plugins/genericobject/locales/itemtype/``"
 msgstr ""
+"Pour chaque type, un fichier de langue est disponible dans "
+"``<GLPI_ROOT>/files/_plugins/genericobject/locales/itemtype/``"
 
 #: ../../source/genericobject/index.rst:77
 msgid "The plugin creates :"
-msgstr ""
+msgstr "Le plugin créé :"
 
 #: ../../source/genericobject/index.rst:79
 msgid "a language file for the current language"
-msgstr ""
+msgstr "un fichier de langue pour la langue courante"
 
 #: ../../source/genericobject/index.rst:80
 msgid "a language file for the default GLPI language"
-msgstr ""
+msgstr "un fichier de langue pour la langue par défaut de GLPI"
 
 #: ../../source/genericobject/index.rst:84
 msgid ""
 "If the current and default languages are the same, only one file is created."
 msgstr ""
+"Si la langue courante et la langue par défaut sont identiques, un seul "
+"fichier sera créé."
 
 #: ../../source/genericobject/index.rst:86
 msgid ""
 "To change the label of the itemtype, for the english language, edit the "
 "file:"
 msgstr ""
+"Pour modifier le libellé du type d'objet, pour la langue anglaise, éditer le"
+" fichier :"
 
 #: ../../source/genericobject/index.rst:95
 msgid "Setup behaviour"
-msgstr ""
+msgstr "Configuration du comportement"
 
 #: ../../source/genericobject/index.rst:97
 msgid ""
 "**Example:** Describe the behaviour of a *car*: visible in subentity, retain"
 " history, etc."
 msgstr ""
+"**Exemple :** décrire le comportement d'un *véhicule* : visible dans les "
+"sous entités, conserver l'historique, etc."
 
 #: ../../source/genericobject/index.rst:99
 msgid ""
 "The new type will be managed the same way as the usual GLPI types (computer,"
 " monitor, network device, etc.)"
 msgstr ""
+"Le nouveau type sera géré de la même manière que les types usuels de GLPI "
+"(ordinateurs, moniteurs, matériels réseau, etc.)"
 
 #: ../../source/genericobject/index.rst:103
 msgid "All objects are at least assigned to an *entity*"
-msgstr ""
+msgstr "Tous les objets sont au moins assignés à une *entité*"
 
 #: ../../source/genericobject/index.rst:105
 msgid "The Behaviour tab allows you to define:"
-msgstr ""
+msgstr "L'onglet comportement vous permet de définir :"
 
 #: ../../source/genericobject/index.rst:107
 msgid "*child-entities:* allows the type to be recursive;"
-msgstr ""
+msgstr "*sous-entités :* autorise le type à être récursif ;"
 
 #: ../../source/genericobject/index.rst:108
 msgid "*Helpdesk:* allows an object to be associated to a ticket;"
-msgstr ""
+msgstr "*Assistance :* autorise l'objet à être associé à un ticket ;"
 
 #: ../../source/genericobject/index.rst:109
 msgid "*Trash:* use GLPI's trash functionnality;"
-msgstr ""
+msgstr "*Corbeille :* utiliser la fonctionnalité corbeille de GLPI ;"
 
 #: ../../source/genericobject/index.rst:110
 msgid "*Notes:* use GLPI's note functionnality;"
-msgstr ""
+msgstr "*Notes :* utiliser la fonctionnalité notes de GLPI ;"
 
 #: ../../source/genericobject/index.rst:111
 msgid "*History:* allow history for this type;"
-msgstr ""
+msgstr "*Historique :* autorise l'historique pour ce type ;"
 
 #: ../../source/genericobject/index.rst:112
 msgid "*Templates:* allows template management;"
-msgstr ""
+msgstr "*Modèles :* autorise la gestion de modèles ;"
 
 #: ../../source/genericobject/index.rst:113
 msgid ""
 "*Documents:* allows documents to be attached to an object of this type;"
-msgstr ""
+msgstr "*Documents :* permet à des documents d'être attachés à ce type ;"
 
 #: ../../source/genericobject/index.rst:114
 msgid "*Loans:* allows objects to be loaned;"
-msgstr ""
+msgstr "*Prêts :* autorise le prêt d'objet ;"
 
 #: ../../source/genericobject/index.rst:115
 msgid "*Contracts:* link an object to one or more contracts;"
-msgstr ""
+msgstr "*Contrats :* lie un objet à un ou plusieurs contrats ;"
 
 #: ../../source/genericobject/index.rst:116
 msgid ""
 "*Network connections:* allow ports to be used and management for this type;"
 msgstr ""
+"*Connexions réseau :* permet l'utilisation et la gestion de ports réseau "
+"pour ce type ;"
 
 #: ../../source/genericobject/index.rst:117
 msgid ""
 "*CSV file injection plugin:* allows this type to be available for use in the"
 " plugin;"
 msgstr ""
+"*Plugin d'injection de fichiers CSV :* permet à ce type d'être disponible "
+"pour utilisation dans le plugin ;"
 
 #: ../../source/genericobject/index.rst:118
 msgid "*Item uninstallation plugin:* allows this type to be uninstalled;"
 msgstr ""
+"*Plugin de désinstallation d'objets :* autorise la désinstallation de ce "
+"type ;"
 
 #: ../../source/genericobject/index.rst:119
 msgid "*Order management plugin:* allows this type to be linked to an order;"
 msgstr ""
+"*Plugin de gestion des commandes :* autorise le lien de ce type à une "
+"commande ;"
 
 #: ../../source/genericobject/index.rst:122
 msgid "Add Fields"
-msgstr ""
+msgstr "Ajouter des champs"
 
 #: ../../source/genericobject/index.rst:124
 msgid ""
 "**Example:** Add the accurate fields for a *car*, like: *name*, *serial "
 "number*, *inventory number*, *type*, *model*, *color*, *state*, etc."
 msgstr ""
+"**Exemple :** ajouter les champs adéquats pour un *véhicule*, comme : *nom*,"
+" *numéro de série*, *numéro d'inventaire*, *type*, *modèle*, *couleur*, "
+"*état*, etc."
 
 #: ../../source/genericobject/index.rst:126
 msgid "Navigate to the *Fields* tab."
-msgstr ""
+msgstr "Aller à l'onglet *Champs*."
 
 #: ../../source/genericobject/index.rst:128
 msgid "The plugin comes with several ready to use fields:"
-msgstr ""
+msgstr "Le plugin est fourni avec plusieurs champs prêts à l'utilisation :"
 
 #: ../../source/genericobject/index.rst:130
 msgid "Name"
-msgstr ""
+msgstr "Nom"
 
 #: ../../source/genericobject/index.rst:131
 msgid "Type"
-msgstr ""
+msgstr "Type"
 
 #: ../../source/genericobject/index.rst:132
 msgid "Model"
-msgstr ""
+msgstr "Modèle"
 
 #: ../../source/genericobject/index.rst:133
 msgid "Serial number"
-msgstr ""
+msgstr "Numéro de série"
 
 #: ../../source/genericobject/index.rst:134
 msgid "Inventory number"
-msgstr ""
+msgstr "Numéro d'inventaire"
 
 #: ../../source/genericobject/index.rst:135
 msgid "Item's user"
-msgstr ""
+msgstr "Utilisateur"
 
 #: ../../source/genericobject/index.rst:136
 msgid "Group"
-msgstr ""
+msgstr "Groupe"
 
 #: ../../source/genericobject/index.rst:137
 msgid "Status"
-msgstr ""
+msgstr "Statut"
 
 #: ../../source/genericobject/index.rst:138
 msgid "Comments"
-msgstr ""
+msgstr "Commentaires"
 
 #: ../../source/genericobject/index.rst:139
 msgid "Notes"
-msgstr ""
+msgstr "Notes"
 
 #: ../../source/genericobject/index.rst:140
 msgid "Location"
-msgstr ""
+msgstr "Emplacement"
 
 #: ../../source/genericobject/index.rst:141
 msgid "Other"
-msgstr ""
+msgstr "Autre"
 
 #: ../../source/genericobject/index.rst:142
 msgid "Manufacturer"
-msgstr ""
+msgstr "Constructeur"
 
 #: ../../source/genericobject/index.rst:143
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: ../../source/genericobject/index.rst:144
 msgid "Creation date"
-msgstr ""
+msgstr "Date de création"
 
 #: ../../source/genericobject/index.rst:145
 msgid "Expiration date"
-msgstr ""
+msgstr "Date d'expiration"
 
 #: ../../source/genericobject/index.rst:146
 msgid "Category"
-msgstr ""
+msgstr "Catégorie"
 
 #: ../../source/genericobject/index.rst:147
 msgid "Visible in Helpdesk"
-msgstr ""
+msgstr "Visible dans l'assistance"
 
 #: ../../source/genericobject/index.rst:148
 msgid "Technician in charge of the hardware"
-msgstr ""
+msgstr "Technicien en charge du matériel"
 
 #: ../../source/genericobject/index.rst:149
 msgid "Domain"
-msgstr ""
+msgstr "Domaine"
 
 #: ../../source/genericobject/index.rst:150
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: ../../source/genericobject/index.rst:151
 msgid "Contact number"
-msgstr ""
+msgstr "Numéro de contact"
 
 #: ../../source/genericobject/index.rst:155
 msgid "Using some behaviour will automatically add some fields to the object:"
