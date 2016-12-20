@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPi plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-16 15:11+0100\n"
+"POT-Creation-Date: 2016-12-20 10:28+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2016\n"
 "Language-Team: Turkish (Turkey) (https://www.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -443,92 +443,112 @@ msgstr "İlgilinin telefonu"
 #: ../../source/genericobject/index.rst:155
 msgid "Using some behaviour will automatically add some fields to the object:"
 msgstr ""
+"Bazı davranışlar kullanıldığında nesneye bazı alanlar otomatik olarak "
+"eklenir:"
 
 #: ../../source/genericobject/index.rst:157
 msgid "network connection => location"
-msgstr ""
+msgstr "ağ bağlantısı => konum"
 
 #: ../../source/genericobject/index.rst:158
 msgid "loans => location"
-msgstr ""
+msgstr "ödünç verme => konum"
 
 #: ../../source/genericobject/index.rst:159
 msgid "helpdesk => is visible in Helpdesk"
-msgstr ""
+msgstr "destek merkezi => destek merkezinde görüntülensin"
 
 #: ../../source/genericobject/index.rst:160
 msgid "notes => notepad"
-msgstr ""
+msgstr "notlar => notepad"
 
 #: ../../source/genericobject/index.rst:163
 msgid "Helpdesk integration"
-msgstr ""
+msgstr "Destek merkezi bütünleştirmesi"
 
 #: ../../source/genericobject/index.rst:165
 msgid "To use an object in the helpdesk, use following setup:"
-msgstr ""
+msgstr "Bir nesneyi destek merkezinde kullanmak için şu ayarları kullanın:"
 
 #: ../../source/genericobject/index.rst:167
 msgid "In *Behaviour* tab : *use helpdesk* must be set to **Yes**."
 msgstr ""
+"*Davranış* sekmesinde: *destek merkezi kullanılsın* seçeneği **Evet** olarak"
+" ayarlanmalıdır."
 
 #: ../../source/genericobject/index.rst:168
 msgid ""
 "if the *User* field is defined, it allows item to be visible in the *My "
 "Items* list (as item whose owner is the user)."
 msgstr ""
+"*Kullanıcı* alanı belirtilmiş ise öge *Ögelerim* listesinde görüntülenir "
+"(ögenin sahibi bu kullanıcı olarak)."
 
 #: ../../source/genericobject/index.rst:169
 msgid ""
 "if the *Group* field is defined, it allows item to be visible in the *My "
 "Items* list too (as item belonging to a group in which the user belongs to)."
 msgstr ""
+"*Grup* alanı belirtilmiş ise öge gene *Ögelerim* listesinde görüntülenir "
+"(öge kullanıcının bulunduğu gruba ait olduğundan)."
 
 #: ../../source/genericobject/index.rst:170
 msgid ""
 "if *Helpdesk visible* field is set and if the value is set to **No** in the "
 "object, then the object won't be visible at all in the helpdesk."
 msgstr ""
+"*Destek Merkezinde Görüntülensin* alanı ayarlanmış ve değeri **Hayır** ise "
+"nesne destek merkezinde görüntülenmez."
 
 #: ../../source/genericobject/index.rst:173
 msgid "Add new fields"
-msgstr ""
+msgstr "Yeni alanlar ekle"
 
 #: ../../source/genericobject/index.rst:177
 msgid "New fields will be available for all object's types."
 msgstr ""
+"Bu seçenek etkinleştirildiğinde, yeni alanlar tüm nesne türleri için "
+"kullanılabilir."
 
 #: ../../source/genericobject/index.rst:179
 msgid ""
 "Create a new file named "
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/<type>.constant.php``"
 msgstr ""
+"``<GLPI_ROOT>/files/_plugins/genericobject/fields/<type>.constant.php`` "
+"adında yeni bir dosya oluşturun"
 
 #: ../../source/genericobject/index.rst:181
 msgid ""
 "For example, for a *car* type the constant file will be "
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/car.constant.php``."
 msgstr ""
+"Örneğin *arac* türü için sabit dosyası "
+"``<GLPI_ROOT>/files/_plugins/genericobject/fields/arac.constant.php`` "
+"şeklinde olur."
 
 #: ../../source/genericobject/index.rst:183
 msgid ""
 "Please note that the file's first line must be the following, otherwise the "
 "new fields won't appear in the list:"
 msgstr ""
+"Lütfen dosyanın ilk satırının şu şekilde olduğundan emin olun. Yoksa yeni "
+"alanlar listede görüntülenmez:"
 
 #: ../../source/genericobject/index.rst:190
 msgid "Add the new fields definitions."
-msgstr ""
+msgstr "Yeni alan tanımlarını ekle."
 
 #: ../../source/genericobject/index.rst:193
 msgid "Add a simple dropdown field"
-msgstr ""
+msgstr "Basit bir açılan kutu alanı ekle"
 
 #: ../../source/genericobject/index.rst:204
 msgid ""
 "The language variable must be defined in the language file (see explaination"
 " above)."
 msgstr ""
+"Dil dosyasında dil değişkeni tanımlanmalıdır (yukarıdaki açıklamaya bakın)."
 
 #: ../../source/genericobject/index.rst:206
 msgid "Add a dropdown field that is assigned to an entity:"
@@ -683,4 +703,4 @@ msgstr ""
 
 #: ../../source/genericobject/index.rst:362
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"
