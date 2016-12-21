@@ -451,117 +451,145 @@ msgstr "Numéro de contact"
 #: ../../source/genericobject/index.rst:155
 msgid "Using some behaviour will automatically add some fields to the object:"
 msgstr ""
+"L'utilisation de certains comportement entraînera l'ajout automatique de "
+"champs dans l'objet :"
 
 #: ../../source/genericobject/index.rst:157
 msgid "network connection => location"
-msgstr ""
+msgstr "connexion réseau => emplacement"
 
 #: ../../source/genericobject/index.rst:158
 msgid "loans => location"
-msgstr ""
+msgstr "prêts => emplacement"
 
 #: ../../source/genericobject/index.rst:159
 msgid "helpdesk => is visible in Helpdesk"
-msgstr ""
+msgstr "assistance => visible dans l'assistance"
 
 #: ../../source/genericobject/index.rst:160
 msgid "notes => notepad"
-msgstr ""
+msgstr "notes => notepad"
 
 #: ../../source/genericobject/index.rst:163
 msgid "Helpdesk integration"
-msgstr ""
+msgstr "Intégration assistance"
 
 #: ../../source/genericobject/index.rst:165
 msgid "To use an object in the helpdesk, use following setup:"
 msgstr ""
+"Pour utiliser un objet dans l'assistance, utiliser la configuration suivante"
+" :"
 
 #: ../../source/genericobject/index.rst:167
 msgid "In *Behaviour* tab : *use helpdesk* must be set to **Yes**."
 msgstr ""
+"Dans l'onglet *Comportement* : *utiliser l'assistance* doit être défini à "
+"**Oui**."
 
 #: ../../source/genericobject/index.rst:168
 msgid ""
 "if the *User* field is defined, it allows item to be visible in the *My "
 "Items* list (as item whose owner is the user)."
 msgstr ""
+"Si le champ *Utilisateur* est défini, l'objet sera visible dans la liste "
+"*Mes objets* (comme un objet dont l'utilisateur est propriétaire)."
 
 #: ../../source/genericobject/index.rst:169
 msgid ""
 "if the *Group* field is defined, it allows item to be visible in the *My "
 "Items* list too (as item belonging to a group in which the user belongs to)."
 msgstr ""
+"Si le champ *Groupe* est défini, l'objet sera visible dans la liste *Mes "
+"objets* également (comme un objet dont le propriétaire est un groupe auquel "
+"l'utilisateur appartient)."
 
 #: ../../source/genericobject/index.rst:170
 msgid ""
 "if *Helpdesk visible* field is set and if the value is set to **No** in the "
 "object, then the object won't be visible at all in the helpdesk."
 msgstr ""
+"Si le champ *Assistance visible* est défini et que sa valeur est à **Non** "
+"dans l'objet, ce objet ne sera pas visible du tout dans l'assistance."
 
 #: ../../source/genericobject/index.rst:173
 msgid "Add new fields"
-msgstr ""
+msgstr "Ajouter de nouveaux champs"
 
 #: ../../source/genericobject/index.rst:177
 msgid "New fields will be available for all object's types."
-msgstr ""
+msgstr "Les nouveaux champs seront disponibles pour tous les types d'objets."
 
 #: ../../source/genericobject/index.rst:179
 msgid ""
 "Create a new file named "
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/<type>.constant.php``"
 msgstr ""
+"Créer un nouveau fichier nommé "
+"``<GLPI_ROOT>/files/_plugins/genericobject/fields/<type>.constant.php``"
 
 #: ../../source/genericobject/index.rst:181
 msgid ""
 "For example, for a *car* type the constant file will be "
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/car.constant.php``."
 msgstr ""
+"Par exemple, pour un type *véhicule* le fichier de constantes sera "
+"``<GLPI_ROOT>/files/_plugins/genericobject/fields/car.constant.php``."
 
 #: ../../source/genericobject/index.rst:183
 msgid ""
 "Please note that the file's first line must be the following, otherwise the "
 "new fields won't appear in the list:"
 msgstr ""
+"Notez que la première ligne du fichier doit être la suivante, sans quoi les "
+"nouveaux champs n'apparaîtront pas dans la liste :"
 
 #: ../../source/genericobject/index.rst:190
 msgid "Add the new fields definitions."
-msgstr ""
+msgstr "Ajouter les nouvelles définitions de champs."
 
 #: ../../source/genericobject/index.rst:193
 msgid "Add a simple dropdown field"
-msgstr ""
+msgstr "Ajouter un champ liste déroulante simple"
 
 #: ../../source/genericobject/index.rst:204
 msgid ""
 "The language variable must be defined in the language file (see explaination"
 " above)."
 msgstr ""
+"La variable de langue doit être définie dans le fichier de langues (voir les"
+" explications ci-dessus)."
 
 #: ../../source/genericobject/index.rst:206
 msgid "Add a dropdown field that is assigned to an entity:"
-msgstr ""
+msgstr "Ajouter un champ liste déroulante qui est assigné à une entité :"
 
 #: ../../source/genericobject/index.rst:220
 msgid "Add a tree dropdown field"
-msgstr ""
+msgstr "Ajouter un champ liste déroulante hiérarchique"
 
 #: ../../source/genericobject/index.rst:233
 msgid ""
 "You can use at the same time the following parameters : *entities_id*, "
 "*is_recursive*, *is_tree*."
 msgstr ""
+"Vous pouvez utiliser en même temps les paramètres suivants : *entities_id*, "
+"*is_recursive*, *is_tree*."
 
 #: ../../source/genericobject/index.rst:236
 msgid ""
 "Add a dropdown field that is based on a GLPI-core object (user, location...)"
 msgstr ""
+"Ajout d'un champ liste déroulante basé sur les objets du coeur de GLPI "
+"(utilisateur, emplacement, ...)"
 
 #: ../../source/genericobject/index.rst:246
 msgid ""
 "Name between brackets (``[]``) **MUST** begin with ``users_id`` in order to "
 "be recognized as a field based on GLPI users' list."
 msgstr ""
+"Les noms entre crochets (``[]``) **DOIVENT** commencer par ``users_id`` pour"
+" être reconnus comme étant des champs basés sur la liste des utilisateurs de"
+" GLPI."
 
 #: ../../source/genericobject/index.rst:248
 msgid ""
@@ -569,125 +597,145 @@ msgid ""
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/field.constant.php`` to "
 "get a complete list of available fields."
 msgstr ""
+"Voir le fichier "
+"``<GLPI_ROOT>/files/_plugins/genericobject/fields/field.constant.php`` pour "
+"une liste complète des champs disponibles."
 
 #: ../../source/genericobject/index.rst:251
 msgid "Add a global dropdown"
-msgstr ""
+msgstr "Ajouter une liste déroulante globale"
 
 #: ../../source/genericobject/index.rst:253
 msgid ""
 "A global dropdown can be used in all itemtypes. A good example would be :"
 msgstr ""
+"Une liste déroulante globale peut être utilisée dans tous les types "
+"d'objets. Un bon exemple serait :"
 
 #: ../../source/genericobject/index.rst:262
 msgid ""
 "A specific category table will be created for each itemtype. The table name "
 "and field name will the computed this way:"
 msgstr ""
+"Une table pour les catégorie spécifique sera  créée pour chaque type "
+"d'objet. Le nom de la table et le nom du champ seront concaténés de cette "
+"manière :"
 
 #: ../../source/genericobject/index.rst:264
 msgid "table : ``glpi_plugin_genericobject_<itemtypename>_category``"
-msgstr ""
+msgstr "table : ``glpi_plugin_genericobject_<itemtypename>_category``"
 
 #: ../../source/genericobject/index.rst:265
 msgid "field name : ``plugin_genericobject_<itemtype>categories_id``"
-msgstr ""
+msgstr "nom du champ : ``plugin_genericobject_<itemtype>categories_id``"
 
 #: ../../source/genericobject/index.rst:268
 msgid "Add an integer field"
-msgstr ""
+msgstr "Ajouter un champ entier"
 
 #: ../../source/genericobject/index.rst:280
 msgid "Add a text field"
-msgstr ""
+msgstr "Ajouter un champ texte"
 
 #: ../../source/genericobject/index.rst:290
 msgid ""
 "By adding the following argument, you can tell the plugin that this field "
 "can be automatically generated when using a template:"
 msgstr ""
+"En ajoutant l'argument suivant, vous indiquerez au plugin que ce champ peut "
+"être généré automatiquement en utilisant un modèle :"
 
 #: ../../source/genericobject/index.rst:298
 msgid "Add a Yes/No field"
-msgstr ""
+msgstr "Ajouter un champ Oui/Non"
 
 #: ../../source/genericobject/index.rst:307
 msgid "Add a date field"
-msgstr ""
+msgstr "Ajouter un champ date"
 
 #: ../../source/genericobject/index.rst:316
 msgid "Add a date & time field"
-msgstr ""
+msgstr "Ajouter un champ date et heure"
 
 #: ../../source/genericobject/index.rst:326
 msgid ""
 "If you don't want a field to be modified using massive actions, add the "
 "following line to its definition:"
 msgstr ""
+"Si vous ne souhaitez pas que le champ puisse être modifié en utilisant une "
+"action de masse, ajouter la ligne suivante à sa définition :"
 
 #: ../../source/genericobject/index.rst:334
 msgid "Add global fields"
-msgstr ""
+msgstr "Ajouter des champs globaux"
 
 #: ../../source/genericobject/index.rst:336
 msgid "To make your fields accessible to all itemtypes:"
-msgstr ""
+msgstr "Pour rendre vos champs accessibles depuis tous les types d'objets :"
 
 #: ../../source/genericobject/index.rst:338
 msgid ""
 "Create a file named "
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/field.constant.php``"
 msgstr ""
+"Créer un fichier nommé "
+"``<GLPI_ROOT>/files/_plugins/genericobject/fields/field.constant.php``"
 
 #: ../../source/genericobject/index.rst:339
 msgid "Put your definitions in this file."
-msgstr ""
+msgstr "Ajouter les définitions dans ce fichier."
 
 #: ../../source/genericobject/index.rst:342
 msgid "Setup Rights"
-msgstr ""
+msgstr "Configurer les droits"
 
 #: ../../source/genericobject/index.rst:344
 msgid ""
 "You can define access rights for each object's type, for each profile. "
 "Available options are:"
 msgstr ""
+"Vous pouvez définir des droits d'accès pour chaque type d'objet, pour chaque"
+" profil. Les options disponibles sont :"
 
 #: ../../source/genericobject/index.rst:346
 msgid "*right on the type*: *no access*, *read*, *write*."
-msgstr ""
+msgstr "*droits sur le type* : *pas d'accès*, *lecture*, *écriture*."
 
 #: ../../source/genericobject/index.rst:347
 msgid "*right to associate this type of object to tickets*: *yes*, *no*."
-msgstr ""
+msgstr "*droits pour associer ce type d'objet aux tickets* : *oui*, *non*."
 
 #: ../../source/genericobject/index.rst:349
 msgid "To associate the rights you can either:"
-msgstr ""
+msgstr "Pour associer les droits, vous pouvez au choix :"
 
 #: ../../source/genericobject/index.rst:351
 msgid "Use the *Rights* tab in the *itemtype* form."
-msgstr ""
+msgstr "Utiliser l'onglet *Droits* dans le formulaire du *type d'objet*."
 
 #: ../../source/genericobject/index.rst:352
 msgid ""
 "Navigate to *Administration > Profiles* and administer the rights for each "
 "profile."
 msgstr ""
+"Aller dans *Administration > Profils* pour administrer les droits de chaque "
+"profil."
 
 #: ../../source/genericobject/index.rst:355
 msgid "Use the new field"
-msgstr ""
+msgstr "Utiliser le nouveau champ"
 
 #: ../../source/genericobject/index.rst:357
 msgid "Activate the new type, it's now ready to be used."
-msgstr ""
+msgstr "Activer le nouveau type, il est désormais prêt à être utilisé."
 
 #: ../../source/genericobject/index.rst:359
 msgid ""
 "The new type is available for users in the *Plugins > Objects management* "
 "menu."
 msgstr ""
+"Le nouveau type ets disponible pour les utilisateurs depuis le menu *Plugins"
+" > Gestion d'objets*."
 
 #: ../../source/genericobject/index.rst:362
 msgid "|ccbyncnd|"
