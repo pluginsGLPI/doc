@@ -552,28 +552,34 @@ msgstr ""
 
 #: ../../source/genericobject/index.rst:206
 msgid "Add a dropdown field that is assigned to an entity:"
-msgstr ""
+msgstr "Bir varlığa atanmış bir açılan kutu alanı ekle:"
 
 #: ../../source/genericobject/index.rst:220
 msgid "Add a tree dropdown field"
-msgstr ""
+msgstr "Bir açılan ağaç alanı ekle"
 
 #: ../../source/genericobject/index.rst:233
 msgid ""
 "You can use at the same time the following parameters : *entities_id*, "
 "*is_recursive*, *is_tree*."
 msgstr ""
+"Aynı zamanda şu parametreleri de kullanabilirsiniz: *entities_id*, "
+"*is_recursive*, *is_tree*."
 
 #: ../../source/genericobject/index.rst:236
 msgid ""
 "Add a dropdown field that is based on a GLPI-core object (user, location...)"
 msgstr ""
+"GLPI çekirdek nesnesi temelli bir açılan kutu alanı ekle (kullanıcı, "
+"konum...):"
 
 #: ../../source/genericobject/index.rst:246
 msgid ""
 "Name between brackets (``[]``) **MUST** begin with ``users_id`` in order to "
 "be recognized as a field based on GLPI users' list."
 msgstr ""
+"Köşeli parantez içindeki adlar (``[]``) GLPI kullanıcı listesinde bir alan "
+"olarak değerlendirilmesi için ``users_id`` ile **BAŞLAMALIDIR**."
 
 #: ../../source/genericobject/index.rst:248
 msgid ""
@@ -581,125 +587,145 @@ msgid ""
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/field.constant.php`` to "
 "get a complete list of available fields."
 msgstr ""
+"Kullanılabilecek alanların tam listesini "
+"``<GLPI_ROOT>/files/_plugins/genericobject/fields/field.constant.php`` "
+"dosyasından görebilirsiniz."
 
 #: ../../source/genericobject/index.rst:251
 msgid "Add a global dropdown"
-msgstr ""
+msgstr "Genel açılan kutu ekle"
 
 #: ../../source/genericobject/index.rst:253
 msgid ""
 "A global dropdown can be used in all itemtypes. A good example would be :"
 msgstr ""
+"Tüm öge türleri için genel bir açılan kutu kullanılabilir. İyi bir örnek "
+"şöyle olabilir:"
 
 #: ../../source/genericobject/index.rst:262
 msgid ""
 "A specific category table will be created for each itemtype. The table name "
 "and field name will the computed this way:"
 msgstr ""
+"Her öge türü için özel bir kategori tablosu oluşturulur. Tablo adı ve alan "
+"adı şu şekilde belirlenir:"
 
 #: ../../source/genericobject/index.rst:264
 msgid "table : ``glpi_plugin_genericobject_<itemtypename>_category``"
-msgstr ""
+msgstr "tablo : ``glpi_plugin_genericobject_<itemtypename>_category``"
 
 #: ../../source/genericobject/index.rst:265
 msgid "field name : ``plugin_genericobject_<itemtype>categories_id``"
-msgstr ""
+msgstr "alan adı : ``plugin_genericobject_<itemtype>categories_id``"
 
 #: ../../source/genericobject/index.rst:268
 msgid "Add an integer field"
-msgstr ""
+msgstr "Bir tamsayı alanı ekle"
 
 #: ../../source/genericobject/index.rst:280
 msgid "Add a text field"
-msgstr ""
+msgstr "Bir metin alanı ekle"
 
 #: ../../source/genericobject/index.rst:290
 msgid ""
 "By adding the following argument, you can tell the plugin that this field "
 "can be automatically generated when using a template:"
 msgstr ""
+"Şu argümanı ekleyerek, uygulama ekine bir kalıpta kullanıldığında bu alanın "
+"otomatik olarak üretileceğini söylemiş olursunuz:"
 
 #: ../../source/genericobject/index.rst:298
 msgid "Add a Yes/No field"
-msgstr ""
+msgstr "Bir Evet/Hayır alanı ekle"
 
 #: ../../source/genericobject/index.rst:307
 msgid "Add a date field"
-msgstr ""
+msgstr "Bir tarih alanı ekle"
 
 #: ../../source/genericobject/index.rst:316
 msgid "Add a date & time field"
-msgstr ""
+msgstr "Bir tarih ve saat alanı ekle"
 
 #: ../../source/genericobject/index.rst:326
 msgid ""
 "If you don't want a field to be modified using massive actions, add the "
 "following line to its definition:"
 msgstr ""
+"Bir alanın toplu işlemlerden etkilenmesini istemiyorsanız tanımına şu satırı"
+" ekleyin:"
 
 #: ../../source/genericobject/index.rst:334
 msgid "Add global fields"
-msgstr ""
+msgstr "Genel alanlar ekle"
 
 #: ../../source/genericobject/index.rst:336
 msgid "To make your fields accessible to all itemtypes:"
-msgstr ""
+msgstr "Alanlarınızın tüm öge türleri tarafından kullanılabilmesi için:"
 
 #: ../../source/genericobject/index.rst:338
 msgid ""
 "Create a file named "
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/field.constant.php``"
 msgstr ""
+"``<GLPI_ROOT>/files/_plugins/genericobject/fields/field.constant.php`` "
+"adında bir dosya oluşturun"
 
 #: ../../source/genericobject/index.rst:339
 msgid "Put your definitions in this file."
-msgstr ""
+msgstr "Tanımlarınızı bu dosya içine ekleyin."
 
 #: ../../source/genericobject/index.rst:342
 msgid "Setup Rights"
-msgstr ""
+msgstr "Kurulum İzinleri"
 
 #: ../../source/genericobject/index.rst:344
 msgid ""
 "You can define access rights for each object's type, for each profile. "
 "Available options are:"
 msgstr ""
+"Her profil için her bir nesne türüne göre erişim izinleri tanımlanabilir. Şu"
+" seçenekler kullanılabilir:"
 
 #: ../../source/genericobject/index.rst:346
 msgid "*right on the type*: *no access*, *read*, *write*."
-msgstr ""
+msgstr "*tür izni*: *erişilemez*, *okuma*, *yazma*."
 
 #: ../../source/genericobject/index.rst:347
 msgid "*right to associate this type of object to tickets*: *yes*, *no*."
 msgstr ""
+"*bu nesne türünü destek kayıtları ile ilişkilendirme izni*: *evet*, *hayır*"
 
 #: ../../source/genericobject/index.rst:349
 msgid "To associate the rights you can either:"
-msgstr ""
+msgstr "İzinleri atamak için şunları yapabilirsiniz:"
 
 #: ../../source/genericobject/index.rst:351
 msgid "Use the *Rights* tab in the *itemtype* form."
-msgstr ""
+msgstr "*Öge türü* formundaki *İzinler* sekmesini kullanın."
 
 #: ../../source/genericobject/index.rst:352
 msgid ""
 "Navigate to *Administration > Profiles* and administer the rights for each "
 "profile."
 msgstr ""
+"*Yönetim > Profiller* bölümüne gidin ve her bir profil için izinleri "
+"ayarlayın."
 
 #: ../../source/genericobject/index.rst:355
 msgid "Use the new field"
-msgstr ""
+msgstr "Yeni alanı kullanın"
 
 #: ../../source/genericobject/index.rst:357
 msgid "Activate the new type, it's now ready to be used."
-msgstr ""
+msgstr "Yeni türü etkinleştirin ve kullanmaya başlayın."
 
 #: ../../source/genericobject/index.rst:359
 msgid ""
 "The new type is available for users in the *Plugins > Objects management* "
 "menu."
 msgstr ""
+"Kullanıcılar yeni türü *Uygulama Ekleri > Nesne Yönetimi* menüsünden "
+"kullanabilir."
 
 #: ../../source/genericobject/index.rst:362
 msgid "|ccbyncnd|"

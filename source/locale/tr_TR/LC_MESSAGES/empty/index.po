@@ -254,6 +254,8 @@ msgid ""
 "GLPi and its plugins use gettext for internationnalization. Several steps "
 "are required before that can work:"
 msgstr ""
+"GLPI ve uygulama eklerinin dil çevirileri için gettext kullanılır. "
+"Çevirilerin doğru çalışması için bir kaç adım gereklidir:"
 
 #: ../../source/empty/index.rst:101
 msgid ""
@@ -262,6 +264,11 @@ msgid ""
 "updated from the ``POT`` file, 3 ``PO`` files must be translated, 4 ``MO`` "
 "files must be compiled from the latest ``PO``."
 msgstr ""
+"1. Kaynak dosyalarından çevrilebilecek dizgeler ayıklanarak bir ``POT`` "
+"dosyası oluşturulmalı ya da güncellenmelidir. 2. Güncellenen ``POT`` dosyası"
+" kullanılarak ``PO``dosyaları oluşturulmalı ya da güncellenmelidir. 3. "
+"``PO`` dosyalarının çevirisi yapılmalıdır. 4. Güncel ``PO`` dosyası "
+"kullanılarak ``MO`` dosyaları derlenmelidir."
 
 #: ../../source/empty/index.rst:106
 msgid ""
@@ -269,12 +276,17 @@ msgid ""
 "This is designed to extract translatable strings from your source code (see "
 "first point above)."
 msgstr ""
+"``Tools`` klasöründe bulabileceğiniz ``extract_template.sh`` betiği ile "
+"kaynak kodunuzdaki çevrilebilecek dizgeleri ayıklayabilirsiniz (yukarıdaki "
+"birinci adım)."
 
 #: ../../source/empty/index.rst:108
 msgid ""
 "Once it has been ran, a ``locale/mygreatplugin.pot`` file will be "
 "created/updated."
 msgstr ""
+"Bu betik çalıştırıldığında ``locale/uygulamaekim.pot`` dosyası oluşturulur "
+"ya da güncellenir."
 
 #: ../../source/empty/index.rst:110
 msgid ""
@@ -285,6 +297,12 @@ msgid ""
 "`Zanata <http://zanata.org/>`_. GLPi core and many of existing plugins are "
 "translated using Transifex right now."
 msgstr ""
+"İkinci ve üçüncü adımlar için bir seçim yapmanız gerekir.  ``PO`` "
+"dosyalarınızı güncellemek ve çevirmek için `poedit <https://poedit.net/>`_; "
+"gibi gettext araçlarını kullanabileceğiniz gibi`Transifex "
+"<http://transifex.com/>`_ ya da `Zanata <http://zanata.org/>`_ gibi "
+"çevrimiçi çeviri sistemlerinden yararlanabilirsiniz. Şu anda Transifex "
+"üzerinde GLPi çekirdeği ve çoğu uygulama ekinin çevirileri bulunmaktadır."
 
 #: ../../source/empty/index.rst:112
 msgid ""
@@ -292,6 +310,9 @@ msgid ""
 "``MO`` files. You can run it manually, the release script will compile them "
 "again anywways; see the :ref:`compiling MO files section <compile_mo>`."
 msgstr ""
+"``PO`` dosyalarınızı güncelledikten sonra ``MO`` dosyalarını derlemelisiniz."
+" Bu işlemi el ile yapabilirsiniz. Yayınlama betiği bu dosyaları her durumda "
+"yeniden derler.  :ref:`MO dosyalarını derlemek bölümüne <compile_mo>` bakın."
 
 #: ../../source/empty/index.rst:117
 msgid "Release script"
@@ -303,12 +324,17 @@ msgid ""
 "`Python <http://python.org>`_ script; you should just have Python installed "
 "on your system (this is instaleld by defautl on most linux distributions)."
 msgstr ""
+"``tools/release`` klasöründe bir yayınlama betiği bulunur. \"Basit\" `bir "
+"Python <http://python.org>`_ betiğidir. Sisteminizde Python yüklü olmalıdır "
+"(çoğu linux dağıtımında varsyaılan olarak yüklüdür)."
 
 #: ../../source/empty/index.rst:121
 msgid ""
 "Using just the defaults, the script will try to retrieve the latest tag in "
 "your git repository, and will propose you to release it:"
 msgstr ""
+"Yalnız varsayılan değerler kullanıldığında betik git deponuzdaki son etiketi"
+" almayı ve yayın sürümünüzü belirlemeyi dener:"
 
 #: ../../source/empty/index.rst:134
 msgid "Requirements"
@@ -318,7 +344,7 @@ msgstr "Gereksinimler"
 msgid ""
 "You will need a python interpreter installed as well as the following "
 "modules:"
-msgstr "Python derleyici ile şu modüllerin yüklenmiş olması gerekir:"
+msgstr "Python derleyicinin şu modüller ile yüklenmiş olması gerekir:"
 
 #: ../../source/empty/index.rst:138
 msgid "`termcolor <https://pypi.python.org/pypi/termcolor>`_,"
@@ -347,21 +373,23 @@ msgstr ""
 
 #: ../../source/empty/index.rst:145
 msgid "Process"
-msgstr ""
+msgstr "Süreç"
 
 #: ../../source/empty/index.rst:147
 msgid "The release process will achieve the following tasks for you:"
-msgstr ""
+msgstr "Yayınlama sürecinde şu işlemler yapılır:"
 
 #: ../../source/empty/index.rst:149
 msgid "check if the version constant is the same as the tag you've requested;"
-msgstr ""
+msgstr "sürüm sabitinin istediğiniz etiket ile aynı olup olmadığı denetlenir;"
 
 #: ../../source/empty/index.rst:150
 msgid ""
 "check if the version in the website XML file is the same as the tag you've "
 "requested;"
 msgstr ""
+"web sitesi XML dosyası sürümünün istediğiniz etiket ile aynı olup olmadığı "
+"denetlenir;"
 
 #: ../../source/empty/index.rst:151
 msgid ""
@@ -369,36 +397,45 @@ msgid ""
 "project is hosted in the *pluginsGLPI* organization and the release is "
 "public);"
 msgstr ""
+"yerel ve uzak (projenizin *pluginsGLPI* kuruluşunda yayınlandığı ve herkese "
+"açık olarak yayınlandığı varsayılarak) bir sürümün varolup olmadığı "
+"denetlenir;"
 
 #: ../../source/empty/index.rst:152
 msgid ""
 "make a `git archive` of the paths that are not excluded (``.git``, "
 "``tools``, ``tests``, ...);"
 msgstr ""
+"devre dışı bırakılmamış yolların `git arşivi` of oluşturulur (``.git``, "
+"``tools``, ``tests``, ...);"
 
 #: ../../source/empty/index.rst:153
 msgid "if any, install composer dependencies;"
-msgstr ""
+msgstr "varsa derleyici bağımlılıkları yüklenir;"
 
 #: ../../source/empty/index.rst:154
 msgid "if any, compile you ``MO`` files;"
-msgstr ""
+msgstr "varsa, ``MO`` dosyaları derlenir;"
 
 #: ../../source/empty/index.rst:155
 msgid ""
 "if any, compile you CSS stylesheets and your Javascript files (using "
 "`Robo.li <http://robo.li>`_);"
 msgstr ""
+"varsa, CSS stil sayfaları ve JavaScript dosyaları derlenir (`Robo.li "
+"<http://robo.li>` kullanılarak_);"
 
 #: ../../source/empty/index.rst:156
 msgid ""
 "create a release archive with all that; that will be available in the "
 "``dist`` directory;"
 msgstr ""
+"tüm bunlardan bir yayın arşivi derlenerek  `Robo.li <http://robo.li>`_  "
+"``dist`` klasörüne eklenir;"
 
 #: ../../source/empty/index.rst:157
 msgid "use GPG to sign the archive."
-msgstr ""
+msgstr "Arşivi imzalamak için GPG kullanın."
 
 #: ../../source/empty/index.rst:161
 msgid ""
@@ -407,10 +444,14 @@ msgid ""
 " :ref:`MO compiling option <compile_mo>` and the :ref:`minify option "
 "<minify>`."
 msgstr ""
+"Standart yayınlama sürecinde doğrudan dosyalarınız üzerinde çalışılmaz. "
+"Dosyalar önce ``dist/src`` klasörüne kopyalanır. Bu işlemin yapılmadığ "
+"durumlar :ref:`MO derleme seçeneği <compile_mo>` ve the :ref:`küçültme "
+"seçeneğidir <minify>`."
 
 #: ../../source/empty/index.rst:166
 msgid "Compiling MO files"
-msgstr ""
+msgstr "MO dosyalarının derlenmesi"
 
 #: ../../source/empty/index.rst:168
 msgid ""
@@ -419,16 +460,24 @@ msgid ""
 "contain the latests ``MO`` files, for testing purposes. The release script "
 "provide the ``--compile-mo`` (or ``-m``) to achieve that:"
 msgstr ""
+"Yayınlama sürecinde ``locales`` klasöründeki her ``PO`` dosyası otomatik "
+"olarak derlenir. Ancak büyük olasılıkla deneme amacıyla kaynak kodlarında "
+"son ``MO`` dosyalarının bulunmasını istersiniz. Yayınlama betiğinde bu "
+"işlemi gerçekleştirmek için ``--compile-mo`` (ya da  ``-m``) seçeneği "
+"sunulur:"
 
 #: ../../source/empty/index.rst:176
 msgid ""
 "The above command will work on your plugins files directly; not on a copy as"
 " does other commands but :ref:`minify <minify>`."
 msgstr ""
+"Yukarıdaki diğer komutlar gibi uygulama eki dosyalarınızın kopyaları "
+"üzerinde değil, :ref:`minify <minify>` gibi doğrudan dosyalarınız üzerinde "
+"çalışır."
 
 #: ../../source/empty/index.rst:181
 msgid "Minifying"
-msgstr ""
+msgstr "Küçültme"
 
 #: ../../source/empty/index.rst:183
 msgid ""
@@ -438,16 +487,24 @@ msgid ""
 "minified. The release script provide the ``--minify`` (or ``-M``) to achieve"
 " that:"
 msgstr ""
+"Yayınlama sürecinde ``css`` klasöründeki her CSS stil sayfası dosyası ve "
+"``js`` klasöründeki her javascript dosyası otomatik olarak küçültülür. Ancak"
+" büyük olasılıkla deneme amacıyla küçültülmelerini istersiniz. Yayınlama "
+"betiğinde bu işlemi gerçekleştirmek için ``--minify`` (ya da  ``-M``) "
+"seçeneği sunulur:"
 
 #: ../../source/empty/index.rst:191
 msgid ""
 "The above command will work on your plugins files directly; not on a copy as"
 " does other commands but :ref:`compiling mo <compile_mo>`."
 msgstr ""
+"Yukarıdaki diğer komutlar gibi uygulama eki dosyalarınızın kopyaları "
+"üzerinde değil, :ref:`compiling mo <compile_mo>` gibi doğrudan dosyalarınız "
+"üzerinde çalışır."
 
 #: ../../source/empty/index.rst:195
 msgid "Pre-releases"
-msgstr ""
+msgstr "Ön yayınlar"
 
 #: ../../source/empty/index.rst:197
 msgid ""
@@ -455,36 +512,46 @@ msgid ""
 "release should have its own tag; but you may want to create a release "
 "archive without any tags in some circumstances."
 msgstr ""
+"Varsayılan olarak yayınlama betiği yalnız varolan etiketler üzerinde "
+"çalışır. Hehrangi bir ön yayının kendi etiketi olmalıdır. Ancak bazı "
+"durumlarda herhangi bir etiketi olmayan bir yayın arşivi oluşturmak "
+"isteyebilirsiniz."
 
 #: ../../source/empty/index.rst:199
 msgid ""
 "In order to tell the release script what it should archive, you'll have to "
 "specify several parameters:"
 msgstr ""
+"Yayınlama betiğinde bu işlemi gerçekleştirmek için bir kaç parametre "
+"belirtmeniz gerekir:"
 
 #: ../../source/empty/index.rst:201
 msgid "``--commit`` (or ``-c``) giving the commit hash,"
-msgstr ""
+msgstr "``--commit`` (ya da ``-c``) commit karmasını verir,"
 
 #: ../../source/empty/index.rst:202
 msgid ""
 "``--release`` (or ``-r``) giving the release version (usually, it will be "
 "the next release version),"
 msgstr ""
+"``--release`` (ya da ``-r``) yayın sürümünü verir (genellikle bir sonraki "
+"yayın sürümüdür),"
 
 #: ../../source/empty/index.rst:203
 msgid ""
 "``--extra`` (or ``-e``) to specify an extra string (such as *alpha*, *beta*,"
 " *rc1*, etc...)"
 msgstr ""
+"``--extra`` (ya da ``-e``) ek bir dizge belirtmek için kullanılır (*alpha*, "
+"*beta*, *rc1* gibi)"
 
 #: ../../source/empty/index.rst:205
 msgid "As an example with the *order* plugin:"
-msgstr ""
+msgstr "Örnek olarak *sipariş* uygulama eki için:"
 
 #: ../../source/empty/index.rst:214
 msgid "Signing releases"
-msgstr ""
+msgstr "Sürümleri imzalamak"
 
 #: ../../source/empty/index.rst:216
 msgid ""
@@ -493,28 +560,39 @@ msgid ""
 "users; the sign option is activated per default, you can deactivate using "
 "the ``--nosign`` (or ``-S``) option."
 msgstr ""
+"Yayın sürümlerinin GPG anahtarı ile imzalanması kullanıcıların yüklemeden "
+"önce indirdikleri dosyanın sorunsuz olduğunu anlamalarını sağlar. Bu işlem "
+"için herkese açık olarak sunacağınız bir GPG anahtarına gerek vardır. "
+"İmzalama seçeneği varsayılan olarak etkindir. ``--nosign`` (ya da ``-S``) "
+"seçeneği kullanılarak devre dışı bırakılabilir."
 
 #: ../../source/empty/index.rst:218
 msgid ""
 "A file containing the signature with the same name as the archive with a "
 "``.asc`` extension will be created in the ``dist`` directory."
 msgstr ""
+"İmzanın bulunduğu dosya arşiv ile aynı adla ve ``.asc`` uzantısıyla ``dist``"
+" klasörüne eklenir."
 
 #: ../../source/empty/index.rst:221
 msgid "GitHub release"
-msgstr ""
+msgstr "GitHub yayını"
 
 #: ../../source/empty/index.rst:223
 msgid ""
 "The release script will create a release on your GitHub repository, as a "
 "draft, unless you use ``--nogithub`` (or ``-g``) option."
 msgstr ""
+"Yayınlama betiği ``--nogithub`` (ya da ``-g``) seçeneği kullanılmadıkça "
+"GitHub deposu üzerinde bir taslak yayınlama sürümü oluşturur."
 
 #: ../../source/empty/index.rst:227
 msgid ""
 "Unfortunately, I was not able to get the newly created archive uploaded to "
 "this new release... Maybe that could be fixed in the future."
 msgstr ""
+"Maalesef, yeni sürüm için oluşturulmuş arşiv dosyasını henüz "
+"yükleyemiyoruz...Bu sorun ileride çözülebilir."
 
 #: ../../source/empty/index.rst:229
 msgid ""
@@ -523,6 +601,10 @@ msgid ""
 "access token. Access token is valid per user, and gives accesss to all his "
 "repositories."
 msgstr ""
+"Bu özelliği kullanabilmek içn `github "
+"<https://github.com/PyGithub/PyGithub>`_ yüklenmiş; ve erişim kodu alınmış "
+"olmalıdır. Her kullanıcıya bir erişim kodu verilir ve depolarına ulaşması "
+"için kullanılır."
 
 #: ../../source/empty/index.rst:231
 msgid ""
@@ -532,12 +614,19 @@ msgid ""
 "*public_repo* box only (no need to check anything else, you can create "
 "several access token if you need)."
 msgstr ""
+"`GitHub ayarları sayfasınıza giderek, personnal access token sekmesinden "
+"<https://github.com/settings/tokens>`_. *generate new token* üzerine "
+"tıklayın. Açıklamayı isteğinize göre yazın ve yalnız *public_repo* "
+"seçeneğini işaretlediğinizden emin olun (başka bir seçeneği işaretlemeniz "
+"gerekmez. Gerek duyarsanız bir kaç erişim kodu üretebilirsiniz)."
 
 #: ../../source/empty/index.rst:233
 msgid ""
 "The token will be displayed only once; store it in the ``.gh_token`` file in"
 " your plugin directory; and that's all!"
 msgstr ""
+"Kod yalnız bir kez görüntülenir. kodu plugin klasörünüzdeki ``.gh_token`` "
+"dosyasına kaydederek işlemi tamamlayabilirsiniz."
 
 #: ../../source/empty/index.rst:236
 msgid "|ccbyncnd|"

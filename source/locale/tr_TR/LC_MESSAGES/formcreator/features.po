@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Teclib'
+# This file is distributed under the same license as the GLPi plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPi plugins 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-20 10:28+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2016\n"
+"Language-Team: Turkish (Turkey) (https://www.transifex.com/teclib/teams/28042/tr_TR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../source/formcreator/features.rst:2
+msgid "Features"
+msgstr "Özellikler"
+
+#: ../../source/formcreator/features.rst:4
+msgid "Direct access to forms self-service interface in main menu,"
+msgstr "Ana menüden form yönetim ara yüzüne doğrudan erişim,"
+
+#: ../../source/formcreator/features.rst:5
+msgid "Highlighting forms in homepages,"
+msgstr "Ana sayfalardaki formların vurgulanması,"
+
+#: ../../source/formcreator/features.rst:6
+msgid ""
+"Access to forms controlled: public access, identified user access, "
+"restricted access to some profiles,"
+msgstr ""
+"Formlara erişim denetimi: Herkese açık, belirli kullanıcı erişimi, bazı "
+"profiller için kısıtlı erişim,"
+
+#: ../../source/formcreator/features.rst:7
+msgid "Simple and customizable forms,"
+msgstr "Basit ve uyarlanabilir formlar,"
+
+#: ../../source/formcreator/features.rst:8
+msgid "Forms organized by categories, entities and languages,"
+msgstr "Formları kategori, varlık ve dillere göre gruplayabilme,"
+
+#: ../../source/formcreator/features.rst:9
+msgid ""
+"Questions of any type of presentation: Textareas, lists, LDAP, files, etc,"
+msgstr ""
+"Her tür sunum için sorular: Metin alanları, listeler, LDAP, dosyalar gibi"
+
+#: ../../source/formcreator/features.rst:10
+msgid "Questions organised in sections. Choice of the display order,"
+msgstr "Bölümlere göre gruplanmış sorular. Görüntülenme sırasını seçebilme,"
+
+#: ../../source/formcreator/features.rst:11
+msgid ""
+"Possibility to display a question based on certain criteria (response to a "
+"further question),"
+msgstr ""
+"Belirli bir ölçüte göre soru görüntüleme (önceki bir sorunun yanıtına göre),"
+
+#: ../../source/formcreator/features.rst:12
+msgid ""
+"A sharp control on responses from forms: text, numbers, size of fields, "
+"email, mandatory fields, regular expressions, etc,"
+msgstr ""
+"Formlardaki yanıtlara göre kesin denetim: Metin, rakam, alan boyutu, "
+"e-posta, zorunlu alanlar, kurallı ifadeler gibi,"
+
+#: ../../source/formcreator/features.rst:13
+msgid "Creation of one or more tickets from form answers,"
+msgstr "Form yanıtlarından bir ya da bir kaç destek kaydı oluşturulması,"
+
+#: ../../source/formcreator/features.rst:14
+msgid ""
+"Adding a description per fields, per sections, per forms, entities or "
+"languages,"
+msgstr ""
+"Her alan, bölüm, form, varlık ya da dil için bir açıklama alanı "
+"eklenebilmesi,"
+
+#: ../../source/formcreator/features.rst:15
+msgid ""
+"Formatting the ticket set: answers to questions displayed, tickets "
+"templates,"
+msgstr ""
+"Destek kaydı kümesi biçimlendirebilme: Görüntülenen soruların yanıtları, "
+"destek kaydı kalıpları,"
+
+#: ../../source/formcreator/features.rst:16
+msgid "Preview form created directly in the configuration."
+msgstr "Oluşturulan formu ayarlar bölümünden önizleyebilme."
+
+#: ../../source/formcreator/features.rst:18
+msgid ""
+"You can take an look to `the full changelog from plugin sources "
+"<https://github.com/pluginsGLPI/formcreator/blob/master/CHANGELOG.md>`_."
+msgstr ""
+"Tüm değişikliklerin listesine uygulama eki kaynaklarından bakabilirsiniz "
+"<https://github.com/pluginsGLPI/formcreator/blob/master/CHANGELOG.md>`_."
+
+#: ../../source/formcreator/features.rst:21
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"

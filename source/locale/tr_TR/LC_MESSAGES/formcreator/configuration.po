@@ -1,0 +1,209 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Teclib'
+# This file is distributed under the same license as the GLPi plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPi plugins 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-20 10:28+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2016\n"
+"Language-Team: Turkish (Turkey) (https://www.transifex.com/teclib/teams/28042/tr_TR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../source/formcreator/configuration.rst:2
+msgid "Configuration and usage"
+msgstr "Ayarlar ve kullanım"
+
+#: ../../source/formcreator/configuration.rst:5
+msgid "Headers"
+msgstr "Başlıklar"
+
+#: ../../source/formcreator/configuration.rst:7
+msgid "**Menu** : `Setup > Dropdowns : Forms > Headers`"
+msgstr "**Menu** : `Kurulum > Açılan Kutular : Formlar > Üst Bilgiler`"
+
+#: ../../source/formcreator/configuration.rst:9
+msgid ""
+"Headers are rich texts _(text with presentation: bold, italic, titles, "
+"colors, etc.)_ which are defined per entities. They can be translated since "
+"GLPI 0.85 like all other dropdowns _(Dropdowns translation must be enabled "
+"on GLPI general configuration page: Setup > General : General setup > "
+"Translate dropdowns = Yes)_."
+msgstr ""
+"Başlıklar her varlık için ayrı ayrı tanımlanabilen zengin metinlerdir "
+"_(sunum içeren metinler: koyu, yatık, başlıklar, renkler gibi)_. GLPI 0.85 "
+"sürümünden itibaren tüm diğer açılan kutular gibi başka dillere "
+"çevrilebilirler _(Genel GLPI ayarları sayfasından açılan kutu çevirileri "
+"etkinleştirilmiş olmalıdır: Ayarlar > Genel > Genel Ayarlar > Açılan Kutu "
+"Çevirileri = Evet)_."
+
+#: ../../source/formcreator/configuration.rst:13
+msgid ""
+"These texts are shown on the users forms list, over the forms. It can be "
+"used to indicate some general advertisement over all the forms below."
+msgstr ""
+"Bu metinler kullanıcılara formların üzerindeki formlar listesinde "
+"görüntülenir. Aşağıda görüntülenen formlar ile ilgili genel bilgiler vermek "
+"için kullanılabilir."
+
+#: ../../source/formcreator/configuration.rst:17
+#: ../../source/formcreator/configuration.rst:44
+msgid "Configuration"
+msgstr "Ayarlar"
+
+#: ../../source/formcreator/configuration.rst:22
+#: ../../source/formcreator/configuration.rst:49
+msgid "Render"
+msgstr "Oluşturma"
+
+#: ../../source/formcreator/configuration.rst:27
+msgid "Categories"
+msgstr "Kategoriler"
+
+#: ../../source/formcreator/configuration.rst:29
+msgid "**Menu** : `Setup > Dropdowns : Forms > Form categories`"
+msgstr "**Menu** : `Ayarlar > Açılan Kutular : Formlar > Form Kategorileri`"
+
+#: ../../source/formcreator/configuration.rst:31
+msgid "Form categories allow you to arrange your forms list."
+msgstr "Form kategorileri form listesinin düzenlenmesini sağlar."
+
+#: ../../source/formcreator/configuration.rst:33
+msgid ""
+"You can add or edit categories generally from the Setup menu : `Setup > "
+"Dropdowns`."
+msgstr ""
+"Kategoriler genel olarak `Ayarlar > Açılan Kutular` menüsünden eklenip "
+"düzenlenebilir."
+
+#: ../../source/formcreator/configuration.rst:35
+msgid ""
+"You can also add new categories directly from the form page like all GLPI "
+"dropdowns."
+msgstr ""
+"Ayrıca yeni kategoriler, tüm diğer GLPI açılan kutuları gibi doğrudan form "
+"sayfasından eklenebilir."
+
+#: ../../source/formcreator/configuration.rst:37
+msgid ""
+"They are defined by entities and can be translated since GLPI 0.85 like all "
+"other dropdowns."
+msgstr ""
+"Varlıklara göre tanımlanırlar ve GLPI 0.85 sürümünden itibaren tüm diğer "
+"açılan kutular gibi başka dillere çevrilebilirler."
+
+#: ../../source/formcreator/configuration.rst:41
+msgid ""
+"Dropdowns translation must be enabled on GLPI general configuration page "
+"`Setup > General`, `General setup > Translate dropdowns = Yes`"
+msgstr ""
+"Genel GLPI ayarları sayfasından açılan kutu çevirileri etkinleştirilmiş "
+"olmalıdır: `Ayarlar > Genel > Genel Ayarlar > Açılan Kutu Çevirileri = Evet`"
+
+#: ../../source/formcreator/configuration.rst:54
+msgid "Questions"
+msgstr "Sorular"
+
+#: ../../source/formcreator/configuration.rst:56
+msgid ""
+"After the creation of a form, create fields for for the user to fill out."
+msgstr ""
+"Formu oluşturduktan sonra kullanıcının dolduracağı alanları oluşturun."
+
+#: ../../source/formcreator/configuration.rst:60
+msgid ""
+"The name of the questions will appear on the left and the field type "
+"selected on the right"
+msgstr "Soruların adları solda, seçilmiş alan türü sağda görüntülenir"
+
+#: ../../source/formcreator/configuration.rst:62
+msgid "The Description will be under the filed input."
+msgstr "Açıklama doldurulacak alanın altında bulunur."
+
+#: ../../source/formcreator/configuration.rst:64
+msgid "Based on question type options will be based on type chosen."
+msgstr "Seçilen türe göre soru türü seçenekleri görüntülenir."
+
+#: ../../source/formcreator/configuration.rst:66
+msgid ""
+"If validation is desired, it can be implemented following `PHP Regular "
+"Expressions <http://php.net/manual/reference.pcre.pattern.syntax.php>`_."
+msgstr ""
+"Doğrulama istiyorsanız, şu `PHP Kurallı İfadeleri "
+"<http://php.net/manual/reference.pcre.pattern.syntax.php>`_ kullanılabilir."
+
+#: ../../source/formcreator/configuration.rst:69
+msgid "Helpdesk"
+msgstr "Destek Merkezi"
+
+#: ../../source/formcreator/configuration.rst:71
+msgid "The plugin can provide its own design for helpdesk."
+msgstr "Uygulama ekinde kullanılabilecek bir destek merkezi bulunur."
+
+#: ../../source/formcreator/configuration.rst:73
+msgid ""
+"To enable it, edit an entity, open the **Forms** tab and set the field **Use"
+" Form creator's helpdesk** to **Yes**. This setting handled inheritance from"
+" parent entity to children entities."
+msgstr ""
+"Etkinleştirmek için, bir varlığı düzenleyin, **Formlar** sekmesini açın ve "
+"**Form oluşturucunun destek merkezi kullanılsın* seçeneğini **Evet** olarak "
+"işaretleyin. Bu seçenek üst varlıktan alt varlıklara devredilerek geçer."
+
+#: ../../source/formcreator/configuration.rst:75
+msgid ""
+"Users using the simplified interface will benefit a new interface allowing "
+"them to:"
+msgstr ""
+"Kullanıcılar basitleştirilmiş yeni arayüzü kullanarak şu olanaklardan "
+"yararlanabilir:"
+
+#: ../../source/formcreator/configuration.rst:77
+msgid "browse forms and FAQ with the unified interface"
+msgstr "aynı arayüzden formlar ve sık sorulan sorulara bakabilmek"
+
+#: ../../source/formcreator/configuration.rst:78
+msgid "follow the process of their requests"
+msgstr "istekleri üzerinde yapılan işlemleri görmek"
+
+#: ../../source/formcreator/configuration.rst:79
+msgid "book assets"
+msgstr "varlıkları ayırtmak"
+
+#: ../../source/formcreator/configuration.rst:80
+msgid "view their feeds"
+msgstr "akışlarına bakmak"
+
+#: ../../source/formcreator/configuration.rst:82
+msgid ""
+"Forms with **Direct access on homepage** enabled and **FAQ items** in the "
+"**Knowledge base** will will appear in the interface. Users may search by "
+"browsing the categories on the left of the screen, and may also search for "
+"forms or FAQ with a natural language search engine."
+msgstr ""
+"**Anasayfadan doğrudan erişlebilsin** ve **Bilgi Bankası** altındaki **SSS "
+"ögeleri** seçenekleri etkinleştirilmiş formlar arayüzde görüntülenir. "
+"Kullanıcılar sayfanın solundaki kategoriler arasında gezinebilir ve form ya "
+"da SSS için kendi dillerinde arama yapabilir."
+
+#: ../../source/formcreator/configuration.rst:84
+msgid ""
+"FAQ items needs to be associated to knowledge base categories. The knowledge"
+" base categories must be associated to form categories (available in Setup >"
+" Dropdowns > Form categories) to show their content."
+msgstr ""
+"SSS ögeleri bilgi bankası kategorilerine atanmalıdır. Bilgi bankası "
+"kategorileri de içeriklerinin görüntülenmesi için form kategorilerine "
+"atanmalıdır (Ayarlar > Açılan kutular > Form kategorileri)."
+
+#: ../../source/formcreator/configuration.rst:87
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"
