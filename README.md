@@ -1,4 +1,4 @@
-# GLPi's plugins documentation
+# GLPI's plugins documentation
 
 [![Build Status](https://readthedocs.org/projects/glpi-plugins/badge/?version=latest)](http://glpi-plugins.readthedocs.io/en/latest/?badge=latest)
 

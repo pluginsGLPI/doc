@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016, Teclib'
-# This file is distributed under the same license as the GLPi plugins package.
+# This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPi plugins 0.1\n"
+"Project-Id-Version: GLPI plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-20 10:28+0100\n"
+"POT-Creation-Date: 2017-01-09 08:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Johan Cwiklinski <trasher@x-tnd.be>, 2016\n"
 "Language-Team: French (France) (https://www.transifex.com/teclib/teams/28042/fr_FR/)\n"
@@ -32,11 +32,11 @@ msgstr "Téléchargement : https://github.com/pluginsGLPI/fields/releases"
 
 #: ../../source/fields/index.rst:7
 msgid ""
-"Fields plugin allows to add additional fields on various items GLPi manages:"
+"Fields plugin allows to add additional fields on various items GLPI manages:"
 " tickets, computers, users, ..."
 msgstr ""
 "Le plugin champs additionnels vous permet d'ajouter de nouveaux champs à "
-"différents objets de GLPi : tickets, ordinateurs, utilisateurs, ..."
+"différents objets de GLPI : tickets, ordinateurs, utilisateurs, ..."
 
 #: ../../source/fields/index.rst:10
 msgid "Requirements"
@@ -52,11 +52,11 @@ msgstr "GLPi 0.85 ou supérieur"
 
 #: ../../source/fields/index.rst:15
 msgid ""
-"PHP 5.4 or higher when used with GLPi 9.1, and PHP 5.5 or higher when used "
-"with a previous GLPi release."
+"PHP 5.4 or higher when used with GLPI 9.1, and PHP 5.5 or higher when used "
+"with a previous GLPI release."
 msgstr ""
-"PHP 5.4 ou supérieur lorsqu'il est utilisé avec GLPi 9.1, et PHP 5.5 ou "
-"supérieur lorsqu'il est utilisé avec une version antérieure de GLPi."
+"PHP 5.4 ou supérieur lorsqu'il est utilisé avec GLPI 9.1, et PHP 5.5 ou "
+"supérieur lorsqu'il est utilisé avec une version antérieure de GLPI."
 
 #: ../../source/fields/index.rst:19
 msgid "Features"
@@ -259,10 +259,10 @@ msgstr "`Nombre` : un nombre (pas de texte autorisé)"
 #: ../../source/fields/index.rst:93
 msgid ""
 "`Dropdown`: a configurable dropdown list, values are configured from the "
-"main GLPi dropdown configuration you can find in *Setup* > *Dropdowns* menu,"
+"main GLPI dropdown configuration you can find in *Setup* > *Dropdowns* menu,"
 msgstr ""
 "`Liste déroulante` : une liste déroulante configurable, les valeurs sont "
-"paramétrées depuis la configuration des intitulés de GLPi que vous trouverez"
+"paramétrées depuis la configuration des intitulés de GLPI que vous trouverez"
 " dans le menu *Configuration* > *Intitulés*."
 
 #: ../../source/fields/index.rst:94
@@ -277,10 +277,10 @@ msgstr "`Date` : une date seule avec un sélecteur,"
 #: ../../source/fields/index.rst:96
 msgid ""
 "`Date & time`: a date field with a date picker and a time dropdown field "
-"(step is configured from GLPi core),"
+"(step is configured from GLPI core),"
 msgstr ""
 "`Date et heure` : un champ de date avec un sélecteur et une liste déroulante"
-" pour l'heure (le pas étant configuré depuis le cœur de GLPi),"
+" pour l'heure (le pas étant configuré depuis le cœur de GLPI),"
 
 #: ../../source/fields/index.rst:97
 msgid "`Users`: list of users."
@@ -398,11 +398,11 @@ msgstr ""
 
 #: ../../source/fields/index.rst:147
 msgid ""
-"As of GLPi 9.1.1; some issues on the core side prevent dropdown plugin "
+"As of GLPI 9.1.1; some issues on the core side prevent dropdown plugin "
 "values to be translated; the possibility has been deactivated in the plugin."
 " It will be enabled again once the core has been fixed."
 msgstr ""
-"Dans GLPi 9.1.1 ; certains problèmes empêchent la traduction des valeurs des"
+"Dans GLPI 9.1.1 ; certains problèmes empêchent la traduction des valeurs des"
 " listes déroulantes ; la possibilité a donc été désactivée dans le plugin. "
 "Elle sera réactivée lorsque le cœur aura été corrigé."
 
@@ -412,11 +412,11 @@ msgstr "Entités"
 
 #: ../../source/fields/index.rst:152
 msgid ""
-"If you are using entities in your GLPi instance, a block will be displayed "
+"If you are using entities in your GLPI instance, a block will be displayed "
 "only if the entity it is attached to is compatible with the one of the item "
 "it applies to."
 msgstr ""
-"Si vous utilisez des entités dans votre instance de GLPi, un bloc ne sera "
+"Si vous utilisez des entités dans votre instance de GLPI, un bloc ne sera "
 "affiché que si l'entité à laquelle il est attaché correspond est compatible "
 "avec celle de l'objet auquel il s'applique."
 

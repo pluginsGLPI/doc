@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016, Teclib'
-# This file is distributed under the same license as the GLPi plugins package.
+# This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPi plugins 0.1\n"
+"Project-Id-Version: GLPI plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-20 10:28+0100\n"
+"POT-Creation-Date: 2017-01-09 08:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Johan Cwiklinski <trasher@x-tnd.be>, 2016\n"
 "Language-Team: French (France) (https://www.transifex.com/teclib/teams/28042/fr_FR/)\n"
@@ -33,10 +33,10 @@ msgstr "Téléchargement : *non pertinent*"
 #: ../../source/example/index.rst:7
 msgid ""
 "An example plugin... This is designed to show you various possibilities that"
-" are offered to plugins from GLPi core."
+" are offered to plugins from GLPI core."
 msgstr ""
 "Un plugin d'exemple... Prévu pour vous montrer les différentes possibilités "
-"qui sont offertes aux plugins depuis le cœur de GLPi."
+"qui sont offertes aux plugins depuis le cœur de GLPI."
 
 #: ../../source/example/index.rst:9
 msgid ""

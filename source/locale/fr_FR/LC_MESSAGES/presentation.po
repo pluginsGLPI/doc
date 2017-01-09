@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016, Teclib'
-# This file is distributed under the same license as the GLPi plugins package.
+# This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPi plugins 0.1\n"
+"Project-Id-Version: GLPI plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-20 10:28+0100\n"
+"POT-Creation-Date: 2017-01-09 08:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Johan Cwiklinski <trasher@x-tnd.be>, 2016\n"
 "Language-Team: French (France) (https://www.transifex.com/teclib/teams/28042/fr_FR/)\n"
@@ -24,12 +24,12 @@ msgstr "Présentation"
 
 #: ../../source/presentation.rst:4
 msgid ""
-"Plugins are a way to extend `GLPi <http://glpi-project.org>`_ possibilities "
+"Plugins are a way to extend `GLPI <http://glpi-project.org>`_ possibilities "
 "without modifying core source code. In a perfect world, plugins should "
 "provided specific features; while core's may provided features everyone (or "
 "almost!) mays find usefull."
 msgstr ""
-"Les plugins fournissent la possibilité d'étendre les possibilités de `GLPi "
+"Les plugins fournissent la possibilité d'étendre les possibilités de `GLPI "
 "<http://glpi-project.org>`_ sans en modifier le code source. Dans un monde "
 "parfait, les plugins devraient ne fournir que des fonctionnalités "
 "spécifiques, tandis que le cœur fournit les fonctionnalités que tout le "
@@ -50,15 +50,15 @@ msgstr ""
 
 #: ../../source/presentation.rst:8
 msgid ""
-"If you're looking for a feature that does not exists yet in GLPi's core, "
+"If you're looking for a feature that does not exists yet in GLPI's core, "
 "take a look at the `plugins repository <http://plugins.glpi-project.org/>`_."
 " You can search for a plugin name or a feature, see what core's versions are"
 " compatible, and so on."
 msgstr ""
 "Si vous recherchez des fonctionnalités qui n'existent pas dans le cœur de "
-"GLPi, commencez par chercher dans le `dépôt des plugins <http://plugins"
-".glpi-project.org/>`_. Vous pourrez chercher un nom de plugin ou une "
-"fonctionnalité, voir quelles versions du cœur cont compatibles, etc."
+"GLPI, commencez par chercher dans le `dépôt des plugins <http://plugins"
+".glpi-project.org>`_. Vous pourrez chercher un nom de plugin ou une "
+"fonctionnalité, voir quelle version du cœur est compatible, etc."
 
 #: ../../source/presentation.rst:10
 msgid ""
@@ -70,8 +70,8 @@ msgstr ""
 "soient hébergées ici."
 
 #: ../../source/presentation.rst:12
-msgid "Anyways, happy GLPi-ing!"
-msgstr "Dans tous les cas, joyeuse utilisation de GLPi !"
+msgid "Anyways, happy GLPI-ing!"
+msgstr "Dans tous les cas, joyeuse utilisation de GLPI !"
 
 #: ../../source/presentation.rst:15
 msgid "|ccbyncnd|"

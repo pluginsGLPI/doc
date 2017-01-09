@@ -31,7 +31,7 @@ Features
 Coding standards
 ^^^^^^^^^^^^^^^^
 
-A `PHPCodeSniffer <http://pear.php.net/package/PHP_CodeSniffer>`_ ruleset, based on core's GLPi is provided as ``tools/phpcs-rules.xml``.
+A `PHPCodeSniffer <http://pear.php.net/package/PHP_CodeSniffer>`_ ruleset, based on core's GLPI is provided as ``tools/phpcs-rules.xml``.
 
 To check coding standards, just run:
 
@@ -96,7 +96,7 @@ Just choose a target, and run something like:
 Translations
 ^^^^^^^^^^^^
 
-GLPi and its plugins use gettext for internationnalization. Several steps are required before that can work:
+GLPI and its plugins use gettext for internationnalization. Several steps are required before that can work:
 
 1 translatable strings must be extracted from source files, a ``POT`` file will be created or updated accordingly,
 2 ``PO`` files must be created or updated from the ``POT`` file,
@@ -107,7 +107,7 @@ In the ``tools`` directory, you'll find a ``extract_template.sh`` script. This i
 
 Once it has been ran, a ``locale/mygreatplugin.pot`` file will be created/updated.
 
-For the second and third step, you'll have to make a choice. You can use gettext tools to update your ``PO`` files and translate them using a dedicated tool, like `poedit <https://poedit.net/>`_; or you can use an online translation system like `Transifex <http://transifex.com/>`_ or `Zanata <http://zanata.org/>`_. GLPi core and many of existing plugins are translated using Transifex right now.
+For the second and third step, you'll have to make a choice. You can use gettext tools to update your ``PO`` files and translate them using a dedicated tool, like `poedit <https://poedit.net/>`_; or you can use an online translation system like `Transifex <http://transifex.com/>`_ or `Zanata <http://zanata.org/>`_. GLPI core and many of existing plugins are translated using Transifex right now.
 
 Once you get your updated ``PO`` files, you'll have to compile them to ``MO`` files. You can run it manually, the release script will compile them again anywways; see the :ref:`compiling MO files section <compile_mo>`.
 

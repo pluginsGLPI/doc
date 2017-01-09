@@ -4,7 +4,7 @@ Fields
 * Sources link: https://github.com/pluginsGLPI/fields
 * Download: https://github.com/pluginsGLPI/fields/releases
 
-Fields plugin allows to add additional fields on various items GLPi manages: tickets, computers, users, ...
+Fields plugin allows to add additional fields on various items GLPI manages: tickets, computers, users, ...
 
 Requirements
 ------------
@@ -12,7 +12,7 @@ Requirements
 This plugin requires :
 
 * GLPI 0.85 or higher,
-* PHP 5.4 or higher when used with GLPi 9.1, and PHP 5.5 or higher when used with a previous GLPi release.
+* PHP 5.4 or higher when used with GLPI 9.1, and PHP 5.5 or higher when used with a previous GLPI release.
 
 
 Features
@@ -90,10 +90,10 @@ Adding a new field
   * `Text (single line)`: a single line (``input/@type="text"``) of text,
   * `Text (multiples lines)`: a multiline (``textarea``) text,
   * `Number`: a single number (no text allowed),
-  * `Dropdown`: a configurable dropdown list, values are configured from the main GLPi dropdown configuration you can find in *Setup* > *Dropdowns* menu,
+  * `Dropdown`: a configurable dropdown list, values are configured from the main GLPI dropdown configuration you can find in *Setup* > *Dropdowns* menu,
   * `Yes/No`: a dropdown list with only `Yes` and `No` values,
   * `Date`: a standalone date with a date picker,
-  * `Date & time`: a date field with a date picker and a time dropdown field (step is configured from GLPi core),
+  * `Date & time`: a date field with a date picker and a time dropdown field (step is configured from GLPI core),
   * `Users`: list of users.
 
 * `Active`: whether the block is active or not,
@@ -144,12 +144,12 @@ Dropdown values can be translated using the core's dropdown configuration.
 
 .. warning::
 
-   As of GLPi 9.1.1; some issues on the core side prevent dropdown plugin values to be translated; the possibility has been deactivated in the plugin. It will be enabled again once the core has been fixed.
+   As of GLPI 9.1.1; some issues on the core side prevent dropdown plugin values to be translated; the possibility has been deactivated in the plugin. It will be enabled again once the core has been fixed.
 
 Entities
 --------
 
-If you are using entities in your GLPi instance, a block will be displayed only if the entity it is attached to is compatible with the one of the item it applies to.
+If you are using entities in your GLPI instance, a block will be displayed only if the entity it is attached to is compatible with the one of the item it applies to.
 
 When you create or edit a block in multi entities mode, you'll have to choose if the block will be available in children entities:
 

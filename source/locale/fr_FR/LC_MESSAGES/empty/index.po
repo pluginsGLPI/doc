@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016, Teclib'
-# This file is distributed under the same license as the GLPi plugins package.
+# This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPi plugins 0.1\n"
+"Project-Id-Version: GLPI plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-20 10:28+0100\n"
+"POT-Creation-Date: 2017-01-09 08:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Johan Cwiklinski <trasher@x-tnd.be>, 2016\n"
 "Language-Team: French (France) (https://www.transifex.com/teclib/teams/28042/fr_FR/)\n"
@@ -89,7 +89,7 @@ msgstr "Standards de codage"
 #: ../../source/empty/index.rst:34
 msgid ""
 "A `PHPCodeSniffer <http://pear.php.net/package/PHP_CodeSniffer>`_ ruleset, "
-"based on core's GLPi is provided as ``tools/phpcs-rules.xml``."
+"based on core's GLPI is provided as ``tools/phpcs-rules.xml``."
 msgstr ""
 "Un ensemble de règles  `PHPCodeSniffer "
 "<http://pear.php.net/package/PHP_CodeSniffer>`_, basé sur celles de GLPI est"
@@ -255,7 +255,7 @@ msgstr "Traductions"
 
 #: ../../source/empty/index.rst:99
 msgid ""
-"GLPi and its plugins use gettext for internationnalization. Several steps "
+"GLPI and its plugins use gettext for internationnalization. Several steps "
 "are required before that can work:"
 msgstr ""
 "GLPI et ses plugins utilisent gettext pour l’internationalisation. Plusieurs"
@@ -298,7 +298,7 @@ msgid ""
 "gettext tools to update your ``PO`` files and translate them using a "
 "dedicated tool, like `poedit <https://poedit.net/>`_; or you can use an "
 "online translation system like `Transifex <http://transifex.com/>`_ or "
-"`Zanata <http://zanata.org/>`_. GLPi core and many of existing plugins are "
+"`Zanata <http://zanata.org/>`_. GLPI core and many of existing plugins are "
 "translated using Transifex right now."
 msgstr ""
 "Pour les secondes et troisièmes étapes, vous aurez à faire un choix. Vous "
@@ -306,7 +306,7 @@ msgstr ""
 "les traduire en utilisant un outil dédié, tel que `poedit "
 "<https://poedit.net/>`_ ; ou vous pouvez utiliser un système de traduction "
 "en ligne tel que `Transifex <http://transifex.com/>`_ ou `Zanata "
-"<http://zanata.org/>`_. Le cœur de GLPi ainsi que de nombreux plugins sont "
+"<http://zanata.org/>`_. Le cœur de GLPI ainsi que de nombreux plugins sont "
 "traduits via Transifex actuellement."
 
 #: ../../source/empty/index.rst:112
