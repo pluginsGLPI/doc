@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016, Teclib'
-# This file is distributed under the same license as the GLPi plugins package.
+# This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPi plugins 0.1\n"
+"Project-Id-Version: GLPI plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-20 10:28+0100\n"
+"POT-Creation-Date: 2017-01-09 08:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2016\n"
 "Language-Team: Turkish (Turkey) (https://www.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -24,12 +24,12 @@ msgstr "Sunum"
 
 #: ../../source/presentation.rst:4
 msgid ""
-"Plugins are a way to extend `GLPi <http://glpi-project.org>`_ possibilities "
+"Plugins are a way to extend `GLPI <http://glpi-project.org>`_ possibilities "
 "without modifying core source code. In a perfect world, plugins should "
 "provided specific features; while core's may provided features everyone (or "
 "almost!) mays find usefull."
 msgstr ""
-"Uygulama ekleri ile çekirdek kaynak kodu değiştirilmeden`GLPi <http://glpi-"
+"Uygulama ekleri ile çekirdek kaynak kodu değiştirilmeden`GLPI <http://glpi-"
 "project.org>`_ kullanım alanları genişletilebilir. Kusursuz bir dünyada "
 "çekirdek kodu herkes (ya da çoğu kişi) tarafından kullanışlı bulunacak "
 "özellikleri sağlarken belirli özellikler uygulama ekleri tarafından "
@@ -50,12 +50,12 @@ msgstr ""
 
 #: ../../source/presentation.rst:8
 msgid ""
-"If you're looking for a feature that does not exists yet in GLPi's core, "
+"If you're looking for a feature that does not exists yet in GLPI's core, "
 "take a look at the `plugins repository <http://plugins.glpi-project.org/>`_."
 " You can search for a plugin name or a feature, see what core's versions are"
 " compatible, and so on."
 msgstr ""
-"Henüz GLPi çekirdeğinde bulunmayan bir özellik arıyorsanız `uygulama ekleri "
+"Henüz GLPI çekirdeğinde bulunmayan bir özellik arıyorsanız `uygulama ekleri "
 "deposuna <http://plugins.glpi-project.org/>`_. bakın. Uygulama eki adı, "
 "özellik ya da uyumlu çekirdek sürümüne gibi ölçütlere göre arama "
 "yapılabilir."
@@ -69,8 +69,8 @@ msgstr ""
 " eki belgelerinin buradan sunulması amaçlanmıyor."
 
 #: ../../source/presentation.rst:12
-msgid "Anyways, happy GLPi-ing!"
-msgstr "Her neyse, mutllu GLPi kullanmalar!"
+msgid "Anyways, happy GLPI-ing!"
+msgstr "Her neyse, mutllu GLPI kullanmalar!"
 
 #: ../../source/presentation.rst:15
 msgid "|ccbyncnd|"

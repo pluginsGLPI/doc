@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016, Teclib'
-# This file is distributed under the same license as the GLPi plugins package.
+# This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPi plugins 0.1\n"
+"Project-Id-Version: GLPI plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-20 10:28+0100\n"
+"POT-Creation-Date: 2017-01-09 08:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2016\n"
 "Language-Team: Turkish (Turkey) (https://www.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -88,10 +88,10 @@ msgstr "Kodlama standartları"
 #: ../../source/empty/index.rst:34
 msgid ""
 "A `PHPCodeSniffer <http://pear.php.net/package/PHP_CodeSniffer>`_ ruleset, "
-"based on core's GLPi is provided as ``tools/phpcs-rules.xml``."
+"based on core's GLPI is provided as ``tools/phpcs-rules.xml``."
 msgstr ""
 "Bir `PHP KodTarayıcı <http://pear.php.net/package/PHP_CodeSniffer>`_ kural "
-"kümesi, çekirdek GLPi ile ``tools/phpcs-rules.xml`` biçiminde sunulur."
+"kümesi, çekirdek GLPI ile ``tools/phpcs-rules.xml`` biçiminde sunulur."
 
 #: ../../source/empty/index.rst:36
 msgid "To check coding standards, just run:"
@@ -251,7 +251,7 @@ msgstr "Çeviriler"
 
 #: ../../source/empty/index.rst:99
 msgid ""
-"GLPi and its plugins use gettext for internationnalization. Several steps "
+"GLPI and its plugins use gettext for internationnalization. Several steps "
 "are required before that can work:"
 msgstr ""
 "GLPI ve uygulama eklerinin dil çevirileri için gettext kullanılır. "
@@ -294,7 +294,7 @@ msgid ""
 "gettext tools to update your ``PO`` files and translate them using a "
 "dedicated tool, like `poedit <https://poedit.net/>`_; or you can use an "
 "online translation system like `Transifex <http://transifex.com/>`_ or "
-"`Zanata <http://zanata.org/>`_. GLPi core and many of existing plugins are "
+"`Zanata <http://zanata.org/>`_. GLPI core and many of existing plugins are "
 "translated using Transifex right now."
 msgstr ""
 "İkinci ve üçüncü adımlar için bir seçim yapmanız gerekir.  ``PO`` "
@@ -302,7 +302,7 @@ msgstr ""
 "gibi gettext araçlarını kullanabileceğiniz gibi`Transifex "
 "<http://transifex.com/>`_ ya da `Zanata <http://zanata.org/>`_ gibi "
 "çevrimiçi çeviri sistemlerinden yararlanabilirsiniz. Şu anda Transifex "
-"üzerinde GLPi çekirdeği ve çoğu uygulama ekinin çevirileri bulunmaktadır."
+"üzerinde GLPI çekirdeği ve çoğu uygulama ekinin çevirileri bulunmaktadır."
 
 #: ../../source/empty/index.rst:112
 msgid ""

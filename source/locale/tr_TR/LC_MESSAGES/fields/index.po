@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016, Teclib'
-# This file is distributed under the same license as the GLPi plugins package.
+# This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPi plugins 0.1\n"
+"Project-Id-Version: GLPI plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-20 10:28+0100\n"
+"POT-Creation-Date: 2017-01-09 08:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2016\n"
 "Language-Team: Turkish (Turkey) (https://www.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -32,11 +32,11 @@ msgstr "İndirin: https://github.com/pluginsGLPI/fields/releases"
 
 #: ../../source/fields/index.rst:7
 msgid ""
-"Fields plugin allows to add additional fields on various items GLPi manages:"
+"Fields plugin allows to add additional fields on various items GLPI manages:"
 " tickets, computers, users, ..."
 msgstr ""
 "Alanlar uygulama eki destek kayıtları, bilgisayarlar, kullanıcılar gibi "
-"çeşitli GLPi ögelerine özel alanlar eklenebilmesini sağlar."
+"çeşitli GLPI ögelerine özel alanlar eklenebilmesini sağlar."
 
 #: ../../source/fields/index.rst:10
 msgid "Requirements"
@@ -52,10 +52,10 @@ msgstr "GLPI 0.85 ya da üzerindeki sürümler"
 
 #: ../../source/fields/index.rst:15
 msgid ""
-"PHP 5.4 or higher when used with GLPi 9.1, and PHP 5.5 or higher when used "
-"with a previous GLPi release."
+"PHP 5.4 or higher when used with GLPI 9.1, and PHP 5.5 or higher when used "
+"with a previous GLPI release."
 msgstr ""
-"GLPi 9.1 ile kullanıldığında PHP 5.4 ve üzeri, önceki GLPi sürümü için PHP "
+"GLPI 9.1 ile kullanıldığında PHP 5.4 ve üzeri, önceki GLPI sürümü için PHP "
 "5.5 ve üzeri."
 
 #: ../../source/fields/index.rst:19
@@ -242,10 +242,10 @@ msgstr "`Sayı`: Tek bir sayı (metin yazılamaz),"
 #: ../../source/fields/index.rst:93
 msgid ""
 "`Dropdown`: a configurable dropdown list, values are configured from the "
-"main GLPi dropdown configuration you can find in *Setup* > *Dropdowns* menu,"
+"main GLPI dropdown configuration you can find in *Setup* > *Dropdowns* menu,"
 msgstr ""
 "`Açılan kutu`: Ayarlanabilir  bir açılan kutu. Kutudaki değerler, çekirdek "
-"GLPi üzerinde *Ayarlar* > *Açılan kutular bölümünden ayarlanabilir."
+"GLPI üzerinde *Ayarlar* > *Açılan kutular bölümünden ayarlanabilir."
 
 #: ../../source/fields/index.rst:94
 msgid "`Yes/No`: a dropdown list with only `Yes` and `No` values,"
@@ -259,10 +259,10 @@ msgstr "`Tarih`: Tarih seçici bulunan bir tarih alanı,"
 #: ../../source/fields/index.rst:96
 msgid ""
 "`Date & time`: a date field with a date picker and a time dropdown field "
-"(step is configured from GLPi core),"
+"(step is configured from GLPI core),"
 msgstr ""
 "`Tarih ve saat`: Tarih seçici ve saat açılan kutusu olan tarih alanı (adım "
-"GLPi çekirdeğinden ayarlanabilir),"
+"GLPI çekirdeğinden ayarlanabilir),"
 
 #: ../../source/fields/index.rst:97
 msgid "`Users`: list of users."
@@ -373,11 +373,11 @@ msgstr ""
 
 #: ../../source/fields/index.rst:147
 msgid ""
-"As of GLPi 9.1.1; some issues on the core side prevent dropdown plugin "
+"As of GLPI 9.1.1; some issues on the core side prevent dropdown plugin "
 "values to be translated; the possibility has been deactivated in the plugin."
 " It will be enabled again once the core has been fixed."
 msgstr ""
-"GLPi 9.1.1 sürümüyle birlikte; Çekirdek üzerindeki bazı sorunlar açılan kutu"
+"GLPI 9.1.1 sürümüyle birlikte; Çekirdek üzerindeki bazı sorunlar açılan kutu"
 " uygulama eki değerlerinin çevrilmesini engeller. Uygulama eki devre dışı "
 "bırakılabilir. Çekirdek sorunları giderildikten sonra yeniden "
 "etkinleştirilecek."
@@ -388,11 +388,11 @@ msgstr "Varlıklar"
 
 #: ../../source/fields/index.rst:152
 msgid ""
-"If you are using entities in your GLPi instance, a block will be displayed "
+"If you are using entities in your GLPI instance, a block will be displayed "
 "only if the entity it is attached to is compatible with the one of the item "
 "it applies to."
 msgstr ""
-"GLPi kopyanızda varlıkları kullanıyorsanız, bir blok yalnız, varlık "
+"GLPI kopyanızda varlıkları kullanıyorsanız, bir blok yalnız, varlık "
 "uygulandığı uyumlu ögelerinden birine atanmış ise görüntülenir."
 
 #: ../../source/fields/index.rst:154
