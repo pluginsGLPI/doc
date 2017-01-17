@@ -31,13 +31,13 @@ Features
 Coding standards
 ^^^^^^^^^^^^^^^^
 
-A `PHPCodeSniffer <http://pear.php.net/package/PHP_CodeSniffer>`_ ruleset, based on core's GLPI is provided as ``tools/phpcs-rules.xml``.
+The GLPI `PHPCodeSniffer <http://pear.php.net/package/PHP_CodeSniffer>`_ rulesets are provided as ``vendor/glpi-project/coding-standard/GlpiStandard/``.
 
 To check coding standards, just run:
 
 .. code-block:: bash
 
-   $ phpcs -p --ignore=vendor --standard=tools/phpcs-rules.xml .
+   $ phpcs -p --ignore=vendor --standard=vendor/glpi-project/coding-standard/GlpiStandard/ .
 
 .. note::
 
