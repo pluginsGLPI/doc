@@ -40,6 +40,9 @@ They are defined by entities and can be translated since GLPI 0.85 like all othe
 
    Dropdowns translation must be enabled on GLPI general configuration page `Setup > General`, `General setup > Translate dropdowns = Yes`
 
+.. note::
+   Categories may be associated to `Knowledge base categories`. This link is necessary to allow FAQ entries to show along your forms.
+
 Configuration
 +++++++++++++
 
@@ -70,7 +73,7 @@ Helpdesk
 
 The plugin can provide its own design for helpdesk.
 
-To enable it, edit an entity, open the **Forms** tab and set the field **Use Form creator's helpdesk** to **Yes**. This setting handled inheritance from parent entity to children entities.
+To enable it, edit an entity, open the `Forms` tab and set the field `Helpdesk mode` to `Service catalog simplified` or `Service catalog extended`. This setting handles inheritance from parent entity to children entities.
 
 Users using the simplified interface will benefit a new interface allowing them to:
 
@@ -79,6 +82,6 @@ Users using the simplified interface will benefit a new interface allowing them 
 * book assets
 * view their feeds
 
-Forms with **Direct access on homepage** enabled and **FAQ items** in the **Knowledge base** will will appear in the interface. Users may search by browsing the categories on the left of the screen, and may also search for forms or FAQ with a natural language search engine.
+Forms with `Direct access on homepage` enabled and `FAQ items` in the `Knowledge base` will will appear in the interface. Users may search by browsing the categories on the left of the screen, and may also search for forms or FAQ with a natural language search engine.
 
-FAQ items needs to be associated to knowledge base categories. The knowledge base categories must be associated to form categories (available in Setup > Dropdowns > Form categories) to show their content. 
+FAQ items needs to be associated to knowledge base categories. The knowledge base categories must be associated to form categories (available in `Setup > Dropdowns : Forms > Form categories`) to show their content.
