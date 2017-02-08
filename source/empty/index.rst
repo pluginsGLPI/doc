@@ -33,17 +33,27 @@ Coding standards
 
 The GLPI `PHPCodeSniffer <http://pear.php.net/package/PHP_CodeSniffer>`_ rulesets are provided as ``vendor/glpi-project/coding-standard/GlpiStandard/``.
 
-To check coding standards, just run:
+To check coding standards, just use the Robo.li task ``code:cs``:
 
 .. code-block:: bash
 
-   $ phpcs -p --ignore=vendor --standard=vendor/glpi-project/coding-standard/GlpiStandard/ .
+   $ ./vendor/bin/robo code:cs
 
 .. note::
 
-   The above command will ignore ``vendor`` directory for wich we do not want to check standards. If there are other directories you want to exclude, adapt the command.
+   The above command will ignore ``vendor`` and run on the current directory.
 
-   Remember to also adapt the :ref:`automated checks configuration file <empty_travis>` if you do so.
+   If you want to adapt ignore list or checked directories, you can just override ``$csignore`` and/or ``$csfiles`` in the ``RoboFile.php`` of the plugin:
+
+   .. code-block:: php
+
+      <?php
+
+      class RoboFile extends Glpi\Tools\RoboFile
+      {
+         $csignore = ['/vendor/', '/lib/'];
+         $csfiles  = ['./', 'setup.php.tpl']
+         [...]
 
 .. _empty_travis:
 
@@ -62,10 +72,7 @@ Of course, the ``.travis.yml`` file can be pimped; you can run unit tests, creat
 Minifying CSS ans JS
 ^^^^^^^^^^^^^^^^^^^^
 
-A convenient script, using `Robo.li <http://robo.li>`_ is provided. You'll find two files related:
-
-* ``RoboFilePlugin.php`` in which are declared common usefull methods you may want to use (see below);
-* ``RoboFile.php`` an empty class, which extends ``RoboFilePlugin`` in which you can set you own stuff.
+A convenient script, using `Robo.li <http://robo.li>`_ is provided. The ``RoboFile.php`` file is an empty class that extends ``Glpi\Tools\RoboFile`` (provided by ``glpi-project/tools`` dependency) in which you can set your own stuff.
 
 That way, you can quite easily update the common file and get your own tasks remaining the same.
 
@@ -93,6 +100,8 @@ Just choose a target, and run something like:
 
    Also remember to adapt your scripts so they load your minified versions if available, and the original one otherwise :)
 
+   As of GLPI 9.2; you do not have to care about loading minified files when using ``add_css`` and ``add_javascript`` hooks! You just need to call not minified script; and GLPI will use the minified version if it exists and if not in `DEBUG` mode.
+
 Translations
 ^^^^^^^^^^^^
 
@@ -103,7 +112,7 @@ GLPI and its plugins use gettext for internationnalization. Several steps are re
 3 ``PO`` files must be translated,
 4 ``MO`` files must be compiled from the latest ``PO``.
 
-In the ``tools`` directory, you'll find a ``extract_template.sh`` script. This is designed to extract translatable strings from your source code (see first point above).
+In the ``vendor/bin`` directory, you'll find a ``extract_template.sh`` script. This is designed to extract translatable strings from your source code (see first point above).
 
 Once it has been ran, a ``locale/mygreatplugin.pot`` file will be created/updated.
 
@@ -116,13 +125,17 @@ Once you get your updated ``PO`` files, you'll have to compile them to ``MO`` fi
 Release script
 ^^^^^^^^^^^^^^
 
-A release script is provided in ``tools/release``. This is a "simple" `Python <http://python.org>`_ script; you should just have Python installed on your system (this is instaleld by defautl on most linux distributions).
+A release script is provided in ``vendor/bin/plugin-release``. This is a "simple" `Python <http://python.org>`_ script; you should just have Python installed on your system (this is installed by default on most linux distributions).
 
-Using just the defaults, the script will try to retrieve the latest tag in your git repository, and will propose you to release it:
+.. warning::
+
+   Note that for the moment, the release script is only compatible if you use semantic versionning!
+
+Using just the defaults, the script will try to retrieve the latest tag in your git repository, add third party dependencies and create a `Release` on the github project:
 
 .. code-block:: bash
 
-   $ ./tools/release
+   $ ./vendor/bin/plugin-release
    Do you want to build version 1.9.5? [Yes/no] y
    Building glpi-order-1.9.5...
    Archiving GIT tag 1.9.5
@@ -139,7 +152,7 @@ You will need a python interpreter installed as well as the following modules:
 * `gitdb <https://github.com/gitpython-developers/gitdb>`_,
 * `github <https://github.com/PyGithub/PyGithub>`_ (to check for existing versions in also in drafts, and to create github releases), unless you use the ``--nogithub`` option
 
-If you want to get help on the script, try to run ``./tools/release -h``.
+If you want to get help on the script, try to run ``./vendor/bin/plugin-release -h``.
 
 Process
 +++++++
@@ -158,7 +171,9 @@ The release process will achieve the following tasks for you:
 
 .. note::
 
-   The standard release process will not work on your files directly, it will make a copy in the ``dist/src`` directory before. The only exception are the :ref:`MO compiling option <compile_mo>` and the :ref:`minify option <minify>`.
+   The standard release process will not work on your files directly, it will make a copy in the ``dist/src`` directory before. The only exception is the :ref:`MO compiling option <compile_mo>`.
+
+In order to check if all is OK before doing real release; create your tag and run ``./vendor/bin/plugin-release -C`` **before pushing your tag**. That way, you'll be able to fix potential issues and re-create your tag locally (remember published tags should **never** be removed).
 
 .. _compile_mo:
 
@@ -169,27 +184,11 @@ The release process will automatically compile every ``PO`` file it will found i
 
 .. code-block:: bash
 
-   $ ./tools/release --compile-mo
+   $ ./vendor/bin/plugin-release --compile-mo
 
 .. warning::
 
-   The above command will work on your plugins files directly; not on a copy as does other commands but :ref:`minify <minify>`.
-
-.. _minify:
-
-Minifying
-+++++++++
-
-The release process will automatically minify every CSS stylesheet found into your ``css`` directory, and every javascript file found under your ``js`` directory; but for testing purposes, you may want to get them minified. The release script provide the ``--minify`` (or ``-M``) to achieve that:
-
-.. code-block:: bash
-
-   $ ./tools/release --minify
-
-.. warning::
-
-   The above command will work on your plugins files directly; not on a copy as does other commands but :ref:`compiling mo <compile_mo>`.
-
+   The above command will work on your plugins files directly; not on a copy as does other commands.
 
 Pre-releases
 ++++++++++++
@@ -206,7 +205,7 @@ As an example with the *order* plugin:
 
 .. code-block:: bash
 
-   $ ./tools/release --commit 632d515d4ac0 --release 1.9.5 --extra alpha1
+   $ ./vendor/bin/plugin-release --commit 632d515d4ac0 --release 1.9.5 --extra alpha1
    $ ls dist
    glpi-order-1.9.5-alpha1-20161103-632d515d4a.tar.bz2
 
