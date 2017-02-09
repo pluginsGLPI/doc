@@ -66,3 +66,8 @@ source_lang = en
 file_filter = source/locale/<lang>/LC_MESSAGES/formcreator/team.po
 source_file = build/locale/formcreator/team.pot
 source_lang = en
+
+[glpi-plugins-documentation.formcreator--targets]
+file_filter = source/locale/<lang>/LC_MESSAGES/formcreator/targets.po
+source_file = build/locale/formcreator/targets.pot
+source_lang = en
