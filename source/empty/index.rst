@@ -25,6 +25,50 @@ Using the script without destination parameter, it will create you directory plu
 
    $ ./plugin.sh MyGreatPlugin 0.0.1 /path/to/glpi/plugins/
 
+Update existing plugin
+----------------------
+
+There is no automated way to update an existing plugin, because there would be too many cases to handle. But don't worry, procedure is quite simple ;)
+
+Using empty features is as simple as creating a few files:
+
+* ``composer.json``,
+* ``.travis.yml``,
+* ``Robofile.php``,
+* ``.gitignore``.
+
+If you do not have yet any composer or travis configuration file, you can just copy the ones from empty plugin. Otherwise; in you ``composer.json``, just add:
+
+.. code-block:: json
+
+   {
+     "minimum-stability": "dev",
+     "prefer-stable": true
+   }
+
+And then run ``composer require glpi-project/tools``.
+
+In the travis configuration file, just add the CS call:
+
+.. code-block:: yaml
+
+   script:
+     - vendor/bin/robo --no-interaction code:cs
+
+In the ``.gitignore`` file, add the following:
+
+.. code-block:: raw
+
+   dist/
+   vendor/
+   .gh_token
+   *.min.*
+
+
+As for the Robo.li configuration file, note that the one embed in the empty plugin is a bit specific, you'll have to edit it in order to get things working. See below for more informations.
+
+Finally, as the ``tools`` project will provide you some features, you can remove duplicated tools scripts (files such as ``release``, ``extract_template.sh``, ...) that would be present in your plugin.
+
 Features
 --------
 
@@ -54,6 +98,7 @@ To check coding standards, just use the Robo.li task ``code:cs``:
          $csignore = ['/vendor/', '/lib/'];
          $csfiles  = ['./', 'setup.php.tpl']
          [...]
+      }
 
 .. _empty_travis:
 
