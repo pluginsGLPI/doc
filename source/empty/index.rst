@@ -95,8 +95,8 @@ To check coding standards, just use the Robo.li task ``code:cs``:
 
       class RoboFile extends Glpi\Tools\RoboFile
       {
-         $csignore = ['/vendor/', '/lib/'];
-         $csfiles  = ['./', 'setup.php.tpl']
+         protected $csignore = ['/vendor/', '/lib/'];
+         protected $csfiles  = ['./', 'setup.php.tpl']
          [...]
       }
 
