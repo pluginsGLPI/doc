@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016, Teclib'
-# This file is distributed under the same license as the GLPi plugins package.
+# This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPi plugins 0.1\n"
+"Project-Id-Version: GLPI plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-20 10:28+0100\n"
+"POT-Creation-Date: 2017-02-09 09:15+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2016\n"
 "Language-Team: Turkish (Turkey) (https://www.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -55,12 +55,12 @@ msgstr ""
 "için kullanılabilir."
 
 #: ../../source/formcreator/configuration.rst:17
-#: ../../source/formcreator/configuration.rst:44
+#: ../../source/formcreator/configuration.rst:47
 msgid "Configuration"
 msgstr "Ayarlar"
 
 #: ../../source/formcreator/configuration.rst:22
-#: ../../source/formcreator/configuration.rst:49
+#: ../../source/formcreator/configuration.rst:52
 msgid "Render"
 msgstr "Oluşturma"
 
@@ -108,31 +108,40 @@ msgstr ""
 "Genel GLPI ayarları sayfasından açılan kutu çevirileri etkinleştirilmiş "
 "olmalıdır: `Ayarlar > Genel > Genel Ayarlar > Açılan Kutu Çevirileri = Evet`"
 
-#: ../../source/formcreator/configuration.rst:54
+#: ../../source/formcreator/configuration.rst:44
+msgid ""
+"Categories may be associated to `Knowledge base categories`. This link is "
+"necessary to allow FAQ entries to show along your forms."
+msgstr ""
+"Kategoriler `Bilgi Bankası Kategorileri` ile ilişkilendirilebilir. Formların"
+" yanında yazılan konuya göre SSS kayıtlarının görüntülenmesi için bu "
+"bağlantı gereklidir."
+
+#: ../../source/formcreator/configuration.rst:57
 msgid "Questions"
 msgstr "Sorular"
 
-#: ../../source/formcreator/configuration.rst:56
+#: ../../source/formcreator/configuration.rst:59
 msgid ""
 "After the creation of a form, create fields for for the user to fill out."
 msgstr ""
 "Formu oluşturduktan sonra kullanıcının dolduracağı alanları oluşturun."
 
-#: ../../source/formcreator/configuration.rst:60
+#: ../../source/formcreator/configuration.rst:63
 msgid ""
 "The name of the questions will appear on the left and the field type "
 "selected on the right"
 msgstr "Soruların adları solda, seçilmiş alan türü sağda görüntülenir"
 
-#: ../../source/formcreator/configuration.rst:62
+#: ../../source/formcreator/configuration.rst:65
 msgid "The Description will be under the filed input."
 msgstr "Açıklama doldurulacak alanın altında bulunur."
 
-#: ../../source/formcreator/configuration.rst:64
+#: ../../source/formcreator/configuration.rst:67
 msgid "Based on question type options will be based on type chosen."
 msgstr "Seçilen türe göre soru türü seçenekleri görüntülenir."
 
-#: ../../source/formcreator/configuration.rst:66
+#: ../../source/formcreator/configuration.rst:69
 msgid ""
 "If validation is desired, it can be implemented following `PHP Regular "
 "Expressions <http://php.net/manual/reference.pcre.pattern.syntax.php>`_."
@@ -140,25 +149,27 @@ msgstr ""
 "Doğrulama istiyorsanız, şu `PHP Kurallı İfadeleri "
 "<http://php.net/manual/reference.pcre.pattern.syntax.php>`_ kullanılabilir."
 
-#: ../../source/formcreator/configuration.rst:69
+#: ../../source/formcreator/configuration.rst:72
 msgid "Helpdesk"
 msgstr "Destek Merkezi"
 
-#: ../../source/formcreator/configuration.rst:71
+#: ../../source/formcreator/configuration.rst:74
 msgid "The plugin can provide its own design for helpdesk."
 msgstr "Uygulama ekinde kullanılabilecek bir destek merkezi bulunur."
 
-#: ../../source/formcreator/configuration.rst:73
+#: ../../source/formcreator/configuration.rst:76
 msgid ""
-"To enable it, edit an entity, open the **Forms** tab and set the field **Use"
-" Form creator's helpdesk** to **Yes**. This setting handled inheritance from"
-" parent entity to children entities."
+"To enable it, edit an entity, open the `Forms` tab and set the field "
+"`Helpdesk mode` to `Service catalog simplified` or `Service catalog "
+"extended`. This setting handles inheritance from parent entity to children "
+"entities."
 msgstr ""
-"Etkinleştirmek için, bir varlığı düzenleyin, **Formlar** sekmesini açın ve "
-"**Form oluşturucunun destek merkezi kullanılsın* seçeneğini **Evet** olarak "
-"işaretleyin. Bu seçenek üst varlıktan alt varlıklara devredilerek geçer."
+"Etkinleştirmek için, bir varlığı düzenleyin `Forms` sekmesini açın ve "
+"`Destek Merkezi Kipi` alanını `Basit Hizmet Kataloğu` ya da `Gelişmiş Hizmet"
+" Kataloğu` olarak ayarlayın. Bu seçenek, üst varlıktan alt varlıklara devir "
+"edilmesini sağlar."
 
-#: ../../source/formcreator/configuration.rst:75
+#: ../../source/formcreator/configuration.rst:78
 msgid ""
 "Users using the simplified interface will benefit a new interface allowing "
 "them to:"
@@ -166,44 +177,44 @@ msgstr ""
 "Kullanıcılar basitleştirilmiş yeni arayüzü kullanarak şu olanaklardan "
 "yararlanabilir:"
 
-#: ../../source/formcreator/configuration.rst:77
+#: ../../source/formcreator/configuration.rst:80
 msgid "browse forms and FAQ with the unified interface"
 msgstr "aynı arayüzden formlar ve sık sorulan sorulara bakabilmek"
 
-#: ../../source/formcreator/configuration.rst:78
+#: ../../source/formcreator/configuration.rst:81
 msgid "follow the process of their requests"
 msgstr "istekleri üzerinde yapılan işlemleri görmek"
 
-#: ../../source/formcreator/configuration.rst:79
+#: ../../source/formcreator/configuration.rst:82
 msgid "book assets"
 msgstr "varlıkları ayırtmak"
 
-#: ../../source/formcreator/configuration.rst:80
+#: ../../source/formcreator/configuration.rst:83
 msgid "view their feeds"
 msgstr "akışlarına bakmak"
 
-#: ../../source/formcreator/configuration.rst:82
+#: ../../source/formcreator/configuration.rst:85
 msgid ""
-"Forms with **Direct access on homepage** enabled and **FAQ items** in the "
-"**Knowledge base** will will appear in the interface. Users may search by "
+"Forms with `Direct access on homepage` enabled and `FAQ items` in the "
+"`Knowledge base` will will appear in the interface. Users may search by "
 "browsing the categories on the left of the screen, and may also search for "
 "forms or FAQ with a natural language search engine."
 msgstr ""
-"**Anasayfadan doğrudan erişlebilsin** ve **Bilgi Bankası** altındaki **SSS "
-"ögeleri** seçenekleri etkinleştirilmiş formlar arayüzde görüntülenir. "
+"`Ana Sayfadan Doğrudan Erişilebilsin` ve `Bilgi Bankası` altındaki `SSS "
+"Ögeleri` seçenekleri etkinleştirilmiş formlar arayüzde görüntülenir. "
 "Kullanıcılar sayfanın solundaki kategoriler arasında gezinebilir ve form ya "
 "da SSS için kendi dillerinde arama yapabilir."
 
-#: ../../source/formcreator/configuration.rst:84
+#: ../../source/formcreator/configuration.rst:87
 msgid ""
 "FAQ items needs to be associated to knowledge base categories. The knowledge"
-" base categories must be associated to form categories (available in Setup >"
-" Dropdowns > Form categories) to show their content."
+" base categories must be associated to form categories (available in `Setup "
+"> Dropdowns : Forms > Form categories`) to show their content."
 msgstr ""
 "SSS ögeleri bilgi bankası kategorilerine atanmalıdır. Bilgi bankası "
 "kategorileri de içeriklerinin görüntülenmesi için form kategorilerine "
-"atanmalıdır (Ayarlar > Açılan kutular > Form kategorileri)."
+"atanmalıdır (`Ayarlar > Açılan Kutular > Formlar > Form Kategorileri`)."
 
-#: ../../source/formcreator/configuration.rst:87
+#: ../../source/formcreator/configuration.rst:90
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-09 08:55+0100\n"
+"POT-Creation-Date: 2017-02-09 09:15+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2016\n"
 "Language-Team: Turkish (Turkey) (https://www.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -78,63 +78,140 @@ msgstr ""
 "belirtilen yola eklenir:"
 
 #: ../../source/empty/index.rst:29
+msgid "Update existing plugin"
+msgstr "Varolan uygulama ekini güncelleme"
+
+#: ../../source/empty/index.rst:31
+msgid ""
+"There is no automated way to update an existing plugin, because there would "
+"be too many cases to handle. But don't worry, procedure is quite simple ;)"
+msgstr ""
+"Gözden geçirilmesi gereken çok sayıda durum olduğundan henüz varolan "
+"uygulama ekleri otomatik olarak güncellenemiyor. Gene de sorun değil, işlem "
+"oldukça basit ;)"
+
+#: ../../source/empty/index.rst:33
+msgid "Using empty features is as simple as creating a few files:"
+msgstr "Boş özellikleri kullanmak bir kaç dosya oluşturmak kadar kolay:"
+
+#: ../../source/empty/index.rst:35
+msgid "``composer.json``,"
+msgstr "``composer.json``,"
+
+#: ../../source/empty/index.rst:36
+msgid "``.travis.yml``,"
+msgstr "``.travis.yml``,"
+
+#: ../../source/empty/index.rst:37
+msgid "``Robofile.php``,"
+msgstr "``Robofile.php``,"
+
+#: ../../source/empty/index.rst:38
+msgid "``.gitignore``."
+msgstr "``.gitignore``."
+
+#: ../../source/empty/index.rst:40
+msgid ""
+"If you do not have yet any composer or travis configuration file, you can "
+"just copy the ones from empty plugin. Otherwise; in you ``composer.json``, "
+"just add:"
+msgstr ""
+"Herhangi bir composer ya da travis ayar dosyanız yoksa, boş uygulama "
+"ekindeki dosyaları kopyalayın. Varsa; ``composer.json`` dosyasına şunu "
+"ekleyin:"
+
+#: ../../source/empty/index.rst:49
+msgid "And then run ``composer require glpi-project/tools``."
+msgstr "Ardından ``composer require glpi-project/tools`` komutunu çalıştırın."
+
+#: ../../source/empty/index.rst:51
+msgid "In the travis configuration file, just add the CS call:"
+msgstr "Travis ayar dosyasına CS çağrısını ekleyin:"
+
+#: ../../source/empty/index.rst:58
+msgid "In the ``.gitignore`` file, add the following:"
+msgstr "``.gitignore`` dosyasına şunu ekleyin:"
+
+#: ../../source/empty/index.rst:68
+msgid ""
+"As for the Robo.li configuration file, note that the one embed in the empty "
+"plugin is a bit specific, you'll have to edit it in order to get things "
+"working. See below for more informations."
+msgstr ""
+"Robo.li ayar dosyasında, boş uygulama ekini gömmenin biraz incelikli "
+"olduğunu unutmayın. Sorunsuz çalışması için düzenlemeniz gereken bazı şeyler"
+" var. Ayrıntılı bilgi almak için aşağıya bakın."
+
+#: ../../source/empty/index.rst:70
+msgid ""
+"Finally, as the ``tools`` project will provide you some features, you can "
+"remove duplicated tools scripts (files such as ``release``, "
+"``extract_template.sh``, ...) that would be present in your plugin."
+msgstr ""
+"Son olarak ``tools`` projesi size bazı özellikler sunar. Uygulama ekinizde "
+"bulunabilecek çift araç betiği dosyalarını silebilirsiniz (`release``, "
+"``extract_template.sh``, gibi)."
+
+#: ../../source/empty/index.rst:73
 msgid "Features"
 msgstr "Özellikler"
 
-#: ../../source/empty/index.rst:32
+#: ../../source/empty/index.rst:76
 msgid "Coding standards"
 msgstr "Kodlama standartları"
 
-#: ../../source/empty/index.rst:34
+#: ../../source/empty/index.rst:78
 msgid ""
-"A `PHPCodeSniffer <http://pear.php.net/package/PHP_CodeSniffer>`_ ruleset, "
-"based on core's GLPI is provided as ``tools/phpcs-rules.xml``."
+"The GLPI `PHPCodeSniffer <http://pear.php.net/package/PHP_CodeSniffer>`_ "
+"rulesets are provided as ``vendor/glpi-project/coding-"
+"standard/GlpiStandard/``."
 msgstr ""
-"Bir `PHP KodTarayıcı <http://pear.php.net/package/PHP_CodeSniffer>`_ kural "
-"kümesi, çekirdek GLPI ile ``tools/phpcs-rules.xml`` biçiminde sunulur."
+"GLPI `PHP KodTarayıcı <http://pear.php.net/package/PHP_CodeSniffer>`_ kural "
+"kümesi, ``vendor/glpi-project/coding-standard/GlpiStandard/`` biçiminde "
+"sunulur."
 
-#: ../../source/empty/index.rst:36
-msgid "To check coding standards, just run:"
-msgstr "Kodlama standartlarını denetlemek için şunu çalıştırın:"
+#: ../../source/empty/index.rst:80
+msgid "To check coding standards, just use the Robo.li task ``code:cs``:"
+msgstr ""
+"Kodlama standartlarını denetlemek için Robo.li task ``code:cs`` kullanın:"
 
-#: ../../source/empty/index.rst:44
+#: ../../source/empty/index.rst:88
 msgid ""
-"The above command will ignore ``vendor`` directory for wich we do not want "
-"to check standards. If there are other directories you want to exclude, "
-"adapt the command."
+"The above command will ignore ``vendor`` and run on the current directory."
 msgstr ""
-"Yukarıdaki komut standartlarının denetlenmesi istenmeyen ``vendor`` "
-"klasörünü yok sayar. Katılmasını istemediğiniz başka klasörler varsa komutu "
-"değiştirin."
+"Yukarıdaki komut ``vendor`` seçeneğini yok sayar ve geçerli klasörde "
+"yürütülür."
 
-#: ../../source/empty/index.rst:46
+#: ../../source/empty/index.rst:90
 msgid ""
-"Remember to also adapt the :ref:`automated checks configuration file "
-"<empty_travis>` if you do so."
+"If you want to adapt ignore list or checked directories, you can just "
+"override ``$csignore`` and/or ``$csfiles`` in the ``RoboFile.php`` of the "
+"plugin:"
 msgstr ""
-"Bunu yapmak isterseniz  :ref:`otomatik denetim ayar dosyasını "
-"<empty_travis>` düzenlemeyi unutmayın."
+"Yoksayma listesi ya da denetlenmiş klasörleri uygulamak istiyorsanız, "
+"uygulama ekinin ``RoboFile.php`` dosyasındaki ``$csignore`` ve ``$csfiles`` "
+"değerlerini değiştirmeniz yeterlidir:"
 
-#: ../../source/empty/index.rst:51
+#: ../../source/empty/index.rst:106
 msgid "Automated checks"
 msgstr "Otomatik denetimler"
 
-#: ../../source/empty/index.rst:53
+#: ../../source/empty/index.rst:108
 msgid ""
 "For convenience; a ``.travis.yml`` file is also provided, that is setup to:"
 msgstr ""
 "Kolaylık sağlamak için önceden hazırlanmış bir ``.travis.yml`` dosyası "
 "sunulmuştur ve şunları kapsar:"
 
-#: ../../source/empty/index.rst:55
+#: ../../source/empty/index.rst:110
 msgid "check coding standards,"
 msgstr "kodlama standartlarını denetler,"
 
-#: ../../source/empty/index.rst:56
+#: ../../source/empty/index.rst:111
 msgid "run on a bunch on different configuration"
 msgstr "farklı ayarlar üzerinde çalışır"
 
-#: ../../source/empty/index.rst:58
+#: ../../source/empty/index.rst:113
 msgid ""
 "You still have to enable travis-ci builds from the website in order to "
 "activate automated tests."
@@ -142,7 +219,7 @@ msgstr ""
 "Otomatik denetimlerin yapılabilmesi için web sitesi üzerinde travis-ci "
 "yapımlarını etkinleştirmeniz gerekir."
 
-#: ../../source/empty/index.rst:60
+#: ../../source/empty/index.rst:115
 msgid ""
 "Of course, the ``.travis.yml`` file can be pimped; you can run unit tests, "
 "create/update a database, activate notifications, and so on. Refer to the "
@@ -153,35 +230,23 @@ msgstr ""
 "işlemler ekleyebilirsiniz. Ayrıntılı bilgi almak için `Travis-CI belgelerine"
 " <https://docs.travis-ci.com/>`_ bakın."
 
-#: ../../source/empty/index.rst:63
+#: ../../source/empty/index.rst:118
 msgid "Minifying CSS ans JS"
 msgstr "CSS ve JS Küçültülüyor"
 
-#: ../../source/empty/index.rst:65
+#: ../../source/empty/index.rst:120
 msgid ""
-"A convenient script, using `Robo.li <http://robo.li>`_ is provided. You'll "
-"find two files related:"
+"A convenient script, using `Robo.li <http://robo.li>`_ is provided. The "
+"``RoboFile.php`` file is an empty class that extends "
+"``Glpi\\Tools\\RoboFile`` (provided by ``glpi-project/tools`` dependency) in"
+" which you can set your own stuff."
 msgstr ""
-"`Robo.li <http://robo.li>`_ kullanan bir betik sunulmuştur. İlgili iki "
-"dosyayı şurada bulunabilir:"
+"`Robo.li <http://robo.li>`_ kullanan standart bir betik sunulmuştur. "
+"`RoboFile.php`` dosyasında ``Glpi\\Tools\\RoboFile`` (``glpi-project/tools``"
+" bağlılığı tarafından sunulan) özelliklerini genişleten boş bir sınıf "
+"bulunur. Burada istediğiniz ayarları yapabilirsiniz."
 
-#: ../../source/empty/index.rst:67
-msgid ""
-"``RoboFilePlugin.php`` in which are declared common usefull methods you may "
-"want to use (see below);"
-msgstr ""
-"``RoboFilePlugin.php`` içinde ortaklaşa kullanmak isteyebileceğiniz yararlı "
-"yöntemler bulunur (aşağıya bakın):"
-
-#: ../../source/empty/index.rst:68
-msgid ""
-"``RoboFile.php`` an empty class, which extends ``RoboFilePlugin`` in which "
-"you can set you own stuff."
-msgstr ""
-"``RoboFile.php``, ``RoboFilePlugin`` tarafından kullanılan ve içine kendi "
-"kodlarınızı ekleyebileceğiniz boş bir sınıftır."
-
-#: ../../source/empty/index.rst:70
+#: ../../source/empty/index.rst:122
 msgid ""
 "That way, you can quite easily update the common file and get your own tasks"
 " remaining the same."
@@ -189,7 +254,7 @@ msgstr ""
 "Böylece ortak dosyayı kolayca güncelleyerek kendi görevlerinizin aynı "
 "kalmasını sağlayabilirsiniz."
 
-#: ../../source/empty/index.rst:72
+#: ../../source/empty/index.rst:124
 msgid ""
 "To get the required libs installed, you'll have to `get composer installed "
 "<http://getcomposer.org>`_ and then run:"
@@ -197,16 +262,16 @@ msgstr ""
 "Gerekli kitaplıkların yüklenmesi için get composer "
 "<http://getcomposer.org>`_ yükleyip şunu çalıştırmalısınız:"
 
-#: ../../source/empty/index.rst:78
+#: ../../source/empty/index.rst:130
 msgid "There are three available targets:"
 msgstr "Üç hedef seçilebilir:"
 
-#: ../../source/empty/index.rst:80
+#: ../../source/empty/index.rst:132
 msgid "``minify`` that will minify all CSS and JS files (see below),"
 msgstr ""
 "``küçült`` tüm CSS ve JavaScript dosyalarını küçültür (aşağıya bakın),"
 
-#: ../../source/empty/index.rst:81
+#: ../../source/empty/index.rst:133
 msgid ""
 "``minify:css`` that will minify all css  stylesheets files in the ``css`` "
 "directory of your plugin, creating a ``.min.css`` version along with the "
@@ -216,7 +281,7 @@ msgstr ""
 "sayfalarını küçülterek özgün dosyaların yanında ``.min.css`` sürümlerini "
 "oluşturur."
 
-#: ../../source/empty/index.rst:82
+#: ../../source/empty/index.rst:134
 msgid ""
 "``minify:js`` that will minify all javascript files in the ``js`` directory "
 "of your plugin, creating a ``.min.js`` version along with the original file."
@@ -225,11 +290,11 @@ msgstr ""
 "dosyalarını küçülterek özgün dosyaların yanında ``.min.js`` sürümlerini "
 "oluşturur."
 
-#: ../../source/empty/index.rst:84
+#: ../../source/empty/index.rst:136
 msgid "Just choose a target, and run something like:"
 msgstr "Yalnız hedefi seçin ve şunun gibi bir şey çalıştırın:"
 
-#: ../../source/empty/index.rst:92
+#: ../../source/empty/index.rst:144
 msgid ""
 "Remember compiled files should not be commited on your repository sources. "
 "It is a release process to minify files."
@@ -237,7 +302,7 @@ msgstr ""
 "Derlenmiş dosyaların depo kaynaklarınıza yüklenmeyeceğini unutmayın. Bu "
 "işlem yayınlamadan önce dosyaları küçültmek içindir."
 
-#: ../../source/empty/index.rst:94
+#: ../../source/empty/index.rst:146
 msgid ""
 "Also remember to adapt your scripts so they load your minified versions if "
 "available, and the original one otherwise :)"
@@ -245,11 +310,23 @@ msgstr ""
 "Ayrıca betiklerinizi varsa küçültülmüş sürümleri yoksa özgün sürümleri "
 "yükleyecek şekilde uyarlamayı unutmayın :)"
 
-#: ../../source/empty/index.rst:97
+#: ../../source/empty/index.rst:148
+msgid ""
+"As of GLPI 9.2; you do not have to care about loading minified files when "
+"using ``add_css`` and ``add_javascript`` hooks! You just need to call not "
+"minified script; and GLPI will use the minified version if it exists and if "
+"not in `DEBUG` mode."
+msgstr ""
+"GLPI 9.2 sürümünden itibaren, ``add_css`` ve ``add_javascript`` "
+"seçeneklerini kullanarak, küçültülmüş dosyaların yüklenmesi için herhangi "
+"bir ek işlem yapmanız gerekmez. Küçültülmemiş betiği çağırmanız yeterlidir. "
+"Varsa ve `Hata Ayıklama` kipinde değilse GLPI küçültülmüş sürümü kullanır."
+
+#: ../../source/empty/index.rst:151
 msgid "Translations"
 msgstr "Çeviriler"
 
-#: ../../source/empty/index.rst:99
+#: ../../source/empty/index.rst:153
 msgid ""
 "GLPI and its plugins use gettext for internationnalization. Several steps "
 "are required before that can work:"
@@ -257,7 +334,7 @@ msgstr ""
 "GLPI ve uygulama eklerinin dil çevirileri için gettext kullanılır. "
 "Çevirilerin doğru çalışması için bir kaç adım gereklidir:"
 
-#: ../../source/empty/index.rst:101
+#: ../../source/empty/index.rst:155
 msgid ""
 "1 translatable strings must be extracted from source files, a ``POT`` file "
 "will be created or updated accordingly, 2 ``PO`` files must be created or "
@@ -270,17 +347,17 @@ msgstr ""
 "``PO`` dosyalarının çevirisi yapılmalıdır. 4. Güncel ``PO`` dosyası "
 "kullanılarak ``MO`` dosyaları derlenmelidir."
 
-#: ../../source/empty/index.rst:106
+#: ../../source/empty/index.rst:160
 msgid ""
-"In the ``tools`` directory, you'll find a ``extract_template.sh`` script. "
-"This is designed to extract translatable strings from your source code (see "
-"first point above)."
+"In the ``vendor/bin`` directory, you'll find a ``extract_template.sh`` "
+"script. This is designed to extract translatable strings from your source "
+"code (see first point above)."
 msgstr ""
-"``Tools`` klasöründe bulabileceğiniz ``extract_template.sh`` betiği ile "
-"kaynak kodunuzdaki çevrilebilecek dizgeleri ayıklayabilirsiniz (yukarıdaki "
+"``vendor/bin`` klasöründe bulabileceğiniz ``extract_template.sh`` betiği ile"
+" kaynak kodunuzdaki çevrilebilecek dizgeleri ayıklayabilirsiniz (yukarıdaki "
 "birinci adım)."
 
-#: ../../source/empty/index.rst:108
+#: ../../source/empty/index.rst:162
 msgid ""
 "Once it has been ran, a ``locale/mygreatplugin.pot`` file will be "
 "created/updated."
@@ -288,7 +365,7 @@ msgstr ""
 "Bu betik çalıştırıldığında ``locale/uygulamaekim.pot`` dosyası oluşturulur "
 "ya da güncellenir."
 
-#: ../../source/empty/index.rst:110
+#: ../../source/empty/index.rst:164
 msgid ""
 "For the second and third step, you'll have to make a choice. You can use "
 "gettext tools to update your ``PO`` files and translate them using a "
@@ -304,7 +381,7 @@ msgstr ""
 "çevrimiçi çeviri sistemlerinden yararlanabilirsiniz. Şu anda Transifex "
 "üzerinde GLPI çekirdeği ve çoğu uygulama ekinin çevirileri bulunmaktadır."
 
-#: ../../source/empty/index.rst:112
+#: ../../source/empty/index.rst:166
 msgid ""
 "Once you get your updated ``PO`` files, you'll have to compile them to "
 "``MO`` files. You can run it manually, the release script will compile them "
@@ -314,47 +391,58 @@ msgstr ""
 " Bu işlemi el ile yapabilirsiniz. Yayınlama betiği bu dosyaları her durumda "
 "yeniden derler.  :ref:`MO dosyalarını derlemek bölümüne <compile_mo>` bakın."
 
-#: ../../source/empty/index.rst:117
+#: ../../source/empty/index.rst:171
 msgid "Release script"
 msgstr "Yayınlama Betiği"
 
-#: ../../source/empty/index.rst:119
+#: ../../source/empty/index.rst:173
 msgid ""
-"A release script is provided in ``tools/release``. This is a \"simple\" "
-"`Python <http://python.org>`_ script; you should just have Python installed "
-"on your system (this is instaleld by defautl on most linux distributions)."
+"A release script is provided in ``vendor/bin/plugin-release``. This is a "
+"\"simple\" `Python <http://python.org>`_ script; you should just have Python"
+" installed on your system (this is installed by default on most linux "
+"distributions)."
 msgstr ""
-"``tools/release`` klasöründe bir yayınlama betiği bulunur. \"Basit\" `bir "
-"Python <http://python.org>`_ betiğidir. Sisteminizde Python yüklü olmalıdır "
-"(çoğu linux dağıtımında varsyaılan olarak yüklüdür)."
+"``vendor/bin/plugin-release`` klasöründe bir yayınlama betiği bulunur. "
+"\"Basit\" `bir Python <http://python.org>`_ betiğidir. Sisteminizde Python "
+"yüklü olmalıdır (çoğu linux dağıtımında varsayılan olarak yüklüdür)."
 
-#: ../../source/empty/index.rst:121
+#: ../../source/empty/index.rst:177
+msgid ""
+"Note that for the moment, the release script is only compatible if you use "
+"semantic versionning!"
+msgstr ""
+"Şu anda yayınlama betiğinin yalnız anlam bilimsel sürümleme ile uyumlu "
+"olduğunu unutmayın!"
+
+#: ../../source/empty/index.rst:179
 msgid ""
 "Using just the defaults, the script will try to retrieve the latest tag in "
-"your git repository, and will propose you to release it:"
+"your git repository, add third party dependencies and create a `Release` on "
+"the github project:"
 msgstr ""
 "Yalnız varsayılan değerler kullanıldığında betik git deponuzdaki son etiketi"
-" almayı ve yayın sürümünüzü belirlemeyi dener:"
+" almayı, üçüncü taraf bağlılıklarını eklemeyi ve github projesinde `Yayın` "
+"sürümünü oluşturmayı dener:"
 
-#: ../../source/empty/index.rst:134
+#: ../../source/empty/index.rst:192
 msgid "Requirements"
 msgstr "Gereksinimler"
 
-#: ../../source/empty/index.rst:136
+#: ../../source/empty/index.rst:194
 msgid ""
 "You will need a python interpreter installed as well as the following "
 "modules:"
 msgstr "Python derleyicinin şu modüller ile yüklenmiş olması gerekir:"
 
-#: ../../source/empty/index.rst:138
+#: ../../source/empty/index.rst:196
 msgid "`termcolor <https://pypi.python.org/pypi/termcolor>`_,"
 msgstr "`termcolor <https://pypi.python.org/pypi/termcolor>`_,"
 
-#: ../../source/empty/index.rst:139
+#: ../../source/empty/index.rst:197
 msgid "`gitdb <https://github.com/gitpython-developers/gitdb>`_,"
 msgstr "`gitdb <https://github.com/gitpython-developers/gitdb>`_,"
 
-#: ../../source/empty/index.rst:140
+#: ../../source/empty/index.rst:198
 msgid ""
 "`github <https://github.com/PyGithub/PyGithub>`_ (to check for existing "
 "versions in also in drafts, and to create github releases), unless you use "
@@ -364,26 +452,27 @@ msgstr ""
 "taslakları denetlemek ve github sürümlerini oluşturmak için ), "
 "``--nogithub`` seçeneğini kullanmadığınız sürece"
 
-#: ../../source/empty/index.rst:142
+#: ../../source/empty/index.rst:200
 msgid ""
-"If you want to get help on the script, try to run ``./tools/release -h``."
+"If you want to get help on the script, try to run ``./vendor/bin/plugin-"
+"release -h``."
 msgstr ""
-"Betik ile ilgili yardım sayfasını görüntülemek için ``./tools/release -h`` "
-"yazın."
+"Betik ile ilgili yardım sayfasını görüntülemek için ``./vendor/bin/plugin-"
+"release -h`` yazın."
 
-#: ../../source/empty/index.rst:145
+#: ../../source/empty/index.rst:203
 msgid "Process"
 msgstr "Süreç"
 
-#: ../../source/empty/index.rst:147
+#: ../../source/empty/index.rst:205
 msgid "The release process will achieve the following tasks for you:"
 msgstr "Yayınlama sürecinde şu işlemler yapılır:"
 
-#: ../../source/empty/index.rst:149
+#: ../../source/empty/index.rst:207
 msgid "check if the version constant is the same as the tag you've requested;"
 msgstr "sürüm sabitinin istediğiniz etiket ile aynı olup olmadığı denetlenir;"
 
-#: ../../source/empty/index.rst:150
+#: ../../source/empty/index.rst:208
 msgid ""
 "check if the version in the website XML file is the same as the tag you've "
 "requested;"
@@ -391,7 +480,7 @@ msgstr ""
 "web sitesi XML dosyası sürümünün istediğiniz etiket ile aynı olup olmadığı "
 "denetlenir;"
 
-#: ../../source/empty/index.rst:151
+#: ../../source/empty/index.rst:209
 msgid ""
 "check if a release already exists, locally, and remotely (assuming your "
 "project is hosted in the *pluginsGLPI* organization and the release is "
@@ -401,7 +490,7 @@ msgstr ""
 "açık olarak yayınlandığı varsayılarak) bir sürümün varolup olmadığı "
 "denetlenir;"
 
-#: ../../source/empty/index.rst:152
+#: ../../source/empty/index.rst:210
 msgid ""
 "make a `git archive` of the paths that are not excluded (``.git``, "
 "``tools``, ``tests``, ...);"
@@ -409,15 +498,15 @@ msgstr ""
 "devre dışı bırakılmamış yolların `git arşivi` of oluşturulur (``.git``, "
 "``tools``, ``tests``, ...);"
 
-#: ../../source/empty/index.rst:153
+#: ../../source/empty/index.rst:211
 msgid "if any, install composer dependencies;"
 msgstr "varsa derleyici bağımlılıkları yüklenir;"
 
-#: ../../source/empty/index.rst:154
+#: ../../source/empty/index.rst:212
 msgid "if any, compile you ``MO`` files;"
 msgstr "varsa, ``MO`` dosyaları derlenir;"
 
-#: ../../source/empty/index.rst:155
+#: ../../source/empty/index.rst:213
 msgid ""
 "if any, compile you CSS stylesheets and your Javascript files (using "
 "`Robo.li <http://robo.li>`_);"
@@ -425,7 +514,7 @@ msgstr ""
 "varsa, CSS stil sayfaları ve JavaScript dosyaları derlenir (`Robo.li "
 "<http://robo.li>` kullanılarak_);"
 
-#: ../../source/empty/index.rst:156
+#: ../../source/empty/index.rst:214
 msgid ""
 "create a release archive with all that; that will be available in the "
 "``dist`` directory;"
@@ -433,27 +522,38 @@ msgstr ""
 "tüm bunlardan bir yayın arşivi derlenerek  `Robo.li <http://robo.li>`_  "
 "``dist`` klasörüne eklenir;"
 
-#: ../../source/empty/index.rst:157
+#: ../../source/empty/index.rst:215
 msgid "use GPG to sign the archive."
 msgstr "Arşivi imzalamak için GPG kullanın."
 
-#: ../../source/empty/index.rst:161
+#: ../../source/empty/index.rst:219
 msgid ""
 "The standard release process will not work on your files directly, it will "
-"make a copy in the ``dist/src`` directory before. The only exception are the"
-" :ref:`MO compiling option <compile_mo>` and the :ref:`minify option "
-"<minify>`."
+"make a copy in the ``dist/src`` directory before. The only exception is the "
+":ref:`MO compiling option <compile_mo>`."
 msgstr ""
 "Standart yayınlama sürecinde doğrudan dosyalarınız üzerinde çalışılmaz. "
-"Dosyalar önce ``dist/src`` klasörüne kopyalanır. Bu işlemin yapılmadığ "
-"durumlar :ref:`MO derleme seçeneği <compile_mo>` ve the :ref:`küçültme "
-"seçeneğidir <minify>`."
+"Dosyalar önce ``dist/src`` klasörüne kopyalanır. Bu işlemin uygulanmadığı "
+"tek durum :ref:`MO derleme seçeneğidir <compile_mo>`."
 
-#: ../../source/empty/index.rst:166
+#: ../../source/empty/index.rst:221
+msgid ""
+"In order to check if all is OK before doing real release; create your tag "
+"and run ``./vendor/bin/plugin-release -C`` **before pushing your tag**. That"
+" way, you'll be able to fix potential issues and re-create your tag locally "
+"(remember published tags should **never** be removed)."
+msgstr ""
+"Gerçek sürümü yayınlamadan önce her şeyin tamam olup olmadığını görmek için "
+"etiketinizi oluşturun ve ``./vendor/bin/plugin-release -C`` komutunu yürütün"
+" **etiketinize push işlemi yapmadan önce**. Böylece olası sorunları çözerek "
+"etiketinizi yerel olarak yeniden oluşturabilirsiniz. (yayınlanan etiketlerin"
+" **asla** silinemediğini unutmayın)."
+
+#: ../../source/empty/index.rst:226
 msgid "Compiling MO files"
 msgstr "MO dosyalarının derlenmesi"
 
-#: ../../source/empty/index.rst:168
+#: ../../source/empty/index.rst:228
 msgid ""
 "The release process will automatically compile every ``PO`` file it will "
 "found in your ``locales`` directory. But you probably want the sources to "
@@ -466,47 +566,20 @@ msgstr ""
 "işlemi gerçekleştirmek için ``--compile-mo`` (ya da  ``-m``) seçeneği "
 "sunulur:"
 
-#: ../../source/empty/index.rst:176
+#: ../../source/empty/index.rst:236
 msgid ""
 "The above command will work on your plugins files directly; not on a copy as"
-" does other commands but :ref:`minify <minify>`."
+" does other commands."
 msgstr ""
-"Yukarıdaki diğer komutlar gibi uygulama eki dosyalarınızın kopyaları "
-"üzerinde değil, :ref:`minify <minify>` gibi doğrudan dosyalarınız üzerinde "
+"Bu komut yukarıdaki diğer komutlar gibi uygulama eki dosyalarınızın "
+"kopyaları üzerinde değil, doğrudan uygulama eki dosyalarınızın üzerinde "
 "çalışır."
 
-#: ../../source/empty/index.rst:181
-msgid "Minifying"
-msgstr "Küçültme"
-
-#: ../../source/empty/index.rst:183
-msgid ""
-"The release process will automatically minify every CSS stylesheet found "
-"into your ``css`` directory, and every javascript file found under your "
-"``js`` directory; but for testing purposes, you may want to get them "
-"minified. The release script provide the ``--minify`` (or ``-M``) to achieve"
-" that:"
-msgstr ""
-"Yayınlama sürecinde ``css`` klasöründeki her CSS stil sayfası dosyası ve "
-"``js`` klasöründeki her javascript dosyası otomatik olarak küçültülür. Ancak"
-" büyük olasılıkla deneme amacıyla küçültülmelerini istersiniz. Yayınlama "
-"betiğinde bu işlemi gerçekleştirmek için ``--minify`` (ya da  ``-M``) "
-"seçeneği sunulur:"
-
-#: ../../source/empty/index.rst:191
-msgid ""
-"The above command will work on your plugins files directly; not on a copy as"
-" does other commands but :ref:`compiling mo <compile_mo>`."
-msgstr ""
-"Yukarıdaki diğer komutlar gibi uygulama eki dosyalarınızın kopyaları "
-"üzerinde değil, :ref:`compiling mo <compile_mo>` gibi doğrudan dosyalarınız "
-"üzerinde çalışır."
-
-#: ../../source/empty/index.rst:195
+#: ../../source/empty/index.rst:239
 msgid "Pre-releases"
 msgstr "Ön yayınlar"
 
-#: ../../source/empty/index.rst:197
+#: ../../source/empty/index.rst:241
 msgid ""
 "Per default, the release script will work only on existing tags. Any pre-"
 "release should have its own tag; but you may want to create a release "
@@ -517,7 +590,7 @@ msgstr ""
 "durumlarda herhangi bir etiketi olmayan bir yayın arşivi oluşturmak "
 "isteyebilirsiniz."
 
-#: ../../source/empty/index.rst:199
+#: ../../source/empty/index.rst:243
 msgid ""
 "In order to tell the release script what it should archive, you'll have to "
 "specify several parameters:"
@@ -525,11 +598,11 @@ msgstr ""
 "Yayınlama betiğinde bu işlemi gerçekleştirmek için bir kaç parametre "
 "belirtmeniz gerekir:"
 
-#: ../../source/empty/index.rst:201
+#: ../../source/empty/index.rst:245
 msgid "``--commit`` (or ``-c``) giving the commit hash,"
 msgstr "``--commit`` (ya da ``-c``) commit karmasını verir,"
 
-#: ../../source/empty/index.rst:202
+#: ../../source/empty/index.rst:246
 msgid ""
 "``--release`` (or ``-r``) giving the release version (usually, it will be "
 "the next release version),"
@@ -537,7 +610,7 @@ msgstr ""
 "``--release`` (ya da ``-r``) yayın sürümünü verir (genellikle bir sonraki "
 "yayın sürümüdür),"
 
-#: ../../source/empty/index.rst:203
+#: ../../source/empty/index.rst:247
 msgid ""
 "``--extra`` (or ``-e``) to specify an extra string (such as *alpha*, *beta*,"
 " *rc1*, etc...)"
@@ -545,15 +618,15 @@ msgstr ""
 "``--extra`` (ya da ``-e``) ek bir dizge belirtmek için kullanılır (*alpha*, "
 "*beta*, *rc1* gibi)"
 
-#: ../../source/empty/index.rst:205
+#: ../../source/empty/index.rst:249
 msgid "As an example with the *order* plugin:"
 msgstr "Örnek olarak *sipariş* uygulama eki için:"
 
-#: ../../source/empty/index.rst:214
+#: ../../source/empty/index.rst:258
 msgid "Signing releases"
 msgstr "Sürümleri imzalamak"
 
-#: ../../source/empty/index.rst:216
+#: ../../source/empty/index.rst:260
 msgid ""
 "Signing releases with a GPG key would permit users to check download "
 "integrity before installing. You'll need a GPG key publically available to "
@@ -566,7 +639,7 @@ msgstr ""
 "İmzalama seçeneği varsayılan olarak etkindir. ``--nosign`` (ya da ``-S``) "
 "seçeneği kullanılarak devre dışı bırakılabilir."
 
-#: ../../source/empty/index.rst:218
+#: ../../source/empty/index.rst:262
 msgid ""
 "A file containing the signature with the same name as the archive with a "
 "``.asc`` extension will be created in the ``dist`` directory."
@@ -574,11 +647,11 @@ msgstr ""
 "İmzanın bulunduğu dosya arşiv ile aynı adla ve ``.asc`` uzantısıyla ``dist``"
 " klasörüne eklenir."
 
-#: ../../source/empty/index.rst:221
+#: ../../source/empty/index.rst:265
 msgid "GitHub release"
 msgstr "GitHub yayını"
 
-#: ../../source/empty/index.rst:223
+#: ../../source/empty/index.rst:267
 msgid ""
 "The release script will create a release on your GitHub repository, as a "
 "draft, unless you use ``--nogithub`` (or ``-g``) option."
@@ -586,7 +659,7 @@ msgstr ""
 "Yayınlama betiği ``--nogithub`` (ya da ``-g``) seçeneği kullanılmadıkça "
 "GitHub deposu üzerinde bir taslak yayınlama sürümü oluşturur."
 
-#: ../../source/empty/index.rst:227
+#: ../../source/empty/index.rst:271
 msgid ""
 "Unfortunately, I was not able to get the newly created archive uploaded to "
 "this new release... Maybe that could be fixed in the future."
@@ -594,7 +667,7 @@ msgstr ""
 "Maalesef, yeni sürüm için oluşturulmuş arşiv dosyasını henüz "
 "yükleyemiyoruz...Bu sorun ileride çözülebilir."
 
-#: ../../source/empty/index.rst:229
+#: ../../source/empty/index.rst:273
 msgid ""
 "In order to use this feature, you will need the `github "
 "<https://github.com/PyGithub/PyGithub>`_ installed; and you will need an "
@@ -606,7 +679,7 @@ msgstr ""
 "olmalıdır. Her kullanıcıya bir erişim kodu verilir ve depolarına ulaşması "
 "için kullanılır."
 
-#: ../../source/empty/index.rst:231
+#: ../../source/empty/index.rst:275
 msgid ""
 "You'll have to go to your `github account settings page, in the personnal "
 "access token tab <https://github.com/settings/tokens>`_. Click on *generate "
@@ -620,7 +693,7 @@ msgstr ""
 "seçeneğini işaretlediğinizden emin olun (başka bir seçeneği işaretlemeniz "
 "gerekmez. Gerek duyarsanız bir kaç erişim kodu üretebilirsiniz)."
 
-#: ../../source/empty/index.rst:233
+#: ../../source/empty/index.rst:277
 msgid ""
 "The token will be displayed only once; store it in the ``.gh_token`` file in"
 " your plugin directory; and that's all!"
@@ -628,6 +701,6 @@ msgstr ""
 "Kod yalnız bir kez görüntülenir. kodu plugin klasörünüzdeki ``.gh_token`` "
 "dosyasına kaydederek işlemi tamamlayabilirsiniz."
 
-#: ../../source/empty/index.rst:236
+#: ../../source/empty/index.rst:280
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
