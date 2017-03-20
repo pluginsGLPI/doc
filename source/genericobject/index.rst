@@ -42,13 +42,32 @@ Example of usage
 *  Activate the *cars* object.
 *  Manage your collection of *cars* in GLPI.
 
-Install the Plugin
+Install the plugin
 ------------------
 
 * Uncompress the archive.
 * Move the ``genericobject`` directory to the ``<GLPI_ROOT>/plugins`` directory
 * Navigate to the *Configuration > Plugins* page,
 * Install and activate the plugin.
+
+Update the plugin
+-----------------
+
+In order to get the plugin fully working; you will have to take some precautions trying to upgrade.
+
+First of all, do a backup of your database and your files!
+
+Make sure the old generated files are present in their original emplacement (should be in ``glpi/files/_plugins/genericobject`` directory). If you have moved your instance, you may have to copy them from the old one. Also remember to copy ``glpi_plugin_genericobject_*`` tables from the original database to the new one, if any.
+
+.. warning::
+
+   In older versions of the plugin; generated files were stored in the plugin directory itself (into the ``inc``, ``front`` and ``locales`` directories). In that case, you must copy them to their original location.
+
+Once this is done, you should be ready to process. Go to the plugin administration page, and click ``Upgrade``, then ``Enable``.
+
+On some instances, even if the class files are generated during upgrade, you may have to :ref:`manualy generate them again <genericobject_generatefiles>`.
+
+Finally; disable and enable again the plugin; and logout from GLPI to be sure all menus and links are up to date.
 
 Usage
 -----
@@ -357,3 +376,12 @@ Use the new field
 Activate the new type, it's now ready to be used.
 
 The new type is available for users in the *Plugins > Objects management* menu.
+
+.. _genericobject_generatefiles:
+
+Regenerate files
+----------------
+
+Some files are automatically generated when you add a new type, or when you upgrade your plugin... But in some cases; it may be usefull to generate them again.
+
+In order to achieve that; you will have to enable debug mode from your GLPI user profile; that will make a `Debug` tab appear on your object configuration. Just click the `Regenerate files` button, and you're done!
