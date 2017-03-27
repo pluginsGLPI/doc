@@ -68,6 +68,8 @@ Based on question type options will be based on type chosen.
 
 If validation is desired, it can be implemented following `PHP Regular Expressions <http://php.net/manual/reference.pcre.pattern.syntax.php>`_.
 
+If you want to show or hide questions depending on the answers of other questions, use the *show fields* area when editing a question. In the version 2.5.0 you may use more complex expressions checking for the content of several questions, and use logic operator **OR** and **AND**. The precedence of boolean operators applies, meaning that **AND** has precedence over **OR**.
+
 Helpdesk
 ^^^^^^^^
 
@@ -81,6 +83,8 @@ Users using the simplified interface will benefit a new interface allowing them 
 * follow the process of their requests
 * book assets
 * view their feeds
+
+Users using the extended interface have a more complete view on their requests.
 
 Forms with `Direct access on homepage` enabled and `FAQ items` in the `Knowledge base` will will appear in the interface. Users may search by browsing the categories on the left of the screen, and may also search for forms or FAQ with a natural language search engine.
 
