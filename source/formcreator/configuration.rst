@@ -80,16 +80,17 @@ Conditions may be multiple. To add or remove a condition two buttons are availab
 
  .. note:: **List of pictograms**
 
- * The **circle** allows you to make a question mandatory
- .. image:: images/question_picto_mandatory.png
-
- , or optional
- .. image:: images/question_picto_optional.png
+ * The **circle** allows you to make a question mandatory |circle_mandatory|, or optional |circle_optional|
 
  * **Arrow up** and **arrow down** allow you to r eorder questions in a section.
  * Clicking on a question allow you to edit it.
  * **Two stacked squares** allows you to duplicate a question or a whole section.
  * The **recycle bin** allows you to delete a question or a whole section.
+
+.. |circle_mandatory| image:: images/question_picto_mandatory.png
+
+.. |circle_optional| image:: images/question_picto_optional.png
+
 
 Types of question
 -----------------
