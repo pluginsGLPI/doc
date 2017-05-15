@@ -227,6 +227,93 @@ Text area
 
 This field allows you to input several lines of text.
 
+Targets
+-------
+
+Three values are available:
+* **Public access**: Anyone may acces the form; you may use it in an intranet.
+* **Private access**: Users having a GLPI account may acces the form.
+* **Restricted access**: Only users having the specified profiles may access the form.
+
+Destinations
+^^^^^^^^^^^^
+
+There are two types of destinations for a form:
+* Generation of one or several tickets
+* Generation of one or several changes
+
+To create a detsination click on the link **Add a destination**
+
+ .. image:: images/add_destination.png
+
+The following page displays:
+
+ .. image:: images/add_destination_form.png
+
+Choose a destination type, then fill the form which dynamically displays.
+
+Ticket destination
+''''''''''''''''''
+
+ .. image:: images/destination_ticket.png
+
+* **Name**: Name of the destination
+* **Ticket title**: By default, this is the name of the destination. You may change it and use tags the form provides.
+* **Description**: By default the description is **##FULLFORM##**. It means the description will be populated with all questions and answers of the form. You may change the description. It is always rendered as simple text when the destination is generated. Available tags are displayed at the bottom of the page, in the section **List of available tags**.
+
+  .. image:: images/tag_list.png
+
+* **Destination entity**: Defines the destination entity of the destination ticket
+
+ .. image:: images/destination_entity_dropdown.png
+
+* **Ticket template**: A ticket template may be used to define the content of the destination  ticket.
+* **Due date**: To define a due date forthe  generated ticket.
+* **Ticket category**: To assign a category to the generated ticket.
+ * **Category from template or None**: If a ticket template is used, the category of the template will be used. If there is no ticket template, or if the template does not defiles a category, no category will be affected to the ticket.
+ * **Specific category**: Defines a category to the ticket from available categories.
+ * **Equals to the answer to a question**: defines the category from a answer in the form
+
+* **Urgency**: allows to define urgency in the generated ticket. Available choices are:
+ * **Urgency from template or Medium**: If a ticket template is used and it sets an urgency, it will be used for the generated ticket. Medium for other cases.
+ * **Equals to the answer to the question**! The urgency is set from the answer of a quetion in the form.
+
+.. note:: You may create several destinations for a single form. Several tickets or changes will be generated when  the form is validated.
+
+Change destination
+''''''''''''''''''
+
+ .. image:: images/destination_change.png
+
+* **Name**: Name of the destination
+* **Ticket title**: By default, this is the name of the destination. You may change it and use tags the form provides.
+* **Description**: By default the description is **##FULLFORM##**. It means the description will be populated with all questions and answers of the form. You may change the description. It is always rendered as simple text when the destination is generated. Available tags are displayed at the bottom of the page, in the section **List of available tags**.
+* **Impacts**: Works as **Description**.
+* **Control list**: Works as **Description**.
+* **Deployment plan**: Works as **Description**.
+* **Backup plan**: Works as **Description**.
+* **Checklist**: Works as **Description**.
+* **Destination entity**: Defines the destination entity of the destination ticket
+* **Due date**: To define a due date forthe  generated ticket.
+* **Change category**: To assign a category to the generated change.
+ * **None**: No category assigned.
+ * **Specific category**: Defines a category to the change from available categories.
+ * **Equals to the answer to a question**: defines the category from a answer in the form
+* **Urgency**: allows to define urgency in the generated change. Available choices are:
+ * **Medium**: If a ticket template is used and it sets an urgency, it will be used for the generated ticket. Medium for other cases.
+ * **Equals to the answer to the question**! The urgency is set from the answer of a quetion in the form.
+
+Preview
+-------
+
+This tab allows you to view how the form will be rendered and  test it without activating it.
+
+Form answers
+------------
+
+This tab shows all answers saved for the form.
+
+
 
 
 
