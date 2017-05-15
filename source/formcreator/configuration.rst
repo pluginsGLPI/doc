@@ -80,8 +80,7 @@ Conditions may be multiple. To add or remove a condition two buttons are availab
 
  .. note:: **List of pictograms**
 
- * The **circle** allows you to make a question mandatory |circle_mandatory|, or optional |circle_optional|
-
+ * The **circle** allows you to make a question mandatory |circle_mandatory|, or optional |circle_optional|.
  * **Arrow up** and **arrow down** allow you to r eorder questions in a section.
  * Clicking on a question allow you to edit it.
  * **Two stacked squares** allows you to duplicate a question or a whole section.
@@ -314,17 +313,30 @@ Form answers
 
 This tab shows all answers saved for the form.
 
+.. image:: images/form_answers.png
+
+When viewing a specific answer, you may print it
+
+.. image:: images/form_answers_print.png
 
 
+Import / export, duplication and transfer
+-----------------------------------------
 
+It is possible to achieve some operations on forms from **Massive actions**:
 
+.. image:: images/form_mass_actions.png
 
+You must forst show the list of forms, tick one or more forms on which  you want to apply an action, and click on the **Action** button.
 
+Available actions are:
+* **Duplicate**: Duplicate selected form(s).
+* **Transfer**: Transfer selected form(s) to an other enrity.
+* **Export**: Export selected form(s) into a file to import them in an other server.
 
+Importing form is available from the following button:
 
-
-
-
+.. image:: images/import_forms_button.png
 
 
 
