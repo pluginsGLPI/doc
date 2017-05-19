@@ -73,7 +73,7 @@ A question is made of:
 It submits the following choices:
 
 * **Always visible**: the field is always displays
-* **Hidden unless*: The question is hidden except if answers to other questions matches a condition.
+* **Hidden unless**: The question is hidden except if answers to other questions matches a condition.
 * **Displayed unless**: The question is displayed except if the answers to other questions matches a condition.
 
 Conditions may be multiple. To add or remove a condition two buttons are available:
