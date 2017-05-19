@@ -333,7 +333,7 @@ It is possible to achieve some operations on forms from **Massive actions**:
 
 .. image:: images/form_mass_actions.png
 
-You must forst show the list of forms, tick one or more forms on which  you want to apply an action, and click on the **Action** button.
+You must first show the list of forms, tick one or more forms on which  you want to apply an action, and click on the **Action** button.
 
 Available actions are:
 
