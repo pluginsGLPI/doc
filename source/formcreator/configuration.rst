@@ -71,6 +71,7 @@ A question is made of:
 
 
 It submits the following choices:
+
 * **Always visible**: the field is always displays
 * **Hidden unless*: The question is hidden except if answers to other questions matches a condition.
 * **Displayed unless**: The question is displayed except if the answers to other questions matches a condition.
@@ -110,6 +111,7 @@ Actors
  .. image:: images/actor_field.png
 
 This field allows you to choose one or several users:
+
 * in GLPI, available in **Administration > Users**
 * not in GLPI, by typing an email address
 
@@ -185,6 +187,7 @@ GLPI Object
 ^^^^^^^^^^^
 
 This field allows you to build a dropdown from a GLPI object among those abvailable in the menus:
+
 * Assets
 * Assistance
 * Management
@@ -232,6 +235,7 @@ Targets
 -------
 
 Three values are available:
+
 * **Public access**: Anyone may acces the form; you may use it in an intranet.
 * **Private access**: Users having a GLPI account may acces the form.
 * **Restricted access**: Only users having the specified profiles may access the form.
@@ -240,6 +244,7 @@ Destinations
 ^^^^^^^^^^^^
 
 There are two types of destinations for a form:
+
 * Generation of one or several tickets
 * Generation of one or several changes
 
@@ -419,6 +424,7 @@ Workflow of a form with validation
 ----------------------------------
 
 A form with validation has a intermediate step.
+
 * an email notification is sent to the validator, asking him to validate the form.
 * In GLPI, the validator sees all his forms to validate
   * Either in this window
