@@ -292,7 +292,7 @@ Change destination
  .. image:: images/destination_change.png
 
 * **Name**: Name of the destination
-* **Ticket title**: By default, this is the name of the destination. You may change it and use tags the form provides.
+* **change title**: By default, this is the name of the destination. You may change it and use tags the form provides.
 * **Description**: By default the description is **##FULLFORM##**. It means the description will be populated with all questions and answers of the form. You may change the description. It is always rendered as simple text when the destination is generated. Available tags are displayed at the bottom of the page, in the section **List of available tags**.
 * **Impacts**: Works as **Description**.
 * **Control list**: Works as **Description**.
