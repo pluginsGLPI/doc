@@ -60,6 +60,7 @@ The following page displays:
 .. image:: images/add_question_form.png
 
 A question is made of:
+
 * a title: this is the label of the question in the form.
 * a type: see list below.
 * a section: the section containing the question. You can move a question to an other section with this field.
