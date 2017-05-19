@@ -463,6 +463,7 @@ Service Catalog activation
 The replacement of the simplified interface by the serice catalog is done on a per entity basis. The setting is available by choosing an entity in **Administration > Entity**.
 
 In teh entity, open the tab **Forms**. You can choose the **Helpdesk mode**:
+
 * service catalog **simplified**: without tabs for tickets
 * service catalog **extended**: with tabs on tickets
 * GLPI helpdesk: the simplified interface of GLPI
