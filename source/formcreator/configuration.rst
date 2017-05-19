@@ -427,6 +427,7 @@ A form with validation has a intermediate step.
 
 * an email notification is sent to the validator, asking him to validate the form.
 * In GLPI, the validator sees all his forms to validate
+
   * Either in this window
   
     .. image:: images/forms_to_validate.png
