@@ -323,7 +323,7 @@ This tab shows all answers saved for the form.
 
 When viewing a specific answer, you may print it
 
-.. image:: images/form_answers_print.png
+.. image:: images/form_answer_print.png
 
 
 Import / export, duplication and transfer
