@@ -330,6 +330,7 @@ It is possible to achieve some operations on forms from **Massive actions**:
 You must forst show the list of forms, tick one or more forms on which  you want to apply an action, and click on the **Action** button.
 
 Available actions are:
+
 * **Duplicate**: Duplicate selected form(s).
 * **Transfer**: Transfer selected form(s) to an other enrity.
 * **Export**: Export selected form(s) into a file to import them in an other server.
@@ -338,99 +339,132 @@ Importing form is available from the following button:
 
 .. image:: images/import_forms_button.png
 
+A file is expected to proceed the import.
+
+Running forms
+=============
+
+Helpdesk > Forms
+----------------
+
+Forms are displayed as shown below:
+
+.. image:: images/forms_catalog.png
 
 
+* on the left there are categories
+* in the middle: the list of forms and FAQ items (from the KB) related to the current category
+* on the right: list of answers to forms related to the user
+
+Service catalog in place of simplified interface
+------------------------------------------------
+
+The service catalog replaces the simplified interface for ticket creation. Declaring a request or an incident may  be done in different ways:
+
+* by choosing directly a category which will display the list of FAQ items from the knowledge base and the forms related to  the category,
+* by typing a few words about the need in the search bar, which will filter forms anf FAQ items,
+* the user may also display all articles and forms on the same page
+
+Here is a sample:
+
+.. image:: images/service_catalog_overview.png
+
+It is made of:
+
+* links to ticket: in progress / waitiing / to be validated / closed:
+ .. image:: images/service_catalog_ticket_counters.png
+* request for assistance
+
+ .. image:: images/service_catalog_overview_2.png
+
+  1. Search field to filter forms ans FAQ items
+  2. Link to access forms and FAQ items
+  3. Go back to the root of category tree
+  4. Category choice
+  5. a FAQ item
+  6. forms
+
+* My assistance requests
+
+This part displays the list of current requests for the user.
+
+.. image:: images/service_catalog_requests.png
+
+Depending on the mode applied to the entity (**service catalog simplified** or **service catalog extended**) two displays are avaiable:
+
+  Extended, with tabs on the left:
+  
+  .. image:: images/service_catalog_ticket_extended.png
+
+  Simplified: without tabs
+  
+  .. image:: images/service_catalog_ticket_simplified.png
+
+Execution of a form
+-------------------
+
+To execute a form, click on its name, fill its fields and send it with the button |send_button|.
+
+.. |send_button| image:: images/send_button.png
+
+Each field is validated depending on its type while the requester fills the form, and when he sends it. If a va is required an additional field named **Choose a validator** will display at the end of the form, containing a dropdown with the validators allowed by the designer of the form. This field is mandatory.
+
+Workflow without validation
+---------------------------
+
+A form without validation, once filled, creates the targets as sool the user clicks on the |send_button|.
+
+Workflow of a form with validation
+----------------------------------
+
+A form with validation has a intermediate step.
+* an email notification is sent to the validator, asking him to validate the form.
+* In GLPI, the validator sees all his forms to validate
+  * Either in this window
+  
+    .. image:: images/forms_to_validate.png
+    
+   * |icon_pending|: form to validate
+   * |icon_validated|: validated form
+   * |icon_refused|: refused form
 
 
+    .. |icon_pending| image:: images/icon_pending.png
+    .. |icon_validated| image:: images/icon_validated.png
+    .. |icon_refused| image:: images/icon_refused.png
 
 
+  * Either from the top menu with the tick button
 
+    .. image:: images/tick_button.png
 
+    * By acceding the form to validate, the validator sees the form as it was filled by ith author.
+    * If the validator accepts it targets of  the form (one or several tickets and changes) are geenrated.
+    * It the validator refuses, no target is generated. The author of the form may submit again the form by modifying it. It will be sent again to the same validator.
 
+Printing a form
+---------------
 
+You may print the form currently displayed with the button located on the right of the form's title.
 
-**Menu** : `Setup > Dropdowns : Forms > Headers`
+.. image:: images/form_print_button.png
 
-Headers are rich texts _(text with presentation: bold, italic, titles, colors, etc.)_ which are defined per entities.  
-They can be translated since GLPI 0.85 like all other dropdowns  
-_(Dropdowns translation must be enabled on GLPI general configuration page: Setup > General : General setup > Translate dropdowns = Yes)_.
+Service Catalog activation
+--------------------------
 
-These texts are shown on the users forms list, over the forms.  
-It can be used to indicate some general advertisement over all the forms below.
+The replacement of the simplified interface by the serice catalog is done on a per entity basis. The setting is available by choosing an entity in **Administration > Entity**.
 
-Configuration
-+++++++++++++
+In teh entity, open the tab **Forms**. You can choose the **Helpdesk mode**:
+* service catalog **simplified**: without tabs for tickets
+* service catalog **extended**: with tabs on tickets
+* GLPI helpdesk: the simplified interface of GLPI
 
-.. image:: images/headers-config.png
+Right management: Administation > Profile
+-----------------------------------------
 
-Render
-++++++
+Right management for the plugin is available in the profiles.
 
-.. image:: images/headers-front.png
+Rights list:
 
-Categories
-^^^^^^^^^^
-
-**Menu** : `Setup > Dropdowns : Forms > Form categories`
-
-Form categories allow you to arrange your forms list.
-
-You can add or edit categories generally from the Setup menu : `Setup > Dropdowns`.
-
-You can also add new categories directly from the form page like all GLPI dropdowns.
-
-They are defined by entities and can be translated since GLPI 0.85 like all other dropdowns.
-
-.. note::
-
-   Dropdowns translation must be enabled on GLPI general configuration page `Setup > General`, `General setup > Translate dropdowns = Yes`
-
-.. note::
-   Categories may be associated to `Knowledge base categories`. This link is necessary to allow FAQ entries to show along your forms.
-
-Configuration
-+++++++++++++
-
-.. image:: images/categories-config.png
-
-Render
-++++++
-
-.. image:: images/categories-front.png
-
-Questions
-^^^^^^^^^
-
-After the creation of a form, create fields for for the user to fill out.
-
-.. image:: images/glpi_from__creation_questions.png
-
-The name of the questions will appear on the left and the field type selected on the right
-
-The Description will be under the filed input.
-
-Based on question type options will be based on type chosen.
-
-If validation is desired, it can be implemented following `PHP Regular Expressions <http://php.net/manual/reference.pcre.pattern.syntax.php>`_.
-
-If you want to show or hide questions depending on the answers of other questions, use the *show fields* area when editing a question. In the version 2.5.0 you may use more complex expressions checking for the content of several questions, and use logic operator **OR** and **AND**. The precedence of boolean operators applies, meaning that **AND** has precedence over **OR**.
-
-Helpdesk
-^^^^^^^^
-
-The plugin can provide its own design for helpdesk.
-
-To enable it, edit an entity, open the `Forms` tab and set the field `Helpdesk mode` to `Service catalog simplified` or `Service catalog extended`. This setting handles inheritance from parent entity to children entities.
-
-Users using the simplified interface will benefit a new interface allowing them to:
-
-* browse forms and FAQ with the unified interface
-* follow the process of their requests
-* book assets
-* view their feeds
-
-Users using the extended interface have a more complete view on their requests.
-
-Forms with `Direct access on homepage` enabled and `FAQ items` in the `Knowledge base` will will appear in the interface. Users may search by browsing the categories on the left of the screen, and may also search for forms or FAQ with a natural language search engine.
-
-FAQ items needs to be associated to knowledge base categories. The knowledge base categories must be associated to form categories (available in `Setup > Dropdowns : Forms > Form categories`) to show their content.
+* **Administration > Entity: Update**: create and modify forms
+* **Assistance > Validations: Validate an incident / Valmidate a request**: Validate forms
