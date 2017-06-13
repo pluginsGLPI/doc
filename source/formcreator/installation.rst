@@ -2,8 +2,8 @@ Install the Plugin
 ------------------
 
 * Uncompress the archive.
-* Move the ``fields`` directory to the ``<GLPI_ROOT>/plugins`` directory
-* Navigate to the *Configuration > Plugins* page,
+* Move the ``formcreator`` directory to the ``<GLPI_ROOT>/plugins`` directory
+* Navigate to the *Setup > Plugins* page,
 * Install and activate the plugin.
 
 .. warning::
