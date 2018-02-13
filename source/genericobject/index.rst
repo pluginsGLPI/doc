@@ -42,6 +42,8 @@ Example of usage
 *  Activate the *cars* object.
 *  Manage your collection of *cars* in GLPI.
 
+.. _install_plugin:
+
 Install the Plugin
 ------------------
 
@@ -52,6 +54,8 @@ Install the Plugin
 
 Usage
 -----
+
+.. _create_new_object:
 
 Create a new object type
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -68,6 +72,8 @@ This is the first step.
 * Activate the new item type to use it.
 
 **Example:** Create a new type of inventory object *car*.
+
+.. _edit_labels:
 
 Edit labels
 ^^^^^^^^^^^
@@ -357,3 +363,197 @@ Use the new field
 Activate the new type, it's now ready to be used.
 
 The new type is available for users in the *Plugins > Objects management* menu.
+
+Use case of Generic Object as a CMMS
+------------------------------------
+
+Purpose of this documentation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Showing a complete usage of Generic Object as a CMMS (Computerized
+Maintenance Management System) in biomedical environment.
+
+At the end of this use case, you will have :
+
+* a dedicated *Biomed* entity (under *Root entity*)
+* containing *Biomedical* objects (in *Assets* menu)
+* with built-in and user-defined fields
+* manages by users with *Admin_biomed* profile
+
+Steps
+^^^^^
+
+Following steps assume you have a Super-Admin authorization :
+
+* Installing Generic Object on GLPI (validated with genericobject >= 0.85-1.0 and GLPI >= 0.90)
+* Generic Object configuration
+* GLPI configuration
+* Start using Generic object and GLPI
+
+Installing Generic Object on GLPI
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+See :ref:`install_plugin` section.
+
+Additions :
+  
+.. code-block:: bash
+   
+   chown -R myaccount:apache <GLPI_ROOT>/plugins/genericobject
+   chmod -R 750 <GLPI_ROOT>/plugins/genericobject
+
+   # Only when plugin activated
+   chown -R myaccount:apache <GLPI_ROOT>/files/_plugins/genericobject
+   chmod -R 770 <GLPI_ROOT>/files/_plugins/genericobject
+
+Generic Object configuration
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Create your type of object
+++++++++++++++++++++++++++
+
+See :ref:`create_new_object` section and use *biomedical* as internal identifier. Label
+will be set automatically to *Biomedical* (with an uppercase *B*).
+
+After a logoff/login, you will see *Biomedical* menu in Assets.
+
+.. _biomedical_new_fields:
+
+Define biomedical's new fields
+++++++++++++++++++++++++++++++
+
+These fields will be usable only by Biomedical's objects :
+
+* Create a new file named : ``<GLPI_ROOT>/files/_plugins/genericobject/fields/biomedical.constant.php``
+* Add following content :
+  
+.. code-block:: php
+
+   <?php
+   global $GO_FIELDS, $LANG;
+
+   // CODE CNEH
+   $GO_FIELDS['plugin_genericobject_cnehcodes_id']['name']       = $LANG['genericobject']['PluginGenericobjectBiomedical'][1];
+   $GO_FIELDS['plugin_genericobject_cnehcodes_id']['field']      = 'cnehcode';
+   $GO_FIELDS['plugin_genericobject_cnehcodes_id']['input_type'] = 'dropdown';
+   
+   //  REFORME (yes or no)
+   $GO_FIELDS['reformed']['name']       = $LANG['genericobject']['PluginGenericobjectBiomedical'][2];
+   $GO_FIELDS['reformed']['input_type'] = 'bool';
+   
+   // CLASSE CE (3 choix possibles 1,2a ou 2b)
+   $GO_FIELDS['plugin_genericobject_classeces_id']['name']       = $LANG['genericobject']['PluginGenericobjectBiomedical'][3];
+   $GO_FIELDS['plugin_genericobject_classeces_id']['field']      = 'classce';
+   $GO_FIELDS['plugin_genericobject_classeces_id']['input_type'] = 'dropdown';
+   
+   // UF (Unité Fonctionnelle)
+   $GO_FIELDS['plugin_genericobject_ufs_id']['name']       = $LANG['genericobject']['PluginGenericobjectBiomedical'][4];
+   $GO_FIELDS['plugin_genericobject_ufs_id']['field']       = 'uf';
+   $GO_FIELDS['plugin_genericobject_ufs_id']['input_type'] = 'dropdown';
+   
+   // PRESTATAIRE BIOMED
+   $GO_FIELDS['plugin_genericobject_prestataires_id']['name']       = $LANG['genericobject']['PluginGenericobjectBiomedical'][5];
+   $GO_FIELDS['plugin_genericobject_prestataires_id']['field']       = 'prestataire biomed';
+   $GO_FIELDS['plugin_genericobject_prestataires_id']['input_type'] = 'dropdown';
+
+   // TYPE D'EQUIPEMENT BIOMED
+   $GO_FIELDS['plugin_genericobject_typedequipementbiomeds_id']['name']       = $LANG['genericobject']['PluginGenericobjectBiomedical'][6];
+   $GO_FIELDS['plugin_genericobject_typedequipementbiomeds_id']['field']       = "type d 'equipement biomed";
+   $GO_FIELDS['plugin_genericobject_typedequipementbiomeds_id']['input_type'] = 'dropdown';
+
+   // Criticite
+   $GO_FIELDS['plugin_genericobject_criticites_id']['name']       = $LANG['genericobject']['PluginGenericobjectBiomedical'][7];
+   $GO_FIELDS['plugin_genericobject_criticites_id']['field']      = 'criticite';
+   $GO_FIELDS['plugin_genericobject_criticites_id']['input_type'] = 'dropdown';
+
+   // Numéro marquage CE
+   $GO_FIELDS['plugin_genericobject_marquageces_id']['name']       = $LANG['genericobject']['PluginGenericobjectBiomedical'][8];
+   $GO_FIELDS['plugin_genericobject_marquageces_id']['field']      = 'marquagece';
+   $GO_FIELDS['plugin_genericobject_marquageces_id']['input_type'] = 'dropdown';
+
+   // Classe électrique
+   $GO_FIELDS['plugin_genericobject_classeelecs_id']['name']       = $LANG['genericobject']['PluginGenericobjectBiomedical'][9];
+   $GO_FIELDS['plugin_genericobject_classeelecs_id']['field']      = 'classeelec';
+   $GO_FIELDS['plugin_genericobject_classeelecs_id']['input_type'] = 'dropdown';
+   ?>
+   
+.. warning::
+
+      Trailing ``s_id`` is mandatory in ``[plugin_genericobject_field*s_id*]``. See https://github.com/pluginsGLPI/genericobject/issues/93
+
+      
+Define fields labels
+++++++++++++++++++++
+
+See :ref:`edit_labels` section.
+
+* Edit your locales file, for example : ``<GLPI_ROOT>/files/_plugins/genericobject/locales/biomedical/biomedical.fr_FR.php``
+* Add following content at the end of file :
+
+.. code-block:: php
+
+     <?php
+     // Fields
+     $LANG['genericobject']['PluginGenericobjectBiomedical'][1]="Code CNEH";
+     $LANG['genericobject']['PluginGenericobjectBiomedical'][2]="Réformé";
+     $LANG['genericobject']['PluginGenericobjectBiomedical'][3]="Classe CE";
+     $LANG['genericobject']['PluginGenericobjectBiomedical'][4]="UF";
+     $LANG['genericobject']['PluginGenericobjectBiomedical'][5]="Prestataire Biomed";
+     $LANG['genericobject']['PluginGenericobjectBiomedical'][6]="Type d'équipement biomed";
+     $LANG['genericobject']['PluginGenericobjectBiomedical'][7]="Criticité";
+     $LANG['genericobject']['PluginGenericobjectBiomedical'][8]="Marquage CE";
+     $LANG['genericobject']['PluginGenericobjectBiomedical'][9]="Classe électrique";
+
+Define behaviour
+++++++++++++++++
+
+In *Plugins > Objects management* menu, on *Main* tab, select :
+
+* *Item in the dustbin*
+* *Historical*
+* *Financial and administratives information*
+* *Documents*
+* *Global search*
+* *Assistance*
+* *Templates*
+* *Contracts*
+* *Global search*
+
+This will add ready to use fields to your object.
+
+Add fields to your type of object
++++++++++++++++++++++++++++++++++
+
+In *Plugins > Objects management* menu, on *Fields* tab, you can now
+add fields to biomedical type of object :
+
+* ready to use fields (GLPI's built-in fields)
+* new fields (define in :ref:`biomedical_new_fields` section)
+
+GLPI configuration
+^^^^^^^^^^^^^^^^^^
+
+Define Admin_biomed profile
++++++++++++++++++++++++++++
+
+1. Clone *Admin* profile
+2. Set following rights in Admin
+   
+   * *Administration > Profiles > Admin_biomed > Assets tab > Unselect all* : to display only Biomedical in Assets menu
+   * *Administration > Profiles > Admin_biomed > Assistance tab > Association > Associable items to a ticket > Biomedical*
+   * *Administration > Profiles > Admin_biomed > Management tab > Select all*
+   * *Administration > Profiles > Admin_biomed > Objects management tab > Biomedical > Select all*
+
+Define Biomed entity and authorizations rules
++++++++++++++++++++++++++++++++++++++++++++++
+
+1. Create *Biomed* entity under *Root entity* in *Administration > Entities*
+2. Configure authorizations rules to affect *Admin_biomed* profile to *Biomed* entity users.
+
+
+Start using Generic object and GLPI
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+As *Admin_biomed* user, you can create your first object in *Assets > Biomedical*.
+
+In order to gain time, define values in *Setup > Dropdowns > Objects management* for new fields.
