@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016, Teclib'
-# This file is distributed under the same license as the GLPi plugins package.
+# This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPi plugins 0.1\n"
+"Project-Id-Version: GLPI plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-20 10:28+0100\n"
+"POT-Creation-Date: 2017-04-27 08:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: David Stepan <stepand@tiscali.cz>, 2016\n"
 "Language-Team: Czech (Czech Republic) (https://www.transifex.com/teclib/teams/28042/cs_CZ/)\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../source/example/index.rst:2
 msgid "Example"
-msgstr ""
+msgstr "Příklad"
 
 #: ../../source/example/index.rst:4
 msgid "Sources link: https://github.com/pluginsGLPI/example"
@@ -33,7 +33,7 @@ msgstr "Stahování: \"není relevantní\""
 #: ../../source/example/index.rst:7
 msgid ""
 "An example plugin... This is designed to show you various possibilities that"
-" are offered to plugins from GLPi core."
+" are offered to plugins from GLPI core."
 msgstr ""
 
 #: ../../source/example/index.rst:9

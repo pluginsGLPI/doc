@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-09 09:15+0100\n"
+"POT-Creation-Date: 2017-04-27 08:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Shawn Long <webaccounts@kkg.org>, 2016\n"
 "Language-Team: English (United States) (https://www.transifex.com/teclib/teams/28042/en_US/)\n"
@@ -24,11 +24,11 @@ msgstr "Generic Object"
 
 #: ../../source/genericobject/index.rst:4
 msgid "Sources link: https://github.com/pluginsGLPI/genericobject"
-msgstr ""
+msgstr "Sources link: https://github.com/pluginsGLPI/genericobject"
 
 #: ../../source/genericobject/index.rst:5
 msgid "Download: https://github.com/pluginsGLPI/genericobject/releases"
-msgstr ""
+msgstr "Download: https://github.com/pluginsGLPI/genericobject/releases"
 
 #: ../../source/genericobject/index.rst:7
 msgid ""

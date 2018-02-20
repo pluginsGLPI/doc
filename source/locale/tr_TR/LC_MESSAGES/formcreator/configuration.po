@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-09 09:15+0100\n"
+"POT-Creation-Date: 2017-04-27 08:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2016\n"
 "Language-Team: Turkish (Turkey) (https://www.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -149,15 +149,30 @@ msgstr ""
 "Doğrulama istiyorsanız, şu `PHP Kurallı İfadeleri "
 "<http://php.net/manual/reference.pcre.pattern.syntax.php>`_ kullanılabilir."
 
-#: ../../source/formcreator/configuration.rst:72
+#: ../../source/formcreator/configuration.rst:71
+msgid ""
+"If you want to show or hide questions depending on the answers of other "
+"questions, use the *show fields* area when editing a question. In the "
+"version 2.5.0 you may use more complex expressions checking for the content "
+"of several questions, and use logic operator **OR** and **AND**. The "
+"precedence of boolean operators applies, meaning that **AND** has precedence"
+" over **OR**."
+msgstr ""
+"Soruların, diğer sorulara verilen yanıtlara göregörüntülenmesini "
+"istiyorsanız bir soruyu düzenlerken *alanlar görüntülensin* bölümünü "
+"kullanın. 2.5.0 sürümünde bir kaç sorunun içeriğini denetlemek için karmaşık"
+" ifadeleri ile **VEYA** ve *VE** mantık işlemleri kullanılabilir. **VE** "
+"işleminin **VEYA** işlemine göre önceliği vardır."
+
+#: ../../source/formcreator/configuration.rst:74
 msgid "Helpdesk"
 msgstr "Destek Merkezi"
 
-#: ../../source/formcreator/configuration.rst:74
+#: ../../source/formcreator/configuration.rst:76
 msgid "The plugin can provide its own design for helpdesk."
 msgstr "Uygulama ekinde kullanılabilecek bir destek merkezi bulunur."
 
-#: ../../source/formcreator/configuration.rst:76
+#: ../../source/formcreator/configuration.rst:78
 msgid ""
 "To enable it, edit an entity, open the `Forms` tab and set the field "
 "`Helpdesk mode` to `Service catalog simplified` or `Service catalog "
@@ -169,7 +184,7 @@ msgstr ""
 " Kataloğu` olarak ayarlayın. Bu seçenek, üst varlıktan alt varlıklara devir "
 "edilmesini sağlar."
 
-#: ../../source/formcreator/configuration.rst:78
+#: ../../source/formcreator/configuration.rst:80
 msgid ""
 "Users using the simplified interface will benefit a new interface allowing "
 "them to:"
@@ -177,23 +192,31 @@ msgstr ""
 "Kullanıcılar basitleştirilmiş yeni arayüzü kullanarak şu olanaklardan "
 "yararlanabilir:"
 
-#: ../../source/formcreator/configuration.rst:80
+#: ../../source/formcreator/configuration.rst:82
 msgid "browse forms and FAQ with the unified interface"
 msgstr "aynı arayüzden formlar ve sık sorulan sorulara bakabilmek"
 
-#: ../../source/formcreator/configuration.rst:81
+#: ../../source/formcreator/configuration.rst:83
 msgid "follow the process of their requests"
 msgstr "istekleri üzerinde yapılan işlemleri görmek"
 
-#: ../../source/formcreator/configuration.rst:82
+#: ../../source/formcreator/configuration.rst:84
 msgid "book assets"
 msgstr "varlıkları ayırtmak"
 
-#: ../../source/formcreator/configuration.rst:83
+#: ../../source/formcreator/configuration.rst:85
 msgid "view their feeds"
 msgstr "akışlarına bakmak"
 
-#: ../../source/formcreator/configuration.rst:85
+#: ../../source/formcreator/configuration.rst:87
+msgid ""
+"Users using the extended interface have a more complete view on their "
+"requests."
+msgstr ""
+"Gelişmiş arayüzü kullanan kullanıcılar istekleri hakkında daha geniş bir "
+"görünüme sahip olur."
+
+#: ../../source/formcreator/configuration.rst:89
 msgid ""
 "Forms with `Direct access on homepage` enabled and `FAQ items` in the "
 "`Knowledge base` will will appear in the interface. Users may search by "
@@ -205,7 +228,7 @@ msgstr ""
 "Kullanıcılar sayfanın solundaki kategoriler arasında gezinebilir ve form ya "
 "da SSS için kendi dillerinde arama yapabilir."
 
-#: ../../source/formcreator/configuration.rst:87
+#: ../../source/formcreator/configuration.rst:91
 msgid ""
 "FAQ items needs to be associated to knowledge base categories. The knowledge"
 " base categories must be associated to form categories (available in `Setup "
@@ -215,6 +238,6 @@ msgstr ""
 "kategorileri de içeriklerinin görüntülenmesi için form kategorilerine "
 "atanmalıdır (`Ayarlar > Açılan Kutular > Formlar > Form Kategorileri`)."
 
-#: ../../source/formcreator/configuration.rst:90
+#: ../../source/formcreator/configuration.rst:94
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
