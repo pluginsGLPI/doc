@@ -214,7 +214,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
   ('index', 'GLPIplugins.tex', u'GLPI plugins Documentation',
-   u'Teclibb\'', 'manual'),
+   u'Teclib\'', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -244,7 +244,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'glpiplugins', u'GLPI plugins Documentation',
-     [u'Teclibb\''], 1)
+     [u'Teclib\''], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -258,7 +258,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'GLPIplugins', u'GLPI plugins Documentation',
-   u'Teclibb\'', 'GLPIplugins', 'One line description of project.',
+   u'Teclib\'', 'GLPIplugins', 'One line description of project.',
    'Miscellaneous'),
 ]
 
