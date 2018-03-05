@@ -504,8 +504,8 @@ See :ref:`edit_labels` section.
      $LANG['genericobject']['PluginGenericobjectBiomedical'][8]="Marquage CE";
      $LANG['genericobject']['PluginGenericobjectBiomedical'][9]="Classe électrique";
 
-Define behaviour
-++++++++++++++++
+Define behaviours
++++++++++++++++++
 
 In *Plugins > Objects management* menu, on *Main* tab, select :
 
