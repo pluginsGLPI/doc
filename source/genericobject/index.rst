@@ -519,7 +519,7 @@ In *Plugins > Objects management* menu, on *Main* tab, select :
 * *Contracts*
 * *Global search*
 
-This will add ready to use fields to your object.
+This will add ready to use fields to your type of object.
 
 Add fields to your type of object
 +++++++++++++++++++++++++++++++++
