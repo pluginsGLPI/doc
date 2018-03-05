@@ -537,7 +537,7 @@ Define Admin_biomed profile
 +++++++++++++++++++++++++++
 
 1. Clone *Admin* profile
-2. Set following rights in Admin
+2. Set following rights in *Admin_biomed* profile :
    
    * *Administration > Profiles > Admin_biomed > Assets tab > Unselect all* : to display only Biomedical in Assets menu
    * *Administration > Profiles > Admin_biomed > Assistance tab > Association > Associable items to a ticket > Biomedical*
@@ -548,7 +548,7 @@ Define Biomed entity and authorizations rules
 +++++++++++++++++++++++++++++++++++++++++++++
 
 1. Create *Biomed* entity under *Root entity* in *Administration > Entities*
-2. Configure authorizations rules to affect *Admin_biomed* profile to *Biomed* entity users.
+2. Configure authorizations rules to assign *Admin_biomed* profile to *Biomed* entity users.
 
 
 Start using Generic Object and GLPI
