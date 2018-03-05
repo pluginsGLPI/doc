@@ -419,7 +419,7 @@ After a logoff/login, you will see *Biomedical* menu in Assets.
 
 .. _biomedical_new_fields:
 
-Define biomedical's new fields
+Define Biomedical's new fields
 ++++++++++++++++++++++++++++++
 
 These fields will be usable only by Biomedical's objects :
