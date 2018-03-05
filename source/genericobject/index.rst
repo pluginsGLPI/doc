@@ -388,7 +388,7 @@ Following steps assume you have a Super-Admin authorization :
 * Installing Generic Object on GLPI (validated with genericobject >= 0.85-1.0 and GLPI >= 0.90)
 * Generic Object configuration
 * GLPI configuration
-* Start using Generic object and GLPI
+* Start using Generic Object and GLPI
 
 Installing Generic Object on GLPI
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -551,7 +551,7 @@ Define Biomed entity and authorizations rules
 2. Configure authorizations rules to affect *Admin_biomed* profile to *Biomed* entity users.
 
 
-Start using Generic object and GLPI
+Start using Generic Object and GLPI
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 As *Admin_biomed* user, you can create your first object in *Assets > Biomedical*.
