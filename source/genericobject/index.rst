@@ -525,7 +525,7 @@ Add fields to your type of object
 +++++++++++++++++++++++++++++++++
 
 In *Plugins > Objects management* menu, on *Fields* tab, you can now
-add fields to biomedical type of object :
+add fields to Biomedical type of object :
 
 * ready to use fields (GLPI's built-in fields)
 * new fields (define in :ref:`biomedical_new_fields` section)
