@@ -4,7 +4,7 @@ Generic Object
 * Sources link: https://github.com/pluginsGLPI/genericobject
 * Download: https://github.com/pluginsGLPI/genericobject/releases
 
-This user manuel applies to version 2.0 of the GLPI Generic Object Plugin.
+This user manuel applies to version 2.5 of the GLPI Generic Object Plugin.
 
 Requirements
 ------------
@@ -12,7 +12,7 @@ Requirements
 This plugin requires :
 
 * PHP 5.3 or higher
-* GLPI >= 0.83.x
+* GLPI >= 9.2
 
 Features
 --------
