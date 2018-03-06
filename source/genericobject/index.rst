@@ -54,12 +54,12 @@ Install the Plugin
 * Set rights on plugin directories :
     
 .. code-block:: bash
-   
-   chown -R myaccount:apache <GLPI_ROOT>/plugins/genericobject
-   chmod -R 750 <GLPI_ROOT>/plugins/genericobject
 
-   # Only when plugin activated
-   chown -R myaccount:apache <GLPI_ROOT>/files/_plugins/genericobject
+   # Replace root:www-data by your own values if you are not on Debian
+   chown -R root:www-data <GLPI_ROOT>/plugins/genericobject
+   chmod -R 550 <GLPI_ROOT>/plugins/genericobject
+
+   # Remove rx right to others (optional)
    chmod -R 770 <GLPI_ROOT>/files/_plugins/genericobject
 
 Usage
