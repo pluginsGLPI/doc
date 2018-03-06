@@ -49,8 +49,18 @@ Install the Plugin
 
 * Uncompress the archive.
 * Move the ``genericobject`` directory to the ``<GLPI_ROOT>/plugins`` directory
-* Navigate to the *Configuration > Plugins* page,
-* Install and activate the plugin.
+* Navigate to the *Configuration > Plugins* page
+* Install and activate the plugin
+* Set rights on plugin directories :
+    
+.. code-block:: bash
+
+   # Replace root:www-data by your own values if you are not on Debian
+   chown -R root:www-data <GLPI_ROOT>/plugins/genericobject
+   chmod -R 550 <GLPI_ROOT>/plugins/genericobject
+
+   # Remove rx right to others (optional)
+   chmod -R 770 <GLPI_ROOT>/files/_plugins/genericobject
 
 Usage
 -----
@@ -388,23 +398,12 @@ Following steps assume you have a Super-Admin authorization :
 * Installing Generic Object on GLPI (validated with genericobject >= 0.85-1.0 and GLPI >= 0.90)
 * Generic Object configuration
 * GLPI configuration
-* Start using Generic object and GLPI
+* Start using Generic Object and GLPI
 
 Installing Generic Object on GLPI
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 See :ref:`install_plugin` section.
-
-Additions :
-  
-.. code-block:: bash
-   
-   chown -R myaccount:apache <GLPI_ROOT>/plugins/genericobject
-   chmod -R 750 <GLPI_ROOT>/plugins/genericobject
-
-   # Only when plugin activated
-   chown -R myaccount:apache <GLPI_ROOT>/files/_plugins/genericobject
-   chmod -R 770 <GLPI_ROOT>/files/_plugins/genericobject
 
 Generic Object configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -419,7 +418,7 @@ After a logoff/login, you will see *Biomedical* menu in Assets.
 
 .. _biomedical_new_fields:
 
-Define biomedical's new fields
+Define Biomedical's new fields
 ++++++++++++++++++++++++++++++
 
 These fields will be usable only by Biomedical's objects :
@@ -479,7 +478,9 @@ These fields will be usable only by Biomedical's objects :
    
 .. warning::
 
-      Trailing ``s_id`` is mandatory in ``[plugin_genericobject_field*s_id*]``. See https://github.com/pluginsGLPI/genericobject/issues/93
+      Trailing ``s_id`` is mandatory in ``[plugin_genericobject_field*s_id*]`` because the GLPI framework requires
+      foreign key fields to end with ``s_id``. In database, ``glpi_plugin_genericobject_fields`` is table name and ``id``, its foreign key.
+      See `GLPI developer documentation <http://glpi-developer-documentation.readthedocs.io/en/master/devapi/database/dbmodel.html#fields>`_.
 
       
 Define fields labels
@@ -504,8 +505,8 @@ See :ref:`edit_labels` section.
      $LANG['genericobject']['PluginGenericobjectBiomedical'][8]="Marquage CE";
      $LANG['genericobject']['PluginGenericobjectBiomedical'][9]="Classe électrique";
 
-Define behaviour
-++++++++++++++++
+Define behaviours
++++++++++++++++++
 
 In *Plugins > Objects management* menu, on *Main* tab, select :
 
@@ -519,16 +520,16 @@ In *Plugins > Objects management* menu, on *Main* tab, select :
 * *Contracts*
 * *Global search*
 
-This will add ready to use fields to your object.
+This will add ready to use fields to your type of object.
 
 Add fields to your type of object
 +++++++++++++++++++++++++++++++++
 
 In *Plugins > Objects management* menu, on *Fields* tab, you can now
-add fields to biomedical type of object :
+add fields to Biomedical type of object :
 
 * ready to use fields (GLPI's built-in fields)
-* new fields (define in :ref:`biomedical_new_fields` section)
+* new fields (defined in :ref:`biomedical_new_fields` section)
 
 GLPI configuration
 ^^^^^^^^^^^^^^^^^^
@@ -537,21 +538,25 @@ Define Admin_biomed profile
 +++++++++++++++++++++++++++
 
 1. Clone *Admin* profile
-2. Set following rights in Admin
+2. Set following rights in *Admin_biomed* profile :
    
-   * *Administration > Profiles > Admin_biomed > Assets tab > Unselect all* : to display only Biomedical in Assets menu
+   * *Administration > Profiles > Admin_biomed > Assets tab > Unselect all*
    * *Administration > Profiles > Admin_biomed > Assistance tab > Association > Associable items to a ticket > Biomedical*
    * *Administration > Profiles > Admin_biomed > Management tab > Select all*
    * *Administration > Profiles > Admin_biomed > Objects management tab > Biomedical > Select all*
+
+.. note::
+
+   With these settings, *Admin_biomed* users only see *Biomedical* in Assets menu.
 
 Define Biomed entity and authorizations rules
 +++++++++++++++++++++++++++++++++++++++++++++
 
 1. Create *Biomed* entity under *Root entity* in *Administration > Entities*
-2. Configure authorizations rules to affect *Admin_biomed* profile to *Biomed* entity users.
+2. Configure authorizations rules to assign *Admin_biomed* profile to *Biomed* entity users.
 
 
-Start using Generic object and GLPI
+Start using Generic Object and GLPI
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 As *Admin_biomed* user, you can create your first object in *Assets > Biomedical*.
