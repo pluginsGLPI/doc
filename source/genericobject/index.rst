@@ -51,16 +51,6 @@ Install the Plugin
 * Move the ``genericobject`` directory to the ``<GLPI_ROOT>/plugins`` directory
 * Navigate to the *Configuration > Plugins* page
 * Install and activate the plugin
-* Set rights on plugin directories :
-    
-.. code-block:: bash
-
-   # Replace root:www-data by your own values if you are not on Debian
-   chown -R root:www-data <GLPI_ROOT>/plugins/genericobject
-   chmod -R 550 <GLPI_ROOT>/plugins/genericobject
-
-   # Remove rx right to others (optional)
-   chmod -R 770 <GLPI_ROOT>/files/_plugins/genericobject
 
 Usage
 -----
