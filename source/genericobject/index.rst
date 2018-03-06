@@ -479,8 +479,8 @@ These fields will be usable only by Biomedical's objects :
 .. warning::
 
       Trailing ``s_id`` is mandatory in ``[plugin_genericobject_field*s_id*]`` because the GLPI framework requires
-      names between brackets to end with ``s_id``. In database, ``glpi_plugin_genericobject_fields`` is table name and ``id``, its foreign key.
-      See explanation on `GitHub <https://github.com/pluginsGLPI/genericobject/issues/93>`_.
+      foreign key fields to end with ``s_id``. In database, ``glpi_plugin_genericobject_fields`` is table name and ``id``, its foreign key.
+      See `GLPI developer documentation <http://glpi-developer-documentation.readthedocs.io/en/master/devapi/database/dbmodel.html#fields>`_.
 
       
 Define fields labels
