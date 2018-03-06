@@ -4,7 +4,7 @@ Generic Object
 * Sources link: https://github.com/pluginsGLPI/genericobject
 * Download: https://github.com/pluginsGLPI/genericobject/releases
 
-This user manuel applies to version 2.5 of the GLPI Generic Object Plugin.
+This user manual applies to version 2.5 of the GLPI Generic Object Plugin.
 
 Requirements
 ------------
