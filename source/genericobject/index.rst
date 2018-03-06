@@ -49,8 +49,18 @@ Install the Plugin
 
 * Uncompress the archive.
 * Move the ``genericobject`` directory to the ``<GLPI_ROOT>/plugins`` directory
-* Navigate to the *Configuration > Plugins* page,
-* Install and activate the plugin.
+* Navigate to the *Configuration > Plugins* page
+* Install and activate the plugin
+* Set rights on plugin directories :
+    
+.. code-block:: bash
+   
+   chown -R myaccount:apache <GLPI_ROOT>/plugins/genericobject
+   chmod -R 750 <GLPI_ROOT>/plugins/genericobject
+
+   # Only when plugin activated
+   chown -R myaccount:apache <GLPI_ROOT>/files/_plugins/genericobject
+   chmod -R 770 <GLPI_ROOT>/files/_plugins/genericobject
 
 Usage
 -----
@@ -395,17 +405,6 @@ Installing Generic Object on GLPI
 
 See :ref:`install_plugin` section.
 
-Additions :
-  
-.. code-block:: bash
-   
-   chown -R myaccount:apache <GLPI_ROOT>/plugins/genericobject
-   chmod -R 750 <GLPI_ROOT>/plugins/genericobject
-
-   # Only when plugin activated
-   chown -R myaccount:apache <GLPI_ROOT>/files/_plugins/genericobject
-   chmod -R 770 <GLPI_ROOT>/files/_plugins/genericobject
-
 Generic Object configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -479,7 +478,9 @@ These fields will be usable only by Biomedical's objects :
    
 .. warning::
 
-      Trailing ``s_id`` is mandatory in ``[plugin_genericobject_field*s_id*]``. See https://github.com/pluginsGLPI/genericobject/issues/93
+      Trailing ``s_id`` is mandatory in ``[plugin_genericobject_field*s_id*]`` because the GLPI framework requires
+      names between brackets to end with ``s_id``. In database, ``glpi_plugin_genericobject_fields`` is table name and ``id``, its foreign key.
+      See explanation on `GitHub <https://github.com/pluginsGLPI/genericobject/issues/93>`_.
 
       
 Define fields labels
@@ -539,10 +540,14 @@ Define Admin_biomed profile
 1. Clone *Admin* profile
 2. Set following rights in *Admin_biomed* profile :
    
-   * *Administration > Profiles > Admin_biomed > Assets tab > Unselect all* : to display only Biomedical in Assets menu
+   * *Administration > Profiles > Admin_biomed > Assets tab > Unselect all*
    * *Administration > Profiles > Admin_biomed > Assistance tab > Association > Associable items to a ticket > Biomedical*
    * *Administration > Profiles > Admin_biomed > Management tab > Select all*
    * *Administration > Profiles > Admin_biomed > Objects management tab > Biomedical > Select all*
+
+.. note::
+
+   With these settings, *Admin_biomed* users only see *Biomedical* in Assets menu.
 
 Define Biomed entity and authorizations rules
 +++++++++++++++++++++++++++++++++++++++++++++
