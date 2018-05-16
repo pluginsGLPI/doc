@@ -22,11 +22,11 @@ Following fields must be populated:
 * **Name**: Name of the form.
 * **Active**: A form is inactive by default. You need to explicitly activate it when it is ready to use.
 * **Category**:
-   * In the simplified interface, categories les catégories permettent de ranger les formulaires par Bloc.
+   * In the simplified interface, categories are used to store forms by group.
    * If you want to use the **service catalog** you must use form categories.
 
 .. note::
-    Form categories are plugin's dropdowns. You can add form categories directly when editing a form ising the **+** next to category field. You can do the same from **Configuration > Dropdowns > Form category**.
+    Form categories are plugin's dropdowns. You can add form categories directly when editing a form use the **+** next to category field. You can do the same from **Configuration > Dropdowns > Form category**.
 
 * **Direct access on homepage**: Direct access to the form from the GLPI's simplified interface.
  **Description**: displays in the list forms.
@@ -108,6 +108,7 @@ There are about twenty types of quetions available. Depending on the choosen typ
 
 Actors
 ^^^^^^
+
  .. image:: images/actor_field.png
 
 This field allows you to choose one or several users:
@@ -248,7 +249,7 @@ There are two types of destinations for a form:
 * Generation of one or several tickets
 * Generation of one or several changes
 
-To create a detsination click on the link **Add a destination**
+To create a destination click on the link **Add a destination**
 
  .. image:: images/add_destination.png
 
@@ -312,7 +313,7 @@ Change destination
 Preview
 -------
 
-This tab allows you to view how the form will be rendered and  test it without activating it.
+This tab allows you to view how the form will be rendered and test it without activating it.
 
 Form answers
 ------------
