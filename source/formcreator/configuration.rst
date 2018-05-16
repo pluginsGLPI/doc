@@ -477,4 +477,4 @@ Right management for the plugin is available in the profiles.
 Rights list:
 
 * **Administration > Entity: Update**: create and modify forms
-* **Assistance > Validations: Validate an incident / Valmidate a request**: Validate forms
+* **Assistance > Validations: Validate an incident / Validate a request**: Validate forms
