@@ -22,15 +22,17 @@ Following fields must be populated:
 * **Name**: Name of the form.
 * **Active**: A form is inactive by default. You need to explicitly activate it when it is ready to use.
 * **Category**:
-   * In the simplified interface, categories les catégories permettent de ranger les formulaires par Bloc.
+   * In the simplified interface, categories allow to tidy forms by Blocks.
    * If you want to use the **service catalog** you must use form categories.
 
 .. note::
-    Form categories are plugin's dropdowns. You can add form categories directly when editing a form ising the **+** next to category field. You can do the same from **Configuration > Dropdowns > Form category**.
+    Form categories are plugin's dropdowns. You can add form categories directly when editing a form using the **+** next to category field. You can do the same from **Configuration > Dropdowns > Form category**.
 
 * **Direct access on homepage**: Direct access to the form from the GLPI's simplified interface.
+
  **Description**: displays in the list forms.
  * **Language**: by default a form is set to the language of its creator. The form will be available only to users using the same language as the form. Choose **All languages** to make the form available to users without language restriction.
+
 * **Header**: displays when the form is displayed.
 * **Need to be validate**: If **Yes** a list of validators is displayed. This is a list of GLPI users (with the right **Validate an incident** or **Validate a request** (in its profile) on an compatible entity with the form's entity. The list of validators is a multiple choice list. If no validator is selected all of them are submitted when the form is being used.
 * **Default form in service catalog**: if **Yes** the form will display in the service catalog without being filtered by the current category or keywords.
@@ -81,6 +83,7 @@ Conditions may be multiple. To add or remove a condition two buttons are availab
  .. note:: **List of pictograms**
 
  * The **circle** allows you to make a question mandatory
+
  .. image:: images/question_picto_mandatory.png
 
  , or optional
@@ -109,6 +112,7 @@ Actors
  .. image:: images/actor_field.png
 
 This field allows you to choose one or several users:
+
 * in GLPI, available in **Administration > Users**
 * not in GLPI, by typing an email address
 
@@ -184,6 +188,7 @@ GLPI Object
 ^^^^^^^^^^^
 
 This field allows you to build a dropdown from a GLPI object among those abvailable in the menus:
+
 * Assets
 * Assistance
 * Management
@@ -231,6 +236,7 @@ Targets
 -------
 
 Three values are available:
+
 * **Public access**: Anyone may acces the form; you may use it in an intranet.
 * **Private access**: Users having a GLPI account may acces the form.
 * **Restricted access**: Only users having the specified profiles may access the form.
@@ -239,10 +245,11 @@ Destinations
 ^^^^^^^^^^^^
 
 There are two types of destinations for a form:
+
 * Generation of one or several tickets
 * Generation of one or several changes
 
-To create a detsination click on the link **Add a destination**
+To create a destination click on the link **Add a destination**
 
  .. image:: images/add_destination.png
 
@@ -270,11 +277,14 @@ Ticket destination
 * **Ticket template**: A ticket template may be used to define the content of the destination  ticket.
 * **Due date**: To define a due date forthe  generated ticket.
 * **Ticket category**: To assign a category to the generated ticket.
+
  * **Category from template or None**: If a ticket template is used, the category of the template will be used. If there is no ticket template, or if the template does not defiles a category, no category will be affected to the ticket.
+
  * **Specific category**: Defines a category to the ticket from available categories.
  * **Equals to the answer to a question**: defines the category from a answer in the form
 
 * **Urgency**: allows to define urgency in the generated ticket. Available choices are:
+
  * **Urgency from template or Medium**: If a ticket template is used and it sets an urgency, it will be used for the generated ticket. Medium for other cases.
  * **Equals to the answer to the question**! The urgency is set from the answer of a quetion in the form.
 
@@ -296,10 +306,13 @@ Change destination
 * **Destination entity**: Defines the destination entity of the destination ticket
 * **Due date**: To define a due date forthe  generated ticket.
 * **Change category**: To assign a category to the generated change.
+
  * **None**: No category assigned.
  * **Specific category**: Defines a category to the change from available categories.
  * **Equals to the answer to a question**: defines the category from a answer in the form
+
 * **Urgency**: allows to define urgency in the generated change. Available choices are:
+
  * **Medium**: If a ticket template is used and it sets an urgency, it will be used for the generated ticket. Medium for other cases.
  * **Equals to the answer to the question**! The urgency is set from the answer of a quetion in the form.
 
@@ -312,29 +325,6 @@ Form answers
 ------------
 
 This tab shows all answers saved for the form.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 **Menu** : `Setup > Dropdowns : Forms > Headers`
 
