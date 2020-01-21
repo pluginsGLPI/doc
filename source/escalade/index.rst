@@ -126,7 +126,7 @@ When this option is activated, the plugin filters the groups displayed in the dr
 
 
 Ticket's search engine
---------------------
+----------------------
 
 Plugin add three new search option
 
@@ -146,7 +146,7 @@ Ex : get all tickets with more than 2 escalations between two groups
 
 
 Central page
---------------------
+------------
 
 New dashlet to display ticket solved to close and assign to you group
 

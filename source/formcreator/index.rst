@@ -14,5 +14,6 @@ At the same time, the plugin allow the creation of one or more tickets when the 
    features
    installation
    configuration
+   targets
    contributing
    team
