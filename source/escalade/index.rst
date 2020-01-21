@@ -124,7 +124,6 @@ When this option is activated, the plugin filters the groups displayed in the dr
 
       .. image:: images/bypass_user.png
 
-
 Ticket's search engine
 ----------------------
 
