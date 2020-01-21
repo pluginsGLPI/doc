@@ -18,6 +18,7 @@ You'll find here user documentation for various `GLPI <http://glpi-project.org>`
    presentation
    empty/index
    example/index
+   escalade/index
    genericobject/index
    fields/index
    formcreator/index
