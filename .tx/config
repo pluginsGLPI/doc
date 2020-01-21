@@ -22,6 +22,11 @@ file_filter = source/locale/<lang>/LC_MESSAGES/example/index.po
 source_file = build/locale/example/index.pot
 source_lang = en
 
+[glpi-plugins-documentation.escalade--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/escalade/index.po
+source_file = build/locale/escalade/index.pot
+source_lang = en
+
 [glpi-plugins-documentation.empty--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/empty/index.po
 source_file = build/locale/empty/index.pot
