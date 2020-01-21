@@ -1,0 +1,69 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# 李赋 <fu792659@163.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-21 14:50+0100\n"
+"PO-Revision-Date: 2016-10-25 19:22+0000\n"
+"Last-Translator: 李赋 <fu792659@163.com>, 2018\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/teclib/teams/28042/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../source/presentation.rst:2
+msgid "Presentation"
+msgstr "介绍"
+
+#: ../../source/presentation.rst:4
+msgid ""
+"Plugins are a way to extend `GLPI <http://glpi-project.org>`_ possibilities "
+"without modifying core source code. In a perfect world, plugins should "
+"provided specific features; while core's may provided features everyone (or "
+"almost!) mays find usefull."
+msgstr ""
+"插件是一种在不修改核心源代码的情况下扩展`GLPI <http://glpi-"
+"project.org>`_可能性的方法。理想状态下，插件应该提供特定的功能；因为核心可能提供每个（或几乎！）找到的有用的功能。"
+
+#: ../../source/presentation.rst:6
+msgid ""
+"Some of the existing plugins are very complex, other are very simple. Some "
+"may require you to read their documentation before using, some does not... "
+"Some may provide you configuration possibilities, acces rights management, "
+"and so on.... Or not! There are so many plugins already!"
+msgstr ""
+"一些现有的插件非常复杂，其他插件非常简单。有些人可能会要求您在使用之前阅读他们的文档，有些则不会......有些人可能会为您提供配置可能性，访问权限管理等等....或者不是！已经有这么多插件了！"
+
+#: ../../source/presentation.rst:8
+msgid ""
+"If you're looking for a feature that does not exists yet in GLPI's core, "
+"take a look at the `plugins repository <http://plugins.glpi-project.org/>`_."
+" You can search for a plugin name or a feature, see what core's versions are"
+" compatible, and so on."
+msgstr ""
+"如果您正在寻找GLPI核心中尚不存在的功能，请查看`plugins repository <http://plugins.glpi-"
+"project.org/>`_。您可以搜索插件名称或功能，查看哪些核心版本兼容，等等。"
+
+#: ../../source/presentation.rst:10
+msgid ""
+"The goal of the present documentation is to centralize documentations, but "
+"we cannot pretend all plugins documentations are hosted here."
+msgstr "本文档的目标是插件的集中文档，但我们不能保证所有插件文档都在此处托管。"
+
+#: ../../source/presentation.rst:12
+msgid "Anyways, happy GLPI-ing!"
+msgstr "无论如何，快乐的GLPI！"
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"

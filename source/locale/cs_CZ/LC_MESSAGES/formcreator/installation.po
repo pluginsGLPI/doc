@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Pavel Borecki <pavel.borecki@gmail.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-21 14:50+0100\n"
+"PO-Revision-Date: 2016-12-20 09:45+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>, 2018\n"
+"Language-Team: Czech (Czech Republic) (https://www.transifex.com/teclib/teams/28042/cs_CZ/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+
+#: ../../source/formcreator/installation.rst:2
+msgid "Install the Plugin"
+msgstr "Nainstalovat zásuvný modul"
+
+#: ../../source/formcreator/installation.rst:4
+msgid "Uncompress the archive."
+msgstr "Rozbalte archiv."
+
+#: ../../source/formcreator/installation.rst:5
+msgid ""
+"Move the ``formcreator`` directory to the ``<GLPI_ROOT>/plugins`` directory"
+msgstr "Přesunout složku ``formcreator`` do složky ``<GLPI_ROOT>/plugins``"
+
+#: ../../source/formcreator/installation.rst:6
+msgid "Navigate to the *Configuration > Plugins* page,"
+msgstr "Přejděte na stránku *Nastavení > Zásuvné moduly*,"
+
+#: ../../source/formcreator/installation.rst:7
+msgid "Install and activate the plugin."
+msgstr "Nainstalujte a zapněte zásuvný modul"
+
+#: ../../source/formcreator/installation.rst:11
+msgid "The plugin's directory must have the same name as the plugin:"
+msgstr ""
+"Je třeba, aby se složka zásuvného modulu jmenovala stejně, jako zásuvný "
+"modul:"
+
+#: ../../source/formcreator/installation.rst:13
+msgid "**Good**: `glpi/plugins/formcreator`"
+msgstr "**Dobré**: `glpi/plugins/formcreator`"
+
+#: ../../source/formcreator/installation.rst:14
+msgid "**Bad**: `glpi/plugins/formcreator-master`"
+msgstr "**Špatné**: `glpi/plugins/formcreator-master`"
+
+#: ../../source/formcreator/installation.rst:15
+msgid "**Bad**: `glpi/plugins/formcreator-0.90-1.3.2`"
+msgstr "**Špatné**: `glpi/plugins/formcreator-0.90-1.3.2`"
+
+#: ../../source/formcreator/installation.rst:17
+msgid ""
+"Only one directory must contains the plugin's files of a single plugin in "
+"the GLPI plugins directory. **Don't rename the plugin's directory for "
+"backup, move it!**"
+msgstr ""
+"Je třeba, aby se soubory jednoho zásuvného modulu nacházely pouze v jediné "
+"podsložce složky plugins v GLPI. **Nezálohujte složku zásuvného modulu "
+"přejmenováním, přesuňte ji!**"
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"

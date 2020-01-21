@@ -3,14 +3,17 @@
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Kaya Zeren <kayazeren@gmail.com>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-01 16:54+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2016\n"
+"POT-Creation-Date: 2020-01-21 14:50+0100\n"
+"PO-Revision-Date: 2016-10-25 19:22+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2019\n"
 "Language-Team: Turkish (Turkey) (https://www.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -116,8 +119,8 @@ msgid ""
 "just copy the ones from empty plugin. Otherwise; in you ``composer.json``, "
 "just add:"
 msgstr ""
-"Herhangi bir composer ya da travis ayar dosyanız yoksa, boş uygulama "
-"ekindeki dosyaları kopyalayın. Varsa; ``composer.json`` dosyasına şunu "
+"Herhangi bir composer ya da travis yapılandırma dosyanız yoksa, boş uygulama"
+" ekindeki dosyaları kopyalayın. Varsa; ``composer.json`` dosyasına şunu "
 "ekleyin:"
 
 #: ../../source/empty/index.rst:49
@@ -126,7 +129,7 @@ msgstr "Ardından ``composer require glpi-project/tools`` komutunu çalıştır�
 
 #: ../../source/empty/index.rst:51
 msgid "In the travis configuration file, just add the CS call:"
-msgstr "Travis ayar dosyasına CS çağrısını ekleyin:"
+msgstr "Travis yapılandırma dosyasına CS çağrısını ekleyin:"
 
 #: ../../source/empty/index.rst:58
 msgid "In the ``.gitignore`` file, add the following:"
@@ -138,9 +141,9 @@ msgid ""
 "plugin is a bit specific, you'll have to edit it in order to get things "
 "working. See below for more informations."
 msgstr ""
-"Robo.li ayar dosyasında, boş uygulama ekini gömmenin biraz incelikli "
-"olduğunu unutmayın. Sorunsuz çalışması için düzenlemeniz gereken bazı şeyler"
-" var. Ayrıntılı bilgi almak için aşağıya bakın."
+"Robo.li yapılandırma dosyasında, boş uygulama ekini gömmenin biraz incelikli"
+" olduğunu unutmayın. Sorunsuz çalışması için düzenlemeniz gereken bazı "
+"şeyler var. Ayrıntılı bilgi almak için aşağıya bakın."
 
 #: ../../source/empty/index.rst:70
 msgid ""
@@ -209,7 +212,7 @@ msgstr "kodlama standartlarını denetler,"
 
 #: ../../source/empty/index.rst:111
 msgid "run on a bunch on different configuration"
-msgstr "farklı ayarlar üzerinde çalışır"
+msgstr "farklı yapılandırmalar üzerinde çalışır"
 
 #: ../../source/empty/index.rst:113
 msgid ""
@@ -701,6 +704,6 @@ msgstr ""
 "Kod yalnız bir kez görüntülenir. kodu plugin klasörünüzdeki ``.gh_token`` "
 "dosyasına kaydederek işlemi tamamlayabilirsiniz."
 
-#: ../../source/empty/index.rst:280
+#: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"

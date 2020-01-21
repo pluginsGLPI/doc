@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Haider Ilich López Areiza <hlopez@itsoluciones.com.co>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-21 14:50+0100\n"
+"PO-Revision-Date: 2016-10-25 19:22+0000\n"
+"Last-Translator: Haider Ilich López Areiza <hlopez@itsoluciones.com.co>, 2018\n"
+"Language-Team: Spanish (Colombia) (https://www.transifex.com/teclib/teams/28042/es_CO/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_CO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/example/index.rst:2
+msgid "Example"
+msgstr "Ejemplo"
+
+#: ../../source/example/index.rst:4
+msgid "Sources link: https://github.com/pluginsGLPI/example"
+msgstr "Enlace de fuentes: https://github.com/pluginsGLPI/example"
+
+#: ../../source/example/index.rst:5
+msgid "Download: *not relevant*"
+msgstr "Descarga: *no relevante*"
+
+#: ../../source/example/index.rst:7
+msgid ""
+"An example plugin... This is designed to show you various possibilities that"
+" are offered to plugins from GLPI core."
+msgstr ""
+"Un complemento de ejemplo ... Este está diseñado para mostrarle varias "
+"posibilidades que ofrecen los complementos al núcleo del GLPI."
+
+#: ../../source/example/index.rst:9
+msgid ""
+"As this plugin does nothing in reality, there is no documentation for it. "
+"You would like to refer to :doc:`plugins presentation <../presentation>`, "
+"`plugins developer manual <http://glpi-developer-"
+"documentation.readthedocs.io/en/master/plugins.html>`_ or even :doc:`empty "
+"plugin <../empty/index>` to get started."
+msgstr ""
+"Como este complemento no hace nada en realidad, no hay documentación para "
+"ello. Desearía consultar: doc:`plugins presentation <../presentation>`, "
+"`plugins developer manual <http://glpi-developer-"
+"documentation.readthedocs.io/en/master/plugins.html>`_ or even :doc:`empty "
+"plugin <../empty/index>` para comenzar."
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"

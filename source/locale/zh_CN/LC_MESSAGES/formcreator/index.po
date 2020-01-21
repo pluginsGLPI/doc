@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# liAnGjiA <liangjia@qq.com>, 2018
+# 李赋 <fu792659@163.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-21 14:50+0100\n"
+"PO-Revision-Date: 2016-12-20 09:45+0000\n"
+"Last-Translator: 李赋 <fu792659@163.com>, 2018\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/teclib/teams/28042/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../source/formcreator/index.rst:2
+msgid "Form creator"
+msgstr "表单创建人"
+
+#: ../../source/formcreator/index.rst:4
+msgid "Sources link: https://github.com/pluginsGLPI/formcreator"
+msgstr "源代码链接: https://github.com/pluginsGLPI/formcreator"
+
+#: ../../source/formcreator/index.rst:5
+msgid "Download: https://github.com/pluginsGLPI/formcreator/releases"
+msgstr "下载: https://github.com/pluginsGLPI/formcreator/releases"
+
+#: ../../source/formcreator/index.rst:7
+msgid ""
+"FormCreator is a plugin which allow creation of custom forms of easy access."
+msgstr "FormCreator是一个插件，允许创建自定义形式的轻松访问。"
+
+#: ../../source/formcreator/index.rst:9
+msgid ""
+"At the same time, the plugin allow the creation of one or more tickets when "
+"the form is filled."
+msgstr "同时，插件允许在填写表单时创建一个或多个工单。"
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr "|CC-BY-NC-ND|"

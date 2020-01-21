@@ -1,0 +1,714 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Pedro Rocha <jpnr79@gmail.com>, 2017
+# Rui Melo <viper5000pt@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-21 14:50+0100\n"
+"PO-Revision-Date: 2016-10-25 19:22+0000\n"
+"Last-Translator: Rui Melo <viper5000pt@gmail.com>, 2019\n"
+"Language-Team: Portuguese (Portugal) (https://www.transifex.com/teclib/teams/28042/pt_PT/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/empty/index.rst:2
+msgid "Empty"
+msgstr "Vazio"
+
+#: ../../source/empty/index.rst:4
+msgid "Sources link: https://github.com/pluginsGLPI/empty"
+msgstr "Ligação do código fonte: https://github.com/pluginsGLPI/empty"
+
+#: ../../source/empty/index.rst:5
+msgid "Download: *not relevant*"
+msgstr "Download: *não é relevante*"
+
+#: ../../source/empty/index.rst:7
+msgid "This plugins does... nothing. Really!"
+msgstr "Este plugin faz... nada. na realidade!"
+
+#: ../../source/empty/index.rst:9
+msgid ""
+"This is designed to be a start point for writing plugins, with very minimal "
+"defaults usefull scripts, and some advices. If you're looking for plugins "
+"possibilities, take a look at :doc:`the example plugin <../example/index>`."
+msgstr ""
+"Isto é projectado para ser o ponto de partida para escrever plugins, com "
+"mínimos scripts úteis padrão, e alguns conselhos. Se você está à procura de "
+"possibilidades de plugins , veja: doc: `O plugin de exemplo <../ example / "
+"index> `."
+
+#: ../../source/empty/index.rst:12
+msgid "Create a new plugin"
+msgstr "Criar um novo plugin"
+
+#: ../../source/empty/index.rst:14
+msgid ""
+"An utility script to create a new plugin - ``plugin.sh`` is provided. You "
+"will call it with a plugin name, a version, an optionally the path where "
+"your want it to be created:"
+msgstr ""
+"Um script utilitário para criar um novo plugin - `` plugin.sh`` é fornecido."
+" Você vai dar um nome ao plugin, uma versão, e opcionalmente o caminho onde "
+"o quer que ele seja criado:"
+
+#: ../../source/empty/index.rst:20
+msgid ""
+"The script will sanityze and lowercase the name you provided, copy the "
+"templates files into the new directory, and then make some replacements."
+msgstr ""
+"O script irá sintetizar e colocar em minúsculas o nome dado, copie os "
+"arquivos modelo para o novo directório e, em seguida, faça algumas "
+"substituições."
+
+#: ../../source/empty/index.rst:22
+msgid ""
+"Using the script without destination parameter, it will create you directory"
+" plugin, ``mygreatplugin`` just beside its own directory. Otherwise, it "
+"would create the new directory in the specified path:"
+msgstr ""
+"Usando o script sem parâmetro de destino, ele irá criar o seu plugin de "
+"diretório, ' ' mygreatplugin' ' apenas ao lado de seu próprio diretório. "
+"Caso contrário, ele criaria o novo diretório no caminho especificado:"
+
+#: ../../source/empty/index.rst:29
+msgid "Update existing plugin"
+msgstr "Actualizar um plugin existente"
+
+#: ../../source/empty/index.rst:31
+msgid ""
+"There is no automated way to update an existing plugin, because there would "
+"be too many cases to handle. But don't worry, procedure is quite simple ;)"
+msgstr ""
+"Não há nenhuma maneira automatizada de atualizar um plug-in existente, "
+"porque haveria muitos casos para manipular. Mas não se preocupe, o "
+"procedimento é bastante simples;)"
+
+#: ../../source/empty/index.rst:33
+msgid "Using empty features is as simple as creating a few files:"
+msgstr ""
+"Usando os recursos de vazios é tão simples como criar alguns arquivos:"
+
+#: ../../source/empty/index.rst:35
+msgid "``composer.json``,"
+msgstr "``composer.json``,"
+
+#: ../../source/empty/index.rst:36
+msgid "``.travis.yml``,"
+msgstr "``.travis.yml``,"
+
+#: ../../source/empty/index.rst:37
+msgid "``Robofile.php``,"
+msgstr "``Robofile.php``,"
+
+#: ../../source/empty/index.rst:38
+msgid "``.gitignore``."
+msgstr "``.gitignore``."
+
+#: ../../source/empty/index.rst:40
+msgid ""
+"If you do not have yet any composer or travis configuration file, you can "
+"just copy the ones from empty plugin. Otherwise; in you ``composer.json``, "
+"just add:"
+msgstr ""
+"Se você ainda não tem qualquer compositor ou arquivo de configuração Travis,"
+" você pode simplesmente copiar os de plugin vazio. Caso contrário em você ' "
+"' Composer. JSON ' ', basta adicionar:"
+
+#: ../../source/empty/index.rst:49
+msgid "And then run ``composer require glpi-project/tools``."
+msgstr "E, em seguida, executar ' ' compositor exigem GLPI-Project/Tools ' '."
+
+#: ../../source/empty/index.rst:51
+msgid "In the travis configuration file, just add the CS call:"
+msgstr "No arquivo de configuração Travis, basta adicionar a chamada CS:"
+
+#: ../../source/empty/index.rst:58
+msgid "In the ``.gitignore`` file, add the following:"
+msgstr "No arquivo ' '. gitignore ' ', adicione o seguinte:"
+
+#: ../../source/empty/index.rst:68
+msgid ""
+"As for the Robo.li configuration file, note that the one embed in the empty "
+"plugin is a bit specific, you'll have to edit it in order to get things "
+"working. See below for more informations."
+msgstr ""
+"Quanto ao arquivo de configuração Robo.li, note que o um incorporar no "
+"plugin vazio é um pouco específico, você terá que editá-lo, a fim de obter "
+"as coisas funcionando. Veja abaixo para mais informações."
+
+#: ../../source/empty/index.rst:70
+msgid ""
+"Finally, as the ``tools`` project will provide you some features, you can "
+"remove duplicated tools scripts (files such as ``release``, "
+"``extract_template.sh``, ...) that would be present in your plugin."
+msgstr ""
+"Finalmente, como o projeto ' ' Tools ' ' irá fornecer-lhe alguns recursos, "
+"você pode remover scripts de ferramentas duplicadas (arquivos como ' ' "
+"Release ' ', ' ' extract_template. sh ' ',...) que estariam presentes em seu"
+" plugin."
+
+#: ../../source/empty/index.rst:73
+msgid "Features"
+msgstr "Características"
+
+#: ../../source/empty/index.rst:76
+msgid "Coding standards"
+msgstr "Padrões de codificação"
+
+#: ../../source/empty/index.rst:78
+msgid ""
+"The GLPI `PHPCodeSniffer <http://pear.php.net/package/PHP_CodeSniffer>`_ "
+"rulesets are provided as ``vendor/glpi-project/coding-"
+"standard/GlpiStandard/``."
+msgstr ""
+"O GLPI ' PHPCodeSniffer < http://pear.php.net/package/PHP_CodeSniffer > ' _ "
+"RuleSets são fornecidos como ' ' fornecedor/GLPI-Project/Coding-"
+"Standard/GlpiStandard/' '."
+
+#: ../../source/empty/index.rst:80
+msgid "To check coding standards, just use the Robo.li task ``code:cs``:"
+msgstr ""
+"Para verificar os padrões de codificação, basta usar a tarefa Robo.li ' ' "
+"código: cs ' ':"
+
+#: ../../source/empty/index.rst:88
+msgid ""
+"The above command will ignore ``vendor`` and run on the current directory."
+msgstr ""
+"O comando acima ignorará ' ' Vendor ' ' e executado no diretório atual."
+
+#: ../../source/empty/index.rst:90
+msgid ""
+"If you want to adapt ignore list or checked directories, you can just "
+"override ``$csignore`` and/or ``$csfiles`` in the ``RoboFile.php`` of the "
+"plugin:"
+msgstr ""
+"Se você quiser adaptar a lista de ignorados ou diretórios verificados, você "
+"pode simplesmente substituir ' ' $csignore ' ' e/ou ' ' $csfiles ' ' no ' ' "
+"RoboFile. php ' ' do plugin:"
+
+#: ../../source/empty/index.rst:106
+msgid "Automated checks"
+msgstr "Verificações automatizadas"
+
+#: ../../source/empty/index.rst:108
+msgid ""
+"For convenience; a ``.travis.yml`` file is also provided, that is setup to:"
+msgstr ""
+"Por conveniência; um arquivo ' '. Travis. yml ' ' também é fornecido, que é "
+"a configuração para:"
+
+#: ../../source/empty/index.rst:110
+msgid "check coding standards,"
+msgstr "verificar padrões de codificação,"
+
+#: ../../source/empty/index.rst:111
+msgid "run on a bunch on different configuration"
+msgstr "executado em um grupo em configuração diferente"
+
+#: ../../source/empty/index.rst:113
+msgid ""
+"You still have to enable travis-ci builds from the website in order to "
+"activate automated tests."
+msgstr ""
+"Você ainda tem que ativar o Travis-CI constrói a partir do site, a fim de "
+"ativar testes automatizados."
+
+#: ../../source/empty/index.rst:115
+msgid ""
+"Of course, the ``.travis.yml`` file can be pimped; you can run unit tests, "
+"create/update a database, activate notifications, and so on. Refer to the "
+"`Travis-CI documentation <https://docs.travis-ci.com/>`_ to know more."
+msgstr ""
+"Claro, o arquivo ' '. Travis. yml ' ' pode ser pimped; Você pode executar "
+"testes de unidade, criar/atualizar um banco de dados, ativar notificações e "
+"assim por diante. Consulte a documentação do Travis-CI < https://docs"
+".travis-ci.com/> ' _ para saber mais."
+
+#: ../../source/empty/index.rst:118
+msgid "Minifying CSS ans JS"
+msgstr "Minifying CSS ANS JS"
+
+#: ../../source/empty/index.rst:120
+msgid ""
+"A convenient script, using `Robo.li <http://robo.li>`_ is provided. The "
+"``RoboFile.php`` file is an empty class that extends "
+"``Glpi\\Tools\\RoboFile`` (provided by ``glpi-project/tools`` dependency) in"
+" which you can set your own stuff."
+msgstr ""
+"Um script conveniente, usando ' Robo.li < http://robo.li > ' _ é fornecido. "
+"O arquivo ' ' RoboFile. php ' ' é uma classe vazia que estende ' ' "
+"Glpi\\Tools\\RoboFile ' ' (fornecido por ' ' GLPI-Project/Tools ' ' "
+"dependência) em que você pode definir suas próprias coisas."
+
+#: ../../source/empty/index.rst:122
+msgid ""
+"That way, you can quite easily update the common file and get your own tasks"
+" remaining the same."
+msgstr ""
+"Dessa forma, você pode facilmente atualizar o arquivo comum e obter suas "
+"próprias tarefas restantes o mesmo."
+
+#: ../../source/empty/index.rst:124
+msgid ""
+"To get the required libs installed, you'll have to `get composer installed "
+"<http://getcomposer.org>`_ and then run:"
+msgstr ""
+"Para obter as bibliotecas necessárias instaladas, você terá que ' obter "
+"compositor instalado < http://getcomposer.org > ' _ e, em seguida, executar:"
+
+#: ../../source/empty/index.rst:130
+msgid "There are three available targets:"
+msgstr "Há três alvos disponíveis:"
+
+#: ../../source/empty/index.rst:132
+msgid "``minify`` that will minify all CSS and JS files (see below),"
+msgstr ""
+"' ' reduza ' ' que irá comprimir todos os arquivos CSS e js (veja abaixo),"
+
+#: ../../source/empty/index.rst:133
+msgid ""
+"``minify:css`` that will minify all css  stylesheets files in the ``css`` "
+"directory of your plugin, creating a ``.min.css`` version along with the "
+"original file,"
+msgstr ""
+"' ' reduza: CSS ' ' que irá comprimir todos os arquivos de folhas de estilo "
+"CSS no diretório ' ' CSS ' ' do seu plugin, criando uma versão ' '. min. css"
+" ' ' juntamente com o arquivo original,"
+
+#: ../../source/empty/index.rst:134
+msgid ""
+"``minify:js`` that will minify all javascript files in the ``js`` directory "
+"of your plugin, creating a ``.min.js`` version along with the original file."
+msgstr ""
+"‘ ‘ reduza :js’ ‘ que irá comprimir todos os arquivos javascript no "
+"diretório ``js`` do seu plugin, criando uma versão ``.min.js``` junto com o "
+"arquivo original."
+
+#: ../../source/empty/index.rst:136
+msgid "Just choose a target, and run something like:"
+msgstr "Basta escolher um alvo e executar algo como..:"
+
+#: ../../source/empty/index.rst:144
+msgid ""
+"Remember compiled files should not be commited on your repository sources. "
+"It is a release process to minify files."
+msgstr ""
+"Lembre-se que arquivos compilados não devem ser comprometidos nas suas "
+"fontes de repositório. É um processo de lançamento para comprimir arquivos."
+
+#: ../../source/empty/index.rst:146
+msgid ""
+"Also remember to adapt your scripts so they load your minified versions if "
+"available, and the original one otherwise :)"
+msgstr ""
+"Lembre-se também de adaptar seus scripts para que eles carreguem as suas "
+"versões reduzidas, se disponíveis, e a original, caso contrário :)"
+
+#: ../../source/empty/index.rst:148
+msgid ""
+"As of GLPI 9.2; you do not have to care about loading minified files when "
+"using ``add_css`` and ``add_javascript`` hooks! You just need to call not "
+"minified script; and GLPI will use the minified version if it exists and if "
+"not in `DEBUG` mode."
+msgstr ""
+"A partir do GLPI 9.2; não precisa de se preocupar em carregar arquivos "
+"comprimidos ao usar ``add_css`` e ``add_javascript`` hooks! Só precisa de "
+"executar o script não comprimido; e o GLPI usará a versão comprimida se ela "
+"existir e se não estiver no modo `DEBUG`."
+
+#: ../../source/empty/index.rst:151
+msgid "Translations"
+msgstr "Traduções"
+
+#: ../../source/empty/index.rst:153
+msgid ""
+"GLPI and its plugins use gettext for internationnalization. Several steps "
+"are required before that can work:"
+msgstr ""
+"GLPI e os seus plugins usam gettext para internacionalização. Vários passos "
+"são necessários antes que isso possa funcionar:"
+
+#: ../../source/empty/index.rst:155
+msgid ""
+"1 translatable strings must be extracted from source files, a ``POT`` file "
+"will be created or updated accordingly, 2 ``PO`` files must be created or "
+"updated from the ``POT`` file, 3 ``PO`` files must be translated, 4 ``MO`` "
+"files must be compiled from the latest ``PO``."
+msgstr ""
+"1 strings traduzíveis devem ser extraídas de arquivos fonte, um arquivo "
+"``POT`` será criado ou atualizado de acordo, 2 arquivos ``PO`` devem ser "
+"criados ou atualizados do arquivo ``POT``, 3 arquivos ``PO`` devem ser "
+"traduzidos, 4 arquivos ``MO`` devem ser compilados do último ``PO``."
+
+#: ../../source/empty/index.rst:160
+msgid ""
+"In the ``vendor/bin`` directory, you'll find a ``extract_template.sh`` "
+"script. This is designed to extract translatable strings from your source "
+"code (see first point above)."
+msgstr ""
+"No diretório ``vendor/bin``, encontrará um script ``extract_template.sh```. "
+"Este é projetado para extrair strings traduzíveis do seu código fonte (veja "
+"o primeiro ponto acima)."
+
+#: ../../source/empty/index.rst:162
+msgid ""
+"Once it has been ran, a ``locale/mygreatplugin.pot`` file will be "
+"created/updated."
+msgstr ""
+"Uma vez executado um arquivo, ``locale/mygreatplugin.pot``` será "
+"criado/atualizado."
+
+#: ../../source/empty/index.rst:164
+msgid ""
+"For the second and third step, you'll have to make a choice. You can use "
+"gettext tools to update your ``PO`` files and translate them using a "
+"dedicated tool, like `poedit <https://poedit.net/>`_; or you can use an "
+"online translation system like `Transifex <http://transifex.com/>`_ or "
+"`Zanata <http://zanata.org/>`_. GLPI core and many of existing plugins are "
+"translated using Transifex right now."
+msgstr ""
+"Para o segundo e terceiro passo, terá de fazer uma escolha. Pode usar "
+"ferramentas do gettext para atualizar as suas ``PO`` limas e traduzi-las "
+"usando uma ferramenta dedicada, como `poedit <https://poedit.net/>`_; ou "
+"pode usar um sistema de tradução em linha como `Transifex "
+"<http://transifex.com/>`_ ou `Zanata <http://zanata.org/>`_. O núcleo de "
+"GLPI e muitos dos plugins existentes são traduzidos usando Transifex agora "
+"mesmo."
+
+#: ../../source/empty/index.rst:166
+msgid ""
+"Once you get your updated ``PO`` files, you'll have to compile them to "
+"``MO`` files. You can run it manually, the release script will compile them "
+"again anywways; see the :ref:`compiling MO files section <compile_mo>`."
+msgstr ""
+"Uma vez que obtenha seus arquivos ``PO`` atualizados, terá que compilá-los "
+"em arquivos ``MO``. Pode executá-lo manualmente, o script de lançamento irá "
+"compilá-los novamente de qualquer maneira; veja a seção :ref:`compilando "
+"arquivos MO <compile_mo>`."
+
+#: ../../source/empty/index.rst:171
+msgid "Release script"
+msgstr "Script de lançamento"
+
+#: ../../source/empty/index.rst:173
+msgid ""
+"A release script is provided in ``vendor/bin/plugin-release``. This is a "
+"\"simple\" `Python <http://python.org>`_ script; you should just have Python"
+" installed on your system (this is installed by default on most linux "
+"distributions)."
+msgstr ""
+"Um script de lançamento é fornecido em ``vendor/bin/plugin-release``. Este é"
+" um “script simples” `Python <http://python.org>`_; deve ter o Python "
+"instalado no sistema (isto é instalado por padrão na maioria das "
+"distribuições Linux)."
+
+#: ../../source/empty/index.rst:177
+msgid ""
+"Note that for the moment, the release script is only compatible if you use "
+"semantic versionning!"
+msgstr ""
+"Note que, por enquanto, o script de lançamento só é compatível se usar a "
+"versão semântica!"
+
+#: ../../source/empty/index.rst:179
+msgid ""
+"Using just the defaults, the script will try to retrieve the latest tag in "
+"your git repository, add third party dependencies and create a `Release` on "
+"the github project:"
+msgstr ""
+"Usando apenas os padrões, o script tentará recuperar a última tag no arquivo"
+" git, adicionar dependências de terceiros e criar um `Release` no projeto "
+"github:"
+
+#: ../../source/empty/index.rst:192
+msgid "Requirements"
+msgstr "Requisitos"
+
+#: ../../source/empty/index.rst:194
+msgid ""
+"You will need a python interpreter installed as well as the following "
+"modules:"
+msgstr ""
+"Precisará de um interpretador python instalado, bem como os seguintes "
+"módulos:"
+
+#: ../../source/empty/index.rst:196
+msgid "`termcolor <https://pypi.python.org/pypi/termcolor>`_,"
+msgstr "`termcolor <https://pypi.python.org/pypi/termcolor>`_,"
+
+#: ../../source/empty/index.rst:197
+msgid "`gitdb <https://github.com/gitpython-developers/gitdb>`_,"
+msgstr "`gitdb <https://github.com/gitpython-developers/gitdb>`_,"
+
+#: ../../source/empty/index.rst:198
+msgid ""
+"`github <https://github.com/PyGithub/PyGithub>`_ (to check for existing "
+"versions in also in drafts, and to create github releases), unless you use "
+"the ``--nogithub`` option"
+msgstr ""
+"github <https://github.com/PyGithub/PyGithub>`_ (para verificar se há "
+"versões existentes também nos rascunhos, e para criar lançamentos do "
+"github), a menos que use a opção ``—nogithub``"
+
+#: ../../source/empty/index.rst:200
+msgid ""
+"If you want to get help on the script, try to run ``./vendor/bin/plugin-"
+"release -h``."
+msgstr ""
+"Caso queira obter ajuda no script, tente executar ``./vendor/bin/plugin-"
+"release -h``."
+
+#: ../../source/empty/index.rst:203
+msgid "Process"
+msgstr "Processo"
+
+#: ../../source/empty/index.rst:205
+msgid "The release process will achieve the following tasks for you:"
+msgstr "O processo de liberação realizará as seguintes tarefas:"
+
+#: ../../source/empty/index.rst:207
+msgid "check if the version constant is the same as the tag you've requested;"
+msgstr "verifique se a constante de versão é a mesma que a tag que solicitou;"
+
+#: ../../source/empty/index.rst:208
+msgid ""
+"check if the version in the website XML file is the same as the tag you've "
+"requested;"
+msgstr ""
+"verifique se a versão no arquivo XML do site é a mesma que a tag que "
+"solicitou;"
+
+#: ../../source/empty/index.rst:209
+msgid ""
+"check if a release already exists, locally, and remotely (assuming your "
+"project is hosted in the *pluginsGLPI* organization and the release is "
+"public);"
+msgstr ""
+"verifique se uma versão já existe, localmente, e remotamente (assumindo que "
+"o seu projecto está alojado na organização *pluginsGLPI* e a versão é "
+"pública);"
+
+#: ../../source/empty/index.rst:210
+msgid ""
+"make a `git archive` of the paths that are not excluded (``.git``, "
+"``tools``, ``tests``, ...);"
+msgstr ""
+"faça um `arquivo git` dos caminhos que não são excluídos (``.git```, "
+"``tools``, ``tests``, …);"
+
+#: ../../source/empty/index.rst:211
+msgid "if any, install composer dependencies;"
+msgstr "se houver, instale as dependências do compositor;"
+
+#: ../../source/empty/index.rst:212
+msgid "if any, compile you ``MO`` files;"
+msgstr "se houver, compile os arquivos ``MO``;"
+
+#: ../../source/empty/index.rst:213
+msgid ""
+"if any, compile you CSS stylesheets and your Javascript files (using "
+"`Robo.li <http://robo.li>`_);"
+msgstr ""
+"se houver, compile suas folhas de estilo CSS e os seus arquivos Javascript "
+"(usando `Robo.li <http://robo.li>`_);"
+
+#: ../../source/empty/index.rst:214
+msgid ""
+"create a release archive with all that; that will be available in the "
+"``dist`` directory;"
+msgstr ""
+"crie um arquivo release completo; que estará disponível no diretório "
+"``dist```;"
+
+#: ../../source/empty/index.rst:215
+msgid "use GPG to sign the archive."
+msgstr "usar GPG para assinar o arquivo."
+
+#: ../../source/empty/index.rst:219
+msgid ""
+"The standard release process will not work on your files directly, it will "
+"make a copy in the ``dist/src`` directory before. The only exception is the "
+":ref:`MO compiling option <compile_mo>`."
+msgstr ""
+"O processo de lançamento padrão não funcionará diretamente nos seus "
+"arquivos, ele fará uma cópia no diretório ``dist/src`` antes. A única "
+"exceção é a opção de compilação :ref:`MO <compile_mo>`."
+
+#: ../../source/empty/index.rst:221
+msgid ""
+"In order to check if all is OK before doing real release; create your tag "
+"and run ``./vendor/bin/plugin-release -C`` **before pushing your tag**. That"
+" way, you'll be able to fix potential issues and re-create your tag locally "
+"(remember published tags should **never** be removed)."
+msgstr ""
+"Para verificar se tudo está OK antes de fazer o lançamento real; crie a tag "
+"e execute ``./vendor/bin/plugin-release -C``` **antes de colocar a tag**. "
+"Dessa forma, será capaz de corrigir problemas potenciais e recriar a tag "
+"localmente (lembre-se que as tags publicadas devem **nunca** ser removidas)."
+
+#: ../../source/empty/index.rst:226
+msgid "Compiling MO files"
+msgstr "Compilando arquivos MO"
+
+#: ../../source/empty/index.rst:228
+msgid ""
+"The release process will automatically compile every ``PO`` file it will "
+"found in your ``locales`` directory. But you probably want the sources to "
+"contain the latests ``MO`` files, for testing purposes. The release script "
+"provide the ``--compile-mo`` (or ``-m``) to achieve that:"
+msgstr ""
+"O processo de liberação compilará automaticamente todos os arquivos ``PO`` "
+"que serão encontrados em seu diretório ``locales``. Mas provavelmente quer "
+"que as fontes contenham os últimos arquivos ``MO```, para fins de teste. O "
+"script de lançamento fornece o ``—compile-mo``` (ou ``-m``) para conseguir "
+"isso:"
+
+#: ../../source/empty/index.rst:236
+msgid ""
+"The above command will work on your plugins files directly; not on a copy as"
+" does other commands."
+msgstr ""
+"O comando acima funcionará diretamente nos seus arquivos plugins; não em uma"
+" cópia como os outros comandos."
+
+#: ../../source/empty/index.rst:239
+msgid "Pre-releases"
+msgstr "Pré-lançamentos"
+
+#: ../../source/empty/index.rst:241
+msgid ""
+"Per default, the release script will work only on existing tags. Any pre-"
+"release should have its own tag; but you may want to create a release "
+"archive without any tags in some circumstances."
+msgstr ""
+"Por padrão, o script de lançamento funcionará somente em tags existentes. "
+"Qualquer pré-lançamento deve ter sua própria tag; mas pode querer criar um "
+"arquivo de lançamento sem nenhuma tag em algumas circunstâncias."
+
+#: ../../source/empty/index.rst:243
+msgid ""
+"In order to tell the release script what it should archive, you'll have to "
+"specify several parameters:"
+msgstr ""
+"Para dizer ao script de lançamento o que ele deve arquivar, terá que "
+"especificar vários parâmetros:"
+
+#: ../../source/empty/index.rst:245
+msgid "``--commit`` (or ``-c``) giving the commit hash,"
+msgstr "“—comprometer” (ou ``-c```) dando o hash de submissão,"
+
+#: ../../source/empty/index.rst:246
+msgid ""
+"``--release`` (or ``-r``) giving the release version (usually, it will be "
+"the next release version),"
+msgstr ""
+"(ou ``-r``) dando a versão de lançamento (normalmente, será a próxima versão"
+" de lançamento),"
+
+#: ../../source/empty/index.rst:247
+msgid ""
+"``--extra`` (or ``-e``) to specify an extra string (such as *alpha*, *beta*,"
+" *rc1*, etc...)"
+msgstr ""
+"(ou ``-e``) para especificar uma string extra (como *alpha*, *beta*, *rc1*, "
+"etc…)"
+
+#: ../../source/empty/index.rst:249
+msgid "As an example with the *order* plugin:"
+msgstr "Como exemplo com a * order * plugin :"
+
+#: ../../source/empty/index.rst:258
+msgid "Signing releases"
+msgstr "Lançamentos de assinatura"
+
+#: ../../source/empty/index.rst:260
+msgid ""
+"Signing releases with a GPG key would permit users to check download "
+"integrity before installing. You'll need a GPG key publically available to "
+"users; the sign option is activated per default, you can deactivate using "
+"the ``--nosign`` (or ``-S``) option."
+msgstr ""
+"Assinar versões com uma chave GPG permitiria que os utilizadores "
+"verificassem a integridade do download antes da instalação. Necessitará uma "
+"chave GPG publicamente disponível aos utilizadores; a opção do sinal é "
+"ativada por o defeito, pode desativar usando o ``—nosign``` (ou ``-S``) "
+"opção."
+
+#: ../../source/empty/index.rst:262
+msgid ""
+"A file containing the signature with the same name as the archive with a "
+"``.asc`` extension will be created in the ``dist`` directory."
+msgstr ""
+"Um arquivo contendo a assinatura com o mesmo nome do arquivo com uma "
+"extensão ``.asc`` será criado no diretório ``dist```."
+
+#: ../../source/empty/index.rst:265
+msgid "GitHub release"
+msgstr "Lançamento no GitHub"
+
+#: ../../source/empty/index.rst:267
+msgid ""
+"The release script will create a release on your GitHub repository, as a "
+"draft, unless you use ``--nogithub`` (or ``-g``) option."
+msgstr ""
+"O script de lançamento criará uma release no seu repositório GitHub, como um"
+" rascunho, a menos que use a opção ``—nogithub`` (ou ``-g``)."
+
+#: ../../source/empty/index.rst:271
+msgid ""
+"Unfortunately, I was not able to get the newly created archive uploaded to "
+"this new release... Maybe that could be fixed in the future."
+msgstr ""
+"Infelizmente, eu não fui capaz de obter o arquivo recém-criado carregado "
+"para esta nova versão… Talvez isso poderia ser corrigido no futuro."
+
+#: ../../source/empty/index.rst:273
+msgid ""
+"In order to use this feature, you will need the `github "
+"<https://github.com/PyGithub/PyGithub>`_ installed; and you will need an "
+"access token. Access token is valid per user, and gives accesss to all his "
+"repositories."
+msgstr ""
+"Para usar este recurso, precisará do `github "
+"<https://github.com/PyGithub/PyGithub>`_ instalado; e precisará de um token "
+"de acesso. O token de acesso é válido por utilizador, e dá acesso a todos os"
+" seus ficheiros."
+
+#: ../../source/empty/index.rst:275
+msgid ""
+"You'll have to go to your `github account settings page, in the personnal "
+"access token tab <https://github.com/settings/tokens>`_. Click on *generate "
+"new token*, give the description you want, and make sure you'll check the "
+"*public_repo* box only (no need to check anything else, you can create "
+"several access token if you need)."
+msgstr ""
+"Terá que ir ao seu `github página dos ajustes do cliente do `github, na aba "
+"do token do acesso pessoal <https://github.com/settings/tokens>`_. Clique "
+"sobre *gerar token novo*, dê a descrição que você quer, e certifique-se que "
+"verificará a caixa *public_repo* somente (nenhuma necessidade verificar "
+"qualquer outra coisa, pode criar diversos tokens de acesso se necessitar)."
+
+#: ../../source/empty/index.rst:277
+msgid ""
+"The token will be displayed only once; store it in the ``.gh_token`` file in"
+" your plugin directory; and that's all!"
+msgstr ""
+"O token será exibido apenas uma vez; armazene-o no arquivo ``.gh_token``` no"
+" seu diretório de plugins; e é tudo!"
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"

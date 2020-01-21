@@ -1,0 +1,215 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# liAnGjiA <liangjia@qq.com>, 2018
+# 李赋 <fu792659@163.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-21 14:50+0100\n"
+"PO-Revision-Date: 2016-12-20 09:45+0000\n"
+"Last-Translator: 李赋 <fu792659@163.com>, 2018\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/teclib/teams/28042/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../source/formcreator/configuration.rst:2
+msgid "Configuration and usage"
+msgstr "配置与使用"
+
+#: ../../source/formcreator/configuration.rst:5
+msgid "Headers"
+msgstr "头部"
+
+#: ../../source/formcreator/configuration.rst:7
+msgid "**Menu** : `Setup > Dropdowns : Forms > Headers`"
+msgstr "**菜单** : `设置 > 下拉列表 : 窗体 > 头部`"
+
+#: ../../source/formcreator/configuration.rst:9
+msgid ""
+"Headers are rich texts _(text with presentation: bold, italic, titles, "
+"colors, etc.)_ which are defined per entities. They can be translated since "
+"GLPI 0.85 like all other dropdowns _(Dropdowns translation must be enabled "
+"on GLPI general configuration page: Setup > General : General setup > "
+"Translate dropdowns = Yes)_."
+msgstr ""
+"头部为富文本模式 _(提交的文本格式有: 粗体,斜体,标题,颜色等。)_ 都能给每个实体赋予定义。 自 GLPI 0.85 "
+"之后即可翻译诸如全部其他下拉列表 _(必须在GLPI的通用设置中启用下拉列表: 设置 > 常规 : 常规设置 > 翻译下拉列表 = Yes)_。"
+
+#: ../../source/formcreator/configuration.rst:13
+msgid ""
+"These texts are shown on the users forms list, over the forms. It can be "
+"used to indicate some general advertisement over all the forms below."
+msgstr "这些文本显示在表单上的用户表单列表中。 它可以用来在下面的所有表格上显示一些公告。"
+
+#: ../../source/formcreator/configuration.rst:17
+#: ../../source/formcreator/configuration.rst:47
+msgid "Configuration"
+msgstr "配置"
+
+#: ../../source/formcreator/configuration.rst:22
+#: ../../source/formcreator/configuration.rst:52
+msgid "Render"
+msgstr "渲染"
+
+#: ../../source/formcreator/configuration.rst:27
+msgid "Categories"
+msgstr "分类"
+
+#: ../../source/formcreator/configuration.rst:29
+msgid "**Menu** : `Setup > Dropdowns : Forms > Form categories`"
+msgstr "**菜单**：`设置>下拉菜单：表单>表单类别`"
+
+#: ../../source/formcreator/configuration.rst:31
+msgid "Form categories allow you to arrange your forms list."
+msgstr "表单类别允许您调整表单列表。"
+
+#: ../../source/formcreator/configuration.rst:33
+msgid ""
+"You can add or edit categories generally from the Setup menu : `Setup > "
+"Dropdowns`."
+msgstr "通常您可以从“设置”菜单添加或编辑类别：“设置”>“下拉列表”。"
+
+#: ../../source/formcreator/configuration.rst:35
+msgid ""
+"You can also add new categories directly from the form page like all GLPI "
+"dropdowns."
+msgstr "您还可以直接从表单页面添加新类别，如所有GLPI下拉列表。"
+
+#: ../../source/formcreator/configuration.rst:37
+msgid ""
+"They are defined by entities and can be translated since GLPI 0.85 like all "
+"other dropdowns."
+msgstr "从GLPI 0.85开始，它们由实体定义，并且可以像所有其他下拉列表一样转化。"
+
+#: ../../source/formcreator/configuration.rst:41
+msgid ""
+"Dropdowns translation must be enabled on GLPI general configuration page "
+"`Setup > General`, `General setup > Translate dropdowns = Yes`"
+msgstr "必须在GLPI常规配置页面“设置>常规”，“常规设置>翻译下拉列表=是”上启用下拉菜单转换"
+
+#: ../../source/formcreator/configuration.rst:44
+msgid ""
+"Categories may be associated to `Knowledge base categories`. This link is "
+"necessary to allow FAQ entries to show along your forms."
+msgstr "类别可以与“知识库类别”相关联。 此链接是允许FAQ条目显示在表单中的必要条件。"
+
+#: ../../source/formcreator/configuration.rst:57
+msgid "Questions"
+msgstr "问题"
+
+#: ../../source/formcreator/configuration.rst:59
+msgid ""
+"After the creation of a form, create fields for for the user to fill out."
+msgstr "创建表单后，创建字段供用户填写。"
+
+#: ../../source/formcreator/configuration.rst:63
+msgid ""
+"The name of the questions will appear on the left and the field type "
+"selected on the right"
+msgstr "问题的名称将显示在左侧，字段类型将显示在右侧"
+
+#: ../../source/formcreator/configuration.rst:65
+msgid "The Description will be under the filed input."
+msgstr "描述将在文件输入项下。"
+
+#: ../../source/formcreator/configuration.rst:67
+msgid "Based on question type options will be based on type chosen."
+msgstr "基于问题类型选项将基于所选类型。"
+
+#: ../../source/formcreator/configuration.rst:69
+msgid ""
+"If validation is desired, it can be implemented following `PHP Regular "
+"Expressions <http://php.net/manual/reference.pcre.pattern.syntax.php>`_."
+msgstr ""
+"如果需要验证，可以在`PHP Regular Expressions "
+"<http://php.net/manual/reference.pcre.pattern.syntax.php>`_这里实现。"
+
+#: ../../source/formcreator/configuration.rst:71
+msgid ""
+"If you want to show or hide questions depending on the answers of other "
+"questions, use the *show fields* area when editing a question. In the "
+"version 2.5.0 you may use more complex expressions checking for the content "
+"of several questions, and use logic operator **OR** and **AND**. The "
+"precedence of boolean operators applies, meaning that **AND** has precedence"
+" over **OR**."
+msgstr ""
+"如果要根据其他问题的答案显示或隐藏问题，请在编辑问题时使用* show fields *区域。 "
+"在2.5.0版本中，您可以使用更复杂的表达式来检查几个问题的内容，并使用逻辑运算符** OR **和** AND **。 "
+"适用布尔运算符的优先级，这意味着** AND **优先于** OR **。"
+
+#: ../../source/formcreator/configuration.rst:74
+msgid "Helpdesk"
+msgstr "技术支持"
+
+#: ../../source/formcreator/configuration.rst:76
+msgid "The plugin can provide its own design for helpdesk."
+msgstr "这个插件可以为helpdesk提供自己的设计。"
+
+#: ../../source/formcreator/configuration.rst:78
+msgid ""
+"To enable it, edit an entity, open the `Forms` tab and set the field "
+"`Helpdesk mode` to `Service catalog simplified` or `Service catalog "
+"extended`. This setting handles inheritance from parent entity to children "
+"entities."
+msgstr ""
+"要启用它，编辑一个实体，打开`Forms`选项卡并将字段`Helpdesk mode`设置为`Service catalog "
+"simplified`或`Service catalog extended`。 此设置处理从父实体到子实体的继承。"
+
+#: ../../source/formcreator/configuration.rst:80
+msgid ""
+"Users using the simplified interface will benefit a new interface allowing "
+"them to:"
+msgstr "使用简化界面的用户将受益于新界面，使他们能够："
+
+#: ../../source/formcreator/configuration.rst:82
+msgid "browse forms and FAQ with the unified interface"
+msgstr "使用统一的界面浏览表单和FAQ"
+
+#: ../../source/formcreator/configuration.rst:83
+msgid "follow the process of their requests"
+msgstr "按照他们的要求进行"
+
+#: ../../source/formcreator/configuration.rst:84
+msgid "book assets"
+msgstr "预资产"
+
+#: ../../source/formcreator/configuration.rst:85
+msgid "view their feeds"
+msgstr "查看他们的源"
+
+#: ../../source/formcreator/configuration.rst:87
+msgid ""
+"Users using the extended interface have a more complete view on their "
+"requests."
+msgstr "使用扩展接口的用户可以更完整地查看其请求。"
+
+#: ../../source/formcreator/configuration.rst:89
+msgid ""
+"Forms with `Direct access on homepage` enabled and `FAQ items` in the "
+"`Knowledge base` will will appear in the interface. Users may search by "
+"browsing the categories on the left of the screen, and may also search for "
+"forms or FAQ with a natural language search engine."
+msgstr ""
+"启用了“在主页上直接访问”和“知识库”中的“常见问题项目”的表单将出现在界面中。 "
+"用户可以通过浏览屏幕左侧的类别进行搜索，也可以使用自然语言搜索引擎搜索表单或FAQ。"
+
+#: ../../source/formcreator/configuration.rst:91
+msgid ""
+"FAQ items needs to be associated to knowledge base categories. The knowledge"
+" base categories must be associated to form categories (available in `Setup "
+"> Dropdowns : Forms > Form categories`) to show their content."
+msgstr "常见问题项目需要与知识库类别相关联。 知识库类别必须与表单类别相关联（在“设置”>“下拉列表：表单>表单类别”中可用）以显示其内容。"
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr "|CC-BY-NC-ND|"

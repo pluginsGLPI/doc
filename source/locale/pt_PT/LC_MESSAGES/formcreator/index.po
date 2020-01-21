@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Pedro Rocha <jpnr79@gmail.com>, 2017
+# Rui Melo <viper5000pt@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-21 14:50+0100\n"
+"PO-Revision-Date: 2016-12-20 09:45+0000\n"
+"Last-Translator: Rui Melo <viper5000pt@gmail.com>, 2019\n"
+"Language-Team: Portuguese (Portugal) (https://www.transifex.com/teclib/teams/28042/pt_PT/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/formcreator/index.rst:2
+msgid "Form creator"
+msgstr "Criador de Formulário"
+
+#: ../../source/formcreator/index.rst:4
+msgid "Sources link: https://github.com/pluginsGLPI/formcreator"
+msgstr "Ligação do código fonte: https://github.com/pluginsGLPI/formcreator"
+
+#: ../../source/formcreator/index.rst:5
+msgid "Download: https://github.com/pluginsGLPI/formcreator/releases"
+msgstr "Download: https://github.com/pluginsGLPI/formcreator/release"
+
+#: ../../source/formcreator/index.rst:7
+msgid ""
+"FormCreator is a plugin which allow creation of custom forms of easy access."
+msgstr ""
+"FormCreator é um plugin que permite a criação de formulários personalizados "
+"de fácil acesso."
+
+#: ../../source/formcreator/index.rst:9
+msgid ""
+"At the same time, the plugin allow the creation of one or more tickets when "
+"the form is filled."
+msgstr ""
+"Ao mesmo tempo, o plug-in permite a criação de um ou mais tickets quando o "
+"formulário é preenchido."
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"

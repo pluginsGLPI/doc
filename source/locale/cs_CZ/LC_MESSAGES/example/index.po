@@ -3,20 +3,24 @@
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# David Stepan <stepand@tiscali.cz>, 2017
+# Pavel Borecki <pavel.borecki@gmail.com>, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-01 16:54+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: David Stepan <stepand@tiscali.cz>, 2016\n"
+"POT-Creation-Date: 2020-01-21 14:50+0100\n"
+"PO-Revision-Date: 2016-10-25 19:22+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>, 2018\n"
 "Language-Team: Czech (Czech Republic) (https://www.transifex.com/teclib/teams/28042/cs_CZ/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: cs_CZ\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
 #: ../../source/example/index.rst:2
 msgid "Example"
@@ -24,17 +28,19 @@ msgstr "Příklad"
 
 #: ../../source/example/index.rst:4
 msgid "Sources link: https://github.com/pluginsGLPI/example"
-msgstr "Zdrojový odkaz: https://github.com/pluginsGLPI/example"
+msgstr "Odkaz na zdrojové kódy: https://github.com/pluginsGLPI/example"
 
 #: ../../source/example/index.rst:5
 msgid "Download: *not relevant*"
-msgstr "Stahování: \"není relevantní\""
+msgstr "Stažení: *není relevantní*"
 
 #: ../../source/example/index.rst:7
 msgid ""
 "An example plugin... This is designed to show you various possibilities that"
 " are offered to plugins from GLPI core."
 msgstr ""
+"Zásuvný modul pro ukázku… Je navržen pro ukázání různých možností které GLPI"
+" nabízí pro zásuvné moduly."
 
 #: ../../source/example/index.rst:9
 msgid ""
@@ -44,7 +50,12 @@ msgid ""
 "documentation.readthedocs.io/en/master/plugins.html>`_ or even :doc:`empty "
 "plugin <../empty/index>` to get started."
 msgstr ""
+"Protože tento zásuvný modul ve skutečnosti nic nedělá, není k němu ani žádná"
+" dokumentace. Pro začátek je možné nahlédnout do :doc:`prezentace zásuvných "
+"modulů <../presentation>`, `příručky vývojáře zásuvných modulů <http://glpi-"
+"developer-documentation.readthedocs.io/en/master/plugins.html>`_ nebo ještě "
+":doc:`Prázdného zásuvného modulu <../empty/index>`."
 
-#: ../../source/example/index.rst:12
+#: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
 msgstr "ccbyncnd"

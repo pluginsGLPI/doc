@@ -1,0 +1,252 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Pavel Borecki <pavel.borecki@gmail.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-21 14:50+0100\n"
+"PO-Revision-Date: 2016-12-20 09:45+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>, 2018\n"
+"Language-Team: Czech (Czech Republic) (https://www.transifex.com/teclib/teams/28042/cs_CZ/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+
+#: ../../source/formcreator/configuration.rst:2
+msgid "Configuration and usage"
+msgstr "Nastavení a používání"
+
+#: ../../source/formcreator/configuration.rst:5
+msgid "Headers"
+msgstr "Hlavičky"
+
+#: ../../source/formcreator/configuration.rst:7
+msgid "**Menu** : `Setup > Dropdowns : Forms > Headers`"
+msgstr ""
+"**Nabídka** : `Nastavení > Rozbalovací nabídky : Formuláře > Hlavičky`"
+
+#: ../../source/formcreator/configuration.rst:9
+msgid ""
+"Headers are rich texts _(text with presentation: bold, italic, titles, "
+"colors, etc.)_ which are defined per entities. They can be translated since "
+"GLPI 0.85 like all other dropdowns _(Dropdowns translation must be enabled "
+"on GLPI general configuration page: Setup > General : General setup > "
+"Translate dropdowns = Yes)_."
+msgstr ""
+"Hlavičky jsou formátované texty _(text v podání: tučné, skloněné, nadpisy, "
+"barvy, atd.)_ které jsou určovány pro jednotlivé entity. Od GLPI verze 0.85 "
+"je možné je překládat jako všechny ostatní rozbalovací nabídky _(Ovšem je "
+"třeba mít zapnuté překládání rozbalovacích nabídek v obecném nastavení GLPI:"
+" Nastavení > Obecné : Obecná nastavení > Překládat rozbalovací nabídky = "
+"Ano)_."
+
+#: ../../source/formcreator/configuration.rst:13
+msgid ""
+"These texts are shown on the users forms list, over the forms. It can be "
+"used to indicate some general advertisement over all the forms below."
+msgstr ""
+"Tyto texty jsou zobrazeny v seznamu uživatelských formulářů, přes formuláře."
+" Je možné ho použít pro indikaci nějaké obecné reklamy přes všechny "
+"formuláře níže."
+
+#: ../../source/formcreator/configuration.rst:17
+#: ../../source/formcreator/configuration.rst:47
+msgid "Configuration"
+msgstr "Nastavení"
+
+#: ../../source/formcreator/configuration.rst:22
+#: ../../source/formcreator/configuration.rst:52
+msgid "Render"
+msgstr "Vykreslit"
+
+#: ../../source/formcreator/configuration.rst:27
+msgid "Categories"
+msgstr "Kategorie"
+
+#: ../../source/formcreator/configuration.rst:29
+msgid "**Menu** : `Setup > Dropdowns : Forms > Form categories`"
+msgstr ""
+"**Nabídka** : `Nastavení > Rozbalovací nabídky : Formuláře > Kategorie "
+"formulářů`"
+
+#: ../../source/formcreator/configuration.rst:31
+msgid "Form categories allow you to arrange your forms list."
+msgstr "Kategorie umožňují organizovat seznam formulářů."
+
+#: ../../source/formcreator/configuration.rst:33
+msgid ""
+"You can add or edit categories generally from the Setup menu : `Setup > "
+"Dropdowns`."
+msgstr ""
+"Kategorie je obecně možné přidávat nebo upravovat z nabídky Nastavení: "
+"`Nastavení > Rozbalovací nabídky`."
+
+#: ../../source/formcreator/configuration.rst:35
+msgid ""
+"You can also add new categories directly from the form page like all GLPI "
+"dropdowns."
+msgstr ""
+"Je také možné přidávat nové kategorie přímo ze stránky formuláře jako u "
+"všech GLPI rozbalovacích nabídek."
+
+#: ../../source/formcreator/configuration.rst:37
+msgid ""
+"They are defined by entities and can be translated since GLPI 0.85 like all "
+"other dropdowns."
+msgstr ""
+"Jsou určeny v entitách a od GLPI verze 0.85 je možné je překládat stejně, "
+"jako všechny ostatní rozbalovací nabídky."
+
+#: ../../source/formcreator/configuration.rst:41
+msgid ""
+"Dropdowns translation must be enabled on GLPI general configuration page "
+"`Setup > General`, `General setup > Translate dropdowns = Yes`"
+msgstr ""
+"Překládání rozbalovacích nabídek je třeba zapnout v obecném nastavení GLPI "
+"`Nastavení > Obecné`, `Obecná nastavení > Překládat rozbalovací nabídky = "
+"Ano`"
+
+#: ../../source/formcreator/configuration.rst:44
+msgid ""
+"Categories may be associated to `Knowledge base categories`. This link is "
+"necessary to allow FAQ entries to show along your forms."
+msgstr ""
+"Kategorie je možné propojit s `Kategoriemi databáze znalostí`. Toto "
+"propojení je nezbytné aby se mohly položky z častých dotazů zobrazovat "
+"společně s formuláři."
+
+#: ../../source/formcreator/configuration.rst:57
+msgid "Questions"
+msgstr "Otázky"
+
+#: ../../source/formcreator/configuration.rst:59
+msgid ""
+"After the creation of a form, create fields for for the user to fill out."
+msgstr "Po vytvoření formuláře, vytvořte kolonky, které uživatel vyplní."
+
+#: ../../source/formcreator/configuration.rst:63
+msgid ""
+"The name of the questions will appear on the left and the field type "
+"selected on the right"
+msgstr "Název otázky se objeví vlevo a vybraný typ kolonky vpravo"
+
+#: ../../source/formcreator/configuration.rst:65
+msgid "The Description will be under the filed input."
+msgstr "Popis bude pod vyplněným vstupem."
+
+#: ../../source/formcreator/configuration.rst:67
+msgid "Based on question type options will be based on type chosen."
+msgstr "V závislosti na typu otázky volby budou založeny na zvoleném typu."
+
+#: ../../source/formcreator/configuration.rst:69
+msgid ""
+"If validation is desired, it can be implemented following `PHP Regular "
+"Expressions <http://php.net/manual/reference.pcre.pattern.syntax.php>`_."
+msgstr ""
+"Pokud je třeba ověřovat správnost zadání, je možné ho implementovat pomocí "
+"`PHP regulárních výrazů "
+"<http://php.net/manual/reference.pcre.pattern.syntax.php>`_."
+
+#: ../../source/formcreator/configuration.rst:71
+msgid ""
+"If you want to show or hide questions depending on the answers of other "
+"questions, use the *show fields* area when editing a question. In the "
+"version 2.5.0 you may use more complex expressions checking for the content "
+"of several questions, and use logic operator **OR** and **AND**. The "
+"precedence of boolean operators applies, meaning that **AND** has precedence"
+" over **OR**."
+msgstr ""
+"Pokud chcete zobrazit nebo skrýt otázky v závislosti na odpovědích na "
+"ostatní otázky, použijte při upravování dotazu oblast *zobrazit kolonky*. Od"
+" verze 2.5.0 je možné použít komplexnější kontrolu výrazů pro obsah vícero "
+"dotazů a použít logické operátory **OR** a **AND**. Je uplatněna přednost "
+"booleánských operátorů, což znamená, že **AND** má přednost před **OR**."
+
+#: ../../source/formcreator/configuration.rst:74
+msgid "Helpdesk"
+msgstr "Služba podpory"
+
+#: ../../source/formcreator/configuration.rst:76
+msgid "The plugin can provide its own design for helpdesk."
+msgstr ""
+"Tento zásuvný modul poskytuje možnost vytvoření vlastního vzhledu služby "
+"podpory."
+
+#: ../../source/formcreator/configuration.rst:78
+msgid ""
+"To enable it, edit an entity, open the `Forms` tab and set the field "
+"`Helpdesk mode` to `Service catalog simplified` or `Service catalog "
+"extended`. This setting handles inheritance from parent entity to children "
+"entities."
+msgstr ""
+"Pro její zapnutí, upravte entitu, otevřete panel `Formuláře` a nastavte "
+"kolonku `Režim služby podpory` na `Zjednodušený katalog služeb` nebo "
+"`Rozšířený katalog služeb`. Toto nastavení obslouží dědičnost z nadřazené "
+"entity na ty podřízené."
+
+#: ../../source/formcreator/configuration.rst:80
+msgid ""
+"Users using the simplified interface will benefit a new interface allowing "
+"them to:"
+msgstr ""
+"Uživatelé zjednodušeného rozhraní budou těžit z nového rozhraní které jim "
+"umožní:"
+
+#: ../../source/formcreator/configuration.rst:82
+msgid "browse forms and FAQ with the unified interface"
+msgstr "procházejte formuláře a časté dotazy z jednotného rozhraní"
+
+#: ../../source/formcreator/configuration.rst:83
+msgid "follow the process of their requests"
+msgstr "následovat proces jejich požadavků"
+
+#: ../../source/formcreator/configuration.rst:84
+msgid "book assets"
+msgstr "zamluvit si majetky"
+
+#: ../../source/formcreator/configuration.rst:85
+msgid "view their feeds"
+msgstr "zobrazit jejich zdroje"
+
+#: ../../source/formcreator/configuration.rst:87
+msgid ""
+"Users using the extended interface have a more complete view on their "
+"requests."
+msgstr ""
+"Uživatelé rozšířeného rozhraní mají úplnější přehled o svých požadavcích."
+
+#: ../../source/formcreator/configuration.rst:89
+msgid ""
+"Forms with `Direct access on homepage` enabled and `FAQ items` in the "
+"`Knowledge base` will will appear in the interface. Users may search by "
+"browsing the categories on the left of the screen, and may also search for "
+"forms or FAQ with a natural language search engine."
+msgstr ""
+"Formuláře s `Přímý přístup na domovské stránce` zapnuté a `Položky častých "
+"dotazů` v `Databáze znalostí` se objeví v rozhraní. Uživatelé mohou hledat "
+"procházením kategorií na levé straně obrazovky a také hledat formuláře nebo "
+"časté dotazy pomocí engine přirozeného jazyka."
+
+#: ../../source/formcreator/configuration.rst:91
+msgid ""
+"FAQ items needs to be associated to knowledge base categories. The knowledge"
+" base categories must be associated to form categories (available in `Setup "
+"> Dropdowns : Forms > Form categories`) to show their content."
+msgstr ""
+"Položky častých dotazů je třeba přiřadit ke kategoriím databáze znalostí. "
+"Kategorie databáze znalostí je třeba přiřadit pro vytvoření kategorií (k "
+"dispozici v `Nastavení > Rozbalovací nabídky : Formuláře > Kategorie "
+"formulářů`) pro zobrazení jejich obsahu."
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"

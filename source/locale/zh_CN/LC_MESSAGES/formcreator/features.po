@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# liAnGjiA <liangjia@qq.com>, 2018
+# 李赋 <fu792659@163.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-21 14:50+0100\n"
+"PO-Revision-Date: 2016-12-20 09:45+0000\n"
+"Last-Translator: 李赋 <fu792659@163.com>, 2018\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/teclib/teams/28042/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../source/formcreator/features.rst:2
+msgid "Features"
+msgstr "功能"
+
+#: ../../source/formcreator/features.rst:4
+msgid "Direct access to forms self-service interface in main menu,"
+msgstr "直接访问主菜单中的表单自助服务界面，"
+
+#: ../../source/formcreator/features.rst:5
+msgid "Highlighting forms in homepages,"
+msgstr "在主页中突出显示表单，"
+
+#: ../../source/formcreator/features.rst:6
+msgid ""
+"Access to forms controlled: public access, identified user access, "
+"restricted access to some profiles,"
+msgstr "对受控表单的访问：公共访问，识别的用户访问，对某些配置文件的访问受限，"
+
+#: ../../source/formcreator/features.rst:7
+msgid "Simple and customizable forms,"
+msgstr "简单且可定制的表格，"
+
+#: ../../source/formcreator/features.rst:8
+msgid "Forms organized by categories, entities and languages,"
+msgstr "按类别，实体和语言组织的表格，"
+
+#: ../../source/formcreator/features.rst:9
+msgid ""
+"Questions of any type of presentation: Textareas, lists, LDAP, files, etc,"
+msgstr "任何类型的演示文稿的问题：文字区域，列表，LDAP，文件等，"
+
+#: ../../source/formcreator/features.rst:10
+msgid "Questions organised in sections. Choice of the display order,"
+msgstr "问题按部分组织。 选择显示顺序，"
+
+#: ../../source/formcreator/features.rst:11
+msgid ""
+"Possibility to display a question based on certain criteria (response to a "
+"further question),"
+msgstr "是否可以根据某些标准显示问题（对另一个问题的回答），"
+
+#: ../../source/formcreator/features.rst:12
+msgid ""
+"A sharp control on responses from forms: text, numbers, size of fields, "
+"email, mandatory fields, regular expressions, etc,"
+msgstr "对表单响应的敏锐控制：文本，数字，字段大小，电子邮件，必填字段，正则表达式等，"
+
+#: ../../source/formcreator/features.rst:13
+msgid "Creation of one or more tickets from form answers,"
+msgstr "从表单结果创建一张或多张工单，"
+
+#: ../../source/formcreator/features.rst:14
+msgid ""
+"Adding a description per fields, per sections, per forms, entities or "
+"languages,"
+msgstr "为每个字段，每个部分，每个表单，实体或语言添加描述，"
+
+#: ../../source/formcreator/features.rst:15
+msgid ""
+"Formatting the ticket set: answers to questions displayed, tickets "
+"templates,"
+msgstr "格式化工单集：显示问题的答复，工单模板，"
+
+#: ../../source/formcreator/features.rst:16
+msgid "Preview form created directly in the configuration."
+msgstr "直接在配置中创建的预览表单。"
+
+#: ../../source/formcreator/features.rst:18
+msgid ""
+"You can take an look to `the full changelog from plugin sources "
+"<https://github.com/pluginsGLPI/formcreator/blob/master/CHANGELOG.md>`_."
+msgstr ""
+"您可以查看来自插件源的完整更改日志<https://github.com/pluginsGLPI/formcreator/blob/master/CHANGELOG.md>`_。"
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr "|CC-BY-NC-ND|"

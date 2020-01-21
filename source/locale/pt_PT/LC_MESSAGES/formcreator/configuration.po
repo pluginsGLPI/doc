@@ -1,0 +1,256 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Rui Melo <viper5000pt@gmail.com>, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-21 14:50+0100\n"
+"PO-Revision-Date: 2016-12-20 09:45+0000\n"
+"Last-Translator: Rui Melo <viper5000pt@gmail.com>, 2019\n"
+"Language-Team: Portuguese (Portugal) (https://www.transifex.com/teclib/teams/28042/pt_PT/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/formcreator/configuration.rst:2
+msgid "Configuration and usage"
+msgstr "Configuração e uso"
+
+#: ../../source/formcreator/configuration.rst:5
+msgid "Headers"
+msgstr "Cabeçalhos"
+
+#: ../../source/formcreator/configuration.rst:7
+msgid "**Menu** : `Setup > Dropdowns : Forms > Headers`"
+msgstr "* * Menu * *: ' Setup > dropdowns: formulários > cabeçalhos '"
+
+#: ../../source/formcreator/configuration.rst:9
+msgid ""
+"Headers are rich texts _(text with presentation: bold, italic, titles, "
+"colors, etc.)_ which are defined per entities. They can be translated since "
+"GLPI 0.85 like all other dropdowns _(Dropdowns translation must be enabled "
+"on GLPI general configuration page: Setup > General : General setup > "
+"Translate dropdowns = Yes)_."
+msgstr ""
+"Os cabeçalhos são textos ricos _ (texto com apresentação: negrito, itálico, "
+"títulos, cores, etc.) _ que são definidos por entidades. Eles podem ser "
+"traduzidos desde GLPI 0,85 como todos os outros dropdowns _ (dropdowns "
+"tradução deve ser habilitado na página de configuração geral GLPI: "
+"configuração > geral: configuração geral > traduzir dropdowns = Yes) _."
+
+#: ../../source/formcreator/configuration.rst:13
+msgid ""
+"These texts are shown on the users forms list, over the forms. It can be "
+"used to indicate some general advertisement over all the forms below."
+msgstr ""
+"Estes textos são mostrados na lista de formulários dos usuários, sobre os "
+"formulários. Ele pode ser usado para indicar algum anúncio geral sobre todos"
+" os formulários abaixo."
+
+#: ../../source/formcreator/configuration.rst:17
+#: ../../source/formcreator/configuration.rst:47
+msgid "Configuration"
+msgstr "Configuração"
+
+#: ../../source/formcreator/configuration.rst:22
+#: ../../source/formcreator/configuration.rst:52
+msgid "Render"
+msgstr "Processar"
+
+#: ../../source/formcreator/configuration.rst:27
+msgid "Categories"
+msgstr "Categorias"
+
+#: ../../source/formcreator/configuration.rst:29
+msgid "**Menu** : `Setup > Dropdowns : Forms > Form categories`"
+msgstr ""
+"** Menu **: ' configuração > dropdowns: formulários > categorias de "
+"formulário '"
+
+#: ../../source/formcreator/configuration.rst:31
+msgid "Form categories allow you to arrange your forms list."
+msgstr ""
+"As categorias de formulário permitem que você organize sua lista de "
+"formulários."
+
+#: ../../source/formcreator/configuration.rst:33
+msgid ""
+"You can add or edit categories generally from the Setup menu : `Setup > "
+"Dropdowns`."
+msgstr ""
+"Pode adicionar ou editar categorias geralmente a partir do menu Setup: "
+"`Setup > Dropdowns`."
+
+#: ../../source/formcreator/configuration.rst:35
+msgid ""
+"You can also add new categories directly from the form page like all GLPI "
+"dropdowns."
+msgstr ""
+"Também pode adicionar novas categorias diretamente da página do formulário, "
+"como todas as listas suspensas GLPI."
+
+#: ../../source/formcreator/configuration.rst:37
+msgid ""
+"They are defined by entities and can be translated since GLPI 0.85 like all "
+"other dropdowns."
+msgstr ""
+"Eles são definidos por entidades e podem ser traduzidos desde GLPI 0.85 como"
+" todos os outros dropdowns."
+
+#: ../../source/formcreator/configuration.rst:41
+msgid ""
+"Dropdowns translation must be enabled on GLPI general configuration page "
+"`Setup > General`, `General setup > Translate dropdowns = Yes`"
+msgstr ""
+"A tradução de dropdowns deve ser habilitada na página de configuração geral "
+"do GLPI `Configuração > Geral`, `Configuração geral > Traduzir dropdowns = "
+"Sim`"
+
+#: ../../source/formcreator/configuration.rst:44
+msgid ""
+"Categories may be associated to `Knowledge base categories`. This link is "
+"necessary to allow FAQ entries to show along your forms."
+msgstr ""
+"Categorias podem ser associadas a `categorias base de conhecimento`. Este "
+"link é necessário para permitir que as entradas de FAQ sejam mostradas ao "
+"longo dos seus formulários."
+
+#: ../../source/formcreator/configuration.rst:57
+msgid "Questions"
+msgstr "Questões"
+
+#: ../../source/formcreator/configuration.rst:59
+msgid ""
+"After the creation of a form, create fields for for the user to fill out."
+msgstr ""
+"Após a criação de um formulário, crie campos para o usuário preencher."
+
+#: ../../source/formcreator/configuration.rst:63
+msgid ""
+"The name of the questions will appear on the left and the field type "
+"selected on the right"
+msgstr ""
+"O nome das questões aparecerá à esquerda e o tipo de campo selecionado à "
+"direita"
+
+#: ../../source/formcreator/configuration.rst:65
+msgid "The Description will be under the filed input."
+msgstr "A Descrição estará sob a entrada arquivada."
+
+#: ../../source/formcreator/configuration.rst:67
+msgid "Based on question type options will be based on type chosen."
+msgstr ""
+"Baseado no tipo de questão, as opções serão baseadas no tipo escolhido."
+
+#: ../../source/formcreator/configuration.rst:69
+msgid ""
+"If validation is desired, it can be implemented following `PHP Regular "
+"Expressions <http://php.net/manual/reference.pcre.pattern.syntax.php>`_."
+msgstr ""
+"Se a validação for desejada, ela pode ser implementada seguindo as "
+"`Expressões Regulares PHP "
+"<http://php.net/manual/reference.pcre.pattern.syntax.php>`_."
+
+#: ../../source/formcreator/configuration.rst:71
+msgid ""
+"If you want to show or hide questions depending on the answers of other "
+"questions, use the *show fields* area when editing a question. In the "
+"version 2.5.0 you may use more complex expressions checking for the content "
+"of several questions, and use logic operator **OR** and **AND**. The "
+"precedence of boolean operators applies, meaning that **AND** has precedence"
+" over **OR**."
+msgstr ""
+"Se quiser mostrar ou ocultar questões dependendo das respostas de outras "
+"questões, use a área *exibir campos* ao editar uma questão. Na versão 2.5.0,"
+" você pode usar expressões mais complexas para verificar o conteúdo de "
+"várias questões e usar o operador lógico **OR*** e **AND***. Aplica-se a "
+"precedência de operadores booleanos, o que significa que **AND*** tem "
+"precedência sobre **OR****."
+
+#: ../../source/formcreator/configuration.rst:74
+msgid "Helpdesk"
+msgstr "Helpdesk"
+
+#: ../../source/formcreator/configuration.rst:76
+msgid "The plugin can provide its own design for helpdesk."
+msgstr "O plugin pode fornecer seu próprio design para o helpdesk."
+
+#: ../../source/formcreator/configuration.rst:78
+msgid ""
+"To enable it, edit an entity, open the `Forms` tab and set the field "
+"`Helpdesk mode` to `Service catalog simplified` or `Service catalog "
+"extended`. This setting handles inheritance from parent entity to children "
+"entities."
+msgstr ""
+"Para habilitá-lo, edite uma entidade, abra a aba `Formulários` e defina o "
+"campo `Modo Helpdesk` para `Catálogo de serviços simplificado` ou `Catálogo "
+"de serviços estendido`. Esta configuração manipula a herança da entidade pai"
+" para as entidades filhos."
+
+#: ../../source/formcreator/configuration.rst:80
+msgid ""
+"Users using the simplified interface will benefit a new interface allowing "
+"them to:"
+msgstr ""
+"Os utilizadores que utilizem a interface simplificada beneficiarão de uma "
+"nova interface que lhes permitirá fazê-lo:"
+
+#: ../../source/formcreator/configuration.rst:82
+msgid "browse forms and FAQ with the unified interface"
+msgstr "procurar formulários e FAQs com a interface unificada"
+
+#: ../../source/formcreator/configuration.rst:83
+msgid "follow the process of their requests"
+msgstr "acompanhar o processo dos seus pedidos"
+
+#: ../../source/formcreator/configuration.rst:84
+msgid "book assets"
+msgstr "activos contabilísticos"
+
+#: ../../source/formcreator/configuration.rst:85
+msgid "view their feeds"
+msgstr "ver os seus feeds"
+
+#: ../../source/formcreator/configuration.rst:87
+msgid ""
+"Users using the extended interface have a more complete view on their "
+"requests."
+msgstr ""
+"Os utilizadores que utilizam a interface alargada têm uma visão mais "
+"completa dos seus pedidos."
+
+#: ../../source/formcreator/configuration.rst:89
+msgid ""
+"Forms with `Direct access on homepage` enabled and `FAQ items` in the "
+"`Knowledge base` will will appear in the interface. Users may search by "
+"browsing the categories on the left of the screen, and may also search for "
+"forms or FAQ with a natural language search engine."
+msgstr ""
+"Formulários com `Acesso direto na página inicial` habilitado e `ItensFAQ` na"
+" `Base de conhecimento` aparecerão na interface. Os usuários podem pesquisar"
+" navegando nas categorias à esquerda da tela, e também podem pesquisar por "
+"formulários ou FAQs com um mecanismo de busca em linguagem natural."
+
+#: ../../source/formcreator/configuration.rst:91
+msgid ""
+"FAQ items needs to be associated to knowledge base categories. The knowledge"
+" base categories must be associated to form categories (available in `Setup "
+"> Dropdowns : Forms > Form categories`) to show their content."
+msgstr ""
+"Os itens do FAQ devem ser associados às categorias da base de conhecimentos."
+" As categorias de base de conhecimentos devem ser associadas a categorias de"
+" formulários (disponíveis em `Configuração > Dropdowns : Formulários > "
+"Categorias de formulários`) para mostrar seu conteúdo."
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"

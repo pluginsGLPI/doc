@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Haider Ilich López Areiza <hlopez@itsoluciones.com.co>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-21 14:50+0100\n"
+"PO-Revision-Date: 2016-12-20 09:45+0000\n"
+"Last-Translator: Haider Ilich López Areiza <hlopez@itsoluciones.com.co>, 2018\n"
+"Language-Team: Spanish (Colombia) (https://www.transifex.com/teclib/teams/28042/es_CO/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_CO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/formcreator/installation.rst:2
+msgid "Install the Plugin"
+msgstr "Instalar el complemento"
+
+#: ../../source/formcreator/installation.rst:4
+msgid "Uncompress the archive."
+msgstr "Descomprimir el archivo."
+
+#: ../../source/formcreator/installation.rst:5
+msgid ""
+"Move the ``formcreator`` directory to the ``<GLPI_ROOT>/plugins`` directory"
+msgstr ""
+"Mueva el directorio ``formcreator`` al directorio `` <GLPI_ROOT>/plugins``"
+
+#: ../../source/formcreator/installation.rst:6
+msgid "Navigate to the *Configuration > Plugins* page,"
+msgstr "Navega a la página *Configuraciones > complementos*,"
+
+#: ../../source/formcreator/installation.rst:7
+msgid "Install and activate the plugin."
+msgstr "Instalar y activar el complemento."
+
+#: ../../source/formcreator/installation.rst:11
+msgid "The plugin's directory must have the same name as the plugin:"
+msgstr ""
+"El directorio del complemento debe tener el mismo nombre que el complemento:"
+
+#: ../../source/formcreator/installation.rst:13
+msgid "**Good**: `glpi/plugins/formcreator`"
+msgstr "**Bueno**: `glpi/plugins/formcreator`"
+
+#: ../../source/formcreator/installation.rst:14
+msgid "**Bad**: `glpi/plugins/formcreator-master`"
+msgstr "**Malo**: `glpi/plugins/formcreator-master`"
+
+#: ../../source/formcreator/installation.rst:15
+msgid "**Bad**: `glpi/plugins/formcreator-0.90-1.3.2`"
+msgstr "**Malo**: `glpi/plugins/formcreator-0.90-1.3.2`"
+
+#: ../../source/formcreator/installation.rst:17
+msgid ""
+"Only one directory must contains the plugin's files of a single plugin in "
+"the GLPI plugins directory. **Don't rename the plugin's directory for "
+"backup, move it!**"
+msgstr ""
+"Solo un directorio debe contener los archivos del complemento de un solo "
+"complemento en el directorio de complementos de GLPI. ** ¡No renombre el "
+"directorio del complemento para la copia de seguridad, muévalo! **"
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"

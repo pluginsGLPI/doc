@@ -3,13 +3,16 @@
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Kaya Zeren <kayazeren@gmail.com>, 2016
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-01 16:54+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2020-01-21 14:50+0100\n"
+"PO-Revision-Date: 2016-12-20 09:45+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2016\n"
 "Language-Team: Turkish (Turkey) (https://www.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
@@ -160,6 +163,6 @@ msgstr ""
 "(Macaristan), Lehçe (Polonya), Portekizce (Brezilya), Romence (Romanya), "
 "Rusça (Rusya), İspanyolca (Arjantin), Türkçe (Türkiye)"
 
-#: ../../source/formcreator/contributing.rst:46
+#: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"

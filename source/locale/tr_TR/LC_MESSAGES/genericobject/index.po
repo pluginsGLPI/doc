@@ -3,14 +3,17 @@
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Kaya Zeren <kayazeren@gmail.com>, 2019
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-01 16:54+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2016\n"
+"POT-Creation-Date: 2020-01-21 14:50+0100\n"
+"PO-Revision-Date: 2016-11-02 10:38+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2019\n"
 "Language-Team: Turkish (Turkey) (https://www.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,8 +35,8 @@ msgstr "İndirin: https://github.com/pluginsGLPI/genericobject/releases"
 
 #: ../../source/genericobject/index.rst:7
 msgid ""
-"This user manuel applies to version 2.0 of the GLPI Generic Object Plugin."
-msgstr "Bu kullanıcı kılavuzu GLPI Genel Nesne Uygulama Eki 2.0 hakkındadır."
+"This user manual applies to version 2.5 of the GLPI Generic Object Plugin."
+msgstr ""
 
 #: ../../source/genericobject/index.rst:10
 msgid "Requirements"
@@ -48,8 +51,8 @@ msgid "PHP 5.3 or higher"
 msgstr "PHP 5.3 ve üzerindeki sürümler"
 
 #: ../../source/genericobject/index.rst:15
-msgid "GLPI >= 0.83.x"
-msgstr "GLPI 0.83.x ve üzerindeki sürümler"
+msgid "GLPI >= 9.2"
+msgstr "GLPI 9.2 ve üzerindeki sürümler"
 
 #: ../../source/genericobject/index.rst:18
 msgid "Features"
@@ -141,7 +144,7 @@ msgstr "*Araç* filonuzu GLPI üzerinden yönetin."
 
 #: ../../source/genericobject/index.rst:48
 msgid "Install the Plugin"
-msgstr "Uygulama Ekini Yükle"
+msgstr "Uygulama Ekini Kur"
 
 #: ../../source/genericobject/index.rst:50
 msgid "Uncompress the archive."
@@ -154,12 +157,12 @@ msgid ""
 msgstr "``genericobject`` klasörünü ``<GLPI_ROOT>/plugins`` klasörüne taşıyın"
 
 #: ../../source/genericobject/index.rst:52
-msgid "Navigate to the *Configuration > Plugins* page,"
-msgstr "*Ayarlar > Uygulama Ekleri* bölümüne gidin."
+msgid "Navigate to the *Configuration > Plugins* page"
+msgstr "*Yapılandırma > Uygulama Ekleri* bölümüne gidin"
 
 #: ../../source/genericobject/index.rst:53
-msgid "Install and activate the plugin."
-msgstr "Uygulama ekini yükleyip etkinleştirin."
+msgid "Install and activate the plugin"
+msgstr "Uygulama ekini kurup etkinleştir"
 
 #: ../../source/genericobject/index.rst:56
 msgid "Usage"
@@ -175,7 +178,7 @@ msgstr "Bu ilk adımdır."
 
 #: ../../source/genericobject/index.rst:65
 msgid "Click on the *+* button in  the plugin configuration form."
-msgstr "Uygulama eki ayarları formunda *+* düğmesine tıklayın."
+msgstr "Uygulama eki yapılandırması formunda *+* düğmesine tıklayın."
 
 #: ../../source/genericobject/index.rst:66
 msgid "Create the new type of inventory object:"
@@ -729,261 +732,305 @@ msgstr ""
 
 #: ../../source/genericobject/index.rst:368
 msgid "Use case of Generic Object as a CMMS"
-msgstr ""
+msgstr "Generic Object ile BDBYS Kullanım Örneği"
 
 #: ../../source/genericobject/index.rst:371
 msgid "Purpose of this documentation"
-msgstr ""
+msgstr "Bu belgenin amacı"
 
 #: ../../source/genericobject/index.rst:373
 msgid ""
 "Showing a complete usage of Generic Object as a CMMS (Computerized "
 "Maintenance Management System) in biomedical environment."
 msgstr ""
+"Biyotıp alanında Generic Object ile BDBYS (Bilgisayar Destekli Bakım "
+"Yönetimi Sistemi) kullanımını açıklar. \t"
 
 #: ../../source/genericobject/index.rst:376
 msgid "At the end of this use case, you will have :"
-msgstr ""
+msgstr "Bu kullanım örneğinin sonunda şunları yapmış olacaksınız :"
 
 #: ../../source/genericobject/index.rst:378
 msgid "a dedicated *Biomed* entity (under *Root entity*)"
-msgstr ""
+msgstr "adanmış bir *Biyotıp* varlığı (\"Kök varlık\" altında)"
 
 #: ../../source/genericobject/index.rst:379
 msgid "containing *Biomedical* objects (in *Assets* menu)"
-msgstr ""
+msgstr "*Biyotıp* nesneleri (*Varlıklar* menüsü altında)"
 
 #: ../../source/genericobject/index.rst:380
 msgid "with built-in and user-defined fields"
-msgstr ""
+msgstr "iç ve kullanıcı tanımlı alanlar ile"
 
 #: ../../source/genericobject/index.rst:381
 msgid "manages by users with *Admin_biomed* profile"
-msgstr ""
+msgstr "*Biyotıp_Yönetici* profilindeki yönetici kullanıcıları"
 
 #: ../../source/genericobject/index.rst:384
 msgid "Steps"
-msgstr ""
+msgstr "Adımlar"
 
 #: ../../source/genericobject/index.rst:386
 msgid "Following steps assume you have a Super-Admin authorization :"
 msgstr ""
+"Bundan sonraki adımları yapabilmek için Süper Yönetici yetkileriniz "
+"olmalıdır :"
 
 #: ../../source/genericobject/index.rst:388
 msgid ""
 "Installing Generic Object on GLPI (validated with genericobject >= 0.85-1.0 "
 "and GLPI >= 0.90)"
 msgstr ""
+"GLPI üzerine Generic Object uygulama ekini yükleyin (Generic Object 0.85 ile"
+" 1.0 arasındaki sürümler ve GLPI 0.90 ve üzerindeki sürümler gereklidir)"
 
 #: ../../source/genericobject/index.rst:389
-#: ../../source/genericobject/index.rst:410
+#: ../../source/genericobject/index.rst:399
 msgid "Generic Object configuration"
-msgstr ""
+msgstr "Generic Object Yapılandırması"
 
 #: ../../source/genericobject/index.rst:390
-#: ../../source/genericobject/index.rst:534
+#: ../../source/genericobject/index.rst:525
 msgid "GLPI configuration"
-msgstr ""
+msgstr "GLPI yapılandırması"
 
 #: ../../source/genericobject/index.rst:391
-#: ../../source/genericobject/index.rst:555
-msgid "Start using Generic object and GLPI"
-msgstr ""
+#: ../../source/genericobject/index.rst:550
+msgid "Start using Generic Object and GLPI"
+msgstr "Generic Object ve GLPI Kullanmaya Başlayın"
 
 #: ../../source/genericobject/index.rst:394
 msgid "Installing Generic Object on GLPI"
-msgstr ""
+msgstr "GLPI üzerine Generic Obeject Kurun"
 
 #: ../../source/genericobject/index.rst:396
 msgid "See :ref:`install_plugin` section."
-msgstr ""
+msgstr "ref:`install_plugin` bölümüne bakın."
 
-#: ../../source/genericobject/index.rst:398
-msgid "Additions :"
-msgstr ""
-
-#: ../../source/genericobject/index.rst:413
+#: ../../source/genericobject/index.rst:402
 msgid "Create your type of object"
-msgstr ""
+msgstr "Nesne türünüzü ekleyin"
 
-#: ../../source/genericobject/index.rst:415
+#: ../../source/genericobject/index.rst:404
 msgid ""
 "See :ref:`create_new_object` section and use *biomedical* as internal "
 "identifier. Label will be set automatically to *Biomedical* (with an "
 "uppercase *B*)."
 msgstr ""
+":ref:`create_new_object` bölümüne bakın ve iç belirteç olarak *biyotıp* "
+"yazın. Etiket otomatik olarak *Biyotıp* (Büyük *B* ile) olarak ayarlanır."
 
-#: ../../source/genericobject/index.rst:418
+#: ../../source/genericobject/index.rst:407
 msgid "After a logoff/login, you will see *Biomedical* menu in Assets."
 msgstr ""
+"Oturumu kapatıp yeniden açtıktan sonra Varlıklar menüsünde *Biyotıp* "
+"görüntülenir."
 
-#: ../../source/genericobject/index.rst:423
-msgid "Define biomedical's new fields"
-msgstr ""
+#: ../../source/genericobject/index.rst:412
+msgid "Define Biomedical's new fields"
+msgstr "Biyotıp için yeni alanları tanımlayın"
 
-#: ../../source/genericobject/index.rst:425
+#: ../../source/genericobject/index.rst:414
 msgid "These fields will be usable only by Biomedical's objects :"
-msgstr ""
+msgstr "Bu alanlar yalnız Biyotıp nesneleri için kullanılabilir :"
 
-#: ../../source/genericobject/index.rst:427
+#: ../../source/genericobject/index.rst:416
 msgid ""
 "Create a new file named : "
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/biomedical.constant.php``"
 msgstr ""
+"Şu adla yeni bir dosya oluşturun : "
+"``<GLPI_ROOT>/files/_plugins/genericobject/fields/biomedical.constant.php``"
 
-#: ../../source/genericobject/index.rst:428
+#: ../../source/genericobject/index.rst:417
 msgid "Add following content :"
-msgstr ""
+msgstr "Şu içeriği ekleyin :"
 
-#: ../../source/genericobject/index.rst:482
+#: ../../source/genericobject/index.rst:471
 msgid ""
-"Trailing ``s_id`` is mandatory in ``[plugin_genericobject_field*s_id*]``. "
-"See https://github.com/pluginsGLPI/genericobject/issues/93"
+"Trailing ``s_id`` is mandatory in ``[plugin_genericobject_field*s_id*]`` "
+"because the GLPI framework requires foreign key fields to end with ``s_id``."
+" In database, ``glpi_plugin_genericobject_fields`` is table name and ``id``,"
+" its foreign key. See `GLPI developer documentation <http://glpi-developer-"
+"documentation.readthedocs.io/en/master/devapi/database/dbmodel.html#fields>`_."
 msgstr ""
+"Başlangıçtaki ``s_id`` zorunludur ``[plugin_genericobject_field*s_id*]`` "
+"çünkü GLPI çatısı için dış anahtar alanlarının ``s_id`` ile bitmesi "
+"gereklidir. Veritabanında, ``glpi_plugin_genericobject_fields`` tablo adıdır"
+" ve ``id``, dış anahtardır. Ayrıntılı bilgi almak için `GLPI geliştirici "
+"belgeleri <http://glpi-developer-"
+"documentation.readthedocs.io/en/master/devapi/database/dbmodel.html#fields>`_"
+" bölümüne bakın."
 
-#: ../../source/genericobject/index.rst:486
+#: ../../source/genericobject/index.rst:477
 msgid "Define fields labels"
-msgstr ""
+msgstr "Alan etiketlerini yazın"
 
-#: ../../source/genericobject/index.rst:488
+#: ../../source/genericobject/index.rst:479
 msgid "See :ref:`edit_labels` section."
-msgstr ""
+msgstr "ref:`edit_labels` bölümüne bakın."
 
-#: ../../source/genericobject/index.rst:490
+#: ../../source/genericobject/index.rst:481
 msgid ""
 "Edit your locales file, for example : "
 "``<GLPI_ROOT>/files/_plugins/genericobject/locales/biomedical/biomedical.fr_FR.php``"
 msgstr ""
+"Dil dosyalarınızı düzenleyin, örnek : "
+"``<GLPI_ROOT>/files/_plugins/genericobject/locales/biyotip/biyotip.tr_TR.php``"
 
-#: ../../source/genericobject/index.rst:491
+#: ../../source/genericobject/index.rst:482
 msgid "Add following content at the end of file :"
-msgstr ""
+msgstr "Dosyanın sonuna şu içeriği ekleyin :"
 
-#: ../../source/genericobject/index.rst:508
-msgid "Define behaviour"
-msgstr ""
+#: ../../source/genericobject/index.rst:499
+msgid "Define behaviours"
+msgstr "Davranışları tanımlayın"
 
-#: ../../source/genericobject/index.rst:510
+#: ../../source/genericobject/index.rst:501
 msgid "In *Plugins > Objects management* menu, on *Main* tab, select :"
 msgstr ""
+"*Uygulama Ekleri > Nesne Yönetimi* menüsündeki *Temel* sekmesinden şunu "
+"seçin :"
 
-#: ../../source/genericobject/index.rst:512
+#: ../../source/genericobject/index.rst:503
 msgid "*Item in the dustbin*"
-msgstr ""
+msgstr "*Öge Çöp Kutusunda*"
+
+#: ../../source/genericobject/index.rst:504
+msgid "*Historical*"
+msgstr "*Geçmiş*"
+
+#: ../../source/genericobject/index.rst:505
+msgid "*Financial and administratives information*"
+msgstr "*Mali ve İdari Bilgiler*"
+
+#: ../../source/genericobject/index.rst:506
+msgid "*Documents*"
+msgstr "*Belgeler*"
+
+#: ../../source/genericobject/index.rst:507
+#: ../../source/genericobject/index.rst:511
+msgid "*Global search*"
+msgstr "*Genel Arama*"
+
+#: ../../source/genericobject/index.rst:508
+msgid "*Assistance*"
+msgstr "*Destek*"
+
+#: ../../source/genericobject/index.rst:509
+msgid "*Templates*"
+msgstr "*Kalıplar*"
+
+#: ../../source/genericobject/index.rst:510
+msgid "*Contracts*"
+msgstr "*Sözleşmeler*"
 
 #: ../../source/genericobject/index.rst:513
-msgid "*Historical*"
-msgstr ""
-
-#: ../../source/genericobject/index.rst:514
-msgid "*Financial and administratives information*"
-msgstr ""
-
-#: ../../source/genericobject/index.rst:515
-msgid "*Documents*"
-msgstr ""
+msgid "This will add ready to use fields to your type of object."
+msgstr "Bu işlem nesne türünüze kullanmaya hazır alanlar ekler."
 
 #: ../../source/genericobject/index.rst:516
-#: ../../source/genericobject/index.rst:520
-msgid "*Global search*"
-msgstr ""
-
-#: ../../source/genericobject/index.rst:517
-msgid "*Assistance*"
-msgstr ""
+msgid "Add fields to your type of object"
+msgstr "Nesne türünüze alanlar ekleyin"
 
 #: ../../source/genericobject/index.rst:518
-msgid "*Templates*"
-msgstr ""
-
-#: ../../source/genericobject/index.rst:519
-msgid "*Contracts*"
-msgstr ""
-
-#: ../../source/genericobject/index.rst:522
-msgid "This will add ready to use fields to your object."
-msgstr ""
-
-#: ../../source/genericobject/index.rst:525
-msgid "Add fields to your type of object"
-msgstr ""
-
-#: ../../source/genericobject/index.rst:527
 msgid ""
 "In *Plugins > Objects management* menu, on *Fields* tab, you can now add "
-"fields to biomedical type of object :"
+"fields to Biomedical type of object :"
 msgstr ""
+"*Uygulama Ekleri > Nesne Yönetimi* menüsündeki *Alanlar* sekmesinden Biyotıp"
+" türündeki nesneye alanlar ekleyebilirsiniz :"
+
+#: ../../source/genericobject/index.rst:521
+msgid "ready to use fields (GLPI's built-in fields)"
+msgstr "kullanıma hazır alanlar (GLPI iç alanları)"
+
+#: ../../source/genericobject/index.rst:522
+msgid "new fields (defined in :ref:`biomedical_new_fields` section)"
+msgstr "yeni alanlar (:ref:`biomedical_new_fields` bölümünde)"
+
+#: ../../source/genericobject/index.rst:528
+msgid "Define Admin_biomed profile"
+msgstr "Biyotıp_Yönetim profilini tanımlayın"
 
 #: ../../source/genericobject/index.rst:530
-msgid "ready to use fields (GLPI's built-in fields)"
-msgstr ""
+msgid "Clone *Admin* profile"
+msgstr "*Yönetim* profilini kopyalayın"
 
 #: ../../source/genericobject/index.rst:531
-msgid "new fields (define in :ref:`biomedical_new_fields` section)"
-msgstr ""
+msgid "Set following rights in *Admin_biomed* profile :"
+msgstr "*Biyotıp-Yönetim* profili için şu izinleri ayarlayın :"
 
-#: ../../source/genericobject/index.rst:537
-msgid "Define Admin_biomed profile"
+#: ../../source/genericobject/index.rst:533
+msgid "*Administration > Profiles > Admin_biomed > Assets tab > Unselect all*"
 msgstr ""
+"*Yönetim > Profiller > Yönetim_Biyotıp > Varlıklar sekmesi > Tümünü Bırak*"
 
-#: ../../source/genericobject/index.rst:539
-msgid "Clone *Admin* profile"
-msgstr ""
-
-#: ../../source/genericobject/index.rst:540
-msgid "Set following rights in Admin"
-msgstr ""
-
-#: ../../source/genericobject/index.rst:542
-msgid ""
-"*Administration > Profiles > Admin_biomed > Assets tab > Unselect all* : to "
-"display only Biomedical in Assets menu"
-msgstr ""
-
-#: ../../source/genericobject/index.rst:543
+#: ../../source/genericobject/index.rst:534
 msgid ""
 "*Administration > Profiles > Admin_biomed > Assistance tab > Association > "
 "Associable items to a ticket > Biomedical*"
 msgstr ""
+"*Yönetim > Profiller > Yönetim_Biyotıp > Varlıklar sekmesi > Atama > Destek "
+"kaydına atanabilecek ögeler > Biyotıp*"
 
-#: ../../source/genericobject/index.rst:544
+#: ../../source/genericobject/index.rst:535
 msgid ""
 "*Administration > Profiles > Admin_biomed > Management tab > Select all*"
 msgstr ""
+"*Yönetim > Profiller > Yönetim_Biyotıp > Yönetim sekmesi > Tümünü Seç*"
 
-#: ../../source/genericobject/index.rst:545
+#: ../../source/genericobject/index.rst:536
 msgid ""
 "*Administration > Profiles > Admin_biomed > Objects management tab > "
 "Biomedical > Select all*"
 msgstr ""
+"*Yönetim > Profiller > Yönetim_Biyotıp > Nesne Yönetimi sekmesi > Biyotıp > "
+"Tümünü Seç*"
 
-#: ../../source/genericobject/index.rst:548
-msgid "Define Biomed entity and authorizations rules"
+#: ../../source/genericobject/index.rst:540
+msgid ""
+"With these settings, *Admin_biomed* users only see *Biomedical* in Assets "
+"menu."
 msgstr ""
+"Bu ayarlar ile *Yönetim_Biyotıp* kullanıcıları Varlık menüsünde yalnız "
+"*Biyotıp* seçeneğini görebilir."
 
-#: ../../source/genericobject/index.rst:550
+#: ../../source/genericobject/index.rst:543
+msgid "Define Biomed entity and authorizations rules"
+msgstr "Biyotıp varlığını ve izinlerini tanımlayın"
+
+#: ../../source/genericobject/index.rst:545
 msgid ""
 "Create *Biomed* entity under *Root entity* in *Administration > Entities*"
 msgstr ""
+"\"Yönetim > Valıklar* bölümünden *Kök Varlık* altına *Biyotıp* varlığını "
+"ekleyin"
 
-#: ../../source/genericobject/index.rst:551
+#: ../../source/genericobject/index.rst:546
 msgid ""
-"Configure authorizations rules to affect *Admin_biomed* profile to *Biomed* "
+"Configure authorizations rules to assign *Admin_biomed* profile to *Biomed* "
 "entity users."
 msgstr ""
+"*Biyotıp* varlığı kullanıcıları için *Biyotıp_Yönetim* profili izin "
+"kurallarını yapılandırın."
 
-#: ../../source/genericobject/index.rst:557
+#: ../../source/genericobject/index.rst:552
 msgid ""
 "As *Admin_biomed* user, you can create your first object in *Assets > "
 "Biomedical*."
 msgstr ""
+"*Yönetim_Biyotıp* kullanıcısı olarak *Varlıklar > Biyotıp* içine ilk "
+"nesnenizi ekleyin."
 
-#: ../../source/genericobject/index.rst:559
+#: ../../source/genericobject/index.rst:554
 msgid ""
 "In order to gain time, define values in *Setup > Dropdowns > Objects "
 "management* for new fields."
 msgstr ""
+"Zaman kazanmak için *Kurulum > Açılan kutular > Nesne Yönetimi* bölümünden "
+"yeni alan değerlerini tanımlayın."
 
-#: ../../source/genericobject/index.rst:562
+#: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
