@@ -1,5 +1,5 @@
-tag
-========
+Tag
+===
 
 * Sources link: https://github.com/pluginsGLPI/tag
 * Download: https://github.com/pluginsGLPI/tag/releases
