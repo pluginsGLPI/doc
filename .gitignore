@@ -2,3 +2,7 @@
 build/
 #editors files
 *.exvim*
+
+.vscode/
+
+source/_build/
