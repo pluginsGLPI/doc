@@ -1,5 +1,5 @@
-news
-========
+News
+====
 
 * Sources link: https://github.com/pluginsGLPI/news
 * Download: https://github.com/pluginsGLPI/news/releases

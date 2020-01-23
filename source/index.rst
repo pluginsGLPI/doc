@@ -19,6 +19,7 @@ You'll find here user documentation for various `GLPI <http://glpi-project.org>`
    empty/index
    example/index
    tag/index
+   news/index
    escalade/index
    credit/index
    genericobject/index

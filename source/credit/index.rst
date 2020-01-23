@@ -1,5 +1,5 @@
-Escalade
-========
+Credit
+======
 
 * Sources link: https://github.com/pluginsGLPI/credit
 * Download: https://github.com/pluginsGLPI/credit/releases
