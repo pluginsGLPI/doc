@@ -20,6 +20,7 @@ You'll find here user documentation for various `GLPI <http://glpi-project.org>`
    example/index
    tag/index
    escalade/index
+   credit/index
    genericobject/index
    fields/index
    formcreator/index
