@@ -24,4 +24,5 @@ You'll find here user documentation for various `GLPI <http://glpi-project.org>`
    credit/index
    genericobject/index
    fields/index
+   uninstall/index
    formcreator/index

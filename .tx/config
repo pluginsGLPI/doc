@@ -58,6 +58,11 @@ file_filter = source/locale/<lang>/LC_MESSAGES/fields/index.po
 source_file = build/locale/fields/index.pot
 source_lang = en
 
+[glpi-plugins-documentation.uninstall--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/uninstall/index.po
+source_file = build/locale/uninstall/index.pot
+source_lang = en
+
 [glpi-plugins-documentation.formcreator--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/formcreator/index.po
 source_file = build/locale/formcreator/index.pot
