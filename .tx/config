@@ -38,6 +38,11 @@ file_filter = source/locale/<lang>/LC_MESSAGES/news/index.po
 source_file = build/locale/news/index.pot
 source_lang = en
 
+[glpi-plugins-documentation.sccm--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/sccm/index.po
+source_file = build/locale/sccm/index.pot
+source_lang = en
+
 [glpi-plugins-documentation.tag--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/tag/index.po
 source_file = build/locale/tag/index.pot
