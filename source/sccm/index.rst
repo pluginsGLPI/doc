@@ -11,10 +11,12 @@ This plugin requires :
 
 * PHP 7.2 or higher
 * GLPI >= 9.4
+* FusionInventory plugin for GLPI
 * SCCM >= 1802
 * PHP curl_init and sqlsrv_connect
 * Microsoft System Center Configuration Manager
 * Microsoft Drivers for PHP for Microsoft SQL Server
+
 
 Features
 --------
