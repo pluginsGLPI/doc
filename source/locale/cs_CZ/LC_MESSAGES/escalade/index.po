@@ -1,0 +1,353 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Pavel Borecki <pavel.borecki@gmail.com>, 2020
+# David Stepan <stepand@tiscali.cz>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-24 07:35+0100\n"
+"PO-Revision-Date: 2020-01-21 14:02+0000\n"
+"Last-Translator: David Stepan <stepand@tiscali.cz>, 2020\n"
+"Language-Team: Czech (Czech Republic) (https://www.transifex.com/teclib/teams/28042/cs_CZ/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+
+#: ../../source/escalade/index.rst:2
+msgid "Escalade"
+msgstr "Eskalace"
+
+#: ../../source/escalade/index.rst:4
+msgid "Sources link: https://github.com/pluginsGLPI/escalade"
+msgstr "Zdrojový odkaz: https://github.com/pluginsGLPI/escalade"
+
+#: ../../source/escalade/index.rst:5
+msgid "Download: https://github.com/pluginsGLPI/escalade/releases"
+msgstr "Stáhnout: https://github.com/pluginsGLPI/escalade/releases"
+
+#: ../../source/escalade/index.rst:8
+msgid "Requirements for latest version"
+msgstr "Požadavky pro poslední verzi"
+
+#: ../../source/escalade/index.rst:10
+msgid "This plugin requires :"
+msgstr "Tento zásuvný modul vyžaduje :"
+
+#: ../../source/escalade/index.rst:12
+msgid "PHP 7.2 or higher"
+msgstr "PHP 7.2 nebo vyšší"
+
+#: ../../source/escalade/index.rst:13
+msgid "GLPI >= 9.4"
+msgstr "GLPI >= 9.4"
+
+#: ../../source/escalade/index.rst:17
+msgid "Features"
+msgstr "Funkce"
+
+#: ../../source/escalade/index.rst:19
+msgid ""
+"Escalade plugin aims to simplifier the ticket escalation process in GLPI. It"
+" also adds a graphical historical for assigned groups."
+msgstr ""
+"Zásuvný modul Eskalace si klade za cíl zjednodušit proces eskalace požadavků"
+" v GLPI. Přidá také grafický historický údaj pro přiřazené skupiny."
+
+#: ../../source/escalade/index.rst:23
+msgid "Install the Plugin"
+msgstr "Instalovat zásuvný modul"
+
+#: ../../source/escalade/index.rst:24
+msgid "Uncompress the archive."
+msgstr "Rozbalit archiv."
+
+#: ../../source/escalade/index.rst:25
+msgid ""
+"Move the ``escalade`` directory to the ``<GLPI_ROOT>/plugins`` directory"
+msgstr "Přesunout ``escalade`` adresář do adresáře ``<GLPI_ROOT>/plugins``"
+
+#: ../../source/escalade/index.rst:26
+msgid "Navigate to the *Configuration > Plugins* page,"
+msgstr "Přejděte na stránku * Konfigurace> Pluginy *,"
+
+#: ../../source/escalade/index.rst:27
+msgid "Install and activate the plugin."
+msgstr "Instalovat a aktivovat zásuvný modul."
+
+#: ../../source/escalade/index.rst:30
+msgid "Usage"
+msgstr "Používání"
+
+#: ../../source/escalade/index.rst:32
+msgid ""
+"The plugin will create required tables in the database  automatically. Those"
+" tables will be updated along with the plugin."
+msgstr ""
+"Zásuvný modul automaticky vytvoří požadované tabulky v databázi. Tyto "
+"tabulky budou aktualizovány spolu se zásuvným modulem."
+
+#: ../../source/escalade/index.rst:34
+msgid "Plugin usage is quite simple:"
+msgstr "Použití zásuvného modulu je celkem jednoduché:"
+
+#: ../../source/escalade/index.rst:36
+msgid "configure plugin"
+msgstr "nastavit zásuvný modul"
+
+#: ../../source/escalade/index.rst:38
+msgid ""
+"You will access the plugin configuration from the *Setup* > *Plugins* > "
+"*Escalade*."
+msgstr ""
+"Nastavení zásuvného modulu získáte přístupem z * Nastavení *> * Zásuvné "
+"moduly *> * Eskalace *."
+
+#: ../../source/escalade/index.rst:43
+msgid "Configuration"
+msgstr "Nastavení"
+
+#: ../../source/escalade/index.rst:45
+msgid "Remove old assign group on new group assign"
+msgstr "Odebrat starou skupinu při přiřazení nové skupině"
+
+#: ../../source/escalade/index.rst:47
+msgid ""
+"When this option is enabled, plugin remove old group when new group is "
+"assign to ticket"
+msgstr ""
+"Pokud je tato volba zapnuta, zásuvný modul odebere starou skupinu, když je "
+"nová skupina přiřazena k požadavku"
+
+#: ../../source/escalade/index.rst:49
+msgid "Show group assign history visually"
+msgstr "Vizuálně zobrazit historii přiřazení skupiny"
+
+#: ../../source/escalade/index.rst:51
+msgid ""
+"When this option is enabled, plugin display display group assign history"
+msgstr ""
+"Pokud je tato volba zapnuta, zásuvný modul zobrazí historii přiřazení "
+"skupiny zobrazení"
+
+#: ../../source/escalade/index.rst:55
+msgid "Escalation history in tasks"
+msgstr "Historie eskalace úkolů"
+
+#: ../../source/escalade/index.rst:57
+msgid ""
+"When this option is enabled, the plugin adds a private task containing the "
+"escalation information fore each escalation"
+msgstr ""
+"Pokud je tato volba zapnuta, zásuvný modul přidá soukromou úlohu obsahující "
+"informace o eskalaci před každou eskalaci"
+
+#: ../../source/escalade/index.rst:61
+msgid "Remove technician(s) on escalation"
+msgstr "Odstranit technika(y) při eskalaci"
+
+#: ../../source/escalade/index.rst:63
+msgid ""
+"When this option is enabled, the plugin remove assign technician when "
+"escalation is performed"
+msgstr ""
+"Pokud je tato volba zapnuta, zásuvný modul odstraní technika při provedení "
+"eskalace"
+
+#: ../../source/escalade/index.rst:65
+msgid "Ticket status after an escalation"
+msgstr "Stav požadavku po eskalaci"
+
+#: ../../source/escalade/index.rst:67
+msgid ""
+"When this option is enabled, the plugin change ticket status when escalation"
+" is performed"
+msgstr ""
+"Pokud je tato volba zapnuta, změní zásuvný modul při provádění eskalace stav"
+" požadavku"
+
+#: ../../source/escalade/index.rst:69
+msgid "Assign ticket to initial group on solve ticket"
+msgstr "Přiřadit požadavek počáteční skupině při řešení požadavku"
+
+#: ../../source/escalade/index.rst:71 ../../source/escalade/index.rst:75
+msgid ""
+"When this option is enabled, the plugin assign fisrt group assigned to "
+"ticket"
+msgstr ""
+"Pokud je tato volba zapnuta, přiřadí zásuvný modul požadavek  první skupině"
+
+#: ../../source/escalade/index.rst:73
+msgid "Assign the technical manager on ticket category change"
+msgstr "Přiřadit vedoucího techniků při změně kategorie požadavku"
+
+#: ../../source/escalade/index.rst:77
+msgid "Assign the technical group on ticket category change"
+msgstr "Přiřadit skupinu techniků při změně kategorie požadavku"
+
+#: ../../source/escalade/index.rst:79
+msgid ""
+"When this option is enabled, the plugin assign the technical group of "
+"categroy selected from ticket"
+msgstr ""
+"Pokud je tato volba zapnuta, zásuvný modul přiřadí skupinu techniků "
+"kategorii vybranou z požadavku"
+
+#: ../../source/escalade/index.rst:81
+msgid "Clone tickets"
+msgstr "Klonovat požadavek"
+
+#: ../../source/escalade/index.rst:83
+msgid ""
+"When this option is enabled, the plugin gives the possibility to clone a "
+"ticket and to link it the initial ticket"
+msgstr ""
+"Pokud je tato volba zapnuta, zásuvný modul dává možnost klonovat požadavek a"
+" propojit ho s původním požadavkem"
+
+#: ../../source/escalade/index.rst:88
+msgid "Close cloned tickets at the same time"
+msgstr "Současně uzavřít klonované požadavky"
+
+#: ../../source/escalade/index.rst:90
+msgid ""
+"When this option is enabled, at the closing of a ticket, cloned and linked "
+"tickets are also closed"
+msgstr ""
+"Pokud je tato volba zapnuta, jsou při uzavření požadavku uzavřeny také "
+"klonované a propojené požadavky"
+
+#: ../../source/escalade/index.rst:92
+msgid "Use the technician's group"
+msgstr "Použít skupinu techniků"
+
+#: ../../source/escalade/index.rst:94
+msgid ""
+"When this option is enabled, the plugin assign fist or latest group of "
+"technician assign to ticket"
+msgstr ""
+"Pokud je tato volba zapnuta, zásuvný modul přiřadí první nebo poslední "
+"skupinu techniků k požadavku"
+
+#: ../../source/escalade/index.rst:97
+msgid "Display delete button"
+msgstr "Zobrazit tlačítko Smazat"
+
+#: ../../source/escalade/index.rst:99
+msgid ""
+"Display or not delete button for group, user or supplier switch type "
+"(requester, watcher, assigned to)"
+msgstr ""
+"Zobrazit nebo neodstranit tlačítko pro skupinu, uživatele nebo dodavatele "
+"přepnutím typu (žadatel, pozorovatel, přiřazeno)"
+
+#: ../../source/escalade/index.rst:101
+msgid "Enable filtering on the groups assignment"
+msgstr "Povolit filtrování při přiřazování skupin"
+
+#: ../../source/escalade/index.rst:103
+msgid ""
+"When this option is activated, the plugin filters the groups displayed in "
+"the dropdown list"
+msgstr ""
+"Pokud je tato volba zapnuta, zásuvný modul filtruje skupiny zobrazené v "
+"rozevíracím seznamu"
+
+#: ../../source/escalade/index.rst:105
+msgid "Example"
+msgstr "Příklad"
+
+#: ../../source/escalade/index.rst:107
+msgid "'glpi' user is affected to group 'groupe 1'"
+msgstr "'glpi' uživatel je ovlivněn skupinou 'groupe 1'"
+
+#: ../../source/escalade/index.rst:111
+msgid "'groupe 1' is configured to allow ticket escalation only to 'group 2'"
+msgstr ""
+"Skupina 'groupe 1' je nakonfigurována tak, aby umožňovala eskalaci požadavků"
+" pouze do skupiny 'group 2'"
+
+#: ../../source/escalade/index.rst:115
+msgid ""
+"'glpi' user can only reassign ticket to 'groupe 2' because it's assign to "
+"'groupe 1'"
+msgstr ""
+"Uživatel 'glpi' může znovu přiřadit požadavek skupině  'groupe 2', protože "
+"je přiřazen do skupiny 'groupe 1'"
+
+#: ../../source/escalade/index.rst:119
+msgid ""
+"For other users not assign to 'groupe 1', they can't reassign group to "
+"ticket"
+msgstr ""
+"Ostatní uživatelé, kteří nejsou přiřazeni ke skupině  'groupe 1', nemohou "
+"přiřadit skupinu k požadavku"
+
+#: ../../source/escalade/index.rst:123
+msgid "You can \"bypass\" this behavior per user"
+msgstr "Toto chování můžete „obejít“ na uživatele"
+
+#: ../../source/escalade/index.rst:128
+msgid "Ticket's search engine"
+msgstr "Vyhledávač požadavků"
+
+#: ../../source/escalade/index.rst:130
+msgid "Plugin add three new search option"
+msgstr "Zásuvný modul přidá tři nové volby vyhledávání"
+
+#: ../../source/escalade/index.rst:134
+msgid "Group concerning by escalation"
+msgstr "Skupina jíž se eskalace týká"
+
+#: ../../source/escalade/index.rst:136
+msgid "Ex : get all tickets actually escalated to group \"groupe 1\""
+msgstr ""
+"Příklad: získat všechny eskalované požadavky přiřazené skupině \"groupe 1\""
+
+#: ../../source/escalade/index.rst:138
+msgid "Number of escalation"
+msgstr "Počet eskalací"
+
+#: ../../source/escalade/index.rst:140
+msgid "Ex : get all tickets with more than ten escalation"
+msgstr "Příklad: získat všechny požadavky s více jak deseti eskalacemi"
+
+#: ../../source/escalade/index.rst:142
+msgid "Number of escalation between two groups"
+msgstr "Počet eskalací mezi dvěma  skupinami"
+
+#: ../../source/escalade/index.rst:144
+msgid "Ex : get all tickets with more than 2 escalations between two groups"
+msgstr ""
+"Příklad: získat všechny požadavky s více jak 2 eskalacemi mezi dvěma "
+"skupinami"
+
+#: ../../source/escalade/index.rst:148
+msgid "Central page"
+msgstr "Centrální stránka"
+
+#: ../../source/escalade/index.rst:150
+msgid "New dashlet to display ticket solved to close and assign to you group"
+msgstr ""
+"Nový dashlet k zobrazení vyřešeného požadavku k uzavření a přiřadit k vaší "
+"skupině"
+
+#: ../../source/escalade/index.rst:154
+msgid ""
+"New dashlet to display not solved ticket where your groups was not actually "
+"assign but was in the past"
+msgstr ""
+"Nový dashlet pro zobrazení nevyřešeného požadavku, kde vaše skupiny nebyly "
+"aktuálně přiřazeny, ale byly přiřazeny v minulosti"
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"
