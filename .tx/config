@@ -33,6 +33,11 @@ file_filter = source/locale/<lang>/LC_MESSAGES/escalade/index.po
 source_file = build/locale/escalade/index.pot
 source_lang = en
 
+[glpi-plugins-documentation.treeview--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/treeview/index.po
+source_file = build/locale/treeview/index.pot
+source_lang = en
+
 [glpi-plugins-documentation.news--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/news/index.po
 source_file = build/locale/news/index.pot
