@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-24 09:40+0100\n"
+"POT-Creation-Date: 2020-01-24 14:02+0100\n"
 "PO-Revision-Date: 2016-12-20 09:45+0000\n"
 "Last-Translator: 李赋 <fu792659@163.com>, 2018\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/teclib/teams/28042/zh_CN/)\n"
@@ -41,11 +41,9 @@ msgstr "您可以通过分支GitHub存储库来帮助我们添加新功能。"
 #: ../../source/formcreator/contributing.rst:11
 msgid ""
 "Develop the new feature on your branch and then, ask for a `pull request "
-"<https://github.com/pluginsGLPI/formcreator/pulls>`_ to merge your "
+"<https://github.com/pluginsGLPI/formcreator/pulls>`__ to merge your "
 "development into the repository."
 msgstr ""
-"在您的分支上开发新功能，然后请求`pull request "
-"<https://github.com/pluginsGLPI/formcreator/pulls>`_将您的开发合并到存储库中。"
 
 #: ../../source/formcreator/contributing.rst:13
 msgid ""
@@ -108,10 +106,9 @@ msgstr "您可以分叉`文档存储库<https://github.com/pluginsGLPI/doc>`_来
 #: ../../source/formcreator/contributing.rst:34
 msgid ""
 "Make your changes on your branch and then, ask for a `pull request "
-"<https://github.com/pluginsGLPI/doc/pulls>`_) to merge it into the "
+"<https://github.com/pluginsGLPI/doc/pulls>`__) to merge it into the "
 "repository."
 msgstr ""
-"在您的分支上进行更改，然后请求“拉取请求<https://github.com/pluginsGLPI/doc/pulls>`_）将其合并到存储库中。"
 
 #: ../../source/formcreator/contributing.rst:37
 msgid "Translations"
