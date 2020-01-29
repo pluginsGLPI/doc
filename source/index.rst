@@ -25,6 +25,7 @@ You'll find here user documentation for various `GLPI <http://glpi-project.org>`
    escalade/index
    credit/index
    genericobject/index
+   order/index
    fields/index
    uninstall/index
    formcreator/index
