@@ -116,11 +116,6 @@ This field allows you to choose one or several users:
 * in GLPI, available in **Administration > Users**
 * not in GLPI, by typing an email address
 
-IP Address
-^^^^^^^^^^
-
-This field is hidden and collects the IP address of the form requester. It does not shows in the form.
-
 Checkboxes (multiple choices)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -130,40 +125,28 @@ Checkboxes (multiple choices)
 
 Add a line per value in **Values**. Default values may be set in **Default values**, one per line. If this field is empty, no checkbox will be ticked.
 
-Radio buttons (one choice only)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
- .. image:: images/radios_field.png
-
- .. image:: images/radios_form.png
-
-Add a line per value in **Values**. A default value may be set in **Default value**. If this f ield is empty, no radio will be selected.
-
-Hidden field
-^^^^^^^^^^^^
-
-This field is hidden and allows to retrieve an arbitrary value when generating the target (ticket or change).
-
-Email
-^^^^^
-
-The answer to this type of field must be a syntaxically valid email address.
-
-Data / Datetime
-^^^^^^^^^^^^^^^
+Date / Datetime / Time
+^^^^^^^^^^^^^^^^^^^^^^^
  .. image:: images/datetime_field.png
 
-This field allows to select a date or datetime from a mini calendar.
+This field allows to select a date, a datetime or a time from a mini calendar.
 
 Description
 ^^^^^^^^^^^
 
 This field only displays informations. Use it to give more details about a question.
 
-Integer
-^^^^^^^
+Dropdown
+^^^^^^^^
 
-This field must be an integer value. Note you may use a regular expression to tighter restrict the answer.
+This field allows the user to choose a value among those available in a dropdown from GLPI (in **Configuration > Dropdowns**).
+
+ .. image:: images/dropdown_field.png
+
+Email
+^^^^^
+
+The answer to this type of field must be a syntaxically valid email address.
 
 File
 ^^^^
@@ -177,13 +160,6 @@ Float
 
 This field must be an float value. Note you may use a regular expression to tighter restrict the answer.
 
-Dropdown
-^^^^^^^^
-
-This field allows the user to choose a value among those available in a dropdown from GLPI (in **Configuration > Dropdowns**).
-
- .. image:: images/dropdown_field.png
-
 GLPI Object
 ^^^^^^^^^^^
 
@@ -195,10 +171,25 @@ This field allows you to build a dropdown from a GLPI object among those abvaila
 * Tools
 * Administration
 
-Select (one choice onnly)
-^^^^^^^^^^^^^^^^^^^^^^^^^
+Hidden field
+^^^^^^^^^^^^
 
-This field allows you to create a dropdown list and set its items. Items are added one per line in **Values**. Default value may be set in **Default value**. If there is no default, no item is selected by default.
+This field is hidden and allows to retrieve an arbitrary value when generating the target (ticket or change).
+
+Hostname
+^^^^^^^^^^^^
+
+This field is invisible. It allows to get the hostname if the computer used by  the requester, assuming the DNS is able to proprtly solve it from its IP address
+
+Integer
+^^^^^^^
+
+This field must be an integer value. Note you may use a regular expression to tighter restrict the answer.
+
+IP Address
+^^^^^^^^^^
+
+This field is hidden and collects the IP address of the form requester. It does not shows in the form.
 
 LDAP select
 ^^^^^^^^^^^
@@ -212,6 +203,20 @@ Multiselect
 
 This feild allows you to create a dropdown list with ability to select multiple items. Values are added one per line in the field **Values**. You may set default values, one per line in *Default values**. Ifg no default value is set then no item will selected by default.
 
+Radio buttons (one choice only)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+ .. image:: images/radios_field.png
+
+ .. image:: images/radios_form.png
+
+Add a line per value in **Values**. A default value may be set in **Default value**. If this f ield is empty, no radio will be selected.
+
+Select (one choice onnly)
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+This field allows you to create a dropdown list and set its items. Items are added one per line in **Values**. Default value may be set in **Default value**. If there is no default, no item is selected by default.
+
 Tags
 ^^^^
 
@@ -222,15 +227,15 @@ Text
 
 This field allows you to input a single line of text.
 
-Urgency
-^^^^^^^
-
-This field allows you to select an urgency defined in GLPI.
-
 Text area
 ^^^^^^^^^
 
 This field allows you to input several lines of text.
+
+Urgency
+^^^^^^^
+
+This field allows you to select an urgency defined in GLPI.
 
 Targets
 -------
@@ -259,8 +264,8 @@ The following page displays:
 
 Choose a destination type, then fill the form which dynamically displays.
 
-Ticket destination
-''''''''''''''''''
+Target ticket
+'''''''''''''
 
  .. image:: images/destination_ticket.png
 
@@ -290,8 +295,8 @@ Ticket destination
 
 .. note:: You may create several destinations for a single form. Several tickets or changes will be generated when  the form is validated.
 
-Change destination
-''''''''''''''''''
+Target change
+'''''''''''''
 
  .. image:: images/destination_change.png
 
@@ -336,12 +341,12 @@ These texts are shown on the users forms list, over the forms.
 It can be used to indicate some general advertisement over all the forms below.
 
 Configuration
-+++++++++++++
+^^^^^^^^^^^^^^
 
 .. image:: images/headers-config.png
 
 Render
-++++++
+^^^^^^^^^^
 
 .. image:: images/headers-front.png
 
