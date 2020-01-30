@@ -29,3 +29,4 @@ You'll find here user documentation for various `GLPI <http://glpi-project.org>`
    fields/index
    uninstall/index
    formcreator/index
+   datainjection/index
