@@ -5,7 +5,7 @@ Form creation
 -------------
 
 .. note::
-    The right to create forms is enabled to the profiles having the right to update entities in GLPI. Refer to the end of this document to know how to set this right.
+    The right to create forms is enabled to the profiles having the right to update entities in GLPI. Refer to the documentation of GLPI to know how to setup this right.
 
 .. note::
     Forms must be created in the entities where they are intended to be available. A form may be available in its entity and all sub entities if the field **Child entities** is set to **Yes**.
@@ -52,6 +52,9 @@ After clicking on the tab **Question** the following page displays:
 
 You must create a first **section**. Sections are intended to organize questions in the form.
 
+.. image:: images/section_creation.png
+
+It is possible to setup conditions to show the whole section, based on the answers provided to questions located in other sections of the form.
 
 Questions
 ---------
@@ -205,7 +208,7 @@ This field allows you to create a dropdown list with objects from a LDAP directo
 Multiselect
 ^^^^^^^^^^^
 
-This feild allows you to create a dropdown list with ability to select multiple items. Values are added one per line in the field **Values**. You may set default values, one per line in *Default values**. Ifg no default value is set then no item will selected by default.
+This feild allows you to create a dropdown list with ability to select multiple items. Values are added one per line in the field **Values**. You may set default values, one per line in *Default values**. If no default value is set then no item will selected by default.
 
 Radio buttons (one choice only)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -214,10 +217,10 @@ Radio buttons (one choice only)
 
  .. image:: images/radios_form.png
 
-Add a line per value in **Values**. A default value may be set in **Default value**. If this f ield is empty, no radio will be selected.
+Add a line per value in **Values**. A default value may be set in **Default value**. If this field is empty, no radio will be selected.
 
-Select (one choice onnly)
-^^^^^^^^^^^^^^^^^^^^^^^^^
+Select (one choice only)
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 This field allows you to create a dropdown list and set its items. Items are added one per line in **Values**. Default value may be set in **Default value**. If there is no default, no item is selected by default.
 
@@ -249,12 +252,12 @@ Access types
 
 Three values are available:
 
-* **Public access**: Anyone may acces the form; you may use it in an intranet.
-* **Private access**: Users having a GLPI account may acces the form.
+* **Public access**: Anonymous users may access the form; you may use it in an intranet.
+* **Private access**: Users having a GLPI account may access the form.
 * **Restricted access**: Only users having the specified profiles may access the form.
 
 Targets
-^^^^^^^
+-------
 
 There are two types of targets for a form:
 
@@ -274,7 +277,7 @@ The following window is then displayed:
 Choose a target name and type, then validate. The new target is created and is available for tuning.
 
 Target ticket
-'''''''''''''
+^^^^^^^^^^^^^
 
  .. image:: images/target_ticket.png
 
@@ -288,8 +291,8 @@ Target ticket
 
  .. image:: images/destination_entity_dropdown.png
 
-* **Ticket template**: A ticket template may be used to define the content of the destination ticket The properties of the template are overriden by the other settings of the target ticket, if set.
-* **Due date**: To define a due date forthe  generated ticket.
+* **Ticket template**: A ticket template may be used to define the content of the destination ticket The properties of the template are overridden by the other settings of the target ticket, if set.
+* **Due date**: To define a due date for the  generated ticket.
 * **Ticket category**: To assign a category to the generated ticket.
 
  * **Category from template or None**: If a ticket template is used, the category of the template will be used. If there is no ticket template, or if the template does not defiles a category, no category will be affected to the ticket.
@@ -300,17 +303,17 @@ Target ticket
 * **Urgency**: allows to define urgency in the generated ticket. Available choices are:
 
  * **Urgency from template or Medium**: If a ticket template is used and it sets an urgency, it will be used for the generated ticket. Medium for other cases.
- * **Equals to the answer to the question**! The urgency is set from the answer of a quetion in the form.
+ * **Equals to the answer to the question**! The urgency is set from the answer of a question in the form.
 
-* **Localtion**: Define the locatin of the generated ticket. Available choices are:
+* **Location**: Define the location of the generated ticket. Available choices are:
 
-  * ** Specific location**: Defines a location to the ticket from available locations.
+  * **Specific location**: Defines a location to the ticket from available locations.
   * **Equals to the answer to a question**: defines the location from an answer in the form
 
 * **Link to an other ticket**: Configures links to other tickets. Those tickets are either tickets already in the database, or other tickets generated by the form.
 
 Target change
-'''''''''''''
+^^^^^^^^^^^^^
 
  .. image:: images/target_change.png
 
@@ -333,7 +336,7 @@ Target change
 * **Urgency**: allows to define urgency in the generated change. Available choices are:
 
  * **Medium**: If a ticket template is used and it sets an urgency, it will be used for the generated ticket. Medium for other cases.
- * **Equals to the answer to the question**! The urgency is set from the answer of a quetion in the form.
+ * **Equals to the answer to the question**! The urgency is set from the answer of a question in the form.
 
 Preview
 -------
@@ -348,27 +351,12 @@ Form answers
 
 This tab shows all answers saved for the form.
 
-**Menu** : `Setup > Dropdowns : Forms > Headers`
+.. note::
+    To delete a form, all its answers must be deleted first. A warning shows at the bottom of the main tab of a form as a reminder.
 
-Headers are rich texts _(text with presentation: bold, italic, titles, colors, etc.)_ which are defined per entities.
-They can be translated since GLPI 0.85 like all other dropdowns
-_(Dropdowns translation must be enabled on GLPI general configuration page: Setup > General : General setup > Translate dropdowns = Yes)_.
-
-These texts are shown on the users forms list, over the forms.
-It can be used to indicate some general advertisement over all the forms below.
-
-Configuration
--------------
-
-.. image:: images/headers-config.png
-
-Render
-^^^^^^^^^^
-
-.. image:: images/headers-front.png
 
 Categories
-^^^^^^^^^^
+----------
 
 **Menu** : `Setup > Dropdowns : Forms > Form categories`
 
@@ -387,34 +375,34 @@ They are defined by entities and can be translated since GLPI 0.85 like all othe
    Categories may be associated to `Knowledge base categories`. This link is necessary to allow FAQ entries to show along your forms.
 
 Configuration
--------------
+^^^^^^^^^^^^^
 
 .. image:: images/categories-config.png
 
 Render
-------------
+^^^^^^
 
 .. image:: images/categories-front.png
 
 Questions
-^^^^^^^^^
+---------
 
 After the creation of a form, create fields for for the user to fill out.
 
-.. image:: images/glpi_from__creation_questions.png
+.. image:: images/question_creation.png
 
 The name of the questions will appear on the left and the field type selected on the right
 
-The Description will be under the filed input.
+The Description will be under the input field.
 
-Based on question type options will be based on type chosen.
+Additional optioins may be displayed depending on the currently selected question type..
 
-If validation is desired, it can be implemented following `PHP Regular Expressions <http://php.net/manual/reference.pcre.pattern.syntax.php>`_.
+If validation of the input is desired, it can be implemented following `PHP Regular Expressions <http://php.net/manual/reference.pcre.pattern.syntax.php>`_.
 
 If you want to show or hide questions depending on the answers of other questions, use the *show fields* area when editing a question. In the version 2.5.0 you may use more complex expressions checking for the content of several questions, and use logic operator **OR** and **AND**. The precedence of boolean operators applies, meaning that **AND** has precedence over **OR**.
 
 Helpdesk
-^^^^^^^^
+--------
 
 The plugin can provide its own design for helpdesk.
 
