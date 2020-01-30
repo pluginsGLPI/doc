@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-30 10:48+0100\n"
+"PO-Revision-Date: 2016-10-25 19:22+0000\n"
+"Language-Team: Slovak (Slovakia) (https://www.transifex.com/teclib/teams/28042/sk_SK/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sk_SK\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+
+#: ../../source/presentation.rst:2
+msgid "Presentation"
+msgstr ""
+
+#: ../../source/presentation.rst:4
+msgid ""
+"Plugins are a way to extend `GLPI <http://glpi-project.org>`_ possibilities "
+"without modifying core source code. In a perfect world, plugins should "
+"provided specific features; while core's may provided features everyone (or "
+"almost!) mays find usefull."
+msgstr ""
+
+#: ../../source/presentation.rst:6
+msgid ""
+"Some of the existing plugins are very complex, other are very simple. Some "
+"may require you to read their documentation before using, some does not... "
+"Some may provide you configuration possibilities, acces rights management, "
+"and so on.... Or not! There are so many plugins already!"
+msgstr ""
+
+#: ../../source/presentation.rst:8
+msgid ""
+"If you're looking for a feature that does not exists yet in GLPI's core, "
+"take a look at the `plugins repository <http://plugins.glpi-project.org/>`_."
+" You can search for a plugin name or a feature, see what core's versions are"
+" compatible, and so on."
+msgstr ""
+
+#: ../../source/presentation.rst:10
+msgid ""
+"The goal of the present documentation is to centralize documentations, but "
+"we cannot pretend all plugins documentations are hosted here."
+msgstr ""
+
+#: ../../source/presentation.rst:12
+msgid "Anyways, happy GLPI-ing!"
+msgstr ""
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr ""

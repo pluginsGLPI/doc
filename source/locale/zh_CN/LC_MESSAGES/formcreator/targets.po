@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-30 08:16+0100\n"
+"POT-Creation-Date: 2020-01-30 10:48+0100\n"
 "PO-Revision-Date: 2017-02-09 07:26+0000\n"
 "Last-Translator: liAnGjiA <liangjia@qq.com>, 2018\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/teclib/teams/28042/zh_CN/)\n"
@@ -49,37 +49,52 @@ msgid ""
 msgstr "打开“目标”选项卡并创建一个具有名称和类型的目标（仅限当前工单）。"
 
 #: ../../source/formcreator/targets.rst:16
-msgid "Ticket target"
-msgstr "工单目标"
+msgid "Target ticket"
+msgstr ""
 
 #: ../../source/formcreator/targets.rst:18
-msgid "A ticket target generates a ticket."
-msgstr "一个指向工单生成一个工单。"
+msgid "A target ticket generates a ticket."
+msgstr ""
 
 #: ../../source/formcreator/targets.rst:22
 msgid ""
 "The ticket is build from scratch or from a ticket template available in "
-"GLPI. You may * customize the title and description of the ticket, using "
-"questions and and answers, * set a due date, * set the urgency from a "
-"question, * choose the entity of the ticket among many policies, * assign  "
+"GLPI. You may * customize the title and description of the ticket using "
+"questions and answers, * set a due date, * set the urgency from a value or a"
+" question, * choose the entity of the ticket among many policies, * assign "
 "tags to the ticket if the plugin `Tags` is available, * define actors of the"
-" ticket."
+" ticket. * set  the category of the ticket"
 msgstr ""
-"工单是从头开始构建的，也可以是GLPI中提供的故障单模板构建的。 "
-"您可以*自定义工单的标题和描述，使用问题和解答，*设置截止日期，*设置问题的紧急程度，*在许多策略中选择工单的实体，*为工单分配标签 "
-"插件`Tags`可用，*定义工单的内容。"
 
-#: ../../source/formcreator/targets.rst:31
+#: ../../source/formcreator/targets.rst:32
 msgid ""
 "Setting an urgency from a question overrides the urgency defined in a ticket"
 " template (if any)"
 msgstr "从问题中设置紧急程度会覆盖故障单模板中定义的紧急程度（如果有）"
 
-#: ../../source/formcreator/targets.rst:34
+#: ../../source/formcreator/targets.rst:35
 msgid ""
 "Setting a category from a question overrides the category defined in a "
 "ticket template (if any)"
 msgstr "从问题中设置类别会覆盖故障单模板中定义的类别（如果有）"
+
+#: ../../source/formcreator/targets.rst:38
+msgid "Target change"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:40
+msgid "A target change generates a change"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:44
+msgid ""
+"The change is built from scratch. You may * customize the title, "
+"description, imapct, control list, deployment path, backup plan and "
+"checklist fields using questions and answers, * set the urgency from a value"
+" or a question * choose the entity of the change among many policies * set "
+"the time to resolve * define  the actors of the change * * set  the category"
+" of the change"
+msgstr ""
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"

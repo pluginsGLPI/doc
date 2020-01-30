@@ -1,0 +1,186 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-30 10:48+0100\n"
+"PO-Revision-Date: 2020-01-24 13:02+0000\n"
+"Language-Team: French (France) (https://www.transifex.com/teclib/teams/28042/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../source/sccm/index.rst:2
+msgid "SCCM"
+msgstr ""
+
+#: ../../source/sccm/index.rst:4
+msgid "Sources link: https://github.com/pluginsGLPI/sccm"
+msgstr ""
+
+#: ../../source/sccm/index.rst:5
+msgid "Download: https://github.com/pluginsGLPI/news/sccm"
+msgstr ""
+
+#: ../../source/sccm/index.rst:8
+msgid "Requirements for latest version"
+msgstr ""
+
+#: ../../source/sccm/index.rst:10
+msgid "This plugin requires :"
+msgstr ""
+
+#: ../../source/sccm/index.rst:12
+msgid "PHP 7.2 or higher"
+msgstr ""
+
+#: ../../source/sccm/index.rst:13
+msgid "GLPI >= 9.4"
+msgstr ""
+
+#: ../../source/sccm/index.rst:14
+msgid "FusionInventory plugin for GLPI"
+msgstr ""
+
+#: ../../source/sccm/index.rst:15
+msgid "SCCM >= 1802"
+msgstr ""
+
+#: ../../source/sccm/index.rst:16
+msgid "PHP curl_init and sqlsrv_connect"
+msgstr ""
+
+#: ../../source/sccm/index.rst:17
+msgid "Microsoft System Center Configuration Manager"
+msgstr ""
+
+#: ../../source/sccm/index.rst:18
+msgid "Microsoft Drivers for PHP for Microsoft SQL Server"
+msgstr ""
+
+#: ../../source/sccm/index.rst:22
+msgid "Features"
+msgstr ""
+
+#: ../../source/sccm/index.rst:24
+msgid ""
+"Plugin to synchronize computers from SCCM (version 1802) to GLPI (version "
+"9.3 and 9.4). It uses the \"FusionInventory for GLPI\" plugin and the power "
+"of its internal engine."
+msgstr ""
+
+#: ../../source/sccm/index.rst:28
+msgid "Workflow"
+msgstr ""
+
+#: ../../source/sccm/index.rst:30
+msgid "This plugin add two automatic actions : \"SCCMCollect\" et \"SCCMPush\""
+msgstr ""
+
+#: ../../source/sccm/index.rst:31
+msgid ""
+"The automatic action \"SCCMCollect\" queries the SCCM server with MsSQL "
+"queries."
+msgstr ""
+
+#: ../../source/sccm/index.rst:32
+msgid ""
+"This same action builds an XML foreach computer (in FusionInventory format)."
+msgstr ""
+
+#: ../../source/sccm/index.rst:33
+msgid ""
+"The automatic action \"SCCMPush\" injects XML files into GLPI over HTTP(s) "
+"(via cURL and FusionInventory) to display computer in GLPI."
+msgstr ""
+
+#: ../../source/sccm/index.rst:37
+msgid "Schematic diagram"
+msgstr ""
+
+#: ../../source/sccm/index.rst:43
+msgid "Collected data"
+msgstr ""
+
+#: ../../source/sccm/index.rst:45
+msgid ""
+"Depending on data availability in the SCCM server, foreach computer we "
+"collect:"
+msgstr ""
+
+#: ../../source/sccm/index.rst:47
+msgid ""
+"Computer: name, last connected user, UUID, user login, domain, comments, "
+"serial"
+msgstr ""
+
+#: ../../source/sccm/index.rst:48
+msgid "Operating system: name, architecture, version, service pack"
+msgstr ""
+
+#: ../../source/sccm/index.rst:49
+msgid ""
+"BIOS information: tag, model, type, manufacturer, serial, install date, "
+"version"
+msgstr ""
+
+#: ../../source/sccm/index.rst:50
+msgid ""
+"CPU: description (or name), manufacturer, frequency, type (arch), nb core, "
+"nb threads"
+msgstr ""
+
+#: ../../source/sccm/index.rst:51
+msgid "Softwares: name, version, editor, install date"
+msgstr ""
+
+#: ../../source/sccm/index.rst:52
+msgid "Memory (RAM): capacity, decription, frequency, type, bus, serial"
+msgstr ""
+
+#: ../../source/sccm/index.rst:53
+msgid "Graphical card: name, chipset, memory"
+msgstr ""
+
+#: ../../source/sccm/index.rst:54
+msgid "Sound card: name, manufacturer"
+msgstr ""
+
+#: ../../source/sccm/index.rst:55
+msgid "Network card: name, MAC address, IP address (v4, v6)"
+msgstr ""
+
+#: ../../source/sccm/index.rst:56
+msgid "Disk part: name, mount type, total size"
+msgstr ""
+
+#: ../../source/sccm/index.rst:60
+msgid "Automatic actions"
+msgstr ""
+
+#: ../../source/sccm/index.rst:66
+msgid "SCCMCollect"
+msgstr ""
+
+#: ../../source/sccm/index.rst:68
+msgid "Action to collect data from SCCM to XML files."
+msgstr ""
+
+#: ../../source/sccm/index.rst:73
+msgid "SCCMPush"
+msgstr ""
+
+#: ../../source/sccm/index.rst:75
+msgid "Action to push XML file to FusionInventory plugin"
+msgstr ""
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr ""

@@ -1,0 +1,186 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-30 10:48+0100\n"
+"PO-Revision-Date: 2020-01-24 06:36+0000\n"
+"Language-Team: Catalan (Spain) (https://www.transifex.com/teclib/teams/28042/ca_ES/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ca_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/news/index.rst:2
+msgid "News"
+msgstr ""
+
+#: ../../source/news/index.rst:4
+msgid "Sources link: https://github.com/pluginsGLPI/news"
+msgstr ""
+
+#: ../../source/news/index.rst:5
+msgid "Download: https://github.com/pluginsGLPI/news/releases"
+msgstr ""
+
+#: ../../source/news/index.rst:8
+msgid "Requirements for latest version"
+msgstr ""
+
+#: ../../source/news/index.rst:10
+msgid "This plugin requires :"
+msgstr ""
+
+#: ../../source/news/index.rst:12
+msgid "PHP 7.2 or higher"
+msgstr ""
+
+#: ../../source/news/index.rst:13
+msgid "GLPI >= 9.4"
+msgstr ""
+
+#: ../../source/news/index.rst:17
+msgid "Features"
+msgstr ""
+
+#: ../../source/news/index.rst:19
+msgid ""
+"This plugin allows to display alerts messages on GLPI homepage and / or "
+"login page."
+msgstr ""
+
+#: ../../source/news/index.rst:21
+msgid "Create alert with rich text as for notes."
+msgstr ""
+
+#: ../../source/news/index.rst:22
+msgid "Choice of begin/end publication date."
+msgstr ""
+
+#: ../../source/news/index.rst:23
+msgid "Manage alerts by entity."
+msgstr ""
+
+#: ../../source/news/index.rst:24
+msgid "Target : display alerts by profile / group / user."
+msgstr ""
+
+#: ../../source/news/index.rst:28
+msgid "Install the Plugin"
+msgstr ""
+
+#: ../../source/news/index.rst:29
+msgid "Uncompress the archive."
+msgstr ""
+
+#: ../../source/news/index.rst:30
+msgid "Move the ``news`` directory to the ``<GLPI_ROOT>/plugins`` directory"
+msgstr ""
+
+#: ../../source/news/index.rst:31
+msgid "Navigate to the *Configuration > Plugins* page,"
+msgstr ""
+
+#: ../../source/news/index.rst:32
+msgid "Install and activate the plugin."
+msgstr ""
+
+#: ../../source/news/index.rst:35
+msgid "Usage"
+msgstr ""
+
+#: ../../source/news/index.rst:37
+msgid ""
+"The plugin will create required tables in the database  automatically. Those"
+" tables will be updated along with the plugin."
+msgstr ""
+
+#: ../../source/news/index.rst:39
+msgid "Plugin usage is quite simple:"
+msgstr ""
+
+#: ../../source/news/index.rst:41
+msgid "configure alerts"
+msgstr ""
+
+#: ../../source/news/index.rst:43
+msgid "You will access the plugin configuration from the *Tools* > *Alerts*."
+msgstr ""
+
+#: ../../source/news/index.rst:47
+msgid "Create alerts"
+msgstr ""
+
+#: ../../source/news/index.rst:49
+msgid "Name : display as talert title"
+msgstr ""
+
+#: ../../source/news/index.rst:50
+msgid "Active : is active or not"
+msgstr ""
+
+#: ../../source/news/index.rst:51
+msgid "Description : content of alert"
+msgstr ""
+
+#: ../../source/news/index.rst:52
+msgid "Visibility start / end : period of Visibility"
+msgstr ""
+
+#: ../../source/news/index.rst:53
+msgid "Type : type of alert (General, Information, Warning, Problem)"
+msgstr ""
+
+#: ../../source/news/index.rst:54
+msgid "Can close alert : User can close alert ?"
+msgstr ""
+
+#: ../../source/news/index.rst:55
+msgid "Show on login page : display or not alert on login page"
+msgstr ""
+
+#: ../../source/news/index.rst:56
+msgid "Show on helpdesk page : display or not alert on helpdesk page"
+msgstr ""
+
+#: ../../source/news/index.rst:57
+msgid "Sub-entity : display or not on sub-entity"
+msgstr ""
+
+#: ../../source/news/index.rst:62
+msgid "Targets"
+msgstr ""
+
+#: ../../source/news/index.rst:64
+msgid "You can define target by type"
+msgstr ""
+
+#: ../../source/news/index.rst:66
+msgid "Group : for all users of group"
+msgstr ""
+
+#: ../../source/news/index.rst:67
+msgid "Profil : for all users with profile"
+msgstr ""
+
+#: ../../source/news/index.rst:68
+msgid "User : for specifi user"
+msgstr ""
+
+#: ../../source/news/index.rst:74
+msgid "Display on login page"
+msgstr ""
+
+#: ../../source/news/index.rst:80
+msgid "Display on helpdesk page"
+msgstr ""
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr ""

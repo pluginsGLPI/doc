@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-30 08:16+0100\n"
+"POT-Creation-Date: 2020-01-30 10:48+0100\n"
 "PO-Revision-Date: 2017-02-09 07:26+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2017\n"
 "Language-Team: Turkish (Turkey) (https://www.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -55,31 +55,24 @@ msgstr ""
 "geçerli destek kaydı için)."
 
 #: ../../source/formcreator/targets.rst:16
-msgid "Ticket target"
-msgstr "Destek kaydı hedefi"
+msgid "Target ticket"
+msgstr ""
 
 #: ../../source/formcreator/targets.rst:18
-msgid "A ticket target generates a ticket."
-msgstr "Bir destek kaydı oluşturan destek kaydı hedefi."
+msgid "A target ticket generates a ticket."
+msgstr ""
 
 #: ../../source/formcreator/targets.rst:22
 msgid ""
 "The ticket is build from scratch or from a ticket template available in "
-"GLPI. You may * customize the title and description of the ticket, using "
-"questions and and answers, * set a due date, * set the urgency from a "
-"question, * choose the entity of the ticket among many policies, * assign  "
+"GLPI. You may * customize the title and description of the ticket using "
+"questions and answers, * set a due date, * set the urgency from a value or a"
+" question, * choose the entity of the ticket among many policies, * assign "
 "tags to the ticket if the plugin `Tags` is available, * define actors of the"
-" ticket."
+" ticket. * set  the category of the ticket"
 msgstr ""
-"Destek kaydı sıfırdan ya da GLPI üzerindeki bir kalıptan oluşturulabilir. "
-"Şunları yapabilirsiniz: * Soru ve yanıtları kullanarak destek kaydının "
-"başlığı ve açıklamasını belirtebilirsiniz, * Bir bitiş tarihi "
-"belirtebilirsiniz, * Soruya göre önem derecesini belirtebilirsiniz, * Pek "
-"çok ilkeyi kullanarak destek kaydının varlığını seçebilirsiniz, * `Sekmeler`"
-" uygulama eki kullanılabiliyorsa destek kaydına etiketler atayabilirsiniz, *"
-" Destek kaydına aktörler atayabilirsiniz."
 
-#: ../../source/formcreator/targets.rst:31
+#: ../../source/formcreator/targets.rst:32
 msgid ""
 "Setting an urgency from a question overrides the urgency defined in a ticket"
 " template (if any)"
@@ -87,13 +80,31 @@ msgstr ""
 "Soru ile önem derecesinin ayarlanması (varsa) destek kaydı kalıbındaki önem "
 "derecesinin yerine geçer"
 
-#: ../../source/formcreator/targets.rst:34
+#: ../../source/formcreator/targets.rst:35
 msgid ""
 "Setting a category from a question overrides the category defined in a "
 "ticket template (if any)"
 msgstr ""
 "Soru ile kategorinin ayarlanması (varsa) destek kaydı kalıbındaki "
 "kategorinin yerine geçer"
+
+#: ../../source/formcreator/targets.rst:38
+msgid "Target change"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:40
+msgid "A target change generates a change"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:44
+msgid ""
+"The change is built from scratch. You may * customize the title, "
+"description, imapct, control list, deployment path, backup plan and "
+"checklist fields using questions and answers, * set the urgency from a value"
+" or a question * choose the entity of the change among many policies * set "
+"the time to resolve * define  the actors of the change * * set  the category"
+" of the change"
+msgstr ""
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"

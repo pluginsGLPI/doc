@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-30 10:48+0100\n"
+"PO-Revision-Date: 2016-12-20 09:45+0000\n"
+"Language-Team: Spanish (Spain) (https://www.transifex.com/teclib/teams/28042/es_ES/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/formcreator/features.rst:2
+msgid "Features"
+msgstr ""
+
+#: ../../source/formcreator/features.rst:4
+msgid "Direct access to forms self-service interface in main menu,"
+msgstr ""
+
+#: ../../source/formcreator/features.rst:5
+msgid "Highlighting forms in homepages,"
+msgstr ""
+
+#: ../../source/formcreator/features.rst:6
+msgid ""
+"Access to forms controlled: public access, identified user access, "
+"restricted access to some profiles,"
+msgstr ""
+
+#: ../../source/formcreator/features.rst:7
+msgid "Simple and customizable forms,"
+msgstr ""
+
+#: ../../source/formcreator/features.rst:8
+msgid "Forms organized by categories, entities and languages,"
+msgstr ""
+
+#: ../../source/formcreator/features.rst:9
+msgid ""
+"Questions of any type of presentation: Textareas, lists, LDAP, files, etc,"
+msgstr ""
+
+#: ../../source/formcreator/features.rst:10
+msgid "Questions organised in sections. Choice of the display order,"
+msgstr ""
+
+#: ../../source/formcreator/features.rst:11
+msgid ""
+"Possibility to display a question based on certain criteria (response to a "
+"further question),"
+msgstr ""
+
+#: ../../source/formcreator/features.rst:12
+msgid ""
+"A sharp control on responses from forms: text, numbers, size of fields, "
+"email, mandatory fields, regular expressions, etc,"
+msgstr ""
+
+#: ../../source/formcreator/features.rst:13
+msgid "Creation of one or more tickets from form answers,"
+msgstr ""
+
+#: ../../source/formcreator/features.rst:14
+msgid ""
+"Adding a description per fields, per sections, per forms, entities or "
+"languages,"
+msgstr ""
+
+#: ../../source/formcreator/features.rst:15
+msgid ""
+"Formatting the ticket set: answers to questions displayed, tickets "
+"templates,"
+msgstr ""
+
+#: ../../source/formcreator/features.rst:16
+msgid "Preview form created directly in the configuration."
+msgstr ""
+
+#: ../../source/formcreator/features.rst:18
+msgid ""
+"You can take an look to `the full changelog from plugin sources "
+"<https://github.com/pluginsGLPI/formcreator/blob/master/CHANGELOG.md>`_."
+msgstr ""
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr ""

@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-30 10:48+0100\n"
+"PO-Revision-Date: 2020-01-24 13:02+0000\n"
+"Language-Team: German (Germany) (https://www.transifex.com/teclib/teams/28042/de_DE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/treeview/index.rst:2
+msgid "Treeview"
+msgstr ""
+
+#: ../../source/treeview/index.rst:4
+msgid "Sources link: https://github.com/pluginsGLPI/treeview"
+msgstr ""
+
+#: ../../source/treeview/index.rst:5
+msgid "Download: https://github.com/pluginsGLPI/treeview/releases"
+msgstr ""
+
+#: ../../source/treeview/index.rst:8
+msgid "Requirements for latest version"
+msgstr ""
+
+#: ../../source/treeview/index.rst:10
+msgid "This plugin requires :"
+msgstr ""
+
+#: ../../source/treeview/index.rst:12
+msgid "PHP 7.2 or higher"
+msgstr ""
+
+#: ../../source/treeview/index.rst:13
+msgid "GLPI >= 9.4"
+msgstr ""
+
+#: ../../source/treeview/index.rst:17
+msgid "Features"
+msgstr ""
+
+#: ../../source/treeview/index.rst:19
+msgid ""
+"This plugin allows you to browse through your inventory via a tree view in a"
+" panel located on the left side of the screen."
+msgstr ""
+
+#: ../../source/treeview/index.rst:21
+msgid "You can browse the tree of your site to see the equipment."
+msgstr ""
+
+#: ../../source/treeview/index.rst:24
+msgid "Install the Plugin"
+msgstr ""
+
+#: ../../source/treeview/index.rst:25
+msgid "Uncompress the archive."
+msgstr ""
+
+#: ../../source/treeview/index.rst:26
+msgid "Move the ``tag`` directory to the ``<GLPI_ROOT>/plugins`` directory"
+msgstr ""
+
+#: ../../source/treeview/index.rst:27
+msgid "Navigate to the *Configuration > Plugins* page,"
+msgstr ""
+
+#: ../../source/treeview/index.rst:28
+msgid "Install and activate the plugin."
+msgstr ""
+
+#: ../../source/treeview/index.rst:32
+msgid "Usage"
+msgstr ""
+
+#: ../../source/treeview/index.rst:34
+msgid ""
+"The plugin will create required tables in the database  automatically. Those"
+" tables will be updated along with the plugin."
+msgstr ""
+
+#: ../../source/treeview/index.rst:36
+msgid "Plugin configuration is quite simple:"
+msgstr ""
+
+#: ../../source/treeview/index.rst:39
+msgid ""
+"You will access the create form from the *Setup* > *Plugins* > *treeview*."
+msgstr ""
+
+#: ../../source/treeview/index.rst:43
+msgid "Target for all node : on clic  on node, redirect to new window"
+msgstr ""
+
+#: ../../source/treeview/index.rst:44
+msgid "Nodes can be highlighted : highlight selcted node or not"
+msgstr ""
+
+#: ../../source/treeview/index.rst:45
+msgid "Tree is drawn with lines : display or not"
+msgstr ""
+
+#: ../../source/treeview/index.rst:46
+msgid "Tree is drawn with icons : Display or not icon for node"
+msgstr ""
+
+#: ../../source/treeview/index.rst:47
+msgid ""
+"Only one node within a parent can be expanded at the same time : more tthan "
+"one parent node can be expand at same time"
+msgstr ""
+
+#: ../../source/treeview/index.rst:48
+msgid ""
+"Item name : name or inventory number or name + inventory number or inventory"
+" number + name"
+msgstr ""
+
+#: ../../source/treeview/index.rst:49
+msgid ""
+"Location name : short name or long name or long name + comment or long name "
+"+ comment"
+msgstr ""
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr ""
