@@ -1,0 +1,159 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# SeongHyeon Cho <jaymz9634@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-30 08:16+0100\n"
+"PO-Revision-Date: 2020-01-24 06:36+0000\n"
+"Last-Translator: SeongHyeon Cho <jaymz9634@gmail.com>, 2020\n"
+"Language-Team: Korean (Korea) (https://www.transifex.com/teclib/teams/28042/ko_KR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko_KR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../source/tag/index.rst:2
+msgid "Tag"
+msgstr "태그"
+
+#: ../../source/tag/index.rst:4
+msgid "Sources link: https://github.com/pluginsGLPI/tag"
+msgstr "원본 링크: https://github.com/pluginsGLPI/tag"
+
+#: ../../source/tag/index.rst:5
+msgid "Download: https://github.com/pluginsGLPI/tag/releases"
+msgstr "다운로드: https://github.com/pluginsGLPI/tag/releases"
+
+#: ../../source/tag/index.rst:8
+msgid "Requirements for latest version"
+msgstr "최신판 요구사항"
+
+#: ../../source/tag/index.rst:10
+msgid "This plugin requires :"
+msgstr "이 플러그인 요구사항 :"
+
+#: ../../source/tag/index.rst:12
+msgid "PHP 7.2 or higher"
+msgstr "PHP 7.2 이상"
+
+#: ../../source/tag/index.rst:13
+msgid "GLPI >= 9.4"
+msgstr "GLPI >= 9.4"
+
+#: ../../source/tag/index.rst:17
+msgid "Features"
+msgstr "특징"
+
+#: ../../source/tag/index.rst:19
+msgid "Add tags on every GLPI item type (which extends CommonDBTM)"
+msgstr "모든 (CommonDBTM로 확장한) GLPI 아이템 유형에 태그 추가"
+
+#: ../../source/tag/index.rst:20
+msgid "Add tags on FusionInventory Task (plugin fusioninventory)"
+msgstr "FusionInventory 에 태그 추가 (fusioninventory 플러그인)"
+
+#: ../../source/tag/index.rst:21
+msgid "Add tags on Appliance (plugin appliance)"
+msgstr "기기에 태그 추가 (appliance 플러그인)"
+
+#: ../../source/tag/index.rst:22
+msgid "Manage tag from labels"
+msgstr "라벨의 태그 관리"
+
+#: ../../source/tag/index.rst:23
+msgid ""
+"Tags are displayed and editable in the object form header (just below title)"
+msgstr "태그는 객체 양식 헤더에서 표시되고 편집할 수 있습니다 (제목 바로 아래)"
+
+#: ../../source/tag/index.rst:24
+msgid "You can search for tags and display them in objects lists"
+msgstr "태그를 검색하고 객체 목록에서 표시할 수 있습니다"
+
+#: ../../source/tag/index.rst:25
+msgid "You can display a report from associated objects in administration"
+msgstr "관리중인 관련 객체의 보고서를 표시할 수 있습니다."
+
+#: ../../source/tag/index.rst:29
+msgid "Install the Plugin"
+msgstr "플러그인 설치"
+
+#: ../../source/tag/index.rst:30
+msgid "Uncompress the archive."
+msgstr "아카이브를 압축해제 합니다."
+
+#: ../../source/tag/index.rst:31
+msgid "Move the ``tag`` directory to the ``<GLPI_ROOT>/plugins`` directory"
+msgstr "``tag`` 디렉토리를 ``<GLPI_ROOT>/plugins``  디렉토리로 이동"
+
+#: ../../source/tag/index.rst:32
+msgid "Navigate to the *Configuration > Plugins* page,"
+msgstr "*Configuration > Plugins* 페이지로 이동해서,"
+
+#: ../../source/tag/index.rst:33
+msgid "Install and activate the plugin."
+msgstr "플러그인을 설치하고 활성화 합니다."
+
+#: ../../source/tag/index.rst:36
+msgid "Usage"
+msgstr "사용"
+
+#: ../../source/tag/index.rst:38
+msgid ""
+"The plugin will create required tables in the database  automatically. Those"
+" tables will be updated along with the plugin."
+msgstr "플러그인은 자동으로 데이터베이스에 필수 테이블을 생성하게됩니다. 해당 테이블들은 플러그인과 함께 갱신되게 됩니다."
+
+#: ../../source/tag/index.rst:40
+msgid "Plugin usage is quite simple:"
+msgstr "플러그인 사용법은 아주 간단합니다:"
+
+#: ../../source/tag/index.rst:42
+msgid "Create tag"
+msgstr "태그 생성"
+
+#: ../../source/tag/index.rst:44
+msgid "You will access the create form from the *Setup* > *Plugins* > *tag*."
+msgstr "*설정* > *플러그인* > *태그* 에서 양식 생성에 접근하게 됩니다."
+
+#: ../../source/tag/index.rst:46
+msgid ""
+"Define ``name``, ``color``, ``sub-entities visibility`` and ``associated "
+"itemtype``"
+msgstr "``이름``, ``색상``, ``하위-개체 노출`` 그리고 ``관련 아이템유형``을 정의하세요"
+
+#: ../../source/tag/index.rst:50
+msgid "Use tag"
+msgstr "태그 사용"
+
+#: ../../source/tag/index.rst:52
+msgid "On associated itemtype, you can add tag previously created"
+msgstr "관련 아이템유형에서, 이전에 생성된 태그를 추가할 수 있습니다"
+
+#: ../../source/tag/index.rst:56
+msgid "Search items by tag"
+msgstr "태그로 아이템 검색"
+
+#: ../../source/tag/index.rst:58
+msgid "You can easily find items with tag"
+msgstr "태그를 사용하여 쉽게 아이템을 찾을 수 있습니다"
+
+#: ../../source/tag/index.rst:63
+msgid "Get all items associated to tag"
+msgstr "태그와 관련된 모든 아이템 가져오기"
+
+#: ../../source/tag/index.rst:65
+msgid "Go to tag form, clic on tab \"Associated items\""
+msgstr "태그 양식으로 이동하여, \"관련된 아이템\" 탭을 클릭하세요"
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"

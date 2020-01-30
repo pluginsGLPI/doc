@@ -1,0 +1,154 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# David Stepan <stepand@tiscali.cz>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-30 08:16+0100\n"
+"PO-Revision-Date: 2020-01-24 13:02+0000\n"
+"Last-Translator: David Stepan <stepand@tiscali.cz>, 2020\n"
+"Language-Team: Czech (Czech Republic) (https://www.transifex.com/teclib/teams/28042/cs_CZ/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+
+#: ../../source/treeview/index.rst:2
+msgid "Treeview"
+msgstr "Stromový pohled"
+
+#: ../../source/treeview/index.rst:4
+msgid "Sources link: https://github.com/pluginsGLPI/treeview"
+msgstr "Zdrojový odkaz: https://github.com/pluginsGLPI/treeview"
+
+#: ../../source/treeview/index.rst:5
+msgid "Download: https://github.com/pluginsGLPI/treeview/releases"
+msgstr "Stáhnout: https://github.com/pluginsGLPI/treeview/releases"
+
+#: ../../source/treeview/index.rst:8
+msgid "Requirements for latest version"
+msgstr "Požadavky pro poslední verzi"
+
+#: ../../source/treeview/index.rst:10
+msgid "This plugin requires :"
+msgstr "Tento zásuvný modul vyžaduje :"
+
+#: ../../source/treeview/index.rst:12
+msgid "PHP 7.2 or higher"
+msgstr "PHP 7.2 nebo vyšší"
+
+#: ../../source/treeview/index.rst:13
+msgid "GLPI >= 9.4"
+msgstr "GLPI >= 9.4"
+
+#: ../../source/treeview/index.rst:17
+msgid "Features"
+msgstr "Funkce"
+
+#: ../../source/treeview/index.rst:19
+msgid ""
+"This plugin allows you to browse through your inventory via a tree view in a"
+" panel located on the left side of the screen."
+msgstr ""
+"Tento zásuvný modul umožňuje procházet váš inventář prostřednictvím "
+"stromového zobrazení v panelu umístěném na levé straně obrazovky."
+
+#: ../../source/treeview/index.rst:21
+msgid "You can browse the tree of your site to see the equipment."
+msgstr ""
+"Můžete procházet strom na své stránce pro zobrazení jednotlivých zařízení."
+
+#: ../../source/treeview/index.rst:24
+msgid "Install the Plugin"
+msgstr "Instalovat zásuvný modul"
+
+#: ../../source/treeview/index.rst:25
+msgid "Uncompress the archive."
+msgstr "Rozbalit archiv."
+
+#: ../../source/treeview/index.rst:26
+msgid "Move the ``tag`` directory to the ``<GLPI_ROOT>/plugins`` directory"
+msgstr "Přesunout adresář \"tag\" do adresáře \"<GLPI_ROOT>/plugins\""
+
+#: ../../source/treeview/index.rst:27
+msgid "Navigate to the *Configuration > Plugins* page,"
+msgstr "Přejděte na stránku *Nastavení > Zásuvné moduly*,"
+
+#: ../../source/treeview/index.rst:28
+msgid "Install and activate the plugin."
+msgstr "Instalovat a aktivovat zásuvný modul."
+
+#: ../../source/treeview/index.rst:32
+msgid "Usage"
+msgstr "Použití"
+
+#: ../../source/treeview/index.rst:34
+msgid ""
+"The plugin will create required tables in the database  automatically. Those"
+" tables will be updated along with the plugin."
+msgstr ""
+"Zásuvný modul automaticky vytvoří požadované tabulky v databázi. Tyto "
+"tabulky budou aktualizovány zásuvným modulem."
+
+#: ../../source/treeview/index.rst:36
+msgid "Plugin configuration is quite simple:"
+msgstr "Konfigurace zásuvného modulu je poměrně jednoduchá:"
+
+#: ../../source/treeview/index.rst:39
+msgid ""
+"You will access the create form from the *Setup* > *Plugins* > *treeview*."
+msgstr ""
+"K formuláři pro vytvoření se dostanete z * Nastavení *> * Zásuvné moduly *> "
+"* Stromové zobrazení *."
+
+#: ../../source/treeview/index.rst:43
+msgid "Target for all node : on clic  on node, redirect to new window"
+msgstr "Cíl pro všechny uzly: kliknutím na uzel, přesměrovat do nového okna"
+
+#: ../../source/treeview/index.rst:44
+msgid "Nodes can be highlighted : highlight selcted node or not"
+msgstr "Uzly lze zvýraznit: zvýrazněný vybraného uzlu nebo nikoliv"
+
+#: ../../source/treeview/index.rst:45
+msgid "Tree is drawn with lines : display or not"
+msgstr "Strom je nakreslen čárami: zobrazit či nikoliv"
+
+#: ../../source/treeview/index.rst:46
+msgid "Tree is drawn with icons : Display or not icon for node"
+msgstr "Strom je nakreslen ikonami: Zobrazit nebo nezobrazit ikonu pro uzel"
+
+#: ../../source/treeview/index.rst:47
+msgid ""
+"Only one node within a parent can be expanded at the same time : more tthan "
+"one parent node can be expand at same time"
+msgstr ""
+"Současně lze rozbalit pouze jeden uzel v rámci nadřazené jednotky: současně "
+"lze rozbalit více než jeden nadřazený uzel"
+
+#: ../../source/treeview/index.rst:48
+msgid ""
+"Item name : name or inventory number or name + inventory number or inventory"
+" number + name"
+msgstr ""
+"Název položky: název nebo inventární číslo nebo název + inventární číslo "
+"nebo inventární číslo + název"
+
+#: ../../source/treeview/index.rst:49
+msgid ""
+"Location name : short name or long name or long name + comment or long name "
+"+ comment"
+msgstr ""
+"Název umístění: krátký název nebo dlouhý název nebo krátký název + komentář "
+"nebo dlouhý název + komentář"
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"

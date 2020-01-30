@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# SeongHyeon Cho <jaymz9634@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-30 08:16+0100\n"
+"PO-Revision-Date: 2016-10-25 19:22+0000\n"
+"Last-Translator: SeongHyeon Cho <jaymz9634@gmail.com>, 2020\n"
+"Language-Team: Korean (Korea) (https://www.transifex.com/teclib/teams/28042/ko_KR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko_KR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../source/presentation.rst:2
+msgid "Presentation"
+msgstr "프레젠테이션"
+
+#: ../../source/presentation.rst:4
+msgid ""
+"Plugins are a way to extend `GLPI <http://glpi-project.org>`_ possibilities "
+"without modifying core source code. In a perfect world, plugins should "
+"provided specific features; while core's may provided features everyone (or "
+"almost!) mays find usefull."
+msgstr ""
+"플러그인은 핵심 소스 코드의 수정없이 `GLPI <http://glpi-project.org>`_ 가능성을 확장하는 방법입니다. 완벽한 "
+"세상에서, 플러그인은 특정 기능들을 제공하게 됩니다;핵심 기능은 모든이들 (또는 다수!)이 유용하다고 생각하는 기능들을 제공할 것입니다."
+
+#: ../../source/presentation.rst:6
+msgid ""
+"Some of the existing plugins are very complex, other are very simple. Some "
+"may require you to read their documentation before using, some does not... "
+"Some may provide you configuration possibilities, acces rights management, "
+"and so on.... Or not! There are so many plugins already!"
+msgstr ""
+"기존 플러그인들 중 일부는 아주 복잡하고, 나머지는 아주 간단합니다. 일부는 사용 전에 문서들을 읽기를 요청하고, 일부는 그렇지 "
+"않습니다... 일부는 구성 가능성, 접근 권한 관리, 그리고 그 밖의 것을 제공하기도 하고... 아니기도 합니다! 이미 너무 많은 "
+"플러그인들이 있지요!"
+
+#: ../../source/presentation.rst:8
+msgid ""
+"If you're looking for a feature that does not exists yet in GLPI's core, "
+"take a look at the `plugins repository <http://plugins.glpi-project.org/>`_."
+" You can search for a plugin name or a feature, see what core's versions are"
+" compatible, and so on."
+msgstr ""
+"GLPI's 핵심기능에 아직 존재하지 않는 기능을 찾고 있다면, `플러그인 저장소 <http://plugins.glpi-"
+"project.org/>`_ 를 둘러보세요. 플러그인 이름이나 기능을 검색하고, 호환되는 코어 버전, 그리고 그 밖의 것들을 확인할 수 "
+"있습니다."
+
+#: ../../source/presentation.rst:10
+msgid ""
+"The goal of the present documentation is to centralize documentations, but "
+"we cannot pretend all plugins documentations are hosted here."
+msgstr "현재 문서의 목표는 문서 집중화이지만, 모든 플러그인 문서들이 여기서 호스트되는 것처럼 할 수는 없습니다."
+
+#: ../../source/presentation.rst:12
+msgid "Anyways, happy GLPI-ing!"
+msgstr "어쨌든, 행복한 GLPI- 하시길!"
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"

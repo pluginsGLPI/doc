@@ -1,0 +1,190 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# SeongHyeon Cho <jaymz9634@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-30 08:16+0100\n"
+"PO-Revision-Date: 2020-01-24 06:36+0000\n"
+"Last-Translator: SeongHyeon Cho <jaymz9634@gmail.com>, 2020\n"
+"Language-Team: Korean (Korea) (https://www.transifex.com/teclib/teams/28042/ko_KR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko_KR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../source/news/index.rst:2
+msgid "News"
+msgstr "소식"
+
+#: ../../source/news/index.rst:4
+msgid "Sources link: https://github.com/pluginsGLPI/news"
+msgstr "원본 링크: https://github.com/pluginsGLPI/news"
+
+#: ../../source/news/index.rst:5
+msgid "Download: https://github.com/pluginsGLPI/news/releases"
+msgstr "다운로드: https://github.com/pluginsGLPI/news/releases"
+
+#: ../../source/news/index.rst:8
+msgid "Requirements for latest version"
+msgstr "최신판 요구사항"
+
+#: ../../source/news/index.rst:10
+msgid "This plugin requires :"
+msgstr "이 플러그인 요구사항 :"
+
+#: ../../source/news/index.rst:12
+msgid "PHP 7.2 or higher"
+msgstr "PHP 7.2 이상"
+
+#: ../../source/news/index.rst:13
+msgid "GLPI >= 9.4"
+msgstr "GLPI >= 9.4"
+
+#: ../../source/news/index.rst:17
+msgid "Features"
+msgstr "특징"
+
+#: ../../source/news/index.rst:19
+msgid ""
+"This plugin allows to display alerts messages on GLPI homepage and / or "
+"login page."
+msgstr "이 플러그인은 GLPI 홈페이지 그리고 / 또는 로그인 페이지에서 경고 메시지를 표시하게 해 줍니다."
+
+#: ../../source/news/index.rst:21
+msgid "Create alert with rich text as for notes."
+msgstr "메모 같은 서식있는 텍스트로 경고를 생성합니다."
+
+#: ../../source/news/index.rst:22
+msgid "Choice of begin/end publication date."
+msgstr "게시 시작/종료 일자 선택."
+
+#: ../../source/news/index.rst:23
+msgid "Manage alerts by entity."
+msgstr "개체 별 경고 관리."
+
+#: ../../source/news/index.rst:24
+msgid "Target : display alerts by profile / group / user."
+msgstr "대상 : 프로필 / 그룹 / 사용자 별 경고 표시."
+
+#: ../../source/news/index.rst:28
+msgid "Install the Plugin"
+msgstr "플러그인 설치"
+
+#: ../../source/news/index.rst:29
+msgid "Uncompress the archive."
+msgstr "아카이브를 압축해제 합니다."
+
+#: ../../source/news/index.rst:30
+msgid "Move the ``news`` directory to the ``<GLPI_ROOT>/plugins`` directory"
+msgstr "``news`` 디렉토리를 ``<GLPI_ROOT>/plugins``  디렉토리로 이동"
+
+#: ../../source/news/index.rst:31
+msgid "Navigate to the *Configuration > Plugins* page,"
+msgstr "*구성 > 플러그인* 페이지로 이동해서,"
+
+#: ../../source/news/index.rst:32
+msgid "Install and activate the plugin."
+msgstr "플러그인을 설치하고 활성화 합니다."
+
+#: ../../source/news/index.rst:35
+msgid "Usage"
+msgstr "사용"
+
+#: ../../source/news/index.rst:37
+msgid ""
+"The plugin will create required tables in the database  automatically. Those"
+" tables will be updated along with the plugin."
+msgstr "플러그인은 자동으로 데이터베이스에 필수 테이블을 생성하게됩니다. 해당 테이블들은 플러그인과 함께 갱신되게 됩니다."
+
+#: ../../source/news/index.rst:39
+msgid "Plugin usage is quite simple:"
+msgstr "플러그인 사용법은 아주 간단합니다:"
+
+#: ../../source/news/index.rst:41
+msgid "configure alerts"
+msgstr "경고 구성"
+
+#: ../../source/news/index.rst:43
+msgid "You will access the plugin configuration from the *Tools* > *Alerts*."
+msgstr "*도구* > *경고* 에서 플러그인 구성에 접근하게 됩니다."
+
+#: ../../source/news/index.rst:47
+msgid "Create alerts"
+msgstr "경고 생성"
+
+#: ../../source/news/index.rst:49
+msgid "Name : display as talert title"
+msgstr "이름 : 경고 제목으로 표시"
+
+#: ../../source/news/index.rst:50
+msgid "Active : is active or not"
+msgstr "활성화 : 활성화 유무"
+
+#: ../../source/news/index.rst:51
+msgid "Description : content of alert"
+msgstr "상세 : 경고 내용"
+
+#: ../../source/news/index.rst:52
+msgid "Visibility start / end : period of Visibility"
+msgstr "노출 시작 / 종료 : 노출 기간"
+
+#: ../../source/news/index.rst:53
+msgid "Type : type of alert (General, Information, Warning, Problem)"
+msgstr "유형 : 경고 유형 (일반, 정보, 경고, 문제)"
+
+#: ../../source/news/index.rst:54
+msgid "Can close alert : User can close alert ?"
+msgstr "경고 닫기 가능여부 : 사용자 경고 닫기 여부 ?"
+
+#: ../../source/news/index.rst:55
+msgid "Show on login page : display or not alert on login page"
+msgstr "로그인 페이지에 표시 : 로그인 페이지에 경고 표시 유무"
+
+#: ../../source/news/index.rst:56
+msgid "Show on helpdesk page : display or not alert on helpdesk page"
+msgstr "안내 페이지에 표시 : 안내 페이지에 경고 표시 유무"
+
+#: ../../source/news/index.rst:57
+msgid "Sub-entity : display or not on sub-entity"
+msgstr "하위-개체 : 하위-개체에 표시 유무"
+
+#: ../../source/news/index.rst:62
+msgid "Targets"
+msgstr "대상"
+
+#: ../../source/news/index.rst:64
+msgid "You can define target by type"
+msgstr "유형 별로 대상을 정의할 수 있습니다"
+
+#: ../../source/news/index.rst:66
+msgid "Group : for all users of group"
+msgstr "그룹 : 그룹의 모든 사용자 대상"
+
+#: ../../source/news/index.rst:67
+msgid "Profil : for all users with profile"
+msgstr "프로필 : 프로필이 있는 모든 사용자 대상"
+
+#: ../../source/news/index.rst:68
+msgid "User : for specifi user"
+msgstr "사용자 : 특정 사용자 대상"
+
+#: ../../source/news/index.rst:74
+msgid "Display on login page"
+msgstr "로그인 페이지에 표시"
+
+#: ../../source/news/index.rst:80
+msgid "Display on helpdesk page"
+msgstr "안내 페이지에 표시"
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"

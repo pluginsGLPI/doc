@@ -1,0 +1,197 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# David Stepan <stepand@tiscali.cz>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-30 08:16+0100\n"
+"PO-Revision-Date: 2020-01-24 06:36+0000\n"
+"Last-Translator: David Stepan <stepand@tiscali.cz>, 2020\n"
+"Language-Team: Czech (Czech Republic) (https://www.transifex.com/teclib/teams/28042/cs_CZ/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+
+#: ../../source/news/index.rst:2
+msgid "News"
+msgstr "Upozornění"
+
+#: ../../source/news/index.rst:4
+msgid "Sources link: https://github.com/pluginsGLPI/news"
+msgstr "Zdrojový odkaz: https://github.com/pluginsGLPI/news"
+
+#: ../../source/news/index.rst:5
+msgid "Download: https://github.com/pluginsGLPI/news/releases"
+msgstr "Stáhnout: https://github.com/pluginsGLPI/news/releases"
+
+#: ../../source/news/index.rst:8
+msgid "Requirements for latest version"
+msgstr "Požadavky pro poslední verzi"
+
+#: ../../source/news/index.rst:10
+msgid "This plugin requires :"
+msgstr "Tento zásuvný modul vyžaduje :"
+
+#: ../../source/news/index.rst:12
+msgid "PHP 7.2 or higher"
+msgstr "PHP 7.2 nebo vyšší"
+
+#: ../../source/news/index.rst:13
+msgid "GLPI >= 9.4"
+msgstr "GLPI >= 9.4"
+
+#: ../../source/news/index.rst:17
+msgid "Features"
+msgstr "Funkce"
+
+#: ../../source/news/index.rst:19
+msgid ""
+"This plugin allows to display alerts messages on GLPI homepage and / or "
+"login page."
+msgstr ""
+"Tento zásuvný modul umožňuje zobrazit upozornění na domovské stránce GLPI "
+"a/nebo na přihlašovací stránce."
+
+#: ../../source/news/index.rst:21
+msgid "Create alert with rich text as for notes."
+msgstr "Vytvoření upozornění s formátovaným textem jako u poznámek."
+
+#: ../../source/news/index.rst:22
+msgid "Choice of begin/end publication date."
+msgstr "Výběr datum počátku/konce zobrazení."
+
+#: ../../source/news/index.rst:23
+msgid "Manage alerts by entity."
+msgstr "Spravovat upozornění dle entity."
+
+#: ../../source/news/index.rst:24
+msgid "Target : display alerts by profile / group / user."
+msgstr "Cíl: zobrazit upozornění dle profilu / skupiny / uživatele."
+
+#: ../../source/news/index.rst:28
+msgid "Install the Plugin"
+msgstr "Instalovat zásuvný modul"
+
+#: ../../source/news/index.rst:29
+msgid "Uncompress the archive."
+msgstr "Rozbalit archiv."
+
+#: ../../source/news/index.rst:30
+msgid "Move the ``news`` directory to the ``<GLPI_ROOT>/plugins`` directory"
+msgstr "Přesun adresáře ``news`` do adresáře ``<GLPI_ROOT>/plugins``"
+
+#: ../../source/news/index.rst:31
+msgid "Navigate to the *Configuration > Plugins* page,"
+msgstr "Přejděte na stránku *Nastavení > Zásuvné moduly*,"
+
+#: ../../source/news/index.rst:32
+msgid "Install and activate the plugin."
+msgstr "Instalovat a aktivovat zásuvný modul."
+
+#: ../../source/news/index.rst:35
+msgid "Usage"
+msgstr "Použití"
+
+#: ../../source/news/index.rst:37
+msgid ""
+"The plugin will create required tables in the database  automatically. Those"
+" tables will be updated along with the plugin."
+msgstr ""
+"Zásuvný modul automaticky vytvoří požadované tabulky v databázi. Tyto "
+"tabulky budou aktualizovány spolu se zásuvným modulem."
+
+#: ../../source/news/index.rst:39
+msgid "Plugin usage is quite simple:"
+msgstr "Použití zásuvného modulu je velmi jednoduché:"
+
+#: ../../source/news/index.rst:41
+msgid "configure alerts"
+msgstr "nastavení upozornění"
+
+#: ../../source/news/index.rst:43
+msgid "You will access the plugin configuration from the *Tools* > *Alerts*."
+msgstr ""
+"Ke konfiguraci zásuvného modulu se dostanete z menu * Nástroje *> * "
+"Upozornění *."
+
+#: ../../source/news/index.rst:47
+msgid "Create alerts"
+msgstr "Vytvořit upozornění"
+
+#: ../../source/news/index.rst:49
+msgid "Name : display as talert title"
+msgstr "Jméno: zobrazí se jako titulek upozornění"
+
+#: ../../source/news/index.rst:50
+msgid "Active : is active or not"
+msgstr "Aktivní: ano nebo ne"
+
+#: ../../source/news/index.rst:51
+msgid "Description : content of alert"
+msgstr "Popis: obsah upozornění"
+
+#: ../../source/news/index.rst:52
+msgid "Visibility start / end : period of Visibility"
+msgstr "Začátek/konec viditelnosti: doba viditelnosti"
+
+#: ../../source/news/index.rst:53
+msgid "Type : type of alert (General, Information, Warning, Problem)"
+msgstr "Typ: typ upozornění (Obecné, Informace, Varování, Problém)"
+
+#: ../../source/news/index.rst:54
+msgid "Can close alert : User can close alert ?"
+msgstr "Je možné uzavřít upozornění: Může uživatel zavřít upozornění ?"
+
+#: ../../source/news/index.rst:55
+msgid "Show on login page : display or not alert on login page"
+msgstr ""
+"Zobrazit na přihlašovací stránce: zobrazení na přihlašovací stránce ano /ne"
+
+#: ../../source/news/index.rst:56
+msgid "Show on helpdesk page : display or not alert on helpdesk page"
+msgstr "Zobrazení na stránce helpdesku: Zobrazit na stránce helpdesku ano/ne"
+
+#: ../../source/news/index.rst:57
+msgid "Sub-entity : display or not on sub-entity"
+msgstr "Podřízené entity: Zobrazit podřízené entity ano/ne"
+
+#: ../../source/news/index.rst:62
+msgid "Targets"
+msgstr "Cíle"
+
+#: ../../source/news/index.rst:64
+msgid "You can define target by type"
+msgstr "Můžete definovat cíl dle typu"
+
+#: ../../source/news/index.rst:66
+msgid "Group : for all users of group"
+msgstr "Skupina: pro všechny uživatele ve skupině"
+
+#: ../../source/news/index.rst:67
+msgid "Profil : for all users with profile"
+msgstr "Profil: pro všechny uživatele v daném profilu"
+
+#: ../../source/news/index.rst:68
+msgid "User : for specifi user"
+msgstr "Uživatel: pro specifického uživatele"
+
+#: ../../source/news/index.rst:74
+msgid "Display on login page"
+msgstr "Zobrazit na přihlašovací stránce"
+
+#: ../../source/news/index.rst:80
+msgid "Display on helpdesk page"
+msgstr "Zobrazit na stránce helpdesku"
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"

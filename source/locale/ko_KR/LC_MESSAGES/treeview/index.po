@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# SeongHyeon Cho <jaymz9634@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-30 08:16+0100\n"
+"PO-Revision-Date: 2020-01-24 13:02+0000\n"
+"Last-Translator: SeongHyeon Cho <jaymz9634@gmail.com>, 2020\n"
+"Language-Team: Korean (Korea) (https://www.transifex.com/teclib/teams/28042/ko_KR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko_KR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../source/treeview/index.rst:2
+msgid "Treeview"
+msgstr "트리뷰"
+
+#: ../../source/treeview/index.rst:4
+msgid "Sources link: https://github.com/pluginsGLPI/treeview"
+msgstr "원본 링크: https://github.com/pluginsGLPI/treeview"
+
+#: ../../source/treeview/index.rst:5
+msgid "Download: https://github.com/pluginsGLPI/treeview/releases"
+msgstr "다운로드: https://github.com/pluginsGLPI/treeview/releases"
+
+#: ../../source/treeview/index.rst:8
+msgid "Requirements for latest version"
+msgstr "최신판 요구사항"
+
+#: ../../source/treeview/index.rst:10
+msgid "This plugin requires :"
+msgstr "이 플러그인 요구사항 :"
+
+#: ../../source/treeview/index.rst:12
+msgid "PHP 7.2 or higher"
+msgstr "PHP 7.2 이상"
+
+#: ../../source/treeview/index.rst:13
+msgid "GLPI >= 9.4"
+msgstr "GLPI >= 9.4"
+
+#: ../../source/treeview/index.rst:17
+msgid "Features"
+msgstr "특징"
+
+#: ../../source/treeview/index.rst:19
+msgid ""
+"This plugin allows you to browse through your inventory via a tree view in a"
+" panel located on the left side of the screen."
+msgstr "이 플러그인은 화면의 왼쪽에 위치된 패널 내에 트리뷰를 통해 물품을 탐색하게 해 줍니다."
+
+#: ../../source/treeview/index.rst:21
+msgid "You can browse the tree of your site to see the equipment."
+msgstr "사이트의 트리를 탐색하여 비품들을 볼 수 있습니다."
+
+#: ../../source/treeview/index.rst:24
+msgid "Install the Plugin"
+msgstr "플러그인 설치"
+
+#: ../../source/treeview/index.rst:25
+msgid "Uncompress the archive."
+msgstr "아카이브를 압축해제 합니다."
+
+#: ../../source/treeview/index.rst:26
+msgid "Move the ``tag`` directory to the ``<GLPI_ROOT>/plugins`` directory"
+msgstr "``tag`` 디렉토리를 ``<GLPI_ROOT>/plugins``  디렉토리로 이동"
+
+#: ../../source/treeview/index.rst:27
+msgid "Navigate to the *Configuration > Plugins* page,"
+msgstr "*Configuration > Plugins* 페이지로 이동해서,"
+
+#: ../../source/treeview/index.rst:28
+msgid "Install and activate the plugin."
+msgstr "플러그인을 설치하고 활성화 합니다."
+
+#: ../../source/treeview/index.rst:32
+msgid "Usage"
+msgstr "사용"
+
+#: ../../source/treeview/index.rst:34
+msgid ""
+"The plugin will create required tables in the database  automatically. Those"
+" tables will be updated along with the plugin."
+msgstr "플러그인은 자동으로 데이터베이스에 필수 테이블을 생성하게됩니다. 해당 테이블들은 플러그인과 함께 갱신되게 됩니다."
+
+#: ../../source/treeview/index.rst:36
+msgid "Plugin configuration is quite simple:"
+msgstr "플러그인 구성은 아주 간단합니다:"
+
+#: ../../source/treeview/index.rst:39
+msgid ""
+"You will access the create form from the *Setup* > *Plugins* > *treeview*."
+msgstr "*설정* > *플러그인* > *트리뷰* 에서 양식 생성에 접근하게 됩니다."
+
+#: ../../source/treeview/index.rst:43
+msgid "Target for all node : on clic  on node, redirect to new window"
+msgstr "모든 노드 대상 : 노드를 클릭하면, 새 창으로 리디렉션"
+
+#: ../../source/treeview/index.rst:44
+msgid "Nodes can be highlighted : highlight selcted node or not"
+msgstr "노드를 강조 표시할 수 있음 : 선택된 노드의 강조 유무"
+
+#: ../../source/treeview/index.rst:45
+msgid "Tree is drawn with lines : display or not"
+msgstr "트리에 선 그리기 : 표시 유무"
+
+#: ../../source/treeview/index.rst:46
+msgid "Tree is drawn with icons : Display or not icon for node"
+msgstr "트리에 아이콘 그리기 : 노드에 대한 아이콘 표시 유무"
+
+#: ../../source/treeview/index.rst:47
+msgid ""
+"Only one node within a parent can be expanded at the same time : more tthan "
+"one parent node can be expand at same time"
+msgstr "한 부모 내에서 하나의 노드만이 동시에 확장될 수 있습니다 : 하나 이상의 부모 노드를 동시에 확장할 수 있습니다"
+
+#: ../../source/treeview/index.rst:48
+msgid ""
+"Item name : name or inventory number or name + inventory number or inventory"
+" number + name"
+msgstr "아이템 이름 : 이름 또는 물품 번호 또는 이름 + 물품 번호 또는 물품 번호 + 이름"
+
+#: ../../source/treeview/index.rst:49
+msgid ""
+"Location name : short name or long name or long name + comment or long name "
+"+ comment"
+msgstr "위치 이름 : 짧은 이름 또는 긴 이름 또는 긴 이름 + 댓글 또는 긴 이름 + 댓글"
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"

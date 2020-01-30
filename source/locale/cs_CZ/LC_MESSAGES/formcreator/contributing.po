@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Pavel Borecki <pavel.borecki@gmail.com>, 2018
+# David Stepan <stepand@tiscali.cz>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-24 14:02+0100\n"
+"POT-Creation-Date: 2020-01-30 08:16+0100\n"
 "PO-Revision-Date: 2016-12-20 09:45+0000\n"
-"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>, 2018\n"
+"Last-Translator: David Stepan <stepand@tiscali.cz>, 2020\n"
 "Language-Team: Czech (Czech Republic) (https://www.transifex.com/teclib/teams/28042/cs_CZ/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,8 +37,8 @@ msgstr "**Jste vývojář?**"
 #: ../../source/formcreator/contributing.rst:9
 msgid "You can help us adding new features by forking the GitHub repository."
 msgstr ""
-"Můžete nám pomoci přidáváním nových funkcí prostřednictvím naklonování "
-"(fork) repozitáře na portálu GitHub."
+"Můžete nám pomoci přidáváním nových funkcí prostřednictvím repozitáře na "
+"portálu GitHub."
 
 #: ../../source/formcreator/contributing.rst:11
 msgid ""
@@ -45,6 +46,9 @@ msgid ""
 "<https://github.com/pluginsGLPI/formcreator/pulls>`__ to merge your "
 "development into the repository."
 msgstr ""
+"Vyvíjejte novou funkci ve vaší větvi a poté požádejte o „vložit "
+"<https://github.com/pluginsGLPI/formcreator/pulls>` __, aby se váš vývoj "
+"vložil do úložiště."
 
 #: ../../source/formcreator/contributing.rst:13
 msgid ""
@@ -123,6 +127,8 @@ msgid ""
 "<https://github.com/pluginsGLPI/doc/pulls>`__) to merge it into the "
 "repository."
 msgstr ""
+"Proveďte změny ve své větvi a poté požádejte o „vložení "
+"<https://github.com/pluginsGLPI/doc/pulls>` __), aby se vložily do úložiště."
 
 #: ../../source/formcreator/contributing.rst:37
 msgid "Translations"

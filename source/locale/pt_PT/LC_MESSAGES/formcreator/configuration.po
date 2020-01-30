@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-24 14:02+0100\n"
+"POT-Creation-Date: 2020-01-30 08:16+0100\n"
 "PO-Revision-Date: 2016-12-20 09:45+0000\n"
 "Last-Translator: Rui Melo <viper5000pt@gmail.com>, 2019\n"
 "Language-Team: Portuguese (Portugal) (https://www.transifex.com/teclib/teams/28042/pt_PT/)\n"
@@ -22,18 +22,659 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../source/formcreator/configuration.rst:2
-msgid "Configuration and usage"
-msgstr "Configuração e uso"
+msgid "Forms configuration"
+msgstr ""
 
 #: ../../source/formcreator/configuration.rst:5
-msgid "Headers"
-msgstr "Cabeçalhos"
+msgid "Form creation"
+msgstr ""
 
-#: ../../source/formcreator/configuration.rst:7
+#: ../../source/formcreator/configuration.rst:8
+msgid ""
+"The right to create forms is available in the GLPI's profiles. Refer to the "
+"end of this document to know how to set this right."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:11
+msgid ""
+"Forms must be created in the entities where they are intended to be "
+"available. A form may be available in its entity and all sub entities if the"
+" field **Child entities** is set to **Yes**."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:13
+msgid "Navigate to **Administration > Forms**."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:17
+msgid "Click on the button to add a form **+**"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:20
+msgid "Following fields must be populated:"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:22
+msgid "**Name**: Name of the form."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:23
+msgid ""
+"**Active**: A form is inactive by default. You need to explicitly activate "
+"it when it is ready to use."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:26
+msgid "**Category**:"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:25
+msgid "In the simplified interface, categories allow to tidy forms by Blocks."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:26
+msgid ""
+"If you want to use the **service catalog** you must use form categories."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:29
+msgid ""
+"Form categories are plugin's dropdowns. You can add form categories directly"
+" when editing a form using the **+** next to category field. You can do the "
+"same from **Configuration > Dropdowns > Form category**."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:31
+msgid ""
+"**Direct access on homepage**: Direct access to the form from the GLPI's "
+"simplified interface."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:33
+msgid ""
+"**Description**: displays in the list forms. * **Language**: by default a "
+"form is set to the language of its creator. The form will be available only "
+"to users using the same language as the form. Choose **All languages** to "
+"make the form available to users without language restriction."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:36
+msgid "**Header**: displays when the form is displayed."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:37
+msgid ""
+"**Need to be validate**: If **Yes** a list of validators is displayed. This "
+"is a list of GLPI users (with the right **Validate an incident** or "
+"**Validate a request** (in its profile) on an compatible entity with the "
+"form's entity. The list of validators is a multiple choice list. If no "
+"validator is selected all of them are submitted when the form is being used."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:38
+msgid ""
+"**Default form in service catalog**: if **Yes** the form will display in the"
+" service catalog without being filtered by the current category or keywords."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:40
+msgid ""
+"When all fields are filled, click on the **add button** at the botoom of the"
+" page."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:43
+msgid "Sections"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:45
+msgid "After clicking on the tab **Question** the following page displays:"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:49
+msgid ""
+"You must create a first **section**. Sections are intended to organize "
+"questions in the form."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:53
+#: ../../source/formcreator/configuration.rst:379
+msgid "Questions"
+msgstr "Questões"
+
+#: ../../source/formcreator/configuration.rst:55
+msgid "Click on the link **Add a question** in a section of your choice."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:60
+#: ../../source/formcreator/configuration.rst:256
+msgid "The following page displays:"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:64
+msgid ""
+"A question is made of: * a title: this is the label of the question in the "
+"form. * a type: see list below. * a section: the section containing the "
+"question. You can move a question to an other section with this field. * a "
+"description; it is displayed under the question in the form. Use it as a "
+"hint for the requester, telling him which content is expected. * a dropdown "
+"list **Show field**"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:74
+msgid ""
+"It submits the following choices: * **Always visible**: the field is always "
+"displays * **Hidden unless*: The question is hidden except if answers to "
+"other questions matches a condition. * **Displayed unless**: The question is"
+" displayed except if the answers to other questions matches a condition."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:79
+msgid ""
+"Conditions may be multiple. To add or remove a condition two buttons are "
+"available:"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:83
+msgid "**List of pictograms**"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:85
+msgid "The **circle** allows you to make a question mandatory"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:89
+msgid ", or optional .. image:: images/question_picto_optional.png"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:92
+msgid ""
+"**Arrow up** and **arrow down** allow you to r eorder questions in a "
+"section."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:93
+msgid "Clicking on a question allow you to edit it."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:94
+msgid ""
+"**Two stacked squares** allows you to duplicate a question or a whole "
+"section."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:95
+msgid ""
+"The **recycle bin** allows you to delete a question or a whole section."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:98
+msgid "Types of question"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:100
+msgid ""
+"There are about twenty types of quetions available. Depending on the choosen"
+" type, you need to provide additional informations."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:104
+msgid ""
+"**Required**: **Yes**/**No**. When running the form a red star shows next to"
+" label of questions requiring an input."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:105
+msgid "**Default values**: its content depends on  the type of the question."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:106
+msgid ""
+"**Range Min/Max**: Restricts the value to the given range when runnung the "
+"form."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:107
+msgid ""
+"**Additional validation (Regular expression)**: You may set a custom regex "
+"with a regular expression. Use it when other restriction methods cannot "
+"satisfy your needs. FormCreator automatically adds /^ on the beginning and "
+"$/ at the end. Therefore you cannot specify modifiers."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:111
+msgid "Actors"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:114
+msgid "This field allows you to choose one or several users:"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:116
+msgid "in GLPI, available in **Administration > Users**"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:117
+msgid "not in GLPI, by typing an email address"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:120
+msgid "IP Address"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:122
+msgid ""
+"This field is hidden and collects the IP address of the form requester. It "
+"does not shows in the form."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:125
+msgid "Checkboxes (multiple choices)"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:131
+msgid ""
+"Add a line per value in **Values**. Default values may be set in **Default "
+"values**, one per line. If this field is empty, no checkbox will be ticked."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:134
+msgid "Radio buttons (one choice only)"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:140
+msgid ""
+"Add a line per value in **Values**. A default value may be set in **Default "
+"value**. If this f ield is empty, no radio will be selected."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:143
+msgid "Hidden field"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:145
+msgid ""
+"This field is hidden and allows to retrieve an arbitrary value when "
+"generating the target (ticket or change)."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:148
+msgid "Email"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:150
+msgid ""
+"The answer to this type of field must be a syntaxically valid email address."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:153
+msgid "Data / Datetime"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:156
+msgid "This field allows to select a date or datetime from a mini calendar."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:159
+msgid "Description"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:161
+msgid ""
+"This field only displays informations. Use it to give more details about a "
+"question."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:164
+msgid "Integer"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:166
+msgid ""
+"This field must be an integer value. Note you may use a regular expression "
+"to tighter restrict the answer."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:169
+msgid "File"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:173
+msgid "This  field allows the requester to upload a file."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:176
+msgid "Float"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:178
+msgid ""
+"This field must be an float value. Note you may use a regular expression to "
+"tighter restrict the answer."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:181
+msgid "Dropdown"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:183
+msgid ""
+"This field allows the user to choose a value among those available in a "
+"dropdown from GLPI (in **Configuration > Dropdowns**)."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:188
+msgid "GLPI Object"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:190
+msgid ""
+"This field allows you to build a dropdown from a GLPI object among those "
+"abvailable in the menus:"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:192
+msgid "Assets"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:193
+msgid "Assistance"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:194
+msgid "Management"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:195
+msgid "Tools"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:196
+msgid "Administration"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:199
+msgid "Select (one choice onnly)"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:201
+msgid ""
+"This field allows you to create a dropdown list and set its items. Items are"
+" added one per line in **Values**. Default value may be set in **Default "
+"value**. If there is no default, no item is selected by default."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:204
+msgid "LDAP select"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:206
+msgid ""
+"This field allows you to create a dropdown list with objects from a LDAP "
+"directory:"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:211
+msgid "Multiselect"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:213
+msgid ""
+"This feild allows you to create a dropdown list with ability to select "
+"multiple items. Values are added one per line in the field **Values**. You "
+"may set default values, one per line in *Default values**. Ifg no default "
+"value is set then no item will selected by default."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:216
+msgid "Tags"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:218
+msgid ""
+"This is an hidden field to ass a tag to the form for future processing."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:221
+msgid "Text"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:223
+msgid "This field allows you to input a single line of text."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:226
+msgid "Urgency"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:228
+msgid "This field allows you to select an urgency defined in GLPI."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:231
+msgid "Text area"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:233
+msgid "This field allows you to input several lines of text."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:236
+msgid "Targets"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:238
+msgid "Three values are available:"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:240
+msgid ""
+"**Public access**: Anyone may acces the form; you may use it in an intranet."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:241
+msgid "**Private access**: Users having a GLPI account may acces the form."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:242
+msgid ""
+"**Restricted access**: Only users having the specified profiles may access "
+"the form."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:245
+msgid "Destinations"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:247
+msgid "There are two types of destinations for a form:"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:249
+msgid "Generation of one or several tickets"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:250
+msgid "Generation of one or several changes"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:252
+msgid "To create a destination click on the link **Add a destination**"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:260
+msgid ""
+"Choose a destination type, then fill the form which dynamically displays."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:263
+msgid "Ticket destination"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:267
+#: ../../source/formcreator/configuration.rst:298
+msgid "**Name**: Name of the destination"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:268
+#: ../../source/formcreator/configuration.rst:299
+msgid ""
+"**Ticket title**: By default, this is the name of the destination. You may "
+"change it and use tags the form provides."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:269
+#: ../../source/formcreator/configuration.rst:300
+msgid ""
+"**Description**: By default the description is **##FULLFORM##**. It means "
+"the description will be populated with all questions and answers of the "
+"form. You may change the description. It is always rendered as simple text "
+"when the destination is generated. Available tags are displayed at the "
+"bottom of the page, in the section **List of available tags**."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:273
+#: ../../source/formcreator/configuration.rst:306
+msgid ""
+"**Destination entity**: Defines the destination entity of the destination "
+"ticket"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:277
+msgid ""
+"**Ticket template**: A ticket template may be used to define the content of "
+"the destination  ticket."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:278
+#: ../../source/formcreator/configuration.rst:307
+msgid "**Due date**: To define a due date forthe  generated ticket."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:279
+msgid "**Ticket category**: To assign a category to the generated ticket."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:281
+msgid ""
+"**Category from template or None**: If a ticket template is used, the "
+"category of the template will be used. If there is no ticket template, or if"
+" the template does not defiles a category, no category will be affected to "
+"the ticket."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:283
+msgid ""
+"**Specific category**: Defines a category to the ticket from available "
+"categories."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:284
+#: ../../source/formcreator/configuration.rst:312
+msgid ""
+"**Equals to the answer to a question**: defines the category from a answer "
+"in the form"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:286
+msgid ""
+"**Urgency**: allows to define urgency in the generated ticket. Available "
+"choices are:"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:288
+msgid ""
+"**Urgency from template or Medium**: If a ticket template is used and it "
+"sets an urgency, it will be used for the generated ticket. Medium for other "
+"cases."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:289
+#: ../../source/formcreator/configuration.rst:317
+msgid ""
+"**Equals to the answer to the question**! The urgency is set from the answer"
+" of a quetion in the form."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:291
+msgid ""
+"You may create several destinations for a single form. Several tickets or "
+"changes will be generated when  the form is validated."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:294
+msgid "Change destination"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:301
+msgid "**Impacts**: Works as **Description**."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:302
+msgid "**Control list**: Works as **Description**."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:303
+msgid "**Deployment plan**: Works as **Description**."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:304
+msgid "**Backup plan**: Works as **Description**."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:305
+msgid "**Checklist**: Works as **Description**."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:308
+msgid "**Change category**: To assign a category to the generated change."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:310
+msgid "**None**: No category assigned."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:311
+msgid ""
+"**Specific category**: Defines a category to the change from available "
+"categories."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:314
+msgid ""
+"**Urgency**: allows to define urgency in the generated change. Available "
+"choices are:"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:316
+msgid ""
+"**Medium**: If a ticket template is used and it sets an urgency, it will be "
+"used for the generated ticket. Medium for other cases."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:320
+msgid "Preview"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:322
+msgid ""
+"This tab allows you to view how the form will be rendered and  test it "
+"without activating it."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:325
+msgid "Form answers"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:327
+msgid "This tab shows all answers saved for the form."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:329
 msgid "**Menu** : `Setup > Dropdowns : Forms > Headers`"
 msgstr "* * Menu * *: ' Setup > dropdowns: formulários > cabeçalhos '"
 
-#: ../../source/formcreator/configuration.rst:9
+#: ../../source/formcreator/configuration.rst:331
 msgid ""
 "Headers are rich texts _(text with presentation: bold, italic, titles, "
 "colors, etc.)_ which are defined per entities. They can be translated since "
@@ -47,7 +688,7 @@ msgstr ""
 "tradução deve ser habilitado na página de configuração geral GLPI: "
 "configuração > geral: configuração geral > traduzir dropdowns = Yes) _."
 
-#: ../../source/formcreator/configuration.rst:13
+#: ../../source/formcreator/configuration.rst:335
 msgid ""
 "These texts are shown on the users forms list, over the forms. It can be "
 "used to indicate some general advertisement over all the forms below."
@@ -56,33 +697,23 @@ msgstr ""
 "formulários. Ele pode ser usado para indicar algum anúncio geral sobre todos"
 " os formulários abaixo."
 
-#: ../../source/formcreator/configuration.rst:17
-#: ../../source/formcreator/configuration.rst:47
-msgid "Configuration"
-msgstr "Configuração"
-
-#: ../../source/formcreator/configuration.rst:22
-#: ../../source/formcreator/configuration.rst:52
-msgid "Render"
-msgstr "Processar"
-
-#: ../../source/formcreator/configuration.rst:27
+#: ../../source/formcreator/configuration.rst:349
 msgid "Categories"
 msgstr "Categorias"
 
-#: ../../source/formcreator/configuration.rst:29
+#: ../../source/formcreator/configuration.rst:351
 msgid "**Menu** : `Setup > Dropdowns : Forms > Form categories`"
 msgstr ""
 "** Menu **: ' configuração > dropdowns: formulários > categorias de "
 "formulário '"
 
-#: ../../source/formcreator/configuration.rst:31
+#: ../../source/formcreator/configuration.rst:353
 msgid "Form categories allow you to arrange your forms list."
 msgstr ""
 "As categorias de formulário permitem que você organize sua lista de "
 "formulários."
 
-#: ../../source/formcreator/configuration.rst:33
+#: ../../source/formcreator/configuration.rst:355
 msgid ""
 "You can add or edit categories generally from the Setup menu : `Setup > "
 "Dropdowns`."
@@ -90,7 +721,7 @@ msgstr ""
 "Pode adicionar ou editar categorias geralmente a partir do menu Setup: "
 "`Setup > Dropdowns`."
 
-#: ../../source/formcreator/configuration.rst:35
+#: ../../source/formcreator/configuration.rst:357
 msgid ""
 "You can also add new categories directly from the form page like all GLPI "
 "dropdowns."
@@ -98,7 +729,7 @@ msgstr ""
 "Também pode adicionar novas categorias diretamente da página do formulário, "
 "como todas as listas suspensas GLPI."
 
-#: ../../source/formcreator/configuration.rst:37
+#: ../../source/formcreator/configuration.rst:359
 msgid ""
 "They are defined by entities and can be translated since GLPI 0.85 like all "
 "other dropdowns."
@@ -106,7 +737,7 @@ msgstr ""
 "Eles são definidos por entidades e podem ser traduzidos desde GLPI 0.85 como"
 " todos os outros dropdowns."
 
-#: ../../source/formcreator/configuration.rst:41
+#: ../../source/formcreator/configuration.rst:363
 msgid ""
 "Dropdowns translation must be enabled on GLPI general configuration page "
 "`Setup > General`, `General setup > Translate dropdowns = Yes`"
@@ -115,7 +746,7 @@ msgstr ""
 "do GLPI `Configuração > Geral`, `Configuração geral > Traduzir dropdowns = "
 "Sim`"
 
-#: ../../source/formcreator/configuration.rst:44
+#: ../../source/formcreator/configuration.rst:366
 msgid ""
 "Categories may be associated to `Knowledge base categories`. This link is "
 "necessary to allow FAQ entries to show along your forms."
@@ -124,17 +755,13 @@ msgstr ""
 "link é necessário para permitir que as entradas de FAQ sejam mostradas ao "
 "longo dos seus formulários."
 
-#: ../../source/formcreator/configuration.rst:57
-msgid "Questions"
-msgstr "Questões"
-
-#: ../../source/formcreator/configuration.rst:59
+#: ../../source/formcreator/configuration.rst:381
 msgid ""
 "After the creation of a form, create fields for for the user to fill out."
 msgstr ""
 "Após a criação de um formulário, crie campos para o usuário preencher."
 
-#: ../../source/formcreator/configuration.rst:63
+#: ../../source/formcreator/configuration.rst:385
 msgid ""
 "The name of the questions will appear on the left and the field type "
 "selected on the right"
@@ -142,16 +769,16 @@ msgstr ""
 "O nome das questões aparecerá à esquerda e o tipo de campo selecionado à "
 "direita"
 
-#: ../../source/formcreator/configuration.rst:65
+#: ../../source/formcreator/configuration.rst:387
 msgid "The Description will be under the filed input."
 msgstr "A Descrição estará sob a entrada arquivada."
 
-#: ../../source/formcreator/configuration.rst:67
+#: ../../source/formcreator/configuration.rst:389
 msgid "Based on question type options will be based on type chosen."
 msgstr ""
 "Baseado no tipo de questão, as opções serão baseadas no tipo escolhido."
 
-#: ../../source/formcreator/configuration.rst:69
+#: ../../source/formcreator/configuration.rst:391
 msgid ""
 "If validation is desired, it can be implemented following `PHP Regular "
 "Expressions <http://php.net/manual/reference.pcre.pattern.syntax.php>`_."
@@ -160,7 +787,7 @@ msgstr ""
 "`Expressões Regulares PHP "
 "<http://php.net/manual/reference.pcre.pattern.syntax.php>`_."
 
-#: ../../source/formcreator/configuration.rst:71
+#: ../../source/formcreator/configuration.rst:393
 msgid ""
 "If you want to show or hide questions depending on the answers of other "
 "questions, use the *show fields* area when editing a question. In the "
@@ -176,15 +803,15 @@ msgstr ""
 "precedência de operadores booleanos, o que significa que **AND*** tem "
 "precedência sobre **OR****."
 
-#: ../../source/formcreator/configuration.rst:74
+#: ../../source/formcreator/configuration.rst:396
 msgid "Helpdesk"
 msgstr "Helpdesk"
 
-#: ../../source/formcreator/configuration.rst:76
+#: ../../source/formcreator/configuration.rst:398
 msgid "The plugin can provide its own design for helpdesk."
 msgstr "O plugin pode fornecer seu próprio design para o helpdesk."
 
-#: ../../source/formcreator/configuration.rst:78
+#: ../../source/formcreator/configuration.rst:400
 msgid ""
 "To enable it, edit an entity, open the `Forms` tab and set the field "
 "`Helpdesk mode` to `Service catalog simplified` or `Service catalog "
@@ -196,7 +823,7 @@ msgstr ""
 "de serviços estendido`. Esta configuração manipula a herança da entidade pai"
 " para as entidades filhos."
 
-#: ../../source/formcreator/configuration.rst:80
+#: ../../source/formcreator/configuration.rst:402
 msgid ""
 "Users using the simplified interface will benefit a new interface allowing "
 "them to:"
@@ -204,23 +831,23 @@ msgstr ""
 "Os utilizadores que utilizem a interface simplificada beneficiarão de uma "
 "nova interface que lhes permitirá fazê-lo:"
 
-#: ../../source/formcreator/configuration.rst:82
+#: ../../source/formcreator/configuration.rst:404
 msgid "browse forms and FAQ with the unified interface"
 msgstr "procurar formulários e FAQs com a interface unificada"
 
-#: ../../source/formcreator/configuration.rst:83
+#: ../../source/formcreator/configuration.rst:405
 msgid "follow the process of their requests"
 msgstr "acompanhar o processo dos seus pedidos"
 
-#: ../../source/formcreator/configuration.rst:84
+#: ../../source/formcreator/configuration.rst:406
 msgid "book assets"
 msgstr "activos contabilísticos"
 
-#: ../../source/formcreator/configuration.rst:85
+#: ../../source/formcreator/configuration.rst:407
 msgid "view their feeds"
 msgstr "ver os seus feeds"
 
-#: ../../source/formcreator/configuration.rst:87
+#: ../../source/formcreator/configuration.rst:409
 msgid ""
 "Users using the extended interface have a more complete view on their "
 "requests."
@@ -228,7 +855,7 @@ msgstr ""
 "Os utilizadores que utilizam a interface alargada têm uma visão mais "
 "completa dos seus pedidos."
 
-#: ../../source/formcreator/configuration.rst:89
+#: ../../source/formcreator/configuration.rst:411
 msgid ""
 "Forms with `Direct access on homepage` enabled and `FAQ items` in the "
 "`Knowledge base` will will appear in the interface. Users may search by "
@@ -240,7 +867,7 @@ msgstr ""
 " navegando nas categorias à esquerda da tela, e também podem pesquisar por "
 "formulários ou FAQs com um mecanismo de busca em linguagem natural."
 
-#: ../../source/formcreator/configuration.rst:91
+#: ../../source/formcreator/configuration.rst:413
 msgid ""
 "FAQ items needs to be associated to knowledge base categories. The knowledge"
 " base categories must be associated to form categories (available in `Setup "
