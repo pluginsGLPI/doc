@@ -4,10 +4,10 @@ Team
 Developers
 ^^^^^^^^^^
 
-* `Jérémy MOREAU <https://github.com/neeftarah>`__,
-* `Alexandre Delaunay <https://github.com/orthagh>`__,
-* `François Legastelois <https://github.com/flegastelois>`__,
-* `dethegeek <https://github.com/dethegeek>`__
+* `Jérémy MOREAU <https://github.com/neeftarah>`_,
+* `Alexandre Delaunay <https://github.com/orthagh>`_,
+* `François Legastelois <https://github.com/flegastelois>`_,
+* `Thierry Bugier <https://github.com/btry>`_
 
 Testers
 ^^^^^^^

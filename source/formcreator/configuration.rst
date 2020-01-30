@@ -5,7 +5,7 @@ Form creation
 -------------
 
 .. note::
-    The right to create forms is available in the GLPI's profiles. Refer to the end of this document to know how to set this right.
+    The right to create forms is enabled to the profiles having the right to update entities in GLPI. Refer to the end of this document to know how to set this right.
 
 .. note::
     Forms must be created in the entities where they are intended to be available. A form may be available in its entity and all sub entities if the field **Child entities** is set to **Yes**.
@@ -16,14 +16,15 @@ Form creation
 
 2. Click on the button to add a form **+**
 
-
 Following fields must be populated:
 
 * **Name**: Name of the form.
 * **Active**: A form is inactive by default. You need to explicitly activate it when it is ready to use.
-* **Category**:
-   * In the simplified interface, categories allow to tidy forms by Blocks.
-   * If you want to use the **service catalog** you must use form categories.
+
+It is recommended to fill the Category field:
+
+* In the simplified interface, categories allow to tidy forms by Blocks.
+* If you want to use the **service catalog** you must use form categories.
 
 .. note::
     Form categories are plugin's dropdowns. You can add form categories directly when editing a form using the **+** next to category field. You can do the same from **Configuration > Dropdowns > Form category**.
@@ -38,6 +39,9 @@ Following fields must be populated:
 * **Default form in service catalog**: if **Yes** the form will display in the service catalog without being filtered by the current category or keywords.
 
 When all fields are filled, click on the **add button** at the botoom of the page.
+
+.. note::
+    Deleting a form is possible only if there areno associated answers. To delete a form, delete all its answers first from the **Form answers** tab.
 
 Sections
 ---------
@@ -220,7 +224,10 @@ This field allows you to create a dropdown list and set its items. Items are add
 Tags
 ^^^^
 
-This is an hidden field to ass a tag to the form for future processing.
+This is an hidden field to add a tag to the form for future processing.
+
+.. note::
+  This type of field is only available when the plugin **Tag** is installed and enabled.
 
 Text
 ^^^^
@@ -237,8 +244,8 @@ Urgency
 
 This field allows you to select an urgency defined in GLPI.
 
-Targets
--------
+Access types
+------------
 
 Three values are available:
 
@@ -246,28 +253,30 @@ Three values are available:
 * **Private access**: Users having a GLPI account may acces the form.
 * **Restricted access**: Only users having the specified profiles may access the form.
 
-Destinations
-^^^^^^^^^^^^
+Targets
+^^^^^^^
 
-There are two types of destinations for a form:
+There are two types of targets for a form:
 
-* Generation of one or several tickets
-* Generation of one or several changes
+* tickets
+* changes
 
-To create a destination click on the link **Add a destination**
+It is possible to generate any number of targets from a single form. Mixing types of targets is also possible.
 
- .. image:: images/add_destination.png
+To create a target click on the link **Add a target**
 
-The following page displays:
+ .. image:: images/add_target.png
 
- .. image:: images/add_destination_form.png
+The following window is then displayed:
 
-Choose a destination type, then fill the form which dynamically displays.
+ .. image:: images/add_target_form.png
+
+Choose a target name and type, then validate. The new target is created and is available for tuning.
 
 Target ticket
 '''''''''''''
 
- .. image:: images/destination_ticket.png
+ .. image:: images/target_ticket.png
 
 * **Name**: Name of the destination
 * **Ticket title**: By default, this is the name of the destination. You may change it and use tags the form provides.
@@ -279,7 +288,7 @@ Target ticket
 
  .. image:: images/destination_entity_dropdown.png
 
-* **Ticket template**: A ticket template may be used to define the content of the destination  ticket.
+* **Ticket template**: A ticket template may be used to define the content of the destination ticket The properties of the template are overriden by the other settings of the target ticket, if set.
 * **Due date**: To define a due date forthe  generated ticket.
 * **Ticket category**: To assign a category to the generated ticket.
 
@@ -293,12 +302,17 @@ Target ticket
  * **Urgency from template or Medium**: If a ticket template is used and it sets an urgency, it will be used for the generated ticket. Medium for other cases.
  * **Equals to the answer to the question**! The urgency is set from the answer of a quetion in the form.
 
-.. note:: You may create several destinations for a single form. Several tickets or changes will be generated when  the form is validated.
+* **Localtion**: Define the locatin of the generated ticket. Available choices are:
+
+  * ** Specific location**: Defines a location to the ticket from available locations.
+  * **Equals to the answer to a question**: defines the location from an answer in the form
+
+* **Link to an other ticket**: Configures links to other tickets. Those tickets are either tickets already in the database, or other tickets generated by the form.
 
 Target change
 '''''''''''''
 
- .. image:: images/destination_change.png
+ .. image:: images/target_change.png
 
 * **Name**: Name of the destination
 * **Ticket title**: By default, this is the name of the destination. You may change it and use tags the form provides.
@@ -310,7 +324,7 @@ Target change
 * **Checklist**: Works as **Description**.
 * **Destination entity**: Defines the destination entity of the destination ticket
 * **Due date**: To define a due date forthe  generated ticket.
-* **Change category**: To assign a category to the generated change.
+* **Category**: To assign a category to the generated change.
 
  * **None**: No category assigned.
  * **Specific category**: Defines a category to the change from available categories.
@@ -324,7 +338,10 @@ Target change
 Preview
 -------
 
-This tab allows you to view how the form will be rendered and  test it without activating it.
+This tab allows you to view how the form will be rendered and test it without activating it.
+
+.. note::
+    Submitting answers from the preview will be actually saved, and will generate targets if the form is not configured with validation.
 
 Form answers
 ------------
@@ -333,15 +350,15 @@ This tab shows all answers saved for the form.
 
 **Menu** : `Setup > Dropdowns : Forms > Headers`
 
-Headers are rich texts _(text with presentation: bold, italic, titles, colors, etc.)_ which are defined per entities.  
-They can be translated since GLPI 0.85 like all other dropdowns  
+Headers are rich texts _(text with presentation: bold, italic, titles, colors, etc.)_ which are defined per entities.
+They can be translated since GLPI 0.85 like all other dropdowns
 _(Dropdowns translation must be enabled on GLPI general configuration page: Setup > General : General setup > Translate dropdowns = Yes)_.
 
-These texts are shown on the users forms list, over the forms.  
+These texts are shown on the users forms list, over the forms.
 It can be used to indicate some general advertisement over all the forms below.
 
 Configuration
-^^^^^^^^^^^^^^
+-------------
 
 .. image:: images/headers-config.png
 
@@ -364,19 +381,18 @@ You can also add new categories directly from the form page like all GLPI dropdo
 They are defined by entities and can be translated since GLPI 0.85 like all other dropdowns.
 
 .. note::
-
    Dropdowns translation must be enabled on GLPI general configuration page `Setup > General`, `General setup > Translate dropdowns = Yes`
 
 .. note::
    Categories may be associated to `Knowledge base categories`. This link is necessary to allow FAQ entries to show along your forms.
 
 Configuration
-+++++++++++++
+-------------
 
 .. image:: images/categories-config.png
 
 Render
-++++++
+------------
 
 .. image:: images/categories-front.png
 
