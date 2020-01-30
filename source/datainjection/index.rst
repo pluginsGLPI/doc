@@ -88,7 +88,7 @@ Send to GLPI your CSV file with computer data
 
 content of CSV file for this documentation
 
-.. code-block:: txt
+::
 
    Name;Type;Model;Manufactuer;serial
    Desktop-ARTY;Desktop;Dell Inspiton;Samsung;567DFG45DFG
@@ -101,8 +101,10 @@ Mapping CSV column and object field
 For each column of your CSV file you must select the table and the corresponding field in GLPI
 
 
-.. note:: You need to define link field.
-The plugin will search on this link field to known if object need to be added or updated
+.. note::
+
+   You need to define link field.
+   The plugin will search on this link field to known if object need to be added or updated
 
 
 .. image:: images/mapping.png

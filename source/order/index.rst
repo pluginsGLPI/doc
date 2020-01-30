@@ -156,7 +156,7 @@ In the Details tab, it is now possible to add products to the order.
 * Indicate the percentage discount on products
 * You can then validate the addition of these products to the order.
 
-.. images:: images/create_order_item_add.png
+.. image:: images/create_order_item_add.png
 
 Note: it is possible to modify the price and the discount of a set of materials when the order is being edited.
 To do this, simply double-click on one of these 2 fields, modify its value and then validate the change.
