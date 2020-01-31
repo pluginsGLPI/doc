@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# David Stepan <stepand@tiscali.cz>, 2020
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-30 10:48+0100\n"
+"POT-Creation-Date: 2020-01-31 07:27+0100\n"
 "PO-Revision-Date: 2020-01-30 07:19+0000\n"
+"Last-Translator: David Stepan <stepand@tiscali.cz>, 2020\n"
 "Language-Team: Czech (Czech Republic) (https://www.transifex.com/teclib/teams/28042/cs_CZ/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,127 +23,143 @@ msgstr ""
 
 #: ../../source/order/index.rst:2
 msgid "Order"
-msgstr ""
+msgstr "Objednávka"
 
 #: ../../source/order/index.rst:4
 msgid "Sources link: https://github.com/pluginsGLPI/order"
-msgstr ""
+msgstr "Zdrojový odkaz: https://github.com/pluginsGLPI/order"
 
 #: ../../source/order/index.rst:5
 msgid "Download: https://github.com/pluginsGLPI/genericobject/order"
-msgstr ""
+msgstr "Stažení: https://github.com/pluginsGLPI/genericobject/order"
 
 #: ../../source/order/index.rst:7
 msgid ""
 "This user manual applies to version 2.5 of the GLPI Generic Object Plugin."
 msgstr ""
+"Tento uživatelský manuál je aplikovatelný pro verzi 2.5 zásuvného modulu "
+"GLPI Obecný objekt"
 
 #: ../../source/order/index.rst:10
 msgid "Requirements"
-msgstr ""
+msgstr "Požadavky"
 
 #: ../../source/order/index.rst:12
 msgid "This plugin requires :"
-msgstr ""
+msgstr "Tento zásuvný modul vyžaduje :"
 
 #: ../../source/order/index.rst:14
 msgid "PHP 7.2 or higher"
-msgstr ""
+msgstr "PHP 7.2 nebo vyšší"
 
 #: ../../source/order/index.rst:15
 msgid "GLPI >= 9.4"
-msgstr ""
+msgstr "GLPI >= 9.4"
 
 #: ../../source/order/index.rst:19
 msgid "Features"
-msgstr ""
+msgstr "Funkce"
 
 #: ../../source/order/index.rst:21
 msgid "This plugin supports the following aspects of order management :"
-msgstr ""
+msgstr "Tento zásuvný modul podporuje následující aspekty správy objednávek:"
 
 #: ../../source/order/index.rst:23
 msgid "Definition and management of a catalogue of product references"
-msgstr ""
+msgstr "Definice a správa katalogu referencí na výrobky"
 
 #: ../../source/order/index.rst:24
 msgid "Order management (with approval workflow)"
-msgstr ""
+msgstr "Správa objednávek (s procesem schvalování)"
 
 #: ../../source/order/index.rst:25
 msgid "Budgets management"
-msgstr ""
+msgstr "Správa rozpočtů"
 
 #: ../../source/order/index.rst:26
 msgid "Management of invoices associated with orders"
-msgstr ""
+msgstr "Správa faktur spojených s objednávkami"
 
 #: ../../source/order/index.rst:29
 msgid "Install the Plugin"
-msgstr ""
+msgstr "Instalace zásuvného modulu"
 
 #: ../../source/order/index.rst:30
 msgid "Uncompress the archive."
-msgstr ""
+msgstr "Rozbalit archiv."
 
 #: ../../source/order/index.rst:31
 msgid ""
 "Move the ``escalade`` directory to the ``<GLPI_ROOT>/plugins`` directory"
-msgstr ""
+msgstr "Přesunout ``order`` adresář do adresáře ``<GLPI_ROOT>/plugins``"
 
 #: ../../source/order/index.rst:32
 msgid "Navigate to the *Configuration > Plugins* page,"
-msgstr ""
+msgstr "Přejít na stránku *Nastavení > Zásuvné moduly*,"
 
 #: ../../source/order/index.rst:33
 msgid "Install and activate the plugin."
-msgstr ""
+msgstr "Instalovat a aktivovat zásuvný modul."
 
 #: ../../source/order/index.rst:36
 msgid "Configuration"
-msgstr ""
+msgstr "Nastavení"
 
 #: ../../source/order/index.rst:38
 msgid ""
 "You will access the plugin configuration from the *Setup* > *Plugins* > "
 "*Orders managment*."
 msgstr ""
+"Nastavení zásuvného modulu získáte přístupem z * Nastavení *> * Zásuvné "
+"moduly *> * Správa objednávek *."
 
 #: ../../source/order/index.rst:40
 msgid ""
 "When the plugin is installed and enabled, the following options are "
 "available:"
 msgstr ""
+"Pokud je zásuvný modul nainstalován a zapnut jsou k dispozici následující "
+"volby:"
 
 #: ../../source/order/index.rst:44
 msgid ""
 "Default VAT: indicates the amount of VAT that will be proposed by default in"
 " the plugin"
 msgstr ""
+"Výchozí DPH: označuje výši DPH, která bude ve výchozím nastavení zásuvného "
+"modulu"
 
 #: ../../source/order/index.rst:45
 msgid ""
 "Use the validation process: indicates whether the full validation circuit "
 "should be used, or whether anyone can validate applications."
 msgstr ""
+"Použít proces ověřování: označuje, zda by měl být použit celý ověřovací "
+"cyklus, nebo zda může někdo jiný validovat aplikace."
 
 #: ../../source/order/index.rst:46
 msgid ""
 "Purchase order generation: indicates if the tab allowing the generation of a"
 " purchase order in ODT format is displayed or not."
 msgstr ""
+"Generování objednávky: Označuje, zda je nebo není zobrazena karta umožňující"
+" generování objednávky ve formátu ODT."
 
 #: ../../source/order/index.rst:47
 msgid ""
 "Enable supplier quality: indicates whether the tab for judging supplier "
 "satisfaction is displayed once the order is delivered."
 msgstr ""
+"Povolit kvalitu dodavatele: označuje, zda se po doručení objednávky zobrazí "
+"karta pro posouzení spokojenosti s dodavatelem."
 
 #: ../../source/order/index.rst:48
 msgid ""
 "Display purchase order vendor information: Shows whether or not the tab for "
 "storing the reference and vendor purchase order number is displayed."
 msgstr ""
+"Zobrazit informace o dodavateli objednávky: Zobrazuje, zda se zobrazí karta "
+"pro uložení referenčního čísla a čísla objednávky dodavatele."
 
 #: ../../source/order/index.rst:49
 msgid ""
@@ -147,57 +167,65 @@ msgid ""
 "the search engine of an undelivered order for which the estimated delivery "
 "date is exceeded"
 msgstr ""
+"Barva při překročení předpokládaného data dodání: barva zobrazení nedoručené"
+" objednávky ve vyhledávacím nástroji, u které je překročeno datum "
+"předpokládaného doručení"
 
 #: ../../source/order/index.rst:50
 msgid ""
 "Copy order documents when a new item is created : Copy order documents to "
 "generated item"
 msgstr ""
+"Kopírování objednávkových dokumentů při vytvoření nové položky: Kopírování "
+"objednávkových dokumentů na vygenerovanou položku"
 
 #: ../../source/order/index.rst:51
 msgid ""
 "Default heading when adding a document to an order : define default heading"
 msgstr ""
+"Výchozí záhlaví při přidávání dokumentu do objednávky: definuje výchozí "
+"záhlaví"
 
 #: ../../source/order/index.rst:52
 msgid "Author group (Default values) : Define default author"
-msgstr ""
+msgstr "Skupina autora (výchozí hodnoty): Definice výchozího skupiny autora"
 
 #: ../../source/order/index.rst:53
 msgid "Recipient group (Default values) : Define defaut Recipient group"
-msgstr ""
+msgstr "Skupina příjemce (výchozí hodnoty): Definice výchozí skupiny příjemce"
 
 #: ../../source/order/index.rst:54
 msgid "Recipient (Default values) : Define default Recipient"
-msgstr ""
+msgstr "Příjemce (výchozí hodnoty): Definice výchozího příjemce"
 
 #: ../../source/order/index.rst:55
 msgid "Do not display expired budgets : yes or no"
-msgstr ""
+msgstr "Nezobrazovat vypršené rozpočty: ano nebo ne"
 
 #: ../../source/order/index.rst:56
 msgid "Transmit budget change to linked assets : yes or no"
-msgstr ""
+msgstr "Přenést změnu rozpočtu na propojená aktiva: ano nebo ne"
 
 #: ../../source/order/index.rst:57
 msgid "Display account section on order form : yes or no"
-msgstr ""
+msgstr "Zobrazit sekci účtu na objednávkovém formuláři: ano nebo ne"
 
 #: ../../source/order/index.rst:58
 msgid "Set account section as mandatory on order form : yes or no"
 msgstr ""
+"Nastavit sekci účtu jako povinnou na  objednávkovém formuláři: ano nebo ne"
 
 #: ../../source/order/index.rst:59
 msgid "Use free references : yes or no"
-msgstr ""
+msgstr "Použít prázdné reference: ano nebo ne"
 
 #: ../../source/order/index.rst:60
 msgid "Rename documents added in order :yes or no"
-msgstr ""
+msgstr "Přejmenovat přidané dokumenty v objednávce: ano nebo ne"
 
 #: ../../source/order/index.rst:63
 msgid "Automatic actions when delivery Item"
-msgstr ""
+msgstr "Automatické akce při doručení položky"
 
 #: ../../source/order/index.rst:67
 msgid ""
@@ -206,18 +234,22 @@ msgid ""
 "to yes and validate. During the generation, the material will be created "
 "with some randomly generated information:"
 msgstr ""
+"Generování se nevztahuje na smlouvy, kazety a spotřební materiál. Chcete-li "
+"tuto funkci aktivovat, změňte možnost Aktivovat automatické generování na "
+"Ano a potvrďte. Během generování bude materiál vytvořen s náhodně "
+"vygenerovanými informacemi:"
 
 #: ../../source/order/index.rst:71
 msgid "Default name"
-msgstr ""
+msgstr "Výchozí název"
 
 #: ../../source/order/index.rst:72
 msgid "Default Serial Number"
-msgstr ""
+msgstr "Výchozí sériové číslo"
 
 #: ../../source/order/index.rst:73
 msgid "Default inventory number"
-msgstr ""
+msgstr "Výchozí inventární číslo"
 
 #: ../../source/order/index.rst:74
 msgid ""
@@ -225,6 +257,8 @@ msgid ""
 "name and serial number are generated, then the settings defined above for "
 "these 2 fields do not apply."
 msgstr ""
+"Pokud je šablona přiřazena s číslem dílu a v této šabloně je generováno jméno a sériové číslo, pak se výše uvedená nastavení pro tato 2 pole nepoužijí.\n"
+" "
 
 #: ../../source/order/index.rst:76
 msgid ""
@@ -232,24 +266,29 @@ msgid ""
 " of the status during the creation of the material can lead to a date "
 "filling of the financial information. See the Entity Inventory tab."
 msgstr ""
+"Výchozí stav bude nastaven při vytvoření materiálu. Pozice stavu během "
+"vytváření materiálu může vést k datovému vyplnění finančních informací. Viz "
+"karta Inventář entit."
 
 #: ../../source/order/index.rst:80
 msgid "Order lifecycle"
-msgstr ""
+msgstr "Životní cyklus objednávky"
 
 #: ../../source/order/index.rst:82
 msgid "You can define your own status for order lifecycle"
-msgstr ""
+msgstr "Pro životní cyklus objednávky můžete definovat svůj vlastní stav"
 
 #: ../../source/order/index.rst:88
 msgid "Creation of a reference catalogue"
-msgstr ""
+msgstr "Vytvoření referenčního katalogu"
 
 #: ../../source/order/index.rst:90
 msgid ""
 "You will access the reference catalogue from the *Management* > *Orders* > "
 "*Products references*."
 msgstr ""
+"K formuláři pro vytvoření katalogu referencí se dostanete z * Správa *> * "
+"Objednávky *> * Produktové reference *."
 
 #: ../../source/order/index.rst:96
 msgid ""
@@ -257,43 +296,50 @@ msgid ""
 " Any product to be ordered must be referenced in the plugin catalog. When "
 "creating a product reference, the following fields must be filled in:"
 msgstr ""
+"Vytvoření referencí na produkt je předpokladem pro správu objednávek. Na "
+"jakýkoli produkt, který má být objednán, musí být uveden odkaz v katalogu "
+"zásuvného modulu. Při vytváření odkazu na produkt je třeba vyplnit "
+"následující pole:"
 
 #: ../../source/order/index.rst:100
 msgid ""
 "Sub-entities: indicates if the reference will be visible in the current "
 "entity only or in the sub-entities as well."
 msgstr ""
+"Podřízené entity: označuje, zda bude odkaz viditelný pouze v aktuální entitě"
+" nebo také v podřízených entitách."
 
 #: ../../source/order/index.rst:101
 msgid ""
 "Name: name of the reference, as it will be displayed when managing an order "
 "(required)"
 msgstr ""
+"Název: název reference, jak bude zobrazen při správě objednávky (povinné)"
 
 #: ../../source/order/index.rst:102
 msgid "Manufacturer: the manufacturer of the product (not the supplier)"
-msgstr ""
+msgstr "Výrobce: výrobce produktu (ne dodavatel)"
 
 #: ../../source/order/index.rst:103
 msgid ""
 "Type of equipment: indicates what type of equipment we are dealing with"
-msgstr ""
+msgstr "Typ zařízení: označuje, jaký typ zařízení bude dodán"
 
 #: ../../source/order/index.rst:104
 msgid "Type: the type of the product"
-msgstr ""
+msgstr "Typ: typ produktu"
 
 #: ../../source/order/index.rst:105
 msgid "Model: the model of the product"
-msgstr ""
+msgstr "Model: model produktu"
 
 #: ../../source/order/index.rst:106
 msgid "Template: the GLPI template of the product if one already exists."
-msgstr ""
+msgstr "Šablona: šablona GLPI produktu, pokud již existuje."
 
 #: ../../source/order/index.rst:107
 msgid "comments: additional information on the reference"
-msgstr ""
+msgstr "komentáře: další informace o referenci"
 
 #: ../../source/order/index.rst:108
 msgid ""
@@ -301,74 +347,85 @@ msgid ""
 "supplier(s) the product is available, as well as the price associated with "
 "it."
 msgstr ""
+"Jakmile je reference vytvořena, je nutné uvést, od kterého dodavatele "
+"(dodavatelů) je produkt k dispozici, a cenu s ním spojenou."
 
 #: ../../source/order/index.rst:110 ../../source/order/index.rst:140
 msgid "It is also possible to :"
-msgstr ""
+msgstr "Je také možné:"
 
 #: ../../source/order/index.rst:112
 msgid "Add related documents"
-msgstr ""
+msgstr "Přidat související dokumenty"
 
 #: ../../source/order/index.rst:113
 msgid "View history"
-msgstr ""
+msgstr "Zobrazit historii"
 
 #: ../../source/order/index.rst:117
 msgid "Creating an order"
-msgstr ""
+msgstr "Vytvoření objednávky"
 
 #: ../../source/order/index.rst:119
 msgid "You will access orders from the *Management* > *Orders* > *Orders*."
-msgstr ""
+msgstr "Přístup k objednávkám je z \"Správa\" > \"Objednávky\" > \"Objednávky\"."
 
 #: ../../source/order/index.rst:123
 msgid ""
 "Once the reference catalogue has been created, it is now possible to add "
 "material orders. The fields to be filled in are :"
 msgstr ""
+"Po vytvoření referenčního katalogu je nyní možné přidat materiálové "
+"objednávky. Pole, která je třeba vyplnit, jsou:"
 
 #: ../../source/order/index.rst:126
 msgid "Sub-entities: indicates if the order is visible in the sub-entities"
 msgstr ""
+"Podřízené entity: označuje, zda je objednávka viditelná v podřízených "
+"entitách"
 
 #: ../../source/order/index.rst:127
 msgid "Order name"
-msgstr ""
+msgstr "Název objednávky"
 
 #: ../../source/order/index.rst:128
 msgid "Order number (required)"
-msgstr ""
+msgstr "Číslo objednávky (povinné)"
 
 #: ../../source/order/index.rst:129
 msgid "Date of order (required)"
-msgstr ""
+msgstr "Datum objednávky (povinné)"
 
 #: ../../source/order/index.rst:130
 msgid "Budget: The budget to which the purchase order is posted."
-msgstr ""
+msgstr "Rozpočet: Rozpočet, do kterého je objednávka zaúčtována."
 
 #: ../../source/order/index.rst:131
 msgid ""
 "Vendor purchase order number: Indicates the internal number for the purchase"
 " order at the vendor."
 msgstr ""
+"Číslo objednávky dodavatele: Uvádí interní číslo objednávky u dodavatele."
 
 #: ../../source/order/index.rst:132
 msgid ""
 "Payment terms: free field (can contain for example 30 days end of month, 60 "
 "days end of month, etc)"
 msgstr ""
+"Platební podmínky: volné pole (může obsahovat například 30 dní na konci "
+"měsíce, 60 dní na konci měsíce atd.)"
 
 #: ../../source/order/index.rst:133
 msgid "Billing number"
-msgstr ""
+msgstr "Číslo faktury"
 
 #: ../../source/order/index.rst:134
 msgid ""
 "Supplier: the supplier with whom the order is placed. Only the catalogue "
 "references from this supplier may be added to the order."
 msgstr ""
+"Dodavatel: dodavatel, u kterého je objednávka zadána. K objednávce lze "
+"přidat pouze katalogové reference od tohoto dodavatele."
 
 #: ../../source/order/index.rst:135
 msgid ""
@@ -376,60 +433,65 @@ msgid ""
 " be delivered. This option has value only in the entity in which the order "
 "is created."
 msgstr ""
+"Místo dodání objednávky: označuje místo, kam bude zařízení dodáno. Tato "
+"volba má hodnoty pouze z entity, ve které je objednávka vytvořena."
 
 #: ../../source/order/index.rst:136
 msgid "Description: description of the order"
-msgstr ""
+msgstr "Popis: popis objednávky"
 
 #: ../../source/order/index.rst:137
 msgid ""
 "Status: Indicates the current status of the purchase order in the release "
 "run."
-msgstr ""
+msgstr "Stav: Označuje aktuální stav objednávky v době vytvoření."
 
 #: ../../source/order/index.rst:138
 msgid ""
 "Estimated delivery date: indicates the indicative date by which the supplier"
 " must deliver the order."
 msgstr ""
+"Předpokládané datum dodání: označuje orientační datum, do kterého musí "
+"dodavatel dodat objednávku."
 
 #: ../../source/order/index.rst:142
 msgid "Define author and recipient"
-msgstr ""
+msgstr "Definice autora a příjemce"
 
 #: ../../source/order/index.rst:146
 msgid "Adding articles"
-msgstr ""
+msgstr "Přidání zboží"
 
 #: ../../source/order/index.rst:150
 msgid "In the Details tab, it is now possible to add products to the order."
-msgstr ""
+msgstr "Na kartě Podrobnosti je nyní možné do objednávky přidat produkty."
 
 #: ../../source/order/index.rst:152
 msgid "Select the type of material to add to the order"
-msgstr ""
+msgstr "Vyberte typ materiálu, který chcete přidat do objednávky"
 
 #: ../../source/order/index.rst:153
 msgid "Select product number"
-msgstr ""
+msgstr "Vyberte číslo produktu"
 
 #: ../../source/order/index.rst:154
 msgid "Indicate the quantity to order"
-msgstr ""
+msgstr "Uveďte množství na objednávku"
 
 #: ../../source/order/index.rst:155
 msgid ""
 "Change the unit price if it is not the price indicated in the product "
 "reference."
 msgstr ""
+"Pokud to není uvedená cena v referenci na produkt, změňte jednotkovou cenu."
 
 #: ../../source/order/index.rst:156
 msgid "Indicate the percentage discount on products"
-msgstr ""
+msgstr "Uveďte procentuální slevu na produkty"
 
 #: ../../source/order/index.rst:157
 msgid "You can then validate the addition of these products to the order."
-msgstr ""
+msgstr "Poté můžete ověřit přidání těchto produktů k objednávce."
 
 #: ../../source/order/index.rst:161
 msgid ""
@@ -437,45 +499,51 @@ msgid ""
 "materials when the order is being edited. To do this, simply double-click on"
 " one of these 2 fields, modify its value and then validate the change."
 msgstr ""
+"Poznámka: Při editaci objednávky je možné upravit cenu a slevu sady "
+"materiálů. Chcete-li to provést, jednoduše poklepejte na jedno z těchto 2 "
+"polí, upravte jeho hodnotu a poté změnu potvrďte."
 
 #: ../../source/order/index.rst:165
 msgid "Validation workflow"
-msgstr ""
+msgstr "Proces ověření"
 
 #: ../../source/order/index.rst:169
 msgid "The plugin has a validation workflow that works as follows:"
-msgstr ""
+msgstr "Zásuvný modul má proces ověření, který funguje takto:"
 
 #: ../../source/order/index.rst:171
 msgid "Creating the order: status In progress"
-msgstr ""
+msgstr "Vytvoření objednávky: status Probíhá"
 
 #: ../../source/order/index.rst:172
 msgid "Request for order release: status Pending approval"
-msgstr ""
+msgstr "Žádost o uvolnění objednávky: stav Čeká na schválení"
 
 #: ../../source/order/index.rst:173
 msgid ""
 "Order confirmed: the order then goes to the status In process of delivery."
 msgstr ""
+"Objednávka potvrzena: objednávka pak přejde do stavu Probíhá doručení."
 
 #: ../../source/order/index.rst:174
 msgid "Order completely received: automatic switch to Delivered status"
-msgstr ""
+msgstr "Objednávka zcela přijata: automatický přepínač do stavu Doručeno"
 
 #: ../../source/order/index.rst:175
 msgid "Cancelled purchase order: Change to status Cancelled"
-msgstr ""
+msgstr "Zrušená objednávka: Změna stavu na Zrušeno"
 
 #: ../../source/order/index.rst:177
 msgid ""
 "The definition of the persons having the right to make a validation request,"
 " to validate or to cancel an order is done in the edition of the profiles."
 msgstr ""
+"Definice osob, které mají právo podat žádost o ověření, potvrdit nebo zrušit"
+" objednávku, se provádí v editaci profilů."
 
 #: ../../source/order/index.rst:182
 msgid "Receiving the order"
-msgstr ""
+msgstr "Přijímání objednávky"
 
 #: ../../source/order/index.rst:184
 msgid ""
@@ -483,40 +551,45 @@ msgid ""
 "To do this, you must go to the Receiving Equipment(s) tab. Each product is "
 "identified by a line with the following information:"
 msgstr ""
+"Jakmile je objednávka potvrzena, zařízení může začít být přebíráno. Chcete-"
+"li to provést, musíte přejít na kartu Převzetí položky (položek) objednávky."
+" Každý produkt je označen řádkem s následujícími informacemi:"
 
 #: ../../source/order/index.rst:188 ../../source/order/index.rst:206
 msgid "Product reference"
-msgstr ""
+msgstr "Produktové reference"
 
 #: ../../source/order/index.rst:189
 msgid "Number of equipment(s) received"
-msgstr ""
+msgstr "Počet přijatých položek(y)"
 
 #: ../../source/order/index.rst:190
 msgid "Number of material(s) related to inventory items in GLPI"
-msgstr ""
+msgstr "Počet materiálu(ů) souvisejících s položkami inventáře v GLPI"
 
 #: ../../source/order/index.rst:191
 msgid "Unit price of the product (excl. VAT)"
-msgstr ""
+msgstr "Cena za jednotku (bez DPH)"
 
 #: ../../source/order/index.rst:192
 msgid "Unit price of the product (incl. VAT)"
-msgstr ""
+msgstr "Cena za jednotku (s DPH)"
 
 #: ../../source/order/index.rst:193 ../../source/order/index.rst:211
 msgid "Price per unit awarded (excl. VAT)"
-msgstr ""
+msgstr "Cena za přidělenou jednotku (bez DPH)"
 
 #: ../../source/order/index.rst:195
 msgid ""
 "By clicking on the *+* icon on the left of the line, it is possible to "
 "access the details of the products ordered."
 msgstr ""
+"Kliknutím na ikonu * + * vlevo od řádku získáte přístup k podrobnostem o "
+"objednaných produktech."
 
 #: ../../source/order/index.rst:200
 msgid "Receiving material"
-msgstr ""
+msgstr "Příjem materiálu"
 
 #: ../../source/order/index.rst:202
 msgid ""
@@ -525,48 +598,62 @@ msgid ""
 "material(s). One line is displayed for each product reference ordered. This "
 "line contains the following information:"
 msgstr ""
+"Je možné přijmout objednaný materiál od okamžiku, kdy je objednávka "
+"potvrzena. Musíte přejít na kartu Přijímání materiálu(ů). Pro každý "
+"objednaný odkaz na produkt se zobrazí jeden řádek. Tento řádek obsahuje "
+"následující informace:"
 
 #: ../../source/order/index.rst:207
 msgid ""
 "Received equipment(s): indicates the number of equipment received out of the"
 " total number of equipment ordered for this product."
 msgstr ""
+"Přijatá položka(y): označuje počet přijatých položek z celkového počtu "
+"položek objednaných pro tento produkt."
 
 #: ../../source/order/index.rst:208
 msgid ""
 "Related equipment(s): number of goods received related to inventory items in"
 " GLPI"
 msgstr ""
+"Související položky(a): počet přijatého zboží související s položkami "
+"inventáře v GLPI"
 
 #: ../../source/order/index.rst:209
 msgid "Price per unit (excl. VAT)"
-msgstr ""
+msgstr "Cena za jednotku (bez DPH)"
 
 #: ../../source/order/index.rst:210
 msgid "Unit price (incl. VAT)"
-msgstr ""
+msgstr "Cena jednotky (s DPH)"
 
 #: ../../source/order/index.rst:213
 msgid ""
 "In order to proceed to the reception of products, just click on the + icon "
 "on the left of the line."
 msgstr ""
+"Chcete-li pokračovat v přijímání produktů, stačí kliknout na ikonu + v levé "
+"části řádku."
 
 #: ../../source/order/index.rst:215
 msgid "There are 2 ways to receive material :"
-msgstr ""
+msgstr "Existují 2 způsoby, jak přijímat materiál:"
 
 #: ../../source/order/index.rst:217
 msgid ""
 "Reception of materials selected from the list of products ordered but not "
 "yet received"
 msgstr ""
+"Příjem materiálů vybraných ze seznamu objednaných produktů, ale dosud "
+"neobdržených"
 
 #: ../../source/order/index.rst:218
 msgid ""
 "Receipt of materials in bulk: in this case we will indicate how many "
 "products are received (without first selecting from the list)."
 msgstr ""
+"Příjem materiálu hromadně: v tomto případě uvedeme, kolik produktů bylo "
+"přijato (bez předchozího výběru ze seznamu)."
 
 #: ../../source/order/index.rst:223
 msgid ""
@@ -575,18 +662,21 @@ msgid ""
 "objects can be indicated (e.g. Conforming, Non-conforming, etc). Once "
 "received, it is possible to :"
 msgstr ""
+"V obou případech je nutné vrátit dodací list spojený s příjmem materiálu. "
+"Alternativně může být indikován stav přijatých objektů (např. Shoda, "
+"nevyhovující atd.). Po přijetí je možné:"
 
 #: ../../source/order/index.rst:226
 msgid "Generate a material in GLPI from the received product"
-msgstr ""
+msgstr "Vytvořie položku v GLPI z přijatého produktu"
 
 #: ../../source/order/index.rst:227
 msgid "Link the product received to existing GLPI equipment"
-msgstr ""
+msgstr "Propojit obdržený produkt se stávajícím položkou GLPI"
 
 #: ../../source/order/index.rst:230
 msgid "Generate the material"
-msgstr ""
+msgstr "Generovat položku"
 
 #: ../../source/order/index.rst:234
 msgid ""
@@ -595,22 +685,26 @@ msgid ""
 "Generate associated material option. A screen will appear. Each line "
 "represents a received product, and the following information must be given:"
 msgstr ""
+"Chcete-li generovat materiály z přijatých produktů, jednoduše vyberte ze "
+"seznamu ty, pro které má být tato operace provedena. Poté vyberte možnost "
+"Generovat související materiál. Objeví se obrazovka. Každý řádek představuje"
+" přijatý produkt a musí být uvedeny následující informace:"
 
 #: ../../source/order/index.rst:238
 msgid "Name of the material generated in GLPI"
-msgstr ""
+msgstr "Název generované položky v GLPI"
 
 #: ../../source/order/index.rst:239
 msgid "Serial code"
-msgstr ""
+msgstr "Sériové číslo"
 
 #: ../../source/order/index.rst:240
 msgid "Asset number"
-msgstr ""
+msgstr "Číslo aktiva"
 
 #: ../../source/order/index.rst:242
 msgid "Note:"
-msgstr ""
+msgstr "Poznámka:"
 
 #: ../../source/order/index.rst:244
 msgid ""
@@ -618,16 +712,21 @@ msgid ""
 "product, and if the latter is created in the same entity as the reference, "
 "then the inventory object in GLPI will be created from this template."
 msgstr ""
+"Pokud je k referenci vygenerovaného produktu přiřazena šablona a pokud je "
+"produkt vytvořen ve stejné entitě jako reference, bude z této šablony "
+"vytvořen objekt inventáře v GLPI."
 
 #: ../../source/order/index.rst:245
 msgid ""
 "The financial information of the order will be carried in the newly created "
 "inventory object."
 msgstr ""
+"Finanční informace objednávky budou přeneseny do nově vytvořeného objektu "
+"inventáře."
 
 #: ../../source/order/index.rst:248
 msgid "Link to an inventory item"
-msgstr ""
+msgstr "Odkaz na položku inventáře"
 
 #: ../../source/order/index.rst:252
 msgid ""
@@ -636,61 +735,71 @@ msgid ""
 "Link to an existing material. A drop-down list will appear and will present "
 "all the materials present in GLPI which :"
 msgstr ""
+"Není možné generovat přijatý produkt, ale spojit jej s materiálem již "
+"přítomným v GLPI. Chcete-li to provést, musíte vybrat možnost Odkaz na "
+"existující materiál. Objeví se rozevírací seznam a představí všechny "
+"materiály přítomné v GLPI, které:"
 
 #: ../../source/order/index.rst:256
 msgid ""
 "Are in the entity of the order (or in a sub-entity if the order is visible "
 "in the sub-entities)"
 msgstr ""
+"Jsou v entitě objednávky (nebo v podřízené, pokud je objednávka viditelná v "
+"podřízených entitách)"
 
 #: ../../source/order/index.rst:257 ../../source/order/index.rst:258
 msgid "With the same type of equipment"
-msgstr ""
+msgstr "Se stejným typem položek"
 
 #: ../../source/order/index.rst:259
 msgid "Identical"
-msgstr ""
+msgstr "Identický"
 
 #: ../../source/order/index.rst:261
 msgid ""
 "Once linked to a product, the material in GLPI will receive the financial "
 "information from the order."
 msgstr ""
+"Po propojení s produktem obdrží materiál v GLPI finanční informace z "
+"objednávky."
 
 #: ../../source/order/index.rst:264
 msgid "Rights management"
-msgstr ""
+msgstr "Správa oprávnění"
 
 #: ../../source/order/index.rst:268
 msgid ""
 "The plugin rights management allows to define, by profile, if the user has "
 "the right to :"
 msgstr ""
+"Správa oprávnění zásuvného modulu umožňuje definovat oprávnění podle "
+"profilu, pokud má uživatel právo:"
 
 #: ../../source/order/index.rst:270
 msgid "Manage commands"
-msgstr ""
+msgstr "Spravovat příkazy"
 
 #: ../../source/order/index.rst:271
 msgid "Manage product references"
-msgstr ""
+msgstr "Spravovat produktové reference"
 
 #: ../../source/order/index.rst:272
 msgid "Manage invoices"
-msgstr ""
+msgstr "Spravovat faktury"
 
 #: ../../source/order/index.rst:273
 msgid "Confirm an order"
-msgstr ""
+msgstr "Potvrdit objednávku"
 
 #: ../../source/order/index.rst:274
 msgid "Cancel an order"
-msgstr ""
+msgstr "Zrušit objednávku"
 
 #: ../../source/order/index.rst:275
 msgid "Modify a validated order"
-msgstr ""
+msgstr "Upravit ověřenou objednávku"
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"

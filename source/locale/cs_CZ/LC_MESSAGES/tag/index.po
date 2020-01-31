@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-30 10:48+0100\n"
+"POT-Creation-Date: 2020-01-31 07:27+0100\n"
 "PO-Revision-Date: 2020-01-24 06:36+0000\n"
 "Last-Translator: David Stepan <stepand@tiscali.cz>, 2020\n"
 "Language-Team: Czech (Czech Republic) (https://www.transifex.com/teclib/teams/28042/cs_CZ/)\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../source/tag/index.rst:2
 msgid "Tag"
-msgstr ""
+msgstr "Štítek"
 
 #: ../../source/tag/index.rst:4
 msgid "Sources link: https://github.com/pluginsGLPI/tag"
@@ -56,31 +56,34 @@ msgstr "Funkce"
 #: ../../source/tag/index.rst:19
 msgid "Add tags on every GLPI item type (which extends CommonDBTM)"
 msgstr ""
+"Přidat štítky ke každému typu položky GLPI (který rozšiřuje CommonDBTM)"
 
 #: ../../source/tag/index.rst:20
 msgid "Add tags on FusionInventory Task (plugin fusioninventory)"
-msgstr ""
+msgstr "Přidat štítky k úloze Fusioninventory (zásuvný modul fusioninventory)"
 
 #: ../../source/tag/index.rst:21
 msgid "Add tags on Appliance (plugin appliance)"
-msgstr ""
+msgstr "Přidat štítek na zařízení (zásuvný modul zařízení)"
 
 #: ../../source/tag/index.rst:22
 msgid "Manage tag from labels"
-msgstr ""
+msgstr "Spravovat štítky z označení"
 
 #: ../../source/tag/index.rst:23
 msgid ""
 "Tags are displayed and editable in the object form header (just below title)"
 msgstr ""
+"Štítky budou zobrazeny a upravitelné v záhlaví formuláře objektu (těsně pod "
+"nadpisem)"
 
 #: ../../source/tag/index.rst:24
 msgid "You can search for tags and display them in objects lists"
-msgstr ""
+msgstr "Můžete vyhledávat značky a zobrazovat je v seznamech objektů"
 
 #: ../../source/tag/index.rst:25
 msgid "You can display a report from associated objects in administration"
-msgstr ""
+msgstr "Můžete zobrazit přehled z připojených objektů v administraci"
 
 #: ../../source/tag/index.rst:29
 msgid "Install the Plugin"
@@ -92,7 +95,7 @@ msgstr "Rozbalit archiv."
 
 #: ../../source/tag/index.rst:31
 msgid "Move the ``tag`` directory to the ``<GLPI_ROOT>/plugins`` directory"
-msgstr ""
+msgstr "Přesunout adresář ``tag`` do adresáře ``<GLPI_ROOT>/plugins`` "
 
 #: ../../source/tag/index.rst:32
 msgid "Navigate to the *Configuration > Plugins* page,"
@@ -104,55 +107,61 @@ msgstr "Instalovat a aktivovat zásuvný modul."
 
 #: ../../source/tag/index.rst:36
 msgid "Usage"
-msgstr ""
+msgstr "Použití"
 
 #: ../../source/tag/index.rst:38
 msgid ""
 "The plugin will create required tables in the database  automatically. Those"
 " tables will be updated along with the plugin."
 msgstr ""
+"Zásuvný modul automaticky vytvoří požadované tabulky v databázi. Tyto "
+"tabulky budou aktualizovány spolu se zásuvným modulem. "
 
 #: ../../source/tag/index.rst:40
 msgid "Plugin usage is quite simple:"
-msgstr ""
+msgstr "Použití zásuvného modulu je velmi jednoduché: "
 
 #: ../../source/tag/index.rst:42
 msgid "Create tag"
-msgstr ""
+msgstr "Vytvořit štítek"
 
 #: ../../source/tag/index.rst:44
 msgid "You will access the create form from the *Setup* > *Plugins* > *tag*."
 msgstr ""
+"K formuláři pro vytvoření se dostanete z * Nastavení *> * Zásuvné moduly *> "
+"*Štítek*."
 
 #: ../../source/tag/index.rst:46
 msgid ""
 "Define ``name``, ``color``, ``sub-entities visibility`` and ``associated "
 "itemtype``"
 msgstr ""
+"Definovat ``název``, ``barvu``, ``viditelnost podřízených entit`` a "
+"``připojený typ položky``"
 
 #: ../../source/tag/index.rst:50
 msgid "Use tag"
-msgstr ""
+msgstr "Použít štítek"
 
 #: ../../source/tag/index.rst:52
 msgid "On associated itemtype, you can add tag previously created"
-msgstr ""
+msgstr "Do připojeného typu položky můžete přidat dříve vytvořený štítek"
 
 #: ../../source/tag/index.rst:56
 msgid "Search items by tag"
-msgstr ""
+msgstr "Hledat položky dle štítku"
 
 #: ../../source/tag/index.rst:58
 msgid "You can easily find items with tag"
-msgstr ""
+msgstr "Můžete snadno vyhledat položky se štítkem"
 
 #: ../../source/tag/index.rst:63
 msgid "Get all items associated to tag"
-msgstr ""
+msgstr "Získat všechny položky přiřazené ke štítku"
 
 #: ../../source/tag/index.rst:65
 msgid "Go to tag form, clic on tab \"Associated items\""
-msgstr ""
+msgstr "Přejít do formuláře štítku, kliknutím na tlačítko \"Přiřazené položky\""
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-30 10:48+0100\n"
+"POT-Creation-Date: 2020-01-31 07:27+0100\n"
 "PO-Revision-Date: 2020-01-24 06:36+0000\n"
 "Last-Translator: David Stepan <stepand@tiscali.cz>, 2020\n"
 "Language-Team: Czech (Czech Republic) (https://www.transifex.com/teclib/teams/28042/cs_CZ/)\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../source/credit/index.rst:2
 msgid "Credit"
-msgstr ""
+msgstr "Kredit"
 
 #: ../../source/credit/index.rst:4
 msgid "Sources link: https://github.com/pluginsGLPI/credit"
@@ -58,32 +58,40 @@ msgid ""
 "This plugin allows you to declare and follow (by entity) the consumptions of"
 " different credit vouchers directly from the Ticket form."
 msgstr ""
+"Tento zásuvný modul umožňuje deklarovat a sledovat (podle entity) spotřeby "
+"různých kreditních poukázek přímo z formuláře Požadavku."
 
 #: ../../source/credit/index.rst:20
 msgid "To do it, you must follow these steps:"
-msgstr ""
+msgstr "Chcete-li to provést, musíte postupovat takto:"
 
 #: ../../source/credit/index.rst:22
 msgid "Creation of different types of credit vouchers (as GLPI dropdown);"
 msgstr ""
+"Vytvoření různých typů kreditních poukázek (jako rozbalovací nabídka GLPI);"
 
 #: ../../source/credit/index.rst:23
 msgid ""
 "Creation, in Entity tab, of the credit vouchers available for these "
 "entities;"
 msgstr ""
+"Vytvoření kreditních poukázek dostupných na těchto entitách v tabulce "
+"Entity;"
 
 #: ../../source/credit/index.rst:24
 msgid ""
 "Declaration / Modification / Deletion of a consumption in the Ticket form "
 "and tab;"
 msgstr ""
+"Deklarace / úprava / vymazání spotřeby ve formuláři a kartě Požadavek;"
 
 #: ../../source/credit/index.rst:25
 msgid ""
 "Consultation of the vouchers sold, the remaining credits, credits "
 "consumptions from the Ticket form or from Entity tab."
 msgstr ""
+"Konzultace o prodaných poukázkách, zbývajících kreditech, spotřebě kreditů z"
+" formuláře Požadavek nebo z karty Entity."
 
 #: ../../source/credit/index.rst:28
 msgid "Configuration"
@@ -94,61 +102,69 @@ msgid ""
 "The plugin will create required tables in the database  automatically. Those"
 " tables will be updated along with the plugin."
 msgstr ""
+"Zásuvný modul automaticky vytvoří požadované tabulky v databázi. Tyto "
+"tabulky budou aktualizovány spolu se zásuvným modulem. "
 
 #: ../../source/credit/index.rst:32
 msgid "Plugin usage is quite simple:"
-msgstr ""
+msgstr "Použití zásuvného modulu je velmi jednoduché: "
 
 #: ../../source/credit/index.rst:35
 msgid ""
 "You will access the credit configuration from the *Administration* > "
 "*Entities*."
 msgstr ""
+"Ke konfiguraci zásuvného modulu se dostanete z menu *Správa*> *Entity *."
 
 #: ../../source/credit/index.rst:39
 msgid "Name : add name to credit"
-msgstr ""
+msgstr "Název: přidat název kreditu"
 
 #: ../../source/credit/index.rst:40
 msgid "Type : Define a type"
-msgstr ""
+msgstr "Typ: definice typu"
 
 #: ../../source/credit/index.rst:41
 msgid "Start / End date : Define duration of credit"
-msgstr ""
+msgstr "Počáteční / konečné datum: definovat trvání kreditu"
 
 #: ../../source/credit/index.rst:42
 msgid "Active : Display credit on ticket form or not"
-msgstr ""
+msgstr "Aktivní: Zobrazit kredit ve formuláři požadavku ano/ne"
 
 #: ../../source/credit/index.rst:43
 msgid "Quantity : quantity spend"
-msgstr ""
+msgstr "Množství: vynaložené množství"
 
 #: ../../source/credit/index.rst:44
 msgid ""
 "Allow overconsumption : allow or not over consumptin (if yes, check is "
 "bypass)"
 msgstr ""
+"Povolit přečerpání: povolit nebo nepovolit nadměrnou spotřebu (pokud ano, "
+"kontrola je vynechána)"
 
 #: ../../source/credit/index.rst:47
 msgid "Credit consumption"
-msgstr ""
+msgstr "Čerpání kreditu"
 
 #: ../../source/credit/index.rst:49
 msgid ""
 "When you solved a ticket, solution form have field to to consume credit"
 msgstr ""
+"Pokud vyřešíte požadavek, formulář řešení má pole pro spotřebu kreditu"
 
 #: ../../source/credit/index.rst:54
 msgid "Credit report"
-msgstr ""
+msgstr "Report kreditu"
 
 #: ../../source/credit/index.rst:56
 msgid ""
 "On the ticket form, click on the *Credit* tab to view a report on credit "
 "consumption"
 msgstr ""
+"Na formuláři požadavku klikněte na tlačítko \"Kredit\" pro zobrazení reportu"
+" o čerpání kreditu"
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
