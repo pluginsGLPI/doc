@@ -285,3 +285,17 @@ You can create a ``.ignore-release`` file at the root of your plugin and list he
 
    .+\.png
    locales/.+\.po
+
+Some files will automatically be excluded:
+
+* .git*,
+* .gh_token
+* .tx/
+* tools/
+* tests/
+* .atoum.php
+* .travis.yml
+* .circleci/
+* .ignore-release
+* composer.lock
+* Robofile.php
