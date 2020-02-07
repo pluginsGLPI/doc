@@ -284,7 +284,7 @@ You can create a ``.ignore-release`` file at the root of your plugin and list he
 ::
 
    .+\.png
-   locales/.+\.po
+   screenshots/
 
 Some files will automatically be excluded:
 
