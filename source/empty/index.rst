@@ -174,7 +174,7 @@ A release script is provided in ``vendor/bin/plugin-release``. This is a "simple
 
 .. warning::
 
-   Note that for the moment, the release script is only compatible if you use semantic versionning!
+   Note that the release script is only compatible if you use semantic versionning!
 
 Using just the defaults, the script will try to retrieve the latest tag in your git repository, add third party dependencies and create a `Release` on the github project:
 
@@ -275,3 +275,13 @@ In order to use this feature, you will need the `github <https://github.com/PyGi
 You'll have to go to your `github account settings page, in the personnal access token tab <https://github.com/settings/tokens>`_. Click on *generate new token*, give the description you want, and make sure you'll check the *public_repo* box only (no need to check anything else, you can create several access token if you need).
 
 The token will be displayed only once; store it in the ``.gh_token`` file in your plugin directory; and that's all!
+
+Excluding files
++++++++++++++++
+
+You can create a ``.ignore-release`` file at the root of your plugin and list here files and directories you want to explicitely exclude from the release archive. WWrite one `expression <https://docs.python.org/2/library/re.html>`_ per line
+
+::
+
+   .+\.png
+   locales/.+\.po
