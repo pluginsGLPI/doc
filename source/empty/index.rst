@@ -279,7 +279,7 @@ The token will be displayed only once; store it in the ``.gh_token`` file in you
 Excluding files
 +++++++++++++++
 
-You can create a ``.ignore-release`` file at the root of your plugin and list here files and directories you want to explicitely exclude from the release archive. WWrite one `expression <https://docs.python.org/2/library/re.html>`_ per line
+You can create a ``.ignore-release`` file at the root of your plugin and list here files and directories you want to explicitely exclude from the release archive. Write one `expression <https://docs.python.org/2/library/re.html>`_ per line
 
 ::
 
