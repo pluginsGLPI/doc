@@ -28,7 +28,7 @@ Categories
 
 **Menu** : `Setup > Dropdowns : Forms > Form categories`
 
-Form categories allow you to arrange your forms list. Forms are displayed when thei belong to the selected category or any sub category. When a form does not has any category, it is displayed when no category is selected or when the user selects "view all".
+Form categories allow you to arrange your forms list. Forms are displayed when they belong to the selected category or any sub category. When a form does not have any category, it is displayed when no category is selected or when the user selects "view all".
 
 You can add or edit categories generally from the Setup menu : `Setup > Dropdowns`.
 
