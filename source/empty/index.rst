@@ -114,7 +114,7 @@ You still have to enable travis-ci builds from the website in order to activate 
 
 Of course, the ``.travis.yml`` file can be pimped; you can run unit tests, create/update a database, activate notifications, and so on. Refer to the `Travis-CI documentation <https://docs.travis-ci.com/>`_ to know more.
 
-Minifying CSS ans JS
+Minifying CSS and JS
 ^^^^^^^^^^^^^^^^^^^^
 
 .. warning::
