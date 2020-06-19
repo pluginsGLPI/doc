@@ -117,6 +117,10 @@ Of course, the ``.travis.yml`` file can be pimped; you can run unit tests, creat
 Minifying CSS ans JS
 ^^^^^^^^^^^^^^^^^^^^
 
+.. warning::
+
+    Disabled as of 0.1.13, because libs used from Robo are out of date and connot be replaced.
+
 A convenient script, using `Robo.li <http://robo.li>`_ is provided. The ``RoboFile.php`` file is an empty class that extends ``Glpi\Tools\RoboFile`` (provided by ``glpi-project/tools`` dependency) in which you can set your own stuff.
 
 That way, you can quite easily update the common file and get your own tasks remaining the same.
