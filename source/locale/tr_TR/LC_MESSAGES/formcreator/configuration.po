@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-31 07:27+0100\n"
+"POT-Creation-Date: 2020-06-30 08:58+0200\n"
 "PO-Revision-Date: 2016-12-20 09:45+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2019\n"
 "Language-Team: Turkish (Turkey) (https://www.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -757,8 +757,12 @@ msgid "**Menu** : `Setup > Dropdowns : Forms > Form categories`"
 msgstr "**Menu** : `Ayarlar > Açılan Kutular : Formlar > Form Kategorileri`"
 
 #: ../../source/formcreator/configuration.rst:363
-msgid "Form categories allow you to arrange your forms list."
-msgstr "Form kategorileri form listesinin düzenlenmesini sağlar."
+msgid ""
+"Form categories allow you to arrange your forms list. Forms are displayed "
+"when they belong to the selected category or any sub category. When a form "
+"does not have any category, it is displayed when no category is selected or "
+"when the user selects \"view all\"."
+msgstr ""
 
 #: ../../source/formcreator/configuration.rst:365
 msgid ""

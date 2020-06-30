@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-31 07:27+0100\n"
+"POT-Creation-Date: 2020-06-30 08:58+0200\n"
 "PO-Revision-Date: 2016-12-20 09:45+0000\n"
 "Last-Translator: 李赋 <fu792659@163.com>, 2018\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/teclib/teams/28042/zh_CN/)\n"
@@ -38,12 +38,6 @@ msgstr "下载: https://github.com/pluginsGLPI/formcreator/releases"
 msgid ""
 "FormCreator is a plugin which allow creation of custom forms of easy access."
 msgstr "FormCreator是一个插件，允许创建自定义形式的轻松访问。"
-
-#: ../../source/formcreator/index.rst:9
-msgid ""
-"At the same time, the plugin allow the creation of one or more tickets when "
-"the form is filled."
-msgstr "同时，插件允许在填写表单时创建一个或多个工单。"
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"

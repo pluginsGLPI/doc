@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-31 07:27+0100\n"
+"POT-Creation-Date: 2020-06-30 08:58+0200\n"
 "PO-Revision-Date: 2016-12-20 09:45+0000\n"
 "Last-Translator: Haider Ilich López Areiza <hlopez@itsoluciones.com.co>, 2018\n"
 "Language-Team: Spanish (Colombia) (https://www.transifex.com/teclib/teams/28042/es_CO/)\n"
@@ -39,14 +39,6 @@ msgid ""
 msgstr ""
 "FormCreator es un complemento el cual permite la creación de formularios "
 "personalizados de fácil acceso."
-
-#: ../../source/formcreator/index.rst:9
-msgid ""
-"At the same time, the plugin allow the creation of one or more tickets when "
-"the form is filled."
-msgstr ""
-"Al mismo tiempo, el complemento permite la creación de uno o más solicitudes"
-" cuando se llena el formulario."
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"

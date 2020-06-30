@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-31 07:27+0100\n"
+"POT-Creation-Date: 2020-06-30 08:58+0200\n"
 "PO-Revision-Date: 2016-10-25 19:22+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>, 2018\n"
 "Language-Team: Czech (Czech Republic) (https://www.transifex.com/teclib/teams/28042/cs_CZ/)\n"
@@ -235,10 +235,16 @@ msgstr ""
 "informací viz `dokumentace k Travis-CI <https://docs.travis-ci.com/>`_."
 
 #: ../../source/empty/index.rst:118
-msgid "Minifying CSS ans JS"
-msgstr "Minifikování CSS a JS"
+msgid "Minifying CSS and JS"
+msgstr ""
 
-#: ../../source/empty/index.rst:120
+#: ../../source/empty/index.rst:122
+msgid ""
+"Disabled as of 0.1.13, because libs used from Robo are out of date and "
+"connot be replaced."
+msgstr ""
+
+#: ../../source/empty/index.rst:124
 msgid ""
 "A convenient script, using `Robo.li <http://robo.li>`_ is provided. The "
 "``RoboFile.php`` file is an empty class that extends "
@@ -250,7 +256,7 @@ msgstr ""
 "``Glpi\\Tools\\RoboFile`` (poskytovanou závislostí ``glpi-project/tools``) "
 "ve které si můžete nastavit své vlastní věci."
 
-#: ../../source/empty/index.rst:122
+#: ../../source/empty/index.rst:126
 msgid ""
 "That way, you can quite easily update the common file and get your own tasks"
 " remaining the same."
@@ -258,7 +264,7 @@ msgstr ""
 "Tímto způsobem je možné velmi snadno aktualizovat společný soubor a přitom "
 "vaše vlastní úlohy zůstanou, jak jsou."
 
-#: ../../source/empty/index.rst:124
+#: ../../source/empty/index.rst:128
 msgid ""
 "To get the required libs installed, you'll have to `get composer installed "
 "<http://getcomposer.org>`_ and then run:"
@@ -266,15 +272,15 @@ msgstr ""
 "Pro získání potřebných knihoven bude třeba `nainstalovat composer "
 "<http://getcomposer.org>`_ a pak spustit:"
 
-#: ../../source/empty/index.rst:130
+#: ../../source/empty/index.rst:134
 msgid "There are three available targets:"
 msgstr "Zde jsou k dispozici tři cíle:"
 
-#: ../../source/empty/index.rst:132
+#: ../../source/empty/index.rst:136
 msgid "``minify`` that will minify all CSS and JS files (see below),"
 msgstr "``minify`` které minifikuje všechny CSS a JS soubory (viz níže),"
 
-#: ../../source/empty/index.rst:133
+#: ../../source/empty/index.rst:137
 msgid ""
 "``minify:css`` that will minify all css  stylesheets files in the ``css`` "
 "directory of your plugin, creating a ``.min.css`` version along with the "
@@ -283,7 +289,7 @@ msgstr ""
 "``minify:css`` které minifikuje všechny tabulky css stylů ve složce ``css`` "
 "zásuvného modulu, vytvoří verzi``.min.css`` vedle původního souboru,"
 
-#: ../../source/empty/index.rst:134
+#: ../../source/empty/index.rst:138
 msgid ""
 "``minify:js`` that will minify all javascript files in the ``js`` directory "
 "of your plugin, creating a ``.min.js`` version along with the original file."
@@ -291,11 +297,11 @@ msgstr ""
 "``minify:js`` které minifikuje všechny javascript soubory ve složce ``js`` "
 "zásuvného modulu, vytvoří verzi  ``.min.js`` vedle původního souboru."
 
-#: ../../source/empty/index.rst:136
+#: ../../source/empty/index.rst:140
 msgid "Just choose a target, and run something like:"
 msgstr "Stačí zvolit cíl a spustit něco jako:"
 
-#: ../../source/empty/index.rst:144
+#: ../../source/empty/index.rst:148
 msgid ""
 "Remember compiled files should not be commited on your repository sources. "
 "It is a release process to minify files."
@@ -303,7 +309,7 @@ msgstr ""
 "Mějte na paměti, že zkompilované soubory by neměly být nahrávány do zdrojů "
 "ve vašem repozitáři. Pro minifikaci souborů slouží proces vydávání."
 
-#: ../../source/empty/index.rst:146
+#: ../../source/empty/index.rst:150
 msgid ""
 "Also remember to adapt your scripts so they load your minified versions if "
 "available, and the original one otherwise :)"
@@ -311,7 +317,7 @@ msgstr ""
 "Nezapomeňte přizpůsobit své skripty tak, aby načítaly minifikované verze "
 "(pokud jsou k dispozici) a náhradně ty původní :)"
 
-#: ../../source/empty/index.rst:148
+#: ../../source/empty/index.rst:152
 msgid ""
 "As of GLPI 9.2; you do not have to care about loading minified files when "
 "using ``add_css`` and ``add_javascript`` hooks! You just need to call not "
@@ -323,11 +329,11 @@ msgstr ""
 "minified skripty; a GLPI použije minified verzi pokud existuje a pokud není "
 "v režimu `DEBUG` (ladění)."
 
-#: ../../source/empty/index.rst:151
+#: ../../source/empty/index.rst:155
 msgid "Translations"
 msgstr "Překlady"
 
-#: ../../source/empty/index.rst:153
+#: ../../source/empty/index.rst:157
 msgid ""
 "GLPI and its plugins use gettext for internationnalization. Several steps "
 "are required before that can work:"
@@ -335,7 +341,7 @@ msgstr ""
 "GLPI a zásuvné moduly pro něj používají pro překlady gettext. Aby to "
 "fungovalo, je třeba několika kroků:"
 
-#: ../../source/empty/index.rst:155
+#: ../../source/empty/index.rst:159
 msgid ""
 "1 translatable strings must be extracted from source files, a ``POT`` file "
 "will be created or updated accordingly, 2 ``PO`` files must be created or "
@@ -347,7 +353,7 @@ msgstr ""
 "je třeba vytvořit nebo aktualizovat z ``POT`` souboru, 3 ``PO`` soubory je "
 "třeba přeložit, 4 ``MO`` soubory je třeba sestavit z nejnovějších ``PO``."
 
-#: ../../source/empty/index.rst:160
+#: ../../source/empty/index.rst:164
 msgid ""
 "In the ``vendor/bin`` directory, you'll find a ``extract_template.sh`` "
 "script. This is designed to extract translatable strings from your source "
@@ -357,7 +363,7 @@ msgstr ""
 "navržen pro extrakci přeložitelných znaků ze zdrojových kódů (viz první bod "
 "výše)."
 
-#: ../../source/empty/index.rst:162
+#: ../../source/empty/index.rst:166
 msgid ""
 "Once it has been ran, a ``locale/mygreatplugin.pot`` file will be "
 "created/updated."
@@ -365,7 +371,7 @@ msgstr ""
 "Jakmile byl spuštěný, bude vytvořen/aktulizován soubor "
 "``locale/mygreatplugin.pot``."
 
-#: ../../source/empty/index.rst:164
+#: ../../source/empty/index.rst:168
 msgid ""
 "For the second and third step, you'll have to make a choice. You can use "
 "gettext tools to update your ``PO`` files and translate them using a "
@@ -381,7 +387,7 @@ msgstr ""
 "<http://zanata.org/>`_. GLPI samotné a mnoho existujících zásuvných modulů "
 "je nyní překládáno na  Transifex."
 
-#: ../../source/empty/index.rst:166
+#: ../../source/empty/index.rst:170
 msgid ""
 "Once you get your updated ``PO`` files, you'll have to compile them to "
 "``MO`` files. You can run it manually, the release script will compile them "
@@ -391,11 +397,11 @@ msgstr ""
 "souborů. Můžete to spustit ručně, skript pro vydávání je zkompiluje i tak; "
 "viz :ref:`sekce kompilace MO souborů <compile_mo>`."
 
-#: ../../source/empty/index.rst:171
+#: ../../source/empty/index.rst:175
 msgid "Release script"
 msgstr "Script pro vydání"
 
-#: ../../source/empty/index.rst:173
+#: ../../source/empty/index.rst:177
 msgid ""
 "A release script is provided in ``vendor/bin/plugin-release``. This is a "
 "\"simple\" `Python <http://python.org>`_ script; you should just have Python"
@@ -407,15 +413,13 @@ msgstr ""
 "Python (ve většině linuxových distribucí je ve výchozím stavu "
 "nainstalovaný)."
 
-#: ../../source/empty/index.rst:177
+#: ../../source/empty/index.rst:181
 msgid ""
-"Note that for the moment, the release script is only compatible if you use "
-"semantic versionning!"
+"Note that the release script is only compatible if you use semantic "
+"versionning!"
 msgstr ""
-"Mějte na paměti, že skripty pro vydání jsou kompatibilní pouze pokud "
-"používáte sémantické schéma číslování verzí!"
 
-#: ../../source/empty/index.rst:179
+#: ../../source/empty/index.rst:183
 msgid ""
 "Using just the defaults, the script will try to retrieve the latest tag in "
 "your git repository, add third party dependencies and create a `Release` on "
@@ -425,26 +429,26 @@ msgstr ""
 "vašem git repozitáři, přidat potřebné součásti od třetích stran a vytvořit "
 "`Vydání` na github projektu:"
 
-#: ../../source/empty/index.rst:192
+#: ../../source/empty/index.rst:196
 msgid "Requirements"
 msgstr "Požadavky"
 
-#: ../../source/empty/index.rst:194
+#: ../../source/empty/index.rst:198
 msgid ""
 "You will need a python interpreter installed as well as the following "
 "modules:"
 msgstr ""
 "Je třeba mít nainstalovaný interpret jazyka python a následující moduly:"
 
-#: ../../source/empty/index.rst:196
+#: ../../source/empty/index.rst:200
 msgid "`termcolor <https://pypi.python.org/pypi/termcolor>`_,"
 msgstr "`termcolor <https://pypi.python.org/pypi/termcolor>`_,"
 
-#: ../../source/empty/index.rst:197
+#: ../../source/empty/index.rst:201
 msgid "`gitdb <https://github.com/gitpython-developers/gitdb>`_,"
 msgstr "`gitdb <https://github.com/gitpython-developers/gitdb>`_,"
 
-#: ../../source/empty/index.rst:198
+#: ../../source/empty/index.rst:202
 msgid ""
 "`github <https://github.com/PyGithub/PyGithub>`_ (to check for existing "
 "versions in also in drafts, and to create github releases), unless you use "
@@ -454,7 +458,7 @@ msgstr ""
 "verzí také v konceptech, a vytvoření github vydání), pokud nepoužijete volbu"
 " ``--nogithub``"
 
-#: ../../source/empty/index.rst:200
+#: ../../source/empty/index.rst:204
 msgid ""
 "If you want to get help on the script, try to run ``./vendor/bin/plugin-"
 "release -h``."
@@ -462,20 +466,20 @@ msgstr ""
 "Pro zobrazení nápovědy ke scriptu ho spusťte takto ``./vendor/bin/plugin-"
 "release -h``."
 
-#: ../../source/empty/index.rst:203
+#: ../../source/empty/index.rst:207
 msgid "Process"
 msgstr "Proces"
 
-#: ../../source/empty/index.rst:205
+#: ../../source/empty/index.rst:209
 msgid "The release process will achieve the following tasks for you:"
 msgstr "Proces vydání pro vás udělá následující úkoly:"
 
-#: ../../source/empty/index.rst:207
+#: ../../source/empty/index.rst:211
 msgid "check if the version constant is the same as the tag you've requested;"
 msgstr ""
 "zkontrolovat zda je konstanta verze stejná jako štítek který požadujete;"
 
-#: ../../source/empty/index.rst:208
+#: ../../source/empty/index.rst:212
 msgid ""
 "check if the version in the website XML file is the same as the tag you've "
 "requested;"
@@ -483,7 +487,7 @@ msgstr ""
 "zkontrolovat zda verze v XML souboru této webové stránky je stejná jako "
 "štítek který požadujete;"
 
-#: ../../source/empty/index.rst:209
+#: ../../source/empty/index.rst:213
 msgid ""
 "check if a release already exists, locally, and remotely (assuming your "
 "project is hosted in the *pluginsGLPI* organization and the release is "
@@ -492,7 +496,7 @@ msgstr ""
 "zkontrolujte zda vydání už existuje, místně a vzdáleně (předpokládejme že "
 "projekt je hostován v organizaci *pluginsGLPI* a vydání je veřejné);"
 
-#: ../../source/empty/index.rst:210
+#: ../../source/empty/index.rst:214
 msgid ""
 "make a `git archive` of the paths that are not excluded (``.git``, "
 "``tools``, ``tests``, ...);"
@@ -500,15 +504,15 @@ msgstr ""
 "udělejte `git archive` umístění která nejsou vynechány (``.git``, ``tools``,"
 " ``tests``, …);"
 
-#: ../../source/empty/index.rst:211
+#: ../../source/empty/index.rst:215
 msgid "if any, install composer dependencies;"
 msgstr "pokud nějaké, nainstalujte součásti, které composer potřebuje;"
 
-#: ../../source/empty/index.rst:212
+#: ../../source/empty/index.rst:216
 msgid "if any, compile you ``MO`` files;"
 msgstr "pokud nějaké, zkompilujte své ``MO`` soubory;"
 
-#: ../../source/empty/index.rst:213
+#: ../../source/empty/index.rst:217
 msgid ""
 "if any, compile you CSS stylesheets and your Javascript files (using "
 "`Robo.li <http://robo.li>`_);"
@@ -516,7 +520,7 @@ msgstr ""
 "pokud nějaké, zkompilujte své tabulky CSS stylů a soubory Javascript (pomocí"
 " `Robo.li <http://robo.li>`_);"
 
-#: ../../source/empty/index.rst:214
+#: ../../source/empty/index.rst:218
 msgid ""
 "create a release archive with all that; that will be available in the "
 "``dist`` directory;"
@@ -524,11 +528,11 @@ msgstr ""
 "vytvořte archiv s vydáním, obsahující toto vše; který bude k dispozici ve "
 "složce ``dist``;"
 
-#: ../../source/empty/index.rst:215
+#: ../../source/empty/index.rst:219
 msgid "use GPG to sign the archive."
 msgstr "podepsat archiv pomocí GPG"
 
-#: ../../source/empty/index.rst:219
+#: ../../source/empty/index.rst:223
 msgid ""
 "The standard release process will not work on your files directly, it will "
 "make a copy in the ``dist/src`` directory before. The only exception is the "
@@ -538,7 +542,7 @@ msgstr ""
 "před tím kopii složky v ``dist/src``. Jedinou výjimkou je :ref:`volba "
 "kompilace MO <compile_mo>`."
 
-#: ../../source/empty/index.rst:221
+#: ../../source/empty/index.rst:225
 msgid ""
 "In order to check if all is OK before doing real release; create your tag "
 "and run ``./vendor/bin/plugin-release -C`` **before pushing your tag**. That"
@@ -550,11 +554,11 @@ msgstr ""
 " způsobem bude schopní opravit případné problémy a znovuvytvořit štítek "
 "místně (pamatujte, že zveřejněné štítky by **nikdy** neměly být odebírány)."
 
-#: ../../source/empty/index.rst:226
+#: ../../source/empty/index.rst:230
 msgid "Compiling MO files"
 msgstr "Kompilace MO souborů"
 
-#: ../../source/empty/index.rst:228
+#: ../../source/empty/index.rst:232
 msgid ""
 "The release process will automatically compile every ``PO`` file it will "
 "found in your ``locales`` directory. But you probably want the sources to "
@@ -566,7 +570,7 @@ msgstr ""
 "kódy obsahovaly nejnovější ``MO`` soubory. Skript pro vydávání pro toto "
 "nabízí volbu ``--compile-mo`` (nebo ``-m``):"
 
-#: ../../source/empty/index.rst:236
+#: ../../source/empty/index.rst:240
 msgid ""
 "The above command will work on your plugins files directly; not on a copy as"
 " does other commands."
@@ -574,11 +578,11 @@ msgstr ""
 "Výše uvedený příkaz bude fungovat pouze přímo na souborech vašeho zásuvného "
 "modulu; nikoli na kopii jako ostatní příkazy."
 
-#: ../../source/empty/index.rst:239
+#: ../../source/empty/index.rst:243
 msgid "Pre-releases"
 msgstr "Předběžná vydání"
 
-#: ../../source/empty/index.rst:241
+#: ../../source/empty/index.rst:245
 msgid ""
 "Per default, the release script will work only on existing tags. Any pre-"
 "release should have its own tag; but you may want to create a release "
@@ -588,18 +592,18 @@ msgstr ""
 "štítcích. Jakékoli předběžné vydání by mělo mít svůj štítek; ale v některých"
 " případech může být třeba vytvořit archiv vydání bez jakýchkoli štítků."
 
-#: ../../source/empty/index.rst:243
+#: ../../source/empty/index.rst:247
 msgid ""
 "In order to tell the release script what it should archive, you'll have to "
 "specify several parameters:"
 msgstr ""
 "Co umístit do archivu se skriptu pro vydávání zadává několika parametry:"
 
-#: ../../source/empty/index.rst:245
+#: ../../source/empty/index.rst:249
 msgid "``--commit`` (or ``-c``) giving the commit hash,"
 msgstr "``--commit`` (nebo ``-c``) dávající otisk příspěvku,"
 
-#: ../../source/empty/index.rst:246
+#: ../../source/empty/index.rst:250
 msgid ""
 "``--release`` (or ``-r``) giving the release version (usually, it will be "
 "the next release version),"
@@ -607,7 +611,7 @@ msgstr ""
 "``--release`` (nebo ``-r``) dávající verzi vydání (obvykle to bude další "
 "verze vydání),"
 
-#: ../../source/empty/index.rst:247
+#: ../../source/empty/index.rst:251
 msgid ""
 "``--extra`` (or ``-e``) to specify an extra string (such as *alpha*, *beta*,"
 " *rc1*, etc...)"
@@ -615,15 +619,15 @@ msgstr ""
 "``--extra`` (nebo ``-e``) pro zadání dalšího řetězce (jako třeba *alpha*, "
 "*beta*, *rc1*, atd…)"
 
-#: ../../source/empty/index.rst:249
+#: ../../source/empty/index.rst:253
 msgid "As an example with the *order* plugin:"
 msgstr "Jako příklad se zásuvným modulem *objednávky*:"
 
-#: ../../source/empty/index.rst:258
+#: ../../source/empty/index.rst:262
 msgid "Signing releases"
 msgstr "Podepisování vydání"
 
-#: ../../source/empty/index.rst:260
+#: ../../source/empty/index.rst:264
 msgid ""
 "Signing releases with a GPG key would permit users to check download "
 "integrity before installing. You'll need a GPG key publically available to "
@@ -635,7 +639,7 @@ msgstr ""
 "volba podepisování je ve výchozím stavu zapnutá, je možné ji vypnout pomocí "
 "volby ``--nosign`` (nebo ``-S``)."
 
-#: ../../source/empty/index.rst:262
+#: ../../source/empty/index.rst:266
 msgid ""
 "A file containing the signature with the same name as the archive with a "
 "``.asc`` extension will be created in the ``dist`` directory."
@@ -643,11 +647,11 @@ msgstr ""
 "Ve složce ``dist`` bude vytvořen soubor obsahující podpis se stejným názvem "
 "jako archiv s příponou ``.asc``."
 
-#: ../../source/empty/index.rst:265
+#: ../../source/empty/index.rst:269
 msgid "GitHub release"
 msgstr "GitHub vydání"
 
-#: ../../source/empty/index.rst:267
+#: ../../source/empty/index.rst:271
 msgid ""
 "The release script will create a release on your GitHub repository, as a "
 "draft, unless you use ``--nogithub`` (or ``-g``) option."
@@ -655,7 +659,7 @@ msgstr ""
 "Skript pro vydání vytvoří vydání ve vašem GitHub repozitáři, jako koncept, "
 "pokud nepoužijete volbu ``--nogithub`` (nebo ``-g``)."
 
-#: ../../source/empty/index.rst:271
+#: ../../source/empty/index.rst:275
 msgid ""
 "Unfortunately, I was not able to get the newly created archive uploaded to "
 "this new release... Maybe that could be fixed in the future."
@@ -663,7 +667,7 @@ msgstr ""
 "Žel nebylo možné získat nově vytvořený archiv nahraný do tohoto nového "
 "vydání… Snad toto bude opraveno v budoucnu."
 
-#: ../../source/empty/index.rst:273
+#: ../../source/empty/index.rst:277
 msgid ""
 "In order to use this feature, you will need the `github "
 "<https://github.com/PyGithub/PyGithub>`_ installed; and you will need an "
@@ -675,7 +679,7 @@ msgstr ""
 "klíč. Přístupový token je platný pro konkrétního uživatele a dává přístup do"
 " všech repozitářů."
 
-#: ../../source/empty/index.rst:275
+#: ../../source/empty/index.rst:279
 msgid ""
 "You'll have to go to your `github account settings page, in the personnal "
 "access token tab <https://github.com/settings/tokens>`_. Click on *generate "
@@ -689,13 +693,73 @@ msgstr ""
 "(není třeba zaškrtávat cokoli jiného, je možné vytvořit více přístupových "
 "tokenů, pokud je to třeba)."
 
-#: ../../source/empty/index.rst:277
+#: ../../source/empty/index.rst:281
 msgid ""
 "The token will be displayed only once; store it in the ``.gh_token`` file in"
 " your plugin directory; and that's all!"
 msgstr ""
 "Token bude zobrazen pouze jednou; uložte ho do souboru ``.gh_token`` ve "
 "složce se zásuvným modulem; a je to!"
+
+#: ../../source/empty/index.rst:284
+msgid "Excluding files"
+msgstr ""
+
+#: ../../source/empty/index.rst:286
+msgid ""
+"You can create a ``.ignore-release`` file at the root of your plugin and "
+"list here files and directories you want to explicitely exclude from the "
+"release archive. Write one `expression "
+"<https://docs.python.org/2/library/re.html>`_ per line"
+msgstr ""
+
+#: ../../source/empty/index.rst:293
+msgid "Some files will automatically be excluded:"
+msgstr ""
+
+#: ../../source/empty/index.rst:295
+msgid ".git*,"
+msgstr ""
+
+#: ../../source/empty/index.rst:296
+msgid ".gh_token"
+msgstr ""
+
+#: ../../source/empty/index.rst:297
+msgid ".tx/"
+msgstr ""
+
+#: ../../source/empty/index.rst:298
+msgid "tools/"
+msgstr ""
+
+#: ../../source/empty/index.rst:299
+msgid "tests/"
+msgstr ""
+
+#: ../../source/empty/index.rst:300
+msgid ".atoum.php"
+msgstr ""
+
+#: ../../source/empty/index.rst:301
+msgid ".travis.yml"
+msgstr ""
+
+#: ../../source/empty/index.rst:302
+msgid ".circleci/"
+msgstr ""
+
+#: ../../source/empty/index.rst:303
+msgid ".ignore-release"
+msgstr ""
+
+#: ../../source/empty/index.rst:304
+msgid "composer.lock"
+msgstr ""
+
+#: ../../source/empty/index.rst:305
+msgid "Robofile.php"
+msgstr ""
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
