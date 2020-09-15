@@ -20,6 +20,7 @@ A target ticket generates a ticket.
 .. image:: images/target_ticket_creation.png
 
 The ticket is build from scratch or from a ticket template available in GLPI. You may
+
 * customize the name of the target ticket to distinguish it from possible other targets,
 * customize the title and description of the ticket using questions and answers,
 * set tne destination entity of the generated ticket,
@@ -123,6 +124,7 @@ A target change generates a change
 .. image:: images/target_change_creation.png
 
 The change is built from scratch. You may
+
 * customize the title, description, imapct, control list, deployment path, backup plan and checklist fields using questions and answers,
 * set the urgency from a value or a question
 * choose the entity of the change among many policies
