@@ -205,10 +205,10 @@ This field allows you to create a dropdown list with objects from a LDAP directo
 
  .. image:: images/ldap_form.png
 
-Multiselect
-^^^^^^^^^^^
+Multiselect (multiple choice)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This feild allows you to create a dropdown list with ability to select multiple items. Values are added one per line in the field **Values**. You may set default values, one per line in *Default values**. If no default value is set then no item will selected by default.
+This field allows you to create a dropdown list with ability to select multiple items. Values are added one per line in the field **Values**. You may set default values, one per line in *Default values**. If no default value is set then no item will selected by default.
 
 Radio buttons (one choice only)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
