@@ -400,23 +400,3 @@ Additional optioins may be displayed depending on the currently selected questio
 If validation of the input is desired, it can be implemented following `PHP Regular Expressions <http://php.net/manual/reference.pcre.pattern.syntax.php>`_.
 
 If you want to show or hide questions depending on the answers of other questions, use the *show fields* area when editing a question. In the version 2.5.0 you may use more complex expressions checking for the content of several questions, and use logic operator **OR** and **AND**. The precedence of boolean operators applies, meaning that **AND** has precedence over **OR**.
-
-Helpdesk
---------
-
-The plugin can provide its own design for helpdesk.
-
-To enable it, edit an entity, open the `Forms` tab and set the field `Helpdesk mode` to `Service catalog simplified` or `Service catalog extended`. This setting handles inheritance from parent entity to children entities.
-
-Users using the simplified interface will benefit a new interface allowing them to:
-
-* browse forms and FAQ with the unified interface
-* follow the process of their requests
-* book assets
-* view their feeds
-
-Users using the extended interface have a more complete view on their requests.
-
-Forms with `Direct access on homepage` enabled and `FAQ items` in the `Knowledge base` will will appear in the interface. Users may search by browsing the categories on the left of the screen, and may also search for forms or FAQ with a natural language search engine.
-
-FAQ items needs to be associated to knowledge base categories. The knowledge base categories must be associated to form categories (available in `Setup > Dropdowns : Forms > Form categories`) to show their content.
