@@ -9,10 +9,7 @@ This user manual applies to version 2.5 of the GLPI Generic Object Plugin.
 Requirements
 ------------
 
-This plugin requires :
-
-* PHP 5.3 or higher
-* GLPI >= 9.2
+Please refer to `plugin page <https://plugins.glpi-project.org/#/plugin/genericobject>`.
 
 Features
 --------
