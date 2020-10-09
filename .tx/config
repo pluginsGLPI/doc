@@ -117,3 +117,8 @@ source_lang = en
 file_filter = source/locale/<lang>/LC_MESSAGES/formcreator/targets.po
 source_file = build/locale/formcreator/targets.pot
 source_lang = en
+
+[glpi-plugins-documentation.oauthimap]
+file_filter = source/locale/<lang>/LC_MESSAGES/oauthimap/index.po
+source_file = build/locale/oauthimap/index.pot
+source_lang = en
