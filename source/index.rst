@@ -30,3 +30,4 @@ You'll find here user documentation for various `GLPI <http://glpi-project.org>`
    uninstall/index
    formcreator/index
    datainjection/index
+   oauthimap/index
