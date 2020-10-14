@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-31 07:27+0100\n"
+"POT-Creation-Date: 2020-06-30 08:58+0200\n"
 "PO-Revision-Date: 2016-12-20 09:45+0000\n"
 "Language-Team: Spanish (Latin America) (https://www.transifex.com/teclib/teams/28042/es_419/)\n"
 "MIME-Version: 1.0\n"
@@ -32,12 +32,6 @@ msgstr ""
 #: ../../source/formcreator/index.rst:7
 msgid ""
 "FormCreator is a plugin which allow creation of custom forms of easy access."
-msgstr ""
-
-#: ../../source/formcreator/index.rst:9
-msgid ""
-"At the same time, the plugin allow the creation of one or more tickets when "
-"the form is filled."
 msgstr ""
 
 #: ../../<rst_epilog>:2

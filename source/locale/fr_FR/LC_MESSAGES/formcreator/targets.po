@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-31 07:27+0100\n"
+"POT-Creation-Date: 2020-10-09 13:49+0200\n"
 "PO-Revision-Date: 2017-02-09 07:26+0000\n"
 "Language-Team: French (France) (https://www.transifex.com/teclib/teams/28042/fr_FR/)\n"
 "MIME-Version: 1.0\n"
@@ -54,41 +54,303 @@ msgstr ""
 #: ../../source/formcreator/targets.rst:22
 msgid ""
 "The ticket is build from scratch or from a ticket template available in "
-"GLPI. You may * customize the title and description of the ticket using "
-"questions and answers, * set a due date, * set the urgency from a value or a"
-" question, * choose the entity of the ticket among many policies, * assign "
-"tags to the ticket if the plugin `Tags` is available, * define actors of the"
-" ticket. * set  the category of the ticket"
+"GLPI. You may"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:24
+msgid ""
+"customize the name of the target ticket to distinguish it from possible "
+"other targets,"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:25
+msgid ""
+"customize the title and description of the ticket using questions and "
+"answers,"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:26
+msgid "set tne destination entity of the generated ticket,"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:27
+msgid "set a time to resomve (formerly due date),"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:28
+msgid "set the type of ticket (request or incident),"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:29
+msgid "set the associated elements,"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:30
+msgid "set the category,"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:31
+msgid "set the urgency,"
 msgstr ""
 
 #: ../../source/formcreator/targets.rst:32
-msgid ""
-"Setting an urgency from a question overrides the urgency defined in a ticket"
-" template (if any)"
+msgid "set the location,"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:33
+msgid "assign tags to the ticket if the plugin `Tags` is available,"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:34
+msgid "link the generated ticket to other tickets"
 msgstr ""
 
 #: ../../source/formcreator/targets.rst:35
+msgid "define actors of the ticket."
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:36
+#: ../../source/formcreator/targets.rst:134
+msgid "define conditions to meet to generate the target ticket"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:39
 msgid ""
-"Setting a category from a question overrides the category defined in a "
-"ticket template (if any)"
+"Setting an urgency, a category or a location (specific or from a question) "
+"overrides the urgency defined in a ticket template (if any)"
 msgstr ""
 
-#: ../../source/formcreator/targets.rst:38
-msgid "Target change"
-msgstr ""
-
-#: ../../source/formcreator/targets.rst:40
-msgid "A target change generates a change"
+#: ../../source/formcreator/targets.rst:42
+msgid "Destination entity"
 msgstr ""
 
 #: ../../source/formcreator/targets.rst:44
+msgid "Many choices are avaialble:"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:46
+msgid "Current active entity: the entity of the requester who fills a form,"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:47
 msgid ""
-"The change is built from scratch. You may * customize the title, "
-"description, imapct, control list, deployment path, backup plan and "
-"checklist fields using questions and answers, * set the urgency from a value"
-" or a question * choose the entity of the change among many policies * set "
-"the time to resolve * define  the actors of the change * * set  the category"
-" of the change"
+"Default requester's entity: the default entity defined for the user who "
+"fills the form,"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:48
+msgid ""
+"First dynamic requester's entity (alphabetical): sorts all dynamic entities "
+"of the requester alphabetically and selects the first one,"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:49
+msgid ""
+"Last dynamic requester's entity (alphabetical): sorts all dynamic entities "
+"of the requester alphabetically and selects the last one,"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:50
+msgid ""
+"The form's entity: the entity where is located the form being filled by the "
+"requester,"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:51
+msgid ""
+"Default entity of the validator: the default entity of the validator who "
+"validates the request,"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:52
+msgid "Specific entity: an entity set by the form's designer,"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:53
+msgid ""
+"Default entity of a user type question answer: the default entity of a user "
+"choosen by the requester in a question."
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:54
+msgid ""
+"From a GLPI object > Entity type question answer: the entity choosen by the "
+"requester from a question."
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:57
+msgid ""
+"Default requester's entity may be not set, then there is a risk to generate "
+"tickets in the root entity."
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:60
+msgid ""
+"Default entity of the validator may be not set, then there is a risk to "
+"generate tickets in the root entity."
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:63
+msgid ""
+"Dynamic requester's entity requires user synchronization, then there is a "
+"risk to generate tickets in the root entity."
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:66
+msgid "Ticket template"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:68
+msgid ""
+"Sets predefined setings for the ticket from a template. All settings defined"
+" in the target ticket will override the values found in the template."
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:71
+msgid "Request type"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:73
+msgid "Sets the type of the generated ticket"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:75
+msgid ""
+"Default or from a template: value set by GLPI when no type is set, or from a"
+" template, if any and if this template defiines a type"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:76
+msgid "Specific type: either request or incident,"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:77
+msgid ""
+"Equals to the answer to the question: the value is  set from a request type "
+"question."
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:80
+msgid "Associated elements"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:82
+msgid "Sets associated elements to the generated ticket"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:84
+msgid ""
+"None : self explanatory, Specific asset: an asset set by the designer of the"
+" form, Equals to the answer to a question: an asset set by the requester, "
+"from a question Last valid answer: an asset set by the requester, from the "
+"last visible question eligible for this purpose"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:90
+msgid "Category"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:92
+msgid "Sets the category of the generated ticket"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:94
+msgid ""
+"Category fro template or none: sets the category from a template if any and "
+"if this template has a predefined category. None in all other cases,"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:95
+msgid "Specific category: a category set by the form's designer,"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:96
+#: ../../source/formcreator/targets.rst:104
+#: ../../source/formcreator/targets.rst:111
+msgid ""
+"Equals to the answer to a question: a category choosen by the requester,"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:97
+msgid ""
+"lastr valid answer: a category from the last visible question of type "
+"category,"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:100
+msgid "Urgency"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:102
+msgid ""
+"Urgency fro template or none: sets the urgency from a template if any and if"
+" this template has a predefined urgency. None in all other cases,"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:103
+msgid "Specific urgency: an urgency set by the form's designer"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:107
+msgid "Location"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:109
+msgid ""
+"Location fro template or none: sets the location from a template if any and "
+"if this template has a predefined loation. None in all other cases,"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:110
+msgid "Specific location: a location set by the form's designer"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:114
+msgid "Condition to show the target"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:116
+msgid ""
+"The form's designer may restrict creation of the ticket depending on "
+"conditions."
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:120
+msgid "Target change"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:122
+msgid "A target change generates a change"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:126
+msgid "The change is built from scratch. You may"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:128
+msgid ""
+"customize the title, description, imapct, control list, deployment path, "
+"backup plan and checklist fields using questions and answers,"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:129
+msgid "set the urgency from a value or a question"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:130
+msgid "choose the entity of the change among many policies"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:131
+msgid "set the time to resolve"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:132
+msgid "define the actors of the change"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:133
+msgid "set the category of the change"
 msgstr ""
 
 #: ../../<rst_epilog>:2

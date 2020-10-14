@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# David Stepan <stepand@tiscali.cz>, 2020
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-31 07:27+0100\n"
+"POT-Creation-Date: 2020-06-30 08:58+0200\n"
 "PO-Revision-Date: 2020-01-24 08:41+0000\n"
+"Last-Translator: David Stepan <stepand@tiscali.cz>, 2020\n"
 "Language-Team: Czech (Czech Republic) (https://www.transifex.com/teclib/teams/28042/cs_CZ/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,35 +23,35 @@ msgstr ""
 
 #: ../../source/uninstall/index.rst:2
 msgid "Uninstall"
-msgstr ""
+msgstr "Odinstalovat"
 
 #: ../../source/uninstall/index.rst:4
 msgid "Sources link: https://github.com/pluginsGLPI/uninstall"
-msgstr ""
+msgstr "Zdrojový odkaz: https://github.com/pluginsGLPI/uninstall"
 
 #: ../../source/uninstall/index.rst:5
 msgid "Download: https://github.com/pluginsGLPI/uninstall/releases"
-msgstr ""
+msgstr "Stažení: https://github.com/pluginsGLPI/uninstall/releases"
 
 #: ../../source/uninstall/index.rst:8
 msgid "Requirements for latest version"
-msgstr ""
+msgstr "Požadavky pro poslední verzi"
 
 #: ../../source/uninstall/index.rst:10
 msgid "This plugin requires :"
-msgstr ""
+msgstr "Tento zásuvný modul vyžaduje :"
 
 #: ../../source/uninstall/index.rst:12
 msgid "PHP 7.2 or higher"
-msgstr ""
+msgstr "PHP 7.2 nebo vyšší"
 
 #: ../../source/uninstall/index.rst:13
 msgid "GLPI >= 9.4"
-msgstr ""
+msgstr "GLPI >= 9.4"
 
 #: ../../source/uninstall/index.rst:17
 msgid "Features"
-msgstr ""
+msgstr "Funkce"
 
 #: ../../source/uninstall/index.rst:18
 msgid ""
@@ -61,6 +65,8 @@ msgid ""
 "It allows to manage the different stages of the life cycle of a hardware. It"
 " has been designed, among other things, to handle the following cases:"
 msgstr ""
+"Umožňuje spravovat různé fáze životního cyklu hardwaru. Byl navržen mimo "
+"jiné pro řešení následujících případů:"
 
 #: ../../source/uninstall/index.rst:23
 msgid "scrapping of equipment"
@@ -68,7 +74,7 @@ msgstr ""
 
 #: ../../source/uninstall/index.rst:24
 msgid "removal from inventory of temporary equipment due to breakdown"
-msgstr ""
+msgstr "odstranění dočasného zařízení z inventáře z důvodu poruchy"
 
 #: ../../source/uninstall/index.rst:25
 msgid ""
@@ -78,7 +84,7 @@ msgstr ""
 
 #: ../../source/uninstall/index.rst:27
 msgid "Once installed, the plugin includes :"
-msgstr ""
+msgstr "Po instalaci zásuvný modul obsahuje:"
 
 #: ../../source/uninstall/index.rst:29
 msgid ""
@@ -96,13 +102,15 @@ msgstr ""
 
 #: ../../source/uninstall/index.rst:35
 msgid "Right managment"
-msgstr ""
+msgstr "Správa oprávnění"
 
 #: ../../source/uninstall/index.rst:37
 msgid ""
 "It is possible to deny access to the plugin or to allow it by specifying the"
 " read or write option on the templates."
 msgstr ""
+"Je možné zakázat přístup k zásuvnému modulu nebo jej povolit zadáním "
+"možnosti čtení nebo zápisu na šablonách."
 
 #: ../../source/uninstall/index.rst:39
 msgid ""
@@ -129,7 +137,7 @@ msgstr ""
 
 #: ../../source/uninstall/index.rst:50
 msgid "Uninstall feature"
-msgstr ""
+msgstr "Odinstalace funkce"
 
 #: ../../source/uninstall/index.rst:52
 msgid ""
@@ -137,6 +145,9 @@ msgid ""
 "of modifying the value of certain fields and of removing the inventory of a "
 "computer of the OCS base or the cleaning of the FusionInventory tables."
 msgstr ""
+"Tato funkce zásuvného modulu „Odinstalace položky“ přidává možnost úpravy "
+"hodnoty určitých polí a odebrání počítače z inventáře OCS nebo čištění "
+"tabulek FusionInventory."
 
 #: ../../source/uninstall/index.rst:54
 msgid ""
@@ -149,6 +160,9 @@ msgid ""
 "You can create as many uninstall templates as you want. Each template can "
 "contain different features, and be visible in the sub-entities or not."
 msgstr ""
+"Můžete vytvořit libovolný počet odinstalačních šablon. Každá šablona může "
+"obsahovat různé funkce a být viditelná nebo neviditelná v podřízených "
+"entitách."
 
 #: ../../source/uninstall/index.rst:59
 msgid ""
@@ -166,12 +180,16 @@ msgid ""
 "*Sub-entities*: indicates whether the template is visible in the creation "
 "entity and its sub-entities"
 msgstr ""
+"* Podřízené entity *: označuje, zda je šablona viditelná ve vytvářené entitě"
+" a jejích podřízených entitách"
 
 #: ../../source/uninstall/index.rst:65
 msgid ""
 "*Model type*: indicates which type of model should be used (either Uninstall"
 " or Replace)"
 msgstr ""
+"* Typ modelu *: označuje, jaký typ modelu by měl být použit (odinstalovat "
+"nebo nahradit)"
 
 #: ../../source/uninstall/index.rst:66
 msgid "*Comments*: free fields to add details about the model"
@@ -188,6 +206,8 @@ msgid ""
 "*New hardware status*: indicates which status the hardware should take once "
 "uninstalled"
 msgstr ""
+"* Nový stav hardwaru *: označuje stav, který by měl hardware po odinstalaci "
+"mít"
 
 #: ../../source/uninstall/index.rst:69
 msgid ""
@@ -209,6 +229,8 @@ msgstr ""
 msgid ""
 "*RAZ Contact* : removes the contact reassembled by OCS during uninstallation"
 msgstr ""
+"* RAZ Contact *: odstraní kontakt znovu sestavený pomocí OCS během "
+"odinstalace"
 
 #: ../../source/uninstall/index.rst:75
 msgid ""
@@ -221,10 +243,12 @@ msgid ""
 "*RAZ OS*: Removes OS information (OS, Version, Service Pack, Product Key, "
 "Product ID) when uninstalling."
 msgstr ""
+"* RAZ OS *: Při odinstalování odebere informace o OS (OS, Verze, Service "
+"Pack, Product Key, ID produktu)."
 
 #: ../../source/uninstall/index.rst:77
 msgid "*RAZ domain* : removes the \"domain\" field from the hardware"
-msgstr ""
+msgstr "* RAZ doména *: odstraní pole „doména“ z hardwaru"
 
 #: ../../source/uninstall/index.rst:78
 msgid ""
@@ -243,10 +267,12 @@ msgid ""
 "*Delete FusionInventory info*: Delete all FusionInventory info for this "
 "material"
 msgstr ""
+"* Smazat informace FusionInventory *: Smazat všechny informace "
+"FusionInventory pro tento materiál"
 
 #: ../../source/uninstall/index.rst:86
 msgid "Uninstall hardware"
-msgstr ""
+msgstr "Odinstalace hardware"
 
 #: ../../source/uninstall/index.rst:88
 msgid "There are 2 possibilities to uninstall a hardware:"
@@ -270,7 +296,7 @@ msgstr ""
 
 #: ../../source/uninstall/index.rst:98
 msgid "Change of location on uninstallation"
-msgstr ""
+msgstr "Změna umístění při odinstalaci"
 
 #: ../../source/uninstall/index.rst:102
 msgid ""
@@ -295,17 +321,19 @@ msgstr ""
 
 #: ../../source/uninstall/index.rst:113
 msgid "Replace feature"
-msgstr ""
+msgstr "Vyměnit funkci"
 
 #: ../../source/uninstall/index.rst:115
 msgid ""
 "This feature of the 'Item Uninstallation' plugin adds the possibility to "
 "replace one hardware by another."
 msgstr ""
+"Tato funkce pluginu „Odinstalace položky“ přidává možnost nahradit jeden "
+"hardware jiným."
 
 #: ../../source/uninstall/index.rst:120
 msgid "Replacement Model Form"
-msgstr ""
+msgstr "Náhradní vzorový formulář"
 
 #: ../../source/uninstall/index.rst:123
 msgid ""
@@ -314,6 +342,10 @@ msgid ""
 "can contain different characteristics, and be visible in the sub-entities or"
 " not."
 msgstr ""
+"Náhradní modely jsou spravovány stejným způsobem jako modely odinstalace: "
+"Jsou dostupné v nabídce „Správa> Odinstalovat hardware“. Každý model může "
+"obsahovat odlišné charakteristiky a být viditelný nebo neviditelný v "
+"podřízených entitách."
 
 #: ../../source/uninstall/index.rst:127
 msgid ""
@@ -322,6 +354,10 @@ msgid ""
 " actions to be performed when replacing one piece of equipment with another."
 " * All: displays all the tabs on the same page"
 msgstr ""
+"V tomto formuláři jsou 4 karty: * Hlavní: umožňuje na stránce zobrazit pouze"
+" hlavní informace o šabloně. * Výměna dat: zobrazuje různé akce, které je "
+"třeba provést při výměně jednoho zařízení za jiné. * Vše: zobrazí všechny "
+"karty na stejné stránce"
 
 #: ../../source/uninstall/index.rst:134
 msgid "Here is the description of the fields of the main tab :"
@@ -339,7 +375,7 @@ msgstr ""
 
 #: ../../source/uninstall/index.rst:144
 msgid "Replacing data tab"
-msgstr ""
+msgstr "Výměna karty dat"
 
 #: ../../source/uninstall/index.rst:148
 msgid "Here is the description of the fields of the actions tab."
@@ -360,6 +396,8 @@ msgid ""
 "*Copy the serial number*: Allows you to define if you wish to copy the "
 "serial number of the old equipment to the new one."
 msgstr ""
+"* Kopírovat sériové číslo *: Umožňuje určit, zda si přejete zkopírovat "
+"sériové číslo starého zařízení na nové."
 
 #: ../../source/uninstall/index.rst:155
 msgid ""
@@ -380,13 +418,15 @@ msgstr ""
 
 #: ../../source/uninstall/index.rst:158
 msgid "*Method of archiving old material*"
-msgstr ""
+msgstr "* Metoda archivace starého materiálu *"
 
 #: ../../source/uninstall/index.rst:160
 msgid ""
 "In this option, we define the behavior that the uninstall plugin must adopt "
 "with the old hardware :"
 msgstr ""
+"V této možnosti definujeme chování, které musí mít zásuvný modul Odinstalace"
+" v souvislosti se starým hardwarem:"
 
 #: ../../source/uninstall/index.rst:162
 msgid ""
@@ -402,10 +442,13 @@ msgid ""
 " added in each of the two hardware (\"This hardware has been replaced "
 "by...\" and \"This hardware has replaced the hardware...\")."
 msgstr ""
+"* Vymazání + komentáře *: starý hardware je vložen do koše a do každého z "
+"obou hardwaru je přidán komentář („Tento hardware byl nahrazen ...“ a „Tento"
+" hardware nahradil hardware ...“) ."
 
 #: ../../source/uninstall/index.rst:165
 msgid "*Data location - Connection with other hardware*"
-msgstr ""
+msgstr "* Umístění dat - Připojení k jinému hardwaru *"
 
 #: ../../source/uninstall/index.rst:167
 msgid ""
@@ -439,6 +482,8 @@ msgid ""
 "*Copy the user*: allows you to pass on the user of the old equipment to the "
 "new one. Caution: same remark as for the financial information."
 msgstr ""
+"* Kopírování uživatele *: umožňuje předat uživateli starého zařízení nové "
+"zařízení. Upozornění: stejná poznámka jako u finančních informací."
 
 #: ../../source/uninstall/index.rst:172
 msgid ""
@@ -451,12 +496,16 @@ msgid ""
 "*Copy the tickets*: Allows you to attach the tickets of the old equipment to"
 " the new equipment."
 msgstr ""
+"* Kopírování požadavků *: Umožňuje připojit požadavky starého zařízení k "
+"novému zařízení."
 
 #: ../../source/uninstall/index.rst:174
 msgid ""
 "*Copy network connections*: Allows you to transfer the network connections "
 "from the old hardware to the new hardware."
 msgstr ""
+"* Kopírování síťových připojení *: Umožňuje přenos síťových připojení ze "
+"starého hardwaru na nový hardware."
 
 #: ../../source/uninstall/index.rst:175
 msgid ""
@@ -471,7 +520,7 @@ msgstr ""
 #: ../../source/uninstall/index.rst:182
 msgid ""
 "As well as uninstalling equipment, there are two ways to replace equipment:"
-msgstr ""
+msgstr "Kromě odinstalace zařízení lze zařízení vyměnit také dvěma způsoby:"
 
 #: ../../source/uninstall/index.rst:184
 msgid "from the card of this one, in the tab \"Plugins -> Uninstallation\","
@@ -488,6 +537,10 @@ msgid ""
 "templates available in the current entity (either those defined in this "
 "entity, or in an entity above it and visible in the sub-entities)."
 msgstr ""
+"Protože náhradní šablona může být rekurzivní ( viditelná v podřízených "
+"entitách ), seznam šablon zobrazených v masivních akcích označuje všechny "
+"šablony dostupné v aktuální entitě ( buď šablony definované v této entitě "
+"nebo v entitě nad ní a viditelné ) v podřízených entitách."
 
 #: ../../source/uninstall/index.rst:189
 msgid ""
@@ -525,7 +578,9 @@ msgid ""
 "Note that a location is declared within an entity. It is therefore possible,"
 " depending on the current entity, to define a replacement location."
 msgstr ""
+"Uvědomte si, že umístění je deklarováno uvnitř entity. Je tedy možné v "
+"závislosti na aktuální entitě definovat umístění nahrazením."
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"

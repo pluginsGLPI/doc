@@ -5,17 +5,17 @@
 # 
 # Translators:
 # Pierre <plebel@teclib.com>, 2016
+# Johan Cwiklinski <jcwiklinski@teclib.com>, 2016
 # Nicolas Quiniou-Briand <nqb@azyx.fr>, 2018
-# Johan Cwiklinski <jcwiklinski@teclib.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-30 08:58+0200\n"
+"POT-Creation-Date: 2020-10-09 13:49+0200\n"
 "PO-Revision-Date: 2016-11-02 10:38+0000\n"
-"Last-Translator: Johan Cwiklinski <jcwiklinski@teclib.com>, 2020\n"
+"Last-Translator: Nicolas Quiniou-Briand <nqb@azyx.fr>, 2018\n"
 "Language-Team: French (France) (https://www.transifex.com/teclib/teams/28042/fr_FR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,22 +46,16 @@ msgid "Requirements"
 msgstr "Pré-requis"
 
 #: ../../source/genericobject/index.rst:12
-msgid "This plugin requires :"
-msgstr "Ce plugin requiert:"
-
-#: ../../source/genericobject/index.rst:14
-msgid "PHP 5.3 or higher"
-msgstr "PHP 5.3 ou supérieur"
+msgid ""
+"Please refer to `plugin page <https://plugins.glpi-"
+"project.org/#/plugin/genericobject>`."
+msgstr ""
 
 #: ../../source/genericobject/index.rst:15
-msgid "GLPI >= 9.2"
-msgstr "GLPI >= 9.2"
-
-#: ../../source/genericobject/index.rst:18
 msgid "Features"
 msgstr "Fonctionnalités"
 
-#: ../../source/genericobject/index.rst:20
+#: ../../source/genericobject/index.rst:17
 msgid ""
 "This plugin allows you to add new inventory objects types, integrated into "
 "GLPI framework."
@@ -69,57 +63,57 @@ msgstr ""
 "Ce plugin vous permet d'ajouter de nouveaux type d'objets qui seront "
 "intégrés dans GLPi"
 
-#: ../../source/genericobject/index.rst:22
+#: ../../source/genericobject/index.rst:19
 msgid "It supports following GLPI features:"
 msgstr "Il supporte les fonctionnalités suivantes de GLPi :"
 
-#: ../../source/genericobject/index.rst:24
+#: ../../source/genericobject/index.rst:21
 msgid "entity and sub-entities management;"
 msgstr "gestion des Entités et sous-Entités ;"
 
-#: ../../source/genericobject/index.rst:25
+#: ../../source/genericobject/index.rst:22
 msgid "search;"
 msgstr "recherche ;"
 
-#: ../../source/genericobject/index.rst:26
+#: ../../source/genericobject/index.rst:23
 msgid "templates;"
 msgstr "modèles ;"
 
-#: ../../source/genericobject/index.rst:27
+#: ../../source/genericobject/index.rst:24
 msgid "history;"
 msgstr "historique ;"
 
-#: ../../source/genericobject/index.rst:28
+#: ../../source/genericobject/index.rst:25
 msgid "helpdesk integration;"
 msgstr "intégration dans l'assistance ;"
 
-#: ../../source/genericobject/index.rst:29
+#: ../../source/genericobject/index.rst:26
 msgid "CSV file injection plugin integration;"
 msgstr "intégration dans le plugin d'injection de fichiers CSV :"
 
-#: ../../source/genericobject/index.rst:30
+#: ../../source/genericobject/index.rst:27
 msgid "Item uninstallation plugin integration;"
 msgstr "intégration dans le plugin de désinstallation d'objets ;"
 
-#: ../../source/genericobject/index.rst:31
+#: ../../source/genericobject/index.rst:28
 msgid "order management plugin integration."
 msgstr "intégration dans le plugin de gestion des commandes."
 
-#: ../../source/genericobject/index.rst:34
+#: ../../source/genericobject/index.rst:31
 msgid "Example of usage"
 msgstr "Exemple d'utilisation"
 
-#: ../../source/genericobject/index.rst:36
+#: ../../source/genericobject/index.rst:33
 msgid "**Objective:** Manage your car fleet like the rest of your IT Assets."
 msgstr ""
 "**Objectif :** gérer votre flotte de véhicules de la même manière que le "
 "reste de votre parc."
 
-#: ../../source/genericobject/index.rst:38
+#: ../../source/genericobject/index.rst:35
 msgid "Create a new type of inventory object *car*."
 msgstr "Créer un nouvel objet d'inventaire de type *véhicule*."
 
-#: ../../source/genericobject/index.rst:39
+#: ../../source/genericobject/index.rst:36
 msgid ""
 "Add the accurate fields for a *car*, like: *name*, *serial number*, "
 "*inventory number*, *type*, *model*, *color*, *state*, etc."
@@ -127,7 +121,7 @@ msgstr ""
 "Ajouter les champs adéquats pour un *véhicule*, comme : *nom*, *numéro de "
 "série*, *numéro d'inventaire*, *type*, *modèle*, *couleur*, *état*, etc."
 
-#: ../../source/genericobject/index.rst:40
+#: ../../source/genericobject/index.rst:37
 msgid ""
 "Describe the behaviour of a *car*: visible in subentity, retain history, "
 "etc."
@@ -135,27 +129,27 @@ msgstr ""
 "Décrire le comportement d'un *véhicule* : visible dans les sous entités, "
 "conserver l'historique, etc."
 
-#: ../../source/genericobject/index.rst:41
+#: ../../source/genericobject/index.rst:38
 msgid "Adjust the rights on *cars*."
 msgstr "Ajuster les droits sur *véhicules*."
 
-#: ../../source/genericobject/index.rst:42
+#: ../../source/genericobject/index.rst:39
 msgid "Activate the *cars* object."
 msgstr "Activer l'objet *véhicules*."
 
-#: ../../source/genericobject/index.rst:43
+#: ../../source/genericobject/index.rst:40
 msgid "Manage your collection of *cars* in GLPI."
 msgstr "Gérer votre collection de *véhicules* dans GLPI."
 
-#: ../../source/genericobject/index.rst:48
+#: ../../source/genericobject/index.rst:45
 msgid "Install the Plugin"
 msgstr "Installer le plugin"
 
-#: ../../source/genericobject/index.rst:50
+#: ../../source/genericobject/index.rst:47
 msgid "Uncompress the archive."
 msgstr "Décompresser l'archive."
 
-#: ../../source/genericobject/index.rst:51
+#: ../../source/genericobject/index.rst:48
 msgid ""
 "Move the ``genericobject`` directory to the ``<GLPI_ROOT>/plugins`` "
 "directory"
@@ -163,61 +157,61 @@ msgstr ""
 "Déplacer le répertoire ``genericobject`` dans le répertoire "
 "`<GLPI_ROOT>/plugins``."
 
-#: ../../source/genericobject/index.rst:52
+#: ../../source/genericobject/index.rst:49
 msgid "Navigate to the *Configuration > Plugins* page"
 msgstr "Se rendre sur la page *Configuration > Plugins*"
 
-#: ../../source/genericobject/index.rst:53
+#: ../../source/genericobject/index.rst:50
 msgid "Install and activate the plugin"
 msgstr "Installer et activer le plugin"
 
-#: ../../source/genericobject/index.rst:56
+#: ../../source/genericobject/index.rst:53
 msgid "Usage"
 msgstr "Utilisation"
 
-#: ../../source/genericobject/index.rst:61
+#: ../../source/genericobject/index.rst:58
 msgid "Create a new object type"
 msgstr "Créer un nouveau type d'objet"
 
-#: ../../source/genericobject/index.rst:63
+#: ../../source/genericobject/index.rst:60
 msgid "This is the first step."
 msgstr "Ceci constitue la première étape."
 
-#: ../../source/genericobject/index.rst:65
+#: ../../source/genericobject/index.rst:62
 msgid "Click on the *+* button in  the plugin configuration form."
 msgstr ""
 "Cliquer sur le bouton *+* dans le formulaire de configuration du plugin."
 
-#: ../../source/genericobject/index.rst:66
+#: ../../source/genericobject/index.rst:63
 msgid "Create the new type of inventory object:"
 msgstr "Créer un nouvel objet de type inventaire :"
 
-#: ../../source/genericobject/index.rst:68
+#: ../../source/genericobject/index.rst:65
 msgid "*name*: mandatory, lowercase, and must be composed of letters only;"
 msgstr ""
 "nom* : requis, en minuscules, et doit être composé de lettres uniquement ;"
 
-#: ../../source/genericobject/index.rst:69
+#: ../../source/genericobject/index.rst:66
 msgid "*label*: by default, the same as the name."
 msgstr "*libellé* : par défaut, identique au nom."
 
-#: ../../source/genericobject/index.rst:71
+#: ../../source/genericobject/index.rst:68
 msgid "Validate."
 msgstr "Valider."
 
-#: ../../source/genericobject/index.rst:72
+#: ../../source/genericobject/index.rst:69
 msgid "Activate the new item type to use it."
 msgstr "Activer le nouveau type d'objet pour l'utiliser."
 
-#: ../../source/genericobject/index.rst:74
+#: ../../source/genericobject/index.rst:71
 msgid "**Example:** Create a new type of inventory object *car*."
 msgstr "**Exemple :** créer un nouveau type d'objet d'inventaire *véhicule*."
 
-#: ../../source/genericobject/index.rst:79
+#: ../../source/genericobject/index.rst:76
 msgid "Edit labels"
 msgstr "Modifier les libellés"
 
-#: ../../source/genericobject/index.rst:81
+#: ../../source/genericobject/index.rst:78
 msgid ""
 "For each type, a language file is available in "
 "``<GLPI_ROOT>/files/_plugins/genericobject/locales/itemtype/``"
@@ -225,26 +219,26 @@ msgstr ""
 "Pour chaque type, un fichier de langue est disponible dans "
 "``<GLPI_ROOT>/files/_plugins/genericobject/locales/itemtype/``"
 
-#: ../../source/genericobject/index.rst:83
+#: ../../source/genericobject/index.rst:80
 msgid "The plugin creates :"
 msgstr "Le plugin créé :"
 
-#: ../../source/genericobject/index.rst:85
+#: ../../source/genericobject/index.rst:82
 msgid "a language file for the current language"
 msgstr "un fichier de langue pour la langue courante"
 
-#: ../../source/genericobject/index.rst:86
+#: ../../source/genericobject/index.rst:83
 msgid "a language file for the default GLPI language"
 msgstr "un fichier de langue pour la langue par défaut de GLPI"
 
-#: ../../source/genericobject/index.rst:90
+#: ../../source/genericobject/index.rst:87
 msgid ""
 "If the current and default languages are the same, only one file is created."
 msgstr ""
 "Si la langue courante et la langue par défaut sont identiques, un seul "
 "fichier sera créé."
 
-#: ../../source/genericobject/index.rst:92
+#: ../../source/genericobject/index.rst:89
 msgid ""
 "To change the label of the itemtype, for the english language, edit the "
 "file:"
@@ -252,11 +246,11 @@ msgstr ""
 "Pour modifier le libellé du type d'objet, pour la langue anglaise, éditer le"
 " fichier :"
 
-#: ../../source/genericobject/index.rst:101
+#: ../../source/genericobject/index.rst:98
 msgid "Setup behaviour"
 msgstr "Configuration du comportement"
 
-#: ../../source/genericobject/index.rst:103
+#: ../../source/genericobject/index.rst:100
 msgid ""
 "**Example:** Describe the behaviour of a *car*: visible in subentity, retain"
 " history, etc."
@@ -264,7 +258,7 @@ msgstr ""
 "**Exemple :** décrire le comportement d'un *véhicule* : visible dans les "
 "sous entités, conserver l'historique, etc."
 
-#: ../../source/genericobject/index.rst:105
+#: ../../source/genericobject/index.rst:102
 msgid ""
 "The new type will be managed the same way as the usual GLPI types (computer,"
 " monitor, network device, etc.)"
@@ -272,59 +266,59 @@ msgstr ""
 "Le nouveau type sera géré de la même manière que les types usuels de GLPI "
 "(ordinateurs, moniteurs, matériels réseau, etc.)"
 
-#: ../../source/genericobject/index.rst:109
+#: ../../source/genericobject/index.rst:106
 msgid "All objects are at least assigned to an *entity*"
 msgstr "Tous les objets sont au moins assignés à une *entité*"
 
-#: ../../source/genericobject/index.rst:111
+#: ../../source/genericobject/index.rst:108
 msgid "The Behaviour tab allows you to define:"
 msgstr "L'onglet comportement vous permet de définir :"
 
-#: ../../source/genericobject/index.rst:113
+#: ../../source/genericobject/index.rst:110
 msgid "*child-entities:* allows the type to be recursive;"
 msgstr "*sous-entités :* autorise le type à être récursif ;"
 
-#: ../../source/genericobject/index.rst:114
+#: ../../source/genericobject/index.rst:111
 msgid "*Helpdesk:* allows an object to be associated to a ticket;"
 msgstr "*Assistance :* autorise l'objet à être associé à un ticket ;"
 
-#: ../../source/genericobject/index.rst:115
+#: ../../source/genericobject/index.rst:112
 msgid "*Trash:* use GLPI's trash functionnality;"
 msgstr "*Corbeille :* utiliser la fonctionnalité corbeille de GLPI ;"
 
-#: ../../source/genericobject/index.rst:116
+#: ../../source/genericobject/index.rst:113
 msgid "*Notes:* use GLPI's note functionnality;"
 msgstr "*Notes :* utiliser la fonctionnalité notes de GLPI ;"
 
-#: ../../source/genericobject/index.rst:117
+#: ../../source/genericobject/index.rst:114
 msgid "*History:* allow history for this type;"
 msgstr "*Historique :* autorise l'historique pour ce type ;"
 
-#: ../../source/genericobject/index.rst:118
+#: ../../source/genericobject/index.rst:115
 msgid "*Templates:* allows template management;"
 msgstr "*Modèles :* autorise la gestion de modèles ;"
 
-#: ../../source/genericobject/index.rst:119
+#: ../../source/genericobject/index.rst:116
 msgid ""
 "*Documents:* allows documents to be attached to an object of this type;"
 msgstr "*Documents :* permet à des documents d'être attachés à ce type ;"
 
-#: ../../source/genericobject/index.rst:120
+#: ../../source/genericobject/index.rst:117
 msgid "*Loans:* allows objects to be loaned;"
 msgstr "*Prêts :* autorise le prêt d'objet ;"
 
-#: ../../source/genericobject/index.rst:121
+#: ../../source/genericobject/index.rst:118
 msgid "*Contracts:* link an object to one or more contracts;"
 msgstr "*Contrats :* lie un objet à un ou plusieurs contrats ;"
 
-#: ../../source/genericobject/index.rst:122
+#: ../../source/genericobject/index.rst:119
 msgid ""
 "*Network connections:* allow ports to be used and management for this type;"
 msgstr ""
 "*Connexions réseau :* permet l'utilisation et la gestion de ports réseau "
 "pour ce type ;"
 
-#: ../../source/genericobject/index.rst:123
+#: ../../source/genericobject/index.rst:120
 msgid ""
 "*CSV file injection plugin:* allows this type to be available for use in the"
 " plugin;"
@@ -332,23 +326,23 @@ msgstr ""
 "*Plugin d'injection de fichiers CSV :* permet à ce type d'être disponible "
 "pour utilisation dans le plugin ;"
 
-#: ../../source/genericobject/index.rst:124
+#: ../../source/genericobject/index.rst:121
 msgid "*Item uninstallation plugin:* allows this type to be uninstalled;"
 msgstr ""
 "*Plugin de désinstallation d'objets :* autorise la désinstallation de ce "
 "type ;"
 
-#: ../../source/genericobject/index.rst:125
+#: ../../source/genericobject/index.rst:122
 msgid "*Order management plugin:* allows this type to be linked to an order;"
 msgstr ""
 "*Plugin de gestion des commandes :* autorise le lien de ce type à une "
 "commande ;"
 
-#: ../../source/genericobject/index.rst:128
+#: ../../source/genericobject/index.rst:125
 msgid "Add Fields"
 msgstr "Ajouter des champs"
 
-#: ../../source/genericobject/index.rst:130
+#: ../../source/genericobject/index.rst:127
 msgid ""
 "**Example:** Add the accurate fields for a *car*, like: *name*, *serial "
 "number*, *inventory number*, *type*, *model*, *color*, *state*, etc."
@@ -357,141 +351,141 @@ msgstr ""
 " *numéro de série*, *numéro d'inventaire*, *type*, *modèle*, *couleur*, "
 "*état*, etc."
 
-#: ../../source/genericobject/index.rst:132
+#: ../../source/genericobject/index.rst:129
 msgid "Navigate to the *Fields* tab."
 msgstr "Aller à l'onglet *Champs*."
 
-#: ../../source/genericobject/index.rst:134
+#: ../../source/genericobject/index.rst:131
 msgid "The plugin comes with several ready to use fields:"
 msgstr "Le plugin est fourni avec plusieurs champs prêts à l'utilisation :"
 
-#: ../../source/genericobject/index.rst:136
+#: ../../source/genericobject/index.rst:133
 msgid "Name"
 msgstr "Nom"
 
-#: ../../source/genericobject/index.rst:137
+#: ../../source/genericobject/index.rst:134
 msgid "Type"
 msgstr "Type"
 
-#: ../../source/genericobject/index.rst:138
+#: ../../source/genericobject/index.rst:135
 msgid "Model"
 msgstr "Modèle"
 
-#: ../../source/genericobject/index.rst:139
+#: ../../source/genericobject/index.rst:136
 msgid "Serial number"
 msgstr "Numéro de série"
 
-#: ../../source/genericobject/index.rst:140
+#: ../../source/genericobject/index.rst:137
 msgid "Inventory number"
 msgstr "Numéro d'inventaire"
 
-#: ../../source/genericobject/index.rst:141
+#: ../../source/genericobject/index.rst:138
 msgid "Item's user"
 msgstr "Utilisateur"
 
-#: ../../source/genericobject/index.rst:142
+#: ../../source/genericobject/index.rst:139
 msgid "Group"
 msgstr "Groupe"
 
-#: ../../source/genericobject/index.rst:143
+#: ../../source/genericobject/index.rst:140
 msgid "Status"
 msgstr "Statut"
 
-#: ../../source/genericobject/index.rst:144
+#: ../../source/genericobject/index.rst:141
 msgid "Comments"
 msgstr "Commentaires"
 
-#: ../../source/genericobject/index.rst:145
+#: ../../source/genericobject/index.rst:142
 msgid "Notes"
 msgstr "Notes"
 
-#: ../../source/genericobject/index.rst:146
+#: ../../source/genericobject/index.rst:143
 msgid "Location"
 msgstr "Emplacement"
 
-#: ../../source/genericobject/index.rst:147
+#: ../../source/genericobject/index.rst:144
 msgid "Other"
 msgstr "Autre"
 
-#: ../../source/genericobject/index.rst:148
+#: ../../source/genericobject/index.rst:145
 msgid "Manufacturer"
 msgstr "Constructeur"
 
-#: ../../source/genericobject/index.rst:149
+#: ../../source/genericobject/index.rst:146
 msgid "URL"
 msgstr "URL"
 
-#: ../../source/genericobject/index.rst:150
+#: ../../source/genericobject/index.rst:147
 msgid "Creation date"
 msgstr "Date de création"
 
-#: ../../source/genericobject/index.rst:151
+#: ../../source/genericobject/index.rst:148
 msgid "Expiration date"
 msgstr "Date d'expiration"
 
-#: ../../source/genericobject/index.rst:152
+#: ../../source/genericobject/index.rst:149
 msgid "Category"
 msgstr "Catégorie"
 
-#: ../../source/genericobject/index.rst:153
+#: ../../source/genericobject/index.rst:150
 msgid "Visible in Helpdesk"
 msgstr "Visible dans l'assistance"
 
-#: ../../source/genericobject/index.rst:154
+#: ../../source/genericobject/index.rst:151
 msgid "Technician in charge of the hardware"
 msgstr "Technicien en charge du matériel"
 
-#: ../../source/genericobject/index.rst:155
+#: ../../source/genericobject/index.rst:152
 msgid "Domain"
 msgstr "Domaine"
 
-#: ../../source/genericobject/index.rst:156
+#: ../../source/genericobject/index.rst:153
 msgid "Contact"
 msgstr "Contact"
 
-#: ../../source/genericobject/index.rst:157
+#: ../../source/genericobject/index.rst:154
 msgid "Contact number"
 msgstr "Numéro de contact"
 
-#: ../../source/genericobject/index.rst:161
+#: ../../source/genericobject/index.rst:158
 msgid "Using some behaviour will automatically add some fields to the object:"
 msgstr ""
 "L'utilisation de certains comportement entraînera l'ajout automatique de "
 "champs dans l'objet :"
 
-#: ../../source/genericobject/index.rst:163
+#: ../../source/genericobject/index.rst:160
 msgid "network connection => location"
 msgstr "connexion réseau => emplacement"
 
-#: ../../source/genericobject/index.rst:164
+#: ../../source/genericobject/index.rst:161
 msgid "loans => location"
 msgstr "prêts => emplacement"
 
-#: ../../source/genericobject/index.rst:165
+#: ../../source/genericobject/index.rst:162
 msgid "helpdesk => is visible in Helpdesk"
 msgstr "assistance => visible dans l'assistance"
 
-#: ../../source/genericobject/index.rst:166
+#: ../../source/genericobject/index.rst:163
 msgid "notes => notepad"
 msgstr "notes => notepad"
 
-#: ../../source/genericobject/index.rst:169
+#: ../../source/genericobject/index.rst:166
 msgid "Helpdesk integration"
 msgstr "Intégration assistance"
 
-#: ../../source/genericobject/index.rst:171
+#: ../../source/genericobject/index.rst:168
 msgid "To use an object in the helpdesk, use following setup:"
 msgstr ""
 "Pour utiliser un objet dans l'assistance, utiliser la configuration suivante"
 " :"
 
-#: ../../source/genericobject/index.rst:173
+#: ../../source/genericobject/index.rst:170
 msgid "In *Behaviour* tab : *use helpdesk* must be set to **Yes**."
 msgstr ""
 "Dans l'onglet *Comportement* : *utiliser l'assistance* doit être défini à "
 "**Oui**."
 
-#: ../../source/genericobject/index.rst:174
+#: ../../source/genericobject/index.rst:171
 msgid ""
 "if the *User* field is defined, it allows item to be visible in the *My "
 "Items* list (as item whose owner is the user)."
@@ -499,7 +493,7 @@ msgstr ""
 "Si le champ *Utilisateur* est défini, l'objet sera visible dans la liste "
 "*Mes objets* (comme un objet dont l'utilisateur est propriétaire)."
 
-#: ../../source/genericobject/index.rst:175
+#: ../../source/genericobject/index.rst:172
 msgid ""
 "if the *Group* field is defined, it allows item to be visible in the *My "
 "Items* list too (as item belonging to a group in which the user belongs to)."
@@ -508,7 +502,7 @@ msgstr ""
 "objets* également (comme un objet dont le propriétaire est un groupe auquel "
 "l'utilisateur appartient)."
 
-#: ../../source/genericobject/index.rst:176
+#: ../../source/genericobject/index.rst:173
 msgid ""
 "if *Helpdesk visible* field is set and if the value is set to **No** in the "
 "object, then the object won't be visible at all in the helpdesk."
@@ -516,15 +510,15 @@ msgstr ""
 "Si le champ *Assistance visible* est défini et que sa valeur est à **Non** "
 "dans l'objet, ce objet ne sera pas visible du tout dans l'assistance."
 
-#: ../../source/genericobject/index.rst:179
+#: ../../source/genericobject/index.rst:176
 msgid "Add new fields"
 msgstr "Ajouter de nouveaux champs"
 
-#: ../../source/genericobject/index.rst:183
+#: ../../source/genericobject/index.rst:180
 msgid "New fields will be available for all object's types."
 msgstr "Les nouveaux champs seront disponibles pour tous les types d'objets."
 
-#: ../../source/genericobject/index.rst:185
+#: ../../source/genericobject/index.rst:182
 msgid ""
 "Create a new file named "
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/<type>.constant.php``"
@@ -532,7 +526,7 @@ msgstr ""
 "Créer un nouveau fichier nommé "
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/<type>.constant.php``"
 
-#: ../../source/genericobject/index.rst:187
+#: ../../source/genericobject/index.rst:184
 msgid ""
 "For example, for a *car* type the constant file will be "
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/car.constant.php``."
@@ -540,7 +534,7 @@ msgstr ""
 "Par exemple, pour un type *véhicule* le fichier de constantes sera "
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/car.constant.php``."
 
-#: ../../source/genericobject/index.rst:189
+#: ../../source/genericobject/index.rst:186
 msgid ""
 "Please note that the file's first line must be the following, otherwise the "
 "new fields won't appear in the list:"
@@ -548,15 +542,15 @@ msgstr ""
 "Notez que la première ligne du fichier doit être la suivante, sans quoi les "
 "nouveaux champs n'apparaîtront pas dans la liste :"
 
-#: ../../source/genericobject/index.rst:196
+#: ../../source/genericobject/index.rst:193
 msgid "Add the new fields definitions."
 msgstr "Ajouter les nouvelles définitions de champs."
 
-#: ../../source/genericobject/index.rst:199
+#: ../../source/genericobject/index.rst:196
 msgid "Add a simple dropdown field"
 msgstr "Ajouter un champ liste déroulante simple"
 
-#: ../../source/genericobject/index.rst:210
+#: ../../source/genericobject/index.rst:207
 msgid ""
 "The language variable must be defined in the language file (see explaination"
 " above)."
@@ -564,15 +558,15 @@ msgstr ""
 "La variable de langue doit être définie dans le fichier de langues (voir les"
 " explications ci-dessus)."
 
-#: ../../source/genericobject/index.rst:212
+#: ../../source/genericobject/index.rst:209
 msgid "Add a dropdown field that is assigned to an entity:"
 msgstr "Ajouter un champ liste déroulante qui est assigné à une entité :"
 
-#: ../../source/genericobject/index.rst:226
+#: ../../source/genericobject/index.rst:223
 msgid "Add a tree dropdown field"
 msgstr "Ajouter un champ liste déroulante hiérarchique"
 
-#: ../../source/genericobject/index.rst:239
+#: ../../source/genericobject/index.rst:236
 msgid ""
 "You can use at the same time the following parameters : *entities_id*, "
 "*is_recursive*, *is_tree*."
@@ -580,14 +574,14 @@ msgstr ""
 "Vous pouvez utiliser en même temps les paramètres suivants : *entities_id*, "
 "*is_recursive*, *is_tree*."
 
-#: ../../source/genericobject/index.rst:242
+#: ../../source/genericobject/index.rst:239
 msgid ""
 "Add a dropdown field that is based on a GLPI-core object (user, location...)"
 msgstr ""
 "Ajout d'un champ liste déroulante basé sur les objets du coeur de GLPI "
 "(utilisateur, emplacement, ...)"
 
-#: ../../source/genericobject/index.rst:252
+#: ../../source/genericobject/index.rst:249
 msgid ""
 "Name between brackets (``[]``) **MUST** begin with ``users_id`` in order to "
 "be recognized as a field based on GLPI users' list."
@@ -596,7 +590,7 @@ msgstr ""
 " être reconnus comme étant des champs basés sur la liste des utilisateurs de"
 " GLPI."
 
-#: ../../source/genericobject/index.rst:254
+#: ../../source/genericobject/index.rst:251
 msgid ""
 "See file "
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/field.constant.php`` to "
@@ -606,18 +600,18 @@ msgstr ""
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/field.constant.php`` pour "
 "une liste complète des champs disponibles."
 
-#: ../../source/genericobject/index.rst:257
+#: ../../source/genericobject/index.rst:254
 msgid "Add a global dropdown"
 msgstr "Ajouter une liste déroulante globale"
 
-#: ../../source/genericobject/index.rst:259
+#: ../../source/genericobject/index.rst:256
 msgid ""
 "A global dropdown can be used in all itemtypes. A good example would be :"
 msgstr ""
 "Une liste déroulante globale peut être utilisée dans tous les types "
 "d'objets. Un bon exemple serait :"
 
-#: ../../source/genericobject/index.rst:268
+#: ../../source/genericobject/index.rst:265
 msgid ""
 "A specific category table will be created for each itemtype. The table name "
 "and field name will the computed this way:"
@@ -626,23 +620,23 @@ msgstr ""
 "d'objet. Le nom de la table et le nom du champ seront concaténés de cette "
 "manière :"
 
-#: ../../source/genericobject/index.rst:270
+#: ../../source/genericobject/index.rst:267
 msgid "table : ``glpi_plugin_genericobject_<itemtypename>_category``"
 msgstr "table : ``glpi_plugin_genericobject_<itemtypename>_category``"
 
-#: ../../source/genericobject/index.rst:271
+#: ../../source/genericobject/index.rst:268
 msgid "field name : ``plugin_genericobject_<itemtype>categories_id``"
 msgstr "nom du champ : ``plugin_genericobject_<itemtype>categories_id``"
 
-#: ../../source/genericobject/index.rst:274
+#: ../../source/genericobject/index.rst:271
 msgid "Add an integer field"
 msgstr "Ajouter un champ entier"
 
-#: ../../source/genericobject/index.rst:286
+#: ../../source/genericobject/index.rst:283
 msgid "Add a text field"
 msgstr "Ajouter un champ texte"
 
-#: ../../source/genericobject/index.rst:296
+#: ../../source/genericobject/index.rst:293
 msgid ""
 "By adding the following argument, you can tell the plugin that this field "
 "can be automatically generated when using a template:"
@@ -650,19 +644,19 @@ msgstr ""
 "En ajoutant l'argument suivant, vous indiquerez au plugin que ce champ peut "
 "être généré automatiquement en utilisant un modèle :"
 
-#: ../../source/genericobject/index.rst:304
+#: ../../source/genericobject/index.rst:301
 msgid "Add a Yes/No field"
 msgstr "Ajouter un champ Oui/Non"
 
-#: ../../source/genericobject/index.rst:313
+#: ../../source/genericobject/index.rst:310
 msgid "Add a date field"
 msgstr "Ajouter un champ date"
 
-#: ../../source/genericobject/index.rst:322
+#: ../../source/genericobject/index.rst:319
 msgid "Add a date & time field"
 msgstr "Ajouter un champ date et heure"
 
-#: ../../source/genericobject/index.rst:332
+#: ../../source/genericobject/index.rst:329
 msgid ""
 "If you don't want a field to be modified using massive actions, add the "
 "following line to its definition:"
@@ -670,15 +664,15 @@ msgstr ""
 "Si vous ne souhaitez pas que le champ puisse être modifié en utilisant une "
 "action de masse, ajouter la ligne suivante à sa définition :"
 
-#: ../../source/genericobject/index.rst:340
+#: ../../source/genericobject/index.rst:337
 msgid "Add global fields"
 msgstr "Ajouter des champs globaux"
 
-#: ../../source/genericobject/index.rst:342
+#: ../../source/genericobject/index.rst:339
 msgid "To make your fields accessible to all itemtypes:"
 msgstr "Pour rendre vos champs accessibles depuis tous les types d'objets :"
 
-#: ../../source/genericobject/index.rst:344
+#: ../../source/genericobject/index.rst:341
 msgid ""
 "Create a file named "
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/field.constant.php``"
@@ -686,15 +680,15 @@ msgstr ""
 "Créer un fichier nommé "
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/field.constant.php``"
 
-#: ../../source/genericobject/index.rst:345
+#: ../../source/genericobject/index.rst:342
 msgid "Put your definitions in this file."
 msgstr "Ajouter les définitions dans ce fichier."
 
-#: ../../source/genericobject/index.rst:348
+#: ../../source/genericobject/index.rst:345
 msgid "Setup Rights"
 msgstr "Configurer les droits"
 
-#: ../../source/genericobject/index.rst:350
+#: ../../source/genericobject/index.rst:347
 msgid ""
 "You can define access rights for each object's type, for each profile. "
 "Available options are:"
@@ -702,23 +696,23 @@ msgstr ""
 "Vous pouvez définir des droits d'accès pour chaque type d'objet, pour chaque"
 " profil. Les options disponibles sont :"
 
-#: ../../source/genericobject/index.rst:352
+#: ../../source/genericobject/index.rst:349
 msgid "*right on the type*: *no access*, *read*, *write*."
 msgstr "*droits sur le type* : *pas d'accès*, *lecture*, *écriture*."
 
-#: ../../source/genericobject/index.rst:353
+#: ../../source/genericobject/index.rst:350
 msgid "*right to associate this type of object to tickets*: *yes*, *no*."
 msgstr "*droits pour associer ce type d'objet aux tickets* : *oui*, *non*."
 
-#: ../../source/genericobject/index.rst:355
+#: ../../source/genericobject/index.rst:352
 msgid "To associate the rights you can either:"
 msgstr "Pour associer les droits, vous pouvez au choix :"
 
-#: ../../source/genericobject/index.rst:357
+#: ../../source/genericobject/index.rst:354
 msgid "Use the *Rights* tab in the *itemtype* form."
 msgstr "Utiliser l'onglet *Droits* dans le formulaire du *type d'objet*."
 
-#: ../../source/genericobject/index.rst:358
+#: ../../source/genericobject/index.rst:355
 msgid ""
 "Navigate to *Administration > Profiles* and administer the rights for each "
 "profile."
@@ -726,15 +720,15 @@ msgstr ""
 "Aller dans *Administration > Profils* pour administrer les droits de chaque "
 "profil."
 
-#: ../../source/genericobject/index.rst:361
+#: ../../source/genericobject/index.rst:358
 msgid "Use the new field"
 msgstr "Utiliser le nouveau champ"
 
-#: ../../source/genericobject/index.rst:363
+#: ../../source/genericobject/index.rst:360
 msgid "Activate the new type, it's now ready to be used."
 msgstr "Activer le nouveau type, il est désormais prêt à être utilisé."
 
-#: ../../source/genericobject/index.rst:365
+#: ../../source/genericobject/index.rst:362
 msgid ""
 "The new type is available for users in the *Plugins > Objects management* "
 "menu."
@@ -742,15 +736,15 @@ msgstr ""
 "Le nouveau type est disponible pour les utilisateurs depuis le menu *Plugins"
 " > Gestion d'objets*."
 
-#: ../../source/genericobject/index.rst:368
+#: ../../source/genericobject/index.rst:365
 msgid "Use case of Generic Object as a CMMS"
 msgstr "Exemple d'utilisation de Generic Object comme GMAO"
 
-#: ../../source/genericobject/index.rst:371
+#: ../../source/genericobject/index.rst:368
 msgid "Purpose of this documentation"
 msgstr "But de cette documentation"
 
-#: ../../source/genericobject/index.rst:373
+#: ../../source/genericobject/index.rst:370
 msgid ""
 "Showing a complete usage of Generic Object as a CMMS (Computerized "
 "Maintenance Management System) in biomedical environment."
@@ -758,37 +752,37 @@ msgstr ""
 "Présenter une utilisation complète de Generic Object comme GMAO (Gestion de "
 "Maintenance Assistée par Ordinateur) dans un environnement biomédical."
 
-#: ../../source/genericobject/index.rst:376
+#: ../../source/genericobject/index.rst:373
 msgid "At the end of this use case, you will have :"
 msgstr "À la fin de cette documentation, vous aurez :"
 
-#: ../../source/genericobject/index.rst:378
+#: ../../source/genericobject/index.rst:375
 msgid "a dedicated *Biomed* entity (under *Root entity*)"
 msgstr "une entité *Biomed* dédiée (sous l\\'*Entité racine*)"
 
-#: ../../source/genericobject/index.rst:379
+#: ../../source/genericobject/index.rst:376
 msgid "containing *Biomedical* objects (in *Assets* menu)"
 msgstr "contenant des objects *Biomedical* (dans le menu *Parc*)"
 
-#: ../../source/genericobject/index.rst:380
+#: ../../source/genericobject/index.rst:377
 msgid "with built-in and user-defined fields"
 msgstr "avec des champs pré-définis et personnalisés"
 
-#: ../../source/genericobject/index.rst:381
+#: ../../source/genericobject/index.rst:378
 msgid "manages by users with *Admin_biomed* profile"
 msgstr "gérée par des utilisateurs avec le profil *Admin_biomed*"
 
-#: ../../source/genericobject/index.rst:384
+#: ../../source/genericobject/index.rst:381
 msgid "Steps"
 msgstr "Étapes"
 
-#: ../../source/genericobject/index.rst:386
+#: ../../source/genericobject/index.rst:383
 msgid "Following steps assume you have a Super-Admin authorization :"
 msgstr ""
 "Les étapes suivantes partent du principe que vous avez une habilitation "
 "Super-Admin :"
 
-#: ../../source/genericobject/index.rst:388
+#: ../../source/genericobject/index.rst:385
 msgid ""
 "Installing Generic Object on GLPI (validated with genericobject >= 0.85-1.0 "
 "and GLPI >= 0.90)"
@@ -796,34 +790,34 @@ msgstr ""
 "Installer Generic Object sur GLPI (validé avec genericobject >= 0.85-1.0 et "
 "GLPI >= 0.90)"
 
-#: ../../source/genericobject/index.rst:389
-#: ../../source/genericobject/index.rst:399
+#: ../../source/genericobject/index.rst:386
+#: ../../source/genericobject/index.rst:396
 msgid "Generic Object configuration"
 msgstr "Configuration de Generic Object"
 
-#: ../../source/genericobject/index.rst:390
-#: ../../source/genericobject/index.rst:525
+#: ../../source/genericobject/index.rst:387
+#: ../../source/genericobject/index.rst:522
 msgid "GLPI configuration"
 msgstr "Configuration de GLPI"
 
-#: ../../source/genericobject/index.rst:391
-#: ../../source/genericobject/index.rst:550
+#: ../../source/genericobject/index.rst:388
+#: ../../source/genericobject/index.rst:547
 msgid "Start using Generic Object and GLPI"
 msgstr "Démarrer l'utilisation de Generic Object et GLPI"
 
-#: ../../source/genericobject/index.rst:394
+#: ../../source/genericobject/index.rst:391
 msgid "Installing Generic Object on GLPI"
 msgstr "Installer Generic Object sur GLPI"
 
-#: ../../source/genericobject/index.rst:396
+#: ../../source/genericobject/index.rst:393
 msgid "See :ref:`install_plugin` section."
 msgstr "Voir la section :ref:`install_plugin`."
 
-#: ../../source/genericobject/index.rst:402
+#: ../../source/genericobject/index.rst:399
 msgid "Create your type of object"
 msgstr "Créer votre type d'objet"
 
-#: ../../source/genericobject/index.rst:404
+#: ../../source/genericobject/index.rst:401
 msgid ""
 "See :ref:`create_new_object` section and use *biomedical* as internal "
 "identifier. Label will be set automatically to *Biomedical* (with an "
@@ -833,22 +827,22 @@ msgstr ""
 "identifiant interne. Le libellé sera défini automatiquement à *Biomedical* "
 "(avec un *B* majuscule)."
 
-#: ../../source/genericobject/index.rst:407
+#: ../../source/genericobject/index.rst:404
 msgid "After a logoff/login, you will see *Biomedical* menu in Assets."
 msgstr ""
 "Après une connexion/déconnexion, vous verrez le menu *Biomedical* dans le "
 "Parc."
 
-#: ../../source/genericobject/index.rst:412
+#: ../../source/genericobject/index.rst:409
 msgid "Define Biomedical's new fields"
 msgstr "Définir les nouveaux champs du type Biomedical"
 
-#: ../../source/genericobject/index.rst:414
+#: ../../source/genericobject/index.rst:411
 msgid "These fields will be usable only by Biomedical's objects :"
 msgstr ""
 "Ces champs seront utilisables uniquement par les objets du type Biomedical"
 
-#: ../../source/genericobject/index.rst:416
+#: ../../source/genericobject/index.rst:413
 msgid ""
 "Create a new file named : "
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/biomedical.constant.php``"
@@ -856,11 +850,11 @@ msgstr ""
 "Créer un nouveau fichier appelé : "
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/biomedical.constant.php``"
 
-#: ../../source/genericobject/index.rst:417
+#: ../../source/genericobject/index.rst:414
 msgid "Add following content :"
 msgstr "Ajouter le contenu suivant :"
 
-#: ../../source/genericobject/index.rst:471
+#: ../../source/genericobject/index.rst:468
 msgid ""
 "Trailing ``s_id`` is mandatory in ``[plugin_genericobject_field*s_id*]`` "
 "because the GLPI framework requires foreign key fields to end with ``s_id``."
@@ -876,15 +870,15 @@ msgstr ""
 "developer-"
 "documentation.readthedocs.io/en/master/devapi/database/dbmodel.html#fields>`_."
 
-#: ../../source/genericobject/index.rst:477
+#: ../../source/genericobject/index.rst:474
 msgid "Define fields labels"
 msgstr "Définir les libellés des champs"
 
-#: ../../source/genericobject/index.rst:479
+#: ../../source/genericobject/index.rst:476
 msgid "See :ref:`edit_labels` section."
 msgstr "Voir la section :ref:`edit_labels`."
 
-#: ../../source/genericobject/index.rst:481
+#: ../../source/genericobject/index.rst:478
 msgid ""
 "Edit your locales file, for example : "
 "``<GLPI_ROOT>/files/_plugins/genericobject/locales/biomedical/biomedical.fr_FR.php``"
@@ -892,62 +886,62 @@ msgstr ""
 "Éditer vos fichiers de locales, par exemple : "
 "``<GLPI_ROOT>/files/_plugins/genericobject/locales/biomedical/biomedical.fr_FR.php``"
 
-#: ../../source/genericobject/index.rst:482
+#: ../../source/genericobject/index.rst:479
 msgid "Add following content at the end of file :"
 msgstr "Ajouter le contenu suivant à la fin du fichier :"
 
-#: ../../source/genericobject/index.rst:499
+#: ../../source/genericobject/index.rst:496
 msgid "Define behaviours"
 msgstr "Définir les comportements"
 
-#: ../../source/genericobject/index.rst:501
+#: ../../source/genericobject/index.rst:498
 msgid "In *Plugins > Objects management* menu, on *Main* tab, select :"
 msgstr ""
 "Dans le menu *Plugins > Gestion d'objets*, sur l'onglet *Principal*, "
 "sélectionner :"
 
-#: ../../source/genericobject/index.rst:503
+#: ../../source/genericobject/index.rst:500
 msgid "*Item in the dustbin*"
 msgstr "*Élément à la corbeille*"
 
-#: ../../source/genericobject/index.rst:504
+#: ../../source/genericobject/index.rst:501
 msgid "*Historical*"
 msgstr "*Historique*"
 
-#: ../../source/genericobject/index.rst:505
+#: ../../source/genericobject/index.rst:502
 msgid "*Financial and administratives information*"
 msgstr "*Informations financières et administratives*"
 
-#: ../../source/genericobject/index.rst:506
+#: ../../source/genericobject/index.rst:503
 msgid "*Documents*"
 msgstr "*Documents*"
 
-#: ../../source/genericobject/index.rst:507
-#: ../../source/genericobject/index.rst:511
+#: ../../source/genericobject/index.rst:504
+#: ../../source/genericobject/index.rst:508
 msgid "*Global search*"
 msgstr "*Recherche globable*"
 
-#: ../../source/genericobject/index.rst:508
+#: ../../source/genericobject/index.rst:505
 msgid "*Assistance*"
 msgstr "*Assistance*"
 
-#: ../../source/genericobject/index.rst:509
+#: ../../source/genericobject/index.rst:506
 msgid "*Templates*"
 msgstr "*Modèles*"
 
-#: ../../source/genericobject/index.rst:510
+#: ../../source/genericobject/index.rst:507
 msgid "*Contracts*"
 msgstr "*Contrats*"
 
-#: ../../source/genericobject/index.rst:513
+#: ../../source/genericobject/index.rst:510
 msgid "This will add ready to use fields to your type of object."
 msgstr "Cette action ajoutera des champs pré-définis à votre type d'objet"
 
-#: ../../source/genericobject/index.rst:516
+#: ../../source/genericobject/index.rst:513
 msgid "Add fields to your type of object"
 msgstr "Ajouter des champs à votre type d'objet"
 
-#: ../../source/genericobject/index.rst:518
+#: ../../source/genericobject/index.rst:515
 msgid ""
 "In *Plugins > Objects management* menu, on *Fields* tab, you can now add "
 "fields to Biomedical type of object :"
@@ -955,34 +949,34 @@ msgstr ""
 "Dans le menu *Plugins > Gestion d'objets*, sur l'onglet *Champs*, vous "
 "pouvez maintenant ajouter des champs au type d'objet Biomedical : "
 
-#: ../../source/genericobject/index.rst:521
+#: ../../source/genericobject/index.rst:518
 msgid "ready to use fields (GLPI's built-in fields)"
 msgstr "champs pré-définis (champs natifs à GLPI)"
 
-#: ../../source/genericobject/index.rst:522
+#: ../../source/genericobject/index.rst:519
 msgid "new fields (defined in :ref:`biomedical_new_fields` section)"
 msgstr ""
 "nouveaux champs (définis dans la section :ref:`biomedical_new_fields`)"
 
-#: ../../source/genericobject/index.rst:528
+#: ../../source/genericobject/index.rst:525
 msgid "Define Admin_biomed profile"
 msgstr "Définir le profil Admin_biomed"
 
-#: ../../source/genericobject/index.rst:530
+#: ../../source/genericobject/index.rst:527
 msgid "Clone *Admin* profile"
 msgstr "Cloner le profil *Admin*"
 
-#: ../../source/genericobject/index.rst:531
+#: ../../source/genericobject/index.rst:528
 msgid "Set following rights in *Admin_biomed* profile :"
 msgstr "Définissez les droits suivants dans le profil *Admin_biomed* :"
 
-#: ../../source/genericobject/index.rst:533
+#: ../../source/genericobject/index.rst:530
 msgid "*Administration > Profiles > Admin_biomed > Assets tab > Unselect all*"
 msgstr ""
 "*Administration > Profils > Admin_biomed > Onglet Parc > Désélectionner "
 "tout*"
 
-#: ../../source/genericobject/index.rst:534
+#: ../../source/genericobject/index.rst:531
 msgid ""
 "*Administration > Profiles > Admin_biomed > Assistance tab > Association > "
 "Associable items to a ticket > Biomedical*"
@@ -990,14 +984,14 @@ msgstr ""
 "*Administration > Profils > Admin_biomed > Onglet Assistance > Association >"
 " Matériels associables à un ticket > Biomedical*"
 
-#: ../../source/genericobject/index.rst:535
+#: ../../source/genericobject/index.rst:532
 msgid ""
 "*Administration > Profiles > Admin_biomed > Management tab > Select all*"
 msgstr ""
 "*Administration > Profils > Admin_biomed > Onglet Gestion > Sélectionner "
 "tout*"
 
-#: ../../source/genericobject/index.rst:536
+#: ../../source/genericobject/index.rst:533
 msgid ""
 "*Administration > Profiles > Admin_biomed > Objects management tab > "
 "Biomedical > Select all*"
@@ -1005,7 +999,7 @@ msgstr ""
 "*Administration > Profils > Admin_biomed > Onglet Gestion d'objets > "
 "Biomedical > Sélectionner tout*"
 
-#: ../../source/genericobject/index.rst:540
+#: ../../source/genericobject/index.rst:537
 msgid ""
 "With these settings, *Admin_biomed* users only see *Biomedical* in Assets "
 "menu."
@@ -1013,18 +1007,18 @@ msgstr ""
 "Avec ces paramètres, les utilisateurs avec le profil *Admin_biomed* voient "
 "uniquement *Biomedical* dans le menu Parc"
 
-#: ../../source/genericobject/index.rst:543
+#: ../../source/genericobject/index.rst:540
 msgid "Define Biomed entity and authorizations rules"
 msgstr "Définir l'entité Biomed et les règles d'habilitations"
 
-#: ../../source/genericobject/index.rst:545
+#: ../../source/genericobject/index.rst:542
 msgid ""
 "Create *Biomed* entity under *Root entity* in *Administration > Entities*"
 msgstr ""
 "Créer l'entité *Biomed* sous l\\'*Entité Racine* dans *Administration > "
 "Entités*"
 
-#: ../../source/genericobject/index.rst:546
+#: ../../source/genericobject/index.rst:543
 msgid ""
 "Configure authorizations rules to assign *Admin_biomed* profile to *Biomed* "
 "entity users."
@@ -1032,7 +1026,7 @@ msgstr ""
 "Configurer les règles d'habilitations pour assigner le profil *Admin_biomed*"
 " aux utilisateurs de l'entité *Biomed*"
 
-#: ../../source/genericobject/index.rst:552
+#: ../../source/genericobject/index.rst:549
 msgid ""
 "As *Admin_biomed* user, you can create your first object in *Assets > "
 "Biomedical*."
@@ -1040,7 +1034,7 @@ msgstr ""
 "En tant qu'utilisateur *Admin_biomed*, vous pouvez créer votre premier objet"
 " dans *Parc > Biomedical*."
 
-#: ../../source/genericobject/index.rst:554
+#: ../../source/genericobject/index.rst:551
 msgid ""
 "In order to gain time, define values in *Setup > Dropdowns > Objects "
 "management* for new fields."

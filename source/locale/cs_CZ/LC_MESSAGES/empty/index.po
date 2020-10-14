@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# David Stepan <stepand@tiscali.cz>, 2016
 # Pavel Borecki <pavel.borecki@gmail.com>, 2018
+# David Stepan <stepand@tiscali.cz>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-30 08:58+0200\n"
 "PO-Revision-Date: 2016-10-25 19:22+0000\n"
-"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>, 2018\n"
+"Last-Translator: David Stepan <stepand@tiscali.cz>, 2020\n"
 "Language-Team: Czech (Czech Republic) (https://www.transifex.com/teclib/teams/28042/cs_CZ/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -236,13 +236,15 @@ msgstr ""
 
 #: ../../source/empty/index.rst:118
 msgid "Minifying CSS and JS"
-msgstr ""
+msgstr "Sloučení CSS a JS"
 
 #: ../../source/empty/index.rst:122
 msgid ""
 "Disabled as of 0.1.13, because libs used from Robo are out of date and "
 "connot be replaced."
 msgstr ""
+"Zakázáno od 0.1.13, protože libs použitý od Robo jsou zastaralé a nelze je "
+"nahradit."
 
 #: ../../source/empty/index.rst:124
 msgid ""
@@ -418,6 +420,8 @@ msgid ""
 "Note that the release script is only compatible if you use semantic "
 "versionning!"
 msgstr ""
+"Uvědomte si, že uvolňovací skript je kompatibilní, pouze pokud používáte "
+"sémantické verzování!"
 
 #: ../../source/empty/index.rst:183
 msgid ""
@@ -703,7 +707,7 @@ msgstr ""
 
 #: ../../source/empty/index.rst:284
 msgid "Excluding files"
-msgstr ""
+msgstr "Vyloučené soubory"
 
 #: ../../source/empty/index.rst:286
 msgid ""
@@ -712,54 +716,58 @@ msgid ""
 "release archive. Write one `expression "
 "<https://docs.python.org/2/library/re.html>`_ per line"
 msgstr ""
+"Můžete vytvořit soubor `` .ignore-release`` v kořenovém adresáři vašeho "
+"pluginu a uvést zde soubory a adresáře, které chcete explicitně vyloučit z "
+"archivu vydání. Napište jeden výraz "
+"<https://docs.python.org/2/library/re.html> `_ na řádek"
 
 #: ../../source/empty/index.rst:293
 msgid "Some files will automatically be excluded:"
-msgstr ""
+msgstr "Některé soubory budou automaticky vyloučeny:"
 
 #: ../../source/empty/index.rst:295
 msgid ".git*,"
-msgstr ""
+msgstr ".git*,"
 
 #: ../../source/empty/index.rst:296
 msgid ".gh_token"
-msgstr ""
+msgstr ".gh_token"
 
 #: ../../source/empty/index.rst:297
 msgid ".tx/"
-msgstr ""
+msgstr ".tx/"
 
 #: ../../source/empty/index.rst:298
 msgid "tools/"
-msgstr ""
+msgstr "tools/"
 
 #: ../../source/empty/index.rst:299
 msgid "tests/"
-msgstr ""
+msgstr "tests/"
 
 #: ../../source/empty/index.rst:300
 msgid ".atoum.php"
-msgstr ""
+msgstr ".atoum.php"
 
 #: ../../source/empty/index.rst:301
 msgid ".travis.yml"
-msgstr ""
+msgstr ".travis.yml"
 
 #: ../../source/empty/index.rst:302
 msgid ".circleci/"
-msgstr ""
+msgstr ".circleci/"
 
 #: ../../source/empty/index.rst:303
 msgid ".ignore-release"
-msgstr ""
+msgstr ".ignore-release"
 
 #: ../../source/empty/index.rst:304
 msgid "composer.lock"
-msgstr ""
+msgstr "composer.lock"
 
 #: ../../source/empty/index.rst:305
 msgid "Robofile.php"
-msgstr ""
+msgstr "Robofile.php"
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
