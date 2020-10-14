@@ -23,7 +23,7 @@ You can also install it manually:
 
 * Uncompress the archive.
 * Move the ``oauthimap`` directory to the ``<GLPI_ROOT>/plugins`` directory.
-* Navigate to the *Configuration > Plugins* page.
+* Navigate to the *Setup > Plugins* page.
 * Install and activate the plugin.
 
 Configure your Oauth IMAP application
@@ -33,7 +33,7 @@ To be able to connect to a mailbox using Oauth authentication, you first need to
 
 - Register an external application on service provider management console;
 - Create an item in *Setup > Oauth IMAP applications* using *id* and *secret* of your provider application;
-- Copy callback url from the plugin configuration and fill it in the provider console (GLPI will be called back after authentication process).
+- Copy callback url from the Oauth IMAP application configuration and fill it in the provider console (GLPI will be called back after authentication process).
 
 .. image:: images/create-oauth-app.png
 
@@ -54,6 +54,6 @@ Configure your mail receiver
 To authenticate via Oauth on your mail receiver, you have to change the configuration of your mail receiver:
 
 - choose your Oauth IMAP application in the first dropdown of *Connection options*;
-- then choose an existing authorization in the *Login* dropdown of select *Create authorization for another user*.
+- then choose an existing authorization in the *Login* dropdown or select *Create authorization for another user*.
 
 .. image:: images/configure-receiver.png
