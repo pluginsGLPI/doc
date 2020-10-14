@@ -26,13 +26,13 @@ You can also install it manually:
 * Navigate to the *Configuration > Plugins* page.
 * Install and activate the plugin.
 
-Configure your Oauth application
---------------------------------
+Configure your Oauth IMAP application
+-------------------------------------
 
-To be able to connect to a mailbox using Oauth authentication, you first need to configure your *Oauth application*:
+To be able to connect to a mailbox using Oauth authentication, you first need to configure your *Oauth IMAP application*:
 
 - Register an external application on service provider management console;
-- Create an item in *Setup > Oauth applications* using *id* and *secret* of your provider application;
+- Create an item in *Setup > Oauth IMAP applications* using *id* and *secret* of your provider application;
 - Copy callback url from the plugin configuration and fill it in the provider console (GLPI will be called back after authentication process).
 
 .. image:: images/create-oauth-app.png
@@ -40,8 +40,8 @@ To be able to connect to a mailbox using Oauth authentication, you first need to
 Create an authorization
 -----------------------
 
-Once your Oauth application created, you will need to create an authorization that will be used to authenticate on your mailbox.
-To do so, go in the *Oauth authorization* tab of your Oauth application, and click on *Create an authorization*.
+Once your Oauth IMAP application created, you will need to create an authorization that will be used to authenticate on your mailbox.
+To do so, go in the *Oauth authorization* tab of your Oauth IMAP application, and click on *Create an authorization*.
 
 .. image:: images/create-authorization.png
 
@@ -53,7 +53,7 @@ Configure your mail receiver
 
 To authenticate via Oauth on your mail receiver, you have to change the configuration of your mail receiver:
 
-- choose your Oauth application in the first dropdown of *Connection options*;
+- choose your Oauth IMAP application in the first dropdown of *Connection options*;
 - then choose an existing authorization in the *Login* dropdown of select *Create authorization for another user*.
 
 .. image:: images/configure-receiver.png
