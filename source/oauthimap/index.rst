@@ -11,8 +11,8 @@ This plugin supports Oauth connection for emails receivers.
 
 Supported mail services:
 
-* `G Suite and Gmail <https://developers.google.com/gmail/imap/xoauth2-protocol>`_,
-* `Azure AD <https://docs.microsoft.com/en-us/exchange/client-developer/legacy-protocols/how-to-authenticate-an-imap-pop-smtp-application-by-using-oauth>`_.
+* `Google (G Suite and Gmail) <https://developers.google.com/gmail/imap/xoauth2-protocol>`_,
+* `Microsoft (Office 365 via Azure AD) <https://docs.microsoft.com/en-us/exchange/client-developer/legacy-protocols/how-to-authenticate-an-imap-pop-smtp-application-by-using-oauth>`_.
 
 Install the Plugin
 ------------------
