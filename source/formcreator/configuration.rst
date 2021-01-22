@@ -69,18 +69,20 @@ The following page displays:
 .. image:: images/add_question_form.png
 
 A question is made of:
+
 * a title: this is the label of the question in the form.
 * a type: see list below.
 * a section: the section containing the question. You can move a question to an other section with this field.
 * a description; it is displayed under the question in the form. Use it as a hint for the requester, telling him which content is expected.
-* a dropdown list **Show field**
+* a dropdown list **Show field** to enable a condition
 
  .. image:: images/show_field.png
 
 
 It submits the following choices:
+
 * **Always visible**: the field is always displays
-* **Hidden unless*: The question is hidden except if answers to other questions matches a condition.
+* **Hidden unless**: The question is hidden except if answers to other questions matches a condition.
 * **Displayed unless**: The question is displayed except if the answers to other questions matches a condition.
 
 Conditions may be multiple. To add or remove a condition two buttons are available:
@@ -94,6 +96,7 @@ Conditions may be multiple. To add or remove a condition two buttons are availab
  .. image:: images/question_picto_mandatory.png
 
  , or optional
+
  .. image:: images/question_picto_optional.png
 
  * **Arrow up** and **arrow down** allow you to r eorder questions in a section.
@@ -251,6 +254,34 @@ Urgency
 ^^^^^^^
 
 This field allows you to select an urgency defined in GLPI.
+
+Conditions
+----------
+
+Conditions are expressions involving questions and sections which are evaluated in order to determine
+
+* if a question is displayed
+* if a section is displayed
+* if the submit button of a form is displayed
+* if a target (see below) must be generated
+
+Available operators in an assertion are:
+
+* equals
+* not equals
+* less than
+* greater than
+* less than or equal
+* greater  than or equal
+* is visible
+* is not visible
+* matches a regular expression
+
+The condition expression can be used with the following rules:
+
+* **Hidden unless**: the item is hidden or not generated except when the expression is true
+* **Displayed unless**: the item is displayed or generated except when the expression is true
+
 
 Access types
 ------------
