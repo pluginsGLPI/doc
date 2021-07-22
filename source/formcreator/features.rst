@@ -13,6 +13,7 @@ Features
 * Creation of one or more tickets from form answers,
 * Adding a description per fields, per sections, per forms, entities or languages,
 * Formatting the ticket set: answers to questions displayed, tickets templates,
-* Preview form created directly in the configuration.
+* Preview form created directly in the configuration,
+* Translation of forms to serve them in several languages.
 
 You can take an look to `the full changelog from plugin sources <https://github.com/pluginsGLPI/formcreator/blob/master/CHANGELOG.md>`_.

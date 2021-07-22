@@ -378,3 +378,26 @@ Additional optioins may be displayed depending on the currently selected questio
 If validation of the input is desired, it can be implemented following `PHP Regular Expressions <http://php.net/manual/reference.pcre.pattern.syntax.php>`_.
 
 If you want to show or hide questions depending on the answers of other questions, use the *show fields* area when editing a question. In the version 2.5.0 you may use more complex expressions checking for the content of several questions, and use logic operator **OR** and **AND**. The precedence of boolean operators applies, meaning that **AND** has precedence over **OR**.
+
+Translation
+-----------
+
+In some cases a form should be available in several languages. Choose first in which language a form should be created. This language should be english (US or UK) or the language that most of target users understand. This is the fallback language if no alternative is found.
+
+This language is also used as reference in the translation process. Then be sure that the choosen langauge us readable by the user who will translate the form.
+
+To translate a form open the tab **Form languages**, then create all languages you need to provide to users.
+
+.. image:: images/translation_add_language.png
+
+Choose a language added to the form and click it to begin or resume translation, then select the tab **Translations**. Click the button **New translation** and a popup dialog will open and show a string to translate. Type the translation, and click save or validate with **Enter** on your keyboard.
+
+.. image:: images/translation_string_translation.png
+
+If an other string must be translated, it will show immediately. If no more string needs to be transalted, a message will show instead.
+
+.. image:: images/translation_no_more_string.png
+
+When you close the dialog the list of translated strings is refreshed. You can edit a translatin by clicking on it, delete one or several translations with the checkboxes on the left of the list and the **Delete** button**. You can also filter the list with the filter input box.
+
+.. image:: images/translation_string_list.png
