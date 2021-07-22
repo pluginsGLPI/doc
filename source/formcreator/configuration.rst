@@ -292,7 +292,7 @@ Three values are available:
 * **Private access**: Users having a GLPI account may access the form.
 * **Restricted access**: Only users having the specified profiles may access the form.
 
-When a form is set tu **Public access** it is possible to enable a simple captcha. This captcha should prevent spamming if a form is accessible from internet.
+When a form is set to **Public access** it is possible to enable a simple captcha. This captcha should prevent spamming if a form is accessible from internet.
 
 .. Note:: Captchas are not enabled by default on anonymous forms. Administrators need to enabled them explicitly depending on how the form may be accessible from an hostile network such Internet.
 
