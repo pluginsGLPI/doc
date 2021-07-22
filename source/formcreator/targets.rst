@@ -106,7 +106,7 @@ Urgency
 Location
 """"""""
 
-* Location fro template or none: sets the location from a template if any and if this template has a predefined loation. None in all other cases,
+* Location from template or none: sets the location from a template if any and if this template has a predefined location. None in all other cases,
 * Specific location: a location set by the form's designer
 * Equals to the answer to a question: a category choosen by the requester,
 
