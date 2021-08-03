@@ -114,7 +114,7 @@ There are about twenty types of quetions available. Depending on the choosen typ
  * **Required**: **Yes**/**No**. When running the form a red star shows next to label of questions requiring an input.
  * **Default values**: its content depends on  the type of the question.
  * **Range Min/Max**: Restricts the value to the given range when runnung the form.
- * **Additional validation (Regular expression)**: You may set a custom regex with a regular expression. Use it when other restriction methods cannot satisfy your needs. FormCreator automatically adds /^ on the beginning and $/ at the end. Therefore you cannot specify modifiers.
+ * **Additional validation (Regular expression)**: You may set a custom regex with a regular expression. Use it when other restriction methods cannot satisfy your needs. Don't forget to specify the delimiters of the regex. You may add any modifier after the closing delimiter.
 
 
 Actors
