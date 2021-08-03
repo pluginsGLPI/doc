@@ -89,7 +89,7 @@ Conditions may be multiple. To add or remove a condition two buttons are availab
 
  .. image:: images/question_condition_buttons.png
 
- .. note:: **List of pictograms**
+.. note:: **List of pictograms**
 
  * The **circle** allows you to make a question mandatory
 
