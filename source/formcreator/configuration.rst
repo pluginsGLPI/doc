@@ -186,6 +186,10 @@ Hidden field
 
 This field is hidden and allows to retrieve an arbitrary value when generating the target (ticket or change).
 
+.. note::
+   This type of questions never shows on a form.
+
+
 Hostname
 ^^^^^^^^^^^^
 
