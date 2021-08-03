@@ -208,6 +208,10 @@ This field allows you to create a dropdown list with objects from a LDAP directo
 
  .. image:: images/ldap_form.png
 
+
+.. note::
+   This type of questions cannot be used to fill actors of a target.
+
 Multiselect (multiple choice)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
