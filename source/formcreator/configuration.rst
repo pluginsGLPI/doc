@@ -41,7 +41,7 @@ It is recommended to fill the Category field:
 When all fields are filled, click on the **add button** at the botoom of the page.
 
 .. note::
-    Deleting a form is possible only if there areno associated answers. To delete a form, delete all its answers first from the **Form answers** tab.
+    Deleting a form is possible only if there are no associated answers. To delete a form, delete all its answers first from the **Form answers** tab.
 
 Sections
 ---------
@@ -99,7 +99,7 @@ Conditions may be multiple. To add or remove a condition two buttons are availab
 
  .. image:: images/question_picto_optional.png
 
- * **Arrow up** and **arrow down** allow you to r eorder questions in a section.
+ * **Arrow up** and **arrow down** allow you to reorder questions in a section.
  * Clicking on a question allow you to edit it.
  * **Two stacked squares** allows you to duplicate a question or a whole section.
  * The **recycle bin** allows you to delete a question or a whole section.
