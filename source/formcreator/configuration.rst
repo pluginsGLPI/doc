@@ -104,6 +104,8 @@ Conditions may be multiple. To add or remove a condition two buttons are availab
  * **Two stacked squares** allows you to duplicate a question or a whole section.
  * The **recycle bin** allows you to delete a question or a whole section.
 
+Questions are organized on a 4 columns array. You can resize width of questions, reorder them using drag and drop and put up to 4 questions on the same row.
+
 Types of question
 -----------------
 
