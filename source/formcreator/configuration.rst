@@ -31,8 +31,8 @@ It is recommended to fill the Category field:
 
 * **Direct access on homepage**: Direct access to the form from the GLPI's simplified interface.
 
- **Description**: displays in the list forms.
- * **Language**: by default a form is set to the language of its creator. The form will be available only to users using the same language as the form. Choose **All languages** to make the form available to users without language restriction.
+* **Description**: displays in the list forms.
+* **Language**: by default a form is set to the language of its creator. The form will be available only to users using the same language as the form. Choose **All languages** to make the form available to users without language restriction.
 
 * **Header**: displays when the form is displayed.
 * **Need to be validate**: If **Yes** a list of validators is displayed. This is a list of GLPI users (with the right **Validate an incident** or **Validate a request** (in its profile) on an compatible entity with the form's entity. The list of validators is a multiple choice list. If no validator is selected all of them are submitted when the form is being used.
