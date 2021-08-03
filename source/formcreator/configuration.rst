@@ -377,11 +377,11 @@ After the creation of a form, create fields for for the user to fill out.
 
 .. image:: images/question_creation.png
 
-The name of the questions will appear on the left and the field type selected on the right
+The name of the questions will appear on the left and the field type selected on the right.
 
 The Description will be under the input field.
 
-Additional optioins may be displayed depending on the currently selected question type..
+Additional options may be displayed depending on the currently selected question type.
 
 If validation of the input is desired, it can be implemented following `PHP Regular Expressions <http://php.net/manual/reference.pcre.pattern.syntax.php>`_.
 
@@ -392,7 +392,7 @@ Translation
 
 In some cases a form should be available in several languages. Choose first in which language a form should be created. This language should be english (US or UK) or the language that most of target users understand. This is the fallback language if no alternative is found.
 
-This language is also used as reference in the translation process. Then be sure that the choosen langauge us readable by the user who will translate the form.
+This language is also used as reference in the translation process. Then be sure that the choosen langauge is readable by the user who will translate the form.
 
 To translate a form open the tab **Form languages**, then create all languages you need to provide to users.
 
@@ -406,6 +406,6 @@ If an other string must be translated, it will show immediately. If no more stri
 
 .. image:: images/translation_no_more_string.png
 
-When you close the dialog the list of translated strings is refreshed. You can edit a translatin by clicking on it, delete one or several translations with the checkboxes on the left of the list and the **Delete** button**. You can also filter the list with the filter input box.
+When you close the dialog the list of translated strings is refreshed. You can edit a translation by clicking on it, delete one or several translations with the checkboxes on the left of the list and the **Delete** button**. You can also filter the list with the filter input box.
 
 .. image:: images/translation_string_list.png
