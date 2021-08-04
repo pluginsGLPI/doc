@@ -31,8 +31,8 @@ It is recommended to fill the Category field:
 
 * **Direct access on homepage**: Direct access to the form from the GLPI's simplified interface.
 
- **Description**: displays in the list forms.
- * **Language**: by default a form is set to the language of its creator. The form will be available only to users using the same language as the form. Choose **All languages** to make the form available to users without language restriction.
+* **Description**: displays in the list forms.
+* **Language**: by default a form is set to the language of its creator. The form will be available only to users using the same language as the form. Choose **All languages** to make the form available to users without language restriction.
 
 * **Header**: displays when the form is displayed.
 * **Need to be validate**: If **Yes** a list of validators is displayed. This is a list of GLPI users (with the right **Validate an incident** or **Validate a request** (in its profile) on an compatible entity with the form's entity. The list of validators is a multiple choice list. If no validator is selected all of them are submitted when the form is being used.
@@ -41,7 +41,7 @@ It is recommended to fill the Category field:
 When all fields are filled, click on the **add button** at the botoom of the page.
 
 .. note::
-    Deleting a form is possible only if there areno associated answers. To delete a form, delete all its answers first from the **Form answers** tab.
+    Deleting a form is possible only if there are no associated answers. To delete a form, delete all its answers first from the **Form answers** tab.
 
 Sections
 ---------
@@ -89,7 +89,7 @@ Conditions may be multiple. To add or remove a condition two buttons are availab
 
  .. image:: images/question_condition_buttons.png
 
- .. note:: **List of pictograms**
+.. note:: **List of pictograms**
 
  * The **circle** allows you to make a question mandatory
 
@@ -99,10 +99,12 @@ Conditions may be multiple. To add or remove a condition two buttons are availab
 
  .. image:: images/question_picto_optional.png
 
- * **Arrow up** and **arrow down** allow you to r eorder questions in a section.
+ * **Arrow up** and **arrow down** allow you to reorder questions in a section.
  * Clicking on a question allow you to edit it.
  * **Two stacked squares** allows you to duplicate a question or a whole section.
  * The **recycle bin** allows you to delete a question or a whole section.
+
+Questions are organized on a 4 columns array. You can resize width of questions, reorder them using drag and drop and put up to 4 questions on the same row.
 
 Types of question
 -----------------
@@ -114,7 +116,7 @@ There are about twenty types of quetions available. Depending on the choosen typ
  * **Required**: **Yes**/**No**. When running the form a red star shows next to label of questions requiring an input.
  * **Default values**: its content depends on  the type of the question.
  * **Range Min/Max**: Restricts the value to the given range when runnung the form.
- * **Additional validation (Regular expression)**: You may set a custom regex with a regular expression. Use it when other restriction methods cannot satisfy your needs. FormCreator automatically adds /^ on the beginning and $/ at the end. Therefore you cannot specify modifiers.
+ * **Additional validation (Regular expression)**: You may set a custom regex with a regular expression. Use it when other restriction methods cannot satisfy your needs. Don't forget to specify the delimiters of the regex. You may add any modifier after the closing delimiter.
 
 
 Actors
@@ -186,6 +188,10 @@ Hidden field
 
 This field is hidden and allows to retrieve an arbitrary value when generating the target (ticket or change).
 
+.. note::
+   This type of questions never shows on a form.
+
+
 Hostname
 ^^^^^^^^^^^^
 
@@ -207,6 +213,10 @@ LDAP select
 This field allows you to create a dropdown list with objects from a LDAP directory:
 
  .. image:: images/ldap_form.png
+
+
+.. note::
+   This type of questions cannot be used to fill actors of a target.
 
 Multiselect (multiple choice)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -369,11 +379,11 @@ After the creation of a form, create fields for for the user to fill out.
 
 .. image:: images/question_creation.png
 
-The name of the questions will appear on the left and the field type selected on the right
+The name of the questions will appear on the left and the field type selected on the right.
 
 The Description will be under the input field.
 
-Additional optioins may be displayed depending on the currently selected question type..
+Additional options may be displayed depending on the currently selected question type.
 
 If validation of the input is desired, it can be implemented following `PHP Regular Expressions <http://php.net/manual/reference.pcre.pattern.syntax.php>`_.
 
@@ -384,7 +394,7 @@ Translation
 
 In some cases a form should be available in several languages. Choose first in which language a form should be created. This language should be english (US or UK) or the language that most of target users understand. This is the fallback language if no alternative is found.
 
-This language is also used as reference in the translation process. Then be sure that the choosen langauge us readable by the user who will translate the form.
+This language is also used as reference in the translation process. Then be sure that the choosen langauge is readable by the user who will translate the form.
 
 To translate a form open the tab **Form languages**, then create all languages you need to provide to users.
 
@@ -398,6 +408,6 @@ If an other string must be translated, it will show immediately. If no more stri
 
 .. image:: images/translation_no_more_string.png
 
-When you close the dialog the list of translated strings is refreshed. You can edit a translatin by clicking on it, delete one or several translations with the checkboxes on the left of the list and the **Delete** button**. You can also filter the list with the filter input box.
+When you close the dialog the list of translated strings is refreshed. You can edit a translation by clicking on it, delete one or several translations with the checkboxes on the left of the list and the **Delete** button**. You can also filter the list with the filter input box.
 
 .. image:: images/translation_string_list.png
