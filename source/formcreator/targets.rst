@@ -132,3 +132,17 @@ The change is built from scratch. You may
 * define the actors of the change
 * set the category of the change
 * define conditions to meet to generate the target ticket
+
+Target description templating
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Target ticket and target change both have description template. By default the template uses the tag ``##FULLFORM##``. This tag is a default template where all questions and sections are displayed in the same order as the form.
+
+Each question has 2 tags
+
+* ``##question_x##`` which is replaced by the label of the question. X is the ID of the question.
+* ``##answer_x##`` which is replaced by the answer to a question. X is the ID of the matching question.
+
+Questions of type dropdown support more complex expression like ``##answer_x.name##``. ``x`` still means the ID of a question. the word after the dot is the name of a property available in the search options of the itemtype of the dropdown question.
+
+As an example, consider a dropdown question which shows locations. The itemtype set by the form designer is "Location". The designer can render in the target many fields of the location selected by the requester, such address, postcode, state, building, and many other data. To find them, the admin may rely on the list available in the search filters for a location.
