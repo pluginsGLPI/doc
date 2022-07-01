@@ -14,6 +14,7 @@ FormCreator is a plugin which allow creation of custom forms of easy access.
    service_catalog
    configuration
    targets
+   issues_lifecycle
    export_import
    contributing
    team
