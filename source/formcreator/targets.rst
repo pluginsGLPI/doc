@@ -141,7 +141,7 @@ Target ticket and target change both have description template. By default the t
 Each question has 2 tags
 
 * ``##question_x##`` which is replaced by the label of the question. X is the ID of the question.
-* ##answer_x## which is replaced by the answer to a question. X is the ID of the matching question.
+* ``##answer_x##`` which is replaced by the answer to a question. X is the ID of the matching question.
 
 Questions of type dropdown support more complex expression like ##answer_x.name##. X still means the ID of a question. the word after the dot is the name of a property available in the search options of the itemtype of the dropdown question.
 
