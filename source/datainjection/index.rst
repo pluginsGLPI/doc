@@ -33,7 +33,7 @@ Data to be imported using the plugins are:
 Install the Plugin
 ------------------
 * Uncompress the archive.
-* Move the ``escalade`` directory to the ``<GLPI_ROOT>/plugins`` directory
+* Move the ``datainjection`` directory to the ``<GLPI_ROOT>/plugins`` directory
 * Navigate to the *Configuration > Plugins* page,
 * Install and activate the plugin.
 
