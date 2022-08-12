@@ -28,7 +28,7 @@ This plugin supports the following aspects of order management :
 Install the Plugin
 ------------------
 * Uncompress the archive.
-* Move the ``escalade`` directory to the ``<GLPI_ROOT>/plugins`` directory
+* Move the ``order`` directory to the ``<GLPI_ROOT>/plugins`` directory
 * Navigate to the *Configuration > Plugins* page,
 * Install and activate the plugin.
 
