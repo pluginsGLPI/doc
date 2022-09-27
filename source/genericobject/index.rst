@@ -4,7 +4,7 @@ Generic Object
 * Sources link: https://github.com/pluginsGLPI/genericobject
 * Download: https://github.com/pluginsGLPI/genericobject/releases
 
-This user manual applies to version 2.5 of the GLPI Generic Object Plugin.
+This user manual applies to version 2.14 of the GLPI Generic Object Plugin.
 
 Requirements
 ------------
@@ -93,6 +93,14 @@ To change the label of the itemtype, for the english language, edit the file:
    <?php
    // <GLPI_ROOT>/files/_plugins/genericobject/locales/<itemtype>/<itemtype>.en_GB.php
    $LANG['genericobject']['<itemtype>'][1] = "<type's label>";
+
+You can also define labels globally in ``<GLPI_ROOT>/files/_plugins/genericobject/locales/fields.<lang>.php`` files:
+
+.. code-block:: php
+
+   <?php
+   // <GLPI_ROOT>/files/_plugins/genericobject/locales/<itemtype>/<itemtype>.en_GB.php
+   $LANG['genericobject']['fields']['<itemtype>'] = "<type's label>";
 
 Setup behaviour
 ^^^^^^^^^^^^^^^
