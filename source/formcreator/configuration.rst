@@ -74,7 +74,7 @@ A question is made of:
 * a type: see list below.
 * a section: the section containing the question. You can move a question to an other section with this field.
 * a description: it is displayed under the question in the form. Use it as a hint for the requester, telling him which content is expected.
-* a dropdown list: **Show field** to enable a condition
+* a dropdown list **Show field** to enable a condition
 
  .. image:: images/show_field.png
 
