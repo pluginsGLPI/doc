@@ -35,10 +35,10 @@ It is recommended to fill the Category field:
 * **Language**: by default a form is set to the language of its creator. The form will be available only to users using the same language as the form. Choose **All languages** to make the form available to users without language restriction.
 
 * **Header**: displays when the form is displayed.
-* **Need to be validate**: If **Yes** a list of validators is displayed. This is a list of GLPI users (with the right **Validate an incident** or **Validate a request** (in its profile) on an compatible entity with the form's entity. The list of validators is a multiple choice list. If no validator is selected all of them are submitted when the form is being used.
+* **Need to be validate**: If **Yes** a list of validators is displayed. This is a list of GLPI users (with the right **Validate an incident** or **Validate a request** (in its profile) on a compatible entity with the form's entity. The list of validators is a multiple choice list. If no validator is selected all of them are submitted when the form is being used.
 * **Default form in service catalog**: if **Yes** the form will display in the service catalog without being filtered by the current category or keywords.
 
-When all fields are filled, click on the **add button** at the botoom of the page.
+When all fields are filled, click on the **add button** at the bottom of the page.
 
 .. note::
     Deleting a form is possible only if there are no associated answers. To delete a form, delete all its answers first from the **Form answers** tab.
@@ -73,8 +73,8 @@ A question is made of:
 * a title: this is the label of the question in the form.
 * a type: see list below.
 * a section: the section containing the question. You can move a question to an other section with this field.
-* a description; it is displayed under the question in the form. Use it as a hint for the requester, telling him which content is expected.
-* a dropdown list **Show field** to enable a condition
+* a description: it is displayed under the question in the form. Use it as a hint for the requester, telling him which content is expected.
+* a dropdown list: **Show field** to enable a condition
 
  .. image:: images/show_field.png
 
@@ -109,13 +109,13 @@ Questions are organized on a 4 columns array. You can resize width of questions,
 Types of question
 -----------------
 
-There are about twenty types of quetions available. Depending on the choosen type, you need to provide additional informations.
+There are about twenty types of questions available. Depending on the chosen type, you need to provide additional information.
 
 .. note::
 
  * **Required**: **Yes**/**No**. When running the form a red star shows next to label of questions requiring an input.
  * **Default values**: its content depends on  the type of the question.
- * **Range Min/Max**: Restricts the value to the given range when runnung the form.
+ * **Range Min/Max**: Restricts the value to the given range when running the form.
  * **Additional validation (Regular expression)**: You may set a custom regex with a regular expression. Use it when other restriction methods cannot satisfy your needs. Don't forget to specify the delimiters of the regex. You may add any modifier after the closing delimiter.
 
 
@@ -146,7 +146,7 @@ This field allows to select a date, a datetime or a time from a mini calendar.
 Description
 ^^^^^^^^^^^
 
-This field only displays informations. Use it to give more details about a question.
+This field only displays information. Use it to give more details about a question.
 
 Dropdown
 ^^^^^^^^
@@ -158,7 +158,7 @@ This field allows the user to choose a value among those available in a dropdown
 Email
 ^^^^^
 
-The answer to this type of field must be a syntaxically valid email address.
+The answer to this type of field must be a syntactically valid email address.
 
 File
 ^^^^
@@ -170,12 +170,12 @@ This  field allows the requester to upload a file.
 Float
 ^^^^^
 
-This field must be an float value. Note you may use a regular expression to tighter restrict the answer.
+This field must be a float value. Note you may use a regular expression to tighter restrict the answer.
 
 GLPI Object
 ^^^^^^^^^^^
 
-This field allows you to build a dropdown from a GLPI object among those abvailable in the menus:
+This field allows you to build a dropdown from a GLPI object among those available in the menus:
 
 * Assets
 * Assistance
@@ -195,7 +195,7 @@ This field is hidden and allows to retrieve an arbitrary value when generating t
 Hostname
 ^^^^^^^^^^^^
 
-This field is invisible. It allows to get the hostname if the computer used by  the requester, assuming the DNS is able to proprtly solve it from its IP address
+This field is invisible. It allows to get the hostname of the computer used by the requester, assuming the DNS is able to properly resolve it from its IP address
 
 Integer
 ^^^^^^^
@@ -205,7 +205,7 @@ This field must be an integer value. Note you may use a regular expression to ti
 IP Address
 ^^^^^^^^^^
 
-This field is hidden and collects the IP address of the form requester. It does not shows in the form.
+This field is hidden and collects the IP address of the form requester. It does not show in the form.
 
 LDAP select
 ^^^^^^^^^^^
@@ -221,12 +221,12 @@ This field allows you to create a dropdown list with objects from a LDAP directo
 Multiselect (multiple choice)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This field allows you to create a dropdown list with ability to select multiple items. Values are added one per line in the field **Values**. You may set default values, one per line in *Default values**. If no default value is set then no item will selected by default.
+This field allows you to create a dropdown list with ability to select multiple items. Values are added one per line in the field **Values**. You may set default values, one per line in *Default values**. If no default value is set then no item will be selected by default.
 
 Request type
 ^^^^^^^^^^^^
 
-This field is a dropdown with "Incident" or "Demand" choices. It can be used to set the request type of a ticket being generated by the form.
+This field is a dropdown with "Incident" or "Request" choices. It can be used to set the request type of a ticket being generated by the form.
 
 Radio buttons (one choice only)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -245,7 +245,7 @@ This field allows you to create a dropdown list and set its items. Items are add
 Tags
 ^^^^
 
-This is an hidden field to add a tag to the form for future processing.
+This is a hidden field to add a tag to the form for future processing.
 
 .. note::
   This type of field is only available when the plugin **Tag** is installed and enabled.
@@ -309,10 +309,11 @@ When a form is set to **Public access** it is possible to enable a simple captch
 Targets
 -------
 
-There are two types of targets for a form:
+There are three types of targets for a form:
 
 * tickets
 * changes
+* problems
 
 It is possible to generate any number of targets from a single form. Mixing types of targets is also possible.
 
@@ -375,7 +376,7 @@ Render
 Questions
 ---------
 
-After the creation of a form, create fields for for the user to fill out.
+After the creation of a form, create fields for the user to fill out.
 
 .. image:: images/question_creation.png
 
@@ -394,7 +395,7 @@ Translation
 
 In some cases a form should be available in several languages. Choose first in which language a form should be created. This language should be english (US or UK) or the language that most of target users understand. This is the fallback language if no alternative is found.
 
-This language is also used as reference in the translation process. Then be sure that the choosen langauge is readable by the user who will translate the form.
+This language is also used as reference in the translation process. Then be sure that the chosen language is readable by the user who will translate the form.
 
 To translate a form open the tab **Form languages**, then create all languages you need to provide to users.
 
@@ -404,7 +405,7 @@ Choose a language added to the form and click it to begin or resume translation,
 
 .. image:: images/translation_string_translation.png
 
-If an other string must be translated, it will show immediately. If no more string needs to be transalted, a message will show instead.
+If another string must be translated, it will show immediately. If no more string needs to be translated, a message will show instead.
 
 .. image:: images/translation_no_more_string.png
 
