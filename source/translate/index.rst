@@ -5,7 +5,7 @@ Translate
 Introduction
 ------------
 
-The **Translate** plugin for GLPI is a handy tool designed to enhance multilingual communication within your GLPI. Leveraging DeepL's translation technology, this plugin provides a simple and effective solution for translating elements in the ticket timeline, fostering seamless collaboration within international teams.
+The **Translate** plugin for GLPI is a handy tool designed to enhance multilingual communication within your GLPI. Leveraging `DeepL <https://www.deepl.com/>`_'s translation technology, this plugin provides a simple and effective solution for translating elements in the ticket timeline, fostering seamless collaboration within international teams.
 
 Whether you're managing projects with teams scattered worldwide or simply aiming to facilitate communication with users in different languages, the Translate plugin streamlines the translation process within your GLPI instance.
 
