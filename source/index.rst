@@ -31,3 +31,4 @@ You'll find here user documentation for various `GLPI <http://glpi-project.org>`
    formcreator/index
    datainjection/index
    oauthimap/index
+   translate/index
