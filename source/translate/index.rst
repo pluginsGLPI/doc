@@ -117,27 +117,27 @@ Obtaining the API Key
 
 3. Log in or create an account
 
-   .. image:: images/deepl_login.png
+    .. image:: images/deepl_login.png
         :alt: Log in or Create Account
 
 4. Enter your personal informations
 
-   .. image:: images/deepl_personal_informations.png
+    .. image:: images/deepl_personal_informations.png
         :alt: Enter Personal Informations
 
 5. Accept the terms of use and complete the registration
 
-   .. image:: images/deepl_terms.png
+    .. image:: images/deepl_terms.png
         :alt: Accept Terms
 
 6. Click on "Account management" to retrieve your API key
 
-   .. image:: images/deepl_account_management.png
+    .. image:: images/deepl_account_management.png
         :alt: Account Management
 
 7. In the "Account" tab, retrieve your API key at the bottom of the page, in the "Authentication Key for DeepL API" section
 
-   .. image:: images/deepl_retrieve_api_key.png
+    .. image:: images/deepl_retrieve_api_key.png
         :alt: Retrieve API Key
 
 Configuration
