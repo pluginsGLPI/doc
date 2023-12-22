@@ -32,3 +32,4 @@ You'll find here user documentation for various `GLPI <http://glpi-project.org>`
    datainjection/index
    oauthimap/index
    translate/index
+   centreon/index
