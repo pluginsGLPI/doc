@@ -47,15 +47,15 @@ You will need to fill the following fields :
 * **Centreon Username** : The username of your Centreon account
 * **Centreon Password** : The password of your Centreon account
 
-.. image:: images/centreon_configuration.jpg
+.. image:: images/centreon-settings.jpg
    :alt: Centreon configuration
 
 Then, it will create automatically a new SQL table named ``glpi_plugin_centreon_hosts``.
 This table will contain all the hosts that are both in GLPI and Centreon.
 A new tab is created on the host page, so you can see the information about the host.
 
-.. image:: images/centreon_accueil.jpg
+.. image:: images/centreon-accueil.jpg
    :alt: Centreon homepage
 
-.. image:: images/centreon_timeline.jpg
+.. image:: images/centreon-timeline.jpg
    :alt: Centreon timeline
