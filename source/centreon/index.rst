@@ -1,21 +1,18 @@
-=============================
 Centreon Plugin Documentation
 =============================
 
-Centreon
-========
 
 * Sources link: `<https://github.com/pluginsGLPI/centreon>`_
 * Download: `<https://github.com/pluginsGLPI/centreon/releases>`_
 
 Requirements
-============
+------------
 
 PHP >= 7.4.0
 GLPI >= 10.0.0
 
 Features
-========
+--------
 
 Centreon is a network, system, applicative supervision and monitoring tool.
 Centreon plugin allows you to see general information about hosts and their services on your GLPI interface,
@@ -30,7 +27,7 @@ You can perform 3 main actions :
 and you can also see the timeline of the host.
 
 Installation
-============
+------------
 
 * Uncompress the archive
 * Move the ``centreon`` folder to ``<GLPI_ROOT>/plugins`` directory
@@ -38,7 +35,7 @@ Installation
 * Install and activate the plugin.
 
 Usage
-=====
+-----
 
 You need to configure the plugin before using it. To do so, go to the **Setup > Plugins > Centreon** page.
 You will need to fill the following fields :
