@@ -5,7 +5,7 @@ Install the plugin
 ------------------
 
 .. note::
-    ” A `standard license <https://services.glpi-network.com/#offers>`__ (or higher) is required. This plugin is also available from the `Cloud <https://glpi-network.cloud/>`__.
+    A `standard license <https://services.glpi-network.com/#offers>`__ (or higher) is required. This plugin is also available from the `Cloud <https://glpi-network.cloud/>`__.
 
 *  Go to the marketplace. Download and install the “**Advanced dashboard**” plugin.
 
