@@ -1,5 +1,5 @@
-Centreon Plugin Documentation
-=============================
+Centreon
+========
 
 
 * Sources link: `<https://github.com/pluginsGLPI/centreon>`_
