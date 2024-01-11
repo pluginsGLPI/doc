@@ -35,7 +35,6 @@ You'll find here user documentation for various `GLPI <http://glpi-project.org>`
    oauthimap/index
    order/index
    sccm/index
-   translate/index
    treeview/index
    tag/index
    uninstall/index
