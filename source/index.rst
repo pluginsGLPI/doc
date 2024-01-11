@@ -14,23 +14,34 @@ You'll find here user documentation for various `GLPI <http://glpi-project.org>`
 
 .. toctree::
    :maxdepth: 2
+   :caption: 🚀 Tutorials
 
    presentation
    empty/index
    example/index
-   advanceddashboard/index
+
+.. toctree::
+   :maxdepth: 2
+   :caption: 🧩 GLPI Plugins
+
+   escalade/index
+   centreon/index
+   credit/index
+   datainjection/index
+   fields/index
+   formcreator/index
+   genericobject/index
+   news/index
+   oauthimap/index
+   order/index
+   sccm/index
    treeview/index
    tag/index
-   news/index
-   sccm/index
-   escalade/index
-   credit/index
-   genericobject/index
-   order/index
-   fields/index
    uninstall/index
-   formcreator/index
-   datainjection/index
-   oauthimap/index
+
+.. toctree::
+   :maxdepth: 2
+   :caption: ⭐ GLPI-Network Plugins
+
+   advanceddashboard/index
    translate/index
-   centreon/index
