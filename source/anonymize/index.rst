@@ -1,5 +1,5 @@
-:ti-spy: Setup Anonymize
-========================
+Anonymize
+=========
 
 Requirements (on-premise)
 -------------------------
@@ -33,7 +33,7 @@ Anonymisation works by profile. There are 4 profiles already created.
 When you select a profile, a certain amount of data is already set. They
 can, of course, be modified.
 
--  Go to :ti-shield-check:**``administration``** >
+-  Go to :ti-shield-check:administration >
    :ti-spy:**``anonymization profile``** and select the profile best
    suited to your needs:
 
