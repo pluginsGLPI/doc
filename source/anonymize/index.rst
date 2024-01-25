@@ -16,8 +16,7 @@ Install the plugin
 .. Note::
    A `basic licence <https://services.glpi-network.com/#offers>`__ (or higher) is required. This plugin is also available from the `Cloud <https://glpi-network.cloud/fr/>`__.
 
--  Go to the marketplace. Download and install the “**Anonymize**”
-   plugin.
+-  Go to the marketplace. Download and install the “**Anonymize**”   plugin.
 
 .. figure:: images/Anonymize-1.png
    :alt: Install the plugin
@@ -29,9 +28,7 @@ Anonymisation works by profile. There are 4 profiles already created.
 When you select a profile, a certain amount of data is already set. They
 can, of course, be modified.
 
--  Go to :ti-shield-check:administration >
-   :ti-spy:**anonymization profile** and select the profile best
-   suited to your needs:
+-  Go to **administration** > **anonymization profile** and select the profile best suited to your needs:
 
 The 4 profiles you will find are :
 
@@ -41,26 +38,20 @@ The 4 profiles you will find are :
 -  User profile
 
 .. figure:: images/Anonymize-2.png
-   :alt: Alt text
-
-   Alt text
+   :alt: Profiles
 
 Anonymisable data per profile (predefined)
 ------------------------------------------
 
-Each profile has an element assigned to it. You will need to define the
-value of each attribute that it will be able to anonymise (or not)
+Each profile has an element assigned to it. You will need to define the value of each attribute that it will be able to anonymise (or not)
 
 .. figure:: images/Anonymize-3.png
-   :alt: Alt text
-
-   Alt text
+   :alt:
 
 Email
 ~~~~~
 
 .. info::
-   :collapsible:
 - **users_id**
 - **is_default**
 - **email**
@@ -68,8 +59,7 @@ Email
 Entity
 ~~~~~~
 
-??? info “List of attributes”
-
+.. info::
 - **name**
 - **entities_id**
 - **comment**
@@ -167,7 +157,8 @@ Entity
 Computer
 ~~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **entities_id**
 - **name**
 - **serial**
@@ -197,7 +188,8 @@ Computer
 User
 ~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **name**
 - **password**
 - **password_last_update**
@@ -243,7 +235,6 @@ User
 - **date_creation**
 - **groups_id**
 - **users_id_supervisor**
-
 - **timezone**
 - **default_central_tab**
 - **nickname**
@@ -254,8 +245,7 @@ User
 Application strategy
 --------------------
 
-Several strategies are available for each element field (e.g. ‘Last
-name’, ‘First name’, ‘Serial number’, ‘Location’, ‘Status’, etc.):
+Several strategies are available for each element field (e.g.Last name, First name, Serial number, Location, Status, etc.):
 
 -  Keep the value,
 -  delete the value,
@@ -287,8 +277,6 @@ very bottom of your profile.
 .. figure:: images/Anonymize-4.png
    :alt: Alt text
 
-   Alt text
-
 !!! Info “Information” You cannot change any values other than those
 linked to the type of element you are in. For example, you will be able
 to **modify all email addresses** in the database via the
@@ -317,7 +305,6 @@ In our example, we will be anonymising **user data**.
 .. figure:: images/Anonymize-5.gif
    :alt: Alt text
 
-   Alt text
 
 !!! Success "To be adapted If your profile concerns entities, go to
 :ti-shield-check:**administration** > :ti-stack:**entities** and
@@ -369,7 +356,8 @@ Other anonymisable data (profile creation)
 Agents
 ~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **deviceid**
 - **entities_id**
 - **name**
@@ -399,7 +387,8 @@ Agents
 Appliances
 ~~~~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **entities_id**
 - **Garder**
 - **name**
@@ -426,14 +415,14 @@ Appliances
 Budgets
 ~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **name**
 - **entities_id**
 - **comment**
 - **begin_date**
 - **end_date**
 - **value**
-
 - **template_name**
 - **date_mod**
 - **date_creation**
@@ -443,7 +432,8 @@ Budgets
 Cables
 ~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **name**
 - **entities_id**
 - **itemtype_endpoint_a**
@@ -468,7 +458,8 @@ Cables
 Changes
 ~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **name**
 - **entities_id**
 - **status**
@@ -502,7 +493,8 @@ Changes
 Certificates
 ~~~~~~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **name**
 - **serial**
 - **otherserial**
@@ -533,7 +525,8 @@ Certificates
 Clusters
 ~~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **entities_id**
 - **name**
 - **uuid**
@@ -550,7 +543,8 @@ Clusters
 Contacts
 ~~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **name**
 - **firstname**
 - **phone**
@@ -573,7 +567,8 @@ Contacts
 Databbaes
 ~~~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **entities_id**
 - **name**
 - **size**
@@ -588,7 +583,8 @@ Databbaes
 Data centers
 ~~~~~~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **name**
 - **entities_id**
 - **locations_id**
@@ -599,7 +595,8 @@ Data centers
 Server rooms
 ~~~~~~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **name**
 - **entities_id**
 - **locations_id**
@@ -613,7 +610,8 @@ Server rooms
 Documents
 ~~~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **name**
 - **filename**
 - **filepath**
@@ -632,7 +630,8 @@ Documents
 Domains
 ~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **name**
 - **entities_id**
 - **domaintypes_id**
@@ -649,7 +648,8 @@ Domains
 Enclosures
 ~~~~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **name**
 - **entities_id**
 - **locations_id**
@@ -670,7 +670,8 @@ Enclosures
 Groups
 ~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **entities_id**
 - **name**
 - **comment**
@@ -695,14 +696,14 @@ Groups
 Knowledge base
 ~~~~~~~~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **name**
 - **answer**
 - **is_faq**
 - **users_id**
 - **view**
 - **date_creation**
-
 - **date_mod**
 - **begin_date**
 - **end_date**
@@ -710,7 +711,8 @@ Knowledge base
 ITIL Categories
 ~~~~~~~~~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **entities_id**
 - **itilcategories_id**
 - **name**
@@ -725,7 +727,6 @@ ITIL Categories
 - **is_helpdeskvisible**
 - **tickettemplates_id_incident**
 - **tickettemplates_id_demand**
-
 - **changetemplates_id**
 - **problemtemplates_id**
 - **is_incident**
@@ -738,7 +739,8 @@ ITIL Categories
 Followups
 ~~~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **itemtype**
 - **items_id**
 - **date**
@@ -756,10 +758,10 @@ Followups
 Followups templates
 ~~~~~~~~~~~~~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **date_creation**
 - **date_mod**
-
 - **entities_id**
 - **name**
 - **content**
@@ -770,13 +772,13 @@ Followups templates
 Solutions
 ~~~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **itemtype**
 - **Keep**
 - **items_id**
 - **solutiontypes_id**
 - **solutiontype_name**
-
 - **content**
 - **date_creation**
 - **date_mod**
@@ -792,7 +794,8 @@ Solutions
 Lines
 ~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **name**
 - **entities_id**
 - **caller_num**
@@ -810,7 +813,8 @@ Lines
 Locations
 ~~~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **entities_id**
 - **name**
 - **locations_id**
@@ -834,7 +838,8 @@ Locations
 Monitors
 ~~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **entities_id**
 - **name**
 - **date_mod**
@@ -847,7 +852,6 @@ Monitors
 - **otherserial**
 - **size**
 - **have_micro**
-
 - **have_speaker**
 - **have_subd**
 - **have_bnc**
@@ -872,7 +876,8 @@ Monitors
 Network devices
 ~~~~~~~~~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **entities_id**
 - **name**
 - **ram**
@@ -898,7 +903,6 @@ Network devices
 - **date_creation**
 - **autoupdatesystems_id**
 - **sysdescr**
-
 - **cpu**
 - **uptime**
 - **last_inventory_update**
@@ -907,7 +911,8 @@ Network devices
 PDUs
 ~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **name**
 - **entities_id**
 - **locations_id**
@@ -927,7 +932,8 @@ PDUs
 Projects
 ~~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **name**
 - **code**
 - **priority**
@@ -955,7 +961,8 @@ Projects
 Projects tasks
 ~~~~~~~~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **uuid**
 - **name**
 - **content**
@@ -983,7 +990,8 @@ Projects tasks
 Devices
 ~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **entities_id**
 - **name**
 - **date_mod**
@@ -998,7 +1006,6 @@ Devices
 - **peripheraltypes_id**
 - **peripheralmodels_id**
 - **brand**
-
 - **manufacturers_id**
 - **is_global**
 - **template_name**
@@ -1013,7 +1020,8 @@ Devices
 Phones
 ~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **entities_id**
 - **name**
 - **date_mod**
@@ -1047,7 +1055,8 @@ Phones
 Printers
 ~~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **entities_id**
 - **name**
 - **date_mod**
@@ -1068,7 +1077,6 @@ Printers
 - **networks_id**
 - **printertypes_id**
 - **printermodels_id**
-
 - **manufacturers_id**
 - **is_global**
 - **template_name**
@@ -1088,7 +1096,8 @@ Printers
 Problems
 ~~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **name**
 - **entities_id**
 - **status**
@@ -1106,7 +1115,6 @@ Problems
 - **itilcategories_id**
 - **impactcontent**
 - **causecontent**
-
 - **symptomcontent**
 - **actiontime**
 - **begin_waiting_date**
@@ -1119,7 +1127,8 @@ Problems
 Racks
 ~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **name**
 - **comment**
 - **entities_id**
@@ -1135,7 +1144,6 @@ Racks
 - **width**
 - **height**
 - **depth**
-
 - **number_units**
 - **template_name**
 - **dcrooms_id**
@@ -1151,7 +1159,8 @@ Racks
 Rules
 ~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **entities_id**
 - **sub_type**
 - **ranking**
@@ -1168,7 +1177,8 @@ Rules
 Saved searches
 ~~~~~~~~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **name**
 - **type**
 - **itemtype**
@@ -1184,7 +1194,8 @@ Saved searches
 Software
 ~~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **entities_id**
 - **name**
 - **comment**
@@ -1208,7 +1219,8 @@ Software
 Licenses
 ~~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **softwares_id**
 - **softwarelicenses_id**
 - **level**
@@ -1245,7 +1257,8 @@ Licenses
 Solutions template
 ~~~~~~~~~~~~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **entities_id**
 - **name**
 - **content**
@@ -1257,7 +1270,8 @@ Solutions template
 Solutions types
 ~~~~~~~~~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **name**
 - **comment**
 - **entities_id**
@@ -1267,7 +1281,8 @@ Solutions types
 Suppliers
 ~~~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **entities_id**
 - **name**
 - **suppliertypes_id**
@@ -1289,7 +1304,8 @@ Suppliers
 Task catégories
 ~~~~~~~~~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **entities_id**
 - **taskcategories_id**
 - **name**
@@ -1306,7 +1322,8 @@ Task catégories
 Task templates
 ~~~~~~~~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **entities_id**
 - **name**
 - **content**
@@ -1323,7 +1340,8 @@ Task templates
 Tickets
 ~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **entities_id**
 - **name**
 - **date**
@@ -1352,7 +1370,6 @@ Tickets
 - **ola_waiting_duration**
 - **olas_id_tto**
 - **olas_id_ttr**
-
 - **olalevels_id_ttr**
 - **ola_ttr_begin_date**
 - **internal_time_to_resolve**
@@ -1370,7 +1387,8 @@ Tickets
 Ticket tasks
 ~~~~~~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **uuid**
 - **tickets_id**
 - **taskcategories_id**
@@ -1395,7 +1413,8 @@ Ticket tasks
 Ticket templates
 ~~~~~~~~~~~~~~~~
 
-??? info “List of attributes”
+.. info::
+
 - **name**
 - **entities_id**
 - **comment**
