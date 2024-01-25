@@ -265,7 +265,7 @@ You can ask GLPI to anoymise an attribute in the whole database and not only in 
 .. figure:: images/Anonymize-4.png
    :alt:
 
-.. Info::
+.. Note::
    You cannot change any values other than those linked to the type of element you are in. For example, you will be able to **modify all email addresses** in the database via the **Email** profile, but you will not be able to modify all user phone number via this profile.
 
 Applying the profile
@@ -289,7 +289,7 @@ In our example, we will be anonymising **user data**.
    :alt:
 
 
-.. Info::
+.. Note::
    "To be adapted If your profile concerns entities, go to **administration** > **entities** and repeat the operation for the entities concerned. Do the same for computers, email, etc.
 
 Via CLI (on-premise only)
@@ -325,7 +325,7 @@ above.
 -  Set the parameters for each field
 -  Click on **add**
 
-.. Info::
+.. Note::
    Remember to refer to the [profile application](../plugins/Anonymize.co.uk.md/#profile-application) section to apply your changes.
 
 Other anonymisable data (profile creation)
