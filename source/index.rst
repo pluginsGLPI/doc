@@ -44,5 +44,6 @@ You'll find here user documentation for various `GLPI <http://glpi-project.org>`
    :caption: ⭐ GLPI-Network Plugins
 
    advanceddashboard/index
+   anonymize/index
    scim/index
    translate/index
