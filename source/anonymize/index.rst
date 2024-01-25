@@ -25,8 +25,7 @@ Choice of profile
 -----------------
 
 Anonymisation works by profile. There are 4 profiles already created.
-When you select a profile, a certain amount of data is already set. They
-can, of course, be modified.
+When you select a profile, a certain amount of data is already set. They can, of course, be modified.
 
 -  Go to **administration** > **anonymization profile** and select the profile best suited to your needs:
 
@@ -51,7 +50,6 @@ Each profile has an element assigned to it. You will need to define the value of
 Email
 ~~~~~
 
-.. info::
 - **users_id**
 - **is_default**
 - **email**
@@ -59,7 +57,6 @@ Email
 Entity
 ~~~~~~
 
-.. info::
 - **name**
 - **entities_id**
 - **comment**
@@ -157,8 +154,6 @@ Entity
 Computer
 ~~~~~~~~
 
-.. info::
-
 - **entities_id**
 - **name**
 - **serial**
@@ -187,8 +182,6 @@ Computer
 
 User
 ~~~~
-
-.. info::
 
 - **name**
 - **password**
@@ -257,9 +250,7 @@ History
 -------
 
 Each profile allows you to choose the treatment to be applied to the
-history(1) of items: { .annotate }
-
-1. History tab for the item in question
+history of items:
 
 -  Do nothing,
 -  clean up values,
@@ -269,19 +260,13 @@ history(1) of items: { .annotate }
 Global search
 -------------
 
-You can ask GLPI to anoymise an attribute in the whole database and not
-only in the type of element you are in. The option
-**attributes to search and replace in others objects** is at the
-very bottom of your profile.
+You can ask GLPI to anoymise an attribute in the whole database and not only in the type of element you are in. The option **attributes to search and replace in others objects** is at the very bottom of your profile.
 
 .. figure:: images/Anonymize-4.png
-   :alt: Alt text
+   :alt:
 
-!!! Info “Information” You cannot change any values other than those
-linked to the type of element you are in. For example, you will be able
-to **modify all email addresses** in the database via the
-**Email** profile, but you will not be able to modify all user phone
-number via this profile.
+.. Info::
+   You cannot change any values other than those linked to the type of element you are in. For example, you will be able to **modify all email addresses** in the database via the **Email** profile, but you will not be able to modify all user phone number via this profile.
 
 Applying the profile
 --------------------
@@ -297,39 +282,34 @@ Mass action (Cloud and on-premise)
 
 In our example, we will be anonymising **user data**.
 
--  Go to :ti-shield-check:**administration** >
-   :ti-user:**users**. Select the user(s) you wish to anonymise.
-   Click on :ti-corner-left-down:**actions** then
-   **anonymise selected items**.
+-  Go to **administration** > **users**. Select the user(s) you wish to anonymise.
+-  Click on **actions** then **anonymise selected items**.
 
 .. figure:: images/Anonymize-5.gif
-   :alt: Alt text
+   :alt:
 
 
-!!! Success "To be adapted If your profile concerns entities, go to
-:ti-shield-check:**administration** > :ti-stack:**entities** and
-repeat the operation for the entities concerned. Do the same for
-computers, email, etc.
+.. Success::
+   "To be adapted If your profile concerns entities, go to **administration** > **entities** and repeat the operation for the entities concerned. Do the same for computers, email, etc.
 
 Via CLI (on-premise only)
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Go to your GLPI folder (**/var/www/glpi** or other depending on your
-   configuration):
+-  Go to your GLPI folder (**/var/www/glpi** or other depending on your configuration):
 
 -  Run all default profiles on all objects:
 
-   -  php bin/console glpi:plugin:anonymize --all
+   -  ``php bin/console glpi:plugin:anonymize --all``
 
 -  Run profile X on all objects / on one object:
 
-   -  php bin/console glpi:plugin:anonymize --profile=X
-   -  php bin/console glpi:plugin:anonymize --profile=X --item-id=X
+   -  ``php bin/console glpi:plugin:anonymize --profile=X``
+   -  ``php bin/console glpi:plugin:anonymize --profile=X --item-id=X``
 
 -  Run default profile type X on all objects / on one object :
 
-   -  php bin/console glpi:plugin:anonymize --itemtype=X
-   -  php bin/console glpi:plugin:anonymize --itemtype=X --item-id=X
+   -  ``php bin/console glpi:plugin:anonymize --itemtype=X``
+   -  ``php bin/console glpi:plugin:anonymize --itemtype=X --item-id=X``
 
 Creating a profile
 ------------------
@@ -337,26 +317,22 @@ Creating a profile
 You can create a profile to anonymise other data than that mentioned
 above.
 
--  Go to :ti-shield-check:**administration** >
-   :ti-spy:**anonymisation profile**.
--  Click on :ti-plus:**add**.
+-  Go to **administration > anonymisation profile**
+-  Click on **add**.
 -  Name your profile
--  Choose from the list of **“element types”** (agent, domain, etc.)
+-  Choose from the list of **element types** (agent, domain, etc.)
 -  Select the treatment of the **history**.
 -  Set the parameters for each field
--  Click on :ti-plus:**add**
+-  Click on **add**
 
-!!! Information" tip Remember to refer to the [profile application]
-section(../plugins/Anonymize.co.uk.md/#profile-application) to apply
-your changes.
+.. Info::
+   Remember to refer to the [profile application](../plugins/Anonymize.co.uk.md/#profile-application) section to apply your changes.
 
 Other anonymisable data (profile creation)
 ------------------------------------------
 
 Agents
 ~~~~~~
-
-.. info::
 
 - **deviceid**
 - **entities_id**
@@ -387,8 +363,6 @@ Agents
 Appliances
 ~~~~~~~~~~
 
-.. info::
-
 - **entities_id**
 - **Garder**
 - **name**
@@ -415,8 +389,6 @@ Appliances
 Budgets
 ~~~~~~~
 
-.. info::
-
 - **name**
 - **entities_id**
 - **comment**
@@ -431,8 +403,6 @@ Budgets
 
 Cables
 ~~~~~~
-
-.. info::
 
 - **name**
 - **entities_id**
@@ -457,8 +427,6 @@ Cables
 
 Changes
 ~~~~~~~
-
-.. info::
 
 - **name**
 - **entities_id**
@@ -493,8 +461,6 @@ Changes
 Certificates
 ~~~~~~~~~~~~
 
-.. info::
-
 - **name**
 - **serial**
 - **otherserial**
@@ -525,8 +491,6 @@ Certificates
 Clusters
 ~~~~~~~~
 
-.. info::
-
 - **entities_id**
 - **name**
 - **uuid**
@@ -542,8 +506,6 @@ Clusters
 
 Contacts
 ~~~~~~~~
-
-.. info::
 
 - **name**
 - **firstname**
@@ -567,8 +529,6 @@ Contacts
 Databbaes
 ~~~~~~~~~
 
-.. info::
-
 - **entities_id**
 - **name**
 - **size**
@@ -583,8 +543,6 @@ Databbaes
 Data centers
 ~~~~~~~~~~~~
 
-.. info::
-
 - **name**
 - **entities_id**
 - **locations_id**
@@ -594,8 +552,6 @@ Data centers
 
 Server rooms
 ~~~~~~~~~~~~
-
-.. info::
 
 - **name**
 - **entities_id**
@@ -609,8 +565,6 @@ Server rooms
 
 Documents
 ~~~~~~~~~
-
-.. info::
 
 - **name**
 - **filename**
@@ -630,8 +584,6 @@ Documents
 Domains
 ~~~~~~~
 
-.. info::
-
 - **name**
 - **entities_id**
 - **domaintypes_id**
@@ -647,8 +599,6 @@ Domains
 
 Enclosures
 ~~~~~~~~~~
-
-.. info::
 
 - **name**
 - **entities_id**
@@ -669,8 +619,6 @@ Enclosures
 
 Groups
 ~~~~~~
-
-.. info::
 
 - **entities_id**
 - **name**
@@ -696,8 +644,6 @@ Groups
 Knowledge base
 ~~~~~~~~~~~~~~
 
-.. info::
-
 - **name**
 - **answer**
 - **is_faq**
@@ -710,8 +656,6 @@ Knowledge base
 
 ITIL Categories
 ~~~~~~~~~~~~~~~
-
-.. info::
 
 - **entities_id**
 - **itilcategories_id**
@@ -739,8 +683,6 @@ ITIL Categories
 Followups
 ~~~~~~~~~
 
-.. info::
-
 - **itemtype**
 - **items_id**
 - **date**
@@ -758,8 +700,6 @@ Followups
 Followups templates
 ~~~~~~~~~~~~~~~~~~~
 
-.. info::
-
 - **date_creation**
 - **date_mod**
 - **entities_id**
@@ -771,8 +711,6 @@ Followups templates
 
 Solutions
 ~~~~~~~~~
-
-.. info::
 
 - **itemtype**
 - **Keep**
@@ -794,8 +732,6 @@ Solutions
 Lines
 ~~~~~
 
-.. info::
-
 - **name**
 - **entities_id**
 - **caller_num**
@@ -812,8 +748,6 @@ Lines
 
 Locations
 ~~~~~~~~~
-
-.. info::
 
 - **entities_id**
 - **name**
@@ -837,8 +771,6 @@ Locations
 
 Monitors
 ~~~~~~~~
-
-.. info::
 
 - **entities_id**
 - **name**
@@ -876,8 +808,6 @@ Monitors
 Network devices
 ~~~~~~~~~~~~~~~
 
-.. info::
-
 - **entities_id**
 - **name**
 - **ram**
@@ -911,8 +841,6 @@ Network devices
 PDUs
 ~~~~
 
-.. info::
-
 - **name**
 - **entities_id**
 - **locations_id**
@@ -931,8 +859,6 @@ PDUs
 
 Projects
 ~~~~~~~~
-
-.. info::
 
 - **name**
 - **code**
@@ -961,8 +887,6 @@ Projects
 Projects tasks
 ~~~~~~~~~~~~~~
 
-.. info::
-
 - **uuid**
 - **name**
 - **content**
@@ -989,8 +913,6 @@ Projects tasks
 
 Devices
 ~~~~~~~
-
-.. info::
 
 - **entities_id**
 - **name**
@@ -1019,8 +941,6 @@ Devices
 
 Phones
 ~~~~~~
-
-.. info::
 
 - **entities_id**
 - **name**
@@ -1054,8 +974,6 @@ Phones
 
 Printers
 ~~~~~~~~
-
-.. info::
 
 - **entities_id**
 - **name**
@@ -1096,8 +1014,6 @@ Printers
 Problems
 ~~~~~~~~
 
-.. info::
-
 - **name**
 - **entities_id**
 - **status**
@@ -1126,8 +1042,6 @@ Problems
 
 Racks
 ~~~~~
-
-.. info::
 
 - **name**
 - **comment**
@@ -1159,8 +1073,6 @@ Racks
 Rules
 ~~~~~
 
-.. info::
-
 - **entities_id**
 - **sub_type**
 - **ranking**
@@ -1177,8 +1089,6 @@ Rules
 Saved searches
 ~~~~~~~~~~~~~~
 
-.. info::
-
 - **name**
 - **type**
 - **itemtype**
@@ -1193,8 +1103,6 @@ Saved searches
 
 Software
 ~~~~~~~~
-
-.. info::
 
 - **entities_id**
 - **name**
@@ -1219,8 +1127,6 @@ Software
 Licenses
 ~~~~~~~~
 
-.. info::
-
 - **softwares_id**
 - **softwarelicenses_id**
 - **level**
@@ -1243,7 +1149,6 @@ Licenses
 - **groups_id_tech**
 - **groups_id**
 - **is_helpdesk_visible**
-
 - **template_name**
 - **states_id**
 - **manufacturers_id**
@@ -1257,8 +1162,6 @@ Licenses
 Solutions template
 ~~~~~~~~~~~~~~~~~~
 
-.. info::
-
 - **entities_id**
 - **name**
 - **content**
@@ -1270,8 +1173,6 @@ Solutions template
 Solutions types
 ~~~~~~~~~~~~~~~
 
-.. info::
-
 - **name**
 - **comment**
 - **entities_id**
@@ -1280,8 +1181,6 @@ Solutions types
 
 Suppliers
 ~~~~~~~~~
-
-.. info::
 
 - **entities_id**
 - **name**
@@ -1304,8 +1203,6 @@ Suppliers
 Task catégories
 ~~~~~~~~~~~~~~~
 
-.. info::
-
 - **entities_id**
 - **taskcategories_id**
 - **name**
@@ -1322,8 +1219,6 @@ Task catégories
 Task templates
 ~~~~~~~~~~~~~~
 
-.. info::
-
 - **entities_id**
 - **name**
 - **content**
@@ -1339,8 +1234,6 @@ Task templates
 
 Tickets
 ~~~~~~~
-
-.. info::
 
 - **entities_id**
 - **name**
@@ -1387,8 +1280,6 @@ Tickets
 Ticket tasks
 ~~~~~~~~~~~~
 
-.. info::
-
 - **uuid**
 - **tickets_id**
 - **taskcategories_id**
@@ -1412,8 +1303,6 @@ Ticket tasks
 
 Ticket templates
 ~~~~~~~~~~~~~~~~
-
-.. info::
 
 - **name**
 - **entities_id**
