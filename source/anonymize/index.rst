@@ -289,7 +289,7 @@ In our example, we will be anonymising **user data**.
    :alt:
 
 
-.. Success::
+.. Info::
    "To be adapted If your profile concerns entities, go to **administration** > **entities** and repeat the operation for the entities concerned. Do the same for computers, email, etc.
 
 Via CLI (on-premise only)
