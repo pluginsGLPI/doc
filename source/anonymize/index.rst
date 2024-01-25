@@ -13,10 +13,8 @@ GLPI Version Minimum PHP Recommanded
 Install the plugin
 ------------------
 
-.. Info::
-   A `basic licence <https://services.glpi-network.com/#offers>`__ (or higher) is
-required. This plugin is also available from the
-`Cloud <https://glpi-network.cloud/fr/>`__.
+.. Note::
+   A `basic licence <https://services.glpi-network.com/#offers>`__ (or higher) is required. This plugin is also available from the `Cloud <https://glpi-network.cloud/fr/>`__.
 
 -  Go to the marketplace. Download and install the “**Anonymize**”
    plugin.
@@ -61,7 +59,7 @@ value of each attribute that it will be able to anonymise (or not)
 Email
 ~~~~~
 
-.. info:: “List of attributes”
+.. info::
    :collapsible:
 - **users_id**
 - **is_default**
