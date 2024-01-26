@@ -46,5 +46,6 @@ You'll find here user documentation for various `GLPI <http://glpi-project.org>`
    advanceddashboard/index
    anonymize/index
    approbalbymail/index
+   branding/index
    scim/index
    translate/index
