@@ -5,7 +5,7 @@ Requirements (on-premise)
 -------------------------
 
 ============ =========== ===========
-GLPI Version Minimum PHP Recommanded
+GLPI Version Minimum PHP Recommended
 ============ =========== ===========
 10.0.x       8.1         8.2
 ============ =========== ===========
@@ -14,7 +14,7 @@ Install the plugin
 ------------------
 
 .. note::
-   This plugin is community and does not need a license. It is also available in Cloud.
+   This plugin is available without a GLPI-Network subscription. It is also available in Cloud.
 
 -  Go to the marketplace. Download and install the plugin “**Credit**”.
 
@@ -27,8 +27,8 @@ Setting up the plugin
 Creating a credit type
 ~~~~~~~~~~~~~~~~~~~~~~
 
--  From **setup > dropdowns**,
--  click on **credits** then **credit types**.
+-  From **Setup > Dropdowns**,
+-  click on **Credits** then **Credit types**.
 
 .. figure:: images/Credit-2.png
    :alt:
@@ -51,9 +51,9 @@ Example : “Case study for this article” We will create 3 types of credit:
 
    You can create a single type of credit which will group together the 3, it depends on the management of each case.
 
--  In **administration > entities**, select the entity that will receive the credits.
--  Go to the **credit** section
--  In the section **add a credit**, enter a name for the new credit
+-  In **Administration > Entities**, select the entity that will receive the credits.
+-  Go to the **Credit** section
+-  In the section **Add a credit**, enter a name for the new credit
 -  Define the type of credit created earlier
 -  The start and end dates of the credit
 -  Activate it,
@@ -75,14 +75,14 @@ It is therefore possible to enter different values (number of credits, validity,
 Define default values
 ~~~~~~~~~~~~~~~~~~~~~
 
--  In **administration > entities**, select the entity that will receive the credits
--  Go to the **credit** section
--  In the **default options for entity** section
+-  In **Administration > Entities**, select the entity that will receive the credits
+-  Go to the **Credit** section
+-  In the **Default options for entity** section
 -  Select the type of credit by action
   .. figure:: images/Credit-6.png
    :alt:
 
--  Click on **update**
+-  Click on **Update**
 
 .. warning::
    "Caution Indicating credit types does not allow automatic settlement. It pre-selects the credit but it must be settled by the technician.
@@ -107,8 +107,7 @@ In our example, we have chosen to deduct each action.
 .. figure:: images/Credit-9.png
    :alt:
 
-In the **credit** section of the tikcet you can see a summary of
-credits spent and remaining
+In the **Credit** section of the ticket you can see a summary of credits spent and remaining
 
 .. figure:: images/Credit-10.png
    :alt:
@@ -123,10 +122,10 @@ You can modify credits on a ticket if a readjustment is necessary.
 
 -  From the ticket in question, go to the **credit** section
 -  Select the credit you wish to adjust
--  Click on **actions**
--  Click on **modify**
--  Click on **quantity consumed** then add the desired quantity
--  Click on **send**
+-  Click on **Actions**
+-  Click on **Update**
+-  Click on **Quantity consumed** then add the desired quantity
+-  Click on **Send**
 
 .. note::
    See how to proceed
@@ -136,11 +135,11 @@ You can modify credits on a ticket if a readjustment is necessary.
 Delete deducted credits
 ~~~~~~~~~~~~~~~~~~~~~~~
 
--  From the ticket in question, go to the **credit** section
+-  From the ticket in question, go to the **Credit** section
 -  Select the credit you wish to delete
--  Click on **actions**
--  Click on **delete permanently**
--  Click on **send**
+-  Click on **Actions**
+-  Click on **Delete permanently**
+-  Click on **Send**
 
 .. note::
    See how to proceed
@@ -159,12 +158,12 @@ Notification of expired credits
 
 An automatic action is available to notify you when a credit has expired.
 
--  From **setup > automatic actions**, modify the **creditexpired** action to suit your needs.
--  Click on **save**
+-  From **Setup > Automatic actions**, modify the **creditexpired** action to suit your needs.
+-  Click on **Save**
 .. figure:: images/Credit-13.png
    :alt:
 
-You can of course customise the notification to suit your needs (**setup> notifications > notifications > credit expired**)
+You can of course customise the notification to suit your needs (**Setup > Notifications > Notifications > credit expired**)
 
 
 
