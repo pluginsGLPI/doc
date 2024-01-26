@@ -5,7 +5,7 @@ Requirements (on-premise)
 -------------------------
 
 ============ =========== ===========
-GLPI Version Minimum PHP Recommanded
+GLPI Version Minimum PHP Recommended
 ============ =========== ===========
 10.0.x       8.1         8.2
 ============ =========== ===========
@@ -21,7 +21,7 @@ GLPI Version Minimum PHP Recommanded
 Configure the plugin
 --------------------
 
--  From **configuration > general > GDPR tools**
+-  From **Setup > General > GDPR tools**
 
 Cleaning up inactive users
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -37,7 +37,7 @@ Cleaning up user data
 When the plugin is configured in **Clean** mode, the following
 actions will be performed:
 
--  delete all references to the user from the GLPI history
+-  Delete all references to the user from the GLPI history
 -  Delete all associated emails
 -  Reset all user fields and profiles
 -  Move the user to the recycle bin
@@ -71,10 +71,9 @@ scopes:
 Automated action
 ~~~~~~~~~~~~~~~~
 
-Deletion will take place via a standard GLPI automated action that can
-be configured to run as often as you like.
+Deletion will take place via a standard GLPI automatic action that can be configured to run as often as you like.
 
--  Go to **setup > automatic actions**, and select the **cleaninactiveuser** action then configure it according to your needs.
+-  Go to **Setup > Automatic actions**, and select the **cleaninactiveuser** action then configure it according to your needs.
 
 .. figure:: images/GDRP-3.png
    :alt:
