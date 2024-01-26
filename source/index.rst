@@ -47,6 +47,7 @@ You'll find here user documentation for various `GLPI <http://glpi-project.org>`
    advanceddashboard/index
    anonymize/index
    approbalbymail/index
+   OauthSSOEntra/index
    branding/index
    webhook/index
    holidays/index
