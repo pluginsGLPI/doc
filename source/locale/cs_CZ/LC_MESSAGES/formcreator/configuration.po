@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016, Teclib'
+# Copyright (C) 2016-2024, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -10,12 +10,12 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPI plugins 0.1\n"
+"Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-14 15:17+0200\n"
+"POT-Creation-Date: 2024-01-26 15:57+0100\n"
 "PO-Revision-Date: 2016-12-20 09:45+0000\n"
 "Last-Translator: David Stepan <stepand@tiscali.cz>, 2020\n"
-"Language-Team: Czech (Czech Republic) (https://www.transifex.com/teclib/teams/28042/cs_CZ/)\n"
+"Language-Team: Czech (Czech Republic) (https://app.transifex.com/teclib/teams/28042/cs_CZ/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -110,17 +110,16 @@ msgstr ""
 "zjednodušeného rozhraní GLPI."
 
 #: ../../source/formcreator/configuration.rst:34
-msgid ""
-"**Description**: displays in the list forms. * **Language**: by default a "
-"form is set to the language of its creator. The form will be available only "
-"to users using the same language as the form. Choose **All languages** to "
-"make the form available to users without language restriction."
+msgid "**Description**: displays in the list forms."
 msgstr ""
-"** Popis **: zobrazí se ve formulářích seznamu. * ** Jazyk **: ve výchozím "
-"nastavení je formulář nastaven na jazyk jeho tvůrce. Formulář bude k "
-"dispozici pouze uživatelům, kteří používají stejný jazyk jako formulář. "
-"Zvolením ** Všechny jazyky ** zpřístupníte formulář uživatelům bez "
-"jazykového omezení."
+
+#: ../../source/formcreator/configuration.rst:35
+msgid ""
+"**Language**: by default a form is set to the language of its creator. The "
+"form will be available only to users using the same language as the form. "
+"Choose **All languages** to make the form available to users without "
+"language restriction."
+msgstr ""
 
 #: ../../source/formcreator/configuration.rst:37
 msgid "**Header**: displays when the form is displayed."
@@ -130,16 +129,10 @@ msgstr "** Záhlaví **: zobrazí se při zobrazení formuláře."
 msgid ""
 "**Need to be validate**: If **Yes** a list of validators is displayed. This "
 "is a list of GLPI users (with the right **Validate an incident** or "
-"**Validate a request** (in its profile) on an compatible entity with the "
+"**Validate a request** (in its profile) on a compatible entity with the "
 "form's entity. The list of validators is a multiple choice list. If no "
 "validator is selected all of them are submitted when the form is being used."
 msgstr ""
-"** Je třeba ověřit **: Pokud ** Ano **, zobrazí se seznam ověřovatelů. Toto "
-"je seznam uživatelů GLPI (s právem ** Ověření incidentu ** nebo ** Ověření "
-"požadavku ** (v jeho profilu) na kompatibilní entitě s entitou formuláře. "
-"Seznam ověřovatelů je seznam s více možnostmi výběru. Není-li vybrán žádný "
-"ověřovatel, budou při použití formuláře odeslány žádosti o ověření na "
-"všechny ověřovatele."
 
 #: ../../source/formcreator/configuration.rst:39
 msgid ""
@@ -152,20 +145,15 @@ msgstr ""
 
 #: ../../source/formcreator/configuration.rst:41
 msgid ""
-"When all fields are filled, click on the **add button** at the botoom of the"
+"When all fields are filled, click on the **add button** at the bottom of the"
 " page."
 msgstr ""
-"Když jsou všechna pole vyplněna, klikněte na tlačítko ** přidat ** ve spodní"
-" části stránky."
 
 #: ../../source/formcreator/configuration.rst:44
 msgid ""
-"Deleting a form is possible only if there areno associated answers. To "
+"Deleting a form is possible only if there are no associated answers. To "
 "delete a form, delete all its answers first from the **Form answers** tab."
 msgstr ""
-"Odstranění formuláře je možné pouze v případě, že neexistují žádné "
-"přidružené odpovědi. Chcete-li formulář smazat, nejprve odstraňte všechny "
-"jeho odpovědi z karty ** Odpovědi formuláře **."
 
 #: ../../source/formcreator/configuration.rst:47
 msgid "Sections"
@@ -192,7 +180,7 @@ msgstr ""
 "otázky umístěné v jiných částech formuláře."
 
 #: ../../source/formcreator/configuration.rst:60
-#: ../../source/formcreator/configuration.rst:326
+#: ../../source/formcreator/configuration.rst:377
 msgid "Questions"
 msgstr "Otázky"
 
@@ -205,33 +193,54 @@ msgid "The following page displays:"
 msgstr "Zobrazí se následující stránka:"
 
 #: ../../source/formcreator/configuration.rst:71
-msgid ""
-"A question is made of: * a title: this is the label of the question in the "
-"form. * a type: see list below. * a section: the section containing the "
-"question. You can move a question to an other section with this field. * a "
-"description; it is displayed under the question in the form. Use it as a "
-"hint for the requester, telling him which content is expected. * a dropdown "
-"list **Show field**"
+msgid "A question is made of:"
 msgstr ""
-"Otázka se skládá z: * názvu: jedná se o označení otázky ve formuláři. * typ:"
-" viz seznam níže. * sekce: sekce obsahující otázku. Pomocí tohoto pole "
-"můžete přesunout otázku do jiné sekce. * popis; zobrazí se pod otázkou ve "
-"formuláři. Použije ji jako tip pro žadatele a sdělí mu, jaký obsah se "
-"očekává. * rozevírací seznam ** Zobrazit pole **"
 
-#: ../../source/formcreator/configuration.rst:81
-msgid ""
-"It submits the following choices: * **Always visible**: the field is always "
-"displays * **Hidden unless*: The question is hidden except if answers to "
-"other questions matches a condition. * **Displayed unless**: The question is"
-" displayed except if the answers to other questions matches a condition."
+#: ../../source/formcreator/configuration.rst:73
+msgid "a title: this is the label of the question in the form."
 msgstr ""
-"Uvádí následující možnosti: * ** Vždy viditelné **: pole se vždy zobrazuje *"
-" ** Skryté, pokud *: Otázka je skrytá, s výjimkou případů, kdy odpovědi na "
-"jiné otázky odpovídají podmínce. * ** Zobrazí se, pokud **: Otázka se "
-"zobrazí s výjimkou případů, kdy odpovědi na jiné otázky odpovídají podmínce."
+
+#: ../../source/formcreator/configuration.rst:74
+msgid "a type: see list below."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:75
+msgid ""
+"a section: the section containing the question. You can move a question to "
+"an other section with this field."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:76
+msgid ""
+"a description: it is displayed under the question in the form. Use it as a "
+"hint for the requester, telling him which content is expected."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:77
+msgid "a dropdown list **Show field** to enable a condition"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:82
+msgid "It submits the following choices:"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:84
+msgid "**Always visible**: the field is always displays"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:85
+msgid ""
+"**Hidden unless**: The question is hidden except if answers to other "
+"questions matches a condition."
+msgstr ""
 
 #: ../../source/formcreator/configuration.rst:86
+msgid ""
+"**Displayed unless**: The question is displayed except if the answers to "
+"other questions matches a condition."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:88
 msgid ""
 "Conditions may be multiple. To add or remove a condition two buttons are "
 "available:"
@@ -239,55 +248,57 @@ msgstr ""
 "Podmínky mohou být vícenásobné. Pro přidání nebo odebrání podmínky jsou k "
 "dispozici dvě tlačítka:"
 
-#: ../../source/formcreator/configuration.rst:90
+#: ../../source/formcreator/configuration.rst:92
 msgid "**List of pictograms**"
 msgstr "** Seznam piktogramů **"
 
-#: ../../source/formcreator/configuration.rst:92
+#: ../../source/formcreator/configuration.rst:94
 msgid "The **circle** allows you to make a question mandatory"
 msgstr "** Kruh ** vám umožňuje stanovit otázku jako povinnou"
 
-#: ../../source/formcreator/configuration.rst:96
-msgid ", or optional .. image:: images/question_picto_optional.png"
-msgstr "nebo volitelnou .. image :: images / question_picto_optional.png"
-
-#: ../../source/formcreator/configuration.rst:99
-msgid ""
-"**Arrow up** and **arrow down** allow you to r eorder questions in a "
-"section."
+#: ../../source/formcreator/configuration.rst:98
+msgid ", or optional"
 msgstr ""
-"** Šipka nahoru ** a ** šipka dolů ** vám umožňuje změnit pořadí otázek v "
-"sekci."
 
-#: ../../source/formcreator/configuration.rst:100
+#: ../../source/formcreator/configuration.rst:102
+msgid ""
+"**Arrow up** and **arrow down** allow you to reorder questions in a section."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:103
 msgid "Clicking on a question allow you to edit it."
 msgstr "Kliknutím na otázku ji můžete upravit."
 
-#: ../../source/formcreator/configuration.rst:101
+#: ../../source/formcreator/configuration.rst:104
 msgid ""
 "**Two stacked squares** allows you to duplicate a question or a whole "
 "section."
 msgstr ""
 "** Dva skládané čtverce ** vám umožňují duplikovat otázku nebo celou sekci."
 
-#: ../../source/formcreator/configuration.rst:102
+#: ../../source/formcreator/configuration.rst:105
 msgid ""
 "The **recycle bin** allows you to delete a question or a whole section."
 msgstr "** koš ** umožňuje odstranit otázku nebo celou sekci."
 
-#: ../../source/formcreator/configuration.rst:105
+#: ../../source/formcreator/configuration.rst:107
+msgid ""
+"Questions are organized on a 4 columns array. You can resize width of "
+"questions, reorder them using drag and drop and put up to 4 questions on the"
+" same row."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:110
 msgid "Types of question"
 msgstr "Typy otázek"
 
-#: ../../source/formcreator/configuration.rst:107
+#: ../../source/formcreator/configuration.rst:112
 msgid ""
-"There are about twenty types of quetions available. Depending on the choosen"
-" type, you need to provide additional informations."
+"There are about twenty types of questions available. Depending on the chosen"
+" type, you need to provide additional information."
 msgstr ""
-"K dispozici je asi dvacet typů otázek. V závislosti na vybraném typu je "
-"třeba poskytnout další informace."
 
-#: ../../source/formcreator/configuration.rst:111
+#: ../../source/formcreator/configuration.rst:116
 msgid ""
 "**Required**: **Yes**/**No**. When running the form a red star shows next to"
 " label of questions requiring an input."
@@ -295,51 +306,45 @@ msgstr ""
 "** Povinné **: ** Ano ** / ** Ne **. Při spuštění formuláře se vedle štítku "
 "otázek vyžadujících zadání zobrazí červená hvězdička."
 
-#: ../../source/formcreator/configuration.rst:112
+#: ../../source/formcreator/configuration.rst:117
 msgid "**Default values**: its content depends on  the type of the question."
 msgstr "** Výchozí hodnoty **: její obsah závisí na typu otázky."
 
-#: ../../source/formcreator/configuration.rst:113
+#: ../../source/formcreator/configuration.rst:118
 msgid ""
-"**Range Min/Max**: Restricts the value to the given range when runnung the "
+"**Range Min/Max**: Restricts the value to the given range when running the "
 "form."
 msgstr ""
-"** Rozsah Min / Max **: Omezuje hodnotu na daný rozsah při spuštění "
-"formuláře."
 
-#: ../../source/formcreator/configuration.rst:114
+#: ../../source/formcreator/configuration.rst:119
 msgid ""
 "**Additional validation (Regular expression)**: You may set a custom regex "
 "with a regular expression. Use it when other restriction methods cannot "
-"satisfy your needs. FormCreator automatically adds /^ on the beginning and "
-"$/ at the end. Therefore you cannot specify modifiers."
+"satisfy your needs. Don't forget to specify the delimiters of the regex. You"
+" may add any modifier after the closing delimiter."
 msgstr ""
-"** Další ověření (regulární výraz) **: Můžete nastavit vlastní regulární "
-"výraz. Použijte jej, pokud jiné metody omezení nemohou uspokojit vaše "
-"potřeby. FormCreator automaticky přidá / ^ na začátek a $ / na konec. Zde "
-"nemůžete určit modifikátory."
 
-#: ../../source/formcreator/configuration.rst:118
+#: ../../source/formcreator/configuration.rst:123
 msgid "Actors"
 msgstr "Účastníci"
 
-#: ../../source/formcreator/configuration.rst:121
+#: ../../source/formcreator/configuration.rst:126
 msgid "This field allows you to choose one or several users:"
 msgstr "Toto pole umožňuje vybrat jednoho nebo více uživatelů:"
 
-#: ../../source/formcreator/configuration.rst:123
+#: ../../source/formcreator/configuration.rst:128
 msgid "in GLPI, available in **Administration > Users**"
 msgstr "v GLPI dostupné v **Správa > Uživatelé**"
 
-#: ../../source/formcreator/configuration.rst:124
+#: ../../source/formcreator/configuration.rst:129
 msgid "not in GLPI, by typing an email address"
 msgstr "není-li v GLPI, zadáním e-mailové adresy"
 
-#: ../../source/formcreator/configuration.rst:127
+#: ../../source/formcreator/configuration.rst:132
 msgid "Checkboxes (multiple choices)"
 msgstr "Zaškrtávací pole (vícenásobný výběr)"
 
-#: ../../source/formcreator/configuration.rst:133
+#: ../../source/formcreator/configuration.rst:138
 msgid ""
 "Add a line per value in **Values**. Default values may be set in **Default "
 "values**, one per line. If this field is empty, no checkbox will be ticked."
@@ -348,34 +353,32 @@ msgstr ""
 "nastaveny v poli ** Výchozí hodnoty ** pro každý řádek. Pokud je toto pole "
 "prázdné, nebude zaškrtnuto žádné políčko."
 
-#: ../../source/formcreator/configuration.rst:136
+#: ../../source/formcreator/configuration.rst:141
 msgid "Date / Datetime / Time"
 msgstr "Datum / Datum a čas / Čas"
 
-#: ../../source/formcreator/configuration.rst:139
+#: ../../source/formcreator/configuration.rst:144
 msgid ""
 "This field allows to select a date, a datetime or a time from a mini "
 "calendar."
 msgstr ""
 "Toto pole umožňuje vybrat datum, datum a čas nebo čas z mini kalendáře."
 
-#: ../../source/formcreator/configuration.rst:142
+#: ../../source/formcreator/configuration.rst:147
 msgid "Description"
 msgstr "Popis"
 
-#: ../../source/formcreator/configuration.rst:144
+#: ../../source/formcreator/configuration.rst:149
 msgid ""
-"This field only displays informations. Use it to give more details about a "
+"This field only displays information. Use it to give more details about a "
 "question."
 msgstr ""
-"Toto pole zobrazuje pouze informace. Použijte jej k získání více podrobností"
-" o otázce."
 
-#: ../../source/formcreator/configuration.rst:147
+#: ../../source/formcreator/configuration.rst:152
 msgid "Dropdown"
 msgstr "Rozbalovací nabídka"
 
-#: ../../source/formcreator/configuration.rst:149
+#: ../../source/formcreator/configuration.rst:154
 msgid ""
 "This field allows the user to choose a value among those available in a "
 "dropdown from GLPI (in **Configuration > Dropdowns**)."
@@ -383,73 +386,69 @@ msgstr ""
 "Toto pole umožňuje uživateli vybrat hodnotu z těch, které jsou k dispozici v"
 " rozevírací nabídce z GLPI (v ** Konfigurace> Rozevírací nabídky **)."
 
-#: ../../source/formcreator/configuration.rst:154
+#: ../../source/formcreator/configuration.rst:159
 msgid "Email"
 msgstr "Email"
 
-#: ../../source/formcreator/configuration.rst:156
+#: ../../source/formcreator/configuration.rst:161
 msgid ""
-"The answer to this type of field must be a syntaxically valid email address."
+"The answer to this type of field must be a syntactically valid email "
+"address."
 msgstr ""
-"Odpověď na tento typ pole musí být syntakticky platná e-mailová adresa."
 
-#: ../../source/formcreator/configuration.rst:159
+#: ../../source/formcreator/configuration.rst:164
 msgid "File"
 msgstr "Soubor"
 
-#: ../../source/formcreator/configuration.rst:163
+#: ../../source/formcreator/configuration.rst:168
 msgid "This  field allows the requester to upload a file."
 msgstr "Toto pole umožňuje žadateli nahrát soubor."
 
-#: ../../source/formcreator/configuration.rst:166
+#: ../../source/formcreator/configuration.rst:171
 msgid "Float"
 msgstr "Plovoucí"
 
-#: ../../source/formcreator/configuration.rst:168
+#: ../../source/formcreator/configuration.rst:173
 msgid ""
-"This field must be an float value. Note you may use a regular expression to "
+"This field must be a float value. Note you may use a regular expression to "
 "tighter restrict the answer."
 msgstr ""
-"Toto pole musí být plovoucí hodnota. Pro přísnější omezení odpovědi můžete "
-"použít regulární výraz."
 
-#: ../../source/formcreator/configuration.rst:171
+#: ../../source/formcreator/configuration.rst:176
 msgid "GLPI Object"
 msgstr "Objekt GLPI"
 
-#: ../../source/formcreator/configuration.rst:173
+#: ../../source/formcreator/configuration.rst:178
 msgid ""
 "This field allows you to build a dropdown from a GLPI object among those "
-"abvailable in the menus:"
+"available in the menus:"
 msgstr ""
-"Toto pole vám umožňuje vytvořit rozbalovací nabídku z objektu GLPI mezi "
-"těmi, které jsou k dispozici v nabídkách:"
 
-#: ../../source/formcreator/configuration.rst:175
+#: ../../source/formcreator/configuration.rst:180
 msgid "Assets"
 msgstr "Majetek"
 
-#: ../../source/formcreator/configuration.rst:176
+#: ../../source/formcreator/configuration.rst:181
 msgid "Assistance"
 msgstr "Podpora"
 
-#: ../../source/formcreator/configuration.rst:177
+#: ../../source/formcreator/configuration.rst:182
 msgid "Management"
 msgstr "Management"
 
-#: ../../source/formcreator/configuration.rst:178
+#: ../../source/formcreator/configuration.rst:183
 msgid "Tools"
 msgstr "Nástroje"
 
-#: ../../source/formcreator/configuration.rst:179
+#: ../../source/formcreator/configuration.rst:184
 msgid "Administration"
 msgstr "Správa"
 
-#: ../../source/formcreator/configuration.rst:182
+#: ../../source/formcreator/configuration.rst:187
 msgid "Hidden field"
 msgstr "Skryté pole"
 
-#: ../../source/formcreator/configuration.rst:184
+#: ../../source/formcreator/configuration.rst:189
 msgid ""
 "This field is hidden and allows to retrieve an arbitrary value when "
 "generating the target (ticket or change)."
@@ -457,25 +456,26 @@ msgstr ""
 "Toto pole je skryté a umožňuje načíst libovolnou hodnotu při generování cíle"
 " (požadavek nebo změna)."
 
-#: ../../source/formcreator/configuration.rst:187
+#: ../../source/formcreator/configuration.rst:192
+msgid "This type of questions never shows on a form."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:196
 msgid "Hostname"
 msgstr "Hostitelské jméno"
 
-#: ../../source/formcreator/configuration.rst:189
+#: ../../source/formcreator/configuration.rst:198
 msgid ""
-"This field is invisible. It allows to get the hostname if the computer used "
-"by  the requester, assuming the DNS is able to proprtly solve it from its IP"
-" address"
+"This field is invisible. It allows to get the hostname of the computer used "
+"by the requester, assuming the DNS is able to properly resolve it from its "
+"IP address"
 msgstr ""
-"Toto pole je neviditelné. Umožňuje získat název počítače použitého "
-"žadatelem, za předpokladu, že je DNS schopno jej správně přeložit z jeho IP "
-"adresy"
 
-#: ../../source/formcreator/configuration.rst:192
+#: ../../source/formcreator/configuration.rst:201
 msgid "Integer"
 msgstr "Celé číslo"
 
-#: ../../source/formcreator/configuration.rst:194
+#: ../../source/formcreator/configuration.rst:203
 msgid ""
 "This field must be an integer value. Note you may use a regular expression "
 "to tighter restrict the answer."
@@ -483,51 +483,58 @@ msgstr ""
 "Toto pole musí být celé číslo. Pro přísnější omezení odpovědi můžete použít "
 "regulární výraz."
 
-#: ../../source/formcreator/configuration.rst:197
+#: ../../source/formcreator/configuration.rst:206
 msgid "IP Address"
 msgstr "IP addresa"
 
-#: ../../source/formcreator/configuration.rst:199
+#: ../../source/formcreator/configuration.rst:208
 msgid ""
 "This field is hidden and collects the IP address of the form requester. It "
-"does not shows in the form."
+"does not show in the form."
 msgstr ""
-"Toto pole je skryté a shromažďuje IP adresu žadatele odesílajícího vyplněný "
-"formulář. Ve formuláři se nezobrazí."
 
-#: ../../source/formcreator/configuration.rst:202
+#: ../../source/formcreator/configuration.rst:211
 msgid "LDAP select"
 msgstr "Výběr z LDAP"
 
-#: ../../source/formcreator/configuration.rst:204
+#: ../../source/formcreator/configuration.rst:213
 msgid ""
 "This field allows you to create a dropdown list with objects from a LDAP "
 "directory:"
 msgstr ""
 "Toto pole umožňuje vytvořit rozevírací seznam s objekty z adresáře LDAP:"
 
-#: ../../source/formcreator/configuration.rst:209
+#: ../../source/formcreator/configuration.rst:219
+msgid "This type of questions cannot be used to fill actors of a target."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:222
 msgid "Multiselect (multiple choice)"
 msgstr "Multivýběr (více výběrů)"
 
-#: ../../source/formcreator/configuration.rst:211
+#: ../../source/formcreator/configuration.rst:224
 msgid ""
 "This field allows you to create a dropdown list with ability to select "
 "multiple items. Values are added one per line in the field **Values**. You "
 "may set default values, one per line in *Default values**. If no default "
-"value is set then no item will selected by default."
+"value is set then no item will be selected by default."
 msgstr ""
-"Toto pole umožňuje vytvořit rozevírací seznam se schopností vybrat více "
-"položek. Hodnoty se přidávají po jednom na řádek v poli ** Hodnoty **. "
-"Můžete nastavit výchozí hodnoty, jednu na řádek v * Výchozí hodnoty **. "
-"Pokud není nastavena žádná výchozí hodnota, nebude ve výchozím nastavení "
-"vybrána žádná položka."
 
-#: ../../source/formcreator/configuration.rst:214
+#: ../../source/formcreator/configuration.rst:227
+msgid "Request type"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:229
+msgid ""
+"This field is a dropdown with \"Incident\" or \"Request\" choices. It can be"
+" used to set the request type of a ticket being generated by the form."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:232
 msgid "Radio buttons (one choice only)"
 msgstr "Přepínače (pouze jedna volba)"
 
-#: ../../source/formcreator/configuration.rst:220
+#: ../../source/formcreator/configuration.rst:238
 msgid ""
 "Add a line per value in **Values**. A default value may be set in **Default "
 "value**. If this field is empty, no radio will be selected."
@@ -536,11 +543,11 @@ msgstr ""
 " ve ** Výchozí hodnota **. Pokud je toto pole prázdné, nebude vybrán žádný "
 "přepínač."
 
-#: ../../source/formcreator/configuration.rst:223
+#: ../../source/formcreator/configuration.rst:241
 msgid "Select (one choice only)"
 msgstr "Vybrat (pouze jednu volbu)"
 
-#: ../../source/formcreator/configuration.rst:225
+#: ../../source/formcreator/configuration.rst:243
 msgid ""
 "This field allows you to create a dropdown list and set its items. Items are"
 " added one per line in **Values**. Default value may be set in **Default "
@@ -551,17 +558,15 @@ msgstr ""
 "může být nastavena ve ** Výchozí hodnota **. Pokud není výchozí hodnota, "
 "není ve výchozím nastavení vybrána žádná položka."
 
-#: ../../source/formcreator/configuration.rst:228
+#: ../../source/formcreator/configuration.rst:246
 msgid "Tags"
 msgstr "Značky"
 
-#: ../../source/formcreator/configuration.rst:230
-msgid ""
-"This is an hidden field to add a tag to the form for future processing."
+#: ../../source/formcreator/configuration.rst:248
+msgid "This is a hidden field to add a tag to the form for future processing."
 msgstr ""
-"Toto je skryté pole pro přidání značky do formuláře pro budoucí zpracování."
 
-#: ../../source/formcreator/configuration.rst:233
+#: ../../source/formcreator/configuration.rst:251
 msgid ""
 "This type of field is only available when the plugin **Tag** is installed "
 "and enabled."
@@ -569,39 +574,121 @@ msgstr ""
 "Tento typ pole je k dispozici, pouze pokud je nainstalován a povolen zásuvný"
 " modul ** Značka **."
 
-#: ../../source/formcreator/configuration.rst:236
+#: ../../source/formcreator/configuration.rst:254
 msgid "Text"
 msgstr "Text"
 
-#: ../../source/formcreator/configuration.rst:238
+#: ../../source/formcreator/configuration.rst:256
 msgid "This field allows you to input a single line of text."
 msgstr "Toto pole umožňuje zadat pouze jeden řádek textu."
 
-#: ../../source/formcreator/configuration.rst:241
+#: ../../source/formcreator/configuration.rst:259
 msgid "Text area"
 msgstr "Textové pole"
 
-#: ../../source/formcreator/configuration.rst:243
+#: ../../source/formcreator/configuration.rst:261
 msgid "This field allows you to input several lines of text."
 msgstr "Toto pole umožňuje zadat několik řádků textu."
 
-#: ../../source/formcreator/configuration.rst:246
+#: ../../source/formcreator/configuration.rst:264
 msgid "Urgency"
 msgstr "Naléhavost"
 
-#: ../../source/formcreator/configuration.rst:248
+#: ../../source/formcreator/configuration.rst:266
 msgid "This field allows you to select an urgency defined in GLPI."
 msgstr "Toto pole umožňuje vybrat naléhavost definovanou v GLPI."
 
-#: ../../source/formcreator/configuration.rst:251
+#: ../../source/formcreator/configuration.rst:269
+msgid "Conditions"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:271
+msgid ""
+"Conditions are expressions involving questions and sections which are "
+"evaluated in order to determine"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:273
+msgid "if a question is displayed"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:274
+msgid "if a section is displayed"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:275
+msgid "if the submit button of a form is displayed"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:276
+msgid "if a target (see below) must be generated"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:278
+msgid "Available operators in an assertion are:"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:280
+msgid "equals"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:281
+msgid "not equals"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:282
+msgid "less than"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:283
+msgid "greater than"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:284
+msgid "less than or equal"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:285
+msgid "greater  than or equal"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:286
+msgid "is visible"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:287
+msgid "is not visible"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:288
+msgid "matches a regular expression"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:290
+msgid "The condition expression can be used with the following rules:"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:292
+msgid ""
+"**Hidden unless**: the item is hidden or not generated except when the "
+"expression is true"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:293
+msgid ""
+"**Displayed unless**: the item is displayed or generated except when the "
+"expression is true"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:297
 msgid "Access types"
 msgstr "Typy přístupů"
 
-#: ../../source/formcreator/configuration.rst:253
+#: ../../source/formcreator/configuration.rst:299
 msgid "Three values are available:"
 msgstr "K dispozici jsou tři hodnoty:"
 
-#: ../../source/formcreator/configuration.rst:255
+#: ../../source/formcreator/configuration.rst:301
 msgid ""
 "**Public access**: Anonymous users may access the form; you may use it in an"
 " intranet."
@@ -609,13 +696,13 @@ msgstr ""
 "**Veřejný přístup**: Anonymní uživatelé mají přístup k formuláři; můžete ho "
 "použít na intranetu."
 
-#: ../../source/formcreator/configuration.rst:256
+#: ../../source/formcreator/configuration.rst:302
 msgid "**Private access**: Users having a GLPI account may access the form."
 msgstr ""
 "**Soukromý přístup**: Uživatelé mající účet v GLPI mohou přistupovat k "
 "formuláři."
 
-#: ../../source/formcreator/configuration.rst:257
+#: ../../source/formcreator/configuration.rst:303
 msgid ""
 "**Restricted access**: Only users having the specified profiles may access "
 "the form."
@@ -623,23 +710,41 @@ msgstr ""
 "**Omezený přístup**: Pouze uživatelé mající specifický profil mohou "
 "přistupovat k formuláři."
 
-#: ../../source/formcreator/configuration.rst:260
+#: ../../source/formcreator/configuration.rst:305
+msgid ""
+"When a form is set to **Public access** it is possible to enable a simple "
+"captcha. This captcha should prevent spamming if a form is accessible from "
+"internet."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:307
+msgid ""
+"Captchas are not enabled by default on anonymous forms. Administrators need "
+"to enabled them explicitly depending on how the form may be accessible from "
+"an hostile network such Internet."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:310
 msgid "Targets"
 msgstr "Cíle"
 
-#: ../../source/formcreator/configuration.rst:262
-msgid "There are two types of targets for a form:"
-msgstr "Pro formulář existují dva typy cílů:"
+#: ../../source/formcreator/configuration.rst:312
+msgid "There are three types of targets for a form:"
+msgstr ""
 
-#: ../../source/formcreator/configuration.rst:264
+#: ../../source/formcreator/configuration.rst:314
 msgid "tickets"
 msgstr "požadavky"
 
-#: ../../source/formcreator/configuration.rst:265
+#: ../../source/formcreator/configuration.rst:315
 msgid "changes"
 msgstr "změny"
 
-#: ../../source/formcreator/configuration.rst:267
+#: ../../source/formcreator/configuration.rst:316
+msgid "problems"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:318
 msgid ""
 "It is possible to generate any number of targets from a single form. Mixing "
 "types of targets is also possible."
@@ -647,15 +752,15 @@ msgstr ""
 "Je možné vygenerovat libovolný počet cílů z jednoho formuláře. Je také možné"
 " míchat typy cílů."
 
-#: ../../source/formcreator/configuration.rst:269
+#: ../../source/formcreator/configuration.rst:320
 msgid "To create a target click on the link **Add a target**"
 msgstr "Chcete-li vytvořit cíl, klikněte na odkaz ** Přidat cíl **"
 
-#: ../../source/formcreator/configuration.rst:273
+#: ../../source/formcreator/configuration.rst:324
 msgid "The following window is then displayed:"
 msgstr "Poté se zobrazí následující okno:"
 
-#: ../../source/formcreator/configuration.rst:277
+#: ../../source/formcreator/configuration.rst:328
 msgid ""
 "Choose a target name and type, then validate. The new target is created and "
 "is available for tuning."
@@ -663,11 +768,11 @@ msgstr ""
 "Vyberte cílový název a typ a poté ověřte. Nový cíl je vytvořen a je k "
 "dispozici pro ladění."
 
-#: ../../source/formcreator/configuration.rst:280
+#: ../../source/formcreator/configuration.rst:331
 msgid "Preview"
 msgstr "Náhled"
 
-#: ../../source/formcreator/configuration.rst:282
+#: ../../source/formcreator/configuration.rst:333
 msgid ""
 "This tab allows you to view how the form will be rendered and test it "
 "without activating it."
@@ -675,7 +780,7 @@ msgstr ""
 "Tato karta umožňuje zobrazit způsob vykreslení formuláře a otestovat jej bez"
 " aktivace."
 
-#: ../../source/formcreator/configuration.rst:285
+#: ../../source/formcreator/configuration.rst:336
 msgid ""
 "Submitting answers from the preview will be actually saved, and will "
 "generate targets if the form is not configured with validation."
@@ -683,15 +788,15 @@ msgstr ""
 "Odeslání odpovědí z náhledu bude skutečně uloženo a vygeneruje cíle, pokud "
 "formulář není konfigurován s ověřením."
 
-#: ../../source/formcreator/configuration.rst:288
+#: ../../source/formcreator/configuration.rst:339
 msgid "Form answers"
 msgstr "Odpovědi formuláře"
 
-#: ../../source/formcreator/configuration.rst:290
+#: ../../source/formcreator/configuration.rst:341
 msgid "This tab shows all answers saved for the form."
 msgstr "Na této kartě jsou zobrazeny všechny odpovědi uložené ve formuláři."
 
-#: ../../source/formcreator/configuration.rst:293
+#: ../../source/formcreator/configuration.rst:344
 msgid ""
 "To delete a form, all its answers must be deleted first. A warning shows at "
 "the bottom of the main tab of a form as a reminder."
@@ -700,17 +805,17 @@ msgstr ""
 "odpovědi. Varování se zobrazí ve spodní části hlavní karty formuláře jako "
 "upozornění."
 
-#: ../../source/formcreator/configuration.rst:297
+#: ../../source/formcreator/configuration.rst:348
 msgid "Categories"
 msgstr "Kategorie"
 
-#: ../../source/formcreator/configuration.rst:299
+#: ../../source/formcreator/configuration.rst:350
 msgid "**Menu** : `Setup > Dropdowns : Forms > Form categories`"
 msgstr ""
 "**Nabídka** : `Nastavení > Rozbalovací nabídky : Formuláře > Kategorie "
 "formulářů`"
 
-#: ../../source/formcreator/configuration.rst:301
+#: ../../source/formcreator/configuration.rst:352
 msgid ""
 "Form categories allow you to arrange your forms list. Forms are displayed "
 "when they belong to the selected category or any sub category. When a form "
@@ -722,7 +827,7 @@ msgstr ""
 "Pokud formulář nemá žádnou kategorii, zobrazí se, když není vybrána žádná "
 "kategorie nebo když uživatel vybere „zobrazit vše“."
 
-#: ../../source/formcreator/configuration.rst:303
+#: ../../source/formcreator/configuration.rst:354
 msgid ""
 "You can add or edit categories generally from the Setup menu : `Setup > "
 "Dropdowns`."
@@ -730,7 +835,7 @@ msgstr ""
 "Kategorie je obecně možné přidávat nebo upravovat z nabídky Nastavení: "
 "`Nastavení > Rozbalovací nabídky`."
 
-#: ../../source/formcreator/configuration.rst:305
+#: ../../source/formcreator/configuration.rst:356
 msgid ""
 "You can also add new categories directly from the form page like all GLPI "
 "dropdowns."
@@ -738,7 +843,7 @@ msgstr ""
 "Je také možné přidávat nové kategorie přímo ze stránky formuláře jako u "
 "všech GLPI rozbalovacích nabídek."
 
-#: ../../source/formcreator/configuration.rst:307
+#: ../../source/formcreator/configuration.rst:358
 msgid ""
 "They are defined by entities and can be translated since GLPI 0.85 like all "
 "other dropdowns."
@@ -746,7 +851,7 @@ msgstr ""
 "Jsou určeny v entitách a od GLPI verze 0.85 je možné je překládat stejně, "
 "jako všechny ostatní rozbalovací nabídky."
 
-#: ../../source/formcreator/configuration.rst:310
+#: ../../source/formcreator/configuration.rst:361
 msgid ""
 "Dropdowns translation must be enabled on GLPI general configuration page "
 "`Setup > General`, `General setup > Translate dropdowns = Yes`"
@@ -755,7 +860,7 @@ msgstr ""
 "`Nastavení > Obecné`, `Obecná nastavení > Překládat rozbalovací nabídky = "
 "Ano`"
 
-#: ../../source/formcreator/configuration.rst:313
+#: ../../source/formcreator/configuration.rst:364
 msgid ""
 "Categories may be associated to `Knowledge base categories`. This link is "
 "necessary to allow FAQ entries to show along your forms."
@@ -764,38 +869,35 @@ msgstr ""
 "propojení je nezbytné aby se mohly položky z častých dotazů zobrazovat "
 "společně s formuláři."
 
-#: ../../source/formcreator/configuration.rst:316
+#: ../../source/formcreator/configuration.rst:367
 msgid "Configuration"
 msgstr "Nastavení"
 
-#: ../../source/formcreator/configuration.rst:321
+#: ../../source/formcreator/configuration.rst:372
 msgid "Render"
 msgstr "Poskytnout"
 
-#: ../../source/formcreator/configuration.rst:328
-msgid ""
-"After the creation of a form, create fields for for the user to fill out."
-msgstr "Po vytvoření formuláře, vytvořte kolonky, které uživatel vyplní."
+#: ../../source/formcreator/configuration.rst:379
+msgid "After the creation of a form, create fields for the user to fill out."
+msgstr ""
 
-#: ../../source/formcreator/configuration.rst:332
+#: ../../source/formcreator/configuration.rst:383
 msgid ""
 "The name of the questions will appear on the left and the field type "
-"selected on the right"
-msgstr "Název otázky se objeví vlevo a vybraný typ kolonky vpravo"
+"selected on the right."
+msgstr ""
 
-#: ../../source/formcreator/configuration.rst:334
+#: ../../source/formcreator/configuration.rst:385
 msgid "The Description will be under the input field."
 msgstr "Popis bude pod vstupním polem."
 
-#: ../../source/formcreator/configuration.rst:336
+#: ../../source/formcreator/configuration.rst:387
 msgid ""
-"Additional optioins may be displayed depending on the currently selected "
-"question type.."
+"Additional options may be displayed depending on the currently selected "
+"question type."
 msgstr ""
-"V závislosti na aktuálně vybraném typu otázky se mohou zobrazit další "
-"možnosti."
 
-#: ../../source/formcreator/configuration.rst:338
+#: ../../source/formcreator/configuration.rst:389
 msgid ""
 "If validation of the input is desired, it can be implemented following `PHP "
 "Regular Expressions "
@@ -804,7 +906,7 @@ msgstr ""
 "Je-li požadováno ověření vstupu, může být implementováno podle `Regulárních "
 "výrazů PHP <http://php.net/manual/reference.pcre.pattern.syntax.php>` _."
 
-#: ../../source/formcreator/configuration.rst:340
+#: ../../source/formcreator/configuration.rst:391
 msgid ""
 "If you want to show or hide questions depending on the answers of other "
 "questions, use the *show fields* area when editing a question. In the "
@@ -819,6 +921,58 @@ msgstr ""
 "dotazů a použít logické operátory **OR** a **AND**. Je uplatněna přednost "
 "booleánských operátorů, což znamená, že **AND** má přednost před **OR**."
 
+#: ../../source/formcreator/configuration.rst:394
+msgid "Translation"
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:396
+msgid ""
+"In some cases a form should be available in several languages. Choose first "
+"in which language a form should be created. This language should be english "
+"(US or UK) or the language that most of target users understand. This is the"
+" fallback language if no alternative is found."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:398
+msgid ""
+"This language is also used as reference in the translation process. Then be "
+"sure that the chosen language is readable by the user who will translate the"
+" form."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:400
+msgid ""
+"To translate a form open the tab **Form languages**, then create all "
+"languages you need to provide to users."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:404
+msgid ""
+"Choose a language added to the form and click it to begin or resume "
+"translation, then select the tab **Translations**. Click the button **New "
+"translation** and a popup dialog will open and show a string to translate. "
+"Type the translation, and click save or validate with **Enter** on your "
+"keyboard."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:408
+msgid ""
+"If another string must be translated, it will show immediately. If no more "
+"string needs to be translated, a message will show instead."
+msgstr ""
+
+#: ../../source/formcreator/configuration.rst:412
+msgid ""
+"When you close the dialog the list of translated strings is refreshed. You "
+"can edit a translation by clicking on it, delete one or several translations"
+" with the checkboxes on the left of the list and the **Delete** button**. "
+"You can also filter the list with the filter input box."
+msgstr ""
+
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
+msgstr ""

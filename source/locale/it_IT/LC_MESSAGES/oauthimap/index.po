@@ -1,83 +1,74 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016, Teclib'
+# Copyright (C) 2016-2024, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# Pierfrancesco Passerini <p.passerini@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPI plugins 0.1\n"
+"Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-14 15:17+0200\n"
-"PO-Revision-Date: 2020-10-09 11:53+0000\n"
-"Last-Translator: Pierfrancesco Passerini <p.passerini@gmail.com>, 2020\n"
-"Language-Team: Italian (Italy) (https://www.transifex.com/teclib/teams/28042/it_IT/)\n"
+"POT-Creation-Date: 2024-01-26 15:57+0100\n"
+"PO-Revision-Date: 2024-01-26 14:57+0000\n"
+"Language-Team: Italian (Italy) (https://app.transifex.com/teclib/teams/28042/it_IT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it_IT\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/oauthimap/index.rst:2
 msgid "Oauth IMAP"
-msgstr "Oauth IMAP"
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:4
 msgid "Sources link: https://github.com/pluginsGLPI/oauthimap"
-msgstr "Link ai sorgenti: https://github.com/pluginsGLPI/oauthimap"
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:5
 msgid "Download: https://github.com/pluginsGLPI/oauthimap/releases"
-msgstr "Download: https://github.com/pluginsGLPI/oauthimap/releases"
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:8
 msgid "Features"
-msgstr "Caratteristiche"
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:10
 msgid "This plugin supports Oauth connection for emails receivers."
-msgstr "Questo plugin supporta la connessione Oauth per i servizi e-mail."
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:12
 msgid "Supported mail services:"
-msgstr "Servizi e-mail supportati:"
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:14
 msgid ""
-"`G Suite and Gmail "
+"`Google (G Suite and Gmail) "
 "<https://developers.google.com/gmail/imap/xoauth2-protocol>`_,"
 msgstr ""
-"`G Suite e Gmail "
-"<https://developers.google.com/gmail/imap/xoauth2-protocol>`_,"
 
 #: ../../source/oauthimap/index.rst:15
 msgid ""
-"`Azure AD <https://docs.microsoft.com/en-us/exchange/client-developer"
-"/legacy-protocols/how-to-authenticate-an-imap-pop-smtp-application-by-using-"
-"oauth>`_."
+"`Microsoft (Office 365 via Azure AD) <https://docs.microsoft.com/en-"
+"us/exchange/client-developer/legacy-protocols/how-to-authenticate-an-imap-"
+"pop-smtp-application-by-using-oauth>`_."
 msgstr ""
-"`Azure AD <https://docs.microsoft.com/en-us/exchange/client-developer"
-"/legacy-protocols/how-to-authenticate-an-imap-pop-smtp-application-by-using-"
-"oauth>`_."
 
 #: ../../source/oauthimap/index.rst:18
 msgid "Install the Plugin"
-msgstr "Installa il plugin"
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:20
 msgid "Plugin is available inside GLPI marketplace."
-msgstr "Il plugin è disponibile nel marketplace di GLPI."
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:22
 msgid "You can also install it manually:"
-msgstr "Puoi anche installarlo manualmente:"
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:24
 msgid "Uncompress the archive."
-msgstr "Decomprimere l'archivio."
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:25
 msgid ""
@@ -163,4 +154,8 @@ msgstr ""
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
+msgstr ""
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
 msgstr ""

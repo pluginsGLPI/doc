@@ -1,125 +1,108 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016, Teclib'
+# Copyright (C) 2016-2024, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# Cédric Anne, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPI plugins 0.1\n"
+"Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-14 15:17+0200\n"
-"PO-Revision-Date: 2020-10-09 11:53+0000\n"
-"Last-Translator: Cédric Anne, 2020\n"
-"Language-Team: French (France) (https://www.transifex.com/teclib/teams/28042/fr_FR/)\n"
+"POT-Creation-Date: 2024-01-26 15:57+0100\n"
+"PO-Revision-Date: 2024-01-26 14:57+0000\n"
+"Language-Team: French (France) (https://app.transifex.com/teclib/teams/28042/fr_FR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_FR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/oauthimap/index.rst:2
 msgid "Oauth IMAP"
-msgstr "Oauth IMAP"
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:4
 msgid "Sources link: https://github.com/pluginsGLPI/oauthimap"
-msgstr "Code source : https://github.com/pluginsGLPI/oauthimap"
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:5
 msgid "Download: https://github.com/pluginsGLPI/oauthimap/releases"
-msgstr "Téléchargement : https://github.com/pluginsGLPI/oauthimap/releases"
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:8
 msgid "Features"
-msgstr "Fonctionnalités"
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:10
 msgid "This plugin supports Oauth connection for emails receivers."
-msgstr "Ce plugin permet la connexion Oauth pour les collecteurs mail."
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:12
 msgid "Supported mail services:"
-msgstr "Services de mail supportés :"
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:14
 msgid ""
-"`G Suite and Gmail "
+"`Google (G Suite and Gmail) "
 "<https://developers.google.com/gmail/imap/xoauth2-protocol>`_,"
 msgstr ""
-"`G Suite et Gmail "
-"<https://developers.google.com/gmail/imap/xoauth2-protocol>`_,"
 
 #: ../../source/oauthimap/index.rst:15
 msgid ""
-"`Azure AD <https://docs.microsoft.com/en-us/exchange/client-developer"
-"/legacy-protocols/how-to-authenticate-an-imap-pop-smtp-application-by-using-"
-"oauth>`_."
+"`Microsoft (Office 365 via Azure AD) <https://docs.microsoft.com/en-"
+"us/exchange/client-developer/legacy-protocols/how-to-authenticate-an-imap-"
+"pop-smtp-application-by-using-oauth>`_."
 msgstr ""
-"`Azure AD <https://docs.microsoft.com/en-us/exchange/client-developer"
-"/legacy-protocols/how-to-authenticate-an-imap-pop-smtp-application-by-using-"
-"oauth>`_."
 
 #: ../../source/oauthimap/index.rst:18
 msgid "Install the Plugin"
-msgstr "Installer le plugin"
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:20
 msgid "Plugin is available inside GLPI marketplace."
-msgstr "Le plugin est disponible au sein du marketplace de GLPI."
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:22
 msgid "You can also install it manually:"
-msgstr "Vous pouvez aussi l'installer manuellement :"
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:24
 msgid "Uncompress the archive."
-msgstr "Décompressez l'archive."
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:25
 msgid ""
 "Move the ``oauthimap`` directory to the ``<GLPI_ROOT>/plugins`` directory."
 msgstr ""
-"Déplacez le dossier  ``oauthimap`` dans le dossier ``<GLPI_ROOT>/plugins``."
 
 #: ../../source/oauthimap/index.rst:26
 msgid "Navigate to the *Setup > Plugins* page."
-msgstr "Naviguez vers la page *Configuration > Plugins*."
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:27
 msgid "Install and activate the plugin."
-msgstr "Installez et activez le plugin."
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:30
 msgid "Configure your Oauth IMAP application"
-msgstr "Configurer votre Application Oauth IMAP"
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:32
 msgid ""
 "To be able to connect to a mailbox using Oauth authentication, you first "
 "need to configure your *Oauth IMAP application*:"
 msgstr ""
-"Pour pouvoir établir une connexion à une boîte mail en utilisant "
-"l'authentification Oauth, vous devez au préalable configurer votre "
-"*Application Oauth IMAP*:"
 
 #: ../../source/oauthimap/index.rst:34
 msgid ""
 "Register an external application on service provider management console;"
 msgstr ""
-"Enregistrez votre application externe sur la console de gestion du "
-"fournisseur de service;"
 
 #: ../../source/oauthimap/index.rst:35
 msgid ""
 "Create an item in *Setup > Oauth IMAP applications* using *id* and *secret* "
 "of your provider application;"
 msgstr ""
-"Créez un élément dans *Configuration > Applications Oauth IMAP* en utilisant"
-" les champs *id* et *secret* de l'application du fournisseur de service; "
 
 #: ../../source/oauthimap/index.rst:36
 msgid ""
@@ -127,13 +110,10 @@ msgid ""
 "in the provider console (GLPI will be called back after authentication "
 "process)."
 msgstr ""
-"Copiez l'URL de retour depuis la page de configuration de l'Application "
-"Oauth IMAP et saisissez là dans la console du fournisseur de service (GLPI "
-"sera appelé à la fin du processus d'authentification)."
 
 #: ../../source/oauthimap/index.rst:41
 msgid "Create an authorization"
-msgstr "Créer une autorisation"
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:43
 msgid ""
@@ -142,10 +122,6 @@ msgid ""
 "go in the *Oauth authorization* tab of your Oauth IMAP application, and "
 "click on *Create an authorization*."
 msgstr ""
-"Une fois votre Application Oauth IMAP créée, yous devrez créer une "
-"autorisation qui sera utilisée lors de l'authentification à votre boîte "
-"mail. Pour se faire, allez dans l'onglet *Authorisation Oauth* de votre "
-"Application Oauth IMAP, et cliquez sur *Créer une autorisation*."
 
 #: ../../source/oauthimap/index.rst:48
 msgid ""
@@ -153,40 +129,33 @@ msgid ""
 " mail receivers. When you create an authorization for a mailbox, previously "
 "existing authorizations for this mailbox are discarded."
 msgstr ""
-"Vous pouvez créer une autorisation pour chacune des boîtes mail que vous "
-"souhaitez utiliser dans des collecteurs mail. Quand vous créez une "
-"autorisation pour une boîte mail, toute autorisation existante pour cette "
-"même boîte est défaussée."
 
 #: ../../source/oauthimap/index.rst:52
 msgid "Configure your mail receiver"
-msgstr "Configurer votre collecteur mail"
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:54
 msgid ""
 "To authenticate via Oauth on your mail receiver, you have to change the "
 "configuration of your mail receiver:"
 msgstr ""
-"Pour s'authentifier via Oauth à votre collecteur mail, vous devez changer la"
-" configuration de celui-ci :"
 
 #: ../../source/oauthimap/index.rst:56
 msgid ""
 "choose your Oauth IMAP application in the first dropdown of *Connection "
 "options*;"
 msgstr ""
-"choisissez vote Application Oauth IMAP dans la première liste déroulant des "
-"*Options de connexion*;"
 
 #: ../../source/oauthimap/index.rst:57
 msgid ""
 "then choose an existing authorization in the *Login* dropdown or select "
 "*Create authorization for another user*."
 msgstr ""
-"puis choisissez une autorisation existant dans la liste déroulante "
-"*Identifiant* ou choisissez *Créer une autorisation pour un autre "
-"utilisateur*."
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
+msgstr ""
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
 msgstr ""

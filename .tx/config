@@ -13,175 +13,209 @@ type        = PO
 file_filter = source/locale/<lang>/LC_MESSAGES/presentation.po
 source_file = build/locale/presentation.pot
 source_lang = en
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:globals]
 file_filter = source/locale/<lang>/LC_MESSAGES/globals.po
 source_file = build/locale/globals.pot
 source_lang = en
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:example--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/example/index.po
 source_file = build/locale/example/index.pot
 source_lang = en
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:credit--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/credit/index.po
 source_file = build/locale/credit/index.pot
 source_lang = en
-
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:escalade--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/escalade/index.po
 source_file = build/locale/escalade/index.pot
 source_lang = en
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:treeview--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/treeview/index.po
 source_file = build/locale/treeview/index.pot
 source_lang = en
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:order--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/order/index.po
 source_file = build/locale/order/index.pot
 source_lang = en
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:news--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/news/index.po
 source_file = build/locale/news/index.pot
 source_lang = en
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:sccm--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/sccm/index.po
 source_file = build/locale/sccm/index.pot
 source_lang = en
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:tag--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/tag/index.po
 source_file = build/locale/tag/index.pot
 source_lang = en
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:empty--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/empty/index.po
 source_file = build/locale/empty/index.pot
 source_lang = en
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:genericobject--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/genericobject/index.po
 source_file = build/locale/genericobject/index.pot
 source_lang = en
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:fields--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/fields/index.po
 source_file = build/locale/fields/index.pot
 source_lang = en
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:uninstall--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/uninstall/index.po
 source_file = build/locale/uninstall/index.pot
 source_lang = en
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:datainjection--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/datainjection/index.po
 source_file = build/locale/datainjection/index.pot
 source_lang = en
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:formcreator--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/formcreator/index.po
 source_file = build/locale/formcreator/index.pot
 source_lang = en
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:formcreator--configuration]
 file_filter = source/locale/<lang>/LC_MESSAGES/formcreator/configuration.po
 source_file = build/locale/formcreator/configuration.pot
 source_lang = en
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:formcreator--contributing]
 file_filter = source/locale/<lang>/LC_MESSAGES/formcreator/contributing.po
 source_file = build/locale/formcreator/contributing.pot
 source_lang = en
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:formcreator--features]
 file_filter = source/locale/<lang>/LC_MESSAGES/formcreator/features.po
 source_file = build/locale/formcreator/features.pot
 source_lang = en
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:formcreator--installation]
 file_filter = source/locale/<lang>/LC_MESSAGES/formcreator/installation.po
 source_file = build/locale/formcreator/installation.pot
 source_lang = en
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:formcreator--team]
 file_filter = source/locale/<lang>/LC_MESSAGES/formcreator/team.po
 source_file = build/locale/formcreator/team.pot
 source_lang = en
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:formcreator--targets]
 file_filter = source/locale/<lang>/LC_MESSAGES/formcreator/targets.po
 source_file = build/locale/formcreator/targets.pot
 source_lang = en
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:oauthimap--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/oauthimap/index.po
 source_file = build/locale/oauthimap/index.pot
 source_lang = en
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:advanceddashboard--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/advanceddashboard/index.po
 source_file = build/locale/advanceddashboard/index.pot
 source_lang = en
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:anonymize--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/anonymize/index.po
 source_file = build/locale/anonymize/index.pot
 source_lang = en
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:approbalbymail--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/approbalbymail/index.po
 source_file = build/locale/approbalbymail/index.pot
 source_lang = en
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:branding--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/branding/index.po
 source_file = build/locale/branding/index.pot
 source_lang = en
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:centreon--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/centreon/index.po
 source_file = build/locale/centreon/index.pot
 source_lang = en
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:GDPR--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/GDPR/index.po
 source_file = build/locale/GDPR/index.pot
 source_lang = en
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:holidays--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/holidays/index.po
 source_file = build/locale/holidays/index.pot
 source_lang = en
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:ldaptools--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/ldaptools/index.po
 source_file = build/locale/ldaptools/index.pot
 source_lang = en
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:scim--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/scim/index.po
 source_file = build/locale/scim/index.pot
 source_lang = en
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:scim--azure]
 file_filter = source/locale/<lang>/LC_MESSAGES/scim/azure.po
 source_file = build/locale/scim/azure.pot
 source_lang = en
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:scim--okta]
 file_filter = source/locale/<lang>/LC_MESSAGES/scim/okta.po
 source_file = build/locale/scim/okta.pot
 source_lang = en
+type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:translate--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/translate/index.po
 source_file = build/locale/translate/index.pot
 source_lang = en
+type = PO
 
