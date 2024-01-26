@@ -120,9 +120,10 @@ OAuth configuration on GLPI side
    :alt:
 
 Copy the values from the fields above:
+
 - Application ID,
-- - the holder ID
-- the **value** of the secret copied in the previous step
+- The holder ID
+- The **value** of the secret copied in the previous step
 
 .. Warning::
    Please check that the **value** of the secret is filled in correctly.If the ID of the secret is copied, your application will fall into error.
@@ -157,10 +158,12 @@ Explanation of ID field
 .. figure:: images/oauth-Entra-8.png
    :alt:
 
-1) **User Principal Name (UPN)**: this option will show the full username of the user logging in (nom.prenom@mondomaine.com for example). If you want only the username to be visible (without the    @mondomaine.com, see the **XXXXXXXXXX** paragraph).
+1) **User Principal Name (UPN)**: this option will show the full username of the user logging in (name@mydomain.com for example). If you want only the username to be visible (without the @mydomain.com, see the **XXXXXXXXXX** paragraph).
 2) **Entra user ID (OID)**: this option takes the object ID from the Entra AD. This ID will be used for the user login
+
 .. figure:: images/oauth-Entra-9.png
    :alt:
+
 3) **Email address**: This option specifies the user’s email address. This field will be used for the login. If it is empty, the UPN will be used.
 
 If you need to find your application in the Entra portal, select **Application subscriptions**, then **Display all applications**.
@@ -178,7 +181,7 @@ There are no ‘mandatory’ rules, it’s up to you to create the rule(s) that 
 
 For example, a very simple rule
 
--  A very simple rule > *I want my users with SSO authentication to obtain the*\ **Self-Service**\ *profile*.
+-  A very simple rule > *I want my users with SSO authentication to obtain the Self-Service profile*.
 
 So I set my criteria and my action :
 
@@ -192,7 +195,7 @@ Forcing SSO authentication
 --------------------------
 
 .. Check::
-   Using the Oauth SSO application configuration longlet, you can mask the internal database connection field to “**force**” the connection with your SSO application
+   Using the Oauth SSO application configuration longlet, you can mask the internal database connection field to **force** the connection with your SSO application
    .. figure:: images/oauth-Entra-11.png
    :alt:
 
