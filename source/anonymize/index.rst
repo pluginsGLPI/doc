@@ -276,6 +276,7 @@ applied using 2 methods:
 
 -  Massive action via the web interface (*cloud and on-premise*)
 -  In CLI (*only on-premise*)
+
 Mass action (Cloud and on-premise)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

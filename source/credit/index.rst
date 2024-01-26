@@ -79,6 +79,7 @@ Define default values
 -  Go to the **Credit** section
 -  In the **Default options for entity** section
 -  Select the type of credit by action
+
   .. figure:: images/Credit-6.png
    :alt:
 
@@ -96,14 +97,17 @@ corresponding credits.
 In our example, we have chosen to deduct each action.
 
 -  If we are doing a **follow-up**, we can deduct the credit assigned by default:
+
 .. figure:: images/Credit-7.png
    :alt:
 
 -  The same for a **task**:
+
 .. figure:: images/Credit-8.png
    :alt:
 
 -  And for a **solution** :
+
 .. figure:: images/Credit-9.png
    :alt:
 
@@ -160,6 +164,7 @@ An automatic action is available to notify you when a credit has expired.
 
 -  From **Setup > Automatic actions**, modify the **creditexpired** action to suit your needs.
 -  Click on **Save**
+
 .. figure:: images/Credit-13.png
    :alt:
 
