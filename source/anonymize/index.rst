@@ -5,7 +5,7 @@ Requirements (on-premise)
 -------------------------
 
 ============ =========== ===========
-GLPI Version Minimum PHP Recommanded
+GLPI Version Minimum PHP Recommended
 ============ =========== ===========
 10.0.x       8.1         8.2
 ============ =========== ===========
@@ -27,12 +27,12 @@ Choice of profile
 Anonymisation works by profile. There are 4 profiles already created.
 When you select a profile, a certain amount of data is already set. They can, of course, be modified.
 
--  Go to **administration > anonymization profile** and select the profile best suited to your needs:
+-  Go to **Administration** > **Anonymization profile** and select the profile best suited to your needs:
 
 The 4 profiles you will find are :
 
--  Email,
--  Entity,
+-  Email
+-  Entity
 -  Computer
 -  User profile
 
@@ -240,11 +240,11 @@ Application strategy
 
 Several strategies are available for each element field (e.g.Last name, First name, Serial number, Location, Status, etc.):
 
--  Keep the value,
--  delete the value,
--  replace with a fixed value,
--  replace with a standard random value,
--  replace with a realistic random value.
+-  Keep the value
+-  Delete the value
+-  Replace with a fixed value
+-  Replace with a standard random value
+-  Replace with a realistic random value
 
 History
 -------
@@ -252,10 +252,10 @@ History
 Each profile allows you to choose the treatment to be applied to the
 history of items:
 
--  Do nothing,
--  clean up values,
--  clean up recent values and delete the rest,
--  delete.
+-  Do nothing
+-  Clean up values
+-  Clean up recent values and delete the rest
+-  Delete
 
 Global search
 -------------
@@ -274,23 +274,22 @@ Applying the profile
 Once you have completed your profile, you need to apply it. It can be
 applied using 2 methods:
 
--  massive action via the web interface (*cloud and on-premise*)
--  in cli (*only on-premise*)
-
+-  Massive action via the web interface (*cloud and on-premise*)
+-  In CLI (*only on-premise*)
 Mass action (Cloud and on-premise)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In our example, we will be anonymising `user data`.
 
--  Go to **administration > users**. Select the user(s) you wish to anonymise.
--  Click on **actions** then **anonymise selected items**.
+-  Go to **Administration** > **Users**. Select the user(s) you wish to anonymise.
+-  Click on **Actions** then **anonymise selected items**.
 
 .. figure:: images/Anonymize-5.gif
    :alt:
 
 
 .. Note::
-   "To be adapted If your profile concerns entities, go to **administration > entities** and repeat the operation for the entities concerned. Do the same for computers, email, etc.
+   "To be adapted If your profile concerns entities, go to **Administration** > **Entities** and repeat the operation for the entities concerned. Do the same for computers, email, etc.
 
 Via CLI (on-premise only)
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -317,13 +316,13 @@ Creating a profile
 You can create a profile to anonymise other data than that mentioned
 above.
 
--  Go to **administration > anonymisation profile**
--  Click on **add**.
+-  Go to **Administration > Anonymisation profile**
+-  Click on **Add**
 -  Name your profile
--  Choose from the list of **element types** (agent, domain, etc.)
--  Select the treatment of the **history**.
+-  Choose from the list of **Element types** (agent, domain, etc.)
+-  Select the treatment of the **History**
 -  Set the parameters for each field
--  Click on **add**
+-  Click on **Add**
 
 .. Note::
    Remember to refer to the profile application section to apply your changes.
@@ -412,7 +411,6 @@ Cables
 - `items_id_endpoint_b`
 - `socketmodels_id_endpoint_a`
 - `socketmodels_id_endpoint_b`
-
 - `sockets_id_endpoint_a`
 - `sockets_id_endpoint_b`
 - `cablestrands_id`

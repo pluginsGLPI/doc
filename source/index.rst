@@ -48,5 +48,7 @@ You'll find here user documentation for various `GLPI <http://glpi-project.org>`
    approbalbymail/index
    branding/index
    holidays/index
+   GDPR/index
+   ldaptools/index
    scim/index
    translate/index
