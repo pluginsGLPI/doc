@@ -326,7 +326,7 @@ above.
 -  Click on **add**
 
 .. Note::
-   Remember to refer to the [profile application](../plugins/Anonymize.co.uk.md/#profile-application) section to apply your changes.
+   Remember to refer to the profile application section to apply your changes.
 
 Other anonymisable data (profile creation)
 ------------------------------------------
