@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Kaya Zeren <kayazeren@gmail.com>, 2023
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,7 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-14 15:17+0200\n"
 "PO-Revision-Date: 2020-01-24 06:36+0000\n"
-"Language-Team: Turkish (Turkey) (https://www.transifex.com/teclib/teams/28042/tr_TR/)\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2023\n"
+"Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,137 +23,146 @@ msgstr ""
 
 #: ../../source/tag/index.rst:2
 msgid "Tag"
-msgstr ""
+msgstr "Tag"
 
 #: ../../source/tag/index.rst:4
 msgid "Sources link: https://github.com/pluginsGLPI/tag"
-msgstr ""
+msgstr "Kaynak bağlantısı: https://github.com/pluginsGLPI/tag"
 
 #: ../../source/tag/index.rst:5
 msgid "Download: https://github.com/pluginsGLPI/tag/releases"
-msgstr ""
+msgstr "İndirme bağlantısı: https://github.com/pluginsGLPI/tag/releases"
 
 #: ../../source/tag/index.rst:8
 msgid "Requirements for latest version"
-msgstr ""
+msgstr "Son sürümün gereksinimleri"
 
 #: ../../source/tag/index.rst:10
 msgid "This plugin requires :"
-msgstr ""
+msgstr "Bu uygulama ekinin gereksinimleri:"
 
 #: ../../source/tag/index.rst:12
 msgid "PHP 7.2 or higher"
-msgstr ""
+msgstr "PHP 7.2 ve üzerindeki sürümler"
 
 #: ../../source/tag/index.rst:13
 msgid "GLPI >= 9.4"
-msgstr ""
+msgstr "GLPI 9.4 ve üzerindeki sürümler"
 
 #: ../../source/tag/index.rst:17
 msgid "Features"
-msgstr ""
+msgstr "Özellikler"
 
 #: ../../source/tag/index.rst:19
 msgid "Add tags on every GLPI item type (which extends CommonDBTM)"
 msgstr ""
+"Tüm GLPI öge türlerine etiket ekler (CommonDBTM kullanımını genişletir)"
 
 #: ../../source/tag/index.rst:20
 msgid "Add tags on FusionInventory Task (plugin fusioninventory)"
-msgstr ""
+msgstr "FusionInventory görevine etiket ekler (FusionInventory uygulama eki)"
 
 #: ../../source/tag/index.rst:21
 msgid "Add tags on Appliance (plugin appliance)"
-msgstr ""
+msgstr "Aygıtlara etiket ekler (Appliance uygulama eki)"
 
 #: ../../source/tag/index.rst:22
 msgid "Manage tag from labels"
-msgstr ""
+msgstr "Etiket alanlarından etiketleri yönetir"
 
 #: ../../source/tag/index.rst:23
 msgid ""
 "Tags are displayed and editable in the object form header (just below title)"
 msgstr ""
+"Etiketler, nesne formu üst bilgisinde görüntülenir ve düzenlenebilir "
+"(başlığın hemen altında)"
 
 #: ../../source/tag/index.rst:24
 msgid "You can search for tags and display them in objects lists"
-msgstr ""
+msgstr "Etiketleri arayabilir ve nesne listelerinde görüntüleyebilirsiniz"
 
 #: ../../source/tag/index.rst:25
 msgid "You can display a report from associated objects in administration"
-msgstr ""
+msgstr "Yönetim bölümünden ilişkili nesnelerin raporunu görüntüleyebilirsiniz"
 
 #: ../../source/tag/index.rst:29
 msgid "Install the Plugin"
-msgstr ""
+msgstr "Uygulama ekini kurmak"
 
 #: ../../source/tag/index.rst:30
 msgid "Uncompress the archive."
-msgstr ""
+msgstr "Arşivi ayıklayın."
 
 #: ../../source/tag/index.rst:31
 msgid "Move the ``tag`` directory to the ``<GLPI_ROOT>/plugins`` directory"
-msgstr ""
+msgstr "``tag`` klasörünü ``<GLPI_ROOT>/plugins`` klasörüne taşıyın"
 
 #: ../../source/tag/index.rst:32
 msgid "Navigate to the *Configuration > Plugins* page,"
-msgstr ""
+msgstr "*Yapılandırma > Uygulama ekleri* bölümüne gidin."
 
 #: ../../source/tag/index.rst:33
 msgid "Install and activate the plugin."
-msgstr ""
+msgstr "Uygulama ekini kurup etkinleştirin."
 
 #: ../../source/tag/index.rst:36
 msgid "Usage"
-msgstr ""
+msgstr "Kullanım"
 
 #: ../../source/tag/index.rst:38
 msgid ""
 "The plugin will create required tables in the database  automatically. Those"
 " tables will be updated along with the plugin."
 msgstr ""
+"Bu uygulama eki otomatik olarak veri tabanında gerekli tabloları oluşturur. "
+"Bu tablolar uygulama ekiyle birlikte güncellenir."
 
 #: ../../source/tag/index.rst:40
 msgid "Plugin usage is quite simple:"
-msgstr ""
+msgstr "Uygulama ekinin kullanımı oldukça basittir:"
 
 #: ../../source/tag/index.rst:42
 msgid "Create tag"
-msgstr ""
+msgstr "Etiket oluşturmak"
 
 #: ../../source/tag/index.rst:44
 msgid "You will access the create form from the *Setup* > *Plugins* > *tag*."
 msgstr ""
+"Oluşturma formuna *Kurulum* > *Uygulama ekleri* > *tag* bölümünüden "
+"erişebilirsiniz."
 
 #: ../../source/tag/index.rst:46
 msgid ""
 "Define ``name``, ``color``, ``sub-entities visibility`` and ``associated "
 "itemtype``"
 msgstr ""
+"\"Ad\", \"renk\", \"alt birim görünürlüğü\" ve \"ilişkili öge türü\" "
+"bilgilerini belirtin"
 
 #: ../../source/tag/index.rst:50
 msgid "Use tag"
-msgstr ""
+msgstr "Etiketi kullanmak"
 
 #: ../../source/tag/index.rst:52
 msgid "On associated itemtype, you can add tag previously created"
-msgstr ""
+msgstr "İlişkili öge türünde, önceden oluşturulmuş etiketi ekleyebilirsiniz"
 
 #: ../../source/tag/index.rst:56
 msgid "Search items by tag"
-msgstr ""
+msgstr "Ögeleri etiketlere göre aramak"
 
 #: ../../source/tag/index.rst:58
 msgid "You can easily find items with tag"
-msgstr ""
+msgstr "Etiketli ögeleri kolayca bulabilirsiniz"
 
 #: ../../source/tag/index.rst:63
 msgid "Get all items associated to tag"
-msgstr ""
+msgstr "Etiketle ilişkili tüm ögeleri getirin"
 
 #: ../../source/tag/index.rst:65
 msgid "Go to tag form, clic on tab \"Associated items\""
-msgstr ""
+msgstr "Etiket formuna gidin, \"İlişkili ögeler\" sekmesine tıklayın"
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"

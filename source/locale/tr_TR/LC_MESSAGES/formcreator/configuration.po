@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Kaya Zeren <kayazeren@gmail.com>, 2019
+# Kaya Zeren <kayazeren@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,8 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-14 15:17+0200\n"
 "PO-Revision-Date: 2016-12-20 09:45+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2019\n"
-"Language-Team: Turkish (Turkey) (https://www.transifex.com/teclib/teams/28042/tr_TR/)\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2021\n"
+"Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,11 +23,11 @@ msgstr ""
 
 #: ../../source/formcreator/configuration.rst:2
 msgid "Forms configuration"
-msgstr ""
+msgstr "Form yapılandırmaları"
 
 #: ../../source/formcreator/configuration.rst:5
 msgid "Form creation"
-msgstr ""
+msgstr "Form oluşturmak"
 
 #: ../../source/formcreator/configuration.rst:8
 msgid ""
@@ -35,6 +35,9 @@ msgid ""
 "update entities in GLPI. Refer to the documentation of GLPI to know how to "
 "setup this right."
 msgstr ""
+"GLPI üzerinde varlıkları güncelleme hakkına sahip profillere form oluşturma "
+"izni verilir. Bu iznin nasıl kurulacağını öğrenmek için GLPI belgelerine "
+"bakın."
 
 #: ../../source/formcreator/configuration.rst:11
 msgid ""
@@ -42,41 +45,50 @@ msgid ""
 "available. A form may be available in its entity and all sub entities if the"
 " field **Child entities** is set to **Yes**."
 msgstr ""
+"Formlar, bulunmaları amaçlanan birimlerde oluşturulmalıdır. **Alt birimler**"
+" alanı **Evet** olarak ayarlanmışsa, bir form kendi biriminde ve tüm alt "
+"birimlerinde kullanılabilir."
 
 #: ../../source/formcreator/configuration.rst:13
 msgid "Navigate to **Administration > Forms**."
-msgstr ""
+msgstr "**Yönetim > Formlar** bölümüne gidin."
 
 #: ../../source/formcreator/configuration.rst:17
 msgid "Click on the button to add a form **+**"
-msgstr ""
+msgstr "Bir form eklemek için **+** düğmesine tıklayın"
 
 #: ../../source/formcreator/configuration.rst:19
 msgid "Following fields must be populated:"
-msgstr ""
+msgstr "Şu alanlar doldurulmalıdır:"
 
 #: ../../source/formcreator/configuration.rst:21
 msgid "**Name**: Name of the form."
-msgstr ""
+msgstr "**Ad**: Formun adı."
 
 #: ../../source/formcreator/configuration.rst:22
 msgid ""
 "**Active**: A form is inactive by default. You need to explicitly activate "
 "it when it is ready to use."
 msgstr ""
+"**Etkin**: Bir form varsayılan olarak etkin değildir. Kullanıma hazır "
+"olduğunda etkinleştirmeniz gerekir."
 
 #: ../../source/formcreator/configuration.rst:24
 msgid "It is recommended to fill the Category field:"
-msgstr ""
+msgstr "Kategori alanını doldurmanız önerilir:"
 
 #: ../../source/formcreator/configuration.rst:26
 msgid "In the simplified interface, categories allow to tidy forms by Blocks."
 msgstr ""
+"Basitleştirilmiş arayüzde, kategoriler formların bloklara göre "
+"düzenlenmesini sağlar."
 
 #: ../../source/formcreator/configuration.rst:27
 msgid ""
 "If you want to use the **service catalog** you must use form categories."
 msgstr ""
+"**Hizmet kataloğunu** kullanmak istiyorsanız, form kategorilerini "
+"kullanmanız gerekir."
 
 #: ../../source/formcreator/configuration.rst:30
 msgid ""
@@ -84,12 +96,18 @@ msgid ""
 " when editing a form using the **+** next to category field. You can do the "
 "same from **Configuration > Dropdowns > Form category**."
 msgstr ""
+"Form kategorileri, uygulama ekinin açılır listeleridir. Kategori alanının "
+"yanındaki **+** öğesini kullanarak bir formu düzenlerken doğrudan form "
+"kategorileri ekleyebilirsiniz. Bu işlemi **Yapılandırma > Açılan kutu > Form"
+" kategorileri**' bölümünden de yapabilirsiniz."
 
 #: ../../source/formcreator/configuration.rst:32
 msgid ""
 "**Direct access on homepage**: Direct access to the form from the GLPI's "
 "simplified interface."
 msgstr ""
+"**Ana sayfadan doğrudan erişim**: Basitleştirilmiş GLPI arayüzünden forma "
+"doğrudan erişim sağlar."
 
 #: ../../source/formcreator/configuration.rst:34
 msgid ""
@@ -98,10 +116,15 @@ msgid ""
 "to users using the same language as the form. Choose **All languages** to "
 "make the form available to users without language restriction."
 msgstr ""
+"**Açıklama**: Liste formlarında görüntülenir. * **Dil**: Varsayılan olarak "
+"bir form, oluşturan kişinin kullandığı dile ayarlanır. Form, yalnız formla "
+"aynı dili kullanan kullanıcılar tarafından kullanılabilir. Formu dil "
+"kısıtlaması olmaksızın kullanıcılara sunmak için **Tüm diller** seçeneğini "
+"seçin."
 
 #: ../../source/formcreator/configuration.rst:37
 msgid "**Header**: displays when the form is displayed."
-msgstr ""
+msgstr "**Başlık**: Form görüntülendiğinde görüntülenir."
 
 #: ../../source/formcreator/configuration.rst:38
 msgid ""
@@ -111,44 +134,59 @@ msgid ""
 "form's entity. The list of validators is a multiple choice list. If no "
 "validator is selected all of them are submitted when the form is being used."
 msgstr ""
+"**Doğrulanması gerekiyor**: **Evet** olarak ayarlanmış ise bir doğrulayıcı "
+"listesi görüntülenir. Formun birimiyle uyumlu bir birim üzerindeki GLPI "
+"kullanıcılarının (sağda **Bir sorunu doğrula** ya da **Bir isteği doğrula** "
+"(profilinde) ile listeler. Doğrulayıcıların listesi çoktan seçmeli bir "
+"listedir. Doğrulayıcı seçilmezse, form kullanılırken tümüne gönderilir."
 
 #: ../../source/formcreator/configuration.rst:39
 msgid ""
 "**Default form in service catalog**: if **Yes** the form will display in the"
 " service catalog without being filtered by the current category or keywords."
 msgstr ""
+"**Hizmet kataloğunun varsayılan formu**: **Evet** ise form, geçerli kategori"
+" veya anahtar sözcüklere göre süzülmeden hizmet kataloğunda görüntülenir."
 
 #: ../../source/formcreator/configuration.rst:41
 msgid ""
 "When all fields are filled, click on the **add button** at the botoom of the"
 " page."
 msgstr ""
+"Tüm alanları doldurduktan sonra, sayfanın altındaki **Ekle** düğmesine "
+"tıklayın."
 
 #: ../../source/formcreator/configuration.rst:44
 msgid ""
 "Deleting a form is possible only if there areno associated answers. To "
 "delete a form, delete all its answers first from the **Form answers** tab."
 msgstr ""
+"Bir form ancak ilişkili bir yanıt yoksa silinebilir. Bir formu silmek için "
+"önce **Form yanıtları** sekmesinden tüm yanıtlarını silin."
 
 #: ../../source/formcreator/configuration.rst:47
 msgid "Sections"
-msgstr ""
+msgstr "Bölümler"
 
 #: ../../source/formcreator/configuration.rst:49
 msgid "After clicking on the tab **Question** the following page displays:"
-msgstr ""
+msgstr "**Soru** sekmesine tıkladıktan sonra aşağıdaki sayfa görüntülenir:"
 
 #: ../../source/formcreator/configuration.rst:53
 msgid ""
 "You must create a first **section**. Sections are intended to organize "
 "questions in the form."
 msgstr ""
+"Önce bir **bölüm** oluşturmalısınız. Bölümler, formdaki soruları gruplamak "
+"için kullanılır."
 
 #: ../../source/formcreator/configuration.rst:57
 msgid ""
 "It is possible to setup conditions to show the whole section, based on the "
 "answers provided to questions located in other sections of the form."
 msgstr ""
+"Formun diğer bölümlerinde yer alan sorulara verilen yanıtlara göre bölümün "
+"görüntülenmesini ya da gizlenmesini sağlaycak koşullar oluşturulabilir."
 
 #: ../../source/formcreator/configuration.rst:60
 #: ../../source/formcreator/configuration.rst:326
@@ -157,11 +195,11 @@ msgstr "Sorular"
 
 #: ../../source/formcreator/configuration.rst:62
 msgid "Click on the link **Add a question** in a section of your choice."
-msgstr ""
+msgstr "İstediğiniz bir bölümde **Bir soru ekle** üzerine tıklayın."
 
 #: ../../source/formcreator/configuration.rst:67
 msgid "The following page displays:"
-msgstr ""
+msgstr "Şu sayfa görüntülenir:"
 
 #: ../../source/formcreator/configuration.rst:71
 msgid ""
@@ -172,6 +210,12 @@ msgid ""
 "hint for the requester, telling him which content is expected. * a dropdown "
 "list **Show field**"
 msgstr ""
+"Bir sorunun bileşenleri: * Bir başlık: Formdaki sorunun etiketidir. * Bir "
+"tür: Aşağıdaki listeye bakın. * Bir bölüm: Sorunun bulunduğu bölüm. Bu "
+"alandan bir soruyu başka bir bölüme taşıyabilirsiniz. * Bir tanım; Formda "
+"soru altında görüntülenir. Bunu, istekte bulunan kişiye hangi içeriğin "
+"beklendiğini söyleyen bir ipucu olarak kullanın. * Bir açılır liste **Alanı "
+"görüntüle**"
 
 #: ../../source/formcreator/configuration.rst:81
 msgid ""
@@ -180,71 +224,87 @@ msgid ""
 "other questions matches a condition. * **Displayed unless**: The question is"
 " displayed except if the answers to other questions matches a condition."
 msgstr ""
+"Şu seçenekler sunulur: * **Her zaman görüntülensin**: Alan her zaman "
+"görüntülenir * **Şu olmadan gizlensin*: Diğer soruların yanıtlarının bir "
+"koşulla eşleşmesi durumu dışında soru gizlenir. * **Şu olmadan "
+"görüntülensin**: Diğer soruların yanıtlarının bir koşulla eşleşmesi durumu "
+"dışında soru görüntülenir."
 
 #: ../../source/formcreator/configuration.rst:86
 msgid ""
 "Conditions may be multiple. To add or remove a condition two buttons are "
 "available:"
 msgstr ""
+"Koşullar birden fazla olabilir. Bir koşul eklemek ya da kaldırmak için iki "
+"düğme bulunur:"
 
 #: ../../source/formcreator/configuration.rst:90
 msgid "**List of pictograms**"
-msgstr ""
+msgstr "**Simge listesi**"
 
 #: ../../source/formcreator/configuration.rst:92
 msgid "The **circle** allows you to make a question mandatory"
-msgstr ""
+msgstr "**Çember** bir sorunun zorunlu kılınmasını ya da "
 
 #: ../../source/formcreator/configuration.rst:96
 msgid ", or optional .. image:: images/question_picto_optional.png"
 msgstr ""
+"isteğe bağlı olmasını sağlar .. image:: images/question_picto_optional.png"
 
 #: ../../source/formcreator/configuration.rst:99
 msgid ""
 "**Arrow up** and **arrow down** allow you to r eorder questions in a "
 "section."
 msgstr ""
+"**Yukarı ok** ve **aşağı ok** bir bölümdeki soruların sıralamasını "
+"değiştirmeyi sağlar."
 
 #: ../../source/formcreator/configuration.rst:100
 msgid "Clicking on a question allow you to edit it."
-msgstr ""
+msgstr "Bir soru üzerine tıklanarak düzenlenebilir."
 
 #: ../../source/formcreator/configuration.rst:101
 msgid ""
 "**Two stacked squares** allows you to duplicate a question or a whole "
 "section."
-msgstr ""
+msgstr "**Üst üste iki kare** bir soru ya da bölümün kopyasını oluşturur."
 
 #: ../../source/formcreator/configuration.rst:102
 msgid ""
 "The **recycle bin** allows you to delete a question or a whole section."
-msgstr ""
+msgstr "**Çöp kutusu** bir soru ya da bölümü siler."
 
 #: ../../source/formcreator/configuration.rst:105
 msgid "Types of question"
-msgstr ""
+msgstr "Soru türleri"
 
 #: ../../source/formcreator/configuration.rst:107
 msgid ""
 "There are about twenty types of quetions available. Depending on the choosen"
 " type, you need to provide additional informations."
 msgstr ""
+"Yaklaşık yirmi soru türü vardır. Seçilen türe bağlı olarak, ek bilgiler "
+"vermeniz gerekir."
 
 #: ../../source/formcreator/configuration.rst:111
 msgid ""
 "**Required**: **Yes**/**No**. When running the form a red star shows next to"
 " label of questions requiring an input."
 msgstr ""
+"**Zorunlu**: **Evet**/**Hayır**. Formu çalıştırırken, yanıtlanması zorunlu "
+"olan soruların etiketinin yanında kırmızı bir yıldız görüntülenir."
 
 #: ../../source/formcreator/configuration.rst:112
 msgid "**Default values**: its content depends on  the type of the question."
-msgstr ""
+msgstr "**Varsayılan değerler**: İçeriği, sorunun türüne bağlıdır."
 
 #: ../../source/formcreator/configuration.rst:113
 msgid ""
 "**Range Min/Max**: Restricts the value to the given range when runnung the "
 "form."
 msgstr ""
+"**Aralık En az/En fazla**: Forma yazılabilecek değeri belirtilen aralıkla "
+"sınırlar."
 
 #: ../../source/formcreator/configuration.rst:114
 msgid ""
@@ -253,133 +313,156 @@ msgid ""
 "satisfy your needs. FormCreator automatically adds /^ on the beginning and "
 "$/ at the end. Therefore you cannot specify modifiers."
 msgstr ""
+"**Ek doğrulama (kurallı ifade)**: Kurallı ifade kullanarak özel bir kurallı "
+"ifade belirtebilirsiniz. Diğer kısıtlama yöntemleri gereksinimi "
+"karşılamadığında kullanabilirsiniz. FormCreator otomatik olarak başına /^ ve"
+" sonuna $/ ekler. Bu nedenle değiştiricileri belirtemezsiniz."
 
 #: ../../source/formcreator/configuration.rst:118
 msgid "Actors"
-msgstr ""
+msgstr "Aktörler"
 
 #: ../../source/formcreator/configuration.rst:121
 msgid "This field allows you to choose one or several users:"
-msgstr ""
+msgstr "Bu alan ile, bir veya birkaç kullanıcı seçebilirsiniz:"
 
 #: ../../source/formcreator/configuration.rst:123
 msgid "in GLPI, available in **Administration > Users**"
 msgstr ""
+"GLPI içinden **Yönetim > Kullanıcılar** bölümündeki kullanıcılar seçilebilir"
 
 #: ../../source/formcreator/configuration.rst:124
 msgid "not in GLPI, by typing an email address"
-msgstr ""
+msgstr "GLPI dışından e-posta adresi yazabilirsiniz"
 
 #: ../../source/formcreator/configuration.rst:127
 msgid "Checkboxes (multiple choices)"
-msgstr ""
+msgstr "İşaret kutuları (çoklu seçim)"
 
 #: ../../source/formcreator/configuration.rst:133
 msgid ""
 "Add a line per value in **Values**. Default values may be set in **Default "
 "values**, one per line. If this field is empty, no checkbox will be ticked."
 msgstr ""
+"**Değerler** bölümünde her değer için bir satır ekleyin. Varsayılan "
+"değerler, her satıra bir tane olacak şekilde **Varsayılan değerler** "
+"bölümünden ayarlanabilir. Bu alan boş bırakıldığında hiçbir kutu "
+"işaretlenmez."
 
 #: ../../source/formcreator/configuration.rst:136
 msgid "Date / Datetime / Time"
-msgstr ""
+msgstr "Tarih / Tarih saat / Saat"
 
 #: ../../source/formcreator/configuration.rst:139
 msgid ""
 "This field allows to select a date, a datetime or a time from a mini "
 "calendar."
 msgstr ""
+"Bu alan mini takvimden bir tarih, tarih saat veya saat seçilebilmesini "
+"sağlar."
 
 #: ../../source/formcreator/configuration.rst:142
 msgid "Description"
-msgstr ""
+msgstr "Açıklama"
 
 #: ../../source/formcreator/configuration.rst:144
 msgid ""
 "This field only displays informations. Use it to give more details about a "
 "question."
 msgstr ""
+"Bu alan yalnız bilgi görüntülemek için kullanılır. Bir soru hakkında "
+"ayrıntılı bilgi vermek için kullanabilirsiniz."
 
 #: ../../source/formcreator/configuration.rst:147
 msgid "Dropdown"
-msgstr ""
+msgstr "Açılan kutu"
 
 #: ../../source/formcreator/configuration.rst:149
 msgid ""
 "This field allows the user to choose a value among those available in a "
 "dropdown from GLPI (in **Configuration > Dropdowns**)."
 msgstr ""
+"Bu alan, kullanıcının GLPI içindeki bir açılır menüde (**Yapılandırma > "
+"Açılan kutular**) bulunan kutular arasından bir değer seçmesini sağlar."
 
 #: ../../source/formcreator/configuration.rst:154
 msgid "Email"
-msgstr ""
+msgstr "E-posta"
 
 #: ../../source/formcreator/configuration.rst:156
 msgid ""
 "The answer to this type of field must be a syntaxically valid email address."
 msgstr ""
+"Bu tür bir alanın yanıtı, sözdizimsel olarak geçerli bir e-posta adresi "
+"olmalıdır."
 
 #: ../../source/formcreator/configuration.rst:159
 msgid "File"
-msgstr ""
+msgstr "Dosya"
 
 #: ../../source/formcreator/configuration.rst:163
 msgid "This  field allows the requester to upload a file."
-msgstr ""
+msgstr "Bu alan, istekte bulunan kişinin bir dosya yükleyebilmesini sağlar."
 
 #: ../../source/formcreator/configuration.rst:166
 msgid "Float"
-msgstr ""
+msgstr "Ondalık"
 
 #: ../../source/formcreator/configuration.rst:168
 msgid ""
 "This field must be an float value. Note you may use a regular expression to "
 "tighter restrict the answer."
 msgstr ""
+"Bu alanın yanıtı ondalık bir değer olmalıdır. Yanıtı daha sıkı kısıtlamak "
+"için bir kurallı ifade kullanabileceğinizi unutmayın."
 
 #: ../../source/formcreator/configuration.rst:171
 msgid "GLPI Object"
-msgstr ""
+msgstr "GLPI nesnesi"
 
 #: ../../source/formcreator/configuration.rst:173
 msgid ""
 "This field allows you to build a dropdown from a GLPI object among those "
 "abvailable in the menus:"
 msgstr ""
+"Bu alan, menülerdeki GLPI nesnelerinden bir açılır menü oluşturulmasını "
+"sağlar:"
 
 #: ../../source/formcreator/configuration.rst:175
 msgid "Assets"
-msgstr ""
+msgstr "Varlıklar"
 
 #: ../../source/formcreator/configuration.rst:176
 msgid "Assistance"
-msgstr ""
+msgstr "Destek"
 
 #: ../../source/formcreator/configuration.rst:177
 msgid "Management"
-msgstr ""
+msgstr "Yönetim"
 
 #: ../../source/formcreator/configuration.rst:178
 msgid "Tools"
-msgstr ""
+msgstr "Araçlar"
 
 #: ../../source/formcreator/configuration.rst:179
 msgid "Administration"
-msgstr ""
+msgstr "Yönetim"
 
 #: ../../source/formcreator/configuration.rst:182
 msgid "Hidden field"
-msgstr ""
+msgstr "Gizli alan"
 
 #: ../../source/formcreator/configuration.rst:184
 msgid ""
 "This field is hidden and allows to retrieve an arbitrary value when "
 "generating the target (ticket or change)."
 msgstr ""
+"Bu alan gizlidir ve hedef (destek kaydı ya da değişiklik) oluşturulurken "
+"rastgele bir değer alınmasını sağlar."
 
 #: ../../source/formcreator/configuration.rst:187
 msgid "Hostname"
-msgstr ""
+msgstr "Sunucu adı"
 
 #: ../../source/formcreator/configuration.rst:189
 msgid ""
@@ -387,40 +470,49 @@ msgid ""
 "by  the requester, assuming the DNS is able to proprtly solve it from its IP"
 " address"
 msgstr ""
+"Bu alan formda görüntülenmez. DNS adının IP adresinden uygun şekilde "
+"çözümlenebildiği varsayılarak, istekte bulunan kişi tarafından kullanılan "
+"bilgisayarın adının alınmasını sağlar."
 
 #: ../../source/formcreator/configuration.rst:192
 msgid "Integer"
-msgstr ""
+msgstr "Tamsayı"
 
 #: ../../source/formcreator/configuration.rst:194
 msgid ""
 "This field must be an integer value. Note you may use a regular expression "
 "to tighter restrict the answer."
 msgstr ""
+"Bu alanın yanıtı bir tamsayı değeri olmalıdır. Yanıtı daha sıkı kısıtlamak "
+"için bir kurallı ifade kullanabileceğinizi unutmayın."
 
 #: ../../source/formcreator/configuration.rst:197
 msgid "IP Address"
-msgstr ""
+msgstr "IP adresi"
 
 #: ../../source/formcreator/configuration.rst:199
 msgid ""
 "This field is hidden and collects the IP address of the form requester. It "
 "does not shows in the form."
 msgstr ""
+"Bu alan formda görüntülenmez. Formu doldurarak istekte bulunan kişinin IP "
+"adresinin alınmasını sağlar."
 
 #: ../../source/formcreator/configuration.rst:202
 msgid "LDAP select"
-msgstr ""
+msgstr "LDAP seçimi"
 
 #: ../../source/formcreator/configuration.rst:204
 msgid ""
 "This field allows you to create a dropdown list with objects from a LDAP "
 "directory:"
 msgstr ""
+"Bu alan, bir LDAP dizinindeki nesnelerin bulunduğu bir açılan kutu "
+"oluşturmanızı sağlar:"
 
 #: ../../source/formcreator/configuration.rst:209
 msgid "Multiselect (multiple choice)"
-msgstr ""
+msgstr "Çoklu seçim (birden çok seçenek)"
 
 #: ../../source/formcreator/configuration.rst:211
 msgid ""
@@ -429,20 +521,28 @@ msgid ""
 "may set default values, one per line in *Default values**. If no default "
 "value is set then no item will selected by default."
 msgstr ""
+"Bu alan, birden fazla ögenin seçilebileceği bir açılan kutu oluşturmanızı "
+"sağlar. Kutuda görüntülenecek değerler, **Değerler** bölümünde her biri ayrı"
+" satırda olacak şekilde eklenir. *Varsayılan değerler** bölümünden her biri "
+"ayrı satırda olacak şekilde varsayılan değerler ayarlayabilirsiniz. "
+"Varsayılan değer ayarlanmadığında, baştan varsayılan bir öge seçilmez."
 
 #: ../../source/formcreator/configuration.rst:214
 msgid "Radio buttons (one choice only)"
-msgstr ""
+msgstr "Radyo düğmeleri (yalnız bir seçenek)"
 
 #: ../../source/formcreator/configuration.rst:220
 msgid ""
 "Add a line per value in **Values**. A default value may be set in **Default "
 "value**. If this field is empty, no radio will be selected."
 msgstr ""
+"**Değerler** bölümünde her değer için bir satır ekleyin. Varsayılan değer, "
+"**Varsayılan değer** bölümünden ayarlanabilir. Bu alan boş bırakıldığında "
+"baştan hiçbir seçenek işaretlenmez."
 
 #: ../../source/formcreator/configuration.rst:223
 msgid "Select (one choice only)"
-msgstr ""
+msgstr "Seçim (yalnız bir seçenek)"
 
 #: ../../source/formcreator/configuration.rst:225
 msgid ""
@@ -450,135 +550,160 @@ msgid ""
 " added one per line in **Values**. Default value may be set in **Default "
 "value**. If there is no default, no item is selected by default."
 msgstr ""
+"Bu alan, bir açılır kutu oluşturmanızı ve kutuda görüntülenecek ögeleri "
+"ayarlamanızı sağlar. Ögeler, **Değerler** bölümünden her biri ayrı satırda "
+"olacak şekilde eklenir. Varsayılan değer **Varsayılan değer** bölümünden "
+"ayarlanabilir. Varsayılan değer ayarlanmadığında, baştan varsayılan bir öge "
+"seçilmez."
 
 #: ../../source/formcreator/configuration.rst:228
 msgid "Tags"
-msgstr ""
+msgstr "Etiketler"
 
 #: ../../source/formcreator/configuration.rst:230
 msgid ""
 "This is an hidden field to add a tag to the form for future processing."
 msgstr ""
+"İleride işlenmek üzere forma etiket eklemek için kullanılabilecek gizli bir "
+"alan."
 
 #: ../../source/formcreator/configuration.rst:233
 msgid ""
 "This type of field is only available when the plugin **Tag** is installed "
 "and enabled."
 msgstr ""
+"Bu alan türü yalnız **Etiket** uygulama eki kurulu ve etkinleştirilmiş ise "
+"kullanılabilir."
 
 #: ../../source/formcreator/configuration.rst:236
 msgid "Text"
-msgstr ""
+msgstr "Metin"
 
 #: ../../source/formcreator/configuration.rst:238
 msgid "This field allows you to input a single line of text."
-msgstr ""
+msgstr "Bu alan, tek bir metin satırı yazılmasını sağlar."
 
 #: ../../source/formcreator/configuration.rst:241
 msgid "Text area"
-msgstr ""
+msgstr "Metin alanı"
 
 #: ../../source/formcreator/configuration.rst:243
 msgid "This field allows you to input several lines of text."
-msgstr ""
+msgstr "Bu alan, bir kaç satırlık metin yazılmasını sağlar."
 
 #: ../../source/formcreator/configuration.rst:246
 msgid "Urgency"
-msgstr ""
+msgstr "Önem derecesi"
 
 #: ../../source/formcreator/configuration.rst:248
 msgid "This field allows you to select an urgency defined in GLPI."
 msgstr ""
+"Bu alan, GLPI içinde tanımlanmış bir önem derecesini seçmenizi sağlar."
 
 #: ../../source/formcreator/configuration.rst:251
 msgid "Access types"
-msgstr ""
+msgstr "Erişim türleri"
 
 #: ../../source/formcreator/configuration.rst:253
 msgid "Three values are available:"
-msgstr ""
+msgstr "Üç değer kullanılabilir:"
 
 #: ../../source/formcreator/configuration.rst:255
 msgid ""
 "**Public access**: Anonymous users may access the form; you may use it in an"
 " intranet."
 msgstr ""
+"**Herkese açık erişim**: Anonim kullanıcılar forma erişebilir. Bir Intranet "
+"sitesinde kullanabilirsiniz."
 
 #: ../../source/formcreator/configuration.rst:256
 msgid "**Private access**: Users having a GLPI account may access the form."
 msgstr ""
+"**Özel erişim**: Yalnız GLPI hesabı olan kullanıcılar forma erişebilir."
 
 #: ../../source/formcreator/configuration.rst:257
 msgid ""
 "**Restricted access**: Only users having the specified profiles may access "
 "the form."
 msgstr ""
+"**Sınırlı erişim**: Yalnız belirtilen profillerdeki kullanıcılar forma "
+"erişebilir."
 
 #: ../../source/formcreator/configuration.rst:260
 msgid "Targets"
-msgstr ""
+msgstr "Hedefler"
 
 #: ../../source/formcreator/configuration.rst:262
 msgid "There are two types of targets for a form:"
-msgstr ""
+msgstr "Bir formun iki tür hedefi olabilir:"
 
 #: ../../source/formcreator/configuration.rst:264
 msgid "tickets"
-msgstr ""
+msgstr "Destek kayıtları"
 
 #: ../../source/formcreator/configuration.rst:265
 msgid "changes"
-msgstr ""
+msgstr "Değişiklikler"
 
 #: ../../source/formcreator/configuration.rst:267
 msgid ""
 "It is possible to generate any number of targets from a single form. Mixing "
 "types of targets is also possible."
 msgstr ""
+"Tek bir formdan herhangi bir sayıda hedef oluşturulabilir. Hedef türleri "
+"karıştırılabilir."
 
 #: ../../source/formcreator/configuration.rst:269
 msgid "To create a target click on the link **Add a target**"
-msgstr ""
+msgstr "Bir hedef oluşturmak için **Bir hedef ekle** üzerine tıklayın"
 
 #: ../../source/formcreator/configuration.rst:273
 msgid "The following window is then displayed:"
-msgstr ""
+msgstr "Ardından aşağıdaki pencere görüntülenir:"
 
 #: ../../source/formcreator/configuration.rst:277
 msgid ""
 "Choose a target name and type, then validate. The new target is created and "
 "is available for tuning."
 msgstr ""
+"Bir hedef adı seçin ve yazın, ardından doğrulayın. Yeni hedef oluşturulur ve"
+" ayarları yapılabilir."
 
 #: ../../source/formcreator/configuration.rst:280
 msgid "Preview"
-msgstr ""
+msgstr "Ön izleme"
 
 #: ../../source/formcreator/configuration.rst:282
 msgid ""
 "This tab allows you to view how the form will be rendered and test it "
 "without activating it."
 msgstr ""
+"Bu sekmede, formun nasıl görüntüleneceğine bakabilir ve etkinleştirmeden "
+"önce deneyebilirsiniz."
 
 #: ../../source/formcreator/configuration.rst:285
 msgid ""
 "Submitting answers from the preview will be actually saved, and will "
 "generate targets if the form is not configured with validation."
 msgstr ""
+"Ön izlemeden gönderilen yanıtlar gerçekten kaydedilir ve form doğrulanacak "
+"şekilde yapılandırılmamışsa hedefler oluşturulur."
 
 #: ../../source/formcreator/configuration.rst:288
 msgid "Form answers"
-msgstr ""
+msgstr "Form yanıtları"
 
 #: ../../source/formcreator/configuration.rst:290
 msgid "This tab shows all answers saved for the form."
-msgstr ""
+msgstr "Bu sekmede, formun kaydedilen tüm yanıtları görüntülenir."
 
 #: ../../source/formcreator/configuration.rst:293
 msgid ""
 "To delete a form, all its answers must be deleted first. A warning shows at "
 "the bottom of the main tab of a form as a reminder."
 msgstr ""
+"Bir formu silmek için önce tüm yanıtlarının silinmesi gerekir. Bir "
+"anımsatıcı olarak bir formun ana sekmesinin altında bir uyarı görüntülenir."
 
 #: ../../source/formcreator/configuration.rst:297
 msgid "Categories"
@@ -586,7 +711,7 @@ msgstr "Kategoriler"
 
 #: ../../source/formcreator/configuration.rst:299
 msgid "**Menu** : `Setup > Dropdowns : Forms > Form categories`"
-msgstr "**Menu** : `Ayarlar > Açılan Kutular : Formlar > Form Kategorileri`"
+msgstr "**Menu** : `Ayarlar > Açılan kutular : Formlar > Form kategorileri`"
 
 #: ../../source/formcreator/configuration.rst:301
 msgid ""
@@ -595,6 +720,11 @@ msgid ""
 "does not have any category, it is displayed when no category is selected or "
 "when the user selects \"view all\"."
 msgstr ""
+"Form kategorileri, form listenizi düzenlemenizi sağlar. Formlar, seçilen "
+"kategoriye ya da herhangi bir alt kategoriye ait olduklarında görüntülenir. "
+"Herhangi bir kategorisi olmayan bir form, yalnız herhangi bir kategori "
+"seçilmediğinde ya da kullanıcı \"tümünü görüntüle\" seçeneğini seçtiğinde "
+"görüntülenir."
 
 #: ../../source/formcreator/configuration.rst:303
 msgid ""
@@ -640,11 +770,11 @@ msgstr ""
 
 #: ../../source/formcreator/configuration.rst:316
 msgid "Configuration"
-msgstr ""
+msgstr "Yapılandırma"
 
 #: ../../source/formcreator/configuration.rst:321
 msgid "Render"
-msgstr ""
+msgstr "Görünüm oluşturma"
 
 #: ../../source/formcreator/configuration.rst:328
 msgid ""
@@ -660,13 +790,13 @@ msgstr "Soruların adları solda, seçilmiş alan türü sağda görüntülenir"
 
 #: ../../source/formcreator/configuration.rst:334
 msgid "The Description will be under the input field."
-msgstr ""
+msgstr "Açıklama doldurulacak alanın altında bulunur."
 
 #: ../../source/formcreator/configuration.rst:336
 msgid ""
 "Additional optioins may be displayed depending on the currently selected "
 "question type.."
-msgstr ""
+msgstr "Seçilmiş soru türüne göre ek seçenekler görüntülenebilir."
 
 #: ../../source/formcreator/configuration.rst:338
 msgid ""
@@ -674,6 +804,8 @@ msgid ""
 "Regular Expressions "
 "<http://php.net/manual/reference.pcre.pattern.syntax.php>`_."
 msgstr ""
+"Girişin doğrulanmasını isteniyorsa, `PHP kurallı ifadeleri "
+"<http://php.net/manual/reference.pcre.pattern.syntax.php>`_ kullanılabilir."
 
 #: ../../source/formcreator/configuration.rst:340
 msgid ""

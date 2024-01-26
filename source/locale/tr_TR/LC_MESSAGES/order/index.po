@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Kaya Zeren <kayazeren@gmail.com>, 2021
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,7 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-14 15:17+0200\n"
 "PO-Revision-Date: 2020-01-30 07:19+0000\n"
-"Language-Team: Turkish (Turkey) (https://www.transifex.com/teclib/teams/28042/tr_TR/)\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2021\n"
+"Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,127 +23,146 @@ msgstr ""
 
 #: ../../source/order/index.rst:2
 msgid "Order"
-msgstr ""
+msgstr "Sipariş"
 
 #: ../../source/order/index.rst:4
 msgid "Sources link: https://github.com/pluginsGLPI/order"
-msgstr ""
+msgstr "Kaynak bağlantısı: https://github.com/pluginsGLPI/order"
 
 #: ../../source/order/index.rst:5
 msgid "Download: https://github.com/pluginsGLPI/genericobject/order"
 msgstr ""
+"İndirme bağlantısı: https://github.com/pluginsGLPI/genericobject/order"
 
 #: ../../source/order/index.rst:7
 msgid ""
 "This user manual applies to version 2.5 of the GLPI Generic Object Plugin."
 msgstr ""
+"Bu kullanıcı rehberi, GLPI genel nesne uygulama ekinin 2.5 sürümü için "
+"geçerlidir."
 
 #: ../../source/order/index.rst:10
 msgid "Requirements"
-msgstr ""
+msgstr "Gereksinimler"
 
 #: ../../source/order/index.rst:12
 msgid "This plugin requires :"
-msgstr ""
+msgstr "Bu uygulama ekinin gereksinimleri:"
 
 #: ../../source/order/index.rst:14
 msgid "PHP 7.2 or higher"
-msgstr ""
+msgstr "PHP 7.2 ve üzerindeki sürümler"
 
 #: ../../source/order/index.rst:15
 msgid "GLPI >= 9.4"
-msgstr ""
+msgstr "GLPI 9.4 ve üzerindeki sürümler"
 
 #: ../../source/order/index.rst:19
 msgid "Features"
-msgstr ""
+msgstr "Özellikler"
 
 #: ../../source/order/index.rst:21
 msgid "This plugin supports the following aspects of order management :"
-msgstr ""
+msgstr "Bu uygulama eki, aşağıdaki sipariş yönetimi özelliklerini destekler:"
 
 #: ../../source/order/index.rst:23
 msgid "Definition and management of a catalogue of product references"
-msgstr ""
+msgstr "Ürün referansları kataloğunun tanımlanması ve yönetimi"
 
 #: ../../source/order/index.rst:24
 msgid "Order management (with approval workflow)"
-msgstr ""
+msgstr "Sipariş yönetimi (onay iş akışı ile)"
 
 #: ../../source/order/index.rst:25
 msgid "Budgets management"
-msgstr ""
+msgstr "Bütçe yönetimi"
 
 #: ../../source/order/index.rst:26
 msgid "Management of invoices associated with orders"
-msgstr ""
+msgstr "Siparişlerle ilgili faturaların yönetimi"
 
 #: ../../source/order/index.rst:29
 msgid "Install the Plugin"
-msgstr ""
+msgstr "Uygulama ekini kurmak"
 
 #: ../../source/order/index.rst:30
 msgid "Uncompress the archive."
-msgstr ""
+msgstr "Arşivi ayıklayın."
 
 #: ../../source/order/index.rst:31
 msgid ""
 "Move the ``escalade`` directory to the ``<GLPI_ROOT>/plugins`` directory"
-msgstr ""
+msgstr "``order`` klasörünü ``<GLPI_ROOT>/plugins`` klasörüne taşıyın"
 
 #: ../../source/order/index.rst:32
 msgid "Navigate to the *Configuration > Plugins* page,"
-msgstr ""
+msgstr "*Yapılandırma > Uygulama ekleri* bölümüne gidin."
 
 #: ../../source/order/index.rst:33
 msgid "Install and activate the plugin."
-msgstr ""
+msgstr "Uygulama ekini kurup etkinleştirin."
 
 #: ../../source/order/index.rst:36
 msgid "Configuration"
-msgstr ""
+msgstr "Yapılandırma"
 
 #: ../../source/order/index.rst:38
 msgid ""
 "You will access the plugin configuration from the *Setup* > *Plugins* > "
 "*Orders managment*."
 msgstr ""
+"Uygulama eki yapılandırması için menüden *Yapılandırma* > \"Uygulama "
+"ekleri\" > *Sipariş yönetimi* bölümüne gidin."
 
 #: ../../source/order/index.rst:40
 msgid ""
 "When the plugin is installed and enabled, the following options are "
 "available:"
 msgstr ""
+"Uygulama eki kurulup etkinleştirildiğinde, aşağıdaki seçenekler "
+"kullanılabilir:"
 
 #: ../../source/order/index.rst:44
 msgid ""
 "Default VAT: indicates the amount of VAT that will be proposed by default in"
 " the plugin"
 msgstr ""
+"Varsayılan KDV: Uygulama ekinde varsayılan olarak kullanılacak KDV oranı"
 
 #: ../../source/order/index.rst:45
 msgid ""
 "Use the validation process: indicates whether the full validation circuit "
 "should be used, or whether anyone can validate applications."
 msgstr ""
+"Doğrulama yapılsın: Tam doğrulama devresinin kullanılması gerekip "
+"gerekmediğini ya da herhangi birinin uygulamaları doğrulayıp "
+"doğrulayamadığını belirler."
 
 #: ../../source/order/index.rst:46
 msgid ""
 "Purchase order generation: indicates if the tab allowing the generation of a"
 " purchase order in ODT format is displayed or not."
 msgstr ""
+"Satınalma siparişi oluşturma: Bu seçenek etkinleştirildiğinde, satınalma "
+"siparişinin ODT biçiminde oluşturulmasını sağlayan sekme görüntülenir."
 
 #: ../../source/order/index.rst:47
 msgid ""
 "Enable supplier quality: indicates whether the tab for judging supplier "
 "satisfaction is displayed once the order is delivered."
 msgstr ""
+"Sağlayıcı memnuniyeti ölçülsün: Bu seçenek etkinleştirildiğinde, sipariş "
+"teslim edildikten sonra sağlayıcı memnuniyetini değerlendirme sekmesi "
+"görüntülenir."
 
 #: ../../source/order/index.rst:48
 msgid ""
 "Display purchase order vendor information: Shows whether or not the tab for "
 "storing the reference and vendor purchase order number is displayed."
 msgstr ""
+"Satınalma siparişi satıcı bilgileri görüntülensin: Bu seçenek "
+"etkinleştirildiğinde, referans ve satıcı satınalma siparişi numarasının "
+"kaydedileceği sekme görüntülenir."
 
 #: ../../source/order/index.rst:49
 msgid ""
@@ -147,57 +170,63 @@ msgid ""
 "the search engine of an undelivered order for which the estimated delivery "
 "date is exceeded"
 msgstr ""
+"Öngörülen teslim tarihi aşıldığında renk: Öngörülen teslim tarihi aşıldığı "
+"halde teslim edilmemiş bir siparişin arama motorunda görüntüleneceği renk"
 
 #: ../../source/order/index.rst:50
 msgid ""
 "Copy order documents when a new item is created : Copy order documents to "
 "generated item"
 msgstr ""
+"Yeni bir öge oluşturulduğunda sipariş belgeleri kopyalansın: Bu seçenek "
+"etkinleştirildiğinde, sipariş belgeleri oluşturulan ögeye kopyalanır"
 
 #: ../../source/order/index.rst:51
 msgid ""
 "Default heading when adding a document to an order : define default heading"
 msgstr ""
+"Bir siparişe belge eklerken varsayılan başlık : Varsayılan başlığı belirler"
 
 #: ../../source/order/index.rst:52
 msgid "Author group (Default values) : Define default author"
-msgstr ""
+msgstr "Yetkili grup (varsayılan değerler): Varsayılan yetkiliyi belirler"
 
 #: ../../source/order/index.rst:53
 msgid "Recipient group (Default values) : Define defaut Recipient group"
-msgstr ""
+msgstr "Alıcı grubu (varsayılan değerler): Varsayılan alıcı grubunu belirler"
 
 #: ../../source/order/index.rst:54
 msgid "Recipient (Default values) : Define default Recipient"
-msgstr ""
+msgstr "Alıcı (varsayılan değerler): Varsayılan alıcıyı belirler"
 
 #: ../../source/order/index.rst:55
 msgid "Do not display expired budgets : yes or no"
-msgstr ""
+msgstr "Süresi dolan bütçeler görüntülenmesin: Evet ya da hayır"
 
 #: ../../source/order/index.rst:56
 msgid "Transmit budget change to linked assets : yes or no"
-msgstr ""
+msgstr "Bütçe değişikliği bağlantılı varlıklara iletilsin: Evet ya da hayır"
 
 #: ../../source/order/index.rst:57
 msgid "Display account section on order form : yes or no"
-msgstr ""
+msgstr "Sipariş formunda hesap bölümü görüntülensin: Evet ya da hayır"
 
 #: ../../source/order/index.rst:58
 msgid "Set account section as mandatory on order form : yes or no"
 msgstr ""
+"Sipariş formunda hesap bölümü zorunlu olarak ayarlansın: Evet ya da hayır"
 
 #: ../../source/order/index.rst:59
 msgid "Use free references : yes or no"
-msgstr ""
+msgstr "Özgür referanslar kullanılsın: Evet ya da hayır"
 
 #: ../../source/order/index.rst:60
 msgid "Rename documents added in order :yes or no"
-msgstr ""
+msgstr "Eklenen belgeler sırayla yeniden adlandırılsın: Evet ya da hayır"
 
 #: ../../source/order/index.rst:63
 msgid "Automatic actions when delivery Item"
-msgstr ""
+msgstr "Öge teslim edilirken otomatik işlemler"
 
 #: ../../source/order/index.rst:67
 msgid ""
@@ -206,18 +235,22 @@ msgid ""
 "to yes and validate. During the generation, the material will be created "
 "with some randomly generated information:"
 msgstr ""
+"Oluşturma, sözleşmeler, kartuşlar ve sarf malzemeleri için geçerli değildir."
+" Bu özelliği etkinleştirmek için Otomatik oluşturulsun seçeneğini evet "
+"olarak değiştirin ve doğrulayın. Oluşturma sırasında, materyal bazı rastgele"
+" bilgilerle doldurulur:"
 
 #: ../../source/order/index.rst:71
 msgid "Default name"
-msgstr ""
+msgstr "Varsayılan ad"
 
 #: ../../source/order/index.rst:72
 msgid "Default Serial Number"
-msgstr ""
+msgstr "Varsayılan seri numarası"
 
 #: ../../source/order/index.rst:73
 msgid "Default inventory number"
-msgstr ""
+msgstr "Varsayılan stok numarası"
 
 #: ../../source/order/index.rst:74
 msgid ""
@@ -225,6 +258,9 @@ msgid ""
 "name and serial number are generated, then the settings defined above for "
 "these 2 fields do not apply."
 msgstr ""
+"Parça numarası ile bir kalıp ilişkilendirilirse ve bu kalıpta ad ve seri "
+"numarası oluşturulursa, bu iki alan için yukarıda belirtilen ayarlar geçerli"
+" olmaz."
 
 #: ../../source/order/index.rst:76
 msgid ""
@@ -232,24 +268,29 @@ msgid ""
 " of the status during the creation of the material can lead to a date "
 "filling of the financial information. See the Entity Inventory tab."
 msgstr ""
+"Malzeme oluşturulduğunda varsayılan durum ayarlanır. Materyalin "
+"oluşturulması sırasında durumun konumlandırılması, mali bilgilerde bir tarih"
+" doldurulmasına yol açabilir. Birim envanteri sekmesine bakın."
 
 #: ../../source/order/index.rst:80
 msgid "Order lifecycle"
-msgstr ""
+msgstr "Sipariş yaşam döngüsü"
 
 #: ../../source/order/index.rst:82
 msgid "You can define your own status for order lifecycle"
-msgstr ""
+msgstr "Sipariş yaşam döngüsü için kendi durumunuzu tanımlayabilirsiniz"
 
 #: ../../source/order/index.rst:88
 msgid "Creation of a reference catalogue"
-msgstr ""
+msgstr "Referans kataloğunu oluşturmak"
 
 #: ../../source/order/index.rst:90
 msgid ""
 "You will access the reference catalogue from the *Management* > *Orders* > "
 "*Products references*."
 msgstr ""
+"Referans kataloğuna *Yönetim* > *Siparişler* > *Ürün referansları* "
+"bölümünden erişebilirsiniz."
 
 #: ../../source/order/index.rst:96
 msgid ""
@@ -257,43 +298,49 @@ msgid ""
 " Any product to be ordered must be referenced in the plugin catalog. When "
 "creating a product reference, the following fields must be filled in:"
 msgstr ""
+"Ürün referanslarının oluşturulması, sipariş yönetimi için ön koşuldur. "
+"Sipariş edilecek herhangi bir ürüne uygulama eki kataloğunda atıfta "
+"bulunulmalıdır. Ürün referansı oluştururken aşağıdaki alanlar "
+"doldurulmalıdır:"
 
 #: ../../source/order/index.rst:100
 msgid ""
 "Sub-entities: indicates if the reference will be visible in the current "
 "entity only or in the sub-entities as well."
 msgstr ""
+"Alt birimler: Referansın yalnız var olan birimde mi yoksa alt birimlerde de "
+"mi görüntülenip görüntülenmeyeceğini belirtir."
 
 #: ../../source/order/index.rst:101
 msgid ""
 "Name: name of the reference, as it will be displayed when managing an order "
 "(required)"
-msgstr ""
+msgstr "Ad: Bir sipariş yönetilirken görüntülenecek referansın adı (zorunlu)"
 
 #: ../../source/order/index.rst:102
 msgid "Manufacturer: the manufacturer of the product (not the supplier)"
-msgstr ""
+msgstr "Üretici: Ürünün üreticisi (sağlayıcı değil)"
 
 #: ../../source/order/index.rst:103
 msgid ""
 "Type of equipment: indicates what type of equipment we are dealing with"
-msgstr ""
+msgstr "Aygıt türü: Ne tür bir aygıtla uğraştığımızı belirtir"
 
 #: ../../source/order/index.rst:104
 msgid "Type: the type of the product"
-msgstr ""
+msgstr "Tür: Ürünün türü"
 
 #: ../../source/order/index.rst:105
 msgid "Model: the model of the product"
-msgstr ""
+msgstr "Model: Ürünün modeli"
 
 #: ../../source/order/index.rst:106
 msgid "Template: the GLPI template of the product if one already exists."
-msgstr ""
+msgstr "Kalıp: Zaten varsa ürünün GLPI kalıbı."
 
 #: ../../source/order/index.rst:107
 msgid "comments: additional information on the reference"
-msgstr ""
+msgstr "Açıklamalar: Referans hakkında ek bilgiler"
 
 #: ../../source/order/index.rst:108
 msgid ""
@@ -301,74 +348,87 @@ msgid ""
 "supplier(s) the product is available, as well as the price associated with "
 "it."
 msgstr ""
+"Referans oluşturulduktan sonra, ürünün temin edildiği sağlayıcıların ve "
+"bununla ilişkili fiyatın belirtilmesi gerekir."
 
 #: ../../source/order/index.rst:110 ../../source/order/index.rst:140
 msgid "It is also possible to :"
-msgstr ""
+msgstr "Şunlar da yapılabilir:"
 
 #: ../../source/order/index.rst:112
 msgid "Add related documents"
-msgstr ""
+msgstr "İlişkili belgeler eklenebilir"
 
 #: ../../source/order/index.rst:113
 msgid "View history"
-msgstr ""
+msgstr "Geçmiş görüntülenebilir"
 
 #: ../../source/order/index.rst:117
 msgid "Creating an order"
-msgstr ""
+msgstr "Bir sipariş oluşturulabilir"
 
 #: ../../source/order/index.rst:119
 msgid "You will access orders from the *Management* > *Orders* > *Orders*."
 msgstr ""
+"Siparişlere *Yönetim* > *Siparişler* > *Siparişler* bölümünden "
+"erişebilirsiniz."
 
 #: ../../source/order/index.rst:123
 msgid ""
 "Once the reference catalogue has been created, it is now possible to add "
 "material orders. The fields to be filled in are :"
 msgstr ""
+"Referans kataloğu oluşturulduktan sonra malzeme siparişleri eklenebilir. "
+"Doldurulması gereken alanlar şunlardır:"
 
 #: ../../source/order/index.rst:126
 msgid "Sub-entities: indicates if the order is visible in the sub-entities"
 msgstr ""
+"Alt birimler: Siparişin alt birimlerde görüntülenip görüntülenmeyeceğini "
+"belirler"
 
 #: ../../source/order/index.rst:127
 msgid "Order name"
-msgstr ""
+msgstr "Sipariş adı"
 
 #: ../../source/order/index.rst:128
 msgid "Order number (required)"
-msgstr ""
+msgstr "Sipariş numarası (zorunlu)"
 
 #: ../../source/order/index.rst:129
 msgid "Date of order (required)"
-msgstr ""
+msgstr "Sipariş tarihi (zorunlu)"
 
 #: ../../source/order/index.rst:130
 msgid "Budget: The budget to which the purchase order is posted."
-msgstr ""
+msgstr "Bütçe: Satınalma siparişinin kaydedildiği bütçe."
 
 #: ../../source/order/index.rst:131
 msgid ""
 "Vendor purchase order number: Indicates the internal number for the purchase"
 " order at the vendor."
 msgstr ""
+"Satıcı satınalma sipariş numarası: Satıcı tarafındaki satınalma siparişinin "
+"numarası."
 
 #: ../../source/order/index.rst:132
 msgid ""
 "Payment terms: free field (can contain for example 30 days end of month, 60 "
 "days end of month, etc)"
 msgstr ""
+"Ödeme koşulları: Serbest alan (ay sonu 30 gün, ay sonu 60 gün gibi bilgiler)"
 
 #: ../../source/order/index.rst:133
 msgid "Billing number"
-msgstr ""
+msgstr "Fatura numarası"
 
 #: ../../source/order/index.rst:134
 msgid ""
 "Supplier: the supplier with whom the order is placed. Only the catalogue "
 "references from this supplier may be added to the order."
 msgstr ""
+"Sağlayıcı: Siparişin verildiği sağlayıcı. Yalnız bu sağlayıcının katalog "
+"referansları siparişe eklenebilir."
 
 #: ../../source/order/index.rst:135
 msgid ""
@@ -376,60 +436,68 @@ msgid ""
 " be delivered. This option has value only in the entity in which the order "
 "is created."
 msgstr ""
+"Siparişin teslim yeri: Aygıtın teslim edileceği yeri belirtir. Bu seçeneğin "
+"yalnız siparişin oluşturulduğu birimde değeri vardır."
 
 #: ../../source/order/index.rst:136
 msgid "Description: description of the order"
-msgstr ""
+msgstr "Açıklama: Siparişin açıklaması"
 
 #: ../../source/order/index.rst:137
 msgid ""
 "Status: Indicates the current status of the purchase order in the release "
 "run."
 msgstr ""
+"Durum: Yayın çalıştırmasındaki satınalma siparişinin güncel durumunu "
+"görüntüler."
 
 #: ../../source/order/index.rst:138
 msgid ""
 "Estimated delivery date: indicates the indicative date by which the supplier"
 " must deliver the order."
 msgstr ""
+"Öngörülen teslimat tarihi: Sağlayıcının siparişi teslim etmesi öngörülen "
+"tarihi belirtir."
 
 #: ../../source/order/index.rst:142
 msgid "Define author and recipient"
-msgstr ""
+msgstr "Yetkili ve alıcıyı belirtin"
 
 #: ../../source/order/index.rst:146
 msgid "Adding articles"
-msgstr ""
+msgstr "Ürünleri eklemek"
 
 #: ../../source/order/index.rst:150
 msgid "In the Details tab, it is now possible to add products to the order."
-msgstr ""
+msgstr "Şimdi ayrıntılar sekmesinden siparişe ürünler eklenebilir."
 
 #: ../../source/order/index.rst:152
 msgid "Select the type of material to add to the order"
-msgstr ""
+msgstr "Siparişe eklenecek malzeme türünü seçin"
 
 #: ../../source/order/index.rst:153
 msgid "Select product number"
-msgstr ""
+msgstr "Ürün numarasını seçin"
 
 #: ../../source/order/index.rst:154
 msgid "Indicate the quantity to order"
-msgstr ""
+msgstr "Sipariş edilecek miktarı belirtin"
 
 #: ../../source/order/index.rst:155
 msgid ""
 "Change the unit price if it is not the price indicated in the product "
 "reference."
 msgstr ""
+"Ürün referansında belirtilen fiyat geçerli değilse birim fiyatını "
+"değiştirin."
 
 #: ../../source/order/index.rst:156
 msgid "Indicate the percentage discount on products"
-msgstr ""
+msgstr "Ürünlerin indirim yüzdesini belirtin"
 
 #: ../../source/order/index.rst:157
 msgid "You can then validate the addition of these products to the order."
-msgstr ""
+msgstr "Şimdi bu ürünlerin siparişe eklenmesini doğrulayabilirsiniz."
 
 #: ../../source/order/index.rst:161
 msgid ""
@@ -437,45 +505,51 @@ msgid ""
 "materials when the order is being edited. To do this, simply double-click on"
 " one of these 2 fields, modify its value and then validate the change."
 msgstr ""
+"Not: Sipariş düzenlenirken bir takım malzemelerin fiyatını ve indirimini "
+"değiştirebilirsiniz. Bunu yapmak için, bu iki alandan birine çift tıklayın, "
+"değerini değiştirin ve değişikliği doğrulayın."
 
 #: ../../source/order/index.rst:165
 msgid "Validation workflow"
-msgstr ""
+msgstr "Doğrulama iş akışı"
 
 #: ../../source/order/index.rst:169
 msgid "The plugin has a validation workflow that works as follows:"
-msgstr ""
+msgstr "Uygulama ekinin doğrulama iş akışı şu şekildedir:"
 
 #: ../../source/order/index.rst:171
 msgid "Creating the order: status In progress"
-msgstr ""
+msgstr "Sipariş oluşturma: Sipariş işleniyor durumundadır"
 
 #: ../../source/order/index.rst:172
 msgid "Request for order release: status Pending approval"
-msgstr ""
+msgstr "Sipariş onayı isteği: Sipariş onay bekleniyor durumundadır"
 
 #: ../../source/order/index.rst:173
 msgid ""
 "Order confirmed: the order then goes to the status In process of delivery."
-msgstr ""
+msgstr "Sipariş onaylandı: Sipariş teslimat sürecinde durumuna geçer."
 
 #: ../../source/order/index.rst:174
 msgid "Order completely received: automatic switch to Delivered status"
 msgstr ""
+"Sipariş tamamen alındı: Sipariş otomatik olarak teslim edildi durumuna geçer"
 
 #: ../../source/order/index.rst:175
 msgid "Cancelled purchase order: Change to status Cancelled"
-msgstr ""
+msgstr "Satınalma siparişi iptal edildi: Sipariş İptal edildi durumuna geçer"
 
 #: ../../source/order/index.rst:177
 msgid ""
 "The definition of the persons having the right to make a validation request,"
 " to validate or to cancel an order is done in the edition of the profiles."
 msgstr ""
+"Onay isteğinde bulunma, siparişi onaylama ya da iptal etme yetkisi olan "
+"kişilerin tanımı profil düzenlemesi ile yapılır."
 
 #: ../../source/order/index.rst:182
 msgid "Receiving the order"
-msgstr ""
+msgstr "Sipariş alımı"
 
 #: ../../source/order/index.rst:184
 msgid ""
@@ -483,40 +557,45 @@ msgid ""
 "To do this, you must go to the Receiving Equipment(s) tab. Each product is "
 "identified by a line with the following information:"
 msgstr ""
+"Sipariş onaylandıktan sonra, aygıtı teslim alma işlemine başlanabilir. Bunun"
+" için, Aygıtları alma sekmesine gitmelisiniz. Her ürün, şu bilgileri içeren "
+"bir satırla tanımlanır:"
 
 #: ../../source/order/index.rst:188 ../../source/order/index.rst:206
 msgid "Product reference"
-msgstr ""
+msgstr "Ürün referansı"
 
 #: ../../source/order/index.rst:189
 msgid "Number of equipment(s) received"
-msgstr ""
+msgstr "Alınan aygıt sayısı"
 
 #: ../../source/order/index.rst:190
 msgid "Number of material(s) related to inventory items in GLPI"
-msgstr ""
+msgstr "GLPI envanter ögeleri ile ilgili malzeme sayısı"
 
 #: ../../source/order/index.rst:191
 msgid "Unit price of the product (excl. VAT)"
-msgstr ""
+msgstr "Ürünün birim fiyatı (KDV hariç)"
 
 #: ../../source/order/index.rst:192
 msgid "Unit price of the product (incl. VAT)"
-msgstr ""
+msgstr "Ürünün birim fiyatı (KDV dahil)"
 
 #: ../../source/order/index.rst:193 ../../source/order/index.rst:211
 msgid "Price per unit awarded (excl. VAT)"
-msgstr ""
+msgstr "Ödenen birim fiyatı (KDV hariç)"
 
 #: ../../source/order/index.rst:195
 msgid ""
 "By clicking on the *+* icon on the left of the line, it is possible to "
 "access the details of the products ordered."
 msgstr ""
+"Satırın solundaki *+* simgesine tıklayarak sipariş edilen ürünlerin "
+"ayrıntılarına erişilebilir."
 
 #: ../../source/order/index.rst:200
 msgid "Receiving material"
-msgstr ""
+msgstr "Malzeme alımı"
 
 #: ../../source/order/index.rst:202
 msgid ""
@@ -525,48 +604,59 @@ msgid ""
 "material(s). One line is displayed for each product reference ordered. This "
 "line contains the following information:"
 msgstr ""
+"Sipariş onaylandığı andan itibaren sipariş edilen malzeme teslim alınabilir."
+" Malzeme alımı sekmesine gitmeniz gerekir. Sipariş edilen her ürün referansı"
+" için bir satır görüntülenir. Bu satırda şu bilgiler bulunur:"
 
 #: ../../source/order/index.rst:207
 msgid ""
 "Received equipment(s): indicates the number of equipment received out of the"
 " total number of equipment ordered for this product."
 msgstr ""
+"Alınan aygıtlar: Bu ürün için sipariş edilen toplam aygıt sayısından alınan "
+"aygıt sayısını gösterir."
 
 #: ../../source/order/index.rst:208
 msgid ""
 "Related equipment(s): number of goods received related to inventory items in"
 " GLPI"
 msgstr ""
+"İlgili aygıtlar: GLPI üzerindeki envanter ögeleriyle ilgili alınan mal "
+"sayısı"
 
 #: ../../source/order/index.rst:209
 msgid "Price per unit (excl. VAT)"
-msgstr ""
+msgstr "Birim fiyatı (KDV hariç)"
 
 #: ../../source/order/index.rst:210
 msgid "Unit price (incl. VAT)"
-msgstr ""
+msgstr "Birim fiyatı (KDV dahil)"
 
 #: ../../source/order/index.rst:213
 msgid ""
 "In order to proceed to the reception of products, just click on the + icon "
 "on the left of the line."
-msgstr ""
+msgstr "Ürün alımına devam etmek için satırın solundaki + simgesine tıklayın."
 
 #: ../../source/order/index.rst:215
 msgid "There are 2 ways to receive material :"
-msgstr ""
+msgstr "Malzeme almanın 2 yolu vardır:"
 
 #: ../../source/order/index.rst:217
 msgid ""
 "Reception of materials selected from the list of products ordered but not "
 "yet received"
 msgstr ""
+"Sipariş edilen ancak henüz teslim alınmayan ürünler listesinden seçilen "
+"malzemelerin alınması"
 
 #: ../../source/order/index.rst:218
 msgid ""
 "Receipt of materials in bulk: in this case we will indicate how many "
 "products are received (without first selecting from the list)."
 msgstr ""
+"Malzemelerin toplu olarak alınması: Bu durumda kaç adet ürün teslim alındığı"
+" belirtilir (önce listeden seçim yapmadan)."
 
 #: ../../source/order/index.rst:223
 msgid ""
@@ -575,18 +665,22 @@ msgid ""
 "objects can be indicated (e.g. Conforming, Non-conforming, etc). Once "
 "received, it is possible to :"
 msgstr ""
+"Her iki durumda da, malzemenin teslim alınmasıyla ilgili sevk irsaliyesinin "
+"iade edilmesi gerekir. Alternatif olarak, alınan nesnelerin durumu "
+"belirtilebilir uygun, uygun değil gibi). Alındıktan sonra şunlar "
+"yapılabilir:"
 
 #: ../../source/order/index.rst:226
 msgid "Generate a material in GLPI from the received product"
-msgstr ""
+msgstr "Alınan üründen GLPI üzerinde bir malzeme oluşturulabilir"
 
 #: ../../source/order/index.rst:227
 msgid "Link the product received to existing GLPI equipment"
-msgstr ""
+msgstr "Alınan ürün var olan bir GLPI aygıtına bağlanabilir"
 
 #: ../../source/order/index.rst:230
 msgid "Generate the material"
-msgstr ""
+msgstr "Malzeme üretme"
 
 #: ../../source/order/index.rst:234
 msgid ""
@@ -595,22 +689,26 @@ msgid ""
 "Generate associated material option. A screen will appear. Each line "
 "represents a received product, and the following information must be given:"
 msgstr ""
+"Alınan ürünlerden malzeme üretmek için listeden bu işlemin yapılacağı "
+"ürünlerin seçilmesi yeterlidir. Ardından ilişkili malzeme oluştur seçeneğini"
+" seçin. Görüntülenen sayfada her satır alınan bir ürünü gösterir ve şu "
+"bilgiler verilmelidir:"
 
 #: ../../source/order/index.rst:238
 msgid "Name of the material generated in GLPI"
-msgstr ""
+msgstr "GLPI üzerinde üretilen malzemenin adı"
 
 #: ../../source/order/index.rst:239
 msgid "Serial code"
-msgstr ""
+msgstr "Seri numarası"
 
 #: ../../source/order/index.rst:240
 msgid "Asset number"
-msgstr ""
+msgstr "Varlık numarası"
 
 #: ../../source/order/index.rst:242
 msgid "Note:"
-msgstr ""
+msgstr "Not:"
 
 #: ../../source/order/index.rst:244
 msgid ""
@@ -618,16 +716,19 @@ msgid ""
 "product, and if the latter is created in the same entity as the reference, "
 "then the inventory object in GLPI will be created from this template."
 msgstr ""
+"Oluşturulan ürünün referansıyla ilişkili bir kalıp varsa ve ikincisi "
+"referans ile aynı birimde oluşturulmuşsa, GLPI üzerindeki envanter varlığı "
+"bu kalıptan oluşturulur."
 
 #: ../../source/order/index.rst:245
 msgid ""
 "The financial information of the order will be carried in the newly created "
 "inventory object."
-msgstr ""
+msgstr "Siparişin mali bilgileri, yeni oluşturulan stok nesnesinde bulunur."
 
 #: ../../source/order/index.rst:248
 msgid "Link to an inventory item"
-msgstr ""
+msgstr "Bir envanter ögesine bağlamak"
 
 #: ../../source/order/index.rst:252
 msgid ""
@@ -636,61 +737,71 @@ msgid ""
 "Link to an existing material. A drop-down list will appear and will present "
 "all the materials present in GLPI which :"
 msgstr ""
+"Alınan bir ürün üretilmek yerine, GLPI üzerinde zaten var olan bir malzemeye"
+" bağlanabilir. Bunun için, var olan bir malzemeye bağla seçeneğini seçin. "
+"Bir açılan kuruda GLPI üzerinde bulunan tüm malzemeler şuna göre "
+"görüntülenir:"
 
 #: ../../source/order/index.rst:256
 msgid ""
 "Are in the entity of the order (or in a sub-entity if the order is visible "
 "in the sub-entities)"
 msgstr ""
+"Siparişin birimindeyse (ya da sipariş alt birimlere görüntüleniyorsa bir alt"
+" birimdeyse)"
 
 #: ../../source/order/index.rst:257 ../../source/order/index.rst:258
 msgid "With the same type of equipment"
-msgstr ""
+msgstr "Aynı aygıt türündeyse"
 
 #: ../../source/order/index.rst:259
 msgid "Identical"
-msgstr ""
+msgstr "Aynıysa"
 
 #: ../../source/order/index.rst:261
 msgid ""
 "Once linked to a product, the material in GLPI will receive the financial "
 "information from the order."
 msgstr ""
+"Bir ürüne bağlandıktan sonra, GLPI üzerindeki malzeme siparişten mali "
+"bilgileri alır."
 
 #: ../../source/order/index.rst:264
 msgid "Rights management"
-msgstr ""
+msgstr "İzin yönetimi"
 
 #: ../../source/order/index.rst:268
 msgid ""
 "The plugin rights management allows to define, by profile, if the user has "
 "the right to :"
 msgstr ""
+"Uygulama eki izin yönetimi, kullanıcının profilinden aşağıdaki izinleri "
+"tanımlamayı sağlar:"
 
 #: ../../source/order/index.rst:270
 msgid "Manage commands"
-msgstr ""
+msgstr "Komut yönetimi"
 
 #: ../../source/order/index.rst:271
 msgid "Manage product references"
-msgstr ""
+msgstr "Ürün referansları yönetimi"
 
 #: ../../source/order/index.rst:272
 msgid "Manage invoices"
-msgstr ""
+msgstr "Fatura yönetimi"
 
 #: ../../source/order/index.rst:273
 msgid "Confirm an order"
-msgstr ""
+msgstr "Sipariş onayı"
 
 #: ../../source/order/index.rst:274
 msgid "Cancel an order"
-msgstr ""
+msgstr "Sipariş iptali"
 
 #: ../../source/order/index.rst:275
 msgid "Modify a validated order"
-msgstr ""
+msgstr "Onaylanmış sipariş değişikliği"
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"

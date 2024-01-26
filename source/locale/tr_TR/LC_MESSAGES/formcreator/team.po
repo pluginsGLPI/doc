@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Kaya Zeren <kayazeren@gmail.com>, 2016
+# Kaya Zeren <kayazeren@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,8 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-14 15:17+0200\n"
 "PO-Revision-Date: 2016-12-20 09:45+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2016\n"
-"Language-Team: Turkish (Turkey) (https://www.transifex.com/teclib/teams/28042/tr_TR/)\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2021\n"
+"Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -31,19 +31,19 @@ msgstr "Geliştiriciler"
 
 #: ../../source/formcreator/team.rst:7
 msgid "`Jérémy MOREAU <https://github.com/neeftarah>`_,"
-msgstr ""
+msgstr "`Jérémy MOREAU <https://github.com/neeftarah>`_,"
 
 #: ../../source/formcreator/team.rst:8
 msgid "`Alexandre Delaunay <https://github.com/orthagh>`_,"
-msgstr ""
+msgstr "`Alexandre Delaunay <https://github.com/orthagh>`_,"
 
 #: ../../source/formcreator/team.rst:9
 msgid "`François Legastelois <https://github.com/flegastelois>`_,"
-msgstr ""
+msgstr "`François Legastelois <https://github.com/flegastelois>`_,"
 
 #: ../../source/formcreator/team.rst:10
 msgid "`Thierry Bugier <https://github.com/btry>`_"
-msgstr ""
+msgstr "`Thierry Bugier <https://github.com/btry>`_"
 
 #: ../../source/formcreator/team.rst:13
 msgid "Testers"
@@ -51,127 +51,127 @@ msgstr "Deneyenler"
 
 #: ../../source/formcreator/team.rst:15
 msgid "`Manu1400 <https://github.com/Manu1400>`__,"
-msgstr ""
+msgstr "`Manu1400 <https://github.com/Manu1400>`__,"
 
 #: ../../source/formcreator/team.rst:16
 msgid "`dgsn <http://github.com/dgsn>`__,"
-msgstr ""
+msgstr "`dgsn <http://github.com/dgsn>`__,"
 
 #: ../../source/formcreator/team.rst:17
 msgid "`Max6Devil <http://github.com/Max6Devil>`__,"
-msgstr ""
+msgstr "`Max6Devil <http://github.com/Max6Devil>`__,"
 
 #: ../../source/formcreator/team.rst:18
 msgid "`Kahalisto <http://github.com/Kahalisto>`__,"
-msgstr ""
+msgstr "`Kahalisto <http://github.com/Kahalisto>`__,"
 
 #: ../../source/formcreator/team.rst:19
 msgid "`satyan01 <http://github.com/satyan01>`__,"
-msgstr ""
+msgstr "`satyan01 <http://github.com/satyan01>`__,"
 
 #: ../../source/formcreator/team.rst:20
 msgid "`biet-j <http://github.com/biet-j>`__,"
-msgstr ""
+msgstr "`biet-j <http://github.com/biet-j>`__,"
 
 #: ../../source/formcreator/team.rst:21
 msgid "`reg25 <http://github.com/reg25>`__,"
-msgstr ""
+msgstr "`reg25 <http://github.com/reg25>`__,"
 
 #: ../../source/formcreator/team.rst:22
 msgid "`Gilmor49 <http://github.com/Gilmor49>`__,"
-msgstr ""
+msgstr "`Gilmor49 <http://github.com/Gilmor49>`__,"
 
 #: ../../source/formcreator/team.rst:23
 msgid "`nblaisonneau <http://github.com/nblaisonneau>`__,"
-msgstr ""
+msgstr "`nblaisonneau <http://github.com/nblaisonneau>`__,"
 
 #: ../../source/formcreator/team.rst:24
 msgid "`CHCI74 <http://github.com/CHCI74>`__,"
-msgstr ""
+msgstr "`CHCI74 <http://github.com/CHCI74>`__,"
 
 #: ../../source/formcreator/team.rst:25
 msgid "`salgueirosa <http://github.com/salgueirosa>`__,"
-msgstr ""
+msgstr "`salgueirosa <http://github.com/salgueirosa>`__,"
 
 #: ../../source/formcreator/team.rst:26
 msgid "`jotafe <http://github.com/jotafe>`__,"
-msgstr ""
+msgstr "`jotafe <http://github.com/jotafe>`__,"
 
 #: ../../source/formcreator/team.rst:27
 msgid "`Ruiseart <http://github.com/Ruiseart>`__,"
-msgstr ""
+msgstr "`Ruiseart <http://github.com/Ruiseart>`__,"
 
 #: ../../source/formcreator/team.rst:28
 msgid "`babalou <http://github.com/babalou>`__,"
-msgstr ""
+msgstr "`babalou <http://github.com/babalou>`__,"
 
 #: ../../source/formcreator/team.rst:29
 msgid "`blienard <http://github.com/blienard>`__,"
-msgstr ""
+msgstr "`blienard <http://github.com/blienard>`__,"
 
 #: ../../source/formcreator/team.rst:30
 msgid "`proprux <http://github.com/proprux>`__,"
-msgstr ""
+msgstr "`proprux <http://github.com/proprux>`__,"
 
 #: ../../source/formcreator/team.rst:31
 msgid "`ThedarksideoftheForce <http://github.com/ThedarksideoftheForce>`__,"
-msgstr ""
+msgstr "`ThedarksideoftheForce <http://github.com/ThedarksideoftheForce>`__,"
 
 #: ../../source/formcreator/team.rst:32
 msgid "`AdAugustaPerAngusta <http://github.com/AdAugustaPerAngusta>`__,"
-msgstr ""
+msgstr "`AdAugustaPerAngusta <http://github.com/AdAugustaPerAngusta>`__,"
 
 #: ../../source/formcreator/team.rst:33
 msgid "`MaxG89 <http://github.com/MaxG89>`__,"
-msgstr ""
+msgstr "`MaxG89 <http://github.com/MaxG89>`__,"
 
 #: ../../source/formcreator/team.rst:34
 msgid "`klodnitsky <http://github.com/klodnitsky>`__,"
-msgstr ""
+msgstr "`klodnitsky <http://github.com/klodnitsky>`__,"
 
 #: ../../source/formcreator/team.rst:35
 msgid "`consolko <http://github.com/consolko>`__,"
-msgstr ""
+msgstr "`consolko <http://github.com/consolko>`__,"
 
 #: ../../source/formcreator/team.rst:36
 msgid "`Boris31 <http://github.com/Boris31>`__,"
-msgstr ""
+msgstr "`Boris31 <http://github.com/Boris31>`__,"
 
 #: ../../source/formcreator/team.rst:37
 msgid "`fire2418 <http://github.com/fire2418>`__,"
-msgstr ""
+msgstr "`fire2418 <http://github.com/fire2418>`__,"
 
 #: ../../source/formcreator/team.rst:38
 msgid "`osfrance <http://github.com/osfrance>`__,"
-msgstr ""
+msgstr "`osfrance <http://github.com/osfrance>`__,"
 
 #: ../../source/formcreator/team.rst:39
 msgid "`kaioisdead <http://github.com/kaioisdead>`__,"
-msgstr ""
+msgstr "`kaioisdead <http://github.com/kaioisdead>`__,"
 
 #: ../../source/formcreator/team.rst:40
 msgid "`KevinSupertramp <http://github.com/KevinSupertramp>`__,"
-msgstr ""
+msgstr "`KevinSupertramp <http://github.com/KevinSupertramp>`__,"
 
 #: ../../source/formcreator/team.rst:41
 msgid "`matth974 <http://github.com/matth974>`__,"
-msgstr ""
+msgstr "`matth974 <http://github.com/matth974>`__,"
 
 #: ../../source/formcreator/team.rst:42
 msgid "`J-n-s <http://github.com/J-n-s>`__,"
-msgstr ""
+msgstr "`J-n-s <http://github.com/J-n-s>`__,"
 
 #: ../../source/formcreator/team.rst:43
 msgid "`wawax <http://github.com/wawax>`__,"
-msgstr ""
+msgstr "`wawax <http://github.com/wawax>`__,"
 
 #: ../../source/formcreator/team.rst:44
 msgid "`Sismic <http://github.com/Sismic>`__,"
-msgstr ""
+msgstr "`Sismic <http://github.com/Sismic>`__,"
 
 #: ../../source/formcreator/team.rst:45
 msgid "`nicholaseduardo <http://github.com/nicholaseduardo>`__"
-msgstr ""
+msgstr "`nicholaseduardo <http://github.com/nicholaseduardo>`__"
 
 #: ../../source/formcreator/team.rst:46
 msgid "and much more..."
@@ -188,30 +188,36 @@ msgstr "Fransızca (Fransa)"
 #: ../../source/formcreator/team.rst:54 ../../source/formcreator/team.rst:69
 msgid "`Jérémy MOREAU <https://www.transifex.com/user/profile/neeftarah/>`__,"
 msgstr ""
+"`Jérémy MOREAU <https://www.transifex.com/user/profile/neeftarah/>`__,"
 
 #: ../../source/formcreator/team.rst:55
 msgid ""
 "`Alexandre DELAUNAY <https://www.transifex.com/user/profile/orthagh/>`__,"
 msgstr ""
+"`Alexandre DELAUNAY <https://www.transifex.com/user/profile/orthagh/>`__,"
 
 #: ../../source/formcreator/team.rst:56
 msgid "`Walid Nouh <https://www.transifex.com/user/profile/wawa/>`__,"
-msgstr ""
+msgstr "`Walid Nouh <https://www.transifex.com/user/profile/wawa/>`__,"
 
 #: ../../source/formcreator/team.rst:57
 msgid ""
 "`Thierry Bugier Pineau <https://www.transifex.com/user/profile/btry/>`__,"
 msgstr ""
+"`Thierry Bugier Pineau <https://www.transifex.com/user/profile/btry/>`__,"
 
 #: ../../source/formcreator/team.rst:58
 msgid ""
 "`Benoit Le Rohellec "
 "<https://www.transifex.com/user/profile/blerohellec/>`__,"
 msgstr ""
+"`Benoit Le Rohellec "
+"<https://www.transifex.com/user/profile/blerohellec/>`__,"
 
 #: ../../source/formcreator/team.rst:59
 msgid "`Emmanuel Haguet <https://www.transifex.com/user/profile/Manu1400/>`__"
 msgstr ""
+"`Emmanuel Haguet <https://www.transifex.com/user/profile/Manu1400/>`__"
 
 #: ../../source/formcreator/team.rst:62
 msgid "Turkish (Turkey)"
@@ -219,7 +225,7 @@ msgstr "Türkçe (Türkiye)"
 
 #: ../../source/formcreator/team.rst:64
 msgid "`Kaya Zeren <https://www.transifex.com/user/profile/kayazeren/>`__"
-msgstr ""
+msgstr "`Kaya Zeren <https://www.transifex.com/user/profile/kayazeren/>`__"
 
 #: ../../source/formcreator/team.rst:67
 msgid "English (United Kingdom)"
@@ -229,6 +235,7 @@ msgstr "İngilizce (Birleşik Krallık)"
 msgid ""
 "`Andrejs Klodnickis <https://www.transifex.com/user/profile/klodnitsky/>`__"
 msgstr ""
+"`Andrejs Klodnickis <https://www.transifex.com/user/profile/klodnitsky/>`__"
 
 #: ../../source/formcreator/team.rst:73
 msgid "Polish (Poland)"
@@ -236,20 +243,22 @@ msgstr "Lehçe (Polonya)"
 
 #: ../../source/formcreator/team.rst:75
 msgid "`Sismic <https://www.transifex.com/user/profile/Sismic/>`__,"
-msgstr ""
+msgstr "`Sismic <https://www.transifex.com/user/profile/Sismic/>`__,"
 
 #: ../../source/formcreator/team.rst:76
 msgid ""
 "`Ryszard Jeziorski <https://www.transifex.com/user/profile/Ruiseart/>`__,"
 msgstr ""
+"`Ryszard Jeziorski <https://www.transifex.com/user/profile/Ruiseart/>`__,"
 
 #: ../../source/formcreator/team.rst:77
 msgid "`awiamo <https://www.transifex.com/user/profile/awiamo/>`__,"
-msgstr ""
+msgstr "`awiamo <https://www.transifex.com/user/profile/awiamo/>`__,"
 
 #: ../../source/formcreator/team.rst:78
 msgid "`Grzegorz Kaniewski <https://www.transifex.com/user/profile/kania/>`__"
 msgstr ""
+"`Grzegorz Kaniewski <https://www.transifex.com/user/profile/kania/>`__"
 
 #: ../../source/formcreator/team.rst:81
 msgid "Russian (Russia)"
@@ -258,10 +267,11 @@ msgstr "Rusça (Rusya)"
 #: ../../source/formcreator/team.rst:83
 msgid "`Alexey Petukhov <https://www.transifex.com/user/profile/lexx015/>`__,"
 msgstr ""
+"`Alexey Petukhov <https://www.transifex.com/user/profile/lexx015/>`__,"
 
 #: ../../source/formcreator/team.rst:84
 msgid "`Igor Nikitin <https://www.transifex.com/user/profile/enable/>`__,"
-msgstr ""
+msgstr "`Igor Nikitin <https://www.transifex.com/user/profile/enable/>`__,"
 
 #: ../../source/formcreator/team.rst:88
 msgid "Portuguese (Brazil)"
@@ -271,10 +281,11 @@ msgstr "Portekizce (Brezilya)"
 msgid ""
 "`Pedro de Oliveira Lira <https://www.transifex.com/user/profile/liraop/>`__,"
 msgstr ""
+"`Pedro de Oliveira Lira <https://www.transifex.com/user/profile/liraop/>`__,"
 
 #: ../../source/formcreator/team.rst:91
 msgid "`Rafael Viana <https://www.transifex.com/user/profile/rafaelvian/>`__"
-msgstr ""
+msgstr "`Rafael Viana <https://www.transifex.com/user/profile/rafaelvian/>`__"
 
 #: ../../source/formcreator/team.rst:94
 msgid "Hungarian (Hungary)"
@@ -284,6 +295,7 @@ msgstr "Macarca (Macaristan)"
 msgid ""
 "`Laszlo Czirbesz] <https://www.transifex.com/user/profile/lczirbesz/>`__"
 msgstr ""
+"`Laszlo Czirbesz] <https://www.transifex.com/user/profile/lczirbesz/>`__"
 
 #: ../../source/formcreator/team.rst:99
 msgid "Spanish (Argentina)"
@@ -292,6 +304,7 @@ msgstr "İspanyolca (Arjantin)"
 #: ../../source/formcreator/team.rst:101
 msgid "`Luis A. Uriarte <https://www.transifex.com/user/profile/pastotdf/>`__"
 msgstr ""
+"`Luis A. Uriarte <https://www.transifex.com/user/profile/pastotdf/>`__"
 
 #: ../../source/formcreator/team.rst:104
 msgid "Romanian (Romania)"
@@ -299,7 +312,7 @@ msgstr "Romence (Romanya)"
 
 #: ../../source/formcreator/team.rst:106
 msgid "`Doru DEACONU <https://www.transifex.com/user/profile/ddeacon/>`__"
-msgstr ""
+msgstr "`Doru DEACONU <https://www.transifex.com/user/profile/ddeacon/>`__"
 
 #: ../../source/formcreator/team.rst:109
 msgid "Czech (Czech Republic)"
@@ -307,7 +320,7 @@ msgstr "Çekce (Çek Cumhuriyeti)"
 
 #: ../../source/formcreator/team.rst:111
 msgid "`David Stepan <https://www.transifex.com/user/profile/stepand1/>`__"
-msgstr ""
+msgstr "`David Stepan <https://www.transifex.com/user/profile/stepand1/>`__"
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
