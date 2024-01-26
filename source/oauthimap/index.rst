@@ -28,7 +28,7 @@ Install the plugin
 ------------------
 
 .. note::
-   This plugin is community and does not need a license. It is also available in Cloud.
+   This plugin does not require a GLPI-Network subscription. It is also available in Cloud.
 
 -  See you in the marketplace. Download Oauth IMAP and enable it
 
