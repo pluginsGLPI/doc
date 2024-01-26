@@ -194,17 +194,15 @@ So I set my criteria and my action :
 Forcing SSO authentication
 --------------------------
 
-.. Check::
-   Using the Oauth SSO application configuration longlet, you can mask the internal database connection field to **force** the connection with your SSO application
-   .. figure:: images/oauth-Entra-11.png
+Using the Oauth SSO application configuration longlet, you can mask the internal database connection field to **force** the connection with your SSO application
+
+.. figure:: images/oauth-Entra-11.png
    :alt:
 
 References
 ----------
 
-`Documentation Oauth SSO client for
-GLPI <https://services.glpi-network.com/documentation/1731/file/README.md>`__
-`Documentation Microsoft "Configure your App Service Or Entra Functions
-app to use Entra AD
+`Documentation Oauth SSO client for GLPI <https://services.glpi-network.com/documentation/1731/file/README.md>`__
+`Documentation Microsoft "Configure your App Service Or Entra Functions app to use Entra AD
 login <https://learn.microsoft.com/en-us/Entra/app-service/configure-authentication-provider-aad?tabs=workforce-tenant>`__
 
