@@ -86,7 +86,7 @@ setup GLPI
    :alt:
 
 -  Click **add**
--  Now in the **Oauth authorization** tab , we will **create an authorization**
+-  Now in the **Oauth authorization** tab, click **Create an authorization**
 
 .. figure:: images/oauth-imap-8.png
    :alt:
