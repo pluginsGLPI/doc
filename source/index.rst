@@ -47,6 +47,7 @@ You'll find here user documentation for various `GLPI <http://glpi-project.org>`
    anonymize/index
    approbalbymail/index
    branding/index
+   GDPR/index
    ldaptools/index
    scim/index
    translate/index
