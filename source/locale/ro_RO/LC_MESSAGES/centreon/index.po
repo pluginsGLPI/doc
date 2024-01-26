@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2024, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-26 16:17+0100\n"
+"PO-Revision-Date: 2024-01-26 14:56+0000\n"
+"Language-Team: Romanian (Romania) (https://app.transifex.com/teclib/teams/28042/ro_RO/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro_RO\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: ../../source/centreon/index.rst:2
+msgid "Centreon"
+msgstr ""
+
+#: ../../source/centreon/index.rst:5
+msgid "Sources link: `<https://github.com/pluginsGLPI/centreon>`_"
+msgstr ""
+
+#: ../../source/centreon/index.rst:6
+msgid "Download: `<https://github.com/pluginsGLPI/centreon/releases>`_"
+msgstr ""
+
+#: ../../source/centreon/index.rst:9
+msgid "Requirements"
+msgstr ""
+
+#: ../../source/centreon/index.rst:11
+msgid "PHP >= 7.4.0 GLPI >= 10.0.0"
+msgstr ""
+
+#: ../../source/centreon/index.rst:15
+msgid "Features"
+msgstr ""
+
+#: ../../source/centreon/index.rst:17
+msgid ""
+"Centreon is a network, system, applicative supervision and monitoring tool. "
+"Centreon plugin allows you to see general information about hosts and their "
+"services on your GLPI interface, as long as the items are both in GLPI and "
+"Centreon."
+msgstr ""
+
+#: ../../source/centreon/index.rst:21
+msgid "You can perform 3 main actions :"
+msgstr ""
+
+#: ../../source/centreon/index.rst:23
+msgid "Acknowledge a problem"
+msgstr ""
+
+#: ../../source/centreon/index.rst:24
+msgid "Schedule a downtime"
+msgstr ""
+
+#: ../../source/centreon/index.rst:25
+msgid "Trigger a host check,"
+msgstr ""
+
+#: ../../source/centreon/index.rst:27
+msgid "and you can also see the timeline of the host."
+msgstr ""
+
+#: ../../source/centreon/index.rst:30
+msgid "Installation"
+msgstr ""
+
+#: ../../source/centreon/index.rst:32
+msgid "Uncompress the archive"
+msgstr ""
+
+#: ../../source/centreon/index.rst:33
+msgid "Move the ``centreon`` folder to ``<GLPI_ROOT>/plugins`` directory"
+msgstr ""
+
+#: ../../source/centreon/index.rst:34
+msgid "Navigate to the **Configuration > Plugins** page,"
+msgstr ""
+
+#: ../../source/centreon/index.rst:35
+msgid "Install and activate the plugin."
+msgstr ""
+
+#: ../../source/centreon/index.rst:38
+msgid "Usage"
+msgstr ""
+
+#: ../../source/centreon/index.rst:40
+msgid ""
+"You need to configure the plugin before using it. To do so, go to the "
+"**Setup > Plugins > Centreon** page. You will need to fill the following "
+"fields :"
+msgstr ""
+
+#: ../../source/centreon/index.rst:43
+msgid ""
+"**Centreon URL** : The URL of your Centreon interface, following by the "
+"number of the port, and the API version to use"
+msgstr ""
+
+#: ../../source/centreon/index.rst:44
+msgid "**Centreon Username** : The username of your Centreon account"
+msgstr ""
+
+#: ../../source/centreon/index.rst:45
+msgid "**Centreon Password** : The password of your Centreon account"
+msgstr ""
+
+#: ../../source/centreon/index.rst-1
+msgid "Centreon configuration"
+msgstr ""
+
+#: ../../source/centreon/index.rst:50
+msgid ""
+"Then, it will create automatically a new SQL table named "
+"``glpi_plugin_centreon_hosts``. This table will contain all the hosts that "
+"are both in GLPI and Centreon. A new tab is created on the host page, so you"
+" can see the information about the host."
+msgstr ""
+
+#: ../../source/centreon/index.rst-1
+msgid "Centreon homepage"
+msgstr ""
+
+#: ../../source/centreon/index.rst-1
+msgid "Centreon timeline"
+msgstr ""
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr ""
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
+msgstr ""

@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2024, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-26 16:17+0100\n"
+"PO-Revision-Date: 2024-01-26 14:57+0000\n"
+"Language-Team: Czech (Czech Republic) (https://app.transifex.com/teclib/teams/28042/cs_CZ/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+
+#: ../../source/scim/okta.rst:4
+msgid "OKTA"
+msgstr ""
+
+#: ../../source/scim/okta.rst:7
+msgid "References:"
+msgstr ""
+
+#: ../../source/scim/okta.rst:9
+msgid ""
+"`Understanding SCIM <https://developer.okta.com/docs/concepts/scim/>`__"
+msgstr ""
+
+#: ../../source/scim/okta.rst:10
+msgid ""
+"`Add SCIM provisioning to app integrations <https://help.okta.com/en-"
+"us/Content/Topics/Apps/Apps_App_Integration_Wizard_SCIM.htm>`__"
+msgstr ""
+
+#: ../../source/scim/okta.rst:11
+msgid ""
+"`Assign applications to users <https://help.okta.com/en-"
+"us/Content/Topics/users-groups-profiles/usgp-assign-apps.htm>`__"
+msgstr ""
+
+#: ../../source/scim/okta.rst:14
+msgid "Setup"
+msgstr ""
+
+#: ../../source/scim/okta.rst:16
+msgid ""
+"After configuring the SCIM plugin, you can declare it in your Okta **Admin "
+"console**. Go to the **Applications** > **Applications** menu and click on "
+"the “Create App Integration” button. Choose **SWA - Secure Web "
+"Authentication** and click on the “Next” button."
+msgstr ""
+
+#: ../../source/scim/okta.rst-1
+msgid "Okta create app"
+msgstr ""
+
+#: ../../source/scim/okta.rst:23
+msgid ""
+"Fill the form with the following values (you may adapt depending on your "
+"context):"
+msgstr ""
+
+#: ../../source/scim/okta.rst:25
+msgid "**App name**: GLPI"
+msgstr ""
+
+#: ../../source/scim/okta.rst:26
+msgid "**App’s login page URL**: the index page of your glpi"
+msgstr ""
+
+#: ../../source/scim/okta.rst:27
+msgid "**App logo**: provide a logo picture"
+msgstr ""
+
+#: ../../source/scim/okta.rst:28
+msgid "**App type**: check “This is an internal app that we have created”"
+msgstr ""
+
+#: ../../source/scim/okta.rst:30
+msgid "Let the other fields as default and click on the “Finish” button."
+msgstr ""
+
+#: ../../source/scim/okta.rst-1
+msgid "Okta setup app fields"
+msgstr ""
+
+#: ../../source/scim/okta.rst:35
+msgid ""
+"After the application has been created, you’ll be redirected to the "
+"**General Settings** tab. You must edit the **App settings** section and "
+"check the **Enable SCIM provisioning** before saving your changes."
+msgstr ""
+
+#: ../../source/scim/okta.rst:38
+msgid "A new tab named **Provisioning** will appear. Click on it."
+msgstr ""
+
+#: ../../source/scim/okta.rst:40
+msgid "Edit the **SCIM Connection** section and fill the following fields:"
+msgstr ""
+
+#: ../../source/scim/okta.rst:42
+msgid ""
+"**SCIM connector base URL**: the API url of your SCIM server you copied from"
+" the :ref:`plugin configuration <setup_scim>`."
+msgstr ""
+
+#: ../../source/scim/okta.rst:43
+msgid "**Unique identifier field for users**: ``id``"
+msgstr ""
+
+#: ../../source/scim/okta.rst:44
+msgid ""
+"Check all fields in the **Supported provisioning actions** section **EXCEPT "
+"“Import Groups” one**"
+msgstr ""
+
+#: ../../source/scim/okta.rst:45
+msgid ""
+"Choose the **Authentication mode** you configured in the :ref:`plugin "
+"configuration <setup_scim>`."
+msgstr ""
+
+#: ../../source/scim/okta.rst:47
+msgid "You can test you configuration and then save your changes."
+msgstr ""
+
+#: ../../source/scim/okta.rst-1
+msgid "Okta SCIM configuration"
+msgstr ""
+
+#: ../../source/scim/okta.rst:52
+msgid "Final steps, you must assign your application to your users:"
+msgstr ""
+
+#: ../../source/scim/okta.rst:54
+msgid "In the Admin Console, go to **Directory** > **People**."
+msgstr ""
+
+#: ../../source/scim/okta.rst:55
+msgid "Click a user name in the Person & Username column."
+msgstr ""
+
+#: ../../source/scim/okta.rst:56
+msgid "Select the Applications tab."
+msgstr ""
+
+#: ../../source/scim/okta.rst:57
+msgid "Click Assign Applications."
+msgstr ""
+
+#: ../../source/scim/okta.rst:58
+msgid ""
+"Select applications from the list or enter the application name in the "
+"Search field."
+msgstr ""
+
+#: ../../source/scim/okta.rst:59
+msgid "Click [Assign] button."
+msgstr ""
+
+#: ../../source/scim/okta.rst:61
+msgid "You’re done, your users will be provisioned in GLPI when they log in."
+msgstr ""
+
+#: ../../source/scim/okta.rst:63
+msgid ""
+"**NOTE**, it seems OKTA doesn’t give any automatic way to assign users to an"
+" application."
+msgstr ""
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr ""
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
+msgstr ""
