@@ -48,10 +48,10 @@ Register your Entra application
 Create the application
 ~~~~~~~~~~~~~~~~~~~~~~
 
--  Click on **new registration**
--  Indicate the desired name, select the type of account supported then indicate the redirection URL (present in the configuration of the plugin from your GLPI interface:
+-  Click on **New registration**
+-  Enter the desired name, select the type of account supported then enter the redirection URL (present in the configuration of the plugin from your GLPI interface:
    https://XXXXXXXXXXXXXX/marketplace/oauthimap/front/authorization.callback.php) specifying the **Web** option
--  Then click on **register**.
+-  Then click on **Register**.
 
 .. figure:: images/oauth-imap-3.png
    :alt:
