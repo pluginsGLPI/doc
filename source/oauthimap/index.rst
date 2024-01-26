@@ -35,9 +35,9 @@ Install the plugin
 .. figure:: images/oauth-imap-1.png
    :alt:
 
--  Meet now on your `Azure tenant <https://portal.azure.com/#home>`__
+-  Open the `Azure Portal <https://portal.azure.com/#home>`__ for your tenant
 -  In the search box type **registration** then select
-   **app registrations**
+   **App registrations**
 
 .. figure:: images/oauth-imap-2.png
    :alt:
