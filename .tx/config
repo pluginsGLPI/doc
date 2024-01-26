@@ -2,123 +2,125 @@
 host = https://www.transifex.com
 type = PO
 
-[glpi-plugins-documentation.index]
+
+[o:teclib:p:glpi-plugins-documentation:r:index]
 file_filter = source/locale/<lang>/LC_MESSAGES/index.po
 source_file = build/locale/index.pot
 source_lang = en
+type        = PO
 
-[glpi-plugins-documentation.presentation]
+[o:teclib:p:glpi-plugins-documentation:r:presentation]
 file_filter = source/locale/<lang>/LC_MESSAGES/presentation.po
 source_file = build/locale/presentation.pot
 source_lang = en
 
-[glpi-plugins-documentation.globals]
+[o:teclib:p:glpi-plugins-documentation:r:globals]
 file_filter = source/locale/<lang>/LC_MESSAGES/globals.po
 source_file = build/locale/globals.pot
 source_lang = en
 
-[glpi-plugins-documentation.example--index]
+[o:teclib:p:glpi-plugins-documentation:r:example--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/example/index.po
 source_file = build/locale/example/index.pot
 source_lang = en
 
-[glpi-plugins-documentation.credit--index]
+[o:teclib:p:glpi-plugins-documentation:r:credit--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/credit/index.po
 source_file = build/locale/credit/index.pot
 source_lang = en
 
 
-[glpi-plugins-documentation.escalade--index]
+[o:teclib:p:glpi-plugins-documentation:r:escalade--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/escalade/index.po
 source_file = build/locale/escalade/index.pot
 source_lang = en
 
-[glpi-plugins-documentation.treeview--index]
+[o:teclib:p:glpi-plugins-documentation:r:treeview--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/treeview/index.po
 source_file = build/locale/treeview/index.pot
 source_lang = en
 
-[glpi-plugins-documentation.order--index]
+[o:teclib:p:glpi-plugins-documentation:r:order--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/order/index.po
 source_file = build/locale/order/index.pot
 source_lang = en
 
-[glpi-plugins-documentation.news--index]
+[o:teclib:p:glpi-plugins-documentation:r:news--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/news/index.po
 source_file = build/locale/news/index.pot
 source_lang = en
 
-[glpi-plugins-documentation.sccm--index]
+[o:teclib:p:glpi-plugins-documentation:r:sccm--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/sccm/index.po
 source_file = build/locale/sccm/index.pot
 source_lang = en
 
-[glpi-plugins-documentation.tag--index]
+[o:teclib:p:glpi-plugins-documentation:r:tag--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/tag/index.po
 source_file = build/locale/tag/index.pot
 source_lang = en
 
-[glpi-plugins-documentation.empty--index]
+[o:teclib:p:glpi-plugins-documentation:r:empty--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/empty/index.po
 source_file = build/locale/empty/index.pot
 source_lang = en
 
-[glpi-plugins-documentation.genericobject--index]
+[o:teclib:p:glpi-plugins-documentation:r:genericobject--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/genericobject/index.po
 source_file = build/locale/genericobject/index.pot
 source_lang = en
 
-[glpi-plugins-documentation.fields--index]
+[o:teclib:p:glpi-plugins-documentation:r:fields--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/fields/index.po
 source_file = build/locale/fields/index.pot
 source_lang = en
 
-[glpi-plugins-documentation.uninstall--index]
+[o:teclib:p:glpi-plugins-documentation:r:uninstall--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/uninstall/index.po
 source_file = build/locale/uninstall/index.pot
 source_lang = en
 
-[glpi-plugins-documentation.datainjection--index]
+[o:teclib:p:glpi-plugins-documentation:r:datainjection--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/datainjection/index.po
 source_file = build/locale/datainjection/index.pot
 source_lang = en
 
-[glpi-plugins-documentation.formcreator--index]
+[o:teclib:p:glpi-plugins-documentation:r:formcreator--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/formcreator/index.po
 source_file = build/locale/formcreator/index.pot
 source_lang = en
 
-[glpi-plugins-documentation.formcreator--configuration]
+[o:teclib:p:glpi-plugins-documentation:r:formcreator--configuration]
 file_filter = source/locale/<lang>/LC_MESSAGES/formcreator/configuration.po
 source_file = build/locale/formcreator/configuration.pot
 source_lang = en
 
-[glpi-plugins-documentation.formcreator--contributing]
+[o:teclib:p:glpi-plugins-documentation:r:formcreator--contributing]
 file_filter = source/locale/<lang>/LC_MESSAGES/formcreator/contributing.po
 source_file = build/locale/formcreator/contributing.pot
 source_lang = en
 
-[glpi-plugins-documentation.formcreator--features]
+[o:teclib:p:glpi-plugins-documentation:r:formcreator--features]
 file_filter = source/locale/<lang>/LC_MESSAGES/formcreator/features.po
 source_file = build/locale/formcreator/features.pot
 source_lang = en
 
-[glpi-plugins-documentation.formcreator--installation]
+[o:teclib:p:glpi-plugins-documentation:r:formcreator--installation]
 file_filter = source/locale/<lang>/LC_MESSAGES/formcreator/installation.po
 source_file = build/locale/formcreator/installation.pot
 source_lang = en
 
-[glpi-plugins-documentation.formcreator--team]
+[o:teclib:p:glpi-plugins-documentation:r:formcreator--team]
 file_filter = source/locale/<lang>/LC_MESSAGES/formcreator/team.po
 source_file = build/locale/formcreator/team.pot
 source_lang = en
 
-[glpi-plugins-documentation.formcreator--targets]
+[o:teclib:p:glpi-plugins-documentation:r:formcreator--targets]
 file_filter = source/locale/<lang>/LC_MESSAGES/formcreator/targets.po
 source_file = build/locale/formcreator/targets.pot
 source_lang = en
 
-[glpi-plugins-documentation.oauthimap]
+[o:teclib:p:glpi-plugins-documentation:r:oauthimap]
 file_filter = source/locale/<lang>/LC_MESSAGES/oauthimap/index.po
 source_file = build/locale/oauthimap/index.pot
 source_lang = en
