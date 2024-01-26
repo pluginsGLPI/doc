@@ -5,7 +5,7 @@ Requirements (on-premise)
 -------------------------
 
 ============ =========== ===========
-GLPI Version Minimum PHP Recommanded
+GLPI Version Minimum PHP Recommended
 ============ =========== ===========
 10.0.x       8.1         8.2
 ============ =========== ===========
@@ -16,7 +16,7 @@ Install the plugin
 .. note::
    `standard license <https://services.glpi-network.com/#offers>`__ (or higher) is required. This plugin is also available from the `Cloud <https://glpi-network.cloud/>`__.
 
--  Go to the marketplace. Download and install the plugin **Approbal by mail**.
+-  Go to the marketplace. Download and install the plugin **ApprovalByMail**.
 
 .. figure:: images/Approval_mail-1.png
    :alt:
@@ -24,7 +24,7 @@ Install the plugin
 Using the plugin
 ----------------
 
-Once activated, there are no specific settings to be made (apart from the notification layout, if you wish, via **setup > notifications > notification templates**. The template is **tickets validation**)
+Once activated, there are no specific settings to be made (apart from the notification layout, if you wish, via **Setup > Notifications > Notification templates**. The template is **Tickets validation**)
 
 -  In a new ticket, enter the name of the person or group receiving the
    approval request.
@@ -32,11 +32,11 @@ Once activated, there are no specific settings to be made (apart from the notifi
 .. figure:: images/Approval_mail-2.png
    :alt:
 
-An email will be received with the option of **validating** or **refusing** the request. This contains 3 links (if no changes have been made to the model).
+An email will be received with the option of **Validating** or **Refusing** the request. This contains 3 links (if no changes have been made to the model).
 
--  the ticket reminder,
--  the acceptance link,
--  the refusal link
+-  The ticket reminder
+-  The acceptance link
+-  The refusal link
 
 .. figure:: images/Approval_mail-3.png
    :alt:
