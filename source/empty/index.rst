@@ -57,7 +57,7 @@ In the travis configuration file, just add the CS call:
 
 In the ``.gitignore`` file, add the following:
 
-.. code-block:: raw
+::
 
    dist/
    vendor/

@@ -2,7 +2,7 @@ SCIM
 ====
 
 .. figure:: pics/logo.png
-   :alt: SCIM logo
+   :alt:
 
 This plugin let you provision your users and groups from an external identity provider using the `SCIM <https://en.wikipedia.org/wiki/System_for_Cross-domain_Identity_Management>`__ protocol. The update from the directory to GLPI is done “just in time”.
 Each modification is done on the fly, without any cron. GLPI is the service provider, and the directory is the identity provider.
