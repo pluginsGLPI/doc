@@ -18,7 +18,7 @@ Install the plugin
 
 -  Go to the marketplace. Download and install the plugin “**Credit**”.
 
-.. figure:: iamges/Credit-1.png
+.. figure:: images/Credit-1.png
    :alt:
 
 Setting up the plugin
@@ -30,13 +30,13 @@ Creating a credit type
 -  From **setup > dropdowns**,
 -  - click on **credits** then **credit types**.
 
-.. figure:: iamges/Credit-2.png
+.. figure:: images/Credit-2.png
    :alt:
 
 -  Click on **add**.
 -  Enter a name representing the type of credit granted
 
-.. figure:: iamges/Credit-3.png
+.. figure:: images/Credit-3.png
    :alt:
 
 Add credit to customer entity(ies)
@@ -62,14 +62,14 @@ Example : “Case study for this article” We will create 3 types of credit:
 -  The authorisation to overconsume or not
 -  Click on **add**
 
-.. figure:: iamges/Credit-4.png
+.. figure:: images/Credit-4.png
    :alt:
 
 Here, we’ll do the same for the 3 types of credit (followup, task and solution)
 
 It is therefore possible to enter different values (number of credits, validity, overconsumption, etc.) for each credit:
 
-.. figure:: iamges/Credit-5.png
+.. figure:: images/Credit-5.png
    :alt:
 
 Define default values
@@ -79,7 +79,7 @@ Define default values
 -  Go to the **credit** section
 -  In the **default options for entity** section
 -  Select the type of credit by action
-  .. figure:: iamges/Credit-6.png
+  .. figure:: images/Credit-6.png
    :alt:
 
 -  Click on **update**
@@ -96,21 +96,21 @@ corresponding credits.
 In our example, we have chosen to deduct each action.
 
 -  If we are doing a **follow-up**, we can deduct the credit assigned by default:
-.. figure:: iamges/Credit-7.png
+.. figure:: images/Credit-7.png
    :alt:
 
 -  The same for a **task**:
-.. figure:: iamges/Credit-8.png
+.. figure:: images/Credit-8.png
    :alt:
 
 -  And for a **solution** :
-.. figure:: iamges/Credit-9.png
+.. figure:: images/Credit-9.png
    :alt:
 
 In the **credit** section of the tikcet you can see a summary of
 credits spent and remaining
 
-.. figure:: iamges/Credit-10.png
+.. figure:: images/Credit-10.png
    :alt:
 
 Modify a credit on a ticket
@@ -130,7 +130,7 @@ You can modify credits on a ticket if a readjustment is necessary.
 
 .. note::
    See how to proceed”
-   .. figure:: iamges/Credit-11.gif
+   .. figure:: images/Credit-11.gif
       :alt:
 
 Delete deducted credits
@@ -144,7 +144,7 @@ Delete deducted credits
 
 .. note::
    See how to proceed”
-      .. figure:: iamges/Credit-12.gif
+      .. figure:: images/Credit-12.gif
       :alt:
 
 Credits will be automatically reallocated in the credit bank
@@ -161,7 +161,7 @@ An automatic action is available to notify you when a credit has expired.
 
 -  From **setup > automatic actions**, modify the **creditexpired** action to suit your needs.
 -  Click on **save**
-.. figure:: iamges/Credit-13.png
+.. figure:: images/Credit-13.png
    :alt:
 
 You can of course customise the notification to suit your needs (**setup> notifications > notifications > credit expired**)
