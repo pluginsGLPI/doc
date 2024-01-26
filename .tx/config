@@ -120,7 +120,68 @@ file_filter = source/locale/<lang>/LC_MESSAGES/formcreator/targets.po
 source_file = build/locale/formcreator/targets.pot
 source_lang = en
 
-[o:teclib:p:glpi-plugins-documentation:r:oauthimap]
+[o:teclib:p:glpi-plugins-documentation:r:oauthimap--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/oauthimap/index.po
 source_file = build/locale/oauthimap/index.pot
 source_lang = en
+
+[o:teclib:p:glpi-plugins-documentation:r:advanceddashboard--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/advanceddashboard/index.po
+source_file = build/locale/advanceddashboard/index.pot
+source_lang = en
+
+[o:teclib:p:glpi-plugins-documentation:r:anonymize--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/anonymize/index.po
+source_file = build/locale/anonymize/index.pot
+source_lang = en
+
+[o:teclib:p:glpi-plugins-documentation:r:approbalbymail--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/approbalbymail/index.po
+source_file = build/locale/approbalbymail/index.pot
+source_lang = en
+
+[o:teclib:p:glpi-plugins-documentation:r:branding--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/branding/index.po
+source_file = build/locale/branding/index.pot
+source_lang = en
+
+[o:teclib:p:glpi-plugins-documentation:r:centreon--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/centreon/index.po
+source_file = build/locale/centreon/index.pot
+source_lang = en
+
+[o:teclib:p:glpi-plugins-documentation:r:GDPR--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/GDPR/index.po
+source_file = build/locale/GDPR/index.pot
+source_lang = en
+
+[o:teclib:p:glpi-plugins-documentation:r:holidays--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/holidays/index.po
+source_file = build/locale/holidays/index.pot
+source_lang = en
+
+[o:teclib:p:glpi-plugins-documentation:r:ldaptools--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/ldaptools/index.po
+source_file = build/locale/ldaptools/index.pot
+source_lang = en
+
+[o:teclib:p:glpi-plugins-documentation:r:scim--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/scim/index.po
+source_file = build/locale/scim/index.pot
+source_lang = en
+
+[o:teclib:p:glpi-plugins-documentation:r:scim--azure]
+file_filter = source/locale/<lang>/LC_MESSAGES/scim/azure.po
+source_file = build/locale/scim/azure.pot
+source_lang = en
+
+[o:teclib:p:glpi-plugins-documentation:r:scim--okta]
+file_filter = source/locale/<lang>/LC_MESSAGES/scim/okta.po
+source_file = build/locale/scim/okta.pot
+source_lang = en
+
+[o:teclib:p:glpi-plugins-documentation:r:translate--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/translate/index.po
+source_file = build/locale/translate/index.pot
+source_lang = en
+
