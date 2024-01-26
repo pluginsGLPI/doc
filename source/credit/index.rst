@@ -28,7 +28,7 @@ Creating a credit type
 ~~~~~~~~~~~~~~~~~~~~~~
 
 -  From **setup > dropdowns**,
--  - click on **credits** then **credit types**.
+-  click on **credits** then **credit types**.
 
 .. figure:: images/Credit-2.png
    :alt:
@@ -126,12 +126,12 @@ You can modify credits on a ticket if a readjustment is necessary.
 -  Click on **actions**
 -  Click on **modify**
 -  Click on **quantity consumed** then add the desired quantity
--  Click on **send**.
+-  Click on **send**
 
 .. note::
-   See how to proceed”
-   .. figure:: images/Credit-11.gif
-      :alt:
+   See how to proceed
+      .. figure:: images/Credit-11.gif
+         :alt:
 
 Delete deducted credits
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -139,13 +139,13 @@ Delete deducted credits
 -  From the ticket in question, go to the **credit** section
 -  Select the credit you wish to delete
 -  Click on **actions**
--  Click on **delete permanently**.
--  Click on **send**.
+-  Click on **delete permanently**
+-  Click on **send**
 
 .. note::
-   See how to proceed”
+   See how to proceed
       .. figure:: images/Credit-12.gif
-      :alt:
+         :alt:
 
 Credits will be automatically reallocated in the credit bank
 
