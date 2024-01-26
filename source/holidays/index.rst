@@ -1,0 +1,53 @@
+Holidays
+========
+
+Requirements (on-premise)
+-------------------------
+
+============ =========== ===========
+GLPI Version Minimum PHP Recommanded
+============ =========== ===========
+10.0.x       8.1         8.2
+============ =========== ===========
+
+.. note:: A `basic license <https://services.glpi-network.com/#offers>`__ (or higher) is required. This plugin is also available from the `Cloud <https://glpi-network.cloud/fr/>`__.
+
+-  Go to the marketplace. Download and install the **Holiday** plugin.
+
+.. figure:: images/Holiday-1.png
+   :alt:
+
+Set up the plugin
+-----------------
+
+-  From **setup > general**, in the **holiday** tab, enter :
+
+   -  the **country** concerned
+   -  the **number of years to insert**
+   -  **Clean all previous holidays** or not
+   -  then click on **insert holiday dates**
+
+.. figure:: images/Holiday-2.png
+   :alt:
+
+Delete a holiday date/period
+----------------------------
+
+The list of holiday days can be viewed and modified
+
+-  From **setup > dropdowns**,
+-  enter **closing** and click on **closing times**
+
+.. figure:: images/Holiday-3.png
+   :alt:
+
+The list of days appears. Let’s assume that the company considers that
+Easter Monday is not a day off.
+
+-  In the search box, enter **Easter** then **search**
+-  Select all the entries
+-  Click on **actions**
+-  Delete permanently
+
+.. figure:: images/Holiday-5.gif
+   :alt:
