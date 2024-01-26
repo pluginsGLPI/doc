@@ -26,7 +26,7 @@ be functional, it needs some initial configuration.
 
    .. Danger::
       Be careful because this option is subject to identity theft. If your application is open to users other than your own, it is possible that one user could be merged with another.
-      For example, **john.doe@mondomaine.fr** has a namesake but a different email address **john.doe@unautredomaine.fr**. By deleting the domain, the 2 records will be merged and the John Does will have the same account.
+      For example, **john.doe@mydomain.com** has a namesake but a different email address **john.doe@anotherdomain.com**. By deleting the domain, the 2 records will be merged and the John Does will have the same account.
 
 The users who are going to authenticate themselves will not be known to GLPI, so it is necessary to populate certain fields to create their record in GLPI with a minimum of information.
 
@@ -46,8 +46,9 @@ The fields that can be retrieved by SSO are as follows:
 
 -  Save your configuration
 
-You must also activate the automatic addition of users in GLPI to create them in GLPI at the time of authentication. 
-- In the **Configuration > Authentication>  Configuration** menu 
+You must also activate the automatic addition of users in GLPI to create them in GLPI at the time of authentication
+
+- In the **Setup > Authentication > Setup** menu
 - The **Automatically add users from external authentication sources** field must be changed to **Yes**.
 
 .. figure:: images/oauhtsso-4.png
@@ -100,7 +101,10 @@ Claims
 .. Warning::
    If you are using **SSO V2**, an additional step is required. The **claims** on the Entra side **must be entered manually** and should preferably be of type **ID**.
 
-- In the **Token configuration** tab, click on **Add an optional claim **and add the 4 claims below:
+- In the **Token configuration** tab, click on **Add an optional claim** and add the 4 claims below:
+
+.. figure:: images/oauth-Entra-7.png
+   :alt:
 
 OAuth configuration on GLPI side
 --------------------------------
@@ -113,12 +117,6 @@ OAuth configuration on GLPI side
 -  Specify an application **name** visible to end users.
 
 .. figure:: images/oauth-Entra-4bis.png
-   :alt:
-
--  Entra AD provides a description with the essential information you
-   need:
-
-.. figure:: images/oauth-Entra-6.png
    :alt:
 
 Copy the values from the fields above:
