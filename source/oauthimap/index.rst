@@ -91,7 +91,7 @@ setup GLPI
 .. figure:: images/oauth-imap-8.png
    :alt:
 
--  When you click on :ti-add:**create authorization**, you will be redirected to the Microsoft services sign-in page
+-  When you click on :ti-add:**Create authorization**, you will be redirected to the Microsoft services sign-in page
 -  Enter the email address and password of the account that will be used for the collector
 -  You will also need to accept the necessary permissions related to the plugin.
 
