@@ -36,7 +36,7 @@ Setting up the plugin
 
 -  From **Setup > Dropdowns**
 -  Click on **Tag management**
--  Then **tags**
+-  Then **Tags**
 
 .. figure:: images/Tags-2.png
    :alt:
