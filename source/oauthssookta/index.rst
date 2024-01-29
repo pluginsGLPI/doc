@@ -90,16 +90,14 @@ in OKTA
 
 5 : Specify the ID field to be mapped with OKTA
 
-6 : Specify the customer secret available in OKTA in the previously
-created application
+6 : Specify the customer secret available in OKTA in the previously created application
 
 .. figure:: images/okta-11.png
    :alt:
 
-7 : Enter the name of your OKTA instance (https://XXXXXXXXX.okta.com),
-available in the account creation confirmation e-mail.
+7 : Enter the name of your OKTA instance (https://XXXXXXXXX.okta.com), available in the account creation confirmation e-mail.
 
--  Cliquez sur  **ajouter** . Dans le plugin, pour verrez le message d’approbation :
+- Click on **add** . In the plugin, you will see the approval message:
 
 .. figure:: images/okta-12.png
    :alt:
