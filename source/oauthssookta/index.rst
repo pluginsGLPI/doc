@@ -10,6 +10,9 @@ GLPI Version Minimum PHP Recommanded
 10.0.x       8.1         8.2
 ============ =========== ===========
 
+.. note::
+   A `basic licence <https://services.glpi-network.com/#offers>`__ (or higher) is required. This plugin is also available from the `Cloud <https://glpi-network.cloud/>`__.
+
 Since the 1.9.0 update of the oauthsso plugin, OKTA integration is now possible. Here are the steps to follow to configure it correctly.
 
 .. figure:: images/okta-1.png
