@@ -119,8 +119,8 @@ From the home page, the new Oauth SSO login option will be visible:
    :alt:
 
 .. note::
-   Access authorisation” The first time a user logs on, they will be asked to accept access authorisations for their profile
+   Access authorisation The first time a user logs on, they will be asked to accept access authorisations for their profile
 
 .. [1]
-   the identifier field will be the user’s login. **Google user Id** represents the unique value for each user generated when the user is created.
+   The identifier field will be the user’s login. **Google user Id** represents the unique value for each user generated when the user is created.
 
