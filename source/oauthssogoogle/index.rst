@@ -74,13 +74,13 @@ Setting up Oauth access
 Setting up ID and credentials
 -----------------------------
 
--  From the **credentials** menu
--  click on **create credentials** and then **Oauth client ID**
+-  From the **Credentials** menu
+-  click on **Create credentials** and then **Oauth client ID**
 
    .. figure:: images/oauth-sso-google-7.png
       :alt:
 
--  Select the type of application **web application**
+-  Select the type of application **Web application**
 -  Enter an application name
 -  In the **Authorized redirect URIs** section, enter the GLPI **callback URL**
 
@@ -89,7 +89,7 @@ Setting up ID and credentials
    .. figure:: images/oauth-sso-google-.gif
    :alt:
 
--  Click on **create**
+-  Click on **Create**
 
 -  A page appears with the identifier values. **Keep this information**
    as it will be requested in GLPI.
