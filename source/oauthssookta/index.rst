@@ -49,7 +49,7 @@ Create your application
 .. figure:: images/okta-4.png
    :alt:
 
--  Sélect option  **OIDC – OpenID Connect**  in the 1st insert and **Web Application**  in the second and click on  **next** .
+-  Select option  **OIDC – OpenID Connect**  in the 1st insert and **Web Application**  in the second and click on  **Next** .
 
 .. figure:: images/okta-5.png
    :alt:
