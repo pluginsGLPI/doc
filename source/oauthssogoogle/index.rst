@@ -54,7 +54,7 @@ Setting up Oauth access
    :alt:
 
 -  select the type of access that will be granted to the application (internal or external users)
--  Then click on **create**
+-  Then click on **Create**
 
 .. figure:: images/oauth-sso-google-5.png
    :alt:
