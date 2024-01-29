@@ -51,4 +51,5 @@ You'll find here user documentation for various `GLPI <http://glpi-project.org>`
    GDPR/index
    ldaptools/index
    scim/index
+   splitcat/index
    translate/index
