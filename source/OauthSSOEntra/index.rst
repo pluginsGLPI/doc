@@ -121,7 +121,7 @@ OAuth configuration on GLPI side
 
 Copy the values from the fields above:
 
-- Application ID,
+- Application ID
 - The holder ID
 - The **value** of the secret copied in the previous step
 
