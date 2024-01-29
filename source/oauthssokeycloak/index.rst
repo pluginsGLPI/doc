@@ -58,7 +58,9 @@ Setup credentials
 .. figure:: images/keycloak-5.png
    :alt:
 
-Configure the user password, taking care to indicate that the password is not temporary. Click on “save” then **save password**
+Configure the user password, taking care to indicate that the password is not temporary
+- Click on **save**
+- Then **save password**
 
 .. figure:: images/keycloak-6.png
    :alt:
