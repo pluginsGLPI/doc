@@ -5,7 +5,7 @@ Requirements (on-premise)
 -------------------------
 
 ============ =========== ===========
-GLPI Version Minimum PHP Recommanded
+GLPI Version Minimum PHP Recommended
 ============ =========== ===========
 10.0.x       8.1         8.2
 ============ =========== ===========
