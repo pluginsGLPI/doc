@@ -52,3 +52,4 @@ You'll find here user documentation for various `GLPI <http://glpi-project.org>`
    ldaptools/index
    scim/index
    translate/index
+   unread/index
