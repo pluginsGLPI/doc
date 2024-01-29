@@ -10,6 +10,9 @@ GLPI Version Minimum PHP Recommanded
 10.0.x       8.1         8.2
 ============ =========== ===========
 
+.. note::
+   A `basic licence <https://services.glpi-network.com/#offers>`__ (or higher) is required. This plugin is also available from the `Cloud <https://glpi-network.cloud/>`__.
+
 Create application Keycloak
 ---------------------------
 
