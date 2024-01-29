@@ -26,7 +26,7 @@ Download the plugin
 Add a new application
 ~~~~~~~~~~~~~~~~~~~~~
 
--  Navigate to the **setup > Oauth SSO applications**
+-  Navigate to the **Setup > Oauth SSO applications**
 -  Click on **add**
 
 .. figure:: images/okta-2.png
