@@ -75,7 +75,7 @@ You can add business rules (tickets, computers, etc.) to add tags to particular 
 
 Example : Assign a VIP tag when a member of the management group writes a ticket.
 
--  Here are the criteria to be implemented from **Administration > Rules >  Business rules for tickets**
+-  Here are the criteria to be implemented from **Administration > Rules > Business rules for tickets**
 
 .. figure:: images/Tags-4.png
    :alt:
