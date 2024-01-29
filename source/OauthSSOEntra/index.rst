@@ -91,7 +91,7 @@ Secret and certificate
    :alt:
 
 .. Danger::
-   When you click on **add**, **the secret will only be available once**. As soon as you leave this page, **the secret will be hidden** and we will no longer be able to access it. Remember to **store it in a safe place** as we will need it later.
+   When you click on **Add**, **the secret will only be available once**. As soon as you leave this page, **the secret will be hidden** and we will no longer be able to access it. Remember to **store it in a safe place** as we will need it later.
    .. figure:: images/oauth-Entra-5bis.png
    :alt:
 
