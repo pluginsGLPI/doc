@@ -84,7 +84,7 @@ Setting up ID and credentials
 -  Enter an application name
 -  In the **Authorized redirect URIs** section, enter the GLPI **callback URL**
 
-.. Tip::
+.. tip::
    Where can I find my callback URL?
    .. figure:: images/oauth-sso-google-.gif
    :alt:
@@ -118,8 +118,8 @@ From the home page, the new Oauth SSO login option will be visible:
 .. figure:: images/oauth-sso-google-11.png
    :alt:
 
-.. info::
-  Access authorisation” The first time a user logs on, they will be asked to accept access authorisations for their profile
+.. note::
+   Access authorisation” The first time a user logs on, they will be asked to accept access authorisations for their profile
 
 .. [1]
    the identifier field will be the user’s login. **Google user Id** represents the unique value for each user generated when the user is created.
