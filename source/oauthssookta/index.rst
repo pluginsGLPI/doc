@@ -27,7 +27,7 @@ Add a new application
 ~~~~~~~~~~~~~~~~~~~~~
 
 -  Navigate to the **Setup > Oauth SSO applications**
--  Click on **add**
+-  Click on **Add**
 
 .. figure:: images/okta-2.png
    :alt:
