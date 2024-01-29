@@ -126,7 +126,7 @@ Copy the values from the fields above:
 - The **value** of the secret copied in the previous step
 
 .. Warning::
-   Please check that the **value** of the secret is filled in correctly.If the ID of the secret is copied, your application will fall into error.
+   Please check that the **value** of the secret is filled in correctly. If the ID of the secret is copied, your application will fall into error.
 
 API authorisations
 ''''''''''''''''''
