@@ -195,6 +195,12 @@ source_file = build/locale/ldaptools/index.pot
 source_lang = en
 type = PO
 
+[o:teclib:p:glpi-plugins-documentation:r:moresatisfaction--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/moresatisfaction/index.po
+source_file = build/locale/moresatisfaction/index.pot
+source_lang = en
+type = PO
+
 [o:teclib:p:glpi-plugins-documentation:r:scim--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/scim/index.po
 source_file = build/locale/scim/index.pot
