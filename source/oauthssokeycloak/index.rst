@@ -126,9 +126,13 @@ Add your new OAuth SSO
    :alt:
 
 1: Give your provider a name, which will appear on the login page for users
+
 2: Activate this plugin so that it is visible and usable on the login page
+
 3: Choose Keycloak as your Oauth provider
+
 4: Enter the client name set above
+
 5: Retrieve client secret from Keycloak (client, client_name, credentials)
 
 .. figure:: images/keycloak-13.png
