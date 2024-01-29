@@ -54,7 +54,7 @@ Create your application
 .. figure:: images/okta-5.png
    :alt:
 
--  Enter an application name and check the box  **client credentials**
+-  Enter an application name and check the box  **Client credentials**
 
 .. figure:: images/okta-6.png
    :alt:
