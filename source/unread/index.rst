@@ -86,7 +86,7 @@ Management by entity
 Management by entity is possible to manage the counting of notifications by entity.
 
 - Go to **administration > entities**, and select the desired entity.
-- In the **unread messages** tab, select the option that suits you so that unread messages behave differently to the parent entity. |Alt text|
+- In the **unread messages** tab, select the option that suits you so that unread messages behave differently to the parent entity.
 .. figure:: images/Unread-5.png
    :alt:
 
