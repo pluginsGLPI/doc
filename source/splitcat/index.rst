@@ -17,7 +17,7 @@ GLPI Version Minimum PHP Recommended
 Download the plugin
 -------------------
 
--  From the marketplace (**setup > plugins**), download the **Splitcat** plugin
+-  From the marketplace (**Setup > Plugins**), download the **Splitcat** plugin
 
 .. figure:: images/Splitcat-1.png
    :alt:
