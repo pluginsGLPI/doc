@@ -17,7 +17,7 @@ GLPI Version Minimum PHP Recommended
 Install the OAuth SSO application
 ---------------------------------
 
--  From **setup > plugins**
+-  From **Setup > Plugins**
 -  Install **Oauth SSO**
 
 .. figure:: images/oauth-sso-google.png
