@@ -100,18 +100,18 @@ Setting up ID and credentials
 Setting up GLPI
 ---------------
 
--  From **setup > Oauth SSO applications**
--  Click on **add**
+-  From **Setup > Oauth SSO applications**
+-  Click on **Add**
 -  Select **Google** in the **Oauth provider** field
 -  Select the icon that will be visible on the home page
--  Enter the **client ID** (number 1 on the previous screenshot)
--  Enter the **client secret** (numbered 2 on the previous screenshot)
--  Enter the **field user ID**  [1]_
+-  Enter the **Client ID** (number 1 on the previous screenshot)
+-  Enter the **Client secret** (numbered 2 on the previous screenshot)
+-  Enter the **Field user ID**  [1]_
 
    .. figure:: images/oauth-sso-google-10.png
       :alt:
 
--  Click on **add**
+-  Click on **Add**
 
 From the home page, the new Oauth SSO login option will be visible:
 
