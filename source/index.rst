@@ -46,6 +46,7 @@ You'll find here user documentation for various `GLPI <http://glpi-project.org>`
    advanceddashboard/index
    anonymize/index
    approbalbymail/index
+   oauthssookta/index
    branding/index
    ldaptools/index
    scim/index
