@@ -5,7 +5,7 @@ Requirements (on-premise)
 -------------------------
 
 ============ =========== ===========
-GLPI Version Minimum PHP Recommanded
+GLPI Version Minimum PHP Recommended
 ============ =========== ===========
 10.0.x       8.1         8.2
 ============ =========== ===========
@@ -24,7 +24,7 @@ Install the plugin
 Set up the plugin
 -----------------
 
--  From **setup > general > print to pdf**, select :
+-  From **Setup > General > Print to pdf**, select :
 
    -  your preferred currency
    -  Any text that will be displayed on the PDF.
@@ -39,8 +39,8 @@ Using the plugin
    Printing a contract and its related elements
 
 -  From **Management > Contracts**, select the contract you require
--  From the **print pdf** tab
--  Click on **print**
+-  From the **Print pdf** tab
+-  Click on **Print**
 
 .. figure:: images/PDF-3.png
    :alt:
