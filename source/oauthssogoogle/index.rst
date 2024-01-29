@@ -59,16 +59,16 @@ Setting up Oauth access
 .. figure:: images/oauth-sso-google-5.png
    :alt:
 
--  Enter (as a minimum) a name for the application, an email address for application support and the developer’s email address (this information is compulsory)
--  Click on **save and continue**
--  In the **scope** section, click on **add or remove application fields**
+-  Enter (as a minimum) a name for the application, an email address for application support and the developer’s email address (this information is required)
+-  Click on **Save and continue**
+-  In the **Scope** section, click on **Add or remove application fields**
 -  Add **auth/userinfo.email** **auth/userinfo.profile** and **openid**
 
 .. figure:: images/oauth-sso-google-6.png
    :alt:
 
--  Click on **update**
--  Then **save and continue**
+-  Click on **Update**
+-  Then **Save and continue**
 
 
 Setting up ID and credentials
