@@ -32,7 +32,7 @@ Add a new application
 .. figure:: images/okta-2.png
    :alt:
 
--  Keep this window active and retain the callback URL :
+-  Keep this window active and retain the callback URL:
 
 .. figure:: images/okta-3.png
    :alt:
