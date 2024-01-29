@@ -1,5 +1,5 @@
 LDAP Tools
-----------
+==========
 
 Requirements (on-premise)
 -------------------------
