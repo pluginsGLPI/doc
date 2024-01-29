@@ -10,6 +10,12 @@ GLPI Version Minimum PHP Recommanded
 10.0.x       8.1         8.2
 ============ =========== ===========
 
+Create application Keycloak
+---------------------------
+
+Create REALM
+~~~~~~~~~~~~
+
 Since the 1.9.0 update of the oauthsso plugin, Keycloak integration is now possible. Here are the steps to follow to configure it correctly (this procedure was carried out using a test infrastructure. For production use, please refer to the official KeyCloak documentation
 https://www.keycloak.org/guides#server).
 
@@ -28,17 +34,26 @@ http://XXXXXXXXXX:8080/admin or https://XXXXXXXXXX:8080/admin
 .. figure:: images/keycloak-2.png
    :alt:
 
--  Then go to the “**Users**” tab, then “**create new user**” (we’ll use a local user, but you can synchronize your LDAP if necessary)
+Create a user
+~~~~~~~~~~~~
+
+-  Then go to the **Users** tab
+-  **create new user** (we’ll use a local user, but you can synchronize your LDAP if necessary)
 
 .. figure:: images/keycloak-3.png
    :alt:
 
--  Create your user according to your needs, remembering to check the Email verified box. Click on **Create** once you’ve entered your details
+-  Create your user according to your needs, remembering to check the Email verified box
+-  Click on **Create** once you’ve entered your details
 
 .. figure:: images/keycloak-4.png
    :alt:
 
--  Stay in your user file and click on **credentials**, then **set pasword**
+Setup credentials
+~~~~~~~~~~~~~~~~~
+
+-  Stay in your user file and click on **credentials**
+-  then **set pasword**
 
 .. figure:: images/keycloak-5.png
    :alt:
@@ -47,6 +62,9 @@ Configure the user password, taking care to indicate that the password is not te
 
 .. figure:: images/keycloak-6.png
    :alt:
+
+Check your configuration
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can check that your configuration is correct by logging on to the user account console:
 
@@ -57,7 +75,11 @@ https://XXXXXXXXXXX/realms/GLPI/account/#/
 
 You will then be able to connect to the record of the previously created user or one of your LDAP users.
 
-Now we can register our GLPI application with Keycloak.
+Add an application
+~~~~~~~~~~~~~~~~~~
+
+Now we can register our GLPI application with Keycloak
+
 - Go to **clients**
 - Then “create **client**
 
@@ -73,10 +95,20 @@ Now we can register our GLPI application with Keycloak.
 .. figure:: images/keycloak-8.png
    :alt:
 
+Setup GLPI
+----------
+
+Download the plugin
+~~~~~~~~~~~~~~~~~~~
+
 - Go to GLPI and download the Oauthsso plugin if you haven’t already done so.
 
 .. figure:: images/keycloak-9.png
    :alt:
+
+
+Add your new OAuth SSO
+~~~~~~~~~~~~~~~~~~~~~~
 
 - In **configuration > Oauth SSO applications** click on add (at the top of your screen)
 
@@ -93,7 +125,7 @@ Now we can register our GLPI application with Keycloak.
 .. figure:: images/keycloak-12.png
    :alt:
 
-1 : Give your provider a name, which will appear on the login page for users
+1: Give your provider a name, which will appear on the login page for users
 
 2: Activate this plugin so that it is visible and usable on the login page
 
@@ -101,7 +133,7 @@ Now we can register our GLPI application with Keycloak.
 
 4: Enter the client name set above
 
-5 : Retrieve client secret from Keycloak (client, client_name, credentials)
+5: Retrieve client secret from Keycloak (client, client_name, credentials)
 
 .. figure:: images/keycloak-13.png
    :alt:
@@ -128,7 +160,5 @@ Now that configuration is complete, you can test the connection with the user yo
 References
 ----------
 
-`Documentation “Oauth SSO client for
-GLPI” <https://services.glpi-network.com/documentation/1731/file/README.md>`__
-`Documentation Keycloak “Manage OpenID Connect and SAML
-clients” <https://www.keycloak.org/docs/latest/server_admin/#_oidc_clients>`__
+- `Documentation “Oauth SSO client for GLPI” <https://services.glpi-network.com/documentation/1731/file/README.md>`__
+- `Documentation Keycloak “Manage OpenID Connect and SAML clients” <https://www.keycloak.org/docs/latest/server_admin/#_oidc_clients>`__
