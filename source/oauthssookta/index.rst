@@ -65,7 +65,7 @@ Create your application
    :alt:
 
 -  In the last box, select the option that suits you best (here we authorize all users present in OKTA)
--  Finally, click on  **save**
+-  Finally, click on  **Save**
 
 .. figure:: images/okta-8.png
    :alt:
