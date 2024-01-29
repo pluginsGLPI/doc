@@ -100,7 +100,7 @@ in OKTA
 
 7 : Enter the name of your OKTA instance (https://XXXXXXXXX.okta.com), available in the account creation confirmation e-mail.
 
-- Click on **add** . In the plugin, you will see the approval message:
+- Click on **Add** . In the plugin, you will see the approval message:
 
 .. figure:: images/okta-12.png
    :alt:
