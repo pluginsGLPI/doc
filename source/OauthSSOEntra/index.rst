@@ -85,7 +85,7 @@ First, register your application with your Entra Active Directory (Entra AD) cli
 Secret and certificate
 ~~~~~~~~~~~~~~~~~~~~~~
 
--  In the **certificates and secrets** tab, create a new secret that will need to be transferred to your Oauth SSO application on the GLPI side:
+-  In the **Certificates and secrets** tab, create a new secret that will need to be transferred to your Oauth SSO application on the GLPI side:
 
 .. figure:: images/oauth-Entra-5.png
    :alt:
