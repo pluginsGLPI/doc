@@ -48,6 +48,7 @@ You'll find here user documentation for various `GLPI <http://glpi-project.org>`
    anonymize/index
    approbalbymail/index
    branding/index
+   webhook/index
    holidays/index
    GDPR/index
    ldaptools/index
