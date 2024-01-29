@@ -1,67 +1,94 @@
 Tag
 ===
 
-* Sources link: https://github.com/pluginsGLPI/tag
-* Download: https://github.com/pluginsGLPI/tag/releases
+Requirements (on-premise)
+-------------------------
 
-Requirements for latest version
--------------------------------
-
-This plugin requires :
-
-* PHP 7.2 or higher
-* GLPI >= 9.4
+============ =========== ===========
+GLPI Version Minimum PHP Recommended
+============ =========== ===========
+10.0.x       8.1         8.2
+============ =========== ===========
 
 
-Features
---------
-
-* Add tags on every GLPI item type (which extends CommonDBTM)
-* Add tags on FusionInventory Task (plugin fusioninventory)
-* Add tags on Appliance (plugin appliance)
-* Manage tag from labels
-* Tags are displayed and editable in the object form header (just below title)
-* You can search for tags and display them in objects lists
-* You can display a report from associated objects in administration
+.. note::
+   This plugin is available without a GLPI-Network subscription. It is also available in Cloud.
 
 
-Install the Plugin
+Sources
+-------
+
+- Sources link: https://github.com/pluginsGLPI/tag
+- Download: https://github.com/pluginsGLPI/tag/releases
+
+
+
+Install the plugin
 ------------------
-* Uncompress the archive.
-* Move the ``tag`` directory to the ``<GLPI_ROOT>/plugins`` directory
-* Navigate to the *Configuration > Plugins* page,
-* Install and activate the plugin.
 
-Usage
------
+-  Go to the marketplace. Download and install the plugin “**Tag**”.
 
-The plugin will create required tables in the database  automatically. Those tables will be updated along with the plugin.
+.. figure:: images/Tags-1.png
+   :alt:
 
-Plugin usage is quite simple:
+Setting up the plugin
+---------------------
 
-* Create tag
+-  From **Setup > Dropdowns**
+-  Click on **Tag management**
+-  Then **tags**
 
-You will access the create form from the *Setup* > *Plugins* > *tag*.
+.. figure:: images/Tags-2.png
+   :alt:
 
-Define ``name``, ``color``, ``sub-entities visibility`` and ``associated itemtype``
+-  Enter a name that will be visible when tags are added
+-  Enter a description (optional)
+-  Add a colour
+-  Associate one or more elements. If nothing is ticked, it will not be
+   visible in any element by default.
 
-.. image:: images/create.png
+.. figure:: images/Tags-3.png
+   :alt:
 
-* Use tag
+Choose where to find the tag
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-On associated itemtype, you can add tag previously created
+You can indicate whether the tag should be at the top or bottom of the
+list.
 
-.. image:: images/add_tag.png
+-  From **Setup > General > Tag management**, specify the tag location.
 
-* Search items by tag
+Bottom :
 
-You can easily find items with tag
+.. figure:: images/Tags-7.png
+   :alt:
 
-.. image:: images/search.png
+Top:
+
+.. figure:: images/Tags-8.png
+   :alt:
+
+Adding rules
+------------
+
+You can add business rules (tickets, computers, etc.) to add tags to particular items.
+
+Example : Assign a VIP tag when a member of the management group writes a ticket.
+
+-  Here are the criteria to be implemented from **Administration > Rules >  Business rules for tickets**
+
+.. figure:: images/Tags-4.png
+   :alt:
+
+.. figure:: images/Tags-5.png
+   :alt:
+
+-  After creating a ticket :
+
+.. figure:: images/Tags-6.png
+   :alt:
+
+.. note::
+    Tags can, of course, be added manually if they have been set to be visible in the specified item.
 
 
-* Get all items associated to tag
-
-Go to tag form, clic on tab "Associated items"
-
-.. image:: images/associated_item.png
