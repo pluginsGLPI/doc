@@ -34,6 +34,7 @@ You'll find here user documentation for various `GLPI <http://glpi-project.org>`
    news/index
    oauthimap/index
    order/index
+   pdf/index
    sccm/index
    treeview/index
    tag/index
