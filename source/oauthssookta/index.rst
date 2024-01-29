@@ -43,7 +43,7 @@ Setup OKTA
 Create your application
 ~~~~~~~~~~~~~~~~~~~~~
 
--  In your OKTA interface, go to  **applications**
+-  In your OKTA interface, go to  **Applications**
 -  Then  **Create App Integration**
 
 .. figure:: images/okta-4.png
