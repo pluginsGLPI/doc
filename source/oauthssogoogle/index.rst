@@ -84,7 +84,7 @@ Setting up ID and credentials
 -  Enter an application name
 -  In the **Authorized redirect URIs** section, enter the GLPI **callback URL**
 
-.. success::
+.. note::
    Where can I find my callback URL?
    .. figure:: images/oauth-sso-google-.gif
    :alt:
