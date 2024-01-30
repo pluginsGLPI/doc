@@ -25,13 +25,13 @@ Creating a project
 Setup Oauth access
 ~~~~~~~~~~~~~~~~~~~~~~~
 
--  From the :ti-menu-2: menu, click on **APIs & Services**
+-  From the menu, click on **APIs & Services**
 -  Then **OAuth consent screen**
 
    .. figure:: images/oauth-sso-google-4.png
       :alt:
 
--  select the type of access that will be granted to the application (internal or external users)
+-  Select the type of access that will be granted to the application (internal or external users)
 -  Then click on **Create**.
 
    .. figure:: images/oauth-sso-google-5.png

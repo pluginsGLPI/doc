@@ -46,6 +46,7 @@ The fields that can be retrieved by SSO are as follows:
 -  Save your configuration
 
 You must also activate the automatic addition of users in GLPI to create them in GLPI at the time of authentication
+
 - In the **Configuration > Authentication > Configuration** menu
 - The **Automatically add users from external authentication sources** field must be changed to **Yes**
 
