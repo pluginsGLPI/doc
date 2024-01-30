@@ -219,9 +219,20 @@ source_file = build/locale/translate/index.pot
 source_lang = en
 type = PO
 
+[o:teclib:p:glpi-plugins-documentation:r:pdf--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/pdf/index.po
+source_file = build/locale/pdf/index.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:webhook--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/webhook/index.po
+source_file = build/locale/webhook/index.pot
+source_lang = en
+type = PO
+
 [o:teclib:p:glpi-plugins-documentation:r:splitcat--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/splitcat/index.po
 source_file = build/locale/splitcat/index.pot
 source_lang = en
 type = PO
-
