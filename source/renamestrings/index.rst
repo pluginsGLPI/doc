@@ -11,8 +11,8 @@ GLPI Version Minimum PHP Recommanded
 ============ =========== ===========
 
 
-.. Info::
-   A `basic licence <https://services.glpi-network.com/#offers>`__ (or higher) is required. This plugin is also available from the `Cloud <https://glpi-network.cloud/fr/>`__.
+.. Note::
+   A `basic licence <https://services.glpi-network.com/#offers>`__ (or higher) is required. This plugin is also available from the `Cloud <https://glpi-network.cloud/fr/>`__
 
 Download the plugin
 -------------------
