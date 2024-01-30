@@ -73,7 +73,7 @@ Keep this page active, we’ll come back to it later.
    :alt:
 
 Setup GLPI
-----------
+~~~~~~~~~~
 
 - Go to GLPI
 - In **Setup > Oauth SSO applications click on add** (at the top of your screen)

@@ -1,5 +1,5 @@
 Entra
-=====
+-----
 
 Inscribe your application in Entra
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -79,7 +79,7 @@ Select :
 -  Then remember to save your changes.
 
 Setup GLPI
-----------
+~~~~~~~~~~
 
 -  Entra AD provides a description with the essential information you need:
 
@@ -101,7 +101,7 @@ Copy the values from the fields above:
    Please check that the **value** of the secret is filled in correctly.If the ID of the secret is copied, your application will fall into error.
 
 Explanation of ID field
-'''''''''''''''''''''''
+~~~~~~~~~~~~~~~~~~~~~~~
 
 -  3 values are available in this insert:
 

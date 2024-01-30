@@ -48,7 +48,7 @@ Assignments
    :alt:
 
 Setup GLPI
-----------
+~~~~~~~~~~
 
 -  In GLPI, go back to the Oauth SSO plugin configuration window and enter your OKTA tenant information :
 

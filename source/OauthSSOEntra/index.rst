@@ -1,8 +1,7 @@
 OAuth SSO
 =========
 
-Sources link
-------------
+Sources link :
 
 - `Documentation Oauth SSO client for GLPI <https://services.glpi-network.com/documentation/1731/file/README.md>`__
 - `Documentation Microsoft Configure your App Service Or Entra Functions app to use Entra AD login <https://learn.microsoft.com/en-us/Entra/app-service/configure-authentication-provider-aad?tabs=workforce-tenant>`__

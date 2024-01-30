@@ -77,7 +77,7 @@ ID settings
       :alt:
 
 Setup GLPI
----------------
+~~~~~~~~~~
 
 -  From **Setup > Oauth SSO applications**
 -  Click on **Add**
