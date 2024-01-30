@@ -56,3 +56,4 @@ You'll find here user documentation for various `GLPI <http://glpi-project.org>`
    scim/index
    splitcat/index
    translate/index
+   unread/index
