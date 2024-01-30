@@ -26,6 +26,7 @@ The plugin uses GLPI’s **External Authentication** functionality and to be fun
 
 .. Note::
    In the case of authentication via SSO, the option **Delete the domain of identifiers in the form identifier@domain** can be set to **Yes**, which will allow 2 user records to be merged if they are already present in the database (internal or LDAP(S)).
+
    .. warning::
       Be careful because this option is subject to identity theft. If your application is open to users other than your own, it is possible that one user could be merged with another.
       For example, **john.doe@mondomaine.fr** has a namesake but a different email address **john.doe@unautredomaine.fr**. By deleting the domain, the 2 records will be merged and the John Does will have the same account.
@@ -59,7 +60,7 @@ Entra
 -----
 
 Inscribe your application in Entra
-----------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 First, register your application with your Entra Active Directory (Entra AD) client. This will provide you with an application ID for your application and allow it to receive tokens.
 
@@ -87,7 +88,7 @@ First, register your application with your Entra Active Directory (Entra AD) cli
    :alt:
 
 Secret and certificate
-''''''''''''''''''''''
+~~~~~~~~~~~~~~~~~~~~~~
 
 -  In the **certificates and secrets** tab, create a new secret that will need to be transferred to your Oauth SSO application on the GLPI side:
 
@@ -100,7 +101,7 @@ Secret and certificate
    :alt:
 
 Claims
-''''''
+~~~~~~
 
 .. Warning::
    If you are using **SSO V2**, an additional step is required. The **claims** on the Entra side **must be entered manually** and should preferably be of type **ID**.
@@ -111,6 +112,29 @@ Claims
 
 .. figure:: images/oauth-Entra-7.png
    :alt:
+
+
+API authorisations
+~~~~~~~~~~~~~~~~~~
+
+GLPI must be able to read user information in order to use it for connection
+- In **API permissions**
+- Click on the API already present (Microsoft Graph for our example)
+
+.. figure:: images/oauth-Entra-12.png
+   :alt:
+
+.. figure:: images/oauth-Entra-13.png
+   :alt:
+
+Select :
+
+- email
+- offline_access
+- profile
+- user.read
+
+-  Then remember to save your changes.
 
 Setup GLPI
 ----------
@@ -133,28 +157,6 @@ Copy the values from the fields above:
 
 .. Warning::
    Please check that the **value** of the secret is filled in correctly.If the ID of the secret is copied, your application will fall into error.
-
-API authorisations
-''''''''''''''''''
-
-GLPI must be able to read user information in order to use it for connection
-- In **API permissions**
-- Click on the API already present (Microsoft Graph for our example)
-
-.. figure:: images/oauth-Entra-12.png
-   :alt:
-
-.. figure:: images/oauth-Entra-13.png
-   :alt:
-
-Select :
-
-- email
-- offline_access
-- profile
-- user.read
-
--  Then remember to save your changes.
 
 Explanation of ID field
 '''''''''''''''''''''''
@@ -179,7 +181,7 @@ Google
 ------
 
 Creating a project
-------------------
+~~~~~~~~~~~~~~~~~~
 
 -  From your `Google console <https://console.cloud.google.com/>`__ (administrator access is required)
 -  Go to your organisation then new project
@@ -199,8 +201,8 @@ Creating a project
    .. figure:: images/oauth-sso-google-3.png
       :alt:
 
-Setting up Oauth access
------------------------
+Setup Oauth access
+~~~~~~~~~~~~~~~~~~~~~~~
 
 -  From the :ti-menu-2: menu, click on **APIs & Services**
 -  Then **OAuth consent screen**
@@ -228,7 +230,7 @@ Setting up Oauth access
 -  Then **Save and continue**
 
 ID settings
-----------
+~~~~~~~~~~~
 
 -  From the **Credentials** menu
 -  Click on **Create credentials**
@@ -253,7 +255,7 @@ ID settings
    .. figure:: images/oauth-sso-google-9.png
       :alt:
 
-Setting up GLPI
+Setup GLPI
 ---------------
 
 -  From **Setup > Oauth SSO applications**
@@ -281,6 +283,9 @@ From the home page, the new Oauth SSO login option will be visible:
 Keycloak
 --------
 
+Create a REALM
+~~~~~~~~~~~~~~
+
 -  After installing keycloak, go to the admin console:
 
 http://XXXXXXXXXX:8080/admin or https://XXXXXXXXXX:8080/admin
@@ -292,6 +297,9 @@ http://XXXXXXXXXX:8080/admin or https://XXXXXXXXXX:8080/admin
 
 .. figure:: images/keycloak-2.png
    :alt:
+
+Create user
+~~~~~~~~~~~
 
 -  Then go to the **Users** tab
 -  Then **Create new user** (we’ll use a local user, but you can synchronize your LDAP if necessary)
@@ -326,6 +334,9 @@ https://XXXXXXXXXXX/realms/GLPI/account/#/
 
 You will then be able to connect to the record of the previously created user or one of your LDAP users.
 
+Create client
+~~~~~~~~~~~~~
+
 Now we can register our GLPI application with Keycloak
 
 - Go to **Clients**
@@ -343,11 +354,10 @@ Keep this page active, we’ll come back to it later.
 .. figure:: images/keycloak-8.png
    :alt:
 
-- Go to GLPI and download the Oauthsso plugin if you haven’t already done so.
+Setup GLPI
+----------
 
-.. figure:: images/keycloak-9.png
-   :alt:
-
+- Go to GLPI
 - In **Setup > Oauth SSO applications click on add** (at the top of your screen)
 
 .. figure:: images/keycloak-10.png
@@ -402,7 +412,10 @@ Now that configuration is complete, you can test the connection with the user yo
 OKTA
 ----
 
--  First, go to GLPI and download the Oauthsso plugin if you haven’t already done so
+Create application
+~~~~~~~~~~~~~~~~~~
+
+-  First, go to GLPI and download the Oauthsso plugin
 -  Navigate to the **Setup > Oauth SSO applications**
 -  Click on **Add**
 
@@ -436,11 +449,17 @@ OKTA
 .. figure:: images/okta-7.png
    :alt:
 
+Assignments
+~~~~~~~~~~~
+
 -  In the last box, select the option that suits you best (here we authorize all users present in OKTA)
 -  Finally, click on **Save**
 
 .. figure:: images/okta-8.png
    :alt:
+
+Setup GLPI
+----------
 
 -  In GLPI, go back to the Oauth SSO plugin configuration window and enter your OKTA tenant information :
 
@@ -520,7 +539,7 @@ References
 - `Documentation Oauth SSO client for GLPI <https://services.glpi-network.com/documentation/1731/file/README.md>`__
 - `Documentation Microsoft Configure your App Service Or Entra Functions app to use Entra AD login <https://learn.microsoft.com/en-us/Entra/app-service/configure-authentication-provider-aad?tabs=workforce-tenant>`__
 - `Documentation OKTA Configure single Sign-On options <https://help.okta.com/oie/en-us/content/topics/apps/apps_overview_of_managing_apps_and_sso.htm>`__
-- `Documentation Keycloak Managing OpenID connect Clients <https://www.keycloak.org/docs/latest/server_admin/#_oidc_clients>__`
+- `Documentation Keycloak Managing OpenID connect Clients <https://www.keycloak.org/docs/latest/server_admin/#_oidc_clients>`__
 
 .. [1]
    the identifier field will be the user’s login. **Google user Id** represents the unique value for each user generated when the user is created.
