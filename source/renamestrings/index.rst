@@ -30,7 +30,7 @@ Creating an override
 -  In the **Override** tab, click on **New override**.
 -  Select the value you wish to change from the drop-down list. You can search directly.
 
-We are going to change the value **computer** to **PC**
+We are going to change the value **Computer** to **PC**
 
 - Select computer and enter the singular and plural of the word to be changed in the corresponding fields.
 -  Click on **Save**
