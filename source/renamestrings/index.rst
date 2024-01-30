@@ -1,5 +1,5 @@
-Rename GLPI strings
-===================
+Rename strings
+=============
 
 Requirements (on-premise)
 -------------------------
