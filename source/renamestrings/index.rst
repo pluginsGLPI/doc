@@ -41,7 +41,7 @@ We are going to change the value **computer** to **PC**
 Show the change
 ---------------
 
-You may not see the change immediately. To make it appear, disconnect/reconnect.
+You may not see the change immediately. To make it appear, log out and then log back in.
 
 Before :
 
