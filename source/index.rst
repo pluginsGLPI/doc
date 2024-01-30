@@ -52,5 +52,6 @@ You'll find here user documentation for various `GLPI <http://glpi-project.org>`
    holidays/index
    GDPR/index
    ldaptools/index
+   renamestrings/index
    scim/index
    translate/index
