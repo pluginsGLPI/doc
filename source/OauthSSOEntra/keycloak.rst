@@ -91,11 +91,9 @@ Setup GLPI
 .. figure:: images/keycloak-12.png
    :alt:
 
-1. Give your provider a name, which will appear on the login page for
-users
+1. Give your provider a name, which will appear on the login page for users
 
-2. Activate this plugin so that it is visible and usable on the login
-page
+2. Activate this plugin so that it is visible and usable on the login page
 
 3. Choose Keycloak as your Oauth provider
 
@@ -106,10 +104,9 @@ page
 .. figure:: images/keycloak-13.png
    :alt:
 
-6: Enter the discovery URL:
-http://mondomaine/realms/monrealms/.well-known/openid-configuration.
+6. Enter the discovery URL: http://mondomaine/realms/monrealms/.well-known/openid-configuration.
 
-- Click on **add**
+- Click on **Add**
 
 In the plugin, to see the approval message:
 

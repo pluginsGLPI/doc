@@ -13,9 +13,9 @@ GLPI Version Minimum PHP Recommended
 External Authentication
 -----------------------
 
-The plugin uses GLPI’s **External Authentication** functionality and to be functional, it needs some initial configuration.
+The plugin uses GLPI’s **External Authentication** functionality and to be functional, it needs some initial Setup.
 
--  Go to **Configuration > Authentication > Other authentication methods**
+-  Go to **Setup > Authentication > Other authentication methods**
 -  In the **Other authentication transmitted in the HTTP request** section
 -  The **Storage fields for the identifier in the HTTP request** field must be defined, usually **HTTP_AUTH_USER**.
 -  The **Delete the domain from identifiers of the form identifier@domain** field can be set to **Yes** or **No**.
@@ -43,11 +43,11 @@ The fields that can be retrieved by SSO are as follows:
 .. figure:: images/oauhtsso-3.png
    :alt:
 
--  Save your configuration
+-  Save your Setup
 
 You must also activate the automatic addition of users in GLPI to create them in GLPI at the time of authentication
 
-- In the **Configuration > Authentication > Configuration** menu
+- In the **Setup > Authentication > Setup** menu
 - The **Automatically add users from external authentication sources** field must be changed to **Yes**
 
 .. figure:: images/oauhtsso-4.png

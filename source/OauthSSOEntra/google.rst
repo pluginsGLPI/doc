@@ -6,10 +6,6 @@ Creating a project
 
 -  From your `Google console <https://console.cloud.google.com/>`__ (administrator access is required)
 -  Go to your organisation then new project
-
-.. figure:: images/oauth-sso-google-1.png
-   :alt:
-
 -  Enter the name of your project
 -  Click on **Create**
 
