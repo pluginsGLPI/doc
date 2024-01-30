@@ -11,5 +11,5 @@ OAuth SSO
    keycloak
    rules
    force_sso
-   sources
+   source
 
