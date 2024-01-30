@@ -17,7 +17,7 @@ GLPI Version Minimum PHP Recommended
 Download the plugin
 -------------------
 
--  Go to **marketplace**. Download and install the plugin **Rename GLPI strings**
+-  Go to **Marketplace**. Download and install the plugin **Rename GLPI strings**
 
 .. figure:: images/Rename_strings-1.png
    :alt:
