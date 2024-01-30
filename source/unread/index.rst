@@ -58,7 +58,7 @@ Display notifications
 Header
 ~~~~~~
 
-When a new activity has not yet been viewed, a :bell::point-filled: sign appears:
+When a new activity has not yet been viewed, a :bell::point-filled: icon appears:
 
 .. figure:: images/Unread-2.png
    :alt:
@@ -75,7 +75,7 @@ indicator :
 Ticket timeline
 ~~~~~~~~~~~~~~~
 
-New messages will be identified by a banner **new messages**.
+New messages will be identified by a banner **New messages**.
 
 .. figure:: images/Unread-4.png
    :alt:
@@ -85,8 +85,8 @@ Management by entity
 
 Management by entity is possible to manage the counting of notifications by entity.
 
-- Go to **administration > entities**, and select the desired entity.
-- In the **unread messages** tab, select the option that suits you so that unread messages behave differently to the parent entity.
+- Go to **Administration > Entities**, and select the desired entity.
+- In the **Unread messages** tab, select the option that suits you so that unread messages behave differently to the parent entity.
 .. figure:: images/Unread-5.png
    :alt:
 
