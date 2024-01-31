@@ -1,5 +1,5 @@
 Rename strings
-=============
+==============
 
 Requirements (on-premise)
 -------------------------

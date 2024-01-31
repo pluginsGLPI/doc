@@ -190,9 +190,11 @@ Set up the webhook in GLPI
 -  Click on **Add**
 
 .. Warning::
+
    For Telegram, you will need to re-enter the webhook and add the **chat_id** you selected earlier
+
    .. figure:: images/Webhook-18.png
-   :alt:
+      :alt:
 
 -  You can test how it works by selecting your webhook and clicking on **Send notification**
 
