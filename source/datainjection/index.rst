@@ -63,7 +63,7 @@ The first step allows you to choose the operation to be carried out, depending o
 Creating a template
 ~~~~~~~~~~~~~~~~~~~
 
-The 1st step is to create a template if none exists.
+The first step is to create a template if none exists.
 
 -  From **Tools >Data injection**
 -  Click on **Template**
