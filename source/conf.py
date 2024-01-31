@@ -35,7 +35,7 @@ import sphinx_glpi_theme
 extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.ifconfig',
-    'sphinx_toolbox',
+    'sphinx_toolbox.collapse',
 ]
 
 
