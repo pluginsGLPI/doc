@@ -1,2 +1,4 @@
 sphinx
 sphinx_glpi_theme
+
+python3 -m pip install sphinx-toolbox --user
