@@ -116,7 +116,7 @@ For each column, you can choose
 -  **Choose a table**: the data type defined in step 2 or the financial information
 -  **Choose a field**: which will be populated by the import
 -  **Link field**: to indicate that this column will be used to check the existence of the data in the database and to choose between creating a new object orupdate. Candidate fields are, for example, the
-   **serial number**, the **name** or the **inventory number**
+   **Serial number**, the **Name** or the **Inventory number**
 
 .. Warning::
    It is mandatory to define at least 1 linking field.If a field is ticked, it must be entered in your **csv** file used for importing.
