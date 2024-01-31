@@ -135,9 +135,9 @@ Additional information
 This step is used to define the fields that can/should be populated by the user when a file is injected.For each field, the same value will be used for each line of the file and will take precedence over the
 contents of the file.
 
--  **``Table``**: the data type defined in step **``Matching``**
--  **``Field``**: will be populated by the import
--  **``Mandatory information``**: whether model user input is mandatory or optional
+-  **Table**: the data type defined in step **Matching**
+-  **Field**: will be populated by the import
+-  **Mandatory information**: whether model user input is mandatory or optional
 
 Example of use :
 
@@ -160,7 +160,7 @@ options.
 
 .. Note::
    Some fields in your CSV file will need to be filled in as Booleans. This is the case, for example, with double-choice fields, such as: “Ports” (serial/parallel/USB) for printers. Instead of entering
-   **``Yes | No``** in your CSV, enter **``1 | 0``** as appropriate. If these values are not changed, you will see an error in the report indicating that the wrong type of data has been entered.
+   **Yes | No** in your CSV, enter **1 | 0** as appropriate. If these values are not changed, you will see an error in the report indicating that the wrong type of data has been entered.
 
 Using a template
 ----------------
@@ -179,8 +179,7 @@ Choosing a template
 Confirmation before import
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-A popup will ask you to confirm or not the import of the selected
-file.
+A popup will ask you to confirm or not the import of the selected file.
 
 Import result
 -------------
@@ -193,7 +192,9 @@ From this last stage, by clicking on the coloured circle, you can view a report 
 Complete the operation
 ----------------------
 
-A popup window will ask you whether or not you want to confirm the import of the selected file.Once the progress bar is full, click on **Terminated**
+A popup window will ask you whether or not you want to confirm the import of the selected file.
+Once the progress bar is full, click on **Finish**
 
 .. figure:: images/Datainjection-6.png
    :alt:
+
