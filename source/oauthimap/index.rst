@@ -1,59 +1,113 @@
-Oauth IMAP
+OAuth IMAP
 ==========
+
+.. note::
+   Microsoft is gradually removing the TLS 1.0 and 1.1 protocols for all Microsoft 365 applications. In order to keep your collector running, you need to add the **Oauth IMAP** plugin, which is available in the marketplace.
+
+.. tip::
+   The Oauth tokens for the collector, retrieved during authentication with Azure by the OauthIMAP plugin, are “offline” tokens that delegate authorisation to a third-party application (GLPI). These tokens provide a renewal code that will be used by the application to renew them automatically without user intervention. You will therefore not be asked to re-authenticate after the 1st authorisation request.
+
+Source and Download
+-------------------
 
 * Sources link: https://github.com/pluginsGLPI/oauthimap
 * Download: https://github.com/pluginsGLPI/oauthimap/releases
 
-Features
---------
+Requirements (on-premise)
+-------------------------
 
-This plugin supports Oauth connection for emails receivers.
+============ =========== ===========
+GLPI Version Minimum PHP Recommended
+============ =========== ===========
+10.0.x       8.1         8.2
+============ =========== ===========
 
-Supported mail services:
+.. Note::
+   This plugin is available without a GLPI-Network subscription. It is also available in `Cloud <https://glpi-network.cloud/>`__
 
-* `Google (G Suite and Gmail) <https://developers.google.com/gmail/imap/xoauth2-protocol>`_,
-* `Microsoft (Office 365 via Azure AD) <https://docs.microsoft.com/en-us/exchange/client-developer/legacy-protocols/how-to-authenticate-an-imap-pop-smtp-application-by-using-oauth>`_.
 
-Install the Plugin
-------------------
-
-Plugin is available inside GLPI marketplace.
-
-You can also install it manually:
-
-* Uncompress the archive.
-* Move the ``oauthimap`` directory to the ``<GLPI_ROOT>/plugins`` directory.
-* Navigate to the *Setup > Plugins* page.
-* Install and activate the plugin.
-
-Configure your Oauth IMAP application
--------------------------------------
-
-To be able to connect to a mailbox using Oauth authentication, you first need to configure your *Oauth IMAP application*:
-
-- Register an external application on service provider management console;
-- Create an item in *Setup > Oauth IMAP applications* using *id* and *secret* of your provider application;
-- Copy callback url from the Oauth IMAP application configuration and fill it in the provider console (GLPI will be called back after authentication process).
-
-.. image:: images/create-oauth-app.png
-
-Create an authorization
+Supported mail services
 -----------------------
 
-Once your Oauth IMAP application created, you will need to create an authorization that will be used to authenticate on your mailbox.
-To do so, go in the *Oauth authorization* tab of your Oauth IMAP application, and click on *Create an authorization*.
+OAuth IMAP support :
 
-.. image:: images/create-authorization.png
+- Gmail : https://developers.google.com/gmail/imap/xoauth2-protocol?hl=fr
+- Entra : https://learn.microsoft.com/fr-fr/power-platform/admin/connect-gmail-oauth2
 
-You can create an authorization for each of the mailboxes you want to use in mail receivers.
-When you create an authorization for a mailbox, previously existing authorizations for this mailbox are discarded.
 
-Configure your mail receiver
-----------------------------
+Install the plugin
+------------------
 
-To authenticate via Oauth on your mail receiver, you have to change the configuration of your mail receiver:
+-  Go to the marketplace. Download Oauth IMAP and enable it
 
-- choose your Oauth IMAP application in the first dropdown of *Connection options*;
-- then choose an existing authorization in the *Login* dropdown or select *Create authorization for another user*.
+.. figure:: images/oauth-imap-1.png
+   :alt:
 
-.. image:: images/configure-receiver.png
+-  Open the `Azure Portal <https://portal.azure.com/#home>`__ for your tenant
+-  In the search box type **registration**
+-  then select **App registrations**
+
+.. figure:: images/oauth-imap-2.png
+   :alt:
+
+
+Here are the configuration steps including configuration phases on the Entra side.
+
+Register your Entra application
+-------------------------------
+
+Create the application
+~~~~~~~~~~~~~~~~~~~~~~
+
+-  Click on **New registration**
+-  Enter the desired name, select the type of account supported then enter the redirection URL (present in the configuration of the plugin from your GLPI interface:
+   https://XXXXXXXXXXXXXX/marketplace/oauthimap/front/authorization.callback.php) specifying the **Web** option
+-  Then click on **Register**.
+
+.. figure:: images/oauth-imap-3.png
+   :alt:
+
+Add a secret
+~~~~~~~~~~~~
+
+-  In the **Certificates and secrets** tab
+-  Click on **Client secrets**
+-  Then **New client secret**
+
+.. figure:: images/oauth-imap-4.png
+   :alt:
+
+-  Enter a description and then an expiration date
+-  A secret **value** is then generated. Keep this value well because once you have left this page, it will no longer be recoverable
+
+.. figure:: images/oauth-imap-5.png
+   :alt:
+
+-  Return to the **Overview** tab and **copy** the following values ​​and the secret seen above
+
+.. figure:: images/oauth-imap-6.png
+   :alt:
+
+Setup GLPI
+----------
+
+-  Now go back to your GLPI interface **Setup > Application Aouth IMAP** and indicate the information collected previously :
+
+.. figure:: images/oauth-imap-7.png
+   :alt:
+
+-  Click **Add**
+-  Now in the **Oauth authorization** tab, click **Create an authorization**
+
+.. figure:: images/oauth-imap-8.png
+   :alt:
+
+-  When you click on **Create authorization**, you will be redirected to the Microsoft services sign-in page
+-  Enter the email address and password of the account that will be used for the collector
+-  You will also need to accept the necessary permissions related to the plugin.
+
+.. figure:: images/oauth-imap-9.png
+   :alt:
+
+.. figure:: images/oauth-imap-10.png
+   :alt:
