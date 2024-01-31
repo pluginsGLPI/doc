@@ -65,7 +65,7 @@ Creating a template
 
 The first step is to create a template if none exists.
 
--  From **Tools >Data injection**
+-  From **Tools > Data injection**
 -  Click on **Template**
 -  Click on **Add**
 
