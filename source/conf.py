@@ -14,7 +14,6 @@
 
 import datetime
 import sphinx_glpi_theme
-import sphinx_toolbox
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -36,7 +35,10 @@ import sphinx_toolbox
 extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.ifconfig',
-    'sphinx_toolbox.collapse',
+    'sphinx.ext.viewcode',
+    'sphinx_tabs.tabs',
+    'sphinx-prompt',
+    'sphinx_toolbox',
 ]
 
 
