@@ -5,7 +5,7 @@ OAuth IMAP
    Microsoft is gradually removing the TLS 1.0 and 1.1 protocols for all Microsoft 365 applications. In order to keep your collector running, you need to add the **Oauth IMAP** plugin, which is available in the marketplace.
 
 .. tip::
-   The Oauth tokens for the collector, retrieved during authentication with Azure by the OauthIMAP plugin, are “offline” tokens that delegate authorisation to a third-party application (GLPI). These tokens provide a renewal code that will be used by the application to renew them automatically without user intervention. You will therefore not be asked to re-authenticate after the 1st authorisation request (unless you change your password at a later date).
+   The Oauth tokens for the collector, retrieved during authentication with Azure by the OauthIMAP plugin, are “offline” tokens that delegate authorisation to a third-party application (GLPI). These tokens provide a renewal code that will be used by the application to renew them automatically without user intervention. You will therefore not be asked to re-authenticate after the 1st authorisation request.
 
 Source and Download
 -------------------
@@ -36,8 +36,8 @@ Install the plugin
    :alt:
 
 -  Open the `Azure Portal <https://portal.azure.com/#home>`__ for your tenant
--  In the search box type **registration** then select
-   **App registrations**
+-  In the search box type **registration**
+-  then select **App registrations**
 
 .. figure:: images/oauth-imap-2.png
    :alt:
@@ -77,21 +77,21 @@ Add a secret
 .. figure:: images/oauth-imap-6.png
    :alt:
 
-setup GLPI
+Setup GLPI
 ----------
 
--  Now go back to your GLPI interface **configuration > Application Aouth IMAP** and indicate the information collected previously :
+-  Now go back to your GLPI interface **Setup > Application Aouth IMAP** and indicate the information collected previously :
 
 .. figure:: images/oauth-imap-7.png
    :alt:
 
--  Click **add**
+-  Click **Add**
 -  Now in the **Oauth authorization** tab, click **Create an authorization**
 
 .. figure:: images/oauth-imap-8.png
    :alt:
 
--  When you click on :ti-add:**Create authorization**, you will be redirected to the Microsoft services sign-in page
+-  When you click on **Create authorization**, you will be redirected to the Microsoft services sign-in page
 -  Enter the email address and password of the account that will be used for the collector
 -  You will also need to accept the necessary permissions related to the plugin.
 
