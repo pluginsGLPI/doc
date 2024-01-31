@@ -61,7 +61,7 @@ ID settings
 -  In the **Authorized redirect URIs** section
 -  Enter the GLPI **Callback URL**
 
-.. note::
+.. tip::
    Where can I find my callback URL?
 
    .. figure:: images/oauth-sso-google-8.gif
