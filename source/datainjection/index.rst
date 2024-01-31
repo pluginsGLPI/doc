@@ -118,7 +118,7 @@ For each column, you can choose
    **Serial number**, the **Name** or the **Inventory number**
 
 .. Warning::
-   It is mandatory to define at least 1 linking field.If a field is ticked, it must be entered in your **csv** file used for importing.
+   It is mandatory to define at least 1 linking field. If a field is checked, it must be entered in your **csv** file used for importing.
 
 .. figure:: images/Datainjection-3.png
    :alt:
