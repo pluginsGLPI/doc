@@ -131,7 +131,7 @@ For each column, you can choose
 Additional information
 ~~~~~~~~~~~~~~~~~~~~~~
 
-This step is used to define the fields that can/should be populated by the user when a file is injected.For each field, the same value will be used for each line of the file and will take precedence over the
+This step is used to define the fields that can/should be populated by the user when a file is injected. For each field, the same value will be used for each line of the file and will take precedence over the
 contents of the file.
 
 -  **Table**: the data type defined in step **Matching**
