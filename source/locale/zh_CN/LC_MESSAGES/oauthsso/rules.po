@@ -1,0 +1,69 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2024, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-31 14:11+0100\n"
+"PO-Revision-Date: 2024-01-31 13:12+0000\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/teclib/teams/28042/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../source/oauthsso/rules.rst:2
+msgid "Rules for assigning authorisations"
+msgstr ""
+
+#: ../../source/oauthsso/rules.rst:4
+msgid ""
+"Remember that Oauth SSO authentication allows **only authentication**, in "
+"the sense that no user management is carried out following authentication."
+msgstr ""
+
+#: ../../source/oauthsso/rules.rst:6
+msgid ""
+"In most cases, it will therefore be necessary to establish rules for "
+"assigning authorisations to your users (to give them a profile, for "
+"example)."
+msgstr ""
+
+#: ../../source/oauthsso/rules.rst:8
+msgid ""
+"To do this, go to **Administration > Rules > Rules for assigning "
+"authorisations to a user**."
+msgstr ""
+
+#: ../../source/oauthsso/rules.rst:10
+msgid ""
+"There are no ‘mandatory’ rules, it’s up to you to create the rule(s) that "
+"you feel best suit your needs according to your available criteria."
+msgstr ""
+
+#: ../../source/oauthsso/rules.rst:12
+msgid "For example, a very simple rule"
+msgstr ""
+
+#: ../../source/oauthsso/rules.rst:14
+msgid ""
+"A very simple rule -> *I want my users with SSO authentication to obtain the"
+" Self-Service profile*."
+msgstr ""
+
+#: ../../source/oauthsso/rules.rst:16
+msgid "So I set my criteria and my action :"
+msgstr ""
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr ""
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
+msgstr ""

@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2024, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-31 14:11+0100\n"
+"PO-Revision-Date: 2024-01-31 13:12+0000\n"
+"Language-Team: Portuguese (Portugal) (https://app.transifex.com/teclib/teams/28042/pt_PT/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../source/splitcat/index.rst:2
+msgid "Splitcat"
+msgstr ""
+
+#: ../../source/splitcat/index.rst:5
+msgid "Requirements (on-premise)"
+msgstr ""
+
+#: ../../source/splitcat/index.rst:8
+msgid "GLPI Version"
+msgstr ""
+
+#: ../../source/splitcat/index.rst:8
+msgid "Minimum PHP"
+msgstr ""
+
+#: ../../source/splitcat/index.rst:8
+msgid "Recommended"
+msgstr ""
+
+#: ../../source/splitcat/index.rst:10
+msgid "10.0.x"
+msgstr ""
+
+#: ../../source/splitcat/index.rst:10
+msgid "8.1"
+msgstr ""
+
+#: ../../source/splitcat/index.rst:10
+msgid "8.2"
+msgstr ""
+
+#: ../../source/splitcat/index.rst:14
+msgid ""
+"A `basic licence <https://services.glpi-network.com/#offers>`__ (or higher) "
+"is required. This plugin is also available from the `Cloud <https://glpi-"
+"network.cloud/fr/>`__."
+msgstr ""
+
+#: ../../source/splitcat/index.rst:18
+msgid "Download the plugin"
+msgstr ""
+
+#: ../../source/splitcat/index.rst:20
+msgid ""
+"From the marketplace (**Setup > Plugins**), download the **Splitcat** plugin"
+msgstr ""
+
+#: ../../source/splitcat/index.rst:26
+msgid "Settings"
+msgstr ""
+
+#: ../../source/splitcat/index.rst:28
+msgid ""
+"There are no special settings to be made for this plugin. You can see the "
+"effect of the plugin directly when you open a new ticket."
+msgstr ""
+
+#: ../../source/splitcat/index.rst:31
+msgid "Before"
+msgstr ""
+
+#: ../../source/splitcat/index.rst:37
+msgid "After"
+msgstr ""
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr ""
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
+msgstr ""

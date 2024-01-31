@@ -242,3 +242,58 @@ file_filter = source/locale/<lang>/LC_MESSAGES/splitcat/index.po
 source_file = build/locale/splitcat/index.pot
 source_lang = en
 type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:oauthsso--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/oauthsso/index.po
+source_file = build/locale/oauthsso/index.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:oauthsso--entra]
+file_filter = source/locale/<lang>/LC_MESSAGES/oauthsso/entra.po
+source_file = build/locale/oauthsso/entra.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:oauthsso--force_sso]
+file_filter = source/locale/<lang>/LC_MESSAGES/oauthsso/force_sso.po
+source_file = build/locale/oauthsso/force_sso.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:oauthsso--google]
+file_filter = source/locale/<lang>/LC_MESSAGES/oauthsso/google.po
+source_file = build/locale/oauthsso/google.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:oauthsso--keycloak]
+file_filter = source/locale/<lang>/LC_MESSAGES/oauthsso/keycloak.po
+source_file = build/locale/oauthsso/keycloak.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:oauthsso--okta]
+file_filter = source/locale/<lang>/LC_MESSAGES/oauthsso/okta.po
+source_file = build/locale/oauthsso/okta.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:oauthsso--requirements]
+file_filter = source/locale/<lang>/LC_MESSAGES/oauthsso/requirements.po
+source_file = build/locale/oauthsso/requirements.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:oauthsso--rules]
+file_filter = source/locale/<lang>/LC_MESSAGES/oauthsso/rules.po
+source_file = build/locale/oauthsso/rules.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:oauthsso--source]
+file_filter = source/locale/<lang>/LC_MESSAGES/oauthsso/source.po
+source_file = build/locale/oauthsso/source.pot
+source_lang = en
+type = PO
+

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016, Teclib'
+# Copyright (C) 2016-2024, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -9,12 +9,12 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPI plugins 0.1\n"
+"Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-14 15:17+0200\n"
+"POT-Creation-Date: 2024-01-31 14:11+0100\n"
 "PO-Revision-Date: 2020-01-24 06:36+0000\n"
 "Last-Translator: David Stepan <stepand@tiscali.cz>, 2020\n"
-"Language-Team: Czech (Czech Republic) (https://www.transifex.com/teclib/teams/28042/cs_CZ/)\n"
+"Language-Team: Czech (Czech Republic) (https://app.transifex.com/teclib/teams/28042/cs_CZ/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -25,144 +25,151 @@ msgstr ""
 msgid "Tag"
 msgstr "Štítek"
 
-#: ../../source/tag/index.rst:4
+#: ../../source/tag/index.rst:5
+msgid "Requirements (on-premise)"
+msgstr ""
+
+#: ../../source/tag/index.rst:8
+msgid "GLPI Version"
+msgstr ""
+
+#: ../../source/tag/index.rst:8
+msgid "Minimum PHP"
+msgstr ""
+
+#: ../../source/tag/index.rst:8
+msgid "Recommended"
+msgstr ""
+
+#: ../../source/tag/index.rst:10
+msgid "10.0.x"
+msgstr ""
+
+#: ../../source/tag/index.rst:10
+msgid "8.1"
+msgstr ""
+
+#: ../../source/tag/index.rst:10
+msgid "8.2"
+msgstr ""
+
+#: ../../source/tag/index.rst:15
+msgid ""
+"This plugin is available without a GLPI-Network subscription. It is also "
+"available in Cloud."
+msgstr ""
+
+#: ../../source/tag/index.rst:19
+msgid "Sources"
+msgstr ""
+
+#: ../../source/tag/index.rst:21
 msgid "Sources link: https://github.com/pluginsGLPI/tag"
 msgstr "Zdrojový odkaz: https://github.com/pluginsGLPI/tag"
 
-#: ../../source/tag/index.rst:5
+#: ../../source/tag/index.rst:22
 msgid "Download: https://github.com/pluginsGLPI/tag/releases"
 msgstr "Stáhnout: https://github.com/pluginsGLPI/tag/releases"
 
-#: ../../source/tag/index.rst:8
-msgid "Requirements for latest version"
-msgstr "Požadavky pro poslední verzi"
-
-#: ../../source/tag/index.rst:10
-msgid "This plugin requires :"
-msgstr "Tento zásuvný modul vyžaduje :"
-
-#: ../../source/tag/index.rst:12
-msgid "PHP 7.2 or higher"
-msgstr "PHP 7.2 nebo vyšší"
-
-#: ../../source/tag/index.rst:13
-msgid "GLPI >= 9.4"
-msgstr "GLPI >= 9.4"
-
-#: ../../source/tag/index.rst:17
-msgid "Features"
-msgstr "Funkce"
-
-#: ../../source/tag/index.rst:19
-msgid "Add tags on every GLPI item type (which extends CommonDBTM)"
+#: ../../source/tag/index.rst:27
+msgid "Install the plugin"
 msgstr ""
-"Přidat štítky ke každému typu položky GLPI (který rozšiřuje CommonDBTM)"
-
-#: ../../source/tag/index.rst:20
-msgid "Add tags on FusionInventory Task (plugin fusioninventory)"
-msgstr "Přidat štítky k úloze Fusioninventory (zásuvný modul fusioninventory)"
-
-#: ../../source/tag/index.rst:21
-msgid "Add tags on Appliance (plugin appliance)"
-msgstr "Přidat štítek na zařízení (zásuvný modul zařízení)"
-
-#: ../../source/tag/index.rst:22
-msgid "Manage tag from labels"
-msgstr "Spravovat štítky z označení"
-
-#: ../../source/tag/index.rst:23
-msgid ""
-"Tags are displayed and editable in the object form header (just below title)"
-msgstr ""
-"Štítky budou zobrazeny a upravitelné v záhlaví formuláře objektu (těsně pod "
-"nadpisem)"
-
-#: ../../source/tag/index.rst:24
-msgid "You can search for tags and display them in objects lists"
-msgstr "Můžete vyhledávat značky a zobrazovat je v seznamech objektů"
-
-#: ../../source/tag/index.rst:25
-msgid "You can display a report from associated objects in administration"
-msgstr "Můžete zobrazit přehled z připojených objektů v administraci"
 
 #: ../../source/tag/index.rst:29
-msgid "Install the Plugin"
-msgstr "Instalovat zásuvný modul"
+msgid "Go to the marketplace. Download and install the plugin “**Tag**”."
+msgstr ""
 
-#: ../../source/tag/index.rst:30
-msgid "Uncompress the archive."
-msgstr "Rozbalit archiv."
+#: ../../source/tag/index.rst:35
+msgid "Setting up the plugin"
+msgstr ""
 
-#: ../../source/tag/index.rst:31
-msgid "Move the ``tag`` directory to the ``<GLPI_ROOT>/plugins`` directory"
-msgstr "Přesunout adresář ``tag`` do adresáře ``<GLPI_ROOT>/plugins`` "
-
-#: ../../source/tag/index.rst:32
-msgid "Navigate to the *Configuration > Plugins* page,"
-msgstr "Přejděte na stránku *Nastavení > Zásuvné moduly*,"
-
-#: ../../source/tag/index.rst:33
-msgid "Install and activate the plugin."
-msgstr "Instalovat a aktivovat zásuvný modul."
-
-#: ../../source/tag/index.rst:36
-msgid "Usage"
-msgstr "Použití"
+#: ../../source/tag/index.rst:37
+msgid "From **Setup > Dropdowns**"
+msgstr ""
 
 #: ../../source/tag/index.rst:38
-msgid ""
-"The plugin will create required tables in the database  automatically. Those"
-" tables will be updated along with the plugin."
+msgid "Click on **Tag management**"
 msgstr ""
-"Zásuvný modul automaticky vytvoří požadované tabulky v databázi. Tyto "
-"tabulky budou aktualizovány spolu se zásuvným modulem. "
 
-#: ../../source/tag/index.rst:40
-msgid "Plugin usage is quite simple:"
-msgstr "Použití zásuvného modulu je velmi jednoduché: "
-
-#: ../../source/tag/index.rst:42
-msgid "Create tag"
-msgstr "Vytvořit štítek"
+#: ../../source/tag/index.rst:39
+msgid "Then **Tags**"
+msgstr ""
 
 #: ../../source/tag/index.rst:44
-msgid "You will access the create form from the *Setup* > *Plugins* > *tag*."
+msgid "Enter a name that will be visible when tags are added"
 msgstr ""
-"K formuláři pro vytvoření se dostanete z * Nastavení *> * Zásuvné moduly *> "
-"*Štítek*."
+
+#: ../../source/tag/index.rst:45
+msgid "Enter a description (optional)"
+msgstr ""
 
 #: ../../source/tag/index.rst:46
-msgid ""
-"Define ``name``, ``color``, ``sub-entities visibility`` and ``associated "
-"itemtype``"
+msgid "Add a colour"
 msgstr ""
-"Definovat ``název``, ``barvu``, ``viditelnost podřízených entit`` a "
-"``připojený typ položky``"
 
-#: ../../source/tag/index.rst:50
-msgid "Use tag"
-msgstr "Použít štítek"
+#: ../../source/tag/index.rst:47
+msgid ""
+"Associate one or more elements. If nothing is ticked, it will not be visible"
+" in any element by default."
+msgstr ""
 
-#: ../../source/tag/index.rst:52
-msgid "On associated itemtype, you can add tag previously created"
-msgstr "Do připojeného typu položky můžete přidat dříve vytvořený štítek"
+#: ../../source/tag/index.rst:54
+msgid "Choose where to find the tag"
+msgstr ""
 
 #: ../../source/tag/index.rst:56
-msgid "Search items by tag"
-msgstr "Hledat položky dle štítku"
+msgid ""
+"You can indicate whether the tag should be at the top or bottom of the list."
+msgstr ""
 
-#: ../../source/tag/index.rst:58
-msgid "You can easily find items with tag"
-msgstr "Můžete snadno vyhledat položky se štítkem"
+#: ../../source/tag/index.rst:59
+msgid "From **Setup > General > Tag management**, specify the tag location."
+msgstr ""
 
-#: ../../source/tag/index.rst:63
-msgid "Get all items associated to tag"
-msgstr "Získat všechny položky přiřazené ke štítku"
+#: ../../source/tag/index.rst:61
+msgid "Bottom :"
+msgstr ""
 
-#: ../../source/tag/index.rst:65
-msgid "Go to tag form, clic on tab \"Associated items\""
-msgstr "Přejít do formuláře štítku, kliknutím na tlačítko \"Přiřazené položky\""
+#: ../../source/tag/index.rst:66
+msgid "Top:"
+msgstr ""
+
+#: ../../source/tag/index.rst:72
+msgid "Adding rules"
+msgstr ""
+
+#: ../../source/tag/index.rst:74
+msgid ""
+"You can add business rules (tickets, computers, etc.) to add tags to "
+"particular items."
+msgstr ""
+
+#: ../../source/tag/index.rst:76
+msgid ""
+"Example : Assign a VIP tag when a member of the management group writes a "
+"ticket."
+msgstr ""
+
+#: ../../source/tag/index.rst:78
+msgid ""
+"Here are the criteria to be implemented from **Administration > Rules > "
+"Business rules for tickets**"
+msgstr ""
+
+#: ../../source/tag/index.rst:86
+msgid "After creating a ticket :"
+msgstr ""
+
+#: ../../source/tag/index.rst:92
+msgid ""
+"Tags can, of course, be added manually if they have been set to be visible "
+"in the specified item."
+msgstr ""
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
+msgstr ""

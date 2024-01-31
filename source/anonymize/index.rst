@@ -49,14 +49,22 @@ Each profile has an element assigned to it. You will need to define the value of
 
 Email
 ~~~~~
-.. collapse:: List of data
+
+.. collapse:: Email field
+
    - `users_id`
    - `is_default`
    - `email`
+<br>
+<br>
+<br>
+
 
 Entity
 ~~~~~~
-.. collapse:: List of data
+
+.. collapse:: Entity fields
+
    - `name`
    - `entities_id`
    - `comment`
@@ -153,7 +161,9 @@ Entity
 
 Computer
 ~~~~~~~~
-.. collapse:: List of data
+
+.. collapse:: Computer fields
+
    - `entities_id`
    - `name`
    - `serial`
@@ -182,7 +192,9 @@ Computer
 
 User
 ~~~~
-.. collapse:: List of data
+
+.. collapse:: User fields
+
    - `name`
    - `password`
    - `password_last_update`
@@ -334,975 +346,1062 @@ Other anonymisable data (profile creation)
 Agents
 ~~~~~~
 
-- `deviceid`
-- `entities_id`
-- `name`
-- `agenttypes_id`
-- `last_contact`
-- `version`
-- `locked`
-- `itemtype`
-- `items_id`
-- `useragent`
-- `tag`
-- `port`
-- `threads_networkdiscovery`
-- `threads_networkinventory`
-- `timeout_networkdiscovery`
-- `timeout_networkinventory`
-- `remote_addr`
-- `use_module_wake_on_lan`
-- `use_module_computer_inventory`
-- `use_module_esx_remote_inventory`
-- `use_module_remote_inventory`
-- `use_module_network_inventory`
-- `use_module_network_discovery`
-- `use_module_package_deployment`
-- `use_module_collect_data`
+.. collapse:: Agent fields
+
+    - `deviceid`
+    - `entities_id`
+    - `name`
+    - `agenttypes_id`
+    - `last_contact`
+    - `version`
+    - `locked`
+    - `itemtype`
+    - `items_id`
+    - `useragent`
+    - `tag`
+    - `port`
+    - `threads_networkdiscovery`
+    - `threads_networkinventory`
+    - `timeout_networkdiscovery`
+    - `timeout_networkinventory`
+    - `remote_addr`
+    - `use_module_wake_on_lan`
+    - `use_module_computer_inventory`
+    - `use_module_esx_remote_inventory`
+    - `use_module_remote_inventory`
+    - `use_module_network_inventory`
+    - `use_module_network_discovery`
+    - `use_module_package_deployment`
+    - `use_module_collect_data`
 
 Appliances
 ~~~~~~~~~~
 
-- `entities_id`
-- `Garder`
-- `name`
-- `appliancetypes_id`
-- `comment`
-- `locations_id`
-- `manufacturers_id`
-- `applianceenvironments_id`
-- `users_id`
-- `users_id_tech`
-- `groups_id`
-- `groups_id_tech`
-- `date_mod`
-- `date_creation`
-- `states_id`
-- `externalidentifier`
-- `serial`
-- `otherserial`
-- `is_helpdesk_visible`
-- `pictures`
-- `contact`
-- `contact_num`
+.. collapse:: Appliances fields
+
+    - `entities_id`
+    - `Garder`
+    - `name`
+    - `appliancetypes_id`
+    - `comment`
+    - `locations_id`
+    - `manufacturers_id`
+    - `applianceenvironments_id`
+    - `users_id`
+    - `users_id_tech`
+    - `groups_id`
+    - `groups_id_tech`
+    - `date_mod`
+    - `date_creation`
+    - `states_id`
+    - `externalidentifier`
+    - `serial`
+    - `otherserial`
+    - `is_helpdesk_visible`
+    - `pictures`
+    - `contact`
+    - `contact_num`
 
 Budgets
 ~~~~~~~
 
-- `name`
-- `entities_id`
-- `comment`
-- `begin_date`
-- `end_date`
-- `value`
-- `template_name`
-- `date_mod`
-- `date_creation`
-- `locations_id`
-- `budgettypes_id`
+.. collapse:: Budgets fields
+
+    - `name`
+    - `entities_id`
+    - `comment`
+    - `begin_date`
+    - `end_date`
+    - `value`
+    - `template_name`
+    - `date_mod`
+    - `date_creation`
+    - `locations_id`
+    - `budgettypes_id`
 
 Cables
 ~~~~~~
 
-- `name`
-- `entities_id`
-- `itemtype_endpoint_a`
-- `itemtype_endpoint_b`
-- `items_id_endpoint_a`
-- `items_id_endpoint_b`
-- `socketmodels_id_endpoint_a`
-- `socketmodels_id_endpoint_b`
-- `sockets_id_endpoint_a`
-- `sockets_id_endpoint_b`
-- `cablestrands_id`
-- `color`
-- `otherserial`
-- `states_id`
-- `users_id_tech`
-- `cabletypes_id`
-- `comment`
-- `date_mod`
-- `date_creation`
+.. collapse:: User fields
+
+    - `name`
+    - `entities_id`
+    - `itemtype_endpoint_a`
+    - `itemtype_endpoint_b`
+    - `items_id_endpoint_a`
+    - `items_id_endpoint_b`
+    - `socketmodels_id_endpoint_a`
+    - `socketmodels_id_endpoint_b`
+    - `sockets_id_endpoint_a`
+    - `sockets_id_endpoint_b`
+    - `cablestrands_id`
+    - `color`
+    - `otherserial`
+    - `states_id`
+    - `users_id_tech`
+    - `cabletypes_id`
+    - `comment`
+    - `date_mod`
+    - `date_creation`
 
 Changes
 ~~~~~~~
 
-- `name`
-- `entities_id`
-- `status`
-- `content`
-- `date_mod`
-- `date`
-- `solvedate`
-- `closedate`
-- `time_to_resolve`
-- `users_id_recipient`
-- `users_id_lastupdater`
-- `urgency`
-- `impact`
-- `priority`
-- `itilcategories_id`
-- `impactcontent`
-- `controlistcontent`
-- `rolloutplancontent`
-- `backoutplancontent`
-- `checklistcontent`
-- `global_validation`
-- `validation_percent`
-- `actiontime`
-- `begin_waiting_date`
-- `waiting_duration`
-- `close_delay_stat`
-- `solve_delay_stat`
-- `date_creation`
-- `locations_id`
+.. collapse:: Changes fields
+
+    - `name`
+    - `entities_id`
+    - `status`
+    - `content`
+    - `date_mod`
+    - `date`
+    - `solvedate`
+    - `closedate`
+    - `time_to_resolve`
+    - `users_id_recipient`
+    - `users_id_lastupdater`
+    - `urgency`
+    - `impact`
+    - `priority`
+    - `itilcategories_id`
+    - `impactcontent`
+    - `controlistcontent`
+    - `rolloutplancontent`
+    - `backoutplancontent`
+    - `checklistcontent`
+    - `global_validation`
+    - `validation_percent`
+    - `actiontime`
+    - `begin_waiting_date`
+    - `waiting_duration`
+    - `close_delay_stat`
+    - `solve_delay_stat`
+    - `date_creation`
+    - `locations_id`
 
 Certificates
 ~~~~~~~~~~~~
 
-- `name`
-- `serial`
-- `otherserial`
-- `entities_id`
-- `comment`
-- `template_name`
-- `certificatetypes_id`
-- `dns_name`
-- `dns_suffix`
-- `users_id_tech`
-- `groups_id_tech`
-- `locations_id`
-- `manufacturers_id`
-- `contact`
-- `contact_num`
-- `users_id`
-- `groups_id`
-- `is_autosign`
-- `date_expiration`
-- `states_id`
-- `command`
-- `certificate_request`
-- `certificate_item`
+.. collapse:: Certificates fields
 
-- `date_creation`
-- `date_mod`
+    - `name`
+    - `serial`
+    - `otherserial`
+    - `entities_id`
+    - `comment`
+    - `template_name`
+    - `certificatetypes_id`
+    - `dns_name`
+    - `dns_suffix`
+    - `users_id_tech`
+    - `groups_id_tech`
+    - `locations_id`
+    - `manufacturers_id`
+    - `contact`
+    - `contact_num`
+    - `users_id`
+    - `groups_id`
+    - `is_autosign`
+    - `date_expiration`
+    - `states_id`
+    - `command`
+    - `certificate_request`
+    - `certificate_item`
+    - `date_creation`
+    - `date_mod`
 
 Clusters
 ~~~~~~~~
 
-- `entities_id`
-- `name`
-- `uuid`
-- `version`
-- `users_id_tech`
-- `groups_id_tech`
-- `states_id`
-- `comment`
-- `clustertypes_id`
-- `autoupdatesystems_id`
-- `date_mod`
-- `date_creation`
+.. collapse:: Clusters fields
+
+    - `entities_id`
+    - `name`
+    - `uuid`
+    - `version`
+    - `users_id_tech`
+    - `groups_id_tech`
+    - `states_id`
+    - `comment`
+    - `clustertypes_id`
+    - `autoupdatesystems_id`
+    - `date_mod`
+    - `date_creation`
 
 Contacts
 ~~~~~~~~
 
-- `name`
-- `firstname`
-- `phone`
-- `phone2`
-- `mobile`
-- `fax`
-- `email`
-- `contacttypes_id`
-- `comment`
-- `usertitles_id`
-- `address`
-- `postcode`
-- `town`
-- `state`
-- `country`
-- `date_mod`
-- `date_creation`
-- `pictures`
+.. collapse:: Contacts fields
 
-Databbaes
+    - `name`
+    - `firstname`
+    - `phone`
+    - `phone2`
+    - `mobile`
+    - `fax`
+    - `email`
+    - `contacttypes_id`
+    - `comment`
+    - `usertitles_id`
+    - `address`
+    - `postcode`
+    - `town`
+    - `state`
+    - `country`
+    - `date_mod`
+    - `date_creation`
+    - `pictures`
+
+Databases
 ~~~~~~~~~
 
-- `entities_id`
-- `name`
-- `size`
-- `databaseinstances_id`
-- `is_onbackup`
-- `is_active`
-- `date_creation`
-- `date_mod`
-- `date_update`
-- `date_lastbackup`
+.. collapse:: Databases fields
 
-Data centers
-~~~~~~~~~~~~
+    - `entities_id`
+    - `name`
+    - `size`
+    - `databaseinstances_id`
+    - `is_onbackup`
+    - `is_active`
+    - `date_creation`
+    - `date_mod`
+    - `date_update`
+    - `date_lastbackup`
 
-- `name`
-- `entities_id`
-- `locations_id`
-- `date_mod`
-- `date_creation`
-- `pictures`
+Datacenters
+~~~~~~~~~~~
+
+.. collapse:: Datacenters fields
+
+    - `name`
+    - `entities_id`
+    - `locations_id`
+    - `date_mod`
+    - `date_creation`
+    - `pictures`
 
 Server rooms
 ~~~~~~~~~~~~
 
-- `name`
-- `entities_id`
-- `locations_id`
-- `vis_cols`
-- `vis_rows`
-- `blueprint`
-- `datacenters_id`
-- `date_mod`
-- `date_creation`
+.. collapse:: Server rooms fields
+
+    - `name`
+    - `entities_id`
+    - `locations_id`
+    - `vis_cols`
+    - `vis_rows`
+    - `blueprint`
+    - `datacenters_id`
+    - `date_mod`
+    - `date_creation`
 
 Documents
 ~~~~~~~~~
 
-- `name`
-- `filename`
-- `filepath`
-- `documentcategories_id`
-- `mime`
-- `date_mod`
-- `comment`
-- `link`
-- `users_id`
-- `tickets_id`
-- `sha1sum`
-- `is_blacklisted`
-- `tag`
-- `date_creation`
+.. collapse:: Documents fields
+
+    - `name`
+    - `filename`
+    - `filepath`
+    - `documentcategories_id`
+    - `mime`
+    - `date_mod`
+    - `comment`
+    - `link`
+    - `users_id`
+    - `tickets_id`
+    - `sha1sum`
+    - `is_blacklisted`
+    - `tag`
+    - `date_creation`
 
 Domains
 ~~~~~~~
 
-- `name`
-- `entities_id`
-- `domaintypes_id`
-- `date_expiration`
-- `date_domaincreation`
-- `users_id_tech`
-- `groups_id_tech`
-- `comment`
-- `template_name`
-- `is_active`
-- `date_mod`
-- `date_creation`
+.. collapse:: Domains fields
+
+    - `name`
+    - `entities_id`
+    - `domaintypes_id`
+    - `date_expiration`
+    - `date_domaincreation`
+    - `users_id_tech`
+    - `groups_id_tech`
+    - `comment`
+    - `template_name`
+    - `is_active`
+    - `date_mod`
+    - `date_creation`
 
 Enclosures
 ~~~~~~~~~~
 
-- `name`
-- `entities_id`
-- `locations_id`
-- `serial`
-- `otherserial`
-- `enclosuremodels_id`
-- `users_id_tech`
-- `groups_id_tech`
-- `template_name`
-- `orientation`
-- `power_supplies`
-- `states_id`
-- `comment`
-- `manufacturers_id`
-- `date_mod`
-- `date_creation`
+.. collapse:: Enclosures fields
+
+    - `name`
+    - `entities_id`
+    - `locations_id`
+    - `serial`
+    - `otherserial`
+    - `enclosuremodels_id`
+    - `users_id_tech`
+    - `groups_id_tech`
+    - `template_name`
+    - `orientation`
+    - `power_supplies`
+    - `states_id`
+    - `comment`
+    - `manufacturers_id`
+    - `date_mod`
+    - `date_creation`
 
 Groups
 ~~~~~~
 
-- `entities_id`
-- `name`
-- `comment`
-- `ldap_field`
-- `ldap_value`
-- `ldap_group_dn`
-- `date_mod`
-- `groups_id`
-- `level`
-- `ancestors_cache`
-- `sons_cache`
-- `is_requester`
-- `is_watcher`
-- `is_assign`
-- `is_task`
-- `is_notify`
-- `is_itemgroup`
-- `is_usergroup`
-- `is_manager`
-- `date_creation`
+.. collapse:: Groups fields
+
+    - `entities_id`
+    - `name`
+    - `comment`
+    - `ldap_field`
+    - `ldap_value`
+    - `ldap_group_dn`
+    - `date_mod`
+    - `groups_id`
+    - `level`
+    - `ancestors_cache`
+    - `sons_cache`
+    - `is_requester`
+    - `is_watcher`
+    - `is_assign`
+    - `is_task`
+    - `is_notify`
+    - `is_itemgroup`
+    - `is_usergroup`
+    - `is_manager`
+    - `date_creation`
 
 Knowledge base
 ~~~~~~~~~~~~~~
 
-- `name`
-- `answer`
-- `is_faq`
-- `users_id`
-- `view`
-- `date_creation`
-- `date_mod`
-- `begin_date`
-- `end_date`
+.. collapse:: Knowledge base fields
+
+    - `name`
+    - `answer`
+    - `is_faq`
+    - `users_id`
+    - `view`
+    - `date_creation`
+    - `date_mod`
+    - `begin_date`
+    - `end_date`
 
 ITIL Categories
 ~~~~~~~~~~~~~~~
 
-- `entities_id`
-- `itilcategories_id`
-- `name`
-- `comment`
-- `level`
-- `knowbaseitemcategories_id`
-- `users_id`
-- `groups_id`
-- `code`
-- `ancestors_cache`
-- `sons_cache`
-- `is_helpdeskvisible`
-- `tickettemplates_id_incident`
-- `tickettemplates_id_demand`
-- `changetemplates_id`
-- `problemtemplates_id`
-- `is_incident`
-- `is_request`
-- `is_problem`
-- `is_change`
-- `date_mod`
-- `date_creation`
+.. collapse:: ITIL Categories fields
+
+    - `entities_id`
+    - `itilcategories_id`
+    - `name`
+    - `comment`
+    - `level`
+    - `knowbaseitemcategories_id`
+    - `users_id`
+    - `groups_id`
+    - `code`
+    - `ancestors_cache`
+    - `sons_cache`
+    - `is_helpdeskvisible`
+    - `tickettemplates_id_incident`
+    - `tickettemplates_id_demand`
+    - `changetemplates_id`
+    - `problemtemplates_id`
+    - `is_incident`
+    - `is_request`
+    - `is_problem`
+    - `is_change`
+    - `date_mod`
+    - `date_creation`
 
 Followups
 ~~~~~~~~~
 
-- `itemtype`
-- `items_id`
-- `date`
-- `users_id`
-- `users_id_editor`
-- `content`
-- `is_private`
-- `requesttypes_id`
-- `date_mod`
-- `date_creation`
-- `timeline_position`
-- `sourceitems_id`
-- `sourceof_items_id`
+.. collapse:: Followups fields
+
+    - `itemtype`
+    - `items_id`
+    - `date`
+    - `users_id`
+    - `users_id_editor`
+    - `content`
+    - `is_private`
+    - `requesttypes_id`
+    - `date_mod`
+    - `date_creation`
+    - `timeline_position`
+    - `sourceitems_id`
+    - `sourceof_items_id`
 
 Followups templates
 ~~~~~~~~~~~~~~~~~~~
 
-- `date_creation`
-- `date_mod`
-- `entities_id`
-- `name`
-- `content`
-- `requesttypes_id`
-- `is_private`
-- `comment`
+.. collapse:: Followups templates fields
+
+    - `date_creation`
+    - `date_mod`
+    - `entities_id`
+    - `name`
+    - `content`
+    - `requesttypes_id`
+    - `is_private`
+    - `comment`
 
 Solutions
 ~~~~~~~~~
 
-- `itemtype`
-- `Keep`
-- `items_id`
-- `solutiontypes_id`
-- `solutiontype_name`
-- `content`
-- `date_creation`
-- `date_mod`
-- `date_approval`
-- `users_id`
-- `user_name`
-- `users_id_editor`
-- `users_id_approval`
-- `user_name_approval`
-- `status`
-- `itilfollowups_id`
+.. collapse:: Solutions fields
+
+    - `itemtype`
+    - `Keep`
+    - `items_id`
+    - `solutiontypes_id`
+    - `solutiontype_name`
+    - `content`
+    - `date_creation`
+    - `date_mod`
+    - `date_approval`
+    - `users_id`
+    - `user_name`
+    - `users_id_editor`
+    - `users_id_approval`
+    - `user_name_approval`
+    - `status`
+    - `itilfollowups_id`
 
 Lines
 ~~~~~
 
-- `name`
-- `entities_id`
-- `caller_num`
-- `caller_name`
-- `users_id`
-- `groups_id`
-- `lineoperators_id`
-- `locations_id`
-- `states_id`
-- `linetypes_id`
-- `date_creation`
-- `date_mod`
-- `comment`
+.. collapse:: Lines fields
+
+    - `name`
+    - `entities_id`
+    - `caller_num`
+    - `caller_name`
+    - `users_id`
+    - `groups_id`
+    - `lineoperators_id`
+    - `locations_id`
+    - `states_id`
+    - `linetypes_id`
+    - `date_creation`
+    - `date_mod`
+    - `comment`
 
 Locations
 ~~~~~~~~~
 
-- `entities_id`
-- `name`
-- `locations_id`
-- `comment`
-- `level`
-- `ancestors_cache`
-- `sons_cache`
-- `address`
-- `postcode`
-- `town`
-- `state`
-- `country`
-- `building`
-- `room`
-- `latitude`
-- `longitude`
-- `altitude`
-- `date_mod`
-- `date_creation`
+.. collapse:: Locations fields
+
+    - `entities_id`
+    - `name`
+    - `locations_id`
+    - `comment`
+    - `level`
+    - `ancestors_cache`
+    - `sons_cache`
+    - `address`
+    - `postcode`
+    - `town`
+    - `state`
+    - `country`
+    - `building`
+    - `room`
+    - `latitude`
+    - `longitude`
+    - `altitude`
+    - `date_mod`
+    - `date_creation`
 
 Monitors
 ~~~~~~~~
 
-- `entities_id`
-- `name`
-- `date_mod`
-- `contact`
-- `contact_num`
-- `users_id_tech`
-- `groups_id_tech`
-- `comment`
-- `serial`
-- `otherserial`
-- `size`
-- `have_micro`
-- `have_speaker`
-- `have_subd`
-- `have_bnc`
-- `have_dvi`
-- `have_pivot`
-- `have_hdmi`
-- `have_displayport`
-- `locations_id`
-- `monitortypes_id`
-- `monitormodels_id`
-- `manufacturers_id`
-- `is_global`
-- `template_name`
-- `users_id`
-- `groups_id`
-- `states_id`
-- `ticket_tco`
-- `autoupdatesystems_id`
-- `uuid`
-- `date_creation`
+.. collapse:: Monitors fields
+
+    - `entities_id`
+    - `name`
+    - `date_mod`
+    - `contact`
+    - `contact_num`
+    - `users_id_tech`
+    - `groups_id_tech`
+    - `comment`
+    - `serial`
+    - `otherserial`
+    - `size`
+    - `have_micro`
+    - `have_speaker`
+    - `have_subd`
+    - `have_bnc`
+    - `have_dvi`
+    - `have_pivot`
+    - `have_hdmi`
+    - `have_displayport`
+    - `locations_id`
+    - `monitortypes_id`
+    - `monitormodels_id`
+    - `manufacturers_id`
+    - `is_global`
+    - `template_name`
+    - `users_id`
+    - `groups_id`
+    - `states_id`
+    - `ticket_tco`
+    - `autoupdatesystems_id`
+    - `uuid`
+    - `date_creation`
 
 Network devices
 ~~~~~~~~~~~~~~~
 
-- `entities_id`
-- `name`
-- `ram`
-- `serial`
-- `otherserial`
-- `contact`
-- `contact_num`
-- `users_id_tech`
-- `groups_id_tech`
-- `date_mod`
-- `comment`
-- `locations_id`
-- `networks_id`
-- `networkequipmenttypes_id`
-- `networkequipmentmodels_id`
-- `manufacturers_id`
-- `template_name`
-- `users_id`
-- `groups_id`
-- `states_id`
-- `ticket_tco`
-- `uuid`
-- `date_creation`
-- `autoupdatesystems_id`
-- `sysdescr`
-- `cpu`
-- `uptime`
-- `last_inventory_update`
-- `snmpcredentials_id`
+.. collapse:: Network devices fields
+
+    - `entities_id`
+    - `name`
+    - `ram`
+    - `serial`
+    - `otherserial`
+    - `contact`
+    - `contact_num`
+    - `users_id_tech`
+    - `groups_id_tech`
+    - `date_mod`
+    - `comment`
+    - `locations_id`
+    - `networks_id`
+    - `networkequipmenttypes_id`
+    - `networkequipmentmodels_id`
+    - `manufacturers_id`
+    - `template_name`
+    - `users_id`
+    - `groups_id`
+    - `states_id`
+    - `ticket_tco`
+    - `uuid`
+    - `date_creation`
+    - `autoupdatesystems_id`
+    - `sysdescr`
+    - `cpu`
+    - `uptime`
+    - `last_inventory_update`
+    - `snmpcredentials_id`
 
 PDUs
 ~~~~
 
-- `name`
-- `entities_id`
-- `locations_id`
-- `serial`
-- `otherserial`
-- `pdumodels_id`
-- `users_id_tech`
-- `groups_id_tech`
-- `template_name`
-- `states_id`
-- `comment`
-- `manufacturers_id`
-- `pdutypes_id`
-- `date_mod`
-- `date_creation`
+.. collapse:: PDUs fields
+
+    - `name`
+    - `entities_id`
+    - `locations_id`
+    - `serial`
+    - `otherserial`
+    - `pdumodels_id`
+    - `users_id_tech`
+    - `groups_id_tech`
+    - `template_name`
+    - `states_id`
+    - `comment`
+    - `manufacturers_id`
+    - `pdutypes_id`
+    - `date_mod`
+    - `date_creation`
 
 Projects
 ~~~~~~~~
 
-- `name`
-- `code`
-- `priority`
-- `entities_id`
-- `projects_id`
-- `projectstates_id`
-- `projecttypes_id`
-- `date`
-- `date_mod`
-- `users_id`
-- `groups_id`
-- `plan_start_date`
-- `plan_end_date`
-- `real_start_date`
-- `real_end_date`
-- `percent_done`
-- `auto_percent_done`
-- `show_on_global_gantt`
-- `content`
-- `comment`
-- `date_creation`
-- `projecttemplates_id`
-- `template_name`
+.. collapse:: Projects fields
+
+    - `name`
+    - `code`
+    - `priority`
+    - `entities_id`
+    - `projects_id`
+    - `projectstates_id`
+    - `projecttypes_id`
+    - `date`
+    - `date_mod`
+    - `users_id`
+    - `groups_id`
+    - `plan_start_date`
+    - `plan_end_date`
+    - `real_start_date`
+    - `real_end_date`
+    - `percent_done`
+    - `auto_percent_done`
+    - `show_on_global_gantt`
+    - `content`
+    - `comment`
+    - `date_creation`
+    - `projecttemplates_id`
+    - `template_name`
 
 Projects tasks
 ~~~~~~~~~~~~~~
 
-- `uuid`
-- `name`
-- `content`
-- `comment`
-- `entities_id`
-- `projects_id`
-- `projecttasks_id`
-- `date_creation`
-- `date_mod`
-- `plan_start_date`
-- `plan_end_date`
-- `real_start_date`
-- `real_end_date`
-- `planned_duration`
-- `effective_duration`
-- `projectstates_id`
-- `projecttasktypes_id`
-- `users_id`
-- `percent_done`
-- `auto_percent_done`
-- `is_milestone`
-- `projecttasktemplates_id`
-- `template_name`
+.. collapse:: Project tasks fields
+
+    - `uuid`
+    - `name`
+    - `content`
+    - `comment`
+    - `entities_id`
+    - `projects_id`
+    - `projecttasks_id`
+    - `date_creation`
+    - `date_mod`
+    - `plan_start_date`
+    - `plan_end_date`
+    - `real_start_date`
+    - `real_end_date`
+    - `planned_duration`
+    - `effective_duration`
+    - `projectstates_id`
+    - `projecttasktypes_id`
+    - `users_id`
+    - `percent_done`
+    - `auto_percent_done`
+    - `is_milestone`
+    - `projecttasktemplates_id`
+    - `template_name`
 
 Devices
 ~~~~~~~
 
-- `entities_id`
-- `name`
-- `date_mod`
-- `contact`
-- `contact_num`
-- `users_id_tech`
-- `groups_id_tech`
-- `comment`
-- `serial`
-- `otherserial`
-- `locations_id`
-- `peripheraltypes_id`
-- `peripheralmodels_id`
-- `brand`
-- `manufacturers_id`
-- `is_global`
-- `template_name`
-- `users_id`
-- `groups_id`
-- `states_id`
-- `ticket_tco`
-- `autoupdatesystems_id`
-- `uuid`
-- `date_creation`
+.. collapse:: Devices fields
+
+    - `entities_id`
+    - `name`
+    - `date_mod`
+    - `contact`
+    - `contact_num`
+    - `users_id_tech`
+    - `groups_id_tech`
+    - `comment`
+    - `serial`
+    - `otherserial`
+    - `locations_id`
+    - `peripheraltypes_id`
+    - `peripheralmodels_id`
+    - `brand`
+    - `manufacturers_id`
+    - `is_global`
+    - `template_name`
+    - `users_id`
+    - `groups_id`
+    - `states_id`
+    - `ticket_tco`
+    - `autoupdatesystems_id`
+    - `uuid`
+    - `date_creation`
 
 Phones
 ~~~~~~
 
-- `entities_id`
-- `name`
-- `date_mod`
-- `contact`
-- `contact_num`
-- `users_id_tech`
-- `groups_id_tech`
-- `comment`
-- `serial`
-- `otherserial`
-- `locations_id`
-- `phonetypes_id`
-- `phonemodels_id`
-- `brand`
-- `phonepowersupplies_id`
-- `number_line`
-- `have_headset`
-- `have_hp`
-- `manufacturers_id`
-- `is_global`
-- `template_name`
-- `users_id`
-- `groups_id`
-- `states_id`
-- `ticket_tco`
-- `autoupdatesystems_id`
-- `uuid`
-- `date_creation`
-- `last_inventory_update`
+.. collapse:: Phones fields
+
+    - `entities_id`
+    - `name`
+    - `date_mod`
+    - `contact`
+    - `contact_num`
+    - `users_id_tech`
+    - `groups_id_tech`
+    - `comment`
+    - `serial`
+    - `otherserial`
+    - `locations_id`
+    - `phonetypes_id`
+    - `phonemodels_id`
+    - `brand`
+    - `phonepowersupplies_id`
+    - `number_line`
+    - `have_headset`
+    - `have_hp`
+    - `manufacturers_id`
+    - `is_global`
+    - `template_name`
+    - `users_id`
+    - `groups_id`
+    - `states_id`
+    - `ticket_tco`
+    - `autoupdatesystems_id`
+    - `uuid`
+    - `date_creation`
+    - `last_inventory_update`
 
 Printers
 ~~~~~~~~
 
-- `entities_id`
-- `name`
-- `date_mod`
-- `contact`
-- `contact_num`
-- `users_id_tech`
-- `groups_id_tech`
-- `serial`
-- `otherserial`
-- `have_serial`
-- `have_parallel`
-- `have_usb`
-- `have_wifi`
-- `have_ethernet`
-- `comment`
-- `memory_size`
-- `locations_id`
-- `networks_id`
-- `printertypes_id`
-- `printermodels_id`
-- `manufacturers_id`
-- `is_global`
-- `template_name`
-- `init_pages_counter`
-- `last_pages_counter`
-- `users_id`
-- `groups_id`
-- `states_id`
-- `ticket_tco`
-- `uuid`
-- `date_creation`
-- `sysdescr`
-- `last_inventory_update`
-- `snmpcredentials_id`
-- `autoupdatesystems_id`
+.. collapse:: Printers fields
+
+    - `entities_id`
+    - `name`
+    - `date_mod`
+    - `contact`
+    - `contact_num`
+    - `users_id_tech`
+    - `groups_id_tech`
+    - `serial`
+    - `otherserial`
+    - `have_serial`
+    - `have_parallel`
+    - `have_usb`
+    - `have_wifi`
+    - `have_ethernet`
+    - `comment`
+    - `memory_size`
+    - `locations_id`
+    - `networks_id`
+    - `printertypes_id`
+    - `printermodels_id`
+    - `manufacturers_id`
+    - `is_global`
+    - `template_name`
+    - `init_pages_counter`
+    - `last_pages_counter`
+    - `users_id`
+    - `groups_id`
+    - `states_id`
+    - `ticket_tco`
+    - `uuid`
+    - `date_creation`
+    - `sysdescr`
+    - `last_inventory_update`
+    - `snmpcredentials_id`
+    - `autoupdatesystems_id`
 
 Problems
 ~~~~~~~~
 
-- `name`
-- `entities_id`
-- `status`
-- `content`
-- `date_mod`
-- `date`
-- `solvedate`
-- `closedate`
-- `time_to_resolve`
-- `users_id_recipient`
-- `users_id_lastupdater`
-- `urgency`
-- `impact`
-- `priority`
-- `itilcategories_id`
-- `impactcontent`
-- `causecontent`
-- `symptomcontent`
-- `actiontime`
-- `begin_waiting_date`
-- `waiting_duration`
-- `close_delay_stat`
-- `solve_delay_stat`
-- `date_creation`
-- `locations_id`
+.. collapse:: Problems fields
+
+    - `name`
+    - `entities_id`
+    - `status`
+    - `content`
+    - `date_mod`
+    - `date`
+    - `solvedate`
+    - `closedate`
+    - `time_to_resolve`
+    - `users_id_recipient`
+    - `users_id_lastupdater`
+    - `urgency`
+    - `impact`
+    - `priority`
+    - `itilcategories_id`
+    - `impactcontent`
+    - `causecontent`
+    - `symptomcontent`
+    - `actiontime`
+    - `begin_waiting_date`
+    - `waiting_duration`
+    - `close_delay_stat`
+    - `solve_delay_stat`
+    - `date_creation`
+    - `locations_id`
 
 Racks
 ~~~~~
 
-- `name`
-- `comment`
-- `entities_id`
-- `locations_id`
-- `serial`
-- `otherserial`
-- `rackmodels_id`
-- `manufacturers_id`
-- `racktypes_id`
-- `states_id`
-- `users_id_tech`
-- `groups_id_tech`
-- `width`
-- `height`
-- `depth`
-- `number_units`
-- `template_name`
-- `dcrooms_id`
-- `room_orientation`
-- `position`
-- `bgcolor`
-- `max_power`
-- `mesured_power`
-- `max_weight`
-- `date_mod`
-- `date_creation`
+.. collapse:: Racks fields
+
+    - `name`
+    - `comment`
+    - `entities_id`
+    - `locations_id`
+    - `serial`
+    - `otherserial`
+    - `rackmodels_id`
+    - `manufacturers_id`
+    - `racktypes_id`
+    - `states_id`
+    - `users_id_tech`
+    - `groups_id_tech`
+    - `width`
+    - `height`
+    - `depth`
+    - `number_units`
+    - `template_name`
+    - `dcrooms_id`
+    - `room_orientation`
+    - `position`
+    - `bgcolor`
+    - `max_power`
+    - `mesured_power`
+    - `max_weight`
+    - `date_mod`
+    - `date_creation`
 
 Rules
 ~~~~~
 
-- `entities_id`
-- `sub_type`
-- `ranking`
-- `name`
-- `description`
-- `match`
-- `is_active`
-- `comment`
-- `date_mod`
-- `uuid`
-- `condition`
-- `date_creation`
+.. collapse:: Rules fields
+
+    - `entities_id`
+    - `sub_type`
+    - `ranking`
+    - `name`
+    - `description`
+    - `match`
+    - `is_active`
+    - `comment`
+    - `date_mod`
+    - `uuid`
+    - `condition`
+    - `date_creation`
 
 Saved searches
 ~~~~~~~~~~~~~~
 
-- `name`
-- `type`
-- `itemtype`
-- `users_id`
-- `is_private`
-- `entities_id`
-- `query`
-- `last_execution_time`
-- `do_count`
-- `last_execution_date`
-- `counter`
+.. collapse:: Saved searches fields
+
+    - `name`
+    - `type`
+    - `itemtype`
+    - `users_id`
+    - `is_private`
+    - `entities_id`
+    - `query`
+    - `last_execution_time`
+    - `do_count`
+    - `last_execution_date`
+    - `counter`
 
 Software
 ~~~~~~~~
 
-- `entities_id`
-- `name`
-- `comment`
-- `locations_id`
-- `users_id_tech`
-- `groups_id_tech`
-- `is_update`
-- `softwares_id`
-- `manufacturers_id`
-- `template_name`
-- `date_mod`
-- `users_id`
-- `groups_id`
-- `ticket_tco`
-- `is_helpdesk_visible`
-- `softwarecategories_id`
-- `is_valid`
-- `date_creation`
-- `pictures`
+.. collapse:: Software fields
+
+    - `entities_id`
+    - `name`
+    - `comment`
+    - `locations_id`
+    - `users_id_tech`
+    - `groups_id_tech`
+    - `is_update`
+    - `softwares_id`
+    - `manufacturers_id`
+    - `template_name`
+    - `date_mod`
+    - `users_id`
+    - `groups_id`
+    - `ticket_tco`
+    - `is_helpdesk_visible`
+    - `softwarecategories_id`
+    - `is_valid`
+    - `date_creation`
+    - `pictures`
 
 Licenses
 ~~~~~~~~
 
-- `softwares_id`
-- `softwarelicenses_id`
-- `level`
-- `entities_id`
-- `number`
-- `softwarelicensetypes_id`
-- `name`
-- `serial`
-- `otherserial`
-- `softwareversions_id_buy`
-- `softwareversions_id_use`
-- `expire`
-- `comment`
-- `date_mod`
-- `is_valid`
-- `date_creation`
-- `locations_id`
-- `users_id_tech`
-- `users_id`
-- `groups_id_tech`
-- `groups_id`
-- `is_helpdesk_visible`
-- `template_name`
-- `states_id`
-- `manufacturers_id`
-- `contact`
-- `contact_num`
-- `allow_overquota`
-- `pictures`
-- `ancestors_cache`
-- `sons_cache`
+.. collapse:: Licenses fields
 
-Solutions template
-~~~~~~~~~~~~~~~~~~
+    - `softwares_id`
+    - `softwarelicenses_id`
+    - `level`
+    - `entities_id`
+    - `number`
+    - `softwarelicensetypes_id`
+    - `name`
+    - `serial`
+    - `otherserial`
+    - `softwareversions_id_buy`
+    - `softwareversions_id_use`
+    - `expire`
+    - `comment`
+    - `date_mod`
+    - `is_valid`
+    - `date_creation`
+    - `locations_id`
+    - `users_id_tech`
+    - `users_id`
+    - `groups_id_tech`
+    - `groups_id`
+    - `is_helpdesk_visible`
+    - `template_name`
+    - `states_id`
+    - `manufacturers_id`
+    - `contact`
+    - `contact_num`
+    - `allow_overquota`
+    - `pictures`
+    - `ancestors_cache`
+    - `sons_cache`
 
-- `entities_id`
-- `name`
-- `content`
-- `solutiontypes_id`
-- `comment`
-- `date_mod`
-- `date_creation`
+Solutions templates
+~~~~~~~~~~~~~~~~~~~
+
+.. collapse:: Solutions templates fields
+
+    - `entities_id`
+    - `name`
+    - `content`
+    - `solutiontypes_id`
+    - `comment`
+    - `date_mod`
+    - `date_creation`
 
 Solutions types
 ~~~~~~~~~~~~~~~
 
-- `name`
-- `comment`
-- `entities_id`
-- `date_mod`
-- `date_creation`
+.. collapse:: Solutions types fields
+
+    - `name`
+    - `comment`
+    - `entities_id`
+    - `date_mod`
+    - `date_creation`
 
 Suppliers
 ~~~~~~~~~
 
-- `entities_id`
-- `name`
-- `suppliertypes_id`
-- `address`
-- `postcode`
-- `town`
-- `state`
-- `country`
-- `website`
-- `phonenumber`
-- `comment`
-- `fax`
-- `email`
-- `date_mod`
-- `date_creation`
-- `is_active`
-- `pictures`
+.. collapse:: Suppliers fields
 
-Task catégories
+    - `entities_id`
+    - `name`
+    - `suppliertypes_id`
+    - `address`
+    - `postcode`
+    - `town`
+    - `state`
+    - `country`
+    - `website`
+    - `phonenumber`
+    - `comment`
+    - `fax`
+    - `email`
+    - `date_mod`
+    - `date_creation`
+    - `is_active`
+    - `pictures`
+
+Task categories
 ~~~~~~~~~~~~~~~
 
-- `entities_id`
-- `taskcategories_id`
-- `name`
-- `comment`
-- `level`
-- `ancestors_cache`
-- `sons_cache`
-- `is_active`
-- `is_helpdeskvisible`
-- `date_mod`
-- `date_creation`
-- `knowbaseitemcategories_id`
+.. collapse:: Task categories fields
+
+    - `entities_id`
+    - `taskcategories_id`
+    - `name`
+    - `comment`
+    - `level`
+    - `ancestors_cache`
+    - `sons_cache`
+    - `is_active`
+    - `is_helpdeskvisible`
+    - `date_mod`
+    - `date_creation`
+    - `knowbaseitemcategories_id`
 
 Task templates
 ~~~~~~~~~~~~~~
 
-- `entities_id`
-- `name`
-- `content`
-- `taskcategories_id`
-- `actiontime`
-- `comment`
-- `date_mod`
-- `date_creation`
-- `state`
-- `is_private`
-- `users_id_tech`
-- `groups_id_tech`
+.. collapse:: Task templates fields
+
+    - `entities_id`
+    - `name`
+    - `content`
+    - `taskcategories_id`
+    - `actiontime`
+    - `comment`
+    - `date_mod`
+    - `date_creation`
+    - `state`
+    - `is_private`
+    - `users_id_tech`
+    - `groups_id_tech`
 
 Tickets
 ~~~~~~~
 
-- `entities_id`
-- `name`
-- `date`
-- `closedate`
-- `solvedate`
-- `takeintoaccountdate`
-- `date_mod`
-- `users_id_lastupdater`
-- `status`
-- `users_id_recipient`
-- `requesttypes_id`
-- `content`
-- `urgency`
-- `impact`
-- `priority`
-- `itilcategories_id`
-- `type`
-- `global_validation`
-- `slas_id_ttr`
-- `slas_id_tto`
-- `slalevels_id_ttr`
-- `time_to_resolve`
-- `time_to_own`
-- `begin_waiting_date`
-- `sla_waiting_duration`
-- `ola_waiting_duration`
-- `olas_id_tto`
-- `olas_id_ttr`
-- `olalevels_id_ttr`
-- `ola_ttr_begin_date`
-- `internal_time_to_resolve`
-- `internal_time_to_own`
-- `waiting_duration`
-- `close_delay_stat`
-- `solve_delay_stat`
-- `takeintoaccount_delay_stat`
-- `actiontime`
-- `locations_id`
-- `validation_percent`
-- `date_creation`
-- `ola_tto_begin_date`
+.. collapse:: Tickets fields
+
+    - `entities_id`
+    - `name`
+    - `date`
+    - `closedate`
+    - `solvedate`
+    - `takeintoaccountdate`
+    - `date_mod`
+    - `users_id_lastupdater`
+    - `status`
+    - `users_id_recipient`
+    - `requesttypes_id`
+    - `content`
+    - `urgency`
+    - `impact`
+    - `priority`
+    - `itilcategories_id`
+    - `type`
+    - `global_validation`
+    - `slas_id_ttr`
+    - `slas_id_tto`
+    - `slalevels_id_ttr`
+    - `time_to_resolve`
+    - `time_to_own`
+    - `begin_waiting_date`
+    - `sla_waiting_duration`
+    - `ola_waiting_duration`
+    - `olas_id_tto`
+    - `olas_id_ttr`
+    - `olalevels_id_ttr`
+    - `ola_ttr_begin_date`
+    - `internal_time_to_resolve`
+    - `internal_time_to_own`
+    - `waiting_duration`
+    - `close_delay_stat`
+    - `solve_delay_stat`
+    - `takeintoaccount_delay_stat`
+    - `actiontime`
+    - `locations_id`
+    - `validation_percent`
+    - `date_creation`
+    - `ola_tto_begin_date`
 
 Ticket tasks
 ~~~~~~~~~~~~
 
-- `uuid`
-- `tickets_id`
-- `taskcategories_id`
-- `date`
-- `users_id`
-- `users_id_editor`
-- `content`
-- `is_private`
-- `actiontime`
-- `begin`
-- `end`
-- `state`
-- `users_id_tech`
-- `groups_id_tech`
-- `date_mod`
-- `date_creation`
-- `tasktemplates_id`
-- `timeline_position`
-- `sourceitems_id`
-- `sourceof_items_id`
+.. collapse:: Ticket tasks fields
+
+    - `uuid`
+    - `tickets_id`
+    - `taskcategories_id`
+    - `date`
+    - `users_id`
+    - `users_id_editor`
+    - `content`
+    - `is_private`
+    - `actiontime`
+    - `begin`
+    - `end`
+    - `state`
+    - `users_id_tech`
+    - `groups_id_tech`
+    - `date_mod`
+    - `date_creation`
+    - `tasktemplates_id`
+    - `timeline_position`
+    - `sourceitems_id`
+    - `sourceof_items_id`
 
 Ticket templates
 ~~~~~~~~~~~~~~~~
 
-- `name`
-- `entities_id`
-- `comment`
+.. collapse:: Ticket templates fields
+
+    - `name`
+    - `entities_id`
+    - `comment`

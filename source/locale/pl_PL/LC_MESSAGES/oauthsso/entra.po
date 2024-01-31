@@ -1,0 +1,225 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2024, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-31 14:11+0100\n"
+"PO-Revision-Date: 2024-01-31 13:12+0000\n"
+"Language-Team: Polish (Poland) (https://app.transifex.com/teclib/teams/28042/pl_PL/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+
+#: ../../source/oauthsso/entra.rst:2
+msgid "Entra"
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:5
+msgid "Register your application in Entra"
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:7
+msgid ""
+"First, register your application with your Entra Active Directory (Entra AD)"
+" client. This will provide you with an application ID for your application "
+"and allow it to receive tokens."
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:9
+msgid "Connect to the `Entra portal <https://entra.microsoft.com/#home>`__"
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:10
+msgid ""
+"Choose your Entra AD tenant by selecting your account in the top right "
+"corner of the page. Then select the **Change directory** navigation bar, "
+"then the desired tenant"
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:11
+msgid ""
+"Skip this step if you only have one Entra AD tenant under your account or if"
+" you have already selected one"
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:16
+msgid "In the Entra Portal, search for and select **Entra Active Directory**"
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:17
+msgid "From the left-hand **Active Directory** menu"
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:18
+msgid "select **Application Registrations**"
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:19
+msgid "Then **New Registration**."
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:24
+msgid ""
+"Enter **web** in the redirect URI and paste the return URL of your GLPI "
+"instance:"
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:33
+msgid "Secret and certificate"
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:35
+msgid ""
+"In the **certificates and secrets** tab, create a new secret that will need "
+"to be transferred to your Oauth SSO application on the GLPI side:"
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:41
+msgid ""
+"When you click on **add**, **the secret will only be available once**. As "
+"soon as you leave this page, **the secret will be hidden** and we will no "
+"longer be able to access it. Remember to **store it in a safe place** as we "
+"will need it later"
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:47
+msgid "Claims"
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:50
+msgid ""
+"If you are using **SSO V2**, an additional step is required. The **claims** "
+"on the Entra side **must be entered manually** and should preferably be of "
+"type **ID**."
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:52
+msgid "In the **Token configuration** tab"
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:53
+msgid "Click on **Add an optional claim**"
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:54
+msgid "Add the 4 claims below:"
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:61
+msgid "API authorisations"
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:63
+msgid ""
+"GLPI must be able to read user information in order to use it for connection"
+" - In **API permissions** - Click on the API already present (Microsoft "
+"Graph for our example)"
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:73
+msgid "Select :"
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:75
+msgid "email"
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:76
+msgid "offline_access"
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:77
+msgid "profile"
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:78
+msgid "user.read"
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:80
+msgid "Then remember to save your changes."
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:83
+msgid "Setup GLPI"
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:85
+msgid ""
+"Entra AD provides a description with the essential information you need:"
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:90
+msgid "Specify an application **name** visible to end users."
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:95
+msgid "Copy the values from the fields above:"
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:97
+msgid "Application ID"
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:98
+msgid "The holder ID"
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:99
+msgid "The **value** of the secret copied in the previous step"
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:102
+msgid ""
+"Please check that the **value** of the secret is filled in correctly.If the "
+"ID of the secret is copied, your application will fall into error."
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:105
+msgid "Explanation of ID field"
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:107
+msgid "3 values are available in this insert:"
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:112
+msgid ""
+"**User Principal Name (UPN)**: this option will show the full username of "
+"the user logging in (nom.prenom@mondomaine.com for example). If you want "
+"only the username to be visible (without the @mondomaine.com, see the "
+"**XXXXXXXXXX** paragraph)."
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:113
+msgid ""
+"**Entra user ID (OID)**: this option takes the object ID from the Entra AD. "
+"This ID will be used for the user login"
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:118
+msgid ""
+"**Email address**: This option specifies the user’s email address. This "
+"field will be used for the login. If it is empty, the UPN will be used."
+msgstr ""
+
+#: ../../source/oauthsso/entra.rst:120
+msgid ""
+"If you need to find your application in the Entra portal, select "
+"**Application subscriptions**, then **Display all applications**."
+msgstr ""
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr ""
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
+msgstr ""

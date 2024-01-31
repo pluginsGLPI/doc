@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2024, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-31 14:11+0100\n"
+"PO-Revision-Date: 2024-01-31 13:12+0000\n"
+"Language-Team: Polish (Poland) (https://app.transifex.com/teclib/teams/28042/pl_PL/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+
+#: ../../source/renamestrings/index.rst:2
+msgid "Rename strings"
+msgstr ""
+
+#: ../../source/renamestrings/index.rst:5
+msgid "Requirements (on-premise)"
+msgstr ""
+
+#: ../../source/renamestrings/index.rst:8
+msgid "GLPI Version"
+msgstr ""
+
+#: ../../source/renamestrings/index.rst:8
+msgid "Minimum PHP"
+msgstr ""
+
+#: ../../source/renamestrings/index.rst:8
+msgid "Recommended"
+msgstr ""
+
+#: ../../source/renamestrings/index.rst:10
+msgid "10.0.x"
+msgstr ""
+
+#: ../../source/renamestrings/index.rst:10
+msgid "8.1"
+msgstr ""
+
+#: ../../source/renamestrings/index.rst:10
+msgid "8.2"
+msgstr ""
+
+#: ../../source/renamestrings/index.rst:15
+msgid ""
+"A `basic licence <https://services.glpi-network.com/#offers>`__ (or higher) "
+"is required. This plugin is also available from the `Cloud <https://glpi-"
+"network.cloud/fr/>`__"
+msgstr ""
+
+#: ../../source/renamestrings/index.rst:18
+msgid "Download the plugin"
+msgstr ""
+
+#: ../../source/renamestrings/index.rst:20
+msgid ""
+"Go to **Marketplace**. Download and install the plugin **Rename GLPI "
+"strings**"
+msgstr ""
+
+#: ../../source/renamestrings/index.rst:26
+msgid "Creating an override"
+msgstr ""
+
+#: ../../source/renamestrings/index.rst:28
+msgid "Go to **Setup > Rename GLPI strings**"
+msgstr ""
+
+#: ../../source/renamestrings/index.rst:29
+msgid "Click on **Add** and select the appropriate language."
+msgstr ""
+
+#: ../../source/renamestrings/index.rst:30
+msgid "In the **Override** tab, click on **New override**."
+msgstr ""
+
+#: ../../source/renamestrings/index.rst:31
+msgid ""
+"Select the value you wish to change from the drop-down list. You can search "
+"directly."
+msgstr ""
+
+#: ../../source/renamestrings/index.rst:33
+msgid "We are going to change the value **Computer** to **PC**"
+msgstr ""
+
+#: ../../source/renamestrings/index.rst:35
+msgid ""
+"Select computer and enter the singular and plural of the word to be changed "
+"in the corresponding fields."
+msgstr ""
+
+#: ../../source/renamestrings/index.rst:36
+msgid "Click on **Save**"
+msgstr ""
+
+#: ../../source/renamestrings/index.rst:42
+msgid "Show the change"
+msgstr ""
+
+#: ../../source/renamestrings/index.rst:44
+msgid ""
+"You may not see the change immediately. To make it appear, log out and then "
+"log back in."
+msgstr ""
+
+#: ../../source/renamestrings/index.rst:46
+msgid "Before :"
+msgstr ""
+
+#: ../../source/renamestrings/index.rst:51
+msgid "After :"
+msgstr ""
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr ""
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
+msgstr ""
