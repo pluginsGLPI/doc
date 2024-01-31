@@ -49,14 +49,18 @@ Each profile has an element assigned to it. You will need to define the value of
 
 Email
 ~~~~~
+
 .. collapse:: List of data
+
    - `users_id`
    - `is_default`
    - `email`
 
 Entity
 ~~~~~~
+
 .. collapse:: List of data
+
    - `name`
    - `entities_id`
    - `comment`
@@ -153,7 +157,9 @@ Entity
 
 Computer
 ~~~~~~~~
+
 .. collapse:: List of data
+
    - `entities_id`
    - `name`
    - `serial`
@@ -182,7 +188,9 @@ Computer
 
 User
 ~~~~
+
 .. collapse:: List of data
+
    - `name`
    - `password`
    - `password_last_update`
