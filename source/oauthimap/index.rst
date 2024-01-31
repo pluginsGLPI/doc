@@ -22,7 +22,18 @@ GLPI Version Minimum PHP Recommended
 10.0.x       8.1         8.2
 ============ =========== ===========
 
-Here are the configuration steps including configuration phases on the Entra side.
+.. Note::
+   This plugin is available without a GLPI-Network subscription. It is also available in `Cloud <https://glpi-network.cloud/>`__
+
+
+Supported mail services
+-----------------------
+
+OAuth IMAP support :
+
+- Gmail : https://developers.google.com/gmail/imap/xoauth2-protocol?hl=fr
+- Entra : https://learn.microsoft.com/fr-fr/power-platform/admin/connect-gmail-oauth2
+
 
 Install the plugin
 ------------------
@@ -41,6 +52,9 @@ Install the plugin
 
 .. figure:: images/oauth-imap-2.png
    :alt:
+
+
+Here are the configuration steps including configuration phases on the Entra side.
 
 Register your Entra application
 -------------------------------
