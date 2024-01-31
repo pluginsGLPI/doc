@@ -153,32 +153,32 @@ Entity
 
 Computer
 ~~~~~~~~
-
-- `entities_id`
-- `name`
-- `serial`
-- `otherserial`
-- `contact`
-- `contact_num`
-- `users_id_tech`
-- `groups_id_tech`
-- `comment`
-- `date_mod`
-- `autoupdatesystems_id`
-- `locations_id`
-- `networks_id`
-- `computermodels_id`
-- `computertypes_id`
-- `template_name`
-- `manufacturers_id`
-- `users_id`
-- `groups_id`
-- `states_id`
-- `ticket_tco`
-- `uuid`
-- `date_creation`
-- `last_inventory_update`
-- `last_boot`
+.. collapse:: List of data
+   - `entities_id`
+   - `name`
+   - `serial`
+   - `otherserial`
+   - `contact`
+   - `contact_num`
+   - `users_id_tech`
+   - `groups_id_tech`
+   - `comment`
+   - `date_mod`
+   - `autoupdatesystems_id`
+   - `locations_id`
+   - `networks_id`
+   - `computermodels_id`
+   - `computertypes_id`
+   - `template_name`
+   - `manufacturers_id`
+   - `users_id`
+   - `groups_id`
+   - `states_id`
+   - `ticket_tco`
+   - `uuid`
+   - `date_creation`
+   - `last_inventory_update`
+   - `last_boot`
 
 User
 ~~~~
