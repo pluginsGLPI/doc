@@ -50,7 +50,7 @@ Each profile has an element assigned to it. You will need to define the value of
 Email
 ~~~~~
 
-.. collapse:: List of data
+.. collapse:: Email field
 
    - `users_id`
    - `is_default`
@@ -59,7 +59,7 @@ Email
 Entity
 ~~~~~~
 
-.. collapse:: List of data
+.. collapse:: Entity fields
 
    - `name`
    - `entities_id`
@@ -158,7 +158,7 @@ Entity
 Computer
 ~~~~~~~~
 
-.. collapse:: List of data
+.. collapse:: Computer fields
 
    - `entities_id`
    - `name`
@@ -189,7 +189,7 @@ Computer
 User
 ~~~~
 
-.. collapse:: List of data
+.. collapse:: User fields
 
    - `name`
    - `password`
