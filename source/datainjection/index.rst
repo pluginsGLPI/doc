@@ -169,7 +169,7 @@ Choosing a template
 
 -  From **Tools > Data injection**, select the template you require from the drop-down list
 -  Then enter the path to the CSV file to be injected
--  Specify the **encoding** of the file if you know it. If not, leave on **Automatic detection**
+-  Specify the **Encoding** of the file if you know it. If not, leave on **Automatic detection**
 -  Click on **Proceed with import**
 
 .. figure:: images/Datainjection-5.png
