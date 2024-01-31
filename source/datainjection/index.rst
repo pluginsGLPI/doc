@@ -107,8 +107,8 @@ Mappings
 ^^^^^^^^
 
 This stage is essential. It defines, for each column in the file, the corresponding field in the database. The columns are identified by the content of the header line (presence defined in the previous step) or by
-their position (starting from 0). A separator error (in the previous step) will result in an incorrect split. The View file button is used to preview the first lines of the file and check their content and the
-interpretation made by the extension.
+their position (starting from 0). A separator error (in the previous step) will result in an incorrect split. The **View file** button is used to preview the first lines of the file and check their content and the
+interpretation made by the plugin.
 
 For each column, you can choose
 
