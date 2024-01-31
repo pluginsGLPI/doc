@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Kaya Zeren <kayazeren@gmail.com>, 2019
+# Kaya Zeren <kayazeren@gmail.com>, 2023
 # 
 #, fuzzy
 msgid ""
@@ -13,8 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-14 15:17+0200\n"
 "PO-Revision-Date: 2016-10-25 19:22+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2019\n"
-"Language-Team: Turkish (Turkey) (https://www.transifex.com/teclib/teams/28042/tr_TR/)\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2023\n"
+"Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../source/empty/index.rst:2
 msgid "Empty"
-msgstr "Boş"
+msgstr "Empty"
 
 #: ../../source/empty/index.rst:4
 msgid "Sources link: https://github.com/pluginsGLPI/empty"
@@ -31,7 +31,7 @@ msgstr "Kaynak bağlantısı: https://github.com/pluginsGLPI/empty"
 
 #: ../../source/empty/index.rst:5
 msgid "Download: *not relevant*"
-msgstr "İndir: *ilgisiz*"
+msgstr "İndirme bağlantısı: *ilgisiz*"
 
 #: ../../source/empty/index.rst:7
 msgid "This plugins does... nothing. Really!"
@@ -50,7 +50,7 @@ msgstr ""
 
 #: ../../source/empty/index.rst:12
 msgid "Create a new plugin"
-msgstr "Yeni bir uygulama eki oluşturun"
+msgstr "Yeni bir uygulama eki oluşturmak"
 
 #: ../../source/empty/index.rst:14
 msgid ""
@@ -82,14 +82,14 @@ msgstr ""
 
 #: ../../source/empty/index.rst:29
 msgid "Update existing plugin"
-msgstr "Varolan uygulama ekini güncelleme"
+msgstr "Var olan uygulama ekini güncellemek"
 
 #: ../../source/empty/index.rst:31
 msgid ""
 "There is no automated way to update an existing plugin, because there would "
 "be too many cases to handle. But don't worry, procedure is quite simple ;)"
 msgstr ""
-"Gözden geçirilmesi gereken çok sayıda durum olduğundan henüz varolan "
+"Gözden geçirilmesi gereken çok sayıda durum olduğundan henüz var olan "
 "uygulama ekleri otomatik olarak güncellenemiyor. Gene de sorun değil, işlem "
 "oldukça basit ;)"
 
@@ -191,7 +191,7 @@ msgid ""
 "override ``$csignore`` and/or ``$csfiles`` in the ``RoboFile.php`` of the "
 "plugin:"
 msgstr ""
-"Yoksayma listesi ya da denetlenmiş klasörleri uygulamak istiyorsanız, "
+"Yok sayma listesi ya da denetlenmiş klasörleri uygulamak istiyorsanız, "
 "uygulama ekinin ``RoboFile.php`` dosyasındaki ``$csignore`` ve ``$csfiles`` "
 "değerlerini değiştirmeniz yeterlidir:"
 
@@ -208,19 +208,19 @@ msgstr ""
 
 #: ../../source/empty/index.rst:110
 msgid "check coding standards,"
-msgstr "kodlama standartlarını denetler,"
+msgstr "Kodlama standartlarını denetler,"
 
 #: ../../source/empty/index.rst:111
 msgid "run on a bunch on different configuration"
-msgstr "farklı yapılandırmalar üzerinde çalışır"
+msgstr "Farklı yapılandırmalar üzerinde çalışır"
 
 #: ../../source/empty/index.rst:113
 msgid ""
 "You still have to enable travis-ci builds from the website in order to "
 "activate automated tests."
 msgstr ""
-"Otomatik denetimlerin yapılabilmesi için web sitesi üzerinde travis-ci "
-"yapımlarını etkinleştirmeniz gerekir."
+"Otomatik denetimlerin yapılabilmesi için site üzerinde travis-ci yapımlarını"
+" etkinleştirmeniz gerekir."
 
 #: ../../source/empty/index.rst:115
 msgid ""
@@ -229,19 +229,21 @@ msgid ""
 "`Travis-CI documentation <https://docs.travis-ci.com/>`_ to know more."
 msgstr ""
 "``.travis.yml`` dosyası değiştirilebilir. Birim denetimleri yürütmek, bir "
-"veritabanını oluşturmak ya da güncellemek, bildirimleri etkinleştirmek gibi "
-"işlemler ekleyebilirsiniz. Ayrıntılı bilgi almak için `Travis-CI belgelerine"
-" <https://docs.travis-ci.com/>`_ bakın."
+"veri tabanını oluşturmak ya da güncellemek, bildirimleri etkinleştirmek gibi"
+" işlemler ekleyebilirsiniz. Ayrıntılı bilgi almak için `Travis-CI "
+"belgelerine <https://docs.travis-ci.com/>`_ bakın."
 
 #: ../../source/empty/index.rst:118
 msgid "Minifying CSS and JS"
-msgstr ""
+msgstr "CSS ve JS dosyalarını küçültmek"
 
 #: ../../source/empty/index.rst:122
 msgid ""
 "Disabled as of 0.1.13, because libs used from Robo are out of date and "
 "connot be replaced."
 msgstr ""
+"Robo kitaplıkları eskimiş olduğundan ve değiştirilemediğinden 0.1.13 "
+"sürümüyle birlikte devre dışı bırakıldı."
 
 #: ../../source/empty/index.rst:124
 msgid ""
@@ -386,9 +388,9 @@ msgstr ""
 "İkinci ve üçüncü adımlar için bir seçim yapmanız gerekir.  ``PO`` "
 "dosyalarınızı güncellemek ve çevirmek için `poedit <https://poedit.net/>`_; "
 "gibi gettext araçlarını kullanabileceğiniz gibi`Transifex "
-"<http://transifex.com/>`_ ya da `Zanata <http://zanata.org/>`_ gibi "
-"çevrimiçi çeviri sistemlerinden yararlanabilirsiniz. Şu anda Transifex "
-"üzerinde GLPI çekirdeği ve çoğu uygulama ekinin çevirileri bulunmaktadır."
+"<http://transifex.com/>`_ ya da `Zanata <http://zanata.org/>`_ gibi çevrim "
+"içi çeviri sistemlerinden yararlanabilirsiniz. Şu anda Transifex üzerinde "
+"GLPI çekirdeği ve çoğu uygulama ekinin çevirileri bulunmaktadır."
 
 #: ../../source/empty/index.rst:170
 msgid ""
@@ -402,7 +404,7 @@ msgstr ""
 
 #: ../../source/empty/index.rst:175
 msgid "Release script"
-msgstr "Yayınlama Betiği"
+msgstr "Yayınlama betiği"
 
 #: ../../source/empty/index.rst:177
 msgid ""
@@ -420,6 +422,8 @@ msgid ""
 "Note that the release script is only compatible if you use semantic "
 "versionning!"
 msgstr ""
+"Yayınlama betiğinin yalnız anlam bilimsel sürümleme ile uyumlu olduğunu "
+"unutmayın!"
 
 #: ../../source/empty/index.rst:183
 msgid ""
@@ -455,7 +459,7 @@ msgid ""
 "versions in also in drafts, and to create github releases), unless you use "
 "the ``--nogithub`` option"
 msgstr ""
-"`github <https://github.com/PyGithub/PyGithub>`_ (varolan sürümleri ve "
+"`github <https://github.com/PyGithub/PyGithub>`_ (var olan sürümleri ve "
 "taslakları denetlemek ve github sürümlerini oluşturmak için ), "
 "``--nogithub`` seçeneğini kullanmadığınız sürece"
 
@@ -477,15 +481,15 @@ msgstr "Yayınlama sürecinde şu işlemler yapılır:"
 
 #: ../../source/empty/index.rst:211
 msgid "check if the version constant is the same as the tag you've requested;"
-msgstr "sürüm sabitinin istediğiniz etiket ile aynı olup olmadığı denetlenir;"
+msgstr "Sürüm sabitinin istediğiniz etiket ile aynı olup olmadığı denetlenir,"
 
 #: ../../source/empty/index.rst:212
 msgid ""
 "check if the version in the website XML file is the same as the tag you've "
 "requested;"
 msgstr ""
-"web sitesi XML dosyası sürümünün istediğiniz etiket ile aynı olup olmadığı "
-"denetlenir;"
+"Site XML dosyası sürümünün istediğiniz etiket ile aynı olup olmadığı "
+"denetlenir,"
 
 #: ../../source/empty/index.rst:213
 msgid ""
@@ -493,41 +497,41 @@ msgid ""
 "project is hosted in the *pluginsGLPI* organization and the release is "
 "public);"
 msgstr ""
-"yerel ve uzak (projenizin *pluginsGLPI* kuruluşunda yayınlandığı ve herkese "
-"açık olarak yayınlandığı varsayılarak) bir sürümün varolup olmadığı "
-"denetlenir;"
+"Yerel ve uzak (projenizin *pluginsGLPI* kuruluşunda yayınlandığı ve herkese "
+"açık olarak yayınlandığı varsayılarak) bir sürümün var olup olmadığı "
+"denetlenir,"
 
 #: ../../source/empty/index.rst:214
 msgid ""
 "make a `git archive` of the paths that are not excluded (``.git``, "
 "``tools``, ``tests``, ...);"
 msgstr ""
-"devre dışı bırakılmamış yolların `git arşivi` of oluşturulur (``.git``, "
-"``tools``, ``tests``, ...);"
+"Devre dışı bırakılmamış yolların `git arşivi` of oluşturulur (``.git``, "
+"``tools``, ``tests``, ...),"
 
 #: ../../source/empty/index.rst:215
 msgid "if any, install composer dependencies;"
-msgstr "varsa derleyici bağımlılıkları yüklenir;"
+msgstr "Varsa derleyici bağımlılıkları yüklenir,"
 
 #: ../../source/empty/index.rst:216
 msgid "if any, compile you ``MO`` files;"
-msgstr "varsa, ``MO`` dosyaları derlenir;"
+msgstr "Varsa, ``MO`` dosyaları derlenir,"
 
 #: ../../source/empty/index.rst:217
 msgid ""
 "if any, compile you CSS stylesheets and your Javascript files (using "
 "`Robo.li <http://robo.li>`_);"
 msgstr ""
-"varsa, CSS stil sayfaları ve JavaScript dosyaları derlenir (`Robo.li "
-"<http://robo.li>` kullanılarak_);"
+"Varsa, CSS biçem sayfaları ve JavaScript dosyaları derlenir (`Robo.li "
+"<http://robo.li>` kullanılarak_),"
 
 #: ../../source/empty/index.rst:218
 msgid ""
 "create a release archive with all that; that will be available in the "
 "``dist`` directory;"
 msgstr ""
-"tüm bunlardan bir yayın arşivi derlenerek  `Robo.li <http://robo.li>`_  "
-"``dist`` klasörüne eklenir;"
+"Tüm bunlardan bir yayın arşivi derlenerek  `Robo.li <http://robo.li>`_  "
+"``dist`` klasörüne eklenir,"
 
 #: ../../source/empty/index.rst:219
 msgid "use GPG to sign the archive."
@@ -558,7 +562,7 @@ msgstr ""
 
 #: ../../source/empty/index.rst:230
 msgid "Compiling MO files"
-msgstr "MO dosyalarının derlenmesi"
+msgstr "MO dosyalarını derlemek"
 
 #: ../../source/empty/index.rst:232
 msgid ""
@@ -592,8 +596,8 @@ msgid ""
 "release should have its own tag; but you may want to create a release "
 "archive without any tags in some circumstances."
 msgstr ""
-"Varsayılan olarak yayınlama betiği yalnız varolan etiketler üzerinde "
-"çalışır. Hehrangi bir ön yayının kendi etiketi olmalıdır. Ancak bazı "
+"Varsayılan olarak yayınlama betiği yalnız var olan etiketler üzerinde "
+"çalışır. Herhangi bir ön yayının kendi etiketi olmalıdır. Ancak bazı "
 "durumlarda herhangi bir etiketi olmayan bir yayın arşivi oluşturmak "
 "isteyebilirsiniz."
 
@@ -656,7 +660,7 @@ msgstr ""
 
 #: ../../source/empty/index.rst:269
 msgid "GitHub release"
-msgstr "GitHub yayını"
+msgstr "GitHub üzerinde yayınlamak"
 
 #: ../../source/empty/index.rst:271
 msgid ""
@@ -681,8 +685,8 @@ msgid ""
 "access token. Access token is valid per user, and gives accesss to all his "
 "repositories."
 msgstr ""
-"Bu özelliği kullanabilmek içn `github "
-"<https://github.com/PyGithub/PyGithub>`_ yüklenmiş; ve erişim kodu alınmış "
+"Bu özelliği kullanabilmek içn `GitHub "
+"<https://github.com/PyGithub/PyGithub>`_ kurulmuş; ve erişim kodu alınmış "
 "olmalıdır. Her kullanıcıya bir erişim kodu verilir ve depolarına ulaşması "
 "için kullanılır."
 
@@ -710,7 +714,7 @@ msgstr ""
 
 #: ../../source/empty/index.rst:284
 msgid "Excluding files"
-msgstr ""
+msgstr "Katılmayacak dosyaları belirlemek"
 
 #: ../../source/empty/index.rst:286
 msgid ""
@@ -719,54 +723,58 @@ msgid ""
 "release archive. Write one `expression "
 "<https://docs.python.org/2/library/re.html>`_ per line"
 msgstr ""
+"Uygulama ekinizin kök klasöründe bir ``.ignore-release`` dosyası "
+"oluşturabilir ve içine sürüm arşivine katılmasını istemediğiniz dosya ve "
+"klasörleri yazabilirsiniz. Her satıra bir `ifade "
+"<https://docs.python.org/2/library/re.html>`_ yazın"
 
 #: ../../source/empty/index.rst:293
 msgid "Some files will automatically be excluded:"
-msgstr ""
+msgstr "Bazı dosyalar otomatik olarak katılmaz:"
 
 #: ../../source/empty/index.rst:295
 msgid ".git*,"
-msgstr ""
+msgstr ".git*,"
 
 #: ../../source/empty/index.rst:296
 msgid ".gh_token"
-msgstr ""
+msgstr ".gh_token"
 
 #: ../../source/empty/index.rst:297
 msgid ".tx/"
-msgstr ""
+msgstr ".tx/"
 
 #: ../../source/empty/index.rst:298
 msgid "tools/"
-msgstr ""
+msgstr "tools/"
 
 #: ../../source/empty/index.rst:299
 msgid "tests/"
-msgstr ""
+msgstr "tests/"
 
 #: ../../source/empty/index.rst:300
 msgid ".atoum.php"
-msgstr ""
+msgstr ".atoum.php"
 
 #: ../../source/empty/index.rst:301
 msgid ".travis.yml"
-msgstr ""
+msgstr ".travis.yml"
 
 #: ../../source/empty/index.rst:302
 msgid ".circleci/"
-msgstr ""
+msgstr ".circleci/"
 
 #: ../../source/empty/index.rst:303
 msgid ".ignore-release"
-msgstr ""
+msgstr ".ignore-release"
 
 #: ../../source/empty/index.rst:304
 msgid "composer.lock"
-msgstr ""
+msgstr "composer.lock"
 
 #: ../../source/empty/index.rst:305
 msgid "Robofile.php"
-msgstr ""
+msgstr "Robofile.php"
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"

@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Kaya Zeren <kayazeren@gmail.com>, 2019
+# Kaya Zeren <kayazeren@gmail.com>, 2023
 # 
 #, fuzzy
 msgid ""
@@ -13,8 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-14 15:17+0200\n"
 "PO-Revision-Date: 2016-11-30 10:06+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2019\n"
-"Language-Team: Turkish (Turkey) (https://www.transifex.com/teclib/teams/28042/tr_TR/)\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2023\n"
+"Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../source/fields/index.rst:2
 msgid "Fields"
-msgstr "Alanlar"
+msgstr "Fields"
 
 #: ../../source/fields/index.rst:4
 msgid "Sources link: https://github.com/pluginsGLPI/fields"
@@ -31,7 +31,7 @@ msgstr "Kaynaklar bağlantısı: https://github.com/pluginsGLPI/fields"
 
 #: ../../source/fields/index.rst:5
 msgid "Download: https://github.com/pluginsGLPI/fields/releases"
-msgstr "İndirin: https://github.com/pluginsGLPI/fields/releases"
+msgstr "İndirme bağlantısı: https://github.com/pluginsGLPI/fields/releases"
 
 #: ../../source/fields/index.rst:7
 msgid ""
@@ -75,7 +75,7 @@ msgstr "Bloklara alanlar ekler,"
 
 #: ../../source/fields/index.rst:23
 msgid "Display blocks in an existing tab or in their own tab,"
-msgstr "Blokları varolan ya da yeni bir sekmede görüntüler,"
+msgstr "Blokları var olan ya da yeni bir sekmede görüntüler,"
 
 #: ../../source/fields/index.rst:24
 msgid "Many fields types available,"
@@ -95,11 +95,11 @@ msgstr "..."
 
 #: ../../source/fields/index.rst:30
 msgid "Install the Plugin"
-msgstr "Uygulama Ekini Yükle"
+msgstr "Uygulama ekini kurmak"
 
 #: ../../source/fields/index.rst:32
 msgid "Uncompress the archive."
-msgstr "Arşivi ayıkla."
+msgstr "Arşivi ayıklayın."
 
 #: ../../source/fields/index.rst:33
 msgid "Move the ``fields`` directory to the ``<GLPI_ROOT>/plugins`` directory"
@@ -107,11 +107,11 @@ msgstr "``fields`` klasörünü ``<GLPI_ROOT>/plugins`` klasörüne taşıyın"
 
 #: ../../source/fields/index.rst:34
 msgid "Navigate to the *Configuration > Plugins* page,"
-msgstr "*Yapılandırma > Uygulama Ekleri* sayfasına gidin."
+msgstr "*Yapılandırma > Uygulama ekleri* bölümüne gidin."
 
 #: ../../source/fields/index.rst:35
 msgid "Install and activate the plugin."
-msgstr "Uygulama ekini yükleyip etkinleştirin."
+msgstr "Uygulama ekini kurup etkinleştirin."
 
 #: ../../source/fields/index.rst:38
 msgid "Usage"
@@ -123,7 +123,7 @@ msgid ""
 "disk (into ``<GLPI_ROOT>/files/_plugins/fields``) automatically. Those files"
 " and tables will be updated along with the plugin."
 msgstr ""
-"Bu uygulama eki otomatik olarak veritabanında gerekli tabloları ve diskte "
+"Bu uygulama eki otomatik olarak veri tabanında gerekli tabloları ve diskte "
 "bazı dosyaları oluşturur (``<GLPI_ROOT>/files/_plugins/fields`` klasöründe)."
 " Bu dosyalar ve tablolar uygulama ekiyle birlikte güncellenir."
 
@@ -167,7 +167,7 @@ msgstr "`Sekme ekle`: Bloğun bulunduğu öge formuna yeni bir sekme ekler,"
 msgid ""
 "`Insertion in the form`: will add the block at the end of the main item "
 "form,"
-msgstr "`Forma ekleme`: Bloğu ana öge formunun sonuna ekler,"
+msgstr "`Form içine ekleme`: Bloğu ana öge formunun sonuna ekler,"
 
 #: ../../source/fields/index.rst:59
 msgid ""
@@ -192,7 +192,8 @@ msgid ""
 "You can add only one block of the type `Insertion in the form` for an "
 "associated item type."
 msgstr ""
-"İlgili öge türü için `Forma ekleme` türünde yalnız bir blok eklenebilir."
+"İlgili öge türü için `Form içine ekleme` türünde yalnız bir blok "
+"eklenebilir."
 
 #: ../../source/fields/index.rst:68
 msgid "Inserting a block in a specific tab is only possible for one item:"
@@ -216,8 +217,8 @@ msgid ""
 "the block. You will be able to choose either `No access`, `Read` or `Write` "
 "for every existing profile."
 msgstr ""
-"Bloğa erişebilecek profiller `Profiller` sekmesinden ayarlanabilir. Varolan "
-"her profil için `Erişim yok`, `Okuma` ya da `Yazma` izni seçilebilir."
+"Bloğa erişebilecek profiller `Profiller` sekmesinden ayarlanabilir. Var olan"
+" her profil için `Erişim yok`, `Okuma` ya da `Yazma` izni seçilebilir."
 
 #: ../../source/fields/index.rst:82
 msgid "Adding a new field"
@@ -331,7 +332,7 @@ msgstr "Eklenen tüm alanlar eklenmiş ögeler arama formlarından aranabilir."
 
 #: ../../source/fields/index.rst:124
 msgid "Simplified Interface"
-msgstr "Basit Arayüz"
+msgstr "Basit arayüz"
 
 #: ../../source/fields/index.rst:126
 msgid ""

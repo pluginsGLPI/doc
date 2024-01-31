@@ -1,0 +1,2398 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2024, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-26 16:17+0100\n"
+"PO-Revision-Date: 2024-01-26 14:56+0000\n"
+"Language-Team: Russian (Latvia) (https://app.transifex.com/teclib/teams/28042/ru_lv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru_lv\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../../source/anonymize/index.rst:2
+msgid "Anonymize"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:5
+msgid "Requirements (on-premise)"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:8
+msgid "GLPI Version"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:8
+msgid "Minimum PHP"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:8
+msgid "Recommended"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:10
+msgid "10.0.x"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:10
+msgid "8.1"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:10
+msgid "8.2"
+msgstr ""
+
+#: ../../source/anonymize/index.rst-1 ../../source/anonymize/index.rst:14
+msgid "Install the plugin"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:17
+msgid ""
+"A `basic licence <https://services.glpi-network.com/#offers>`__ (or higher) "
+"is required. This plugin is also available from the `Cloud <https://glpi-"
+"network.cloud/fr/>`__."
+msgstr ""
+
+#: ../../source/anonymize/index.rst:19
+msgid ""
+"Go to the marketplace. Download and install the “`Anonymize`”   plugin."
+msgstr ""
+
+#: ../../source/anonymize/index.rst:25
+msgid "Choice of profile"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:27
+msgid ""
+"Anonymisation works by profile. There are 4 profiles already created. When "
+"you select a profile, a certain amount of data is already set. They can, of "
+"course, be modified."
+msgstr ""
+
+#: ../../source/anonymize/index.rst:30
+msgid ""
+"Go to **Administration** > **Anonymization profile** and select the profile "
+"best suited to your needs:"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:32
+msgid "The 4 profiles you will find are :"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:34 ../../source/anonymize/index.rst:51
+msgid "Email"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:35 ../../source/anonymize/index.rst:58
+msgid "Entity"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:36 ../../source/anonymize/index.rst:155
+msgid "Computer"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:37
+msgid "User profile"
+msgstr ""
+
+#: ../../source/anonymize/index.rst-1
+msgid "Profiles"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:43
+msgid "Anonymisable data per profile (predefined)"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:45
+msgid ""
+"Each profile has an element assigned to it. You will need to define the "
+"value of each attribute that it will be able to anonymise (or not)"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:53 ../../source/anonymize/index.rst:174
+#: ../../source/anonymize/index.rst:374 ../../source/anonymize/index.rst:478
+#: ../../source/anonymize/index.rst:576 ../../source/anonymize/index.rst:649
+#: ../../source/anonymize/index.rst:665 ../../source/anonymize/index.rst:688
+#: ../../source/anonymize/index.rst:723 ../../source/anonymize/index.rst:738
+#: ../../source/anonymize/index.rst:799 ../../source/anonymize/index.rst:827
+#: ../../source/anonymize/index.rst:871 ../../source/anonymize/index.rst:906
+#: ../../source/anonymize/index.rst:933 ../../source/anonymize/index.rst:965
+#: ../../source/anonymize/index.rst:1002 ../../source/anonymize/index.rst:1094
+#: ../../source/anonymize/index.rst:1117 ../../source/anonymize/index.rst:1147
+#: ../../source/anonymize/index.rst:1286
+msgid "`users_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:54
+msgid "`is_default`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:55 ../../source/anonymize/index.rst:74
+#: ../../source/anonymize/index.rst:515 ../../source/anonymize/index.rst:1196
+msgid "`email`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:60 ../../source/anonymize/index.rst:158
+#: ../../source/anonymize/index.rst:186 ../../source/anonymize/index.rst:339
+#: ../../source/anonymize/index.rst:368 ../../source/anonymize/index.rst:392
+#: ../../source/anonymize/index.rst:407 ../../source/anonymize/index.rst:430
+#: ../../source/anonymize/index.rst:463 ../../source/anonymize/index.rst:494
+#: ../../source/anonymize/index.rst:509 ../../source/anonymize/index.rst:532
+#: ../../source/anonymize/index.rst:545 ../../source/anonymize/index.rst:555
+#: ../../source/anonymize/index.rst:568 ../../source/anonymize/index.rst:586
+#: ../../source/anonymize/index.rst:602 ../../source/anonymize/index.rst:623
+#: ../../source/anonymize/index.rst:646 ../../source/anonymize/index.rst:661
+#: ../../source/anonymize/index.rst:705 ../../source/anonymize/index.rst:734
+#: ../../source/anonymize/index.rst:752 ../../source/anonymize/index.rst:775
+#: ../../source/anonymize/index.rst:811 ../../source/anonymize/index.rst:843
+#: ../../source/anonymize/index.rst:862 ../../source/anonymize/index.rst:890
+#: ../../source/anonymize/index.rst:917 ../../source/anonymize/index.rst:945
+#: ../../source/anonymize/index.rst:978 ../../source/anonymize/index.rst:1016
+#: ../../source/anonymize/index.rst:1045 ../../source/anonymize/index.rst:1078
+#: ../../source/anonymize/index.rst:1091 ../../source/anonymize/index.rst:1107
+#: ../../source/anonymize/index.rst:1135 ../../source/anonymize/index.rst:1165
+#: ../../source/anonymize/index.rst:1175 ../../source/anonymize/index.rst:1185
+#: ../../source/anonymize/index.rst:1207 ../../source/anonymize/index.rst:1222
+#: ../../source/anonymize/index.rst:1238 ../../source/anonymize/index.rst:1306
+msgid "`name`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:61 ../../source/anonymize/index.rst:157
+#: ../../source/anonymize/index.rst:205 ../../source/anonymize/index.rst:338
+#: ../../source/anonymize/index.rst:366 ../../source/anonymize/index.rst:393
+#: ../../source/anonymize/index.rst:408 ../../source/anonymize/index.rst:431
+#: ../../source/anonymize/index.rst:466 ../../source/anonymize/index.rst:493
+#: ../../source/anonymize/index.rst:531 ../../source/anonymize/index.rst:546
+#: ../../source/anonymize/index.rst:556 ../../source/anonymize/index.rst:587
+#: ../../source/anonymize/index.rst:603 ../../source/anonymize/index.rst:622
+#: ../../source/anonymize/index.rst:659 ../../source/anonymize/index.rst:704
+#: ../../source/anonymize/index.rst:735 ../../source/anonymize/index.rst:751
+#: ../../source/anonymize/index.rst:774 ../../source/anonymize/index.rst:810
+#: ../../source/anonymize/index.rst:844 ../../source/anonymize/index.rst:865
+#: ../../source/anonymize/index.rst:893 ../../source/anonymize/index.rst:916
+#: ../../source/anonymize/index.rst:944 ../../source/anonymize/index.rst:977
+#: ../../source/anonymize/index.rst:1017 ../../source/anonymize/index.rst:1047
+#: ../../source/anonymize/index.rst:1075 ../../source/anonymize/index.rst:1096
+#: ../../source/anonymize/index.rst:1106 ../../source/anonymize/index.rst:1132
+#: ../../source/anonymize/index.rst:1164 ../../source/anonymize/index.rst:1177
+#: ../../source/anonymize/index.rst:1184 ../../source/anonymize/index.rst:1205
+#: ../../source/anonymize/index.rst:1221 ../../source/anonymize/index.rst:1237
+#: ../../source/anonymize/index.rst:1307
+msgid "`entities_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:62 ../../source/anonymize/index.rst:165
+#: ../../source/anonymize/index.rst:198 ../../source/anonymize/index.rst:370
+#: ../../source/anonymize/index.rst:394 ../../source/anonymize/index.rst:423
+#: ../../source/anonymize/index.rst:467 ../../source/anonymize/index.rst:500
+#: ../../source/anonymize/index.rst:517 ../../source/anonymize/index.rst:574
+#: ../../source/anonymize/index.rst:593 ../../source/anonymize/index.rst:614
+#: ../../source/anonymize/index.rst:624 ../../source/anonymize/index.rst:662
+#: ../../source/anonymize/index.rst:709 ../../source/anonymize/index.rst:746
+#: ../../source/anonymize/index.rst:754 ../../source/anonymize/index.rst:781
+#: ../../source/anonymize/index.rst:820 ../../source/anonymize/index.rst:853
+#: ../../source/anonymize/index.rst:881 ../../source/anonymize/index.rst:892
+#: ../../source/anonymize/index.rst:923 ../../source/anonymize/index.rst:951
+#: ../../source/anonymize/index.rst:991 ../../source/anonymize/index.rst:1046
+#: ../../source/anonymize/index.rst:1082 ../../source/anonymize/index.rst:1108
+#: ../../source/anonymize/index.rst:1141 ../../source/anonymize/index.rst:1168
+#: ../../source/anonymize/index.rst:1176 ../../source/anonymize/index.rst:1194
+#: ../../source/anonymize/index.rst:1208 ../../source/anonymize/index.rst:1226
+#: ../../source/anonymize/index.rst:1308
+msgid "`comment`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:63 ../../source/anonymize/index.rst:630
+#: ../../source/anonymize/index.rst:663 ../../source/anonymize/index.rst:755
+#: ../../source/anonymize/index.rst:1131 ../../source/anonymize/index.rst:1209
+msgid "`level`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:64 ../../source/anonymize/index.rst:632
+#: ../../source/anonymize/index.rst:669 ../../source/anonymize/index.rst:757
+#: ../../source/anonymize/index.rst:1159 ../../source/anonymize/index.rst:1211
+msgid "`sons_cache`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:65 ../../source/anonymize/index.rst:631
+#: ../../source/anonymize/index.rst:668 ../../source/anonymize/index.rst:756
+#: ../../source/anonymize/index.rst:1158 ../../source/anonymize/index.rst:1210
+msgid "`ancestors_cache`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:66 ../../source/anonymize/index.rst:519
+#: ../../source/anonymize/index.rst:758 ../../source/anonymize/index.rst:1187
+msgid "`address`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:67 ../../source/anonymize/index.rst:520
+#: ../../source/anonymize/index.rst:759 ../../source/anonymize/index.rst:1188
+msgid "`postcode`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:68 ../../source/anonymize/index.rst:521
+#: ../../source/anonymize/index.rst:760 ../../source/anonymize/index.rst:1189
+msgid "`town`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:69 ../../source/anonymize/index.rst:522
+#: ../../source/anonymize/index.rst:761 ../../source/anonymize/index.rst:1190
+#: ../../source/anonymize/index.rst:1229 ../../source/anonymize/index.rst:1293
+msgid "`state`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:70 ../../source/anonymize/index.rst:523
+#: ../../source/anonymize/index.rst:762 ../../source/anonymize/index.rst:1191
+msgid "`country`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:71 ../../source/anonymize/index.rst:1192
+msgid "`website`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:72 ../../source/anonymize/index.rst:1193
+msgid "`phonenumber`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:73 ../../source/anonymize/index.rst:514
+#: ../../source/anonymize/index.rst:1195
+msgid "`fax`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:75
+msgid "`admin_email`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:76
+msgid "`admin_email_name`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:77
+msgid "`from_email`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:78
+msgid "`from_email_name`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:79
+msgid "`noreply_email`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:80
+msgid "`noreply_email_name`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:81
+msgid "`replyto_email`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:82
+msgid "`replyto_email_name`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:83
+msgid "`notification_subject_tag`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:84
+msgid "`ldap_dn`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:85 ../../source/anonymize/index.rst:347
+#: ../../source/anonymize/index.rst:580
+msgid "`tag`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:86
+msgid "`authldaps_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:87
+msgid "`mail_domain`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:88
+msgid "`entity_ldapfilter`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:89
+msgid "`mailing_signature`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:90
+msgid "`cartridges_alert_repeat`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:91
+msgid "`consumables_alert_repeat`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:92
+msgid "`use_licenses_alert`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:93
+msgid "`send_licenses_alert_before_delay`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:94
+msgid "`use_certificates_alert`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:95
+msgid "`send_certificates_alert_before_delay`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:96
+msgid "`certificates_alert_repeat_interval`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:97
+msgid "`use_contracts_alert`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:98
+msgid "`send_contracts_alert_before_delay`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:99
+msgid "`use_infocoms_alert`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:100
+msgid "`send_infocoms_alert_before_delay`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:101
+msgid "`use_reservations_alert`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:102
+msgid "`use_domains_alert`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:103
+msgid "`send_domains_alert_close_expiries_delay`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:104
+msgid "`send_domains_alert_expired_delay`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:105
+msgid "`autoclose_delay`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:106
+msgid "`autopurge_delay`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:107
+msgid "`notclosed_delay`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:108
+msgid "`calendars_strategy`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:109
+msgid "`calendars_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:110
+msgid "`auto_assign_mode`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:111
+msgid "`tickettype`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:112
+msgid "`max_closedate`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:113
+msgid "`inquest_config`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:114
+msgid "`inquest_rate`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:115
+msgid "`inquest_delay`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:116
+msgid "`inquest_URL`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:117
+msgid "`autofill_warranty_date`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:118
+msgid "`autofill_use_date`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:119
+msgid "`autofill_buy_date`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:120
+msgid "`autofill_delivery_date`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:121
+msgid "`autofill_order_date`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:122
+msgid "`tickettemplates_strategy`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:123
+msgid "`tickettemplates_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:124
+msgid "`changetemplates_strategy`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:125 ../../source/anonymize/index.rst:673
+msgid "`changetemplates_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:126
+msgid "`problemtemplates_strategy`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:127 ../../source/anonymize/index.rst:674
+msgid "`problemtemplates_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:128
+msgid "`entities_strategy_software`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:129
+msgid "`entities_id_software`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:130
+msgid "`default_contract_alert`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:131
+msgid "`default_infocom_alert`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:132
+msgid "`default_cartridges_alarm_threshold`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:133
+msgid "`default_consumables_alarm_threshold`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:134
+msgid "`delay_send_emails`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:135
+msgid "`is_notif_enable_default`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:136
+msgid "`inquest_duration`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:137 ../../source/anonymize/index.rst:166
+#: ../../source/anonymize/index.rst:202 ../../source/anonymize/index.rst:378
+#: ../../source/anonymize/index.rst:399 ../../source/anonymize/index.rst:424
+#: ../../source/anonymize/index.rst:434 ../../source/anonymize/index.rst:488
+#: ../../source/anonymize/index.rst:503 ../../source/anonymize/index.rst:524
+#: ../../source/anonymize/index.rst:538 ../../source/anonymize/index.rst:548
+#: ../../source/anonymize/index.rst:562 ../../source/anonymize/index.rst:573
+#: ../../source/anonymize/index.rst:596 ../../source/anonymize/index.rst:616
+#: ../../source/anonymize/index.rst:628 ../../source/anonymize/index.rst:652
+#: ../../source/anonymize/index.rst:679 ../../source/anonymize/index.rst:693
+#: ../../source/anonymize/index.rst:703 ../../source/anonymize/index.rst:721
+#: ../../source/anonymize/index.rst:745 ../../source/anonymize/index.rst:768
+#: ../../source/anonymize/index.rst:776 ../../source/anonymize/index.rst:819
+#: ../../source/anonymize/index.rst:856 ../../source/anonymize/index.rst:870
+#: ../../source/anonymize/index.rst:897 ../../source/anonymize/index.rst:918
+#: ../../source/anonymize/index.rst:946 ../../source/anonymize/index.rst:979
+#: ../../source/anonymize/index.rst:1020 ../../source/anonymize/index.rst:1069
+#: ../../source/anonymize/index.rst:1083 ../../source/anonymize/index.rst:1116
+#: ../../source/anonymize/index.rst:1142 ../../source/anonymize/index.rst:1169
+#: ../../source/anonymize/index.rst:1178 ../../source/anonymize/index.rst:1197
+#: ../../source/anonymize/index.rst:1214 ../../source/anonymize/index.rst:1227
+#: ../../source/anonymize/index.rst:1243 ../../source/anonymize/index.rst:1296
+msgid "`date_mod`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:138 ../../source/anonymize/index.rst:179
+#: ../../source/anonymize/index.rst:228 ../../source/anonymize/index.rst:379
+#: ../../source/anonymize/index.rst:400 ../../source/anonymize/index.rst:425
+#: ../../source/anonymize/index.rst:457 ../../source/anonymize/index.rst:487
+#: ../../source/anonymize/index.rst:504 ../../source/anonymize/index.rst:525
+#: ../../source/anonymize/index.rst:537 ../../source/anonymize/index.rst:549
+#: ../../source/anonymize/index.rst:563 ../../source/anonymize/index.rst:581
+#: ../../source/anonymize/index.rst:597 ../../source/anonymize/index.rst:617
+#: ../../source/anonymize/index.rst:641 ../../source/anonymize/index.rst:651
+#: ../../source/anonymize/index.rst:680 ../../source/anonymize/index.rst:694
+#: ../../source/anonymize/index.rst:702 ../../source/anonymize/index.rst:720
+#: ../../source/anonymize/index.rst:744 ../../source/anonymize/index.rst:769
+#: ../../source/anonymize/index.rst:805 ../../source/anonymize/index.rst:832
+#: ../../source/anonymize/index.rst:857 ../../source/anonymize/index.rst:882
+#: ../../source/anonymize/index.rst:896 ../../source/anonymize/index.rst:939
+#: ../../source/anonymize/index.rst:971 ../../source/anonymize/index.rst:1007
+#: ../../source/anonymize/index.rst:1039 ../../source/anonymize/index.rst:1070
+#: ../../source/anonymize/index.rst:1086 ../../source/anonymize/index.rst:1123
+#: ../../source/anonymize/index.rst:1144 ../../source/anonymize/index.rst:1170
+#: ../../source/anonymize/index.rst:1179 ../../source/anonymize/index.rst:1198
+#: ../../source/anonymize/index.rst:1215 ../../source/anonymize/index.rst:1228
+#: ../../source/anonymize/index.rst:1276 ../../source/anonymize/index.rst:1297
+msgid "`date_creation`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:139
+msgid "`autofill_decommission_date`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:140
+msgid "`suppliers_as_private`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:141
+msgid "`anonymize_support_agents`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:142
+msgid "`display_users_initials`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:143
+msgid "`contracts_strategy_default`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:144
+msgid "`contracts_id_default`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:145
+msgid "`enable_custom_css`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:146
+msgid "`custom_css_code`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:147 ../../source/anonymize/index.rst:765
+msgid "`latitude`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:148 ../../source/anonymize/index.rst:766
+msgid "`longitude`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:149 ../../source/anonymize/index.rst:767
+msgid "`altitude`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:150
+msgid "`transfers_strategy`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:151
+msgid "`transfers_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:152
+msgid "`agent_base_url`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:159 ../../source/anonymize/index.rst:382
+#: ../../source/anonymize/index.rst:464 ../../source/anonymize/index.rst:605
+#: ../../source/anonymize/index.rst:782 ../../source/anonymize/index.rst:813
+#: ../../source/anonymize/index.rst:846 ../../source/anonymize/index.rst:924
+#: ../../source/anonymize/index.rst:952 ../../source/anonymize/index.rst:984
+#: ../../source/anonymize/index.rst:1049 ../../source/anonymize/index.rst:1136
+msgid "`serial`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:160 ../../source/anonymize/index.rst:383
+#: ../../source/anonymize/index.rst:419 ../../source/anonymize/index.rst:465
+#: ../../source/anonymize/index.rst:606 ../../source/anonymize/index.rst:783
+#: ../../source/anonymize/index.rst:814 ../../source/anonymize/index.rst:847
+#: ../../source/anonymize/index.rst:925 ../../source/anonymize/index.rst:953
+#: ../../source/anonymize/index.rst:985 ../../source/anonymize/index.rst:1050
+#: ../../source/anonymize/index.rst:1137
+msgid "`otherserial`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:161 ../../source/anonymize/index.rst:386
+#: ../../source/anonymize/index.rst:476 ../../source/anonymize/index.rst:777
+#: ../../source/anonymize/index.rst:815 ../../source/anonymize/index.rst:919
+#: ../../source/anonymize/index.rst:947 ../../source/anonymize/index.rst:980
+#: ../../source/anonymize/index.rst:1154
+msgid "`contact`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:162 ../../source/anonymize/index.rst:387
+#: ../../source/anonymize/index.rst:477 ../../source/anonymize/index.rst:778
+#: ../../source/anonymize/index.rst:816 ../../source/anonymize/index.rst:920
+#: ../../source/anonymize/index.rst:948 ../../source/anonymize/index.rst:981
+#: ../../source/anonymize/index.rst:1155
+msgid "`contact_num`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:163 ../../source/anonymize/index.rst:375
+#: ../../source/anonymize/index.rst:421 ../../source/anonymize/index.rst:472
+#: ../../source/anonymize/index.rst:497 ../../source/anonymize/index.rst:591
+#: ../../source/anonymize/index.rst:608 ../../source/anonymize/index.rst:779
+#: ../../source/anonymize/index.rst:817 ../../source/anonymize/index.rst:849
+#: ../../source/anonymize/index.rst:921 ../../source/anonymize/index.rst:949
+#: ../../source/anonymize/index.rst:982 ../../source/anonymize/index.rst:1055
+#: ../../source/anonymize/index.rst:1110 ../../source/anonymize/index.rst:1146
+#: ../../source/anonymize/index.rst:1231 ../../source/anonymize/index.rst:1294
+msgid "`users_id_tech`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:164 ../../source/anonymize/index.rst:377
+#: ../../source/anonymize/index.rst:473 ../../source/anonymize/index.rst:498
+#: ../../source/anonymize/index.rst:592 ../../source/anonymize/index.rst:609
+#: ../../source/anonymize/index.rst:780 ../../source/anonymize/index.rst:818
+#: ../../source/anonymize/index.rst:850 ../../source/anonymize/index.rst:922
+#: ../../source/anonymize/index.rst:950 ../../source/anonymize/index.rst:983
+#: ../../source/anonymize/index.rst:1056 ../../source/anonymize/index.rst:1111
+#: ../../source/anonymize/index.rst:1148 ../../source/anonymize/index.rst:1232
+#: ../../source/anonymize/index.rst:1295
+msgid "`groups_id_tech`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:167 ../../source/anonymize/index.rst:502
+#: ../../source/anonymize/index.rst:803 ../../source/anonymize/index.rst:833
+#: ../../source/anonymize/index.rst:937 ../../source/anonymize/index.rst:969
+#: ../../source/anonymize/index.rst:1011
+msgid "`autoupdatesystems_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:168 ../../source/anonymize/index.rst:194
+#: ../../source/anonymize/index.rst:371 ../../source/anonymize/index.rst:401
+#: ../../source/anonymize/index.rst:458 ../../source/anonymize/index.rst:474
+#: ../../source/anonymize/index.rst:547 ../../source/anonymize/index.rst:557
+#: ../../source/anonymize/index.rst:604 ../../source/anonymize/index.rst:741
+#: ../../source/anonymize/index.rst:753 ../../source/anonymize/index.rst:793
+#: ../../source/anonymize/index.rst:821 ../../source/anonymize/index.rst:845
+#: ../../source/anonymize/index.rst:926 ../../source/anonymize/index.rst:954
+#: ../../source/anonymize/index.rst:993 ../../source/anonymize/index.rst:1040
+#: ../../source/anonymize/index.rst:1048 ../../source/anonymize/index.rst:1109
+#: ../../source/anonymize/index.rst:1145 ../../source/anonymize/index.rst:1274
+msgid "`locations_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:169 ../../source/anonymize/index.rst:822
+#: ../../source/anonymize/index.rst:994
+msgid "`networks_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:170
+msgid "`computermodels_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:171
+msgid "`computertypes_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:172 ../../source/anonymize/index.rst:398
+#: ../../source/anonymize/index.rst:468 ../../source/anonymize/index.rst:594
+#: ../../source/anonymize/index.rst:610 ../../source/anonymize/index.rst:798
+#: ../../source/anonymize/index.rst:826 ../../source/anonymize/index.rst:851
+#: ../../source/anonymize/index.rst:884 ../../source/anonymize/index.rst:911
+#: ../../source/anonymize/index.rst:932 ../../source/anonymize/index.rst:964
+#: ../../source/anonymize/index.rst:999 ../../source/anonymize/index.rst:1061
+#: ../../source/anonymize/index.rst:1115 ../../source/anonymize/index.rst:1151
+msgid "`template_name`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:173 ../../source/anonymize/index.rst:372
+#: ../../source/anonymize/index.rst:475 ../../source/anonymize/index.rst:615
+#: ../../source/anonymize/index.rst:796 ../../source/anonymize/index.rst:825
+#: ../../source/anonymize/index.rst:854 ../../source/anonymize/index.rst:930
+#: ../../source/anonymize/index.rst:962 ../../source/anonymize/index.rst:997
+#: ../../source/anonymize/index.rst:1052 ../../source/anonymize/index.rst:1114
+#: ../../source/anonymize/index.rst:1153
+msgid "`manufacturers_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:175 ../../source/anonymize/index.rst:229
+#: ../../source/anonymize/index.rst:376 ../../source/anonymize/index.rst:479
+#: ../../source/anonymize/index.rst:629 ../../source/anonymize/index.rst:666
+#: ../../source/anonymize/index.rst:739 ../../source/anonymize/index.rst:800
+#: ../../source/anonymize/index.rst:828 ../../source/anonymize/index.rst:872
+#: ../../source/anonymize/index.rst:934 ../../source/anonymize/index.rst:966
+#: ../../source/anonymize/index.rst:1003 ../../source/anonymize/index.rst:1118
+#: ../../source/anonymize/index.rst:1149
+msgid "`groups_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:176 ../../source/anonymize/index.rst:380
+#: ../../source/anonymize/index.rst:420 ../../source/anonymize/index.rst:482
+#: ../../source/anonymize/index.rst:499 ../../source/anonymize/index.rst:613
+#: ../../source/anonymize/index.rst:742 ../../source/anonymize/index.rst:801
+#: ../../source/anonymize/index.rst:829 ../../source/anonymize/index.rst:852
+#: ../../source/anonymize/index.rst:935 ../../source/anonymize/index.rst:967
+#: ../../source/anonymize/index.rst:1004 ../../source/anonymize/index.rst:1054
+#: ../../source/anonymize/index.rst:1152
+msgid "`states_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:177 ../../source/anonymize/index.rst:802
+#: ../../source/anonymize/index.rst:830 ../../source/anonymize/index.rst:936
+#: ../../source/anonymize/index.rst:968 ../../source/anonymize/index.rst:1005
+#: ../../source/anonymize/index.rst:1119
+msgid "`ticket_tco`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:178 ../../source/anonymize/index.rst:495
+#: ../../source/anonymize/index.rst:804 ../../source/anonymize/index.rst:831
+#: ../../source/anonymize/index.rst:889 ../../source/anonymize/index.rst:938
+#: ../../source/anonymize/index.rst:970 ../../source/anonymize/index.rst:1006
+#: ../../source/anonymize/index.rst:1084 ../../source/anonymize/index.rst:1282
+msgid "`uuid`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:180 ../../source/anonymize/index.rst:837
+#: ../../source/anonymize/index.rst:972 ../../source/anonymize/index.rst:1009
+msgid "`last_inventory_update`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:181
+msgid "`last_boot`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:184
+msgid "User"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:187
+msgid "`password`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:188
+msgid "`password_last_update`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:189 ../../source/anonymize/index.rst:511
+msgid "`phone`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:190 ../../source/anonymize/index.rst:512
+msgid "`phone2`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:191 ../../source/anonymize/index.rst:513
+msgid "`mobile`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:192
+msgid "`realname`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:193 ../../source/anonymize/index.rst:510
+msgid "`firstname`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:195
+msgid "`language`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:196
+msgid "`use_mode`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:197 ../../source/anonymize/index.rst:536
+#: ../../source/anonymize/index.rst:595 ../../source/anonymize/index.rst:1081
+#: ../../source/anonymize/index.rst:1199 ../../source/anonymize/index.rst:1212
+msgid "`is_active`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:199
+msgid "`auths_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:200
+msgid "`authtype`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:201
+msgid "`last_login`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:203
+msgid "`date_sync`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:204
+msgid "`profiles_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:206 ../../source/anonymize/index.rst:518
+msgid "`usertitles_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:207
+msgid "`usercategories_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:208
+msgid "`password_forget_token`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:209
+msgid "`password_forget_token_date`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:210
+msgid "`user_dn`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:211
+msgid "`personal_token`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:212
+msgid "`personal_token_date`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:213
+msgid "`api_token`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:214
+msgid "`api_token_date`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:215
+msgid "`cookie_token`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:216
+msgid "`cookie_token_date`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:217
+msgid "`isd_ldap`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:218
+msgid "`picture`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:219 ../../source/anonymize/index.rst:395
+#: ../../source/anonymize/index.rst:653
+msgid "`begin_date`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:220 ../../source/anonymize/index.rst:396
+#: ../../source/anonymize/index.rst:654
+msgid "`end_date`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:221
+msgid "`page_layout`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:222
+msgid "`fold_menu`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:223
+msgid "`fold_search`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:224
+msgid "`savedsearches_pinned`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:225
+msgid "`timeline_order`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:226
+msgid "`itil_layout`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:227
+msgid "`richtext_layout`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:230
+msgid "`users_id_supervisor`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:231
+msgid "`timezone`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:232
+msgid "`default_central_tab`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:233
+msgid "`nickname`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:234
+msgid "`timeline_action_btn_layout`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:235
+msgid "`timeline_date_format`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:236
+msgid "`use_flat_dropdowntree_on_search_result`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:239
+msgid "Application strategy"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:241
+msgid ""
+"Several strategies are available for each element field (e.g.Last name, "
+"First name, Serial number, Location, Status, etc.):"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:243
+msgid "Keep the value"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:244
+msgid "Delete the value"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:245
+msgid "Replace with a fixed value"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:246
+msgid "Replace with a standard random value"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:247
+msgid "Replace with a realistic random value"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:250
+msgid "History"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:252
+msgid ""
+"Each profile allows you to choose the treatment to be applied to the history"
+" of items:"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:255
+msgid "Do nothing"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:256
+msgid "Clean up values"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:257
+msgid "Clean up recent values and delete the rest"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:258
+msgid "Delete"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:261
+msgid "Global search"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:263
+msgid ""
+"You can ask GLPI to anoymise an attribute in the whole database and not only"
+" in the type of element you are in. The option **attributes to search and "
+"replace in others objects** is at the very bottom of your profile."
+msgstr ""
+
+#: ../../source/anonymize/index.rst:269
+msgid ""
+"You cannot change any values other than those linked to the type of element "
+"you are in. For example, you will be able to **modify all email addresses** "
+"in the database via the **Email** profile, but you will not be able to "
+"modify all user phone number via this profile."
+msgstr ""
+
+#: ../../source/anonymize/index.rst:272
+msgid "Applying the profile"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:274
+msgid ""
+"Once you have completed your profile, you need to apply it. It can be "
+"applied using 2 methods:"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:277
+msgid "Massive action via the web interface (*cloud and on-premise*)"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:278
+msgid "In CLI (*only on-premise*)"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:281
+msgid "Mass action (Cloud and on-premise)"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:283
+msgid "In our example, we will be anonymising `user data`."
+msgstr ""
+
+#: ../../source/anonymize/index.rst:285
+msgid ""
+"Go to **Administration** > **Users**. Select the user(s) you wish to "
+"anonymise."
+msgstr ""
+
+#: ../../source/anonymize/index.rst:286
+msgid "Click on **Actions** then **anonymise selected items**."
+msgstr ""
+
+#: ../../source/anonymize/index.rst:293
+msgid ""
+"\"To be adapted If your profile concerns entities, go to **Administration** "
+"> **Entities** and repeat the operation for the entities concerned. Do the "
+"same for computers, email, etc."
+msgstr ""
+
+#: ../../source/anonymize/index.rst:296
+msgid "Via CLI (on-premise only)"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:298
+msgid ""
+"Go to your GLPI folder (`/var/www/glpi` or other depending on your "
+"configuration):"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:300
+msgid "Run all default profiles on all objects:"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:302
+msgid "``php bin/console glpi:plugin:anonymize --all``"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:304
+msgid "Run profile X on all objects / on one object:"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:306
+msgid "``php bin/console glpi:plugin:anonymize --profile=X``"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:307
+msgid "``php bin/console glpi:plugin:anonymize --profile=X --item-id=X``"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:309
+msgid "Run default profile type X on all objects / on one object :"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:311
+msgid "``php bin/console glpi:plugin:anonymize --itemtype=X``"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:312
+msgid "``php bin/console glpi:plugin:anonymize --itemtype=X --item-id=X``"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:315
+msgid "Creating a profile"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:317
+msgid ""
+"You can create a profile to anonymise other data than that mentioned above."
+msgstr ""
+
+#: ../../source/anonymize/index.rst:320
+msgid "Go to **Administration > Anonymisation profile**"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:321 ../../source/anonymize/index.rst:326
+msgid "Click on **Add**"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:322
+msgid "Name your profile"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:323
+msgid "Choose from the list of **Element types** (agent, domain, etc.)"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:324
+msgid "Select the treatment of the **History**"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:325
+msgid "Set the parameters for each field"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:329
+msgid ""
+"Remember to refer to the profile application section to apply your changes."
+msgstr ""
+
+#: ../../source/anonymize/index.rst:332
+msgid "Other anonymisable data (profile creation)"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:335
+msgid "Agents"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:337
+msgid "`deviceid`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:340
+msgid "`agenttypes_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:341
+msgid "`last_contact`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:342 ../../source/anonymize/index.rst:496
+msgid "`version`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:343
+msgid "`locked`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:344 ../../source/anonymize/index.rst:685
+#: ../../source/anonymize/index.rst:714 ../../source/anonymize/index.rst:1093
+msgid "`itemtype`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:345 ../../source/anonymize/index.rst:686
+#: ../../source/anonymize/index.rst:716
+msgid "`items_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:346
+msgid "`useragent`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:348
+msgid "`port`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:349
+msgid "`threads_networkdiscovery`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:350
+msgid "`threads_networkinventory`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:351
+msgid "`timeout_networkdiscovery`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:352
+msgid "`timeout_networkinventory`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:353
+msgid "`remote_addr`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:354
+msgid "`use_module_wake_on_lan`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:355
+msgid "`use_module_computer_inventory`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:356
+msgid "`use_module_esx_remote_inventory`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:357
+msgid "`use_module_remote_inventory`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:358
+msgid "`use_module_network_inventory`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:359
+msgid "`use_module_network_discovery`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:360
+msgid "`use_module_package_deployment`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:361
+msgid "`use_module_collect_data`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:364
+msgid "Appliances"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:367
+msgid "`Garder`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:369
+msgid "`appliancetypes_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:373
+msgid "`applianceenvironments_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:381
+msgid "`externalidentifier`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:384 ../../source/anonymize/index.rst:1120
+#: ../../source/anonymize/index.rst:1150
+msgid "`is_helpdesk_visible`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:385 ../../source/anonymize/index.rst:526
+#: ../../source/anonymize/index.rst:550 ../../source/anonymize/index.rst:1124
+#: ../../source/anonymize/index.rst:1157 ../../source/anonymize/index.rst:1200
+msgid "`pictures`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:390
+msgid "Budgets"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:397
+msgid "`value`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:402
+msgid "`budgettypes_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:405
+msgid "Cables"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:409
+msgid "`itemtype_endpoint_a`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:410
+msgid "`itemtype_endpoint_b`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:411
+msgid "`items_id_endpoint_a`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:412
+msgid "`items_id_endpoint_b`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:413
+msgid "`socketmodels_id_endpoint_a`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:414
+msgid "`socketmodels_id_endpoint_b`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:415
+msgid "`sockets_id_endpoint_a`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:416
+msgid "`sockets_id_endpoint_b`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:417
+msgid "`cablestrands_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:418
+msgid "`color`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:422
+msgid "`cabletypes_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:428
+msgid "Changes"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:432 ../../source/anonymize/index.rst:728
+#: ../../source/anonymize/index.rst:1018 ../../source/anonymize/index.rst:1245
+msgid "`status`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:433 ../../source/anonymize/index.rst:690
+#: ../../source/anonymize/index.rst:706 ../../source/anonymize/index.rst:719
+#: ../../source/anonymize/index.rst:880 ../../source/anonymize/index.rst:891
+#: ../../source/anonymize/index.rst:1019 ../../source/anonymize/index.rst:1166
+#: ../../source/anonymize/index.rst:1223 ../../source/anonymize/index.rst:1248
+#: ../../source/anonymize/index.rst:1288
+msgid "`content`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:435 ../../source/anonymize/index.rst:687
+#: ../../source/anonymize/index.rst:869 ../../source/anonymize/index.rst:1021
+#: ../../source/anonymize/index.rst:1239 ../../source/anonymize/index.rst:1285
+msgid "`date`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:436 ../../source/anonymize/index.rst:1022
+#: ../../source/anonymize/index.rst:1241
+msgid "`solvedate`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:437 ../../source/anonymize/index.rst:1023
+#: ../../source/anonymize/index.rst:1240
+msgid "`closedate`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:438 ../../source/anonymize/index.rst:1024
+#: ../../source/anonymize/index.rst:1258
+msgid "`time_to_resolve`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:439 ../../source/anonymize/index.rst:1025
+#: ../../source/anonymize/index.rst:1246
+msgid "`users_id_recipient`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:440 ../../source/anonymize/index.rst:1026
+#: ../../source/anonymize/index.rst:1244
+msgid "`users_id_lastupdater`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:441 ../../source/anonymize/index.rst:1027
+#: ../../source/anonymize/index.rst:1249
+msgid "`urgency`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:442 ../../source/anonymize/index.rst:1028
+#: ../../source/anonymize/index.rst:1250
+msgid "`impact`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:443 ../../source/anonymize/index.rst:864
+#: ../../source/anonymize/index.rst:1029 ../../source/anonymize/index.rst:1251
+msgid "`priority`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:444 ../../source/anonymize/index.rst:660
+#: ../../source/anonymize/index.rst:1030 ../../source/anonymize/index.rst:1252
+msgid "`itilcategories_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:445 ../../source/anonymize/index.rst:1031
+msgid "`impactcontent`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:446
+msgid "`controlistcontent`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:447
+msgid "`rolloutplancontent`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:448
+msgid "`backoutplancontent`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:449
+msgid "`checklistcontent`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:450 ../../source/anonymize/index.rst:1254
+msgid "`global_validation`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:451 ../../source/anonymize/index.rst:1275
+msgid "`validation_percent`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:452 ../../source/anonymize/index.rst:1034
+#: ../../source/anonymize/index.rst:1225 ../../source/anonymize/index.rst:1273
+#: ../../source/anonymize/index.rst:1290
+msgid "`actiontime`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:453 ../../source/anonymize/index.rst:1035
+#: ../../source/anonymize/index.rst:1260
+msgid "`begin_waiting_date`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:454 ../../source/anonymize/index.rst:1036
+#: ../../source/anonymize/index.rst:1269
+msgid "`waiting_duration`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:455 ../../source/anonymize/index.rst:1037
+#: ../../source/anonymize/index.rst:1270
+msgid "`close_delay_stat`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:456 ../../source/anonymize/index.rst:1038
+#: ../../source/anonymize/index.rst:1271
+msgid "`solve_delay_stat`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:461
+msgid "Certificates"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:469
+msgid "`certificatetypes_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:470
+msgid "`dns_name`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:471
+msgid "`dns_suffix`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:480
+msgid "`is_autosign`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:481 ../../source/anonymize/index.rst:589
+msgid "`date_expiration`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:483
+msgid "`command`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:484
+msgid "`certificate_request`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:485
+msgid "`certificate_item`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:491
+msgid "Clusters"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:501
+msgid "`clustertypes_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:507
+msgid "Contacts"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:516
+msgid "`contacttypes_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:529
+msgid "Databbaes"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:533 ../../source/anonymize/index.rst:784
+msgid "`size`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:534
+msgid "`databaseinstances_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:535
+msgid "`is_onbackup`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:539
+msgid "`date_update`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:540
+msgid "`date_lastbackup`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:543
+msgid "Data centers"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:553
+msgid "Server rooms"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:558
+msgid "`vis_cols`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:559
+msgid "`vis_rows`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:560
+msgid "`blueprint`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:561
+msgid "`datacenters_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:566
+msgid "Documents"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:569
+msgid "`filename`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:570
+msgid "`filepath`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:571
+msgid "`documentcategories_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:572
+msgid "`mime`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:575
+msgid "`link`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:577 ../../source/anonymize/index.rst:1283
+msgid "`tickets_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:578
+msgid "`sha1sum`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:579
+msgid "`is_blacklisted`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:584
+msgid "Domains"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:588
+msgid "`domaintypes_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:590
+msgid "`date_domaincreation`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:600
+msgid "Enclosures"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:607
+msgid "`enclosuremodels_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:611
+msgid "`orientation`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:612
+msgid "`power_supplies`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:620
+msgid "Groups"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:625
+msgid "`ldap_field`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:626
+msgid "`ldap_value`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:627
+msgid "`ldap_group_dn`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:633
+msgid "`is_requester`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:634
+msgid "`is_watcher`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:635
+msgid "`is_assign`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:636
+msgid "`is_task`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:637
+msgid "`is_notify`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:638
+msgid "`is_itemgroup`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:639
+msgid "`is_usergroup`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:640
+msgid "`is_manager`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:644
+msgid "Knowledge base"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:647
+msgid "`answer`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:648
+msgid "`is_faq`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:650
+msgid "`view`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:657
+msgid "ITIL Categories"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:664 ../../source/anonymize/index.rst:1216
+msgid "`knowbaseitemcategories_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:667 ../../source/anonymize/index.rst:863
+msgid "`code`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:670 ../../source/anonymize/index.rst:1213
+msgid "`is_helpdeskvisible`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:671
+msgid "`tickettemplates_id_incident`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:672
+msgid "`tickettemplates_id_demand`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:675
+msgid "`is_incident`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:676
+msgid "`is_request`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:677
+msgid "`is_problem`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:678
+msgid "`is_change`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:683
+msgid "Followups"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:689 ../../source/anonymize/index.rst:725
+#: ../../source/anonymize/index.rst:1287
+msgid "`users_id_editor`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:691 ../../source/anonymize/index.rst:708
+#: ../../source/anonymize/index.rst:1095 ../../source/anonymize/index.rst:1230
+#: ../../source/anonymize/index.rst:1289
+msgid "`is_private`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:692 ../../source/anonymize/index.rst:707
+#: ../../source/anonymize/index.rst:1247
+msgid "`requesttypes_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:695 ../../source/anonymize/index.rst:1299
+msgid "`timeline_position`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:696 ../../source/anonymize/index.rst:1300
+msgid "`sourceitems_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:697 ../../source/anonymize/index.rst:1301
+msgid "`sourceof_items_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:700
+msgid "Followups templates"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:712
+msgid "Solutions"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:715
+msgid "`Keep`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:717 ../../source/anonymize/index.rst:1167
+msgid "`solutiontypes_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:718
+msgid "`solutiontype_name`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:722
+msgid "`date_approval`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:724
+msgid "`user_name`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:726
+msgid "`users_id_approval`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:727
+msgid "`user_name_approval`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:729
+msgid "`itilfollowups_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:732
+msgid "Lines"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:736
+msgid "`caller_num`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:737
+msgid "`caller_name`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:740
+msgid "`lineoperators_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:743
+msgid "`linetypes_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:749
+msgid "Locations"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:763
+msgid "`building`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:764
+msgid "`room`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:772
+msgid "Monitors"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:785
+msgid "`have_micro`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:786
+msgid "`have_speaker`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:787
+msgid "`have_subd`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:788
+msgid "`have_bnc`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:789
+msgid "`have_dvi`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:790
+msgid "`have_pivot`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:791
+msgid "`have_hdmi`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:792
+msgid "`have_displayport`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:794
+msgid "`monitortypes_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:795
+msgid "`monitormodels_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:797 ../../source/anonymize/index.rst:931
+#: ../../source/anonymize/index.rst:963 ../../source/anonymize/index.rst:998
+msgid "`is_global`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:808
+msgid "Network devices"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:812
+msgid "`ram`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:823
+msgid "`networkequipmenttypes_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:824
+msgid "`networkequipmentmodels_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:834 ../../source/anonymize/index.rst:1008
+msgid "`sysdescr`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:835
+msgid "`cpu`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:836
+msgid "`uptime`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:838 ../../source/anonymize/index.rst:1010
+msgid "`snmpcredentials_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:841
+msgid "PDUs"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:848
+msgid "`pdumodels_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:855
+msgid "`pdutypes_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:860
+msgid "Projects"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:866 ../../source/anonymize/index.rst:894
+msgid "`projects_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:867 ../../source/anonymize/index.rst:904
+msgid "`projectstates_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:868
+msgid "`projecttypes_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:873 ../../source/anonymize/index.rst:898
+msgid "`plan_start_date`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:874 ../../source/anonymize/index.rst:899
+msgid "`plan_end_date`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:875 ../../source/anonymize/index.rst:900
+msgid "`real_start_date`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:876 ../../source/anonymize/index.rst:901
+msgid "`real_end_date`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:877 ../../source/anonymize/index.rst:907
+msgid "`percent_done`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:878 ../../source/anonymize/index.rst:908
+msgid "`auto_percent_done`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:879
+msgid "`show_on_global_gantt`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:883
+msgid "`projecttemplates_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:887
+msgid "Projects tasks"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:895
+msgid "`projecttasks_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:902
+msgid "`planned_duration`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:903
+msgid "`effective_duration`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:905
+msgid "`projecttasktypes_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:909
+msgid "`is_milestone`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:910
+msgid "`projecttasktemplates_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:914
+msgid "Devices"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:927
+msgid "`peripheraltypes_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:928
+msgid "`peripheralmodels_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:929 ../../source/anonymize/index.rst:957
+msgid "`brand`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:942
+msgid "Phones"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:955
+msgid "`phonetypes_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:956
+msgid "`phonemodels_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:958
+msgid "`phonepowersupplies_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:959
+msgid "`number_line`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:960
+msgid "`have_headset`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:961
+msgid "`have_hp`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:975
+msgid "Printers"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:986
+msgid "`have_serial`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:987
+msgid "`have_parallel`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:988
+msgid "`have_usb`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:989
+msgid "`have_wifi`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:990
+msgid "`have_ethernet`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:992
+msgid "`memory_size`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:995
+msgid "`printertypes_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:996
+msgid "`printermodels_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1000
+msgid "`init_pages_counter`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1001
+msgid "`last_pages_counter`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1014
+msgid "Problems"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1032
+msgid "`causecontent`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1033
+msgid "`symptomcontent`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1043
+msgid "Racks"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1051
+msgid "`rackmodels_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1053
+msgid "`racktypes_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1057
+msgid "`width`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1058
+msgid "`height`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1059
+msgid "`depth`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1060
+msgid "`number_units`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1062
+msgid "`dcrooms_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1063
+msgid "`room_orientation`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1064
+msgid "`position`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1065
+msgid "`bgcolor`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1066
+msgid "`max_power`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1067
+msgid "`mesured_power`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1068
+msgid "`max_weight`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1073
+msgid "Rules"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1076
+msgid "`sub_type`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1077
+msgid "`ranking`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1079
+msgid "`description`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1080
+msgid "`match`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1085
+msgid "`condition`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1089
+msgid "Saved searches"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1092 ../../source/anonymize/index.rst:1253
+msgid "`type`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1097
+msgid "`query`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1098
+msgid "`last_execution_time`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1099
+msgid "`do_count`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1100
+msgid "`last_execution_date`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1101
+msgid "`counter`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1104
+msgid "Software"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1112
+msgid "`is_update`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1113 ../../source/anonymize/index.rst:1129
+msgid "`softwares_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1121
+msgid "`softwarecategories_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1122 ../../source/anonymize/index.rst:1143
+msgid "`is_valid`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1127
+msgid "Licenses"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1130
+msgid "`softwarelicenses_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1133
+msgid "`number`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1134
+msgid "`softwarelicensetypes_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1138
+msgid "`softwareversions_id_buy`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1139
+msgid "`softwareversions_id_use`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1140
+msgid "`expire`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1156
+msgid "`allow_overquota`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1162
+msgid "Solutions template"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1173
+msgid "Solutions types"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1182
+msgid "Suppliers"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1186
+msgid "`suppliertypes_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1203
+msgid "Task catégories"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1206 ../../source/anonymize/index.rst:1224
+#: ../../source/anonymize/index.rst:1284
+msgid "`taskcategories_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1219
+msgid "Task templates"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1235
+msgid "Tickets"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1242
+msgid "`takeintoaccountdate`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1255
+msgid "`slas_id_ttr`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1256
+msgid "`slas_id_tto`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1257
+msgid "`slalevels_id_ttr`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1259
+msgid "`time_to_own`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1261
+msgid "`sla_waiting_duration`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1262
+msgid "`ola_waiting_duration`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1263
+msgid "`olas_id_tto`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1264
+msgid "`olas_id_ttr`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1265
+msgid "`olalevels_id_ttr`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1266
+msgid "`ola_ttr_begin_date`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1267
+msgid "`internal_time_to_resolve`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1268
+msgid "`internal_time_to_own`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1272
+msgid "`takeintoaccount_delay_stat`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1277
+msgid "`ola_tto_begin_date`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1280
+msgid "Ticket tasks"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1291
+msgid "`begin`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1292
+msgid "`end`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1298
+msgid "`tasktemplates_id`"
+msgstr ""
+
+#: ../../source/anonymize/index.rst:1304
+msgid "Ticket templates"
+msgstr ""
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr ""
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
+msgstr ""

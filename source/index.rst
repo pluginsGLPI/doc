@@ -34,6 +34,7 @@ You'll find here user documentation for various `GLPI <http://glpi-project.org>`
    news/index
    oauthimap/index
    order/index
+   pdf/index
    sccm/index
    treeview/index
    tag/index
@@ -46,8 +47,14 @@ You'll find here user documentation for various `GLPI <http://glpi-project.org>`
    advanceddashboard/index
    anonymize/index
    approbalbymail/index
-   OauthSSOEntra/index
+   oauthsso/index
    branding/index
+   webhook/index
+   holidays/index
+   GDPR/index
    ldaptools/index
+   renamestrings/index
    scim/index
+   splitcat/index
    translate/index
+   unread/index

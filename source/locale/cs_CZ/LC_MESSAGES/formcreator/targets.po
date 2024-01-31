@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016, Teclib'
+# Copyright (C) 2016-2024, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Pavel Borecki <pavel.borecki@gmail.com>, 2018
-# David Stepan <stepand@tiscali.cz>, 2020
+# David Stepan <stepand@tiscali.cz>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPI plugins 0.1\n"
+"Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-14 15:17+0200\n"
+"POT-Creation-Date: 2024-01-26 15:57+0100\n"
 "PO-Revision-Date: 2017-02-09 07:26+0000\n"
-"Last-Translator: David Stepan <stepand@tiscali.cz>, 2020\n"
-"Language-Team: Czech (Czech Republic) (https://www.transifex.com/teclib/teams/28042/cs_CZ/)\n"
+"Last-Translator: David Stepan <stepand@tiscali.cz>, 2022\n"
+"Language-Team: Czech (Czech Republic) (https://app.transifex.com/teclib/teams/28042/cs_CZ/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -66,187 +66,222 @@ msgid ""
 "The ticket is build from scratch or from a ticket template available in "
 "GLPI. You may"
 msgstr ""
+"Požadavek byl vytvořen ze šablony nebo ze šablony požadavku dostupné v GLPI."
+" Můžeš"
 
 #: ../../source/formcreator/targets.rst:24
 msgid ""
 "customize the name of the target ticket to distinguish it from possible "
 "other targets,"
 msgstr ""
+"upravit název cílového požadavku, aby se odlišil od možných jiných "
+"požadavků, "
 
 #: ../../source/formcreator/targets.rst:25
 msgid ""
 "customize the title and description of the ticket using questions and "
 "answers,"
-msgstr ""
+msgstr "upravit název a popis požadavku pomocí otázek a odpovědí, "
 
 #: ../../source/formcreator/targets.rst:26
 msgid "set tne destination entity of the generated ticket,"
-msgstr ""
+msgstr "nastavit cílovou entitu generovaného požadavku, "
 
 #: ../../source/formcreator/targets.rst:27
 msgid "set a time to resomve (formerly due date),"
-msgstr ""
+msgstr "nastavit čas k odstranění (dříve datum platnosti),"
 
 #: ../../source/formcreator/targets.rst:28
 msgid "set the type of ticket (request or incident),"
-msgstr ""
+msgstr "nastavit typ požadavku (žádost nebo porucha),"
 
 #: ../../source/formcreator/targets.rst:29
 msgid "set the associated elements,"
-msgstr ""
+msgstr "nastavit přiřazené prvky,"
 
 #: ../../source/formcreator/targets.rst:30
 msgid "set the category,"
-msgstr ""
+msgstr "nastavit kategorii,"
 
 #: ../../source/formcreator/targets.rst:31
 msgid "set the urgency,"
-msgstr ""
+msgstr "nastavit naléhavost,"
 
 #: ../../source/formcreator/targets.rst:32
 msgid "set the location,"
-msgstr ""
+msgstr "nastavit umístění,"
 
 #: ../../source/formcreator/targets.rst:33
 msgid "assign tags to the ticket if the plugin `Tags` is available,"
 msgstr ""
+"přiřadit štítek k požadavku pokud je zásuvný modul 'Štítky' k dispozici,"
 
 #: ../../source/formcreator/targets.rst:34
 msgid "link the generated ticket to other tickets"
-msgstr ""
+msgstr "spojit vygenerovaný požadavek s jiným požadavkem"
 
 #: ../../source/formcreator/targets.rst:35
 msgid "define actors of the ticket."
-msgstr ""
+msgstr "definovat aktéry požadavku."
 
 #: ../../source/formcreator/targets.rst:36
 #: ../../source/formcreator/targets.rst:134
 msgid "define conditions to meet to generate the target ticket"
 msgstr ""
+"definovat podmínky, které je třeba splnit pro vygenerování cílového "
+"požadavku "
 
 #: ../../source/formcreator/targets.rst:39
 msgid ""
 "Setting an urgency, a category or a location (specific or from a question) "
 "overrides the urgency defined in a ticket template (if any)"
 msgstr ""
+"Nastavení naléhavosti, kategorie nebo místa (konkrétního nebo z otázky) "
+"přepíše naléhavost definovanou v šabloně požadavku (pokud existuje) "
 
 #: ../../source/formcreator/targets.rst:42
 msgid "Destination entity"
-msgstr ""
+msgstr "Cílová entita"
 
 #: ../../source/formcreator/targets.rst:44
 msgid "Many choices are avaialble:"
-msgstr ""
+msgstr "K dispozici je mnoho možností: "
 
 #: ../../source/formcreator/targets.rst:46
 msgid "Current active entity: the entity of the requester who fills a form,"
-msgstr ""
+msgstr "Aktuální aktivní entita: entita žadatele, který vyplní formulář, "
 
 #: ../../source/formcreator/targets.rst:47
 msgid ""
 "Default requester's entity: the default entity defined for the user who "
 "fills the form,"
 msgstr ""
+"Výchozí entita žadatele: výchozí entita definovaná pro uživatele, který "
+"vyplní formulář, "
 
 #: ../../source/formcreator/targets.rst:48
 msgid ""
 "First dynamic requester's entity (alphabetical): sorts all dynamic entities "
 "of the requester alphabetically and selects the first one,"
 msgstr ""
+"První dynamická entita žadatele (abecedně): seřadí všechny dynamické entity "
+"žadatele podle abecedy a vybere první z nich, "
 
 #: ../../source/formcreator/targets.rst:49
 msgid ""
 "Last dynamic requester's entity (alphabetical): sorts all dynamic entities "
 "of the requester alphabetically and selects the last one,"
 msgstr ""
+"Poslední dynamická entita žadatele (abecedně): seřadí všechny dynamické "
+"entity žadatele podle abecedy a vybere poslední z nich, "
 
 #: ../../source/formcreator/targets.rst:50
 msgid ""
 "The form's entity: the entity where is located the form being filled by the "
 "requester,"
 msgstr ""
+"Entita formuláře: entita, kde se nachází formulář vyplněný žadatelem, "
 
 #: ../../source/formcreator/targets.rst:51
 msgid ""
 "Default entity of the validator: the default entity of the validator who "
 "validates the request,"
 msgstr ""
+"Výchozí entita schvalovatele: výchozí entita schvalovatele, který schvaluje "
+"požadavek, "
 
 #: ../../source/formcreator/targets.rst:52
 msgid "Specific entity: an entity set by the form's designer,"
-msgstr ""
+msgstr "Konkrétní entita: entita nastavená návrhářem formuláře, "
 
 #: ../../source/formcreator/targets.rst:53
 msgid ""
 "Default entity of a user type question answer: the default entity of a user "
 "choosen by the requester in a question."
 msgstr ""
+"Výchozí entita uživatelského typu odpověď na otázku: výchozí entita "
+"uživatele zvoleného žadatelem v otázce. "
 
 #: ../../source/formcreator/targets.rst:54
 msgid ""
 "From a GLPI object > Entity type question answer: the entity choosen by the "
 "requester from a question."
 msgstr ""
+"Z objektu GLPI > Odpověď na otázku typu entity: entita vybraná žadatelem z "
+"otázky. "
 
 #: ../../source/formcreator/targets.rst:57
 msgid ""
 "Default requester's entity may be not set, then there is a risk to generate "
 "tickets in the root entity."
 msgstr ""
+"Výchozí entita žadatele nemusí být nastavena, pak existuje riziko generování"
+" požadavků v kořenové entitě."
 
 #: ../../source/formcreator/targets.rst:60
 msgid ""
 "Default entity of the validator may be not set, then there is a risk to "
 "generate tickets in the root entity."
 msgstr ""
+"Výchozí entita schvalovatele nemusí být nastavena, pak existuje riziko "
+"generování požadavků v kořenové entitě. "
 
 #: ../../source/formcreator/targets.rst:63
 msgid ""
 "Dynamic requester's entity requires user synchronization, then there is a "
 "risk to generate tickets in the root entity."
 msgstr ""
+"Dynamická entita žadatele vyžaduje synchronizaci uživatele, jinak existuje "
+"riziko generování požadavků v kořenové entitě. "
 
 #: ../../source/formcreator/targets.rst:66
 msgid "Ticket template"
-msgstr ""
+msgstr "Šablona požadavku"
 
 #: ../../source/formcreator/targets.rst:68
 msgid ""
 "Sets predefined setings for the ticket from a template. All settings defined"
 " in the target ticket will override the values found in the template."
 msgstr ""
+"Nastaví předdefinovaná nastavení pro požadavek ze šablony. Všechna nastavení"
+" definovaná v cílovém požadavku přepíší hodnoty nalezené v šabloně. "
 
 #: ../../source/formcreator/targets.rst:71
 msgid "Request type"
-msgstr ""
+msgstr "Typ požadavku"
 
 #: ../../source/formcreator/targets.rst:73
 msgid "Sets the type of the generated ticket"
-msgstr ""
+msgstr "Nastavuje typ generovaného požadavku"
 
 #: ../../source/formcreator/targets.rst:75
 msgid ""
 "Default or from a template: value set by GLPI when no type is set, or from a"
 " template, if any and if this template defiines a type"
 msgstr ""
+"Výchozí nebo ze šablony: hodnota nastavená pomocí GLPI, když není nastaven "
+"žádný typ, nebo ze šablony, pokud existuje a pokud tato šablona definuje typ"
+" "
 
 #: ../../source/formcreator/targets.rst:76
 msgid "Specific type: either request or incident,"
-msgstr ""
+msgstr "Konkrétní typ: žádost nebo porucha, "
 
 #: ../../source/formcreator/targets.rst:77
 msgid ""
 "Equals to the answer to the question: the value is  set from a request type "
 "question."
 msgstr ""
+"Rovná se odpovědi na otázku: hodnota je nastavena z otázky na typ požadavku."
+" "
 
 #: ../../source/formcreator/targets.rst:80
 msgid "Associated elements"
-msgstr ""
+msgstr "Přiřazené prvky"
 
 #: ../../source/formcreator/targets.rst:82
 msgid "Sets associated elements to the generated ticket"
-msgstr ""
+msgstr "Nastaví přiřazené prvky ke generovanému požadavku"
 
 #: ../../source/formcreator/targets.rst:84
 msgid ""
@@ -255,75 +290,88 @@ msgid ""
 "from a question Last valid answer: an asset set by the requester, from the "
 "last visible question eligible for this purpose"
 msgstr ""
+"Žádné : samovysvětlující, Specifické aktivum: aktivum nastavené návrhářem "
+"formuláře, Rovná se odpovědi na otázku: aktivum nastavené žadatelem, z "
+"otázky Poslední platná odpověď: aktivum nastavené žadatelem, od poslední "
+"viditelné otázky vhodné pro tento účel "
 
 #: ../../source/formcreator/targets.rst:90
 msgid "Category"
-msgstr ""
+msgstr "Kategorie"
 
 #: ../../source/formcreator/targets.rst:92
 msgid "Sets the category of the generated ticket"
-msgstr ""
+msgstr "Nastaví kategorii generovaného požadavku"
 
 #: ../../source/formcreator/targets.rst:94
 msgid ""
 "Category fro template or none: sets the category from a template if any and "
 "if this template has a predefined category. None in all other cases,"
 msgstr ""
+"Kategorie pro šablonu nebo žádná: nastaví kategorii ze šablony, pokud "
+"existuje a pokud má tato šablona předdefinovanou kategorii. Žádná ve všech "
+"ostatních případech, "
 
 #: ../../source/formcreator/targets.rst:95
 msgid "Specific category: a category set by the form's designer,"
-msgstr ""
+msgstr "Specifická kategorie: kategorie nastavená návrhářem formuláře, "
 
 #: ../../source/formcreator/targets.rst:96
 #: ../../source/formcreator/targets.rst:104
 #: ../../source/formcreator/targets.rst:111
 msgid ""
 "Equals to the answer to a question: a category choosen by the requester,"
-msgstr ""
+msgstr "Odpovídá odpovědi na otázku: kategorie zvolená žadatelem,"
 
 #: ../../source/formcreator/targets.rst:97
 msgid ""
 "lastr valid answer: a category from the last visible question of type "
 "category,"
 msgstr ""
+"poslední platná odpověď: kategorie z poslední viditelné otázky kategorie "
+"typu,"
 
 #: ../../source/formcreator/targets.rst:100
 msgid "Urgency"
-msgstr ""
+msgstr "Naléhavost"
 
 #: ../../source/formcreator/targets.rst:102
 msgid ""
 "Urgency fro template or none: sets the urgency from a template if any and if"
 " this template has a predefined urgency. None in all other cases,"
 msgstr ""
+"Naléhavost ze šablony nebo žádná: nastaví naléhavost ze šablony, pokud "
+"existuje a má-li tato šablona předdefinovanou naléhavost. Žádná ve všech "
+"ostatních případech,"
 
 #: ../../source/formcreator/targets.rst:103
 msgid "Specific urgency: an urgency set by the form's designer"
-msgstr ""
+msgstr "Specifická naléhavost: naléhavost nastavená návrhářem formuláře "
 
 #: ../../source/formcreator/targets.rst:107
 msgid "Location"
-msgstr ""
+msgstr "Umístění"
 
 #: ../../source/formcreator/targets.rst:109
 msgid ""
-"Location fro template or none: sets the location from a template if any and "
-"if this template has a predefined loation. None in all other cases,"
+"Location from template or none: sets the location from a template if any and"
+" if this template has a predefined location. None in all other cases,"
 msgstr ""
 
 #: ../../source/formcreator/targets.rst:110
 msgid "Specific location: a location set by the form's designer"
-msgstr ""
+msgstr "Specifické umístění: umístění nastavené návrhářem formuláře "
 
 #: ../../source/formcreator/targets.rst:114
 msgid "Condition to show the target"
-msgstr ""
+msgstr "Podmínka pro zobrazení cíle"
 
 #: ../../source/formcreator/targets.rst:116
 msgid ""
 "The form's designer may restrict creation of the ticket depending on "
 "conditions."
 msgstr ""
+"Návrhář formuláře může omezit vytvoření tiketu v závislosti na podmínkách. "
 
 #: ../../source/formcreator/targets.rst:120
 msgid "Target change"
@@ -335,34 +383,85 @@ msgstr "Cíl změna generuje změnu"
 
 #: ../../source/formcreator/targets.rst:126
 msgid "The change is built from scratch. You may"
-msgstr ""
+msgstr "Změna je postavena od nuly. Můžeš "
 
 #: ../../source/formcreator/targets.rst:128
 msgid ""
 "customize the title, description, imapct, control list, deployment path, "
 "backup plan and checklist fields using questions and answers,"
 msgstr ""
+"přizpůsobit pole nadpisu, popisu, dopad, kontrolní seznam, plán nasazení, "
+"plán zálohování a kontrolní/řídící seznam pomocí otázek a odpovědí, "
 
 #: ../../source/formcreator/targets.rst:129
 msgid "set the urgency from a value or a question"
-msgstr ""
+msgstr "nastavit naléhavost z hodnoty nebo otázky"
 
 #: ../../source/formcreator/targets.rst:130
 msgid "choose the entity of the change among many policies"
-msgstr ""
+msgstr "vybrat entitu změny z mnoha pravidel"
 
 #: ../../source/formcreator/targets.rst:131
 msgid "set the time to resolve"
-msgstr ""
+msgstr "nastavit čas k vyřešení"
 
 #: ../../source/formcreator/targets.rst:132
 msgid "define the actors of the change"
-msgstr ""
+msgstr "definovat aktéry změny"
 
 #: ../../source/formcreator/targets.rst:133
 msgid "set the category of the change"
+msgstr "nastavit kategorii změny"
+
+#: ../../source/formcreator/targets.rst:137
+msgid "Target description templating"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:139
+msgid ""
+"Target ticket and target change both have description template. By default "
+"the template uses the tag ``##FULLFORM##``. This tag is a default template "
+"where all questions and sections are displayed in the same order as the "
+"form."
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:141
+msgid "Each question has 2 tags"
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:143
+msgid ""
+"``##question_x##`` which is replaced by the label of the question. X is the "
+"ID of the question."
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:144
+msgid ""
+"``##answer_x##`` which is replaced by the answer to a question. X is the ID "
+"of the matching question."
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:146
+msgid ""
+"Questions of type dropdown support more complex expression like "
+"``##answer_x.name##``. ``x`` still means the ID of a question. the word "
+"after the dot is the name of a property available in the search options of "
+"the itemtype of the dropdown question."
+msgstr ""
+
+#: ../../source/formcreator/targets.rst:148
+msgid ""
+"As an example, consider a dropdown question which shows locations. The "
+"itemtype set by the form designer is \"Location\". The designer can render "
+"in the target many fields of the location selected by the requester, such "
+"address, postcode, state, building, and many other data. To find them, the "
+"admin may rely on the list available in the search filters for a location."
 msgstr ""
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
+msgstr ""

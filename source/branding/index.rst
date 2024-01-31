@@ -5,7 +5,7 @@ Requirements (on-premise)
 -------------------------
 
 ============ =========== ===========
-GLPI Version Minimum PHP Recommanded
+GLPI Version Minimum PHP Recommended
 ============ =========== ===========
 10.0.x       8.1         8.2
 ============ =========== ===========
@@ -19,7 +19,7 @@ Install the plugin
 -  Go to the marketplace. Download and install the **Branding**
    plugin.
 
-.. figure:: Pics/branding-1.png
+.. figure:: images/branding-1.png
    :alt:
 
 Customize your instance
@@ -34,7 +34,7 @@ Here you can replace :
 -  the background of the login page,
 -  the icon in the browser bar
 
-.. figure:: Pics/branding-2.png
+.. figure:: images/branding-2.png
    :alt:
 
 Custom by entity

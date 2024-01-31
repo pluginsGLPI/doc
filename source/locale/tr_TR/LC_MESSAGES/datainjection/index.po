@@ -1,16 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016, Teclib'
+# Copyright (C) 2016-2024, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kaya Zeren <kayazeren@gmail.com>, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPI plugins 0.1\n"
+"Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-14 15:17+0200\n"
+"POT-Creation-Date: 2024-01-26 15:57+0100\n"
 "PO-Revision-Date: 2020-01-30 07:19+0000\n"
-"Language-Team: Turkish (Turkey) (https://www.transifex.com/teclib/teams/28042/tr_TR/)\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2023\n"
+"Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,208 +23,228 @@ msgstr ""
 
 #: ../../source/datainjection/index.rst:2
 msgid "Datainjection"
-msgstr ""
+msgstr "Veri aktarımı"
 
 #: ../../source/datainjection/index.rst:4
 msgid "Sources link: https://github.com/pluginsGLPI/datainjection"
-msgstr ""
+msgstr "Kaynak bağlantısı: https://github.com/pluginsGLPI/datainjection"
 
 #: ../../source/datainjection/index.rst:5
 msgid "Download: https://github.com/pluginsGLPI/datainjection/releases"
 msgstr ""
+"İndirme bağlantısı: https://github.com/pluginsGLPI/datainjection/releases"
 
 #: ../../source/datainjection/index.rst:8
 msgid "Requirements for latest version"
-msgstr ""
+msgstr "Son sürümün gereksinimleri"
 
 #: ../../source/datainjection/index.rst:10
 msgid "This plugin requires :"
-msgstr ""
+msgstr "Bu uygulama ekinin gereksinimleri:"
 
 #: ../../source/datainjection/index.rst:12
 msgid "PHP 7.2 or higher"
-msgstr ""
+msgstr "PHP 7.2 ve üzerindeki sürümler"
 
 #: ../../source/datainjection/index.rst:13
 msgid "GLPI >= 9.4"
-msgstr ""
+msgstr "GLPI 9.4 ve üzerindeki sürümler"
 
 #: ../../source/datainjection/index.rst:17
 msgid "Features"
-msgstr ""
+msgstr "Özellikler"
 
 #: ../../source/datainjection/index.rst:19
 msgid "This plugin allows data import into GLPI using CSV files."
 msgstr ""
+"Bu uygulama eki, verilerin CSV dosyaları kullanılarak GLPI üzerine "
+"aktarılmasını sağlar."
 
 #: ../../source/datainjection/index.rst:21
 msgid ""
 "It allows to create models of injection for a future re-use. It's been "
 "created in order to:"
 msgstr ""
+"Gelecekte yeniden kullanım için veri aktarımı modelleri oluşturulmasını "
+"sağlar. Şu işlemler yapılabilir:"
 
 #: ../../source/datainjection/index.rst:23
 msgid "Import data coming from others asset management softwares"
-msgstr ""
+msgstr "Diğer varlık yönetimi yazılımlarından bilgileri içe aktarabilir"
 
 #: ../../source/datainjection/index.rst:24
 msgid "Inject electronic delivery forms"
-msgstr ""
+msgstr "Elektronik teslim formlarının verilerini aktarabilir"
 
 #: ../../source/datainjection/index.rst:26
 msgid "Data to be imported using the plugins are:"
-msgstr ""
+msgstr "Uygulama eki kullanılarak aktarılabilecek veriler:"
 
 #: ../../source/datainjection/index.rst:28
 msgid "Inventory data (except softwares and licenses),"
-msgstr ""
+msgstr "Envanter verileri (yazılımlar ve lisanslar dışında),"
 
 #: ../../source/datainjection/index.rst:29
 msgid "Management data (contract, contact, supplier),"
-msgstr ""
+msgstr "Yönetim verileri (kişi, ilgili, sağlayıcı),"
 
 #: ../../source/datainjection/index.rst:30
 msgid "Configuration data (user, group, entity)."
-msgstr ""
+msgstr "Yapılandırma verileri (kullanıcı, grup, birim)."
 
 #: ../../source/datainjection/index.rst:34
 msgid "Install the Plugin"
-msgstr ""
+msgstr "Uygulama ekini kurmak"
 
 #: ../../source/datainjection/index.rst:35
 msgid "Uncompress the archive."
-msgstr ""
+msgstr "Arşivi ayıklayın."
 
 #: ../../source/datainjection/index.rst:36
 msgid ""
-"Move the ``escalade`` directory to the ``<GLPI_ROOT>/plugins`` directory"
+"Move the ``datainjection`` directory to the ``<GLPI_ROOT>/plugins`` "
+"directory"
 msgstr ""
 
 #: ../../source/datainjection/index.rst:37
 msgid "Navigate to the *Configuration > Plugins* page,"
-msgstr ""
+msgstr "*Yapılandırma > Uygulama ekleri* bölümüne gidin."
 
 #: ../../source/datainjection/index.rst:38
 msgid "Install and activate the plugin."
-msgstr ""
+msgstr "Uygulama ekini kurup etkinleştirin."
 
 #: ../../source/datainjection/index.rst:42
 msgid "Configuration"
-msgstr ""
+msgstr "Yapılandırma"
 
 #: ../../source/datainjection/index.rst:44
 msgid ""
 "You will access the datainjetion configuration from the *Tool* > *File "
 "injection*."
 msgstr ""
+"Veri aktarma uygulama eki yapılandırması için menüden *Araçlar* > *Veri "
+"aktarımı* bölümüne gidin."
 
 #: ../../source/datainjection/index.rst:46
 msgid "Clic here to manage model"
-msgstr ""
+msgstr "Modeli yönetmek için buraya tıklayın"
 
 #: ../../source/datainjection/index.rst:51
 msgid "Create new model"
-msgstr ""
+msgstr "Yeni model oluştur"
 
 #: ../../source/datainjection/index.rst:53
 msgid ""
 "Fist step you need te create model, for this example we import Computer"
 msgstr ""
+"Bir model oluşturmak için bu örnekte ilk adım olarak bir Bilgisayar içe "
+"aktaracağız"
 
 #: ../../source/datainjection/index.rst:55
 msgid "Clic here to create new model"
-msgstr ""
+msgstr "Yeni model oluşturmak için buraya tıklayın"
 
 #: ../../source/datainjection/index.rst:59
 msgid "And fill form"
-msgstr ""
+msgstr "ve formu doldurun"
 
 #: ../../source/datainjection/index.rst:63
 msgid "Name : define a model Name"
-msgstr ""
+msgstr "Ad: Modele bir ad verin"
 
 #: ../../source/datainjection/index.rst:64
 msgid "Visibility : is private or not for other user"
 msgstr ""
+"Görünürlük: Diğer kullanıcılara görüntülenip görüntülenmeyeceğini belirtin"
 
 #: ../../source/datainjection/index.rst:65
 msgid "Entity / sub entity : model visibility for entity"
-msgstr ""
+msgstr "Birim / alt birim: Modelin birimlerde görüntülenme durumunu belirtin"
 
 #: ../../source/datainjection/index.rst:66
 msgid "Comments : model comment"
-msgstr ""
+msgstr "Açıklama: Modelin açıklamasını yazın"
 
 #: ../../source/datainjection/index.rst:67
 msgid "Type of data : type of data to import"
-msgstr ""
+msgstr "Veri türü: İçe aktarılacak verilerin türü"
 
 #: ../../source/datainjection/index.rst:68
 msgid "Allow lines creation : yes or not"
-msgstr ""
+msgstr "Satır eklenebilsin: Evet ya da hayır"
 
 #: ../../source/datainjection/index.rst:69
 msgid "Allow lines update : yes or not"
-msgstr ""
+msgstr "Satırlar güncellenebilsin: Evet ya da hayır"
 
 #: ../../source/datainjection/index.rst:70
 msgid ""
 "Allow creation of dropdowns : if dropdown value not exist, let's create It"
 msgstr ""
+"Açılan kutu güncellenebilsin: Açılan kutu değeri yoksa oluşturulabilir"
 
 #: ../../source/datainjection/index.rst:71
 msgid "Dates format : date format in CSV file"
-msgstr ""
+msgstr "Tarih biçimi: CSV dosyasındaki tarih biçimi"
 
 #: ../../source/datainjection/index.rst:72
 msgid "Allow update of existing fields : yes or not"
-msgstr ""
+msgstr "Var olan alanlar güncellenebilsin: Evet ya da hayır"
 
 #: ../../source/datainjection/index.rst:73
 msgid "Float format : float format in CSV file"
-msgstr ""
+msgstr "Ondalık biçim: CSV dosyasındaki ondalık sayı biçimi"
 
 #: ../../source/datainjection/index.rst:74
 msgid "Try to establish network connection is possible : yes or not"
-msgstr ""
+msgstr "Ağ bağlantısının kurulmaya çalışılsın: Evet ya da hayır"
 
 #: ../../source/datainjection/index.rst:75
 msgid "Port unicity criteria : define unicity field fir port"
 msgstr ""
+"Bağlantı noktası teklik ölçütleri: Bağlantı noktasının tanımlı teklik alanı"
 
 #: ../../source/datainjection/index.rst:77
 msgid ""
 "After model creation it's possible to : * Define if header is present * "
 "Change file delimitor : default ->  \";\""
 msgstr ""
+"Model oluşturulduktan sonra şunları yapabilirsiniz: * Başlık satırı varsa "
+"tanımlamak * Dosya sınırlayıcısını değiştirmek: varsayılan -> \";\""
 
 #: ../../source/datainjection/index.rst:82
 msgid "Inject your CSV file"
-msgstr ""
+msgstr "CSV dosyasını aktarın"
 
 #: ../../source/datainjection/index.rst:84
 msgid "Send to GLPI your CSV file with computer data"
-msgstr ""
+msgstr "Bilgisayar verilerinin olduğu CSV dosyasını GLPI içine aktarın"
 
 #: ../../source/datainjection/index.rst:89
 msgid "content of CSV file for this documentation"
-msgstr ""
+msgstr "Bu belge için CSV dosyasının içeriği"
 
 #: ../../source/datainjection/index.rst:99
 msgid "Mapping CSV column and object field"
-msgstr ""
+msgstr "CSV sütunları ile nesne alanlarını eşleştirin"
 
 #: ../../source/datainjection/index.rst:101
 msgid ""
 "For each column of your CSV file you must select the table and the "
 "corresponding field in GLPI"
 msgstr ""
+"CSV dosyasının her sütunu için GLPI üzerinde ilgili bir tablo ve alan "
+"seçmelisiniz"
 
 #: ../../source/datainjection/index.rst:106
 msgid ""
 "You need to define link field. The plugin will search on this link field to "
 "known if object need to be added or updated"
 msgstr ""
+"Bağlantı alanını tanımlamanız gerekir. Uygulama eki, nesnenin eklenmesi ya "
+"da güncellenmesi gerekip gerekmediğini bilmek için bu bağlantı alanında "
+"arama yapar"
 
 #: ../../source/datainjection/index.rst:112
 msgid ""
@@ -228,57 +252,69 @@ msgid ""
 "example, the financial and administrative informations during computer "
 "import."
 msgstr ""
+"Açılan kutuda, örneğin bilgisayar içe aktarılırken idari ve mali bilgilerin "
+"içe aktarılmasını sağlayan diğer tablolar bulunur."
 
 #: ../../source/datainjection/index.rst:115
 msgid ""
 "Each type of data (Computer, Monitor, User) have differents options to "
 "import other data"
 msgstr ""
+"Her veri türünde (Bilgisayar, Ekran, Kullanıcı) diğer verileri içe aktarmak "
+"için farklı seçenekler bulunur"
 
 #: ../../source/datainjection/index.rst:121
 msgid "Additional data"
-msgstr ""
+msgstr "Ek veriler"
 
 #: ../../source/datainjection/index.rst:123
 msgid ""
 "You can define additional data to be imported, it will be requested during "
 "import."
 msgstr ""
+"İçe aktarılacak ek veriler tanımlayabilirsiniz. Bunlar içe aktarma sırasında"
+" istenir."
 
 #: ../../source/datainjection/index.rst:125
 msgid "Each can be flag as manatory"
-msgstr ""
+msgstr "Her biri zorunlu olarak işaretlenebilir"
 
 #: ../../source/datainjection/index.rst:132
 msgid "Validate model"
-msgstr ""
+msgstr "Modeli doğrulayın"
 
 #: ../../source/datainjection/index.rst:134
 msgid "After configuration you can validate model"
-msgstr ""
+msgstr "Yapılandırma sonrasında modeli doğrulayabilirsiniz"
 
 #: ../../source/datainjection/index.rst:140
 msgid "Execute import"
-msgstr ""
+msgstr "İçe aktarın"
 
 #: ../../source/datainjection/index.rst:142
 msgid "You will access the model from the *Tool* > *File injection*."
-msgstr ""
+msgstr "Modele *Araçlar* > *Veri aktarma* bölümünden erişebilirsiniz."
 
 #: ../../source/datainjection/index.rst:144
 msgid "Select a model, select CSV file, and run import"
-msgstr ""
+msgstr "Bir model seçin, CSV dosyasını seçin ve içe aktarın"
 
 #: ../../source/datainjection/index.rst:150
 msgid "Import result"
-msgstr ""
+msgstr "İçe aktarma sonuçları"
 
 #: ../../source/datainjection/index.rst:154
 msgid ""
 "After import process, plugin show you result, clic on spere to get more "
 "details"
 msgstr ""
+"İçe aktarma tamamlandığında, uygulama eki işlem sonuçlarını görüntüler. "
+"Ayrıntılı bilgi almak için alana tıklayın"
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
 msgstr ""

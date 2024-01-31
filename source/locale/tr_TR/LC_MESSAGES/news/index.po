@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Kaya Zeren <kayazeren@gmail.com>, 2023
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,7 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-14 15:17+0200\n"
 "PO-Revision-Date: 2020-01-24 06:36+0000\n"
-"Language-Team: Turkish (Turkey) (https://www.transifex.com/teclib/teams/28042/tr_TR/)\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2023\n"
+"Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,168 +23,182 @@ msgstr ""
 
 #: ../../source/news/index.rst:2
 msgid "News"
-msgstr ""
+msgstr "News"
 
 #: ../../source/news/index.rst:4
 msgid "Sources link: https://github.com/pluginsGLPI/news"
-msgstr ""
+msgstr "Kaynaklar bağlantısı: https://github.com/pluginsGLPI/news"
 
 #: ../../source/news/index.rst:5
 msgid "Download: https://github.com/pluginsGLPI/news/releases"
-msgstr ""
+msgstr "İndirme bağlantısı: https://github.com/pluginsGLPI/news/releases"
 
 #: ../../source/news/index.rst:8
 msgid "Requirements for latest version"
-msgstr ""
+msgstr "Son sürümün gereksinimleri"
 
 #: ../../source/news/index.rst:10
 msgid "This plugin requires :"
-msgstr ""
+msgstr "Bu uygulama ekinin gereksinimleri:"
 
 #: ../../source/news/index.rst:12
 msgid "PHP 7.2 or higher"
-msgstr ""
+msgstr "PHP 7.2 ve üzerindeki sürümler"
 
 #: ../../source/news/index.rst:13
 msgid "GLPI >= 9.4"
-msgstr ""
+msgstr "GLPI 9.4 ve üzerindeki sürümler"
 
 #: ../../source/news/index.rst:17
 msgid "Features"
-msgstr ""
+msgstr "Özellikler"
 
 #: ../../source/news/index.rst:19
 msgid ""
 "This plugin allows to display alerts messages on GLPI homepage and / or "
 "login page."
 msgstr ""
+"Bu uygulama eki, uyarı iletilerinin GLPI ana sayfasında ve/veya oturum açma "
+"sayfasında görüntülenmesini sağlar."
 
 #: ../../source/news/index.rst:21
 msgid "Create alert with rich text as for notes."
-msgstr ""
+msgstr "Notlar için olduğu gibi zengin metin kullanarak uyarılar oluşturur."
 
 #: ../../source/news/index.rst:22
 msgid "Choice of begin/end publication date."
-msgstr ""
+msgstr "Yayınlanma başlangıç ve bitiş tarihlerini seçilebilir."
 
 #: ../../source/news/index.rst:23
 msgid "Manage alerts by entity."
-msgstr ""
+msgstr "Uyarılar birime göre yönetilebilir."
 
 #: ../../source/news/index.rst:24
 msgid "Target : display alerts by profile / group / user."
-msgstr ""
+msgstr "Hedef: Uyarılar profile / gruba / kullanıcıya göre görüntülenebilir."
 
 #: ../../source/news/index.rst:28
 msgid "Install the Plugin"
-msgstr ""
+msgstr "Uygulama ekini kurmak"
 
 #: ../../source/news/index.rst:29
 msgid "Uncompress the archive."
-msgstr ""
+msgstr "Arşivi ayıklayın."
 
 #: ../../source/news/index.rst:30
 msgid "Move the ``news`` directory to the ``<GLPI_ROOT>/plugins`` directory"
-msgstr ""
+msgstr "``news`` klasörünü ``<GLPI_ROOT>/plugins`` klasörüne taşıyın"
 
 #: ../../source/news/index.rst:31
 msgid "Navigate to the *Configuration > Plugins* page,"
-msgstr ""
+msgstr "*Yapılandırma > Uygulama ekleri* bölümüne gidin."
 
 #: ../../source/news/index.rst:32
 msgid "Install and activate the plugin."
-msgstr ""
+msgstr "Uygulama ekini kurup etkinleştirin."
 
 #: ../../source/news/index.rst:35
 msgid "Usage"
-msgstr ""
+msgstr "Kullanım"
 
 #: ../../source/news/index.rst:37
 msgid ""
 "The plugin will create required tables in the database  automatically. Those"
 " tables will be updated along with the plugin."
 msgstr ""
+"Bu uygulama eki otomatik olarak veri tabanında gerekli tabloları oluşturur. "
+"Bu tablolar uygulama ekiyle birlikte güncellenir."
 
 #: ../../source/news/index.rst:39
 msgid "Plugin usage is quite simple:"
-msgstr ""
+msgstr "Uygulama ekinin kullanımı oldukça basittir:"
 
 #: ../../source/news/index.rst:41
 msgid "configure alerts"
-msgstr ""
+msgstr "Uyarıları yapılandırın"
 
 #: ../../source/news/index.rst:43
 msgid "You will access the plugin configuration from the *Tools* > *Alerts*."
 msgstr ""
+"Uygulama eki yapılandırması için menüden *Araçlar* > *Uyarılar* bölümüne "
+"gidin."
 
 #: ../../source/news/index.rst:47
 msgid "Create alerts"
-msgstr ""
+msgstr "Uyarı oluşturmak"
 
 #: ../../source/news/index.rst:49
 msgid "Name : display as talert title"
-msgstr ""
+msgstr "Ad: Görüntülenecek uyarının başlığını yazın"
 
 #: ../../source/news/index.rst:50
 msgid "Active : is active or not"
-msgstr ""
+msgstr "Etkin: Uyarının etkin olup olmadığını seçin"
 
 #: ../../source/news/index.rst:51
 msgid "Description : content of alert"
-msgstr ""
+msgstr "Açıklama: Uyarının içeriğini yazın"
 
 #: ../../source/news/index.rst:52
 msgid "Visibility start / end : period of Visibility"
 msgstr ""
+"Görüntülenme başlangıcı / bitişi: Uyarının görüntüleneceği zaman aralığını "
+"belirtin"
 
 #: ../../source/news/index.rst:53
 msgid "Type : type of alert (General, Information, Warning, Problem)"
-msgstr ""
+msgstr "Tür: Uyarının türünü belirtin (Genel, Bilgi, Uyarı, Sorun)"
 
 #: ../../source/news/index.rst:54
 msgid "Can close alert : User can close alert ?"
 msgstr ""
+"Uyarı kapatılabilsin mi: Kullanıcının uyarıyı kapatıp kapatamayacağını seçin"
 
 #: ../../source/news/index.rst:55
 msgid "Show on login page : display or not alert on login page"
 msgstr ""
+"Oturum açma sayfasında görüntülensin: Uyarının oturum açma sayfasında "
+"görüntülenip görüntülenmeyeceğini seçin"
 
 #: ../../source/news/index.rst:56
 msgid "Show on helpdesk page : display or not alert on helpdesk page"
 msgstr ""
+"Yardım masası sayfasında görüntülensin: Uyarının yardım masası sayfasında "
+"görüntülenip görüntülenmeyeceğini seçin"
 
 #: ../../source/news/index.rst:57
 msgid "Sub-entity : display or not on sub-entity"
 msgstr ""
+"Alt birim: Uyarının alt birimlerde görüntülenip görüntülenmeyeceğini seçin"
 
 #: ../../source/news/index.rst:62
 msgid "Targets"
-msgstr ""
+msgstr "Hedefler"
 
 #: ../../source/news/index.rst:64
 msgid "You can define target by type"
-msgstr ""
+msgstr "Türe göre hedef belirtebilirsiniz"
 
 #: ../../source/news/index.rst:66
 msgid "Group : for all users of group"
-msgstr ""
+msgstr "Grup: Gruptaki tüm kullanıcılar"
 
 #: ../../source/news/index.rst:67
 msgid "Profil : for all users with profile"
-msgstr ""
+msgstr "Profil: Belirli bir profildeki tüm kullanıcılar"
 
 #: ../../source/news/index.rst:68
 msgid "User : for specifi user"
-msgstr ""
+msgstr "Kullanıcı: Belirli bir kullanıcı"
 
 #: ../../source/news/index.rst:74
 msgid "Display on login page"
-msgstr ""
+msgstr "Oturum açma sayfasında görüntülensin"
 
 #: ../../source/news/index.rst:80
 msgid "Display on helpdesk page"
-msgstr ""
+msgstr "Yardım masası sayfasında görüntülensin"
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"

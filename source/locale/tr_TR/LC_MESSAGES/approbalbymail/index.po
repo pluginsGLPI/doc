@@ -1,0 +1,127 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2024, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-26 16:17+0100\n"
+"PO-Revision-Date: 2024-01-26 14:56+0000\n"
+"Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../source/approbalbymail/index.rst:2
+msgid "Approbal by mail"
+msgstr ""
+
+#: ../../source/approbalbymail/index.rst:5
+msgid "Requirements (on-premise)"
+msgstr ""
+
+#: ../../source/approbalbymail/index.rst:8
+msgid "GLPI Version"
+msgstr ""
+
+#: ../../source/approbalbymail/index.rst:8
+msgid "Minimum PHP"
+msgstr ""
+
+#: ../../source/approbalbymail/index.rst:8
+msgid "Recommended"
+msgstr ""
+
+#: ../../source/approbalbymail/index.rst:10
+msgid "10.0.x"
+msgstr ""
+
+#: ../../source/approbalbymail/index.rst:10
+msgid "8.1"
+msgstr ""
+
+#: ../../source/approbalbymail/index.rst:10
+msgid "8.2"
+msgstr ""
+
+#: ../../source/approbalbymail/index.rst:14
+msgid "Install the plugin"
+msgstr ""
+
+#: ../../source/approbalbymail/index.rst:17
+msgid ""
+"`standard license <https://services.glpi-network.com/#offers>`__ (or higher)"
+" is required. This plugin is also available from the `Cloud <https://glpi-"
+"network.cloud/>`__."
+msgstr ""
+
+#: ../../source/approbalbymail/index.rst:19
+msgid ""
+"Go to the marketplace. Download and install the plugin **ApprovalByMail**."
+msgstr ""
+
+#: ../../source/approbalbymail/index.rst:25
+msgid "Using the plugin"
+msgstr ""
+
+#: ../../source/approbalbymail/index.rst:27
+msgid ""
+"Once activated, there are no specific settings to be made (apart from the "
+"notification layout, if you wish, via **Setup > Notifications > Notification"
+" templates**. The template is **Tickets validation**)"
+msgstr ""
+
+#: ../../source/approbalbymail/index.rst:29
+msgid ""
+"In a new ticket, enter the name of the person or group receiving the "
+"approval request."
+msgstr ""
+
+#: ../../source/approbalbymail/index.rst:35
+msgid ""
+"An email will be received with the option of **Validating** or **Refusing** "
+"the request. This contains 3 links (if no changes have been made to the "
+"model)."
+msgstr ""
+
+#: ../../source/approbalbymail/index.rst:37
+msgid "The ticket reminder"
+msgstr ""
+
+#: ../../source/approbalbymail/index.rst:38
+msgid "The acceptance link"
+msgstr ""
+
+#: ../../source/approbalbymail/index.rst:39
+msgid "The refusal link"
+msgstr ""
+
+#: ../../source/approbalbymail/index.rst:44
+msgid ""
+"When the form is validated, you are redirected to GLPI with a notification "
+"of acceptance:"
+msgstr ""
+
+#: ../../source/approbalbymail/index.rst:50
+msgid ""
+"If the form is refused, a comment will be requested to validate the refusal:"
+msgstr ""
+
+#: ../../source/approbalbymail/index.rst:56
+msgid ""
+"It is not possible to reply 2 times to the validation, an error message will"
+" be displayed:"
+msgstr ""
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr ""
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
+msgstr ""

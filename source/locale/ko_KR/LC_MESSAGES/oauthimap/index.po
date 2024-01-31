@@ -1,20 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016, Teclib'
+# Copyright (C) 2016-2024, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# SeongHyeon Cho <jaymz9634@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPI plugins 0.1\n"
+"Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-14 15:17+0200\n"
-"PO-Revision-Date: 2020-10-09 11:53+0000\n"
-"Last-Translator: SeongHyeon Cho <jaymz9634@gmail.com>, 2020\n"
-"Language-Team: Korean (Korea) (https://www.transifex.com/teclib/teams/28042/ko_KR/)\n"
+"POT-Creation-Date: 2024-01-26 15:57+0100\n"
+"PO-Revision-Date: 2024-01-26 14:57+0000\n"
+"Language-Team: Korean (Korea) (https://app.transifex.com/teclib/teams/28042/ko_KR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,66 +19,61 @@ msgstr ""
 
 #: ../../source/oauthimap/index.rst:2
 msgid "Oauth IMAP"
-msgstr "Oauth IMAP"
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:4
 msgid "Sources link: https://github.com/pluginsGLPI/oauthimap"
-msgstr "원본 링크: https://github.com/pluginsGLPI/oauthimap"
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:5
 msgid "Download: https://github.com/pluginsGLPI/oauthimap/releases"
-msgstr "다운로드: https://github.com/pluginsGLPI/oauthimap/releases"
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:8
 msgid "Features"
-msgstr "기능"
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:10
 msgid "This plugin supports Oauth connection for emails receivers."
-msgstr "이 플러그인은 이메일 수신자들에 대한 Oauth 연결을 지원합니다."
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:12
 msgid "Supported mail services:"
-msgstr "지원되는 이메일 서비스:"
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:14
 msgid ""
-"`G Suite and Gmail "
+"`Google (G Suite and Gmail) "
 "<https://developers.google.com/gmail/imap/xoauth2-protocol>`_,"
 msgstr ""
-"`G Suite 와 Gmail "
-"<https://developers.google.com/gmail/imap/xoauth2-protocol>`_,"
 
 #: ../../source/oauthimap/index.rst:15
 msgid ""
-"`Azure AD <https://docs.microsoft.com/en-us/exchange/client-developer"
-"/legacy-protocols/how-to-authenticate-an-imap-pop-smtp-application-by-using-"
-"oauth>`_."
+"`Microsoft (Office 365 via Azure AD) <https://docs.microsoft.com/en-"
+"us/exchange/client-developer/legacy-protocols/how-to-authenticate-an-imap-"
+"pop-smtp-application-by-using-oauth>`_."
 msgstr ""
-"`Azure AD <https://docs.microsoft.com/en-us/exchange/client-developer"
-"/legacy-protocols/how-to-authenticate-an-imap-pop-smtp-application-by-using-"
-"oauth>`_."
 
 #: ../../source/oauthimap/index.rst:18
 msgid "Install the Plugin"
-msgstr "플러그인 설치"
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:20
 msgid "Plugin is available inside GLPI marketplace."
-msgstr "플러그인은 GLPI 마켓플레이스에서 사용할 수 있습니다."
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:22
 msgid "You can also install it manually:"
-msgstr "수동으로도 설치할 수 있습니다:"
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:24
 msgid "Uncompress the archive."
-msgstr "아카이브 압축해제."
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:25
 msgid ""
 "Move the ``oauthimap`` directory to the ``<GLPI_ROOT>/plugins`` directory."
-msgstr "``oauthimap`` 디렉토리를 ``<GLPI_ROOT>/plugins``  디렉토리로 이동합니다."
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:26
 msgid "Navigate to the *Setup > Plugins* page."
@@ -90,7 +81,7 @@ msgstr ""
 
 #: ../../source/oauthimap/index.rst:27
 msgid "Install and activate the plugin."
-msgstr "설치 및 플러그인 활성화."
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:30
 msgid "Configure your Oauth IMAP application"
@@ -105,7 +96,7 @@ msgstr ""
 #: ../../source/oauthimap/index.rst:34
 msgid ""
 "Register an external application on service provider management console;"
-msgstr "서비스 공급자 관리 콘솔에 외부 어플리케이션을 등록합니다;"
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:35
 msgid ""
@@ -122,7 +113,7 @@ msgstr ""
 
 #: ../../source/oauthimap/index.rst:41
 msgid "Create an authorization"
-msgstr "인증 생성"
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:43
 msgid ""
@@ -138,18 +129,16 @@ msgid ""
 " mail receivers. When you create an authorization for a mailbox, previously "
 "existing authorizations for this mailbox are discarded."
 msgstr ""
-"메일 수신자에서 사용하려는 각 메일함에 대한 권한을 생성할 수 있습니다. 메일함에 대한 권한을 만들면, 이 메일함에 대한 이전의 기존 "
-"권한이 삭제됩니다."
 
 #: ../../source/oauthimap/index.rst:52
 msgid "Configure your mail receiver"
-msgstr "메일 수신자 구성"
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:54
 msgid ""
 "To authenticate via Oauth on your mail receiver, you have to change the "
 "configuration of your mail receiver:"
-msgstr "메일 수신자에서 Oauth를 통해 인증하려면, 메일 수신자의 구성을 변경해야 합니다:"
+msgstr ""
 
 #: ../../source/oauthimap/index.rst:56
 msgid ""
@@ -165,4 +154,8 @@ msgstr ""
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr "|ccbyncnd|"
+msgstr ""
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
+msgstr ""

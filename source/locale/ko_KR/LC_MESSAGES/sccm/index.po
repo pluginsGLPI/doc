@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# 조성현 (jaymz9634) <jaymz9634@gmail.com>, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,7 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-14 15:17+0200\n"
 "PO-Revision-Date: 2020-01-24 13:02+0000\n"
-"Language-Team: Korean (Korea) (https://www.transifex.com/teclib/teams/28042/ko_KR/)\n"
+"Last-Translator: 조성현 (jaymz9634) <jaymz9634@gmail.com>, 2022\n"
+"Language-Team: Korean (Korea) (https://app.transifex.com/teclib/teams/28042/ko_KR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,55 +23,55 @@ msgstr ""
 
 #: ../../source/sccm/index.rst:2
 msgid "SCCM"
-msgstr ""
+msgstr "SCCM"
 
 #: ../../source/sccm/index.rst:4
 msgid "Sources link: https://github.com/pluginsGLPI/sccm"
-msgstr ""
+msgstr "원본 링크: https://github.com/pluginsGLPI/sccm"
 
 #: ../../source/sccm/index.rst:5
 msgid "Download: https://github.com/pluginsGLPI/news/sccm"
-msgstr ""
+msgstr "다운로드: https://github.com/pluginsGLPI/news/sccm"
 
 #: ../../source/sccm/index.rst:8
 msgid "Requirements for latest version"
-msgstr ""
+msgstr "최신판에 대한 요구사항"
 
 #: ../../source/sccm/index.rst:10
 msgid "This plugin requires :"
-msgstr ""
+msgstr "이 플러그인 요구사항 :"
 
 #: ../../source/sccm/index.rst:12
 msgid "PHP 7.2 or higher"
-msgstr ""
+msgstr "PHP 7.2 이상"
 
 #: ../../source/sccm/index.rst:13
 msgid "GLPI >= 9.4"
-msgstr ""
+msgstr "GLPI >= 9.4"
 
 #: ../../source/sccm/index.rst:14
 msgid "FusionInventory plugin for GLPI"
-msgstr ""
+msgstr "GLPI 용 FusionInventory 플러그인"
 
 #: ../../source/sccm/index.rst:15
 msgid "SCCM >= 1802"
-msgstr ""
+msgstr "SCCM >= 1802"
 
 #: ../../source/sccm/index.rst:16
 msgid "PHP curl_init and sqlsrv_connect"
-msgstr ""
+msgstr "PHP curl_init 과 sqlsrv_connect"
 
 #: ../../source/sccm/index.rst:17
 msgid "Microsoft System Center Configuration Manager"
-msgstr ""
+msgstr "마이크로소프트 시스템 센터 조절 관리자"
 
 #: ../../source/sccm/index.rst:18
 msgid "Microsoft Drivers for PHP for Microsoft SQL Server"
-msgstr ""
+msgstr "마이크로소프트 SQL 서버용 PHP 마이크로소프트 드라이버"
 
 #: ../../source/sccm/index.rst:22
 msgid "Features"
-msgstr ""
+msgstr "기능"
 
 #: ../../source/sccm/index.rst:24
 msgid ""
@@ -107,7 +111,7 @@ msgstr ""
 
 #: ../../source/sccm/index.rst:43
 msgid "Collected data"
-msgstr ""
+msgstr "수집된 자료"
 
 #: ../../source/sccm/index.rst:45
 msgid ""
@@ -119,51 +123,51 @@ msgstr ""
 msgid ""
 "Computer: name, last connected user, UUID, user login, domain, comments, "
 "serial"
-msgstr ""
+msgstr "컴퓨터: 이름, 최근 접속 사용자, UUID, 사용자 로그인, 도메인, 댓글, 시리얼"
 
 #: ../../source/sccm/index.rst:48
 msgid "Operating system: name, architecture, version, service pack"
-msgstr ""
+msgstr "구동 시스템: 이름, 아키텍처, 버전, 서비스 팩"
 
 #: ../../source/sccm/index.rst:49
 msgid ""
 "BIOS information: tag, model, type, manufacturer, serial, install date, "
 "version"
-msgstr ""
+msgstr "BIOS 정보: 태그, 모델, 유형, 제조사, 시리얼, 설치 일자, 버전"
 
 #: ../../source/sccm/index.rst:50
 msgid ""
 "CPU: description (or name), manufacturer, frequency, type (arch), nb core, "
 "nb threads"
-msgstr ""
+msgstr "CPU: 상세 (또는 이름), 제조사, 클럭속도, 유형 (아키텍처), 노스브릿지 코어, 노스브릿지 스레드"
 
 #: ../../source/sccm/index.rst:51
 msgid "Softwares: name, version, editor, install date"
-msgstr ""
+msgstr "소프트웨어: 이름, 버전, 편집자, 설치 일자"
 
 #: ../../source/sccm/index.rst:52
 msgid "Memory (RAM): capacity, decription, frequency, type, bus, serial"
-msgstr ""
+msgstr "메모리 (RAM): 용량, 상세, 클럭속도, 유형, 버스, 시리얼"
 
 #: ../../source/sccm/index.rst:53
 msgid "Graphical card: name, chipset, memory"
-msgstr ""
+msgstr "그래픽 카드: 이름, 칩셋, 메모리"
 
 #: ../../source/sccm/index.rst:54
 msgid "Sound card: name, manufacturer"
-msgstr ""
+msgstr "사운드 카드: 이름, 제조사"
 
 #: ../../source/sccm/index.rst:55
 msgid "Network card: name, MAC address, IP address (v4, v6)"
-msgstr ""
+msgstr "네트워크 카드: 이름, MAC 주소, IP 주소 (v4, v6)"
 
 #: ../../source/sccm/index.rst:56
 msgid "Disk part: name, mount type, total size"
-msgstr ""
+msgstr "디스크 부품: 이름, 마운트 유형, 총 크기"
 
 #: ../../source/sccm/index.rst:60
 msgid "Automatic actions"
-msgstr ""
+msgstr "자동 수행"
 
 #: ../../source/sccm/index.rst:66
 msgid "SCCMCollect"
@@ -183,4 +187,4 @@ msgstr ""
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"

@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Tiago Graça, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,12 +13,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-14 15:17+0200\n"
 "PO-Revision-Date: 2017-02-09 07:26+0000\n"
-"Language-Team: French (France) (https://www.transifex.com/teclib/teams/28042/fr_FR/)\n"
+"Last-Translator: Tiago Graça, 2022\n"
+"Language-Team: French (France) (https://app.transifex.com/teclib/teams/28042/fr_FR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_FR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/formcreator/targets.rst:2
 msgid "Targets"
@@ -248,7 +252,7 @@ msgstr ""
 
 #: ../../source/formcreator/targets.rst:90
 msgid "Category"
-msgstr ""
+msgstr "Catégorie"
 
 #: ../../source/formcreator/targets.rst:92
 msgid "Sets the category of the generated ticket"
@@ -279,7 +283,7 @@ msgstr ""
 
 #: ../../source/formcreator/targets.rst:100
 msgid "Urgency"
-msgstr ""
+msgstr "Urgence"
 
 #: ../../source/formcreator/targets.rst:102
 msgid ""

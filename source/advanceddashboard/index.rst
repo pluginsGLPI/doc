@@ -17,9 +17,6 @@ Setup the plugin
 
 .. warning::
 
-    SQL knowledge
-    ~~~~~~~~~~~~~
-
     This plugin requires **a minimum knowledge of SQL** in order to be able to set certain criteria for the various queries that will appear in the dashboards. It is also recommended that you **know the structure of GLPI tables**.
 
 Create an SQL query

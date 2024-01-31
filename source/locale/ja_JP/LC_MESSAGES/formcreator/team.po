@@ -1,0 +1,314 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2024, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-26 16:17+0100\n"
+"PO-Revision-Date: 2016-12-20 09:45+0000\n"
+"Language-Team: Japanese (Japan) (https://app.transifex.com/teclib/teams/28042/ja_JP/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../source/formcreator/team.rst:2
+msgid "Team"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:5
+msgid "Developers"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:7
+msgid "`Jérémy MOREAU <https://github.com/neeftarah>`_,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:8
+msgid "`Alexandre Delaunay <https://github.com/orthagh>`_,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:9
+msgid "`François Legastelois <https://github.com/flegastelois>`_,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:10
+msgid "`Thierry Bugier <https://github.com/btry>`_"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:13
+msgid "Testers"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:15
+msgid "`Manu1400 <https://github.com/Manu1400>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:16
+msgid "`dgsn <http://github.com/dgsn>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:17
+msgid "`Max6Devil <http://github.com/Max6Devil>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:18
+msgid "`Kahalisto <http://github.com/Kahalisto>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:19
+msgid "`satyan01 <http://github.com/satyan01>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:20
+msgid "`biet-j <http://github.com/biet-j>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:21
+msgid "`reg25 <http://github.com/reg25>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:22
+msgid "`Gilmor49 <http://github.com/Gilmor49>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:23
+msgid "`nblaisonneau <http://github.com/nblaisonneau>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:24
+msgid "`CHCI74 <http://github.com/CHCI74>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:25
+msgid "`salgueirosa <http://github.com/salgueirosa>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:26
+msgid "`jotafe <http://github.com/jotafe>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:27
+msgid "`Ruiseart <http://github.com/Ruiseart>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:28
+msgid "`babalou <http://github.com/babalou>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:29
+msgid "`blienard <http://github.com/blienard>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:30
+msgid "`proprux <http://github.com/proprux>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:31
+msgid "`ThedarksideoftheForce <http://github.com/ThedarksideoftheForce>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:32
+msgid "`AdAugustaPerAngusta <http://github.com/AdAugustaPerAngusta>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:33
+msgid "`MaxG89 <http://github.com/MaxG89>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:34
+msgid "`klodnitsky <http://github.com/klodnitsky>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:35
+msgid "`consolko <http://github.com/consolko>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:36
+msgid "`Boris31 <http://github.com/Boris31>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:37
+msgid "`fire2418 <http://github.com/fire2418>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:38
+msgid "`osfrance <http://github.com/osfrance>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:39
+msgid "`kaioisdead <http://github.com/kaioisdead>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:40
+msgid "`KevinSupertramp <http://github.com/KevinSupertramp>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:41
+msgid "`matth974 <http://github.com/matth974>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:42
+msgid "`J-n-s <http://github.com/J-n-s>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:43
+msgid "`wawax <http://github.com/wawax>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:44
+msgid "`Sismic <http://github.com/Sismic>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:45
+msgid "`nicholaseduardo <http://github.com/nicholaseduardo>`__"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:46
+msgid "and much more..."
+msgstr ""
+
+#: ../../source/formcreator/team.rst:49
+msgid "Translators"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:52
+msgid "French (France)"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:54 ../../source/formcreator/team.rst:69
+msgid "`Jérémy MOREAU <https://www.transifex.com/user/profile/neeftarah/>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:55
+msgid ""
+"`Alexandre DELAUNAY <https://www.transifex.com/user/profile/orthagh/>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:56
+msgid "`Walid Nouh <https://www.transifex.com/user/profile/wawa/>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:57
+msgid ""
+"`Thierry Bugier Pineau <https://www.transifex.com/user/profile/btry/>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:58
+msgid ""
+"`Benoit Le Rohellec "
+"<https://www.transifex.com/user/profile/blerohellec/>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:59
+msgid "`Emmanuel Haguet <https://www.transifex.com/user/profile/Manu1400/>`__"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:62
+msgid "Turkish (Turkey)"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:64
+msgid "`Kaya Zeren <https://www.transifex.com/user/profile/kayazeren/>`__"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:67
+msgid "English (United Kingdom)"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:70 ../../source/formcreator/team.rst:85
+msgid ""
+"`Andrejs Klodnickis <https://www.transifex.com/user/profile/klodnitsky/>`__"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:73
+msgid "Polish (Poland)"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:75
+msgid "`Sismic <https://www.transifex.com/user/profile/Sismic/>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:76
+msgid ""
+"`Ryszard Jeziorski <https://www.transifex.com/user/profile/Ruiseart/>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:77
+msgid "`awiamo <https://www.transifex.com/user/profile/awiamo/>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:78
+msgid "`Grzegorz Kaniewski <https://www.transifex.com/user/profile/kania/>`__"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:81
+msgid "Russian (Russia)"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:83
+msgid "`Alexey Petukhov <https://www.transifex.com/user/profile/lexx015/>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:84
+msgid "`Igor Nikitin <https://www.transifex.com/user/profile/enable/>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:88
+msgid "Portuguese (Brazil)"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:90
+msgid ""
+"`Pedro de Oliveira Lira <https://www.transifex.com/user/profile/liraop/>`__,"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:91
+msgid "`Rafael Viana <https://www.transifex.com/user/profile/rafaelvian/>`__"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:94
+msgid "Hungarian (Hungary)"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:96
+msgid ""
+"`Laszlo Czirbesz] <https://www.transifex.com/user/profile/lczirbesz/>`__"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:99
+msgid "Spanish (Argentina)"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:101
+msgid "`Luis A. Uriarte <https://www.transifex.com/user/profile/pastotdf/>`__"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:104
+msgid "Romanian (Romania)"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:106
+msgid "`Doru DEACONU <https://www.transifex.com/user/profile/ddeacon/>`__"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:109
+msgid "Czech (Czech Republic)"
+msgstr ""
+
+#: ../../source/formcreator/team.rst:111
+msgid "`David Stepan <https://www.transifex.com/user/profile/stepand1/>`__"
+msgstr ""
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr ""
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
+msgstr ""
