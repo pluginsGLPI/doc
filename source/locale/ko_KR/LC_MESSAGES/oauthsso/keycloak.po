@@ -1,0 +1,224 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2024, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-31 14:11+0100\n"
+"PO-Revision-Date: 2024-01-31 13:12+0000\n"
+"Language-Team: Korean (Korea) (https://app.transifex.com/teclib/teams/28042/ko_KR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko_KR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../source/oauthsso/keycloak.rst:2
+msgid "Keycloak"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:5
+msgid "Create a REALM"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:7
+msgid "After installing keycloak, go to the admin console:"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:9
+msgid "http://XXXXXXXXXX:8080/admin or https://XXXXXXXXXX:8080/admin"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:11
+msgid ""
+"Create your **realm** by clicking on **master** at the top left of your "
+"screen"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:12
+msgid "Then **create Realm**"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:13
+msgid "Give it a name that suits you"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:14
+msgid "Click on **Create**"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:20
+msgid "Create user"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:22
+msgid "Then go to the **Users** tab"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:23
+msgid ""
+"Then **Create new user** (we’ll use a local user, but you can synchronize "
+"your LDAP if necessary)"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:28
+msgid ""
+"Create your user according to your needs, remembering to check the Email "
+"verified box"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:29
+msgid "Click on **Create** once you’ve entered your details."
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:34
+msgid "Stay in your user file and click on **Credentials**"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:35
+msgid "Then **Set pasword**"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:40
+msgid ""
+"Configure the user password, taking care to indicate that the password is "
+"not temporary"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:41
+msgid "Click on save then **Save password**"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:46
+msgid ""
+"You can check that your configuration is correct by logging on to the user "
+"account console:"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:48
+msgid ""
+"http://XXXXXXXXXXX/realms/GLPI/account/#/ or "
+"https://XXXXXXXXXXX/realms/GLPI/account/#/"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:51
+msgid "(Remember to adapt the realm name if you haven’t named it GLPI)."
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:53
+msgid ""
+"You will then be able to connect to the record of the previously created "
+"user or one of your LDAP users."
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:56 ../../source/oauthsso/keycloak.rst:61
+msgid "Create client"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:58
+msgid "Now we can register our GLPI application with Keycloak"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:60
+msgid "Go to **Clients**"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:66
+msgid ""
+"Give your application a client ID, which you’ll need to pass on to your GLPI"
+" Oauth SSO configuration"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:67
+msgid ""
+"Click on next and make sure on the next page that the **standard flow** and "
+"**client authentication** options are active"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:68
+msgid "Click on **Save**"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:70
+msgid "Keep this page active, we’ll come back to it later."
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:76
+msgid "Setup GLPI"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:78
+msgid "Go to GLPI"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:79
+msgid ""
+"In **Setup > Oauth SSO applications click on add** (at the top of your "
+"screen)"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:84
+msgid ""
+"Start by retrieving the return URL and pasting it into Keycloak’s **valid "
+"redirect URIs** field"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:89
+msgid ""
+"Back in GLPI’s Oauth SSO plugin configuration, fill in the required fields:"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:94
+msgid ""
+"Give your provider a name, which will appear on the login page for users"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:96
+msgid ""
+"Activate this plugin so that it is visible and usable on the login page"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:98
+msgid "Choose Keycloak as your Oauth provider"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:100
+msgid "Enter the client name set above"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:102
+msgid ""
+"Retrieve client secret from Keycloak (client, client_name, credentials)"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:107
+msgid ""
+"Enter the discovery URL: http://mondomaine/realms/monrealms/.well-"
+"known/openid-configuration."
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:109
+msgid "Click on **Add**"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:111
+msgid "In the plugin, to see the approval message:"
+msgstr ""
+
+#: ../../source/oauthsso/keycloak.rst:116
+msgid ""
+"Now that configuration is complete, you can test the connection with the "
+"user you created earlier, or with your LDAP user."
+msgstr ""
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr ""
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
+msgstr ""

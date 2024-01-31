@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2024, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-31 14:11+0100\n"
+"PO-Revision-Date: 2024-01-31 13:12+0000\n"
+"Language-Team: Spanish (Colombia) (https://app.transifex.com/teclib/teams/28042/es_CO/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_CO\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../source/oauthsso/source.rst:2
+msgid "Sources link"
+msgstr ""
+
+#: ../../source/oauthsso/source.rst:4
+msgid ""
+"`Documentation Oauth SSO client for GLPI <https://services.glpi-"
+"network.com/documentation/1731/file/README.md>`__"
+msgstr ""
+
+#: ../../source/oauthsso/source.rst:5
+msgid ""
+"`Documentation Microsoft Configure your App Service Or Entra Functions app "
+"to use Entra AD login <https://learn.microsoft.com/en-us/azure/app-"
+"service/configure-authentication-provider-aad?tabs=workforce-tenant>`__"
+msgstr ""
+
+#: ../../source/oauthsso/source.rst:6
+msgid ""
+"`Documentation OKTA Configure single Sign-On options "
+"<https://help.okta.com/oie/en-"
+"us/content/topics/apps/apps_overview_of_managing_apps_and_sso.htm>`__"
+msgstr ""
+
+#: ../../source/oauthsso/source.rst:7
+msgid ""
+"`Documentation Keycloak Managing OpenID connect Clients "
+"<https://www.keycloak.org/docs/latest/server_admin/#_oidc_clients>`__"
+msgstr ""
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr ""
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
+msgstr ""

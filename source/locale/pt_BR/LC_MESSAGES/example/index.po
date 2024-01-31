@@ -1,26 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016, Teclib'
+# Copyright (C) 2016-2024, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Arthur Ramos Schaefer <arthur.r.schaefer@gmail.com>, 2017
+# Arthur Schaefer <arthur.r.schaefer@gmail.com>, 2017
 # Eduardo Spinola <eduardo.spinola@gmail.com>, 2017
+# Eduardo Scott <edu.scott01@gmail.com>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPI plugins 0.1\n"
+"Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-14 15:17+0200\n"
+"POT-Creation-Date: 2024-01-31 14:11+0100\n"
 "PO-Revision-Date: 2016-10-25 19:22+0000\n"
-"Last-Translator: Eduardo Spinola <eduardo.spinola@gmail.com>, 2017\n"
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/teclib/teams/28042/pt_BR/)\n"
+"Last-Translator: Eduardo Scott <edu.scott01@gmail.com>, 2024\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/teclib/teams/28042/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt_BR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/example/index.rst:2
 msgid "Example"
@@ -59,3 +60,7 @@ msgstr ""
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
+msgstr "Licença Creative Commons"

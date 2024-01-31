@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2024, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-31 14:11+0100\n"
+"PO-Revision-Date: 2024-01-31 13:12+0000\n"
+"Language-Team: Czech (Czech Republic) (https://app.transifex.com/teclib/teams/28042/cs_CZ/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+
+#: ../../source/oauthsso/okta.rst:2
+msgid "OKTA"
+msgstr ""
+
+#: ../../source/oauthsso/okta.rst:5
+msgid "Create application"
+msgstr ""
+
+#: ../../source/oauthsso/okta.rst:7
+msgid "First, go to GLPI and download the Oauthsso plugin"
+msgstr ""
+
+#: ../../source/oauthsso/okta.rst:8
+msgid "Navigate to the **Setup > Oauth SSO applications**"
+msgstr ""
+
+#: ../../source/oauthsso/okta.rst:9 ../../source/oauthsso/okta.rst:78
+msgid "Click on **Add**"
+msgstr ""
+
+#: ../../source/oauthsso/okta.rst:14
+msgid "Keep this window active and retain the callback URL :"
+msgstr ""
+
+#: ../../source/oauthsso/okta.rst:19
+msgid "In your OKTA interface, go to **Applications**"
+msgstr ""
+
+#: ../../source/oauthsso/okta.rst:20
+msgid "**Create App Integration**"
+msgstr ""
+
+#: ../../source/oauthsso/okta.rst:25
+msgid ""
+"Select option **OIDC – OpenID Connect** in the 1st insert and **Web "
+"Application** in the second"
+msgstr ""
+
+#: ../../source/oauthsso/okta.rst:26
+msgid "Click on **Next**"
+msgstr ""
+
+#: ../../source/oauthsso/okta.rst:31
+msgid "Enter an application name and check the box **Client credentials**"
+msgstr ""
+
+#: ../../source/oauthsso/okta.rst:36
+msgid "Enter the return URL, retrieved above, in Sign-in redirect URIs."
+msgstr ""
+
+#: ../../source/oauthsso/okta.rst:42
+msgid "Assignments"
+msgstr ""
+
+#: ../../source/oauthsso/okta.rst:44
+msgid ""
+"In the last box, select the option that suits you best (here we authorize "
+"all users present in OKTA)"
+msgstr ""
+
+#: ../../source/oauthsso/okta.rst:45
+msgid "Finally, click on **Save**"
+msgstr ""
+
+#: ../../source/oauthsso/okta.rst:51
+msgid "Setup GLPI"
+msgstr ""
+
+#: ../../source/oauthsso/okta.rst:53
+msgid ""
+"In GLPI, go back to the Oauth SSO plugin configuration window and enter your"
+" OKTA tenant information :"
+msgstr ""
+
+#: ../../source/oauthsso/okta.rst:58
+msgid "Give your provider a name, which will appear on the login page."
+msgstr ""
+
+#: ../../source/oauthsso/okta.rst:60
+msgid "Indicate this as active"
+msgstr ""
+
+#: ../../source/oauthsso/okta.rst:62
+msgid "Enter OKTA as provider Oauth"
+msgstr ""
+
+#: ../../source/oauthsso/okta.rst:64
+msgid ""
+"Enter the application ID found in the application previously created in OKTA"
+msgstr ""
+
+#: ../../source/oauthsso/okta.rst:69
+msgid "Specify the ID field to be mapped with OKTA"
+msgstr ""
+
+#: ../../source/oauthsso/okta.rst:71
+msgid ""
+"Specify the customer secret available in OKTA in the previously created "
+"application"
+msgstr ""
+
+#: ../../source/oauthsso/okta.rst:76
+msgid ""
+"Enter the name of your OKTA instance (https://XXXXXXXXX.okta.com), available"
+" in the account creation confirmation e-mail."
+msgstr ""
+
+#: ../../source/oauthsso/okta.rst:79
+msgid "In the plugin, you will see the approval message:"
+msgstr ""
+
+#: ../../source/oauthsso/okta.rst:84
+msgid "Now that the configuration is complete, you can test it with a user."
+msgstr ""
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr ""
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
+msgstr ""
