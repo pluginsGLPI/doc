@@ -114,7 +114,7 @@ For each column, you can choose
 -  **Do not retrieve data from this column** (leave the **choose a table** option)
 -  **Choose a table**: the data type defined in step 2 or the financial information
 -  **Choose a field**: which will be populated by the import
--  **Link field**: to indicate that this column will be used to check the existence of the data in the database and to choose between creating a new object orupdate. Candidate fields are, for example, the
+-  **Link field**: to indicate that this column will be used to check the existence of the data in the database and to choose between creating a new object or update. Candidate fields are, for example, the
    **Serial number**, the **Name** or the **Inventory number**
 
 .. Warning::
