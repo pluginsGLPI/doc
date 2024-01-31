@@ -49,107 +49,107 @@ Each profile has an element assigned to it. You will need to define the value of
 
 Email
 ~~~~~
-
-- `users_id`
-- `is_default`
-- `email`
+.. collapse:: List of data
+   - `users_id`
+   - `is_default`
+   - `email`
 
 Entity
 ~~~~~~
-
-- `name`
-- `entities_id`
-- `comment`
-- `level`
-- `sons_cache`
-- `ancestors_cache`
-- `address`
-- `postcode`
-- `town`
-- `state`
-- `country`
-- `website`
-- `phonenumber`
-- `fax`
-- `email`
-- `admin_email`
-- `admin_email_name`
-- `from_email`
-- `from_email_name`
-- `noreply_email`
-- `noreply_email_name`
-- `replyto_email`
-- `replyto_email_name`
-- `notification_subject_tag`
-- `ldap_dn`
-- `tag`
-- `authldaps_id`
-- `mail_domain`
-- `entity_ldapfilter`
-- `mailing_signature`
-- `cartridges_alert_repeat`
-- `consumables_alert_repeat`
-- `use_licenses_alert`
-- `send_licenses_alert_before_delay`
-- `use_certificates_alert`
-- `send_certificates_alert_before_delay`
-- `certificates_alert_repeat_interval`
-- `use_contracts_alert`
-- `send_contracts_alert_before_delay`
-- `use_infocoms_alert`
-- `send_infocoms_alert_before_delay`
-- `use_reservations_alert`
-- `use_domains_alert`
-- `send_domains_alert_close_expiries_delay`
-- `send_domains_alert_expired_delay`
-- `autoclose_delay`
-- `autopurge_delay`
-- `notclosed_delay`
-- `calendars_strategy`
-- `calendars_id`
-- `auto_assign_mode`
-- `tickettype`
-- `max_closedate`
-- `inquest_config`
-- `inquest_rate`
-- `inquest_delay`
-- `inquest_URL`
-- `autofill_warranty_date`
-- `autofill_use_date`
-- `autofill_buy_date`
-- `autofill_delivery_date`
-- `autofill_order_date`
-- `tickettemplates_strategy`
-- `tickettemplates_id`
-- `changetemplates_strategy`
-- `changetemplates_id`
-- `problemtemplates_strategy`
-- `problemtemplates_id`
-- `entities_strategy_software`
-- `entities_id_software`
-- `default_contract_alert`
-- `default_infocom_alert`
-- `default_cartridges_alarm_threshold`
-- `default_consumables_alarm_threshold`
-- `delay_send_emails`
-- `is_notif_enable_default`
-- `inquest_duration`
-- `date_mod`
-- `date_creation`
-- `autofill_decommission_date`
-- `suppliers_as_private`
-- `anonymize_support_agents`
-- `display_users_initials`
-- `contracts_strategy_default`
-- `contracts_id_default`
-- `enable_custom_css`
-- `custom_css_code`
-- `latitude`
-- `longitude`
-- `altitude`
-- `transfers_strategy`
-- `transfers_id`
-- `agent_base_url`
+.. collapse:: List of data
+   - `name`
+   - `entities_id`
+   - `comment`
+   - `level`
+   - `sons_cache`
+   - `ancestors_cache`
+   - `address`
+   - `postcode`
+   - `town`
+   - `state`
+   - `country`
+   - `website`
+   - `phonenumber`
+   - `fax`
+   - `email`
+   - `admin_email`
+   - `admin_email_name`
+   - `from_email`
+   - `from_email_name`
+   - `noreply_email`
+   - `noreply_email_name`
+   - `replyto_email`
+   - `replyto_email_name`
+   - `notification_subject_tag`
+   - `ldap_dn`
+   - `tag`
+   - `authldaps_id`
+   - `mail_domain`
+   - `entity_ldapfilter`
+   - `mailing_signature`
+   - `cartridges_alert_repeat`
+   - `consumables_alert_repeat`
+   - `use_licenses_alert`
+   - `send_licenses_alert_before_delay`
+   - `use_certificates_alert`
+   - `send_certificates_alert_before_delay`
+   - `certificates_alert_repeat_interval`
+   - `use_contracts_alert`
+   - `send_contracts_alert_before_delay`
+   - `use_infocoms_alert`
+   - `send_infocoms_alert_before_delay`
+   - `use_reservations_alert`
+   - `use_domains_alert`
+   - `send_domains_alert_close_expiries_delay`
+   - `send_domains_alert_expired_delay`
+   - `autoclose_delay`
+   - `autopurge_delay`
+   - `notclosed_delay`
+   - `calendars_strategy`
+   - `calendars_id`
+   - `auto_assign_mode`
+   - `tickettype`
+   - `max_closedate`
+   - `inquest_config`
+   - `inquest_rate`
+   - `inquest_delay`
+   - `inquest_URL`
+   - `autofill_warranty_date`
+   - `autofill_use_date`
+   - `autofill_buy_date`
+   - `autofill_delivery_date`
+   - `autofill_order_date`
+   - `tickettemplates_strategy`
+   - `tickettemplates_id`
+   - `changetemplates_strategy`
+   - `changetemplates_id`
+   - `problemtemplates_strategy`
+   - `problemtemplates_id`
+   - `entities_strategy_software`
+   - `entities_id_software`
+   - `default_contract_alert`
+   - `default_infocom_alert`
+   - `default_cartridges_alarm_threshold`
+   - `default_consumables_alarm_threshold`
+   - `delay_send_emails`
+   - `is_notif_enable_default`
+   - `inquest_duration`
+   - `date_mod`
+   - `date_creation`
+   - `autofill_decommission_date`
+   - `suppliers_as_private`
+   - `anonymize_support_agents`
+   - `display_users_initials`
+   - `contracts_strategy_default`
+   - `contracts_id_default`
+   - `enable_custom_css`
+   - `custom_css_code`
+   - `latitude`
+   - `longitude`
+   - `altitude`
+   - `transfers_strategy`
+   - `transfers_id`
+   - `agent_base_url`
 
 Computer
 ~~~~~~~~
