@@ -77,17 +77,17 @@ Defining the model
 
 This step allows you to define the main options for the extension:
 
--  **Name**: specify the name that will be visible from the drop-down list
--  **Visibility**: define whether it will be visible to other users or not
+-  **Name**: the name that will be visible from the drop-down list
+-  **Visibility**: defines whether it will be visible to other users or not
 -  **Entity** and **sub-entity**: the template can be visible in the creation entity only (sub-entity set to no) or in the entity and all sub-entity (sub-entity set to yes).
--  **Comment**: Enter a comment for the template.
--  **Type of data to import**: This is the type of data present in the file to be imported. A file only consists of data of the same type.
--  **Allow lines creation**: tells the extension to create objects if the line does not correspond to an existing element in the database.
--  **Allow update rows**: tells the extension to modify existing objects using the data in the file.
--  **Header’s presence**: tells the extension whether the headings present in the file (location, type of equipment, models, etc.) should be created. Creation will also be limited by the rights of the template user.
--  **Update existing fields**: tells the extension whether the data in the file can replace fields already filled in.
--  **Date format**: indicates which date format is contained in the CSV file. If the format is incorrect, the date cannot be imported.
--  **Decimal number format**: indicates the format used for the numbers in the CSV file. If the format is incorrect, the numbers cannot be imported.
+-  **Comment**: a comment for the template.
+-  **Type of data to import**: the type of data present in the file to be imported. A file only consists of data of the same type.
+-  **Allow lines creation**: tells the plugin to create objects if the line does not correspond to an existing element in the database.
+-  **Allow update rows**: tells the plugin to modify existing objects using the data in the file.
+-  **Header’s presence**: tells the plugin whether the headings present in the file (location, type of equipment, models, etc.) should be created. Creation will also be limited by the rights of the template user.
+-  **Update existing fields**: the extension whether the data in the file can replace fields already filled in.
+-  **Date format**: the date format is contained in the CSV file. If the format is incorrect, the date cannot be imported.
+-  **Decimal number format**: the format used for the numbers in the CSV file. If the format is incorrect, the numbers cannot be imported.
 
 **After validation of the model**, the following fields are added:
 
