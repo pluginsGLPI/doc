@@ -509,7 +509,7 @@ Certificates
 Clusters
 ~~~~~~~~
 
-.. collapse:: Certificates fields
+.. collapse:: Clusters fields
 
     - `entities_id`
     - `name`
