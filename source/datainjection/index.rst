@@ -21,7 +21,7 @@ Plugin installation
 -------------------
 
 .. Note::
-   This plugin is available without a GLPI-Network subscription. It is also available in Cloud.
+   This plugin is available without a GLPI-Network subscription. It is also available in `Cloud <https://glpi-network.cloud/>`__
 
 -  Go to the marketplace. Download and install the plugin **Data Injection**
 
