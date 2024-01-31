@@ -182,58 +182,58 @@ Computer
 
 User
 ~~~~
-
-- `name`
-- `password`
-- `password_last_update`
-- `phone`
-- `phone2`
-- `mobile`
-- `realname`
-- `firstname`
-- `locations_id`
-- `language`
-- `use_mode`
-- `is_active`
-- `comment`
-- `auths_id`
-- `authtype`
-- `last_login`
-- `date_mod`
-- `date_sync`
-- `profiles_id`
-- `entities_id`
-- `usertitles_id`
-- `usercategories_id`
-- `password_forget_token`
-- `password_forget_token_date`
-- `user_dn`
-- `personal_token`
-- `personal_token_date`
-- `api_token`
-- `api_token_date`
-- `cookie_token`
-- `cookie_token_date`
-- `isd_ldap`
-- `picture`
-- `begin_date`
-- `end_date`
-- `page_layout`
-- `fold_menu`
-- `fold_search`
-- `savedsearches_pinned`
-- `timeline_order`
-- `itil_layout`
-- `richtext_layout`
-- `date_creation`
-- `groups_id`
-- `users_id_supervisor`
-- `timezone`
-- `default_central_tab`
-- `nickname`
-- `timeline_action_btn_layout`
-- `timeline_date_format`
-- `use_flat_dropdowntree_on_search_result`
+.. collapse:: List of data
+   - `name`
+   - `password`
+   - `password_last_update`
+   - `phone`
+   - `phone2`
+   - `mobile`
+   - `realname`
+   - `firstname`
+   - `locations_id`
+   - `language`
+   - `use_mode`
+   - `is_active`
+   - `comment`
+   - `auths_id`
+   - `authtype`
+   - `last_login`
+   - `date_mod`
+   - `date_sync`
+   - `profiles_id`
+   - `entities_id`
+   - `usertitles_id`
+   - `usercategories_id`
+   - `password_forget_token`
+   - `password_forget_token_date`
+   - `user_dn`
+   - `personal_token`
+   - `personal_token_date`
+   - `api_token`
+   - `api_token_date`
+   - `cookie_token`
+   - `cookie_token_date`
+   - `isd_ldap`
+   - `picture`
+   - `begin_date`
+   - `end_date`
+   - `page_layout`
+   - `fold_menu`
+   - `fold_search`
+   - `savedsearches_pinned`
+   - `timeline_order`
+   - `itil_layout`
+   - `richtext_layout`
+   - `date_creation`
+   - `groups_id`
+   - `users_id_supervisor`
+   - `timezone`
+   - `default_central_tab`
+   - `nickname`
+   - `timeline_action_btn_layout`
+   - `timeline_date_format`
+   - `use_flat_dropdowntree_on_search_result`
 
 Application strategy
 --------------------
