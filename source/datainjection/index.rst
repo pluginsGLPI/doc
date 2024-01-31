@@ -98,8 +98,7 @@ File to be injected
 ^^^^^^^^^^^^^^^^^^^
 
 -  From the **File to inject** tab, you need to choose a file on your computer with exactly the same structure as the data already imported.
--  Then define the **encoding** (ISO8859-1 for Windows files, UTF-8 for Linux files. Automatic detection can be used to determine the encoding, but willslows down file processing.We
-   strongly recommend that you always work in UTF-8.)
+-  Then define the **encoding** (ISO8859-1 for Windows files, UTF-8 for Linux files. Automatic detection can be used to determine the encoding, but will slow down file processing. We strongly recommend that you always work in UTF-8.)
 
 Once the file has been validated, you will be taken to the **Mappings** tab
 
