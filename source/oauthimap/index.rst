@@ -38,9 +38,6 @@ OAuth IMAP support :
 Install the plugin
 ------------------
 
-.. note::
-   This plugin does not require a GLPI-Network subscription. It is also available in Cloud.
-
 -  Go to the marketplace. Download Oauth IMAP and enable it
 
 .. figure:: images/oauth-imap-1.png
