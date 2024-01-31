@@ -64,7 +64,7 @@ ID settings
 .. note::
    Where can I find my callback URL?
 
-   .. figure:: Pics/oauth-Entra-8.gif
+   .. figure:: images/oauth-sso-google-8.gif
       :alt:
 
 -  Click on **Create**
