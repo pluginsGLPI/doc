@@ -1,0 +1,298 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2024, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-01 14:27+0100\n"
+"PO-Revision-Date: 2024-02-01 06:43+0000\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/teclib/teams/28042/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../source/moresatisfaction/index.rst:2
+msgid "More satisfaction"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:5
+msgid "Requirements (on-premise)"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:8
+msgid "GLPI Version"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:8
+msgid "Minimum PHP"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:8
+msgid "Recommended"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:10
+msgid "10.0.x"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:10
+msgid "8.1"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:10
+msgid "8.2"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:15
+msgid ""
+"A `basic licence <https://services.glpi-network.com/#offers>`__ (or higher) "
+"is required. This plugin is also available on `Cloud <https://glpi-"
+"network.cloud/fr/>`__."
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:18
+msgid "Install the plugin"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:20
+msgid ""
+"Go to the marketplace. Download and install the plugin **More satisfaction**"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:26
+msgid "Create a survey"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:28
+msgid "Once installed, go to **Administration > Satisfaction survey**"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:29
+msgid "Click on **Add**"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:30
+msgid "Name your survey and set it as active"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:31
+msgid ""
+"Also remember to tick the sub-entity box if you want it to be available to "
+"all child entities"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:32
+msgid "Then click on **Add**"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:38
+msgid ""
+"It is only possible to create one survey per entity. If you wish to create "
+"several for different entities, remember to position yourself in the "
+"appropriate entity and do not tick the sub-entity box"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:44
+msgid "Create a question"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:46
+msgid "Enter your survey and go to the **Question** tab"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:47
+msgid "Click on Add a question"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:48
+msgid ""
+"Select the type of question **Yes/No** and enter the text that suits you"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:49
+msgid "Then click **Add**"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:55
+msgid "Create a text field"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:57
+#: ../../source/moresatisfaction/index.rst:67
+msgid "In the question tab, click on **Add a question**"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:58
+msgid "Select the **Text** type"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:59
+msgid "Enter the text to be displayed and click **Add**"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:65
+msgid "Create a note"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:68
+msgid "select the **Note** type"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:69
+msgid "You can select a score up to 10 and set a default value"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:70
+msgid "Click on \"Add\" when you are happy with your settings"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:76
+msgid "Preview"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:78
+msgid ""
+"The preview tab allows you to see what users will receive once their ticket "
+"has been closed"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:84
+msgid "Translation"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:86
+msgid ""
+"You can translate each of the questions asked in the questionnaire into the "
+"language of your choice"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:88
+msgid "Go to the **Translations** tab"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:89
+msgid ""
+"Choose the language you want and then, question by question, write the "
+"translation"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:95
+msgid "Schedule reminders"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:97
+msgid ""
+"In the event of a non-response to the survey, you can send out reminders to "
+"follow-up with the user. You can create your own reminder or select a "
+"predefined one"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:100
+msgid "Customised reminder"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:102
+#: ../../source/moresatisfaction/index.rst:116
+msgid "Go to the **Reminders** tab"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:103
+msgid "Click on **Add a reminder**."
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:108
+msgid "Enter a :"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:105
+msgid "**Name**"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:106
+msgid "**Type of duration (day or month)**"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:107
+msgid "The **duration** of the reminder"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:108
+msgid "**Activate** your reminder"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:114
+msgid "Predefined reminder"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:117
+msgid "Click on **Add a predefined reminder**"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:118
+msgid "You will have 3 options to choose from:"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:123
+msgid "1 week: reminder every 7 days,"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:124
+msgid "2 weeks: reminder every 14 days."
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:125
+msgid "1 month: monthly reminder."
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:127
+msgid "Select the option that suits you and click on **Add**"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:130
+msgid "Limit the number of reminders"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:132
+msgid ""
+"In the **Setup maximum number of days to send reminder** section, enter a "
+"limit for the **Maximum number of days to send a reminder**"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:134
+msgid ""
+"**Example** : If a person has not responded after 3 reminders, GLPI will no "
+"longer send reminders and the satisfaction survey will then remain "
+"unanswered"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:141
+msgid "Set up the automatic action"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:143
+msgid ""
+"Survey reminders are sent via an automatic action already created by the "
+"plugin. Make sure that this is activated and set up correctly"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:145
+msgid "Go to **Setup > Automatic actions**"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:146
+msgid "Select the **SatisfactionReminder** action."
+msgstr ""
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr ""
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
+msgstr ""
