@@ -24,10 +24,10 @@ You'll find here user documentation for various `GLPI <http://glpi-project.org>`
    :maxdepth: 2
    :caption: 🧩 GLPI Plugins
 
-   escalade/index
    centreon/index
    credit/index
    datainjection/index
+   escalade/index
    fields/index
    formcreator/index
    genericobject/index
@@ -47,14 +47,14 @@ You'll find here user documentation for various `GLPI <http://glpi-project.org>`
    advanceddashboard/index
    anonymize/index
    approbalbymail/index
-   oauthsso/index
    branding/index
    webhook/index
-   holidays/index
    GDPR/index
+   holidays/index
    ldaptools/index
-   renamestrings/index
    moresatisfaction/index
+   oauthsso/index
+   renamestrings/index
    scim/index
    splitcat/index
    translate/index
