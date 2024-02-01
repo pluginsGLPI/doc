@@ -137,8 +137,8 @@ Example :
 
    .. image:: images/filter_group.png
 
-   <br>
-   <br>
+
+
 
    * **Groupe 1** is configured to allow ticket escalation only to **Groupe 2**
 
