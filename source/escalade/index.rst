@@ -136,8 +136,9 @@ Example :
    * **Joe** user is **affected** to group **Groupe 1**
 
    .. image:: images/filter_group.png
-      <br>
-      <br>
+
+   <br>
+   <br>
 
    * **Groupe 1** is configured to allow ticket escalation only to **Groupe 2**
 
