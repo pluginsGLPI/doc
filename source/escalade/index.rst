@@ -52,6 +52,7 @@ Set plugin parameters
 | visually**                        | is set to* **yes**) Previous      |
 |                                   | groups will be visible when a new |
 |                                   | group is escalated                |
+|                                   |                                   |
 |                                   |.. figure:: images/Escalade-3.png  |
 +-----------------------------------+-----------------------------------+
 | **Assign ticket to initial group  | (*valid only if previous option   |
@@ -108,6 +109,7 @@ Set plugin parameters
 |                                   | to refine which                   |
 |                                   | user/group/supplier by            |
 |                                   | requestor/watcher/technician)     |
+|                                   |                                   |
 |                                   |.. figure:: images/Escalade-5.png  |
 +-----------------------------------+-----------------------------------+
 | **Activate filtering on           | Enables filtering and whether or  |
