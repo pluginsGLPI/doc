@@ -1,128 +1,164 @@
 Escalade
 ========
 
-* Sources link: https://github.com/pluginsGLPI/escalade
-* Download: https://github.com/pluginsGLPI/escalade/releases
+Requirements (on-premise)
+-------------------------
 
-Requirements for latest version
--------------------------------
+============ =========== ===========
+GLPI Version Minimum PHP Recommended
+============ =========== ===========
+10.0.x       8.1         8.2
+============ =========== ===========
 
-This plugin requires :
+.. Note::
+   This plugin is available without a GLPI-Network subscription. It is also available in `Cloud <https://glpi-network.cloud/>`__
 
-* PHP 7.2 or higher
-* GLPI >= 9.4
-
-
-Features
---------
-
-Escalade plugin aims to simplifier the ticket escalation process in GLPI.
-It also adds a graphical historical for assigned groups.
-
-Install the Plugin
+Install the plugin
 ------------------
-* Uncompress the archive.
-* Move the ``escalade`` directory to the ``<GLPI_ROOT>/plugins`` directory
-* Navigate to the *Configuration > Plugins* page,
-* Install and activate the plugin.
 
-Usage
------
+-  Go to the marketplace. Download and install the plugin **Escalade**.
 
-The plugin will create required tables in the database  automatically. Those tables will be updated along with the plugin.
+.. figure:: images/Escalade-1.png
+   :alt:
 
-Plugin usage is quite simple:
+Assign a ticket
+---------------
 
-* configure plugin
+.. Tip::
+   Escalade vs business rules We advise you **to use business rules** to allocate tickets or escalations. This allows you to manage
+   more flexibly when changing category, urgency, etc.
 
-You will access the plugin configuration from the *Setup* > *Plugins* > *Escalade*.
+.. Note::
+   **Escalade** allows tickets **to be escalated only to groups**, and not to live users.
 
-.. image:: images/configuration.png
+When the plugin is activated, a new option is available from the ticket interface :
 
-Configuration
--------------
+.. figure:: images/Escalade-2.png
+   :alt:
 
-* Remove old assign group on new group assign
+Set plugin parameters
+---------------------
 
-When this option is enabled, plugin remove old group when new group is assign to ticket
+-  From the plugin, click on the spanner and choose the various options that interest you:
 
-* Show group assign history visually
++-----------------------------------+-----------------------------------+
+| Action                            | Effect                            |
++===================================+===================================+
+| **Remove old assign group on new  | Deletes or not the existing       |
+| group assign**                    | groups when you assign a new one  |
+|                                   |                                   |
++-----------------------------------+-----------------------------------+
+| **show group assign history       | (*valid only if previous option   |
+| visually**                        | is set to* **yes**) Previous      |
+|                                   | groups will be visible when a new |
+|                                   | group is escalated                |
+|                                   |.. figure:: images/Escalade-3.png  |
++-----------------------------------+-----------------------------------+
+| **Assign ticket to initial group  | (*valid only if previous option   |
+| on solve ticket**                 | is set to* **yes**) Reassigns     |
+|                                   | ticket to initial group if a      |
+|                                   | group is deleted                  |
++-----------------------------------+-----------------------------------+
+| **Escalation history in tasks**   | Keep or not the history of        |
+|                                   | escalations in the tasks          |
++-----------------------------------+-----------------------------------+
+| **Remove technician(s) on         | Technician(s) will be deleted     |
+| escalation**                      | when a new technician is added to |
+|                                   | the ticket                        |
++-----------------------------------+-----------------------------------+
+| **Ticket status can be changed    | Modify the status of the ticket   |
+| after escalation**                | after the escalation. A “do not   |
+|                                   | modify” option is also available. |
++-----------------------------------+-----------------------------------+
+| **Assign the technical manager on | If a technical manager is         |
+| ticket category change**          | declared in an ITIL category,     |
+|                                   | they will be automatically        |
+|                                   | assigned and will receive a       |
+|                                   | notification.                     |
++-----------------------------------+-----------------------------------+
+| **Assign the technical group on   | If a technical group is declared  |
+| ticket category change**          | for an ITIL category, it will be  |
+|                                   | automatically assigned and the    |
+|                                   | members of the group will receive |
+|                                   | a notification                    |
++-----------------------------------+-----------------------------------+
+| **Clone tickets**                 | Possibility of cloning tickets    |
+|                                   | from the helpdesk interface       |
+|                                   | .. figure:: images/Escalade-4.png |
++-----------------------------------+-----------------------------------+
+| **Close cloned tickets at the     | Close all cloned tickets when one |
+| same time**                       | of them is closed                 |
++-----------------------------------+-----------------------------------+
+| **Use the technician’s group**    | If a technician is assigned,      |
+|                                   | their group will also be          |
+|                                   | assigned. You can choose to take  |
+|                                   | account of the assignment when    |
+|                                   | the ticket is created and/or      |
+|                                   | modified. You can also choose to  |
+|                                   | select the first or last group to |
+|                                   | which the user is assigned        |
++-----------------------------------+-----------------------------------+
+| **Remove requester(s) on          | Remove requester(s) in the event  |
+| escalation**                      | of an escalation. Please note     |
+|                                   | that no history is kept, as is    |
+|                                   | the case for assigning a group    |
++-----------------------------------+-----------------------------------+
+| **Display delete button**         | Displays the option of deleting   |
+|                                   | actors from the ticket (ability   |
+|                                   | to refine which                   |
+|                                   | user/group/supplier by            |
+|                                   | requestor/watcher/technician)     |
+|                                   |.. figure:: images/Escalade-5.png  |
++-----------------------------------+-----------------------------------+
+| **Activate filtering on           | Enables filtering and whether or  |
+| allocation groups**               | not escalation to other groups is |
+|                                   | possible. *See next chapter for   |
+|                                   | more information*                 |
++-----------------------------------+-----------------------------------+
 
-When this option is enabled, plugin display display group assign history
+Setting up filtering
+~~~~~~~~~~~~~~~~~~~~
 
-.. image:: images/history.png
+Filtering allows you to define which group is able to escalate tickets to other groups. For example, we don’t want N1 support to be able to
+escalate to N3 directly. The escalation to N2 must be mandatory.
 
-* Escalation history in tasks
+-  From **Administration > Groups**, select one of the groups
+-  In **Escalade**, add the groups to which this one will be able to escalate tickets.
 
-When this option is enabled, the plugin adds a private task containing the escalation information fore each escalation
-
-.. image:: images/task_escalation.png
-
-* Remove technician(s) on escalation
-
-When this option is enabled, the plugin remove assign technician when escalation is performed
-
-* Ticket status after an escalation
-
-When this option is enabled, the plugin change ticket status when escalation is performed
-
-* Assign ticket to initial group on solve ticket
-
-When this option is enabled, the plugin assign fisrt group assigned to ticket
-
-* Assign the technical manager on ticket category change
-
-When this option is enabled, the plugin assign fisrt group assigned to ticket
-
-* Assign the technical group on ticket category change
-
-When this option is enabled, the plugin assign the technical group of categroy selected from ticket
-
-* Clone tickets
-
-When this option is enabled, the plugin gives the possibility to clone a ticket and to link it the initial ticket
-
-.. image:: images/clone.png
+.. Warning::
+   This option can be useful, but it requires all groups to be set up. If, for example, the **technician N1** group can escalate
+   tickets to the **technician N2** group, you need to ensure that the **technician N2** group can escalate tickets to the **technician N3** group and
+   also to the **N1** group, so that a ticket can be escalated if necessary.
 
 
-* Close cloned tickets at the same time
+Example :
 
-When this option is enabled, at the closing of a ticket, cloned and linked tickets are also closed
+   * **Joe** user is **added** to group **Groupe 1**
 
-* Use the technician's group
-
-When this option is enabled, the plugin assign fist or latest group of technician assign to ticket
+   .. image:: images/filter_group.png
 
 
-* Display delete button
 
-Display or not delete button for group, user or supplier switch type (requester, watcher, assigned to)
 
-* Enable filtering on the groups assignment
+   * **Groupe 1** is configured to allow ticket escalation only to **Groupe 2**
 
-When this option is activated, the plugin filters the groups displayed in the dropdown list
+   .. image:: images/group_escalation.png
 
-   * Example
 
-      * 'glpi' user is affected to group 'groupe 1'
+   * **Joe** user can **only reassign** ticket to **Groupe 2** because it's assign to Groupe 1
 
-      .. image:: images/filter_group.png
+   .. image:: images/ticket_filter_group.png
 
-      * 'groupe 1' is configured to allow ticket escalation only to 'group 2'
 
-      .. image:: images/group_escalation.png
+   * For other users not assign to **Groupe 1**, they can't reassign group to ticket (groups are not proposed in the list of assignation)
 
-      * 'glpi' user can only reassign ticket to 'groupe 2' because it's assign to 'groupe 1'
+   .. image:: images/ticket_filter_group_empty.png
 
-      .. image:: images/ticket_filter_group.png
 
-      * For other users not assign to 'groupe 1', they can't reassign group to ticket
+   * You can **bypass** this behavior per user
 
-      .. image:: images/ticket_filter_group_empty.png
+   .. image:: images/bypass_user.png
 
-      * You can "bypass" this behavior per user
-
-      .. image:: images/bypass_user.png
 
 Ticket's search engine
 ----------------------
@@ -133,7 +169,7 @@ Plugin add three new search option
 
 * Group concerning by escalation
 
-Ex : get all tickets actually escalated to group "groupe 1"
+Ex : get all tickets actually escalated to group **Groupe 1**
 
 * Number of escalation
 
@@ -154,3 +190,4 @@ New dashlet to display ticket solved to close and assign to you group
 New dashlet to display not solved ticket where your groups was not actually assign but was in the past
 
 .. image:: images/central_follow.png
+
