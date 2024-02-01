@@ -5,7 +5,7 @@ Requirements (on-premise)
 -------------------------
 
 ============ =========== ===========
-GLPI Version Minimum PHP Recommanded
+GLPI Version Minimum PHP Recommended
 ============ =========== ===========
 10.0.x       8.1         8.2
 ============ =========== ===========
@@ -42,11 +42,11 @@ Set plugin parameters
 -  From the plugin, click on the spanner and choose the various options that interest you:
 
 +-----------------------------------+-----------------------------------+
-| Action                            | Effet                             |
+| Action                            | Effect                            |
 +===================================+===================================+
-| **Remove old assign group on new  | Deletes or not the addition of a  |
-| group assign**                    | new group when you assign a new   |
-|                                   | one                               |
+| **Remove old assign group on new  | Deletes or not the existing       |
+| group assign**                    | groups when you assign a new one  |
+|                                   |                                   |
 +-----------------------------------+-----------------------------------+
 | **show group assign history       | (*valid only if previous option   |
 | visually**                        | is set to* **yes**) Previous      |
@@ -72,7 +72,7 @@ Set plugin parameters
 +-----------------------------------+-----------------------------------+
 | **Assign the technical manager on | If a technical manager is         |
 | ticket category change**          | declared in an ITIL category,     |
-|                                   | he/she will be automatically      |
+|                                   | they will be automatically        |
 |                                   | assigned and will receive a       |
 |                                   | notification.                     |
 +-----------------------------------+-----------------------------------+
@@ -89,14 +89,14 @@ Set plugin parameters
 | **Close cloned tickets at the     | Close all cloned tickets when one |
 | same time**                       | of them is closed                 |
 +-----------------------------------+-----------------------------------+
-| **Use the technician’s group**    | If a technician is assigned, his  |
-|                                   | group will also be assigned. You  |
-|                                   | can choose to take account of the |
-|                                   | assignment when the ticket is     |
-|                                   | created and/or modified. You can  |
-|                                   | also choose to select the first   |
-|                                   | or last group to which the user   |
-|                                   | is assigned                       |
+| **Use the technician’s group**    | If a technician is assigned,      |
+|                                   | their group will also be          |
+|                                   | assigned. You can choose to take  |
+|                                   | account of the assignment when    |
+|                                   | the ticket is created and/or      |
+|                                   | modified. You can also choose to  |
+|                                   | select the first or last group to |
+|                                   | which the user is assigned        |
 +-----------------------------------+-----------------------------------+
 | **Remove requester(s) on          | Remove requester(s) in the event  |
 | escalation**                      | of an escalation. Please note     |
@@ -123,7 +123,7 @@ Filtering allows you to define which group is able to escalate tickets to other 
 escalate to N3 directly. The escalation to N2 must be mandatory.
 
 -  From **Administration > Groups**, select one of the groups
--  In **escalade**, add the groups to which this one will be able to escalate tickets.
+-  In **Escalade**, add the groups to which this one will be able to escalate tickets.
 
 .. Warning::
    This option can be useful, but it requires all groups to be set up. If, for example, the **technician N1** group can escalate
@@ -133,7 +133,7 @@ escalate to N3 directly. The escalation to N2 must be mandatory.
 
 Example :
 
-   * **Joe** user is **affected** to group **Groupe 1**
+   * **Joe** user is **added** to group **Groupe 1**
 
    .. image:: images/filter_group.png
 
