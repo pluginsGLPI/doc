@@ -1,5 +1,5 @@
-:ti-stairs-up: Escalade
-=======================
+Escalade
+========
 
 Requirements (on-premise)
 -------------------------
@@ -39,8 +39,7 @@ When the plugin is activated, a new option is available from the ticket interfac
 Set plugin parameters
 ---------------------
 
--  From the plugin, click on :ti-tool: and choose the various options
-   that interest you:
+-  From the plugin, click on .. figure:: images/spanner.png and choose the various options that interest you:
 
 +-----------------------------------+-----------------------------------+
 | Action                            | Effet                             |
@@ -134,19 +133,19 @@ tickets to the **technician N2** group, you need to ensure that the **technician
 
 Example :
 
-   * 'glpi' user is affected to group 'groupe 1'
+   * **Joe** user is **affected** to group **Groupe 1**
 
    .. image:: images/filter_group.png
 
-   * 'groupe 1' is configured to allow ticket escalation only to 'group 2'
+   * **Groupe 1** is configured to allow ticket escalation only to **Groupe 2**
 
    .. image:: images/group_escalation.png
 
-   * 'glpi' user can only reassign ticket to 'groupe 2' because it's assign to 'groupe 1'
+   * **Joe** user can **only reassign** ticket to **Groupe 2** because it's assign to Groupe 1
 
    .. image:: images/ticket_filter_group.png
 
-   * For other users not assign to 'groupe 1', they can't reassign group to ticket
+   * For other users not assign to **Groupe 1**, they can't reassign group to ticket (groups are not proposed in the list of assignation)
 
    .. image:: images/ticket_filter_group_empty.png
 
@@ -185,8 +184,4 @@ New dashlet to display ticket solved to close and assign to you group
 New dashlet to display not solved ticket where your groups was not actually assign but was in the past
 
 .. image:: images/central_follow.png
-
-.. |Alt text| image:: images/Escalade-3.png
-.. |Alt text| image:: images/Escalade-4.png
-.. |Alt text| image:: images/Escalade-5.png
 
