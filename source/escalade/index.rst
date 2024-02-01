@@ -39,7 +39,7 @@ When the plugin is activated, a new option is available from the ticket interfac
 Set plugin parameters
 ---------------------
 
--  From the plugin, click on .. figure:: images/spanner.png and choose the various options that interest you:
+-  From the plugin, click on the spanner and choose the various options that interest you:
 
 +-----------------------------------+-----------------------------------+
 | Action                            | Effet                             |
@@ -127,8 +127,8 @@ escalate to N3 directly. The escalation to N2 must be mandatory.
 
 .. Warning::
    This option can be useful, but it requires all groups to be set up. If, for example, the **technician N1** group can escalate
-tickets to the **technician N2** group, you need to ensure that the **technician N2** group can escalate tickets to the
-**technician N3** group and also to the **N1** group, so that a ticket can be escalated if necessary.
+   tickets to the **technician N2** group, you need to ensure that the **technician N2** group can escalate tickets to the **technician N3** group and
+   also to the **N1** group, so that a ticket can be escalated if necessary.
 
 
 Example :
@@ -137,19 +137,23 @@ Example :
 
    .. image:: images/filter_group.png
 
+
    * **Groupe 1** is configured to allow ticket escalation only to **Groupe 2**
 
    .. image:: images/group_escalation.png
+
 
    * **Joe** user can **only reassign** ticket to **Groupe 2** because it's assign to Groupe 1
 
    .. image:: images/ticket_filter_group.png
 
+
    * For other users not assign to **Groupe 1**, they can't reassign group to ticket (groups are not proposed in the list of assignation)
 
    .. image:: images/ticket_filter_group_empty.png
 
-   * You can "bypass" this behavior per user
+
+   * You can **bypass** this behavior per user
 
    .. image:: images/bypass_user.png
 
@@ -163,7 +167,7 @@ Plugin add three new search option
 
 * Group concerning by escalation
 
-Ex : get all tickets actually escalated to group "groupe 1"
+Ex : get all tickets actually escalated to group **Groupe 1**
 
 * Number of escalation
 
