@@ -19,7 +19,6 @@ Install the plugin
 -  Go to the marketplace. Download and install the “`Anonymize`”   plugin.
 
 .. figure:: images/Anonymize-1.png
-   :scale: 100 %
    :alt: Install the plugin
 
 Choice of profile
