@@ -175,7 +175,7 @@ Example :
 
    .. image:: images/bypass_user.png
       :alt:
-      :scale: 100 %
+      :scale:
 
 
 Ticket's search engine
@@ -185,7 +185,7 @@ Plugin add three new search option
 
 .. image:: images/searchoption.png
    :alt:
-   :scale: 100 %
+   :scale:
 
 * Group concerning by escalation
 
@@ -207,11 +207,11 @@ New dashlet to display ticket solved to close and assign to you group
 
 .. image:: images/central_closed.png
    :alt:
-   :scale: 100 %
+   :scale:
 
 New dashlet to display not solved ticket where your groups was not actually assign but was in the past
 
 .. image:: images/central_follow.png
    :alt:
-   :scale: 100 %
+   :scale:
 
