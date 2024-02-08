@@ -78,12 +78,14 @@ Setting query-related parameters
 
 .. figure:: images/Advanceddashboard-2.png
    :alt: SQL editor
+   :scale: 70%
 
 
 An insert at the bottom will display the result of the query:
 
 .. figure:: images/Advanceddashboard-3.png
    :alt: preview result
+   :scale: 50%
 
 
 * In the **set up fields** tab, define the label, the number and the main label (optional, this is the name your table will have). In our case, *the label will be "year"*, *the number will be "number of tickets"* and the *main label will be ""number of tickets per year"*.
@@ -93,6 +95,7 @@ An insert at the bottom will display the result of the query:
 
 .. figure:: images/Advanceddashboard-4.png
    :alt: card setup
+   :scale: 50%
 
 Dashboard settings
 ~~~~~~~~~~~~~~~~~~
@@ -105,6 +108,7 @@ Dashboard settings
 
 .. figure:: images/Advanceddashboard-5.png
    :alt: more card setup
+   :scale: 50%
 
 
 * You will then be asked to select the chart type
@@ -112,10 +116,12 @@ Dashboard settings
 
 .. figure:: images/Advanceddashboard-6.png
    :alt: label setup
+   :scale: 50%
 
 
 * Your tile is now ready
 
 .. figure:: images/Advanceddashboard-7.png
    :alt: the card is ready
+   :scale: 50%
 
