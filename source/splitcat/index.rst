@@ -21,6 +21,7 @@ Download the plugin
 
 .. figure:: images/Splitcat-1.png
    :alt:
+   :scale: 100 %
 
 Settings
 --------
@@ -32,9 +33,11 @@ Before
 
 .. figure:: images/Splitcat-2.gif
    :alt:
+   :scale: 100 %
 
 After
 ~~~~~
 
 .. figure:: images/Splitcat-3.gif
    :alt:
+   :scale: 100 %

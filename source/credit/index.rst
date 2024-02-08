@@ -1,6 +1,12 @@
 Credit
 ======
 
+Sources
+-------
+
+* Sources link: `<https://github.com/pluginsGLPI/credit>`_
+* Download: `<https://github.com/pluginsGLPI/credit/releases>`_
+
 Requirements (on-premise)
 -------------------------
 
@@ -10,16 +16,17 @@ GLPI Version Minimum PHP Recommended
 10.0.x       8.1         8.2
 ============ =========== ===========
 
+.. note::
+   This plugin is available without a GLPI-Network subscription. It is also available in `Cloud <https://glpi-network.cloud/>`__
+
 Install the plugin
 ------------------
-
-.. note::
-   This plugin is available without a GLPI-Network subscription. It is also available in Cloud.
 
 -  Go to the marketplace. Download and install the plugin “**Credit**”.
 
 .. figure:: images/Credit-1.png
    :alt:
+   :scale: 100 %
 
 Setting up the plugin
 ---------------------
@@ -32,12 +39,14 @@ Creating a credit type
 
 .. figure:: images/Credit-2.png
    :alt:
+   :scale: 100 %
 
 -  Click on **add**.
 -  Enter a name representing the type of credit granted
 
 .. figure:: images/Credit-3.png
    :alt:
+   :scale: 100 %
 
 Add credit to customer entity(ies)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -64,6 +73,7 @@ Example : “Case study for this article” We will create 3 types of credit:
 
 .. figure:: images/Credit-4.png
    :alt:
+   :scale: 100 %
 
 Here, we’ll do the same for the 3 types of credit (followup, task and solution)
 
@@ -71,6 +81,7 @@ It is therefore possible to enter different values (number of credits, validity,
 
 .. figure:: images/Credit-5.png
    :alt:
+   :scale: 100 %
 
 Define default values
 ~~~~~~~~~~~~~~~~~~~~~
@@ -82,6 +93,7 @@ Define default values
 
   .. figure:: images/Credit-6.png
    :alt:
+   :scale: 100 %
 
 -  Click on **Update**
 
@@ -100,21 +112,25 @@ In our example, we have chosen to deduct each action.
 
 .. figure:: images/Credit-7.png
    :alt:
+   :scale: 100 %
 
 -  The same for a **task**:
 
 .. figure:: images/Credit-8.png
    :alt:
+   :scale: 100 %
 
 -  And for a **solution** :
 
 .. figure:: images/Credit-9.png
    :alt:
+   :scale: 100 %
 
 In the **Credit** section of the ticket you can see a summary of credits spent and remaining
 
 .. figure:: images/Credit-10.png
    :alt:
+   :scale: 100 %
 
 Modify a credit on a ticket
 ---------------------------
@@ -135,6 +151,7 @@ You can modify credits on a ticket if a readjustment is necessary.
    See how to proceed
       .. figure:: images/Credit-11.gif
          :alt:
+         :scale: 100 %
 
 Delete deducted credits
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -149,6 +166,7 @@ Delete deducted credits
    See how to proceed
       .. figure:: images/Credit-12.gif
          :alt:
+         :scale: 100 %
 
 Credits will be automatically reallocated in the credit bank
 
@@ -167,6 +185,7 @@ An automatic action is available to notify you when a credit has expired.
 
 .. figure:: images/Credit-13.png
    :alt:
+   :scale: 100 %
 
 You can of course customise the notification to suit your needs (**Setup > Notifications > Notifications > credit expired**)
 

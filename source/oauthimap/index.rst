@@ -42,6 +42,7 @@ Install the plugin
 
 .. figure:: images/oauth-imap-1.png
    :alt:
+   :scale: 100 %
 
 -  Open the `Azure Portal <https://portal.azure.com/#home>`__ for your tenant
 -  In the search box type **registration**
@@ -49,6 +50,7 @@ Install the plugin
 
 .. figure:: images/oauth-imap-2.png
    :alt:
+   :scale: 100 %
 
 
 Here are the configuration steps including configuration phases on the Entra side.
@@ -66,6 +68,7 @@ Create the application
 
 .. figure:: images/oauth-imap-3.png
    :alt:
+   :scale: 100 %
 
 Add a secret
 ~~~~~~~~~~~~
@@ -76,17 +79,20 @@ Add a secret
 
 .. figure:: images/oauth-imap-4.png
    :alt:
+   :scale: 100 %
 
 -  Enter a description and then an expiration date
 -  A secret **value** is then generated. Keep this value well because once you have left this page, it will no longer be recoverable
 
 .. figure:: images/oauth-imap-5.png
    :alt:
+   :scale: 100 %
 
 -  Return to the **Overview** tab and **copy** the following values ​​and the secret seen above
 
 .. figure:: images/oauth-imap-6.png
    :alt:
+   :scale: 100 %
 
 Setup GLPI
 ----------
@@ -95,12 +101,14 @@ Setup GLPI
 
 .. figure:: images/oauth-imap-7.png
    :alt:
+   :scale: 100 %
 
 -  Click **Add**
 -  Now in the **Oauth authorization** tab, click **Create an authorization**
 
 .. figure:: images/oauth-imap-8.png
    :alt:
+   :scale: 100 %
 
 -  When you click on **Create authorization**, you will be redirected to the Microsoft services sign-in page
 -  Enter the email address and password of the account that will be used for the collector
@@ -108,6 +116,8 @@ Setup GLPI
 
 .. figure:: images/oauth-imap-9.png
    :alt:
+   :scale: 100 %
 
 .. figure:: images/oauth-imap-10.png
    :alt:
+   :scale: 100 %

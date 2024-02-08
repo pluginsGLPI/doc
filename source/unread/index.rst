@@ -20,6 +20,7 @@ Install the plugin
 
 .. figure:: images/Unread-1.png
    :alt:
+   :scale: 100 %
 
 Setting up the plugin
 ---------------------
@@ -62,6 +63,7 @@ When a new activity has not yet been viewed, a :bell::point-filled: icon appears
 
 .. figure:: images/Unread-2.png
    :alt:
+   :scale: 100 %
 
 Listed
 ~~~~~~
@@ -71,6 +73,7 @@ indicator :
 
 .. figure:: images/Unread-3.png
    :alt:
+   :scale: 100 %
 
 Ticket timeline
 ~~~~~~~~~~~~~~~
@@ -79,6 +82,7 @@ New messages will be identified by a banner **New messages**.
 
 .. figure:: images/Unread-4.png
    :alt:
+   :scale: 100 %
 
 Management by entity
 ~~~~~~~~~~~~~~~~~~~~
@@ -90,4 +94,5 @@ Management by entity is possible to manage the counting of notifications by enti
 
 .. figure:: images/Unread-5.png
    :alt:
+   :scale: 100 %
 

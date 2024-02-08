@@ -1,16 +1,26 @@
 Treeview
 ========
 
+Sources
+-------
+
 * Sources link: https://github.com/pluginsGLPI/treeview
 * Download: https://github.com/pluginsGLPI/treeview/releases
 
 Requirements for latest version
 -------------------------------
 
-This plugin requires :
+Requirements (on-premise)
+-------------------------
 
-* PHP 7.2 or higher
-* GLPI >= 9.4
+============ =========== ===========
+GLPI Version Minimum PHP Recommended
+============ =========== ===========
+10.0.x       8.1         8.2
+============ =========== ===========
+
+.. Note::
+   This plugin is available without a GLPI-Network subscription. It is also available in `Cloud <https://glpi-network.cloud/>`__
 
 
 Features
@@ -39,6 +49,7 @@ Plugin configuration is quite simple:
 You will access the create form from the *Setup* > *Plugins* > *treeview*.
 
 .. image:: images/configuration.png
+   :scale: 100 %
 
 * Target for all node : on clic  on node, redirect to new window
 * Nodes can be highlighted : highlight selcted node or not

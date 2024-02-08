@@ -15,6 +15,7 @@ http://XXXXXXXXXX:8080/admin or https://XXXXXXXXXX:8080/admin
 
 .. figure:: images/keycloak-2.png
    :alt:
+   :scale: 100 %
 
 Create user
 ~~~~~~~~~~~
@@ -24,24 +25,28 @@ Create user
 
 .. figure:: images/keycloak-3.png
    :alt:
+   :scale: 100 %
 
 -  Create your user according to your needs, remembering to check the Email verified box
 -  Click on **Create** once you’ve entered your details.
 
 .. figure:: images/keycloak-4.png
    :alt:
+   :scale: 100 %
 
 -  Stay in your user file and click on **Credentials**
 -  Then **Set pasword**
 
 .. figure:: images/keycloak-5.png
    :alt:
+   :scale: 100 %
 
 - Configure the user password, taking care to indicate that the password is not temporary
 - Click on save then **Save password**
 
 .. figure:: images/keycloak-6.png
    :alt:
+   :scale: 100 %
 
 You can check that your configuration is correct by logging on to the user account console:
 
@@ -62,6 +67,7 @@ Now we can register our GLPI application with Keycloak
 
 .. figure:: images/keycloak-7.png
    :alt:
+   :scale: 100 %
 
 - Give your application a client ID, which you’ll need to pass on to your GLPI Oauth SSO configuration
 - Click on next and make sure on the next page that the **standard flow** and **client authentication** options are active
@@ -71,6 +77,7 @@ Keep this page active, we’ll come back to it later.
 
 .. figure:: images/keycloak-8.png
    :alt:
+   :scale: 100 %
 
 Setup GLPI
 ~~~~~~~~~~
@@ -80,16 +87,19 @@ Setup GLPI
 
 .. figure:: images/keycloak-10.png
    :alt:
+   :scale: 100 %
 
 - Start by retrieving the return URL and pasting it into Keycloak’s **valid redirect URIs** field
 
 .. figure:: images/keycloak-11.png
    :alt:
+   :scale: 100 %
 
 - Back in GLPI’s Oauth SSO plugin configuration, fill in the required fields:
 
 .. figure:: images/keycloak-12.png
    :alt:
+   :scale: 100 %
 
 1. Give your provider a name, which will appear on the login page for users
 
@@ -103,6 +113,7 @@ Setup GLPI
 
 .. figure:: images/keycloak-13.png
    :alt:
+   :scale: 100 %
 
 6. Enter the discovery URL: http://mondomaine/realms/monrealms/.well-known/openid-configuration.
 
@@ -112,14 +123,18 @@ In the plugin, to see the approval message:
 
 .. figure:: images/keycloak-14.png
    :alt:
+   :scale: 100 %
 
 Now that configuration is complete, you can test the connection with the user you created earlier, or with your LDAP user.
 
 .. figure:: images/keycloak-15.png
    :alt:
+   :scale: 100 %
 
 .. figure:: images/keycloak-16.png
    :alt:
+   :scale: 100 %
 
 .. figure:: images/keycloak-17.png
    :alt:
+   :scale: 100 %

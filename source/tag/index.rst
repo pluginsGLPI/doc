@@ -30,6 +30,7 @@ Install the plugin
 
 .. figure:: images/Tags-1.png
    :alt:
+   :scale: 100 %
 
 Setting up the plugin
 ---------------------
@@ -40,6 +41,7 @@ Setting up the plugin
 
 .. figure:: images/Tags-2.png
    :alt:
+   :scale: 100 %
 
 -  Enter a name that will be visible when tags are added
 -  Enter a description (optional)
@@ -49,6 +51,7 @@ Setting up the plugin
 
 .. figure:: images/Tags-3.png
    :alt:
+   :scale: 100 %
 
 Choose where to find the tag
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -62,11 +65,13 @@ Bottom :
 
 .. figure:: images/Tags-7.png
    :alt:
+   :scale: 100 %
 
 Top:
 
 .. figure:: images/Tags-8.png
    :alt:
+   :scale: 100 %
 
 Adding rules
 ------------
@@ -79,14 +84,17 @@ Example : Assign a VIP tag when a member of the management group writes a ticket
 
 .. figure:: images/Tags-4.png
    :alt:
+   :scale: 100 %
 
 .. figure:: images/Tags-5.png
    :alt:
+   :scale: 100 %
 
 -  After creating a ticket :
 
 .. figure:: images/Tags-6.png
    :alt:
+   :scale: 100 %
 
 .. note::
     Tags can, of course, be added manually if they have been set to be visible in the specified item.

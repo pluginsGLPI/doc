@@ -13,10 +13,15 @@ GLPI Version Minimum PHP Recommended
 .. note::
    A `basic license <https://services.glpi-network.com/#offers>`__ (or higher) is required. This plugin is also available from the `Cloud <https://glpi-network.cloud/fr/>`__.
 
+
+Install the plugin
+--------------------
+
 -  Go to the marketplace. Download and install the **GDPR Tools** plugin.
 
 .. figure:: images/GDRP-1.png
    :alt:
+   :scale: 100 %
 
 Configure the plugin
 --------------------
@@ -67,6 +72,7 @@ scopes:
 
 .. figure:: images/GDRP-2.png
    :alt:
+   :scale: 100 %
 
 Automated action
 ~~~~~~~~~~~~~~~~
@@ -77,5 +83,6 @@ Deletion will take place via a standard GLPI automatic action that can be config
 
 .. figure:: images/GDRP-3.png
    :alt:
+   :scale: 100 %
 
 

@@ -13,6 +13,7 @@ Form creation
 1. Navigate to **Administration > Forms**.
 
 .. image:: images/administration_menu.png
+    :scale: 100 %
 
 2. Click on the button to add a form **+**
 
@@ -49,10 +50,12 @@ Sections
 After clicking on the tab **Question** the following page displays:
 
 .. image:: images/questions_tab.png
+    :scale: 100 %
 
 You must create a first **section**. Sections are intended to organize questions in the form.
 
 .. image:: images/section_creation.png
+    :scale: 100 %
 
 It is possible to setup conditions to show the whole section, based on the answers provided to questions located in other sections of the form.
 
@@ -62,11 +65,13 @@ Questions
 Click on the link **Add a question** in a section of your choice.
 
 .. image:: images/add_question.png
+    :scale: 100 %
 
 
 The following page displays:
 
 .. image:: images/add_question_form.png
+    :scale: 100 %
 
 A question is made of:
 
@@ -77,6 +82,7 @@ A question is made of:
 * a dropdown list **Show field** to enable a condition
 
  .. image:: images/show_field.png
+    :scale: 100 %
 
 
 It submits the following choices:
@@ -88,16 +94,19 @@ It submits the following choices:
 Conditions may be multiple. To add or remove a condition two buttons are available:
 
  .. image:: images/question_condition_buttons.png
+    :scale: 100 %
 
 .. note:: **List of pictograms**
 
  * The **circle** allows you to make a question mandatory
 
  .. image:: images/question_picto_mandatory.png
+    :scale: 100 %
 
  , or optional
 
  .. image:: images/question_picto_optional.png
+    :scale: 100 %
 
  * **Arrow up** and **arrow down** allow you to reorder questions in a section.
  * Clicking on a question allow you to edit it.
@@ -122,6 +131,7 @@ There are about twenty types of questions available. Depending on the chosen typ
 Actors
 ^^^^^^
  .. image:: images/actor_field.png
+    :scale: 100 %
 
 This field allows you to choose one or several users:
 
@@ -132,14 +142,17 @@ Checkboxes (multiple choices)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
  .. image:: images/checkboxes_field.png
+    :scale: 100 %
 
  .. image:: images/checkboxes_form.png
+    :scale: 100 %
 
 Add a line per value in **Values**. Default values may be set in **Default values**, one per line. If this field is empty, no checkbox will be ticked.
 
 Date / Datetime / Time
 ^^^^^^^^^^^^^^^^^^^^^^^
  .. image:: images/datetime_field.png
+    :scale: 100 %
 
 This field allows to select a date, a datetime or a time from a mini calendar.
 
@@ -154,6 +167,7 @@ Dropdown
 This field allows the user to choose a value among those available in a dropdown from GLPI (in **Configuration > Dropdowns**).
 
  .. image:: images/dropdown_field.png
+    :scale: 100 %
 
 Email
 ^^^^^
@@ -164,6 +178,7 @@ File
 ^^^^
 
  .. image:: images/file_field.png
+    :scale: 100 %
 
 This  field allows the requester to upload a file.
 
@@ -213,6 +228,7 @@ LDAP select
 This field allows you to create a dropdown list with objects from a LDAP directory:
 
  .. image:: images/ldap_form.png
+    :scale: 100 %
 
 
 .. note::
@@ -232,8 +248,10 @@ Radio buttons (one choice only)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
  .. image:: images/radios_field.png
+    :scale: 100 %
 
  .. image:: images/radios_form.png
+    :scale: 100 %
 
 Add a line per value in **Values**. A default value may be set in **Default value**. If this field is empty, no radio will be selected.
 
@@ -320,10 +338,12 @@ It is possible to generate any number of targets from a single form. Mixing type
 To create a target click on the link **Add a target**
 
  .. image:: images/add_target.png
+    :scale: 100 %
 
 The following window is then displayed:
 
  .. image:: images/add_target_form.png
+    :scale: 100 %
 
 Choose a target name and type, then validate. The new target is created and is available for tuning.
 
@@ -367,11 +387,13 @@ Configuration
 ^^^^^^^^^^^^^
 
 .. image:: images/categories-config.png
+   :scale: 100 %
 
 Render
 ^^^^^^
 
 .. image:: images/categories-front.png
+   :scale: 100 %
 
 Questions
 ---------
@@ -379,6 +401,7 @@ Questions
 After the creation of a form, create fields for the user to fill out.
 
 .. image:: images/question_creation.png
+   :scale: 100 %
 
 The name of the questions will appear on the left and the field type selected on the right.
 
@@ -400,15 +423,19 @@ This language is also used as reference in the translation process. Then be sure
 To translate a form open the tab **Form languages**, then create all languages you need to provide to users.
 
 .. image:: images/translation_add_language.png
+   :scale: 100 %
 
 Choose a language added to the form and click it to begin or resume translation, then select the tab **Translations**. Click the button **New translation** and a popup dialog will open and show a string to translate. Type the translation, and click save or validate with **Enter** on your keyboard.
 
 .. image:: images/translation_string_translation.png
+   :scale: 100 %
 
 If another string must be translated, it will show immediately. If no more string needs to be translated, a message will show instead.
 
 .. image:: images/translation_no_more_string.png
+   :scale: 100 %
 
 When you close the dialog the list of translated strings is refreshed. You can edit a translation by clicking on it, delete one or several translations with the checkboxes on the left of the list and the **Delete** button**. You can also filter the list with the filter input box.
 
 .. image:: images/translation_string_list.png
+   :scale: 100 %

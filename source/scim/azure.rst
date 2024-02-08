@@ -17,6 +17,7 @@ Setup
 
 .. figure:: pics/azure-1.png
    :alt: Azure create app
+   :scale: 100 %
 
 -  In the “Provisioning” section,
 
@@ -31,6 +32,7 @@ Setup
 
    .. figure:: pics/azure-2.png
       :alt: Azure Configuration provisioning
+      :scale: 100 %
 
    -  You must choose in the **Parameters** > **Extended** section how you want to synchronize your users and groups:
 

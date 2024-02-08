@@ -1,20 +1,30 @@
 Generic Object
 ==============
 
+Sources
+-------
+
 * Sources link: https://github.com/pluginsGLPI/genericobject
 * Download: https://github.com/pluginsGLPI/genericobject/releases
 
-This user manual applies to version 2.14 of the GLPI Generic Object Plugin.
 
-Requirements
-------------
+Requirements (on-premise)
+-------------------------
 
-Please refer to `plugin page <https://plugins.glpi-project.org/#/plugin/genericobject>`.
+============ =========== ===========
+GLPI Version Minimum PHP Recommended
+============ =========== ===========
+10.0.x       8.1         8.2
+============ =========== ===========
+
+.. note::
+   This plugin is available without a GLPI-Network subscription. It is also available in `Cloud <https://glpi-network.cloud/>`__
+
 
 Features
 --------
 
-This plugin allows you to add new inventory objects types, integrated into GLPI framework. 
+This plugin allows you to add new inventory objects types, integrated into GLPI framework.
 
 It supports following GLPI features:
 

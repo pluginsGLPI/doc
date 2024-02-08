@@ -1,15 +1,24 @@
 Centreon
 ========
 
+Sources
+-------
 
 * Sources link: `<https://github.com/pluginsGLPI/centreon>`_
 * Download: `<https://github.com/pluginsGLPI/centreon/releases>`_
 
-Requirements
-------------
+Requirements (on-premise)
+-------------------------
 
-PHP >= 7.4.0
-GLPI >= 10.0.0
+============ =========== ===========
+GLPI Version Minimum PHP Recommended
+============ =========== ===========
+10.0.x       8.1         8.2
+============ =========== ===========
+
+.. Note::
+   This plugin is available without a GLPI-Network subscription. It is also available in `Cloud <https://glpi-network.cloud/>`__
+
 
 Features
 --------
@@ -46,6 +55,7 @@ You will need to fill the following fields :
 
 .. image:: images/centreon-settings.jpg
    :alt: Centreon configuration
+   :scale: 100 %
 
 Then, it will create automatically a new SQL table named ``glpi_plugin_centreon_hosts``.
 This table will contain all the hosts that are both in GLPI and Centreon.
@@ -53,6 +63,8 @@ A new tab is created on the host page, so you can see the information about the 
 
 .. image:: images/centreon-accueil.jpg
    :alt: Centreon homepage
+   :scale: 100 %
 
 .. image:: images/centreon-timeline.jpg
    :alt: Centreon timeline
+   :scale: 100 %

@@ -11,12 +11,14 @@ Creating a project
 
    .. figure:: images/oauth-sso-google-2.png
       :alt:
+      :scale: 100 %
 
 -  Return to your organisation,
 -  Select your project
 
    .. figure:: images/oauth-sso-google-3.png
       :alt:
+      :scale: 100 %
 
 Setup Oauth access
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -26,12 +28,14 @@ Setup Oauth access
 
    .. figure:: images/oauth-sso-google-4.png
       :alt:
+      :scale: 100 %
 
 -  Select the type of access that will be granted to the application (internal or external users)
 -  Then click on **Create**.
 
    .. figure:: images/oauth-sso-google-5.png
       :alt:
+      :scale: 100 %
 
 -  Enter (as a minimum) a name for the application, an email address for application support and the developer’s email address (this information is compulsory).
 -  Click on **Save and continue**.
@@ -42,6 +46,7 @@ Setup Oauth access
 
    .. figure:: images/oauth-sso-google-6.png
       :alt:
+      :scale: 100 %
 
 -  Click on **Update**
 -  Then **Save and continue**
@@ -55,6 +60,7 @@ ID settings
 
    .. figure:: images/oauth-sso-google-7.png
       :alt:
+      :scale: 100 %
 
 -  Select the type of application **Web application**
 -  Enter an application name
@@ -66,12 +72,14 @@ ID settings
 
    .. figure:: images/oauth-sso-google-8.gif
       :alt:
+      :scale: 100 %
 
 -  Click on **Create**
 -  A page appears with the identifier values. **Keep this information** as it will be requested in GLPI.
 
    .. figure:: images/oauth-sso-google-9.png
       :alt:
+      :scale: 100 %
 
 Setup GLPI
 ~~~~~~~~~~
@@ -86,6 +94,7 @@ Setup GLPI
 
    .. figure:: images/oauth-sso-google-10.png
       :alt:
+      :scale: 100 %
 
 -  Click on **Add**
 
@@ -93,6 +102,7 @@ From the home page, the new Oauth SSO login option will be visible:
 
 .. figure:: images/oauth-sso-google-11.png
    :alt:
+   :scale: 100 %
 
 .. note::
    The first time a user logs on, they will be asked to accept access authorisations for their profile

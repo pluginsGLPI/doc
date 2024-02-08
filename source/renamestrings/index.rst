@@ -21,6 +21,7 @@ Download the plugin
 
 .. figure:: images/Rename_strings-1.png
    :alt:
+   :scale: 100 %
 
 Creating an override
 --------------------
@@ -37,6 +38,7 @@ We are going to change the value **Computer** to **PC**
 
 .. figure:: images/Rename_strings-2.png
    :alt:
+   :scale: 100 %
 
 Show the change
 ---------------
@@ -47,8 +49,10 @@ Before :
 
 .. figure:: images/Rename_strings-3.png
    :alt:
+   :scale: 100 %
 
 After :
 
 .. figure:: images/Rename_strings-4.png
    :alt:
+   :scale: 100 %

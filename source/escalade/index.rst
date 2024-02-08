@@ -1,6 +1,13 @@
 Escalade
 ========
 
+Sources
+-------
+
+* Sources link: `<https://github.com/pluginsGLPI/escalade>`_
+* Download: `<https://github.com/pluginsGLPI/escalade/releases>`_
+
+
 Requirements (on-premise)
 -------------------------
 
@@ -20,6 +27,7 @@ Install the plugin
 
 .. figure:: images/Escalade-1.png
    :alt:
+   :scale: 100 %
 
 Assign a ticket
 ---------------
@@ -35,6 +43,7 @@ When the plugin is activated, a new option is available from the ticket interfac
 
 .. figure:: images/Escalade-2.png
    :alt:
+   :scale: 100 %
 
 Set plugin parameters
 ---------------------
@@ -138,6 +147,7 @@ Example :
    * **Joe** user is **added** to group **Groupe 1**
 
    .. image:: images/filter_group.png
+      :scale: 100 %
 
 
 
@@ -145,21 +155,25 @@ Example :
    * **Groupe 1** is configured to allow ticket escalation only to **Groupe 2**
 
    .. image:: images/group_escalation.png
+      :scale: 100 %
 
 
    * **Joe** user can **only reassign** ticket to **Groupe 2** because it's assign to Groupe 1
 
    .. image:: images/ticket_filter_group.png
+      :scale: 100 %
 
 
    * For other users not assign to **Groupe 1**, they can't reassign group to ticket (groups are not proposed in the list of assignation)
 
    .. image:: images/ticket_filter_group_empty.png
+      :scale: 100 %
 
 
    * You can **bypass** this behavior per user
 
    .. image:: images/bypass_user.png
+      :scale: 100 %
 
 
 Ticket's search engine
@@ -168,6 +182,7 @@ Ticket's search engine
 Plugin add three new search option
 
 .. image:: images/searchoption.png
+   :scale: 100 %
 
 * Group concerning by escalation
 
@@ -188,8 +203,10 @@ Central page
 New dashlet to display ticket solved to close and assign to you group
 
 .. image:: images/central_closed.png
+   :scale: 100 %
 
 New dashlet to display not solved ticket where your groups was not actually assign but was in the past
 
 .. image:: images/central_follow.png
+   :scale: 100 %
 
