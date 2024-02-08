@@ -147,32 +147,34 @@ Example :
    * **Joe** user is **added** to group **Groupe 1**
 
    .. image:: images/filter_group.png
+      :alt:
       :scale: 100 %
-
-
-
 
    * **Groupe 1** is configured to allow ticket escalation only to **Groupe 2**
 
    .. image:: images/group_escalation.png
+      :alt:
       :scale: 100 %
 
 
    * **Joe** user can **only reassign** ticket to **Groupe 2** because it's assign to Groupe 1
 
    .. image:: images/ticket_filter_group.png
+      :alt:
       :scale: 100 %
 
 
    * For other users not assign to **Groupe 1**, they can't reassign group to ticket (groups are not proposed in the list of assignation)
 
    .. image:: images/ticket_filter_group_empty.png
+      :alt:
       :scale: 100 %
 
 
    * You can **bypass** this behavior per user
 
    .. image:: images/bypass_user.png
+      :alt:
       :scale: 100 %
 
 
@@ -182,6 +184,7 @@ Ticket's search engine
 Plugin add three new search option
 
 .. image:: images/searchoption.png
+   :alt:
    :scale: 100 %
 
 * Group concerning by escalation
@@ -203,10 +206,12 @@ Central page
 New dashlet to display ticket solved to close and assign to you group
 
 .. image:: images/central_closed.png
+   :alt:
    :scale: 100 %
 
 New dashlet to display not solved ticket where your groups was not actually assign but was in the past
 
 .. image:: images/central_follow.png
+   :alt:
    :scale: 100 %
 
