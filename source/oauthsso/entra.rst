@@ -12,7 +12,7 @@ First, register your application with your Entra Active Directory (Entra AD) cli
 
 .. figure:: images/oauth-Entra-1.png
    :alt:
-   :scale: 100 %
+
 
 -  In the Entra Portal, search for and select **Entra Active Directory**
 -  From the left-hand **Active Directory** menu
@@ -21,17 +21,17 @@ First, register your application with your Entra Active Directory (Entra AD) cli
 
 .. figure:: images/oauth-Entra-2.png
    :alt:
-   :scale: 100 %
+
 
 -  Enter **web** in the redirect URI and paste the return URL of your GLPI instance:
 
 .. figure:: images/oauth-Entra-3.png
    :alt:
-   :scale: 100 %
+
 
 .. figure:: images/oauth-Entra-4.png
    :alt:
-   :scale: 100 %
+
 
 Secret and certificate
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -40,14 +40,14 @@ Secret and certificate
 
 .. figure:: images/oauth-Entra-5.png
    :alt:
-   :scale: 100 %
+
 
 .. Warning::
    When you click on **add**, **the secret will only be available once**. As soon as you leave this page, **the secret will be hidden** and we will no longer be able to access it. Remember to **store it in a safe place** as we will need it later
 
    .. figure:: images/oauth-Entra-5bis.png
       :alt:
-      :scale: 100 %
+   
 
 Claims
 ~~~~~~
@@ -61,7 +61,7 @@ Claims
 
 .. figure:: images/oauth-Entra-7.png
    :alt:
-   :scale: 100 %
+
 
 
 API authorisations
@@ -73,11 +73,11 @@ GLPI must be able to read user information in order to use it for connection
 
 .. figure:: images/oauth-Entra-12.png
    :alt:
-   :scale: 100 %
+
 
 .. figure:: images/oauth-Entra-13.png
    :alt:
-   :scale: 100 %
+
 
 Select :
 
@@ -95,13 +95,13 @@ Setup GLPI
 
 .. figure:: images/oauth-Entra-6.png
    :alt:
-   :scale: 100 %
+
 
 -  Specify an application **name** visible to end users.
 
 .. figure:: images/oauth-Entra-4bis.png
    :alt:
-   :scale: 100 %
+
 
 Copy the values from the fields above:
 
@@ -119,14 +119,14 @@ Explanation of ID field
 
 .. figure:: images/oauth-Entra-8.png
    :alt:
-   :scale: 100 %
+
 
 1) **User Principal Name (UPN)**: this option will show the full username of the user logging in (nom.prenom@mondomaine.com for example). If you want only the username to be visible (without the @mondomaine.com, see the **XXXXXXXXXX** paragraph).
 2) **Entra user ID (OID)**: this option takes the object ID from the Entra AD. This ID will be used for the user login
 
 .. figure:: images/oauth-Entra-9.png
    :alt:
-   :scale: 100 %
+
 
 3) **Email address**: This option specifies the user’s email address. This field will be used for the login. If it is empty, the UPN will be used.
 

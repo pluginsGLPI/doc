@@ -20,7 +20,7 @@ Install the plugin
 
 .. figure:: images/LDAPtools-1.png
    :alt:
-   :scale: 100 %
+
 
 Using the plugin
 ----------------
@@ -29,7 +29,7 @@ From **tools > LDAP Tools**, if you have synchronised LDAP directories, they wil
 
 .. figure:: images/LDAPtools-2.png
    :alt:
-   :scale: 100 %
+
 
 Each directory has a number of tests which may or may not be validated
 depending on your configuration:

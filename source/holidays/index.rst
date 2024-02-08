@@ -19,7 +19,7 @@ Install the plugin
 
 .. figure:: images/Holiday-1.png
    :alt:
-   :scale: 100 %
+
 
 Set up the plugin
 -----------------
@@ -33,7 +33,7 @@ Set up the plugin
 
 .. figure:: images/Holiday-2.png
    :alt:
-   :scale: 100 %
+
 
 Delete a holiday date/period
 ----------------------------
@@ -45,7 +45,7 @@ The list of holiday days can be viewed and modified
 
 .. figure:: images/Holiday-3.png
    :alt:
-   :scale: 100 %
+
 
 The list of days appears. Let’s assume that the company considers that
 Easter Monday is not a day off.
@@ -57,4 +57,4 @@ Easter Monday is not a day off.
 
 .. figure:: images/Holiday-5.gif
    :alt:
-   :scale: 100 %
+

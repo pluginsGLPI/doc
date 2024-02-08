@@ -49,7 +49,6 @@ Plugin configuration is quite simple:
 You will access the create form from the *Setup* > *Plugins* > *treeview*.
 
 .. image:: images/configuration.png
-   :scale: 100 %
 
 * Target for all node : on clic  on node, redirect to new window
 * Nodes can be highlighted : highlight selcted node or not

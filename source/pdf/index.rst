@@ -20,7 +20,7 @@ Install the plugin
 
 .. figure:: images/PDF-1.png
    :alt:
-   :scale: 100 %
+
 
 Set up the plugin
 -----------------
@@ -32,7 +32,7 @@ Set up the plugin
 
 .. figure:: images/PDF-2.png
    :alt:
-   :scale: 100 %
+
 
 Using the plugin
 ----------------
@@ -46,8 +46,8 @@ Using the plugin
 
 .. figure:: images/PDF-3.png
    :alt:
-   :scale: 100 %
+
 
 .. figure:: images/PDF-4.png
    :alt:
-   :scale: 100 %
+

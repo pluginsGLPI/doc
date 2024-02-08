@@ -21,7 +21,7 @@ Install the plugin
 
 .. figure:: images/GDRP-1.png
    :alt:
-   :scale: 100 %
+
 
 Configure the plugin
 --------------------
@@ -72,7 +72,7 @@ scopes:
 
 .. figure:: images/GDRP-2.png
    :alt:
-   :scale: 100 %
+
 
 Automated action
 ~~~~~~~~~~~~~~~~
@@ -83,6 +83,6 @@ Deletion will take place via a standard GLPI automatic action that can be config
 
 .. figure:: images/GDRP-3.png
    :alt:
-   :scale: 100 %
+
 
 

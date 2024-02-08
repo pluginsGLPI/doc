@@ -7,4 +7,4 @@ Using the Oauth SSO application configuration, you can mask the internal databas
 
 .. figure:: images/oauth-Entra-11.png
    :alt:
-   :scale: 100 %
+

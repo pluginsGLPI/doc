@@ -20,7 +20,7 @@ Install the plugin
 
 .. figure:: images/Anonymize-1.png
    :alt: Install the plugin
-   :scale: 100 %
+
 
 Choice of profile
 -----------------
@@ -39,7 +39,7 @@ The 4 profiles you will find are :
 
 .. figure:: images/Anonymize-2.png
    :alt: Profiles
-   :scale: 100 %
+
 
 Anonymisable data per profile (predefined)
 ------------------------------------------
@@ -48,7 +48,7 @@ Each profile has an element assigned to it. You will need to define the value of
 
 .. figure:: images/Anonymize-3.png
    :alt:
-   :scale: 100 %
+
 
 Email
 ~~~~~
@@ -275,7 +275,7 @@ You can ask GLPI to anoymise an attribute in the whole database and not only in 
 
 .. figure:: images/Anonymize-4.png
    :alt:
-   :scale: 100 %
+
 
 .. Note::
    You cannot change any values other than those linked to the type of element you are in. For example, you will be able to **modify all email addresses** in the database via the **Email** profile, but you will not be able to modify all user phone number via this profile.
@@ -299,7 +299,7 @@ In our example, we will be anonymising `user data`.
 
 .. figure:: images/Anonymize-5.gif
    :alt:
-   :scale: 100 %
+
 
 
 .. Note::

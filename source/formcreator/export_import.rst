@@ -25,7 +25,7 @@ Exporting forms
 2. Use massive actions to export one or more forms. Clicking on  the **Post** button will start the download of a JSON formated file. This file contains all forms selected for the export.
 
 .. image:: images/export_forms.png
-   :scale: 100 %
+
 
 Importing forms
 ^^^^^^^^^^^^^^^
@@ -35,16 +35,16 @@ Importing forms
 2. Use the toolbar to import forms.
 
 .. image:: images/import_forms.png
-   :scale: 100 %
+
 
 3. Select one or more JSON files created with the same version of Formcreator and validate.
 
 .. image:: images/import_forms_2.png
-   :scale: 100 %
 
-4. Depending on the complexity and the quantity of forms the process may be slow. Please be patient.
 
-5. Carefully check the messages when the import completes. You may get warnings and errors.
+1. Depending on the complexity and the quantity of forms the process may be slow. Please be patient.
+
+2. Carefully check the messages when the import completes. You may get warnings and errors.
 
 Import behavior
 ^^^^^^^^^^^^^^^

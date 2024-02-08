@@ -20,7 +20,6 @@ Install the plugin
 
 .. figure:: images/Webhook-1.png
    :alt:
-   :scale: 100 %
 
 Activate webhooks
 -----------------
@@ -29,7 +28,6 @@ Activate webhooks
 
 .. figure:: images/Webhook-2.png
    :alt:
-   :scale: 100 %
 
 Add a Webhook
 -------------
@@ -42,31 +40,26 @@ Mattermost
 
 .. figure:: images/Webhook-3.png
    :alt:
-   :scale: 100 %
 
 -  Select **Incoming Webhooks**
 -  Then **Add a new incoming webhook**.
 
 .. figure:: images/Webhook-4.png
    :alt:
-   :scale: 100 %
 
 .. figure:: images/Webhook-5.png
    :alt:
-   :scale: 100 %
 
 -  Fill in the necessary fields and select the channel that will receive the notifications
 -  Then click on **Save**.
 
 .. figure:: images/Webhook-15.png
    :alt:
-   :scale: 100 %
 
 -  You will then be sent the link to your Webhook:
 
 .. figure:: images/Webhook-16.png
    :alt:
-   :scale: 100 %
 
 Teams
 ~~~~~
@@ -77,34 +70,29 @@ Teams
 
 .. figure:: images/Webhook-10.png
    :alt:
-   :scale: 100 %
 
 -  In the **Connectors** section,
 -  click on **Modify**
 
 .. figure:: images/Webhook-11.png
    :alt:
-   :scale: 100 %
 
 -  From the **incoming Webhook connector**
 -  click on **Configure**
 
 .. figure:: images/Webhook-12.png
    :alt:
-   :scale: 100 %
 
 -  Enter a name for your webhook and an image (optional)
 -  Click on **Create**
 
 .. figure:: images/Webhook-13.png
    :alt:
-   :scale: 100 %
 
 -  You will then be sent the URL of your webhook
 
 .. figure:: images/Webhook-14.png
    :alt:
-   :scale: 100 %
 
 Telegram
 ~~~~~~~~
@@ -115,7 +103,6 @@ Telegram
 
 .. figure:: images/Webhook-17.png
    :alt:
-   :scale: 100 %
 
 -  If you have already created a dedicated channel to receive GLPI notifications, add your bot to it.
 -  Otherwise, create your own channel
@@ -199,7 +186,6 @@ Set up the webhook in GLPI
 
 .. figure:: images/Webhook-7.png
    :alt:
-   :scale: 100 %
 
 -  Click on **Add**
 
@@ -209,13 +195,12 @@ Set up the webhook in GLPI
 
    .. figure:: images/Webhook-18.png
       :alt:
-      :scale: 100 %
+
 
 -  You can test how it works by selecting your webhook and clicking on **Send notification**
 
 .. figure:: images/Webhook-8.png
    :alt:
-   :scale: 100 %
 
 Recipients
 ----------
@@ -228,7 +213,6 @@ Recipients
 
 .. figure:: images/Webhook-19.png
    :alt:
-   :scale: 100 %
 
 Templates
 ---------
@@ -240,5 +224,4 @@ Templates
 
 .. figure:: images/Webhook-20.png
    :alt:
-   :scale: 100 %
 

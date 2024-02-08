@@ -17,8 +17,7 @@ So I set my criteria and my action :
 
 .. figure:: images/oauhtsso-7.png
    :alt:
-   :scale: 100 %
+
 
 .. figure:: images/oauth-Entra-10.png
    :alt:
-   :scale: 100 %

@@ -21,7 +21,7 @@ Install the plugin
 
 .. figure:: images/Satisfaction.png
    :alt:
-   :scale: 100 %
+
 
 Create a survey
 ---------------
@@ -34,14 +34,14 @@ Create a survey
 
 .. figure:: images/Satisfaction-1.png
    :alt:
-   :scale: 100 %
+
 
 .. Warning::
    It is only possible to create one survey per entity. If you wish to create several for different entities, remember to position yourself in the appropriate entity and do not tick the sub-entity box 
 
    .. figure:: images/Satisfaction-2.png
       :alt:
-      :scale: 100 %
+
 
 Create a question
 -----------------
@@ -53,7 +53,7 @@ Create a question
 
 .. figure:: images/Satisfaction-3.png
    :alt:
-   :scale: 100 %
+
 
 Create a text field
 -------------------
@@ -64,7 +64,7 @@ Create a text field
 
 .. figure:: images/Satisfaction-4.png
    :alt:
-   :scale: 100 %
+
 
 Create a note
 -------------
@@ -76,7 +76,7 @@ Create a note
 
 .. figure:: images/Satisfaction-5.png
    :alt:
-   :scale: 100 %
+
 
 Preview
 -------
@@ -85,7 +85,7 @@ The preview tab allows you to see what users will receive once their ticket has 
 
 .. figure:: images/Satisfaction-6.png
    :alt:
-   :scale: 100 %
+
 
 Translation
 -----------
@@ -97,7 +97,7 @@ You can translate each of the questions asked in the questionnaire into the lang
 
 .. figure:: images/Satisfaction-7.png
    :alt:
-   :scale: 100 %
+
 
 Schedule reminders
 ------------------
@@ -117,7 +117,7 @@ Customised reminder
 
 .. figure:: images/Satisfaction-8.png
    :alt:
-   :scale: 100 %
+
 
 Predefined reminder
 ~~~~~~~~~~~~~~~~~~~
@@ -128,7 +128,7 @@ Predefined reminder
 
 .. figure:: images/Satisfaction-9.png
    :alt:
-   :scale: 100 %
+
 
 -  1 week: reminder every 7 days,
 -  2 weeks: reminder every 14 days.
@@ -145,7 +145,7 @@ Limit the number of reminders
 
 .. figure:: images/Satisfaction-9.png
    :alt:
-   :scale: 100 %
+
 
 
 Set up the automatic action
@@ -158,6 +158,6 @@ Survey reminders are sent via an automatic action already created by the plugin.
 
 .. figure:: images/Satisfaction-11.png
    :alt:
-   :scale: 100 %
+
 
 

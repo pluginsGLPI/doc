@@ -10,39 +10,39 @@ Create application
 
 .. figure:: images/okta-2.png
    :alt:
-   :scale: 100 %
+
 
 -  Keep this window active and retain the callback URL :
 
 .. figure:: images/okta-3.png
    :alt:
-   :scale: 100 %
+
 
 -  In your OKTA interface, go to **Applications**
 -  **Create App Integration**
 
 .. figure:: images/okta-4.png
    :alt:
-   :scale: 100 %
+
 
 -  Select option **OIDC – OpenID Connect** in the 1st insert and **Web Application** in the second
 -  Click on **Next**
 
 .. figure:: images/okta-5.png
    :alt:
-   :scale: 100 %
+
 
 -  Enter an application name and check the box **Client credentials**
 
 .. figure:: images/okta-6.png
    :alt:
-   :scale: 100 %
+
 
 -  Enter the return URL, retrieved above, in Sign-in redirect URIs.
 
 .. figure:: images/okta-7.png
    :alt:
-   :scale: 100 %
+
 
 Assignments
 ~~~~~~~~~~~
@@ -52,7 +52,7 @@ Assignments
 
 .. figure:: images/okta-8.png
    :alt:
-   :scale: 100 %
+
 
 Setup GLPI
 ~~~~~~~~~~
@@ -61,7 +61,7 @@ Setup GLPI
 
 .. figure:: images/okta-9.png
    :alt:
-   :scale: 100 %
+
 
 1. Give your provider a name, which will appear on the login page.
 
@@ -73,15 +73,15 @@ Setup GLPI
 
 .. figure:: images/okta-10.png
    :alt:
-   :scale: 100 %
 
-5. Specify the ID field to be mapped with OKTA
 
-6. Specify the customer secret available in OKTA in the previously created application
+1. Specify the ID field to be mapped with OKTA
+
+2. Specify the customer secret available in OKTA in the previously created application
 
 .. figure:: images/okta-11.png
    :alt:
-   :scale: 100 %
+
 
 7. Enter the name of your OKTA instance (https://XXXXXXXXX.okta.com), available in the account creation confirmation e-mail.
 
@@ -90,14 +90,14 @@ Setup GLPI
 
 .. figure:: images/okta-12.png
    :alt:
-   :scale: 100 %
+
 
 Now that the configuration is complete, you can test it with a user.
 
 .. figure:: images/okta-13.png
    :alt:
-   :scale: 100 %
+
 
 .. figure:: images/okta-14.png
    :alt:
-   :scale: 100 %
+

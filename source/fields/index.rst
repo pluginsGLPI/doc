@@ -65,7 +65,7 @@ Adding a new block
 ^^^^^^^^^^^^^^^^^^
 
 .. image:: images/new_block.png
-  :scale: 100 %
+
 
 * `Label`: the label of the block that will appears on items forms,
 * `Type`: type of display, one of:
@@ -84,7 +84,7 @@ Adding a new block
 Inserting a block in a specific tab is only possible for one item:
 
 .. image:: images/new_block_tab.png
-  :scale: 100 %
+
 
 Once a block have been created, it is possible to change its label or is active flag, but not its type or associated items list.
 
@@ -94,13 +94,13 @@ Profiles
 You can refine profiles access on the block using the `Profiles` tab from the block. You will be able to choose either `No access`, `Read` or `Write` for every existing profile.
 
 .. image:: images/block_profiles.png
-  :scale: 100 %
+
 
 Adding a new field
 ^^^^^^^^^^^^^^^^^^
 
 .. image:: images/block_new_field.png
-  :scale: 100 %
+
 
 * `Label`: the label of the block that will appears on items forms,
 * `Type` field type, one of:
@@ -129,12 +129,12 @@ Adding a new field
 Once fields have been created, you can reorder or edit them from the Fields tab of the block:
 
 .. image:: images/block_list_fields.png
-  :scale: 100 %
+
 
 And see what it should look like on a `User` item for example:
 
 .. image:: images/block_user_display.png
-  :scale: 100 %
+
 
 Search
 ------
@@ -156,12 +156,12 @@ Plugin itself is translated using `the transifex services <https://www.transifex
 On the block form, choose the *Translations* tab:
 
 .. image:: images/translate_block_label.png
-  :scale: 100 %
+
 
 On block creation, a new translation with current language and value set as label will be created; you can add as many translations as you want.
 
 .. image:: images/add_block_label_translation.png
-  :scale: 100 %
+
 
 Dropdown values can be translated using the core's dropdown configuration.
 
@@ -177,7 +177,7 @@ If you are using entities in your GLPI instance, a block will be displayed only 
 When you create or edit a block in multi entities mode, you'll have to choose if the block will be available in children entities:
 
 .. image:: images/block_entities.png
-  :scale: 100 %
+
 
 As an example, let's say our entities have the following structure:
 

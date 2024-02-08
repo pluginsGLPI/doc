@@ -21,7 +21,7 @@ Install the plugin
 
 .. figure:: images/branding-1.png
    :alt:
-   :scale: 100 %
+
 
 Customize your instance
 -----------------------
@@ -37,7 +37,7 @@ Here you can replace :
 
 .. figure:: images/branding-2.png
    :alt:
-   :scale: 100 %
+
 
 Custom by entity
 ----------------
@@ -49,7 +49,7 @@ You can modify certain elements by entity:
 
 .. figure:: images/branding-3.png
    :alt:
-   :scale: 100 %
+
 
 Other customisations are common to all entities
 

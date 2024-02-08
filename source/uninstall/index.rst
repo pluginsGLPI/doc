@@ -68,7 +68,6 @@ Each template can contain different features, and be visible in the sub-entities
 Uninstall equipment is a transfer of the equipment to itself. During its transfer, a certain number of actions are performed, as specified in the definition of transfer.
 
 .. image:: images/uninstall.png
-   :scale: 100 %
 
 * *Name*: the name of the uninstall template
 * *Sub-entities*: indicates whether the template is visible in the creation entity and its sub-entities
@@ -90,7 +89,6 @@ Uninstall equipment is a transfer of the equipment to itself. During its transfe
 * *Delete FusionInventory info*: Delete all FusionInventory info for this material
 
 .. image:: images/model_uninstall.png
-   :scale: 100 %
 
 
 Uninstall hardware
@@ -141,7 +139,6 @@ In this form there are 4 tabs :
 * All: displays all the tabs on the same page
 
 .. image:: images/replace_main.png
-   :scale: 100 %
 
 Here is the description of the fields of the main tab :
 
@@ -156,7 +153,6 @@ Replacing data tab
 ^^^^^^^^^^^^^^^^^^
 
 .. image:: images/replace_data.png
-   :scale: 100 %
 
 Here is the description of the fields of the actions tab.
 
@@ -206,7 +202,6 @@ Once you have selected the hardware to be replaced via the massive actions, or y
 
 
 .. image:: images/recap.png
-   :scale: 100 %
 
 
 Change of location on replacement

@@ -27,7 +27,7 @@ Plugin installation
 
 .. figure:: images/Datainjection-1.png
    :alt:
-   :scale: 100 %
+
 
 Rights management
 -----------------
@@ -72,7 +72,7 @@ The first step is to create a template if none exists.
 
 .. figure:: images/Datainjection-2.png
    :alt:
-   :scale: 100 %
+
 
 Defining the model
 ^^^^^^^^^^^^^^^^^^
@@ -124,7 +124,7 @@ For each column, you can choose
 
 .. figure:: images/Datainjection-3.png
    :alt:
-   :scale: 100 %
+
 
 .. Note::
    It is possible to define **Comments** or **Notes** as the destination for several columns in the file. Each column will be added to the field on a different line.
@@ -156,7 +156,7 @@ options.
 
 .. figure:: images/Datainjection-4.png
    :alt:
-   :scale: 100 %
+
 
 .. Warning::
    If you are working with a sub-entity, you must select the desired entity before importing.
@@ -178,7 +178,7 @@ Choosing a template
 
 .. figure:: images/Datainjection-5.png
    :alt:
-   :scale: 100 %
+
 
 Confirmation before import
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -192,7 +192,7 @@ From this last stage, by clicking on the coloured circle, you can view a report 
 
 .. figure:: images/Datainjection-7.png
    :alt:
-   :scale: 100 %
+
 
 Complete the operation
 ----------------------
@@ -202,5 +202,5 @@ Once the progress bar is full, click on **Finish**
 
 .. figure:: images/Datainjection-6.png
    :alt:
-   :scale: 100 %
+
 

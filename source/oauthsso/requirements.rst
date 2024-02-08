@@ -42,7 +42,7 @@ The fields that can be retrieved by SSO are as follows:
 
 .. figure:: images/oauhtsso-3.png
    :alt:
-   :scale: 100 %
+
 
 -  Save your Setup
 
@@ -53,4 +53,3 @@ You must also activate the automatic addition of users in GLPI to create them in
 
 .. figure:: images/oauhtsso-4.png
    :alt:
-   :scale: 100 %

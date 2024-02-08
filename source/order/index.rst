@@ -45,7 +45,7 @@ You will access the plugin configuration from the *Setup* > *Plugins* > *Orders 
 When the plugin is installed and enabled, the following options are available:
 
 .. image:: images/configuration_1.png
-   :scale: 100 %
+
 
 * Default VAT: indicates the amount of VAT that will be proposed by default in the plugin
 * Use the validation process: indicates whether the full validation circuit should be used, or whether anyone can validate applications.
@@ -69,7 +69,7 @@ Automatic actions when delivery Item
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: images/configuration_2.png
-   :scale: 100 %
+
 
 Generation does not apply to contracts, cartridges and consumables.
 In order to activate this feature, change the option Activate automatic generation to yes and validate.
@@ -89,7 +89,7 @@ Order lifecycle
 You can define your own status for order lifecycle
 
 .. image:: images/configuration_3.png
-   :scale: 100 %
+
 
 
 Creation of a reference catalogue
@@ -99,7 +99,7 @@ You will access the reference catalogue from the *Management* > *Orders* > *Prod
 
 
 .. image:: images/product_reference.png
-   :scale: 100 %
+
 
 
 The creation of product references is the prerequisite for order management.
@@ -128,7 +128,7 @@ Creating an order
 You will access orders from the *Management* > *Orders* > *Orders*.
 
 .. image:: images/create_order.png
-   :scale: 100 %
+
 
 Once the reference catalogue has been created, it is now possible to add material orders.
 The fields to be filled in are :
@@ -156,7 +156,7 @@ Adding articles
 ^^^^^^^^^^^^^^^
 
 .. image:: images/create_order_item.png
-   :scale: 100 %
+
 
 In the Details tab, it is now possible to add products to the order.
 
@@ -168,7 +168,7 @@ In the Details tab, it is now possible to add products to the order.
 * You can then validate the addition of these products to the order.
 
 .. image:: images/create_order_item_add.png
-   :scale: 100 %
+
 
 Note: it is possible to modify the price and the discount of a set of materials when the order is being edited.
 To do this, simply double-click on one of these 2 fields, modify its value and then validate the change.
@@ -177,7 +177,7 @@ Validation workflow
 ^^^^^^^^^^^^^^^^^^^
 
 .. image:: images/create_order_validation.png
-   :scale: 100 %
+
 
 The plugin has a validation workflow that works as follows:
 
@@ -208,7 +208,7 @@ Each product is identified by a line with the following information:
 By clicking on the *+* icon on the left of the line, it is possible to access the details of the products ordered.
 
 .. image:: images/create_order_item_delivered.png
-   :scale: 100 %
+
 
 Receiving material
 ^^^^^^^^^^^^^^^^^^
@@ -232,7 +232,7 @@ There are 2 ways to receive material :
 * Receipt of materials in bulk: in this case we will indicate how many products are received (without first selecting from the list).
 
 .. image::  images/create_order_item_delivered_delivery.png
-   :scale: 100 %
+
 
 
 In both cases, it is necessary to return the delivery note associated with the reception of the material. Alternatively, a status of the received objects can be indicated (e.g. Conforming, Non-conforming, etc).
@@ -245,7 +245,7 @@ Generate the material
 ^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: images/create_order_item_delivered_generate_item.png
-   :scale: 100 %
+
 
 In order to generate materials from received products, simply select from the list those for which this operation is to be performed.
 Then select the Generate associated material option.
@@ -264,7 +264,7 @@ Link to an inventory item
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: images/create_order_item_delivered_link_item.png
-   :scale: 100 %
+
 
 It is possible not to generate a received product, but to link it to material already present in GLPI.
 To do this, you must select the option Link to an existing material.
@@ -281,7 +281,7 @@ Rights management
 -----------------
 
 .. image:: images/rights.png
-   :scale: 100 %
+
 
 The plugin rights management allows to define, by profile, if the user has the right to :
 

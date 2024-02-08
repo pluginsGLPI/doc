@@ -27,7 +27,7 @@ Install the plugin
 
 .. figure:: images/Escalade-1.png
    :alt:
-   :scale: 99 %
+
 
 Assign a ticket
 ---------------
@@ -43,7 +43,7 @@ When the plugin is activated, a new option is available from the ticket interfac
 
 .. figure:: images/Escalade-2.png
    :alt:
-   :scale: 99 %
+
 
 Set plugin parameters
 ---------------------
@@ -148,31 +148,26 @@ Example :
 
    .. image:: images/filter_group.png
       :alt:
-      :scale: 99 %
 
    * **Groupe 1** is configured to allow ticket escalation only to **Groupe 2**
 
    .. image:: images/group_escalation.png
       :alt:
-      :scale: 99 %
 
    * **Joe** user can **only reassign** ticket to **Groupe 2** because it's assign to Groupe 1
 
    .. image:: images/ticket_filter_group.png
       :alt:
-      :scale: 99 %
 
    * For other users not assign to **Groupe 1**, they can't reassign group to ticket (groups are not proposed in the list of assignation)
 
    .. image:: images/ticket_filter_group_empty.png
       :alt:
-      :scale: 99 %
 
    * You can **bypass** this behavior per user
 
    .. image:: images/bypass_user.png
       :alt:
-      :scale: 99 %
 
 
 Ticket's search engine
@@ -182,7 +177,7 @@ Plugin add three new search option
 
 .. image:: images/searchoption.png
    :alt:
-   :scale: 99 %
+
 
 * Group concerning by escalation
 
@@ -204,10 +199,9 @@ New dashlet to display ticket solved to close and assign to you group
 
 .. image:: images/central_closed.png
    :alt:
-   :scale: 99 %
+
 
 New dashlet to display not solved ticket where your groups was not actually assign but was in the past
 
 .. image:: images/central_follow.png
    :alt:
-   :scale: 99 %
