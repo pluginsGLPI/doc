@@ -207,11 +207,10 @@ New dashlet to display ticket solved to close and assign to you group
 
 .. image:: images/central_closed.png
    :alt:
-   :scale:
 
 New dashlet to display not solved ticket where your groups was not actually assign but was in the past
 
 .. image:: images/central_follow.png
    :alt:
-   :scale:
+
 
