@@ -192,6 +192,9 @@ html_logo = 'static/images/glpi.png'
 # Custom sidebar templates, maps document names to template names.
 #
 # html_sidebars = {}
+html_sidebars = {
+    "**": ["logo-text.html", "globaltoc.html", "localtoc.html", "searchbox.html"]
+}
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.
