@@ -137,7 +137,14 @@ html_theme = 'sphinx_material'
 # documentation.
 #
 html_theme_options = {
-    'globaltoc_depth': 3
+    'nav_title': 'GLPI plugins’s documentation',
+
+    'color_primary': 'blue',
+    'color_accent': 'light-blue',
+    'globaltoc_depth': 1,
+
+    'repo_url': 'https://github.com/pluginsGLPI/doc/',
+    'repo_name': 'pluginsGLPI/doc',
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
