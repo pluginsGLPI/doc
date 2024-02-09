@@ -20,8 +20,8 @@ Download the plugin
 -  Go to **Marketplace**. Download and install the plugin **Rename GLPI strings**
 
 .. figure:: images/Rename_strings-1.png
-   :alt:
-
+   :alt: isntall the plugin
+   :scale: 100 %
 
 Creating an override
 --------------------
@@ -37,8 +37,8 @@ We are going to change the value **Computer** to **PC**
 -  Click on **Save**
 
 .. figure:: images/Rename_strings-2.png
-   :alt:
-
+   :alt: create override
+   :scale: 58 %
 
 Show the change
 ---------------
@@ -48,11 +48,12 @@ You may not see the change immediately. To make it appear, log out and then log 
 Before :
 
 .. figure:: images/Rename_strings-3.png
-   :alt:
-
+   :alt: before
+   :scale: 100 %
 
 After :
 
 .. figure:: images/Rename_strings-4.png
-   :alt:
+   :alt: after
+   :scale: 100 %
 

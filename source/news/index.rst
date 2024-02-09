@@ -65,7 +65,7 @@ Create alerts
 * Sub-entity : display or not on sub-entity
 
 .. image:: images/create.png
-
+   :scale: 70 %
 
 Targets
 -------
@@ -77,18 +77,16 @@ You can define target by type
 * User : for specifi user
 
 .. image:: images/target.png
-
-
+   :scale: 40 %
 
 Display on login page
 ---------------------
 
 .. image:: images/login_page.png
-
-
+   :scale: 40 %
 
 Display on helpdesk page
 ------------------------
 
 .. image:: images/helpdesk-page.png
-
+   :scale: 40 %

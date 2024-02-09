@@ -39,6 +39,7 @@ The 4 profiles you will find are :
 
 .. figure:: images/Anonymize-2.png
    :alt: Profiles
+   :scale: 60 %
 
 
 Anonymisable data per profile (predefined)
@@ -47,7 +48,8 @@ Anonymisable data per profile (predefined)
 Each profile has an element assigned to it. You will need to define the value of each attribute that it will be able to anonymise (or not)
 
 .. figure:: images/Anonymize-3.png
-   :alt:
+   :alt: attributes
+   :scale: 45 %
 
 
 Email
@@ -274,7 +276,8 @@ Global search
 You can ask GLPI to anoymise an attribute in the whole database and not only in the type of element you are in. The option **attributes to search and replace in others objects** is at the very bottom of your profile.
 
 .. figure:: images/Anonymize-4.png
-   :alt:
+   :alt: globalsearch
+   :scale: 55 %
 
 
 .. Note::
@@ -298,7 +301,8 @@ In our example, we will be anonymising `user data`.
 -  Click on **Actions** then **anonymise selected items**.
 
 .. figure:: images/Anonymize-5.gif
-   :alt:
+   :alt: massive action
+   :scale: 50 %
 
 
 

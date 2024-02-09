@@ -19,20 +19,18 @@ Install the plugin
 -  Go to the marketplace. Download and install the plugin **ApprovalByMail**.
 
 .. figure:: images/Approval_mail-1.png
-   :alt:
-
+   :alt: install the plugin
 
 Using the plugin
 ----------------
 
 Once activated, there are no specific settings to be made (apart from the notification layout, if you wish, via **Setup > Notifications > Notification templates**. The template is **Tickets validation**)
 
--  In a new ticket, enter the name of the person or group receiving the
-   approval request.
+-  In a new ticket, enter the name of the person or group receiving the approval request.
 
 .. figure:: images/Approval_mail-2.png
-   :alt:
-
+   :alt: add approbation
+   :scale: 45 %
 
 An email will be received with the option of **Validating** or **Refusing** the request. This contains 3 links (if no changes have been made to the model).
 
@@ -41,26 +39,26 @@ An email will be received with the option of **Validating** or **Refusing** the 
 -  The refusal link
 
 .. figure:: images/Approval_mail-3.png
-   :alt:
-
+   :alt: see the email
+   :scale: 75 %
 
 -  When the form is validated, you are redirected to GLPI with a
    notification of acceptance:
 
 .. figure:: images/Approval_mail-4.png
-   :alt:
-
+   :alt: validation ok
+   :scale: 100 %
 
 -  If the form is refused, a comment will be requested to validate the
    refusal:
 
 .. figure:: images/Approval_mail-5.png
-   :alt:
-
+   :alt: add text refused
+   :scale: 60 %
 
 -  It is not possible to reply 2 times to the validation, an error
    message will be displayed:
 
 .. figure:: images/Approval_mail-6.png
-   :alt:
-
+   :alt: refused
+   :scale: 100 %

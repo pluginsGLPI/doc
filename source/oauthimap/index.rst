@@ -41,17 +41,16 @@ Install the plugin
 -  Go to the marketplace. Download Oauth IMAP and enable it
 
 .. figure:: images/oauth-imap-1.png
-   :alt:
-
+   :alt: Install the plugin
+   :scale: 70 %
 
 -  Open the `Azure Portal <https://portal.azure.com/#home>`__ for your tenant
 -  In the search box type **registration**
 -  then select **App registrations**
 
 .. figure:: images/oauth-imap-2.png
-   :alt:
-
-
+   :alt: add app Entra
+   :scale: 100 %
 
 Here are the configuration steps including configuration phases on the Entra side.
 
@@ -67,8 +66,8 @@ Create the application
 -  Then click on **Register**.
 
 .. figure:: images/oauth-imap-3.png
-   :alt:
-
+   :alt: register app
+   :scale: 80 %
 
 Add a secret
 ~~~~~~~~~~~~
@@ -78,21 +77,21 @@ Add a secret
 -  Then **New client secret**
 
 .. figure:: images/oauth-imap-4.png
-   :alt:
-
+   :alt: add secret
+   :scale: 90 %
 
 -  Enter a description and then an expiration date
 -  A secret **value** is then generated. Keep this value well because once you have left this page, it will no longer be recoverable
 
 .. figure:: images/oauth-imap-5.png
-   :alt:
-
+   :alt: select value secret
+   :scale: 95 %
 
 -  Return to the **Overview** tab and **copy** the following values ​​and the secret seen above
 
 .. figure:: images/oauth-imap-6.png
-   :alt:
-
+   :alt: overview
+   :scale: 100 %
 
 Setup GLPI
 ----------
@@ -100,24 +99,25 @@ Setup GLPI
 -  Now go back to your GLPI interface **Setup > Application Aouth IMAP** and indicate the information collected previously :
 
 .. figure:: images/oauth-imap-7.png
-   :alt:
-
+   :alt: setup GLPI
+   :scale: 80 %
 
 -  Click **Add**
 -  Now in the **Oauth authorization** tab, click **Create an authorization**
 
 .. figure:: images/oauth-imap-8.png
-   :alt:
-
+   :alt: Oauth Auhorization
+   :scale: 100 %
 
 -  When you click on **Create authorization**, you will be redirected to the Microsoft services sign-in page
 -  Enter the email address and password of the account that will be used for the collector
 -  You will also need to accept the necessary permissions related to the plugin.
 
 .. figure:: images/oauth-imap-9.png
-   :alt:
-
+   :alt: app Auhorization
+   :scale: 100 %
 
 .. figure:: images/oauth-imap-10.png
-   :alt:
+   :alt: check account
+   :scale: 80 %
 

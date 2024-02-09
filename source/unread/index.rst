@@ -19,7 +19,8 @@ Install the plugin
 -  Go to the marketplace. Download and install the plugin **Unread messages**.
 
 .. figure:: images/Unread-1.png
-   :alt:
+   :alt: install the plugin
+   :scale: 100 %
 
 Setting up the plugin
 ---------------------
@@ -58,10 +59,11 @@ Display notifications
 Header
 ~~~~~~
 
-When a new activity has not yet been viewed, a :bell::point-filled: icon appears:
+When a new activity has not yet been viewed, a **bell icon** appears:
 
 .. figure:: images/Unread-2.png
-   :alt:
+   :alt: header bell icon
+   :scale: 40 %
 
 Listed
 ~~~~~~
@@ -70,7 +72,8 @@ Unread messages on a ticket highlight the ticket concerned and a red
 indicator :
 
 .. figure:: images/Unread-3.png
-   :alt:
+   :alt: highlight on ticket
+   :scale: 40 %
 
 Ticket timeline
 ~~~~~~~~~~~~~~~
@@ -78,7 +81,8 @@ Ticket timeline
 New messages will be identified by a banner **New messages**.
 
 .. figure:: images/Unread-4.png
-   :alt:
+   :alt: timeline
+   :scale: 40 %
 
 Management by entity
 ~~~~~~~~~~~~~~~~~~~~
@@ -89,5 +93,6 @@ Management by entity is possible to manage the counting of notifications by enti
 - In the **Unread messages** tab, select the option that suits you so that unread messages behave differently to the parent entity.
 
 .. figure:: images/Unread-5.png
-   :alt:
+   :alt: by entity
+   :scale: 60 %
 

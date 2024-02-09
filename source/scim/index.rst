@@ -15,7 +15,8 @@ GLPI Version Minimum PHP Recommended
 
 
 .. figure:: pics/logo.png
-   :alt:
+   :align: Center
+   :scale: 70 %
 
 
 This plugin let you provision your users and groups from an external identity provider using the `SCIM <https://en.wikipedia.org/wiki/System_for_Cross-domain_Identity_Management>`__ protocol. The update from the directory to GLPI is done “just in time”.
@@ -33,7 +34,7 @@ Go to **Setup** > **SCIM Identity servers** menu and click the **[+ Add]** butto
 
 .. figure:: pics/identity_server.png
    :alt: SCIM configuration
-
+   :scale: 40 %
 
 Fill at least:
 
@@ -63,8 +64,7 @@ Your SCIM server is now ready to receive requests from your identity provider.
 
 .. figure:: pics/scim_api.png
    :alt: SCIM API example
-
-
+   :scale: 78 %
 
 Providers
 ---------

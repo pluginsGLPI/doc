@@ -41,8 +41,8 @@ The fields that can be retrieved by SSO are as follows:
 -  Language: **language**
 
 .. figure:: images/oauhtsso-3.png
-   :alt:
-
+   :alt: field to complete
+   :scale: 45 %
 
 -  Save your Setup
 
@@ -52,4 +52,5 @@ You must also activate the automatic addition of users in GLPI to create them in
 - The **Automatically add users from external authentication sources** field must be changed to **Yes**
 
 .. figure:: images/oauhtsso-4.png
-   :alt:
+   :alt: add user auto
+   :scale: 50 %

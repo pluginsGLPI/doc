@@ -20,7 +20,7 @@ Download the plugin
 -  From the marketplace (**Setup > Plugins**), download the **Splitcat** plugin
 
 .. figure:: images/Splitcat-1.png
-   :alt:
+   :alt: install the plugin
 
 
 Settings
@@ -32,12 +32,13 @@ Before
 ~~~~~~
 
 .. figure:: images/Splitcat-2.gif
-   :alt:
+   :alt: before
+   :scale: 100 %
 
 
 After
 ~~~~~
 
 .. figure:: images/Splitcat-3.gif
-   :alt:
-
+   :alt: after
+   :scale: 100 %

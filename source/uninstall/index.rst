@@ -20,8 +20,6 @@ GLPI Version Minimum PHP Recommended
 .. Note::
    This plugin is available without a GLPI-Network subscription. It is also available in `Cloud <https://glpi-network.cloud/>`__
 
-
-
 Features
 --------
 This plugin, named "uninstall" or "Item Uninstallation", allows you to remove / replace devices from the inventory by automating certain actions on the fields.
@@ -68,6 +66,7 @@ Each template can contain different features, and be visible in the sub-entities
 Uninstall equipment is a transfer of the equipment to itself. During its transfer, a certain number of actions are performed, as specified in the definition of transfer.
 
 .. image:: images/uninstall.png
+   :scale: 38 %
 
 * *Name*: the name of the uninstall template
 * *Sub-entities*: indicates whether the template is visible in the creation entity and its sub-entities
@@ -89,6 +88,7 @@ Uninstall equipment is a transfer of the equipment to itself. During its transfe
 * *Delete FusionInventory info*: Delete all FusionInventory info for this material
 
 .. image:: images/model_uninstall.png
+   :scale: 37 %
 
 
 Uninstall hardware
@@ -101,12 +101,8 @@ There are 2 possibilities to uninstall a hardware:
 
 Since a template can be recursive (visible in the sub-entities), the list of templates displayed in the massive actions indicates all the templates available in the current entity (either those defined in this entity, or in an entity above it and visible in the sub-entities).
 
-
-
 Change of location on uninstallation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-
 
 It is possible to change the location of the hardware once it has been uninstalled.
 This selection is made either :
@@ -117,28 +113,26 @@ This selection is made either :
 It should be noted that a location is declared within an entity. It is therefore possible, depending on the current entity, to define an uninstall location.
 
 
-
 Replace feature
 ---------------
 
 This feature of the 'Item Uninstallation' plugin adds the possibility to replace one hardware by another.
 
-
-
 Replacement Model Form
 ^^^^^^^^^^^^^^^^^^^^^^
-
 
 Replacement models are managed in the same way as uninstall models:
 They are accessible in the menu "Administration > Uninstall hardware".
 Each model can contain different characteristics, and be visible in the sub-entities or not.
 
 In this form there are 4 tabs :
+
 * Main: allows to display on the page only the main information of the template.
 * Replacing data: displays the various actions to be performed when replacing one piece of equipment with another.
 * All: displays all the tabs on the same page
 
 .. image:: images/replace_main.png
+   :scale: 37 %
 
 Here is the description of the fields of the main tab :
 
@@ -153,6 +147,7 @@ Replacing data tab
 ^^^^^^^^^^^^^^^^^^
 
 .. image:: images/replace_data.png
+   :scale: 38 %
 
 Here is the description of the fields of the actions tab.
 
@@ -202,6 +197,7 @@ Once you have selected the hardware to be replaced via the massive actions, or y
 
 
 .. image:: images/recap.png
+   :scale: 38 %
 
 
 Change of location on replacement
@@ -209,6 +205,7 @@ Change of location on replacement
 
 It is possible to change the location of the equipment once it has been replaced.
 This selection is made either :
+
 * in the equipment sheet, once the replacement model has been chosen,
 * from the user's preferences for massive modification replacement.
 

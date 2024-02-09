@@ -43,6 +43,7 @@ Schematic diagram
 -----------------
 
 .. image:: images/workflow.png
+   :scale: 70 %
 
 
 Collected data
@@ -66,6 +67,7 @@ Automatic actions
 -----------------
 
 .. image:: images/actions.png
+   :scale: 70%
 
 
 SCCMCollect
