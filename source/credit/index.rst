@@ -25,8 +25,8 @@ Install the plugin
 -  Go to the marketplace. Download and install the plugin “**Credit**”.
 
 .. figure:: images/Credit-1.png
-   :alt:
-
+   :alt: install the plugin
+   :scale: 100 %
 
 Setting up the plugin
 ---------------------
@@ -38,21 +38,20 @@ Creating a credit type
 -  click on **Credits** then **Credit types**.
 
 .. figure:: images/Credit-2.png
-   :alt:
-
+   :alt: search credit
+   :scale: 100 %
 
 -  Click on **add**.
 -  Enter a name representing the type of credit granted
 
 .. figure:: images/Credit-3.png
-   :alt:
-
+   :alt: add credit
+   :scale: 60 %
 
 Add credit to customer entity(ies)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
-Example : “Case study for this article” We will create 3 types of credit:
+Example : We will create 3 types of credit:
 
    - For a new follow-up
    - For a new task
@@ -72,16 +71,16 @@ Example : “Case study for this article” We will create 3 types of credit:
 -  Click on **add**
 
 .. figure:: images/Credit-4.png
-   :alt:
-
+   :alt: add voucher
+   :scale: 42 %
 
 Here, we’ll do the same for the 3 types of credit (followup, task and solution)
 
 It is therefore possible to enter different values (number of credits, validity, overconsumption, etc.) for each credit:
 
 .. figure:: images/Credit-5.png
-   :alt:
-
+   :alt: list voucher
+   :scale: 55 %
 
 Define default values
 ~~~~~~~~~~~~~~~~~~~~~
@@ -92,7 +91,8 @@ Define default values
 -  Select the type of credit by action
 
   .. figure:: images/Credit-6.png
-   :alt:
+   :alt: default credit
+   :scale: 50 %
 
 
 -  Click on **Update**
@@ -111,26 +111,26 @@ In our example, we have chosen to deduct each action.
 -  If we are doing a **follow-up**, we can deduct the credit assigned by default:
 
 .. figure:: images/Credit-7.png
-   :alt:
-
+   :alt: add credit on ticket
+   :scale: 90 %
 
 -  The same for a **task**:
 
 .. figure:: images/Credit-8.png
-   :alt:
-
+   :alt: add credit on task
+   :scale: 95 %
 
 -  And for a **solution** :
 
 .. figure:: images/Credit-9.png
-   :alt:
-
+   :alt: add credit on solution
+   :scale: 85 %
 
 In the **Credit** section of the ticket you can see a summary of credits spent and remaining
 
 .. figure:: images/Credit-10.png
-   :alt:
-
+   :alt: list of credits
+   :scale: 50 %
 
 Modify a credit on a ticket
 ---------------------------
@@ -150,7 +150,8 @@ You can modify credits on a ticket if a readjustment is necessary.
 .. note::
    See how to proceed
       .. figure:: images/Credit-11.gif
-         :alt:
+         :alt: modify credit on ticket
+         :scale: 40 %
 
 Delete deducted credits
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -164,8 +165,8 @@ Delete deducted credits
 .. note::
    See how to proceed
       .. figure:: images/Credit-12.gif
-         :alt:
-
+         :alt: delete credit on ticket
+         :scale: 40 %
 
 Credits will be automatically reallocated in the credit bank
 
@@ -183,8 +184,8 @@ An automatic action is available to notify you when a credit has expired.
 -  Click on **Save**
 
 .. figure:: images/Credit-13.png
-   :alt:
-
+   :alt: automatic action
+   :scale: 43 %
 
 You can of course customise the notification to suit your needs (**Setup > Notifications > Notifications > credit expired**)
 

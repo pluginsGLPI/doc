@@ -26,7 +26,8 @@ Plugin installation
 -  Go to the marketplace. Download and install the plugin **Data Injection**
 
 .. figure:: images/Datainjection-1.png
-   :alt:
+   :alt: install the plugin
+   :scale: 100 %
 
 
 Rights management
@@ -71,8 +72,8 @@ The first step is to create a template if none exists.
 -  Click on **Add**
 
 .. figure:: images/Datainjection-2.png
-   :alt:
-
+   :alt: add template
+   :scale: 60 %
 
 Defining the model
 ^^^^^^^^^^^^^^^^^^
@@ -123,8 +124,8 @@ For each column, you can choose
    It is mandatory to define at least 1 linking field. If a field is checked, it must be entered in your **csv** file used for importing.
 
 .. figure:: images/Datainjection-3.png
-   :alt:
-
+   :alt: match the fields
+   :scale: 43 %
 
 .. Note::
    It is possible to define **Comments** or **Notes** as the destination for several columns in the file. Each column will be added to the field on a different line.
@@ -155,8 +156,8 @@ possible to return to the previous steps to check and correct certain
 options.
 
 .. figure:: images/Datainjection-4.png
-   :alt:
-
+   :alt: template validation
+   :scale: 42 %
 
 .. Warning::
    If you are working with a sub-entity, you must select the desired entity before importing.
@@ -177,8 +178,8 @@ Choosing a template
 -  Click on **Proceed with import**
 
 .. figure:: images/Datainjection-5.png
-   :alt:
-
+   :alt: import file
+   :scale: 70 %
 
 Confirmation before import
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -191,8 +192,8 @@ Import result
 From this last stage, by clicking on the coloured circle, you can view a report on the import and, in particular, locate any errors
 
 .. figure:: images/Datainjection-7.png
-   :alt:
-
+   :alt: import result
+   :scale: 73 %
 
 Complete the operation
 ----------------------
@@ -201,6 +202,7 @@ A popup window will ask you whether or not you want to confirm the import of the
 Once the progress bar is full, click on **Finish**
 
 .. figure:: images/Datainjection-6.png
-   :alt:
+   :alt: import completed
+   :scale: 45 %
 
 

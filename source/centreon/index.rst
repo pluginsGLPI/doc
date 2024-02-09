@@ -55,6 +55,7 @@ You will need to fill the following fields :
 
 .. image:: images/centreon-settings.jpg
    :alt: Centreon configuration
+   :scale: 37 %
 
 
 Then, it will create automatically a new SQL table named ``glpi_plugin_centreon_hosts``.
@@ -63,8 +64,10 @@ A new tab is created on the host page, so you can see the information about the 
 
 .. image:: images/centreon-accueil.jpg
    :alt: Centreon homepage
+   :scale: 45 %
 
 
 .. image:: images/centreon-timeline.jpg
    :alt: Centreon timeline
+   :scale: 45 %
 
