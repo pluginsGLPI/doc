@@ -32,6 +32,7 @@ Setup
    .. figure:: pics/azure-2.png
       :alt: Azure Configuration provisioning
 
+
    -  You must choose in the **Parameters** > **Extended** section how you want to synchronize your users and groups:
 
       -  Only users and groups assigned to the application. In this case, you must manually assign your users and groups to the application in the **Users and groups** section.

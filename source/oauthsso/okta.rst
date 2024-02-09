@@ -9,34 +9,46 @@ Create application
 -  Click on **Add**
 
 .. figure:: images/okta-2.png
-   :alt:
+   :alt: add SSO GLPI
+   :scale: 100 %
+
 
 -  Keep this window active and retain the callback URL :
 
 .. figure:: images/okta-3.png
-   :alt:
+   :alt: copy callback URL
+   :scale: 43 %
+
 
 -  In your OKTA interface, go to **Applications**
 -  **Create App Integration**
 
 .. figure:: images/okta-4.png
-   :alt:
+   :alt: create app
+   :scale: 80 %
+
 
 -  Select option **OIDC – OpenID Connect** in the 1st insert and **Web Application** in the second
 -  Click on **Next**
 
 .. figure:: images/okta-5.png
-   :alt:
+   :alt: select sign-in
+   :scale: 80 %
+
 
 -  Enter an application name and check the box **Client credentials**
 
 .. figure:: images/okta-6.png
-   :alt:
+   :alt: web integration
+   :scale: 100 %
+
 
 -  Enter the return URL, retrieved above, in Sign-in redirect URIs.
 
 .. figure:: images/okta-7.png
-   :alt:
+   :alt: paste URL callback
+   :scale: 90 %
+
 
 Assignments
 ~~~~~~~~~~~
@@ -45,7 +57,9 @@ Assignments
 -  Finally, click on **Save**
 
 .. figure:: images/okta-8.png
-   :alt:
+   :alt: assignments
+   :scale: 90 %
+
 
 Setup GLPI
 ~~~~~~~~~~
@@ -53,7 +67,9 @@ Setup GLPI
 -  In GLPI, go back to the Oauth SSO plugin configuration window and enter your OKTA tenant information :
 
 .. figure:: images/okta-9.png
-   :alt:
+   :alt: setup GLPI
+   :scale: 40 %
+
 
 1. Give your provider a name, which will appear on the login page.
 
@@ -64,14 +80,18 @@ Setup GLPI
 4. Enter the application ID found in the application previously created in OKTA
 
 .. figure:: images/okta-10.png
-   :alt:
+   :alt: client ID
+   :scale: 100 %
 
-5. Specify the ID field to be mapped with OKTA
 
-6. Specify the customer secret available in OKTA in the previously created application
+1. Specify the ID field to be mapped with OKTA
+
+2. Specify the customer secret available in OKTA in the previously created application
 
 .. figure:: images/okta-11.png
-   :alt:
+   :alt: add secret
+   :scale: 100 %
+
 
 7. Enter the name of your OKTA instance (https://XXXXXXXXX.okta.com), available in the account creation confirmation e-mail.
 
@@ -79,12 +99,18 @@ Setup GLPI
 - In the plugin, you will see the approval message:
 
 .. figure:: images/okta-12.png
-   :alt:
+   :alt: test connexion
+   :scale: 100 %
+
 
 Now that the configuration is complete, you can test it with a user.
 
 .. figure:: images/okta-13.png
-   :alt:
+   :alt: login page
+   :scale: 90 %
+
 
 .. figure:: images/okta-14.png
-   :alt:
+   :alt: home page
+   :scale: 90 %
+

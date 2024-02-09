@@ -19,7 +19,9 @@ Install the plugin
 -  Go to the marketplace. Download and install the plugin **PDF**
 
 .. figure:: images/PDF-1.png
-   :alt:
+   :alt: install the plugin
+   :scale: 100 %
+
 
 Set up the plugin
 -----------------
@@ -30,7 +32,9 @@ Set up the plugin
    -  Any text that will be displayed on the PDF.
 
 .. figure:: images/PDF-2.png
-   :alt:
+   :alt: setup the plugin
+   :scale: 45 %
+
 
 Using the plugin
 ----------------
@@ -43,7 +47,11 @@ Using the plugin
 -  Click on **Print**
 
 .. figure:: images/PDF-3.png
-   :alt:
+   :alt: example
+   :scale: 43 %
+
 
 .. figure:: images/PDF-4.png
-   :alt:
+   :alt: print PDF
+   :scale: 100 %
+

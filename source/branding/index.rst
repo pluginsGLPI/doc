@@ -10,17 +10,17 @@ GLPI Version Minimum PHP Recommended
 10.0.x       8.1         8.2
 ============ =========== ===========
 
-Install the plugin
-------------------
-
 .. note::
    A `basic licence <https://services.glpi-network.com/#offers>`__ (or higher) is required. This plugin is also available from the `Cloud <https://glpi-network.cloud/fr/>`__.
+
+Install the plugin
+------------------
 
 -  Go to the marketplace. Download and install the **Branding**
    plugin.
 
 .. figure:: images/branding-1.png
-   :alt:
+   :alt: install the plugin
 
 Customize your instance
 -----------------------
@@ -35,7 +35,8 @@ Here you can replace :
 -  the icon in the browser bar
 
 .. figure:: images/branding-2.png
-   :alt:
+   :alt: list of custom
+   :scale: 55 %
 
 Custom by entity
 ----------------
@@ -46,7 +47,8 @@ You can modify certain elements by entity:
 -  the icon in the browser bar
 
 .. figure:: images/branding-3.png
-   :alt:
+   :alt: custom by entity
+   :scale: 80 %
 
 Other customisations are common to all entities
 

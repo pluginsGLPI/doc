@@ -14,7 +14,8 @@ Form creation
 
 .. image:: images/administration_menu.png
 
-2. Click on the button to add a form **+**
+
+1. Click on the button to add a form **+**
 
 Following fields must be populated:
 
@@ -50,9 +51,11 @@ After clicking on the tab **Question** the following page displays:
 
 .. image:: images/questions_tab.png
 
+
 You must create a first **section**. Sections are intended to organize questions in the form.
 
 .. image:: images/section_creation.png
+
 
 It is possible to setup conditions to show the whole section, based on the answers provided to questions located in other sections of the form.
 
@@ -64,9 +67,11 @@ Click on the link **Add a question** in a section of your choice.
 .. image:: images/add_question.png
 
 
+
 The following page displays:
 
 .. image:: images/add_question_form.png
+
 
 A question is made of:
 
@@ -79,6 +84,7 @@ A question is made of:
  .. image:: images/show_field.png
 
 
+
 It submits the following choices:
 
 * **Always visible**: the field is always displays
@@ -89,15 +95,18 @@ Conditions may be multiple. To add or remove a condition two buttons are availab
 
  .. image:: images/question_condition_buttons.png
 
+
 .. note:: **List of pictograms**
 
  * The **circle** allows you to make a question mandatory
 
  .. image:: images/question_picto_mandatory.png
 
+
  , or optional
 
  .. image:: images/question_picto_optional.png
+
 
  * **Arrow up** and **arrow down** allow you to reorder questions in a section.
  * Clicking on a question allow you to edit it.
@@ -123,6 +132,7 @@ Actors
 ^^^^^^
  .. image:: images/actor_field.png
 
+
 This field allows you to choose one or several users:
 
 * in GLPI, available in **Administration > Users**
@@ -133,13 +143,16 @@ Checkboxes (multiple choices)
 
  .. image:: images/checkboxes_field.png
 
+
  .. image:: images/checkboxes_form.png
+
 
 Add a line per value in **Values**. Default values may be set in **Default values**, one per line. If this field is empty, no checkbox will be ticked.
 
 Date / Datetime / Time
 ^^^^^^^^^^^^^^^^^^^^^^^
  .. image:: images/datetime_field.png
+
 
 This field allows to select a date, a datetime or a time from a mini calendar.
 
@@ -155,6 +168,7 @@ This field allows the user to choose a value among those available in a dropdown
 
  .. image:: images/dropdown_field.png
 
+
 Email
 ^^^^^
 
@@ -164,6 +178,7 @@ File
 ^^^^
 
  .. image:: images/file_field.png
+
 
 This  field allows the requester to upload a file.
 
@@ -215,6 +230,7 @@ This field allows you to create a dropdown list with objects from a LDAP directo
  .. image:: images/ldap_form.png
 
 
+
 .. note::
    This type of questions cannot be used to fill actors of a target.
 
@@ -233,7 +249,9 @@ Radio buttons (one choice only)
 
  .. image:: images/radios_field.png
 
+
  .. image:: images/radios_form.png
+
 
 Add a line per value in **Values**. A default value may be set in **Default value**. If this field is empty, no radio will be selected.
 
@@ -321,9 +339,11 @@ To create a target click on the link **Add a target**
 
  .. image:: images/add_target.png
 
+
 The following window is then displayed:
 
  .. image:: images/add_target_form.png
+
 
 Choose a target name and type, then validate. The new target is created and is available for tuning.
 

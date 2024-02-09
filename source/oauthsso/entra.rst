@@ -11,7 +11,9 @@ First, register your application with your Entra Active Directory (Entra AD) cli
 -  Skip this step if you only have one Entra AD tenant under your account or if you have already selected one
 
 .. figure:: images/oauth-Entra-1.png
-   :alt:
+   :alt: change tenant
+   :scale: 100 %
+
 
 -  In the Entra Portal, search for and select **Entra Active Directory**
 -  From the left-hand **Active Directory** menu
@@ -19,15 +21,19 @@ First, register your application with your Entra Active Directory (Entra AD) cli
 -  Then **New Registration**.
 
 .. figure:: images/oauth-Entra-2.png
-   :alt:
+   :alt: add new app
+   :scale: 50 %
+
 
 -  Enter **web** in the redirect URI and paste the return URL of your GLPI instance:
 
 .. figure:: images/oauth-Entra-3.png
-   :alt:
+   :alt: register app
+   :scale: 70 %
 
 .. figure:: images/oauth-Entra-4.png
-   :alt:
+   :alt: copy callback
+   :scale: 45 %
 
 Secret and certificate
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -35,13 +41,15 @@ Secret and certificate
 -  In the **certificates and secrets** tab, create a new secret that will need to be transferred to your Oauth SSO application on the GLPI side:
 
 .. figure:: images/oauth-Entra-5.png
-   :alt:
+   :alt: add new secret
+   :scale: 60 %
 
 .. Warning::
    When you click on **add**, **the secret will only be available once**. As soon as you leave this page, **the secret will be hidden** and we will no longer be able to access it. Remember to **store it in a safe place** as we will need it later
 
    .. figure:: images/oauth-Entra-5bis.png
-      :alt:
+      :alt: copy value
+      :scale: 70 %
 
 Claims
 ~~~~~~
@@ -54,8 +62,8 @@ Claims
 - Add the 4 claims below:
 
 .. figure:: images/oauth-Entra-7.png
-   :alt:
-
+   :alt: add token
+   :scale: 100 %
 
 API authorisations
 ~~~~~~~~~~~~~~~~~~
@@ -65,10 +73,12 @@ GLPI must be able to read user information in order to use it for connection
 - Click on the API already present (Microsoft Graph for our example)
 
 .. figure:: images/oauth-Entra-12.png
-   :alt:
+   :alt: API authorisations
+   :scale: 100 %
 
 .. figure:: images/oauth-Entra-13.png
-   :alt:
+   :alt: add API
+   :scale: 100 %
 
 Select :
 
@@ -85,12 +95,14 @@ Setup GLPI
 -  Entra AD provides a description with the essential information you need:
 
 .. figure:: images/oauth-Entra-6.png
-   :alt:
+   :alt: overview app
+   :scale: 70 %
 
 -  Specify an application **name** visible to end users.
 
 .. figure:: images/oauth-Entra-4bis.png
-   :alt:
+   :alt: setup GLPI
+   :scale: 45 %
 
 Copy the values from the fields above:
 
@@ -107,13 +119,15 @@ Explanation of ID field
 -  3 values are available in this insert:
 
 .. figure:: images/oauth-Entra-8.png
-   :alt:
+   :alt: choose ID field
+   :scale: 100 %
 
 1) **User Principal Name (UPN)**: this option will show the full username of the user logging in (nom.prenom@mondomaine.com for example). If you want only the username to be visible (without the @mondomaine.com, see the **XXXXXXXXXX** paragraph).
 2) **Entra user ID (OID)**: this option takes the object ID from the Entra AD. This ID will be used for the user login
 
 .. figure:: images/oauth-Entra-9.png
-   :alt:
+   :alt: what is objet ID
+   :scale: 100 %
 
 3) **Email address**: This option specifies the user’s email address. This field will be used for the login. If it is empty, the UPN will be used.
 

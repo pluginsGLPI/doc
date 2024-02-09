@@ -1,16 +1,24 @@
 News
 ====
 
+Sources
+-------
+
 * Sources link: https://github.com/pluginsGLPI/news
 * Download: https://github.com/pluginsGLPI/news/releases
 
-Requirements for latest version
--------------------------------
 
-This plugin requires :
+Requirements (on-premise)
+-------------------------
 
-* PHP 7.2 or higher
-* GLPI >= 9.4
+============ =========== ===========
+GLPI Version Minimum PHP Recommended
+============ =========== ===========
+10.0.x       8.1         8.2
+============ =========== ===========
+
+.. note::
+   This plugin is available without a GLPI-Network subscription. It is also available in `Cloud <https://glpi-network.cloud/>`__
 
 
 Features
@@ -57,6 +65,7 @@ Create alerts
 * Sub-entity : display or not on sub-entity
 
 .. image:: images/create.png
+   :scale: 70 %
 
 Targets
 -------
@@ -68,15 +77,16 @@ You can define target by type
 * User : for specifi user
 
 .. image:: images/target.png
-
+   :scale: 40 %
 
 Display on login page
 ---------------------
 
 .. image:: images/login_page.png
-
+   :scale: 40 %
 
 Display on helpdesk page
 ------------------------
 
 .. image:: images/helpdesk-page.png
+   :scale: 40 %

@@ -16,7 +16,5 @@ For example, a very simple rule
 So I set my criteria and my action :
 
 .. figure:: images/oauhtsso-7.png
-   :alt:
-
-.. figure:: images/oauth-Entra-10.png
-   :alt:
+   :alt: add rules
+   :scale: 45 %

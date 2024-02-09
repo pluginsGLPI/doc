@@ -2,6 +2,18 @@
 Translate
 =========
 
+Requirements (on-premise)
+-------------------------
+
+============ =========== ===========
+GLPI Version Minimum PHP Recommended
+============ =========== ===========
+10.0.x       8.1         8.2
+============ =========== ===========
+
+.. note::
+   A `basic licence <https://services.glpi-network.com/#offers>`__ (or higher) is required. This plugin is also available from the `Cloud <https://glpi-network.cloud/fr/>`__.
+
 Introduction
 ------------
 
@@ -36,6 +48,7 @@ Translation of a ticket element is done by activating the translation button loc
 
 .. image:: images/translate_button.png
     :alt: Translate Button
+    :scale: 80 %
 
 ..
 
@@ -52,6 +65,7 @@ Once an element is translated, it will remain so until you request to undo the t
 
 .. image:: images/undo_translate_button.png
     :alt: Undo Translation Button
+    :scale: 80 %
 
 Translate Entire Timeline
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -60,6 +74,7 @@ It is possible to translate the entire timeline at once. To do this, display the
 
 .. image:: images/translate_all_elements.png
     :alt: Translate All Elements
+    :scale: 100 %
 
 Undo Translations / Display Original Versions of Entire Timeline
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -68,6 +83,7 @@ If all timeline elements are translated and you want to display their original v
 
 .. image:: images/undo_all_translations.png
     :alt: Undo All Translations
+    :scale: 100 %
 
 Translating a Follow-up during Writing
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -80,6 +96,7 @@ This feature is also available for tasks, validation requests, and solutions.
 
 .. image:: images/translate_followup.png
     :alt: Translate Follow-up
+    :scale: 80 %
 
 ..
 
@@ -109,36 +126,46 @@ Obtaining the API Key
 
     .. image:: images/deepl_api_section.png
         :alt: DeepL API Section
+        :scale: 35 %
+
 
 2. Select a plan
 
     .. image:: images/deepl_select_plan.png
         :alt: Select Plan
+        :scale: 35 %
+
 
 3. Log in or create an account
 
     .. image:: images/deepl_login.png
-        :alt: Log in or Create Account
+        :alt: Log in or Create Accoun
+        :scale: 35 %
 
 4. Enter your personal informations
 
     .. image:: images/deepl_personal_informations.png
         :alt: Enter Personal Informations
+        :scale: 35 %
 
 5. Accept the terms of use and complete the registration
 
     .. image:: images/deepl_terms.png
         :alt: Accept Terms
+        :scale: 35 %
 
 6. Click on "Account management" to retrieve your API key
 
     .. image:: images/deepl_account_management.png
         :alt: Account Management
+        :scale: 35 %
 
 7. In the "Account" tab, retrieve your API key at the bottom of the page, in the "Authentication Key for DeepL API" section
 
     .. image:: images/deepl_retrieve_api_key.png
         :alt: Retrieve API Key
+        :scale: 35 %
+
 
 Configuration
 -------------
@@ -150,6 +177,7 @@ After installing the plugin, it is necessary to enter a DeepL API key.
 
 .. image:: images/glpi_enter_apikey.png
     :alt: Enter API Key
+    :scale: 38 %
 
 Consumption Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^

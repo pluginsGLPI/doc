@@ -20,7 +20,7 @@ Install the plugin
 -  Go to the marketplace. Download and install the plugin **More satisfaction**
 
 .. figure:: images/Satisfaction.png
-   :alt:
+   :alt: install the plugin
 
 Create a survey
 ---------------
@@ -32,13 +32,15 @@ Create a survey
 - Then click on **Add**
 
 .. figure:: images/Satisfaction-1.png
-   :alt:
+   :alt: add satisfaction survey
+   :scale: 45 %
 
 .. Warning::
    It is only possible to create one survey per entity. If you wish to create several for different entities, remember to position yourself in the appropriate entity and do not tick the sub-entity box 
 
    .. figure:: images/Satisfaction-2.png
-      :alt:
+      :alt: sub entity
+      :scale: 100 %
 
 Create a question
 -----------------
@@ -49,7 +51,8 @@ Create a question
 - Then click **Add**
 
 .. figure:: images/Satisfaction-3.png
-   :alt:
+   :alt: create question
+   :scale: 45 %
 
 Create a text field
 -------------------
@@ -59,7 +62,8 @@ Create a text field
 - Enter the text to be displayed and click **Add**
 
 .. figure:: images/Satisfaction-4.png
-   :alt:
+   :alt: text for question
+   :scale: 45 %
 
 Create a note
 -------------
@@ -70,7 +74,8 @@ Create a note
 - Click on "Add" when you are happy with your settings
 
 .. figure:: images/Satisfaction-5.png
-   :alt:
+   :alt: add note
+   :scale: 45 %
 
 Preview
 -------
@@ -78,7 +83,8 @@ Preview
 The preview tab allows you to see what users will receive once their ticket has been closed
 
 .. figure:: images/Satisfaction-6.png
-   :alt:
+   :alt: preview
+   :scale: 45 %
 
 Translation
 -----------
@@ -89,7 +95,8 @@ You can translate each of the questions asked in the questionnaire into the lang
 - Choose the language you want and then, question by question, write the translation
 
 .. figure:: images/Satisfaction-7.png
-   :alt:
+   :alt: translate
+   :scale: 45 %
 
 Schedule reminders
 ------------------
@@ -108,7 +115,8 @@ Customised reminder
     - **Activate** your reminder
 
 .. figure:: images/Satisfaction-8.png
-   :alt:
+   :alt: custom reminder
+   :scale: 45 %
 
 Predefined reminder
 ~~~~~~~~~~~~~~~~~~~
@@ -118,7 +126,8 @@ Predefined reminder
 - You will have 3 options to choose from:
 
 .. figure:: images/Satisfaction-9.png
-   :alt:
+   :alt: predefined reminder
+   :scale: 75 %
 
 -  1 week: reminder every 7 days,
 -  2 weeks: reminder every 14 days.
@@ -133,9 +142,9 @@ Limit the number of reminders
 
 **Example** : If a person has not responded after 3 reminders, GLPI will no longer send reminders and the satisfaction survey will then remain unanswered
 
-.. figure:: images/Satisfaction-9.png
-   :alt:
-
+.. figure:: images/Satisfaction-10.png
+   :alt: reminder example
+   :scale: 45 %
 
 Set up the automatic action
 ---------------------------
@@ -146,6 +155,8 @@ Survey reminders are sent via an automatic action already created by the plugin.
 - Select the **SatisfactionReminder** action.
 
 .. figure:: images/Satisfaction-11.png
-   :alt:
+   :alt: automatic action
+   :scale: 70 %
+
 
 

@@ -26,6 +26,7 @@ Exporting forms
 
 .. image:: images/export_forms.png
 
+
 Importing forms
 ^^^^^^^^^^^^^^^
 
@@ -35,13 +36,15 @@ Importing forms
 
 .. image:: images/import_forms.png
 
+
 3. Select one or more JSON files created with the same version of Formcreator and validate.
 
 .. image:: images/import_forms_2.png
 
-4. Depending on the complexity and the quantity of forms the process may be slow. Please be patient.
 
-5. Carefully check the messages when the import completes. You may get warnings and errors.
+1. Depending on the complexity and the quantity of forms the process may be slow. Please be patient.
+
+2. Carefully check the messages when the import completes. You may get warnings and errors.
 
 Import behavior
 ^^^^^^^^^^^^^^^

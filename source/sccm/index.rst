@@ -1,6 +1,9 @@
 SCCM
 ====
 
+Sources
+-------
+
 * Sources link: https://github.com/pluginsGLPI/sccm
 * Download: https://github.com/pluginsGLPI/news/sccm
 
@@ -16,6 +19,9 @@ This plugin requires :
 * PHP curl_init and sqlsrv_connect
 * Microsoft System Center Configuration Manager
 * Microsoft Drivers for PHP for Microsoft SQL Server
+
+.. Note::
+   This plugin is available without a GLPI-Network subscription. It is not available in `Cloud <https://glpi-network.cloud/>`__
 
 
 Features
@@ -37,6 +43,7 @@ Schematic diagram
 -----------------
 
 .. image:: images/workflow.png
+   :scale: 70 %
 
 
 Collected data
@@ -60,6 +67,7 @@ Automatic actions
 -----------------
 
 .. image:: images/actions.png
+   :scale: 70%
 
 
 SCCMCollect

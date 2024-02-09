@@ -13,10 +13,14 @@ GLPI Version Minimum PHP Recommended
 .. note::
    A `basic license <https://services.glpi-network.com/#offers>`__ (or higher) is required. This plugin is also available from the `Cloud <https://glpi-network.cloud/fr/>`__.
 
+
+Install the plugin
+--------------------
+
 -  Go to the marketplace. Download and install the **GDPR Tools** plugin.
 
 .. figure:: images/GDRP-1.png
-   :alt:
+   :alt: Install the plugin
 
 Configure the plugin
 --------------------
@@ -66,7 +70,8 @@ scopes:
 -  Inactive users without tickets
 
 .. figure:: images/GDRP-2.png
-   :alt:
+   :alt: setup
+   :scale: 80 %
 
 Automated action
 ~~~~~~~~~~~~~~~~
@@ -76,6 +81,7 @@ Deletion will take place via a standard GLPI automatic action that can be config
 -  Go to **Setup > Automatic actions**, and select the **cleaninactiveuser** action then configure it according to your needs.
 
 .. figure:: images/GDRP-3.png
-   :alt:
+   :alt: automatic action
+   :scale: 65 %
 
 

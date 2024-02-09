@@ -19,7 +19,8 @@ Install the plugin
 -  Go to the marketplace. Download and install the plugin **Collaborative tools**.
 
 .. figure:: images/Webhook-1.png
-   :alt:
+   :alt: Install the plugin
+   :scale: 100 %
 
 Activate webhooks
 -----------------
@@ -27,7 +28,8 @@ Activate webhooks
 -  In the tab **Setup > Notifications** activate Webhooks notifications
 
 .. figure:: images/Webhook-2.png
-   :alt:
+   :alt: activate webhooks
+   :scale: 100 %
 
 Add a Webhook
 -------------
@@ -39,27 +41,32 @@ Mattermost
 -  Then Integrations
 
 .. figure:: images/Webhook-3.png
-   :alt:
+   :alt: integrations
+   :scale: 100 %
 
 -  Select **Incoming Webhooks**
 -  Then **Add a new incoming webhook**.
 
 .. figure:: images/Webhook-4.png
-   :alt:
+   :alt: incoming webhooks
+   :scale: 100 %
 
 .. figure:: images/Webhook-5.png
-   :alt:
+   :alt: add new webhook
+   :scale: 100 %
 
 -  Fill in the necessary fields and select the channel that will receive the notifications
 -  Then click on **Save**.
 
 .. figure:: images/Webhook-15.png
-   :alt:
+   :alt: complete webhook
+   :scale: 100 %
 
 -  You will then be sent the link to your Webhook:
 
 .. figure:: images/Webhook-16.png
-   :alt:
+   :alt: URL incoming webhook
+   :scale: 100 %
 
 Teams
 ~~~~~
@@ -69,30 +76,35 @@ Teams
 -  Then **Manage channel**
 
 .. figure:: images/Webhook-10.png
-   :alt:
+   :alt: manage channel
+   :scale: 100 %
 
 -  In the **Connectors** section,
 -  click on **Modify**
 
 .. figure:: images/Webhook-11.png
-   :alt:
+   :alt: edit connector
+   :scale: 75 %
 
 -  From the **incoming Webhook connector**
 -  click on **Configure**
 
 .. figure:: images/Webhook-12.png
-   :alt:
+   :alt: add webhook
+   :scale: 100 %
 
 -  Enter a name for your webhook and an image (optional)
 -  Click on **Create**
 
 .. figure:: images/Webhook-13.png
-   :alt:
+   :alt: setup webhook
+   :scale: 100 %
 
 -  You will then be sent the URL of your webhook
 
 .. figure:: images/Webhook-14.png
-   :alt:
+   :alt: copy URL
+   :scale: 100 %
 
 Telegram
 ~~~~~~~~
@@ -102,7 +114,8 @@ Telegram
 -  Once finished, a token will be sent to you:
 
 .. figure:: images/Webhook-17.png
-   :alt:
+   :alt: token HTTP API
+   :scale: 100 %
 
 -  If you have already created a dedicated channel to receive GLPI notifications, add your bot to it.
 -  Otherwise, create your own channel
@@ -185,7 +198,8 @@ Set up the webhook in GLPI
    -  the URL.
 
 .. figure:: images/Webhook-7.png
-   :alt:
+   :alt: setup GLPI
+   :scale: 65 %
 
 -  Click on **Add**
 
@@ -194,12 +208,16 @@ Set up the webhook in GLPI
    For Telegram, you will need to re-enter the webhook and add the **chat_id** you selected earlier
 
    .. figure:: images/Webhook-18.png
-      :alt:
+      :alt: paste chat_ID
+      :scale: 40 %
+      :align: center
+
 
 -  You can test how it works by selecting your webhook and clicking on **Send notification**
 
 .. figure:: images/Webhook-8.png
-   :alt:
+   :alt: test your webhook
+   :scale: 77 %
 
 Recipients
 ----------
@@ -211,7 +229,8 @@ Recipients
 -  In the **Recipients** tab, add your Webhook then **Update**.
 
 .. figure:: images/Webhook-19.png
-   :alt:
+   :alt: setup recipients
+   :scale: 43 %
 
 Templates
 ---------
@@ -222,5 +241,6 @@ Templates
  Your Webhook is ready to use. You can customise the template by clicking on **New** so that it matches your requirements.
 
 .. figure:: images/Webhook-20.png
-   :alt:
+   :alt: custom notification
+   :scale: 45 %
 

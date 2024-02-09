@@ -6,4 +6,6 @@ Using the Oauth SSO application configuration, you can mask the internal databas
 (setup > Oauth SSO applications > setup)
 
 .. figure:: images/oauth-Entra-11.png
-   :alt:
+   :alt: hide standard login
+   :scale: 100 %
+
