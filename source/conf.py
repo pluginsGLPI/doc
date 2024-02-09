@@ -137,8 +137,6 @@ html_theme = 'sphinx_material'
 # documentation.
 #
 html_theme_options = {
-    'nav_title': 'GLPI plugins’s documentation',
-
     'color_primary': 'blue',
     'color_accent': 'light-blue',
     'globaltoc_depth': 1,
