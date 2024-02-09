@@ -137,6 +137,8 @@ html_theme = 'sphinx_material'
 # documentation.
 #
 html_theme_options = {
+    'nav_title': '',
+
     'color_primary': 'blue',
     'color_accent': 'light-blue',
     'globaltoc_depth': 1,
