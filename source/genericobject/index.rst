@@ -544,7 +544,7 @@ Define Admin_biomed profile
 
 1. Clone *Admin* profile
 2. Set following rights in *Admin_biomed* profile :
-   
+
    * *Administration > Profiles > Admin_biomed > Assets tab > Unselect all*
    * *Administration > Profiles > Admin_biomed > Assistance tab > Association > Associable items to a ticket > Biomedical*
    * *Administration > Profiles > Admin_biomed > Management tab > Select all*
@@ -571,4 +571,4 @@ In order to gain time, define values in *Setup > Dropdowns > Objects management*
 FAQ
 ---
 
-If you have any questions about using the plugin, please consult `our faq <https://faq.teclib.com/04_Plugins/Generic_objects/>`__
+If you have any questions about using the plugin, please consult `our FAQ <https://faq.teclib.com/04_Plugins/Generic_objects/>`__
