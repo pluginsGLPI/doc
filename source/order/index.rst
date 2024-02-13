@@ -293,3 +293,8 @@ The plugin rights management allows to define, by profile, if the user has the r
 * Confirm an order
 * Cancel an order
 * Modify a validated order
+
+FAQ
+---
+
+If you have any questions about using the plugin, please consult `our faq <https://faq.teclib.com/04_Plugins/Order/>`__

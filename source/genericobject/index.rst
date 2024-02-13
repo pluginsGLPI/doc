@@ -567,3 +567,8 @@ Start using Generic Object and GLPI
 As *Admin_biomed* user, you can create your first object in *Assets > Biomedical*.
 
 In order to gain time, define values in *Setup > Dropdowns > Objects management* for new fields.
+
+FAQ
+---
+
+If you have any questions about using the plugin, please consult `our faq <https://faq.teclib.com/04_Plugins/Generic_objects/>`__

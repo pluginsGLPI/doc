@@ -90,3 +90,9 @@ Display on helpdesk page
 
 .. image:: images/helpdesk-page.png
    :scale: 40 %
+
+
+FAQ
+---
+
+If you have any questions about using the plugin, please consult `our faq <https://faq.teclib.com/04_Plugins/News/>`__

@@ -208,3 +208,8 @@ A            Yes or No       B           No
 A            Yes             C           Yes
 A            No              C           No
 ============ =============== =========== ===============
+
+FAQ
+---
+
+If you have any questions about using the plugin, please consult `our faq <https://faq.teclib.com/04_Plugins/Fields/>`__

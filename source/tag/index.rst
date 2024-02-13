@@ -99,3 +99,7 @@ Example : Assign a VIP tag when a member of the management group writes a ticket
     Tags can, of course, be added manually if they have been set to be visible in the specified item.
 
 
+FAQ
+---
+
+If you have any questions about using the plugin, please consult `our faq <https://faq.teclib.com/04_Plugins/Tags/>`__
