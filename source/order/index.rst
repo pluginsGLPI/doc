@@ -297,4 +297,4 @@ The plugin rights management allows to define, by profile, if the user has the r
 FAQ
 ---
 
-If you have any questions about using the plugin, please consult `our faq <https://faq.teclib.com/04_Plugins/Order/>`__
+If you have any questions about using the plugin, please consult `our FAQ <https://faq.teclib.com/04_Plugins/Order/>`__

@@ -144,4 +144,4 @@ Dashboard settings
 FAQ
 ---
 
-If you have any questions about using the plugin, please consult `our faq <https://faq.teclib.com/04_Plugins/Advanced_dashboard/>`__
+If you have any questions about using the plugin, please consult `our FAQ <https://faq.teclib.com/04_Plugins/Advanced_dashboard/>`__

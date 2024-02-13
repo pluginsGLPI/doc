@@ -1414,4 +1414,4 @@ Ticket templates
 FAQ
 ---
 
-If you have any questions about using the plugin, please consult `our faq <https://faq.teclib.com/04_Plugins/Anonymize/>`__
+If you have any questions about using the plugin, please consult `our FAQ <https://faq.teclib.com/04_Plugins/Anonymize/>`__

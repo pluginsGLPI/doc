@@ -66,4 +66,4 @@ An email will be received with the option of **Validating** or **Refusing** the 
 FAQ
 ---
 
-If you have any questions about using the plugin, please consult `our faq <https://faq.teclib.com/04_Plugins/Approval_mail/>`__
+If you have any questions about using the plugin, please consult `our FAQ <https://faq.teclib.com/04_Plugins/Approval_mail/>`__

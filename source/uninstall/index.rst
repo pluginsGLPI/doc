@@ -214,4 +214,4 @@ Note that a location is declared within an entity. It is therefore possible, dep
 FAQ
 ---
 
-If you have any questions about using the plugin, please consult `our faq <https://faq.teclib.com/04_Plugins/Uninstall/>`__
+If you have any questions about using the plugin, please consult `our FAQ <https://faq.teclib.com/04_Plugins/Uninstall/>`__

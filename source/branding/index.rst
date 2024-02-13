@@ -86,4 +86,4 @@ Default recommended size: **It depends on the usual size of your screens**. The 
 FAQ
 ---
 
-If you have any questions about using the plugin, please consult `our faq <https://faq.teclib.com/04_Plugins/Branding/>`__
+If you have any questions about using the plugin, please consult `our FAQ <https://faq.teclib.com/04_Plugins/Branding/>`__
