@@ -1,8 +1,13 @@
 Form creator
 ============
 
-* Sources link: https://github.com/pluginsGLPI/formcreator
-* Download: https://github.com/pluginsGLPI/formcreator/releases
+.. list-table::
+   :header-rows: 1
+
+   * - Download
+     - Sources
+   * - `<https://github.com/pluginsGLPI/formcreator/releases>`_
+     - `<https://github.com/pluginsGLPI/formcreator>`_
 
 FormCreator is a plugin which allow creation of custom forms of easy access.
 

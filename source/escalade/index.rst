@@ -1,12 +1,13 @@
 Escalade
 ========
 
-Sources
--------
+.. list-table::
+   :header-rows: 1
 
-* Sources link: `<https://github.com/pluginsGLPI/escalade>`_
-* Download: `<https://github.com/pluginsGLPI/escalade/releases>`_
-
+   * - Download
+     - Sources
+   * - `<https://github.com/pluginsGLPI/escalade/releases>`_
+     - `<https://github.com/pluginsGLPI/escalade>`_
 
 Requirements (on-premise)
 -------------------------

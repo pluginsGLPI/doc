@@ -1,12 +1,13 @@
 Uninstall
 =========
 
-Sources
--------
+.. list-table::
+   :header-rows: 1
 
-* Sources link: https://github.com/pluginsGLPI/uninstall
-* Download: https://github.com/pluginsGLPI/uninstall/releases
-
+   * - Download
+     - Sources
+   * - `<https://github.com/pluginsGLPI/uninstall/releases>`_
+     - `<https://github.com/pluginsGLPI/uninstall>`_
 
 Requirements (on-premise)
 -------------------------

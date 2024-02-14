@@ -1,11 +1,13 @@
 Centreon
 ========
 
-Sources
--------
+.. list-table::
+   :header-rows: 1
 
-* Sources link: `<https://github.com/pluginsGLPI/centreon>`_
-* Download: `<https://github.com/pluginsGLPI/centreon/releases>`_
+   * - Download
+     - Sources
+   * - `<https://github.com/pluginsGLPI/centreon/releases>`_
+     - `<https://github.com/pluginsGLPI/centreon>`_
 
 Requirements (on-premise)
 -------------------------

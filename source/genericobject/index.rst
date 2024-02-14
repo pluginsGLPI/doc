@@ -1,12 +1,13 @@
 Generic Object
 ==============
 
-Sources
--------
+.. list-table::
+   :header-rows: 1
 
-* Sources link: https://github.com/pluginsGLPI/genericobject
-* Download: https://github.com/pluginsGLPI/genericobject/releases
-
+   * - Download
+     - Sources
+   * - `<https://github.com/pluginsGLPI/genericobject/releases>`_
+     - `<https://github.com/pluginsGLPI/genericobject>`_
 
 Requirements (on-premise)
 -------------------------

@@ -1,11 +1,13 @@
 Treeview
 ========
 
-Sources
--------
+.. list-table::
+   :header-rows: 1
 
-* Sources link: https://github.com/pluginsGLPI/treeview
-* Download: https://github.com/pluginsGLPI/treeview/releases
+   * - Download
+     - Sources
+   * - `<https://github.com/pluginsGLPI/treeview/releases>`_
+     - `<https://github.com/pluginsGLPI/treeview>`_
 
 Requirements for latest version
 -------------------------------

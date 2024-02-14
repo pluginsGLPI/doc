@@ -1,6 +1,14 @@
 Tag
 ===
 
+.. list-table::
+   :header-rows: 1
+
+   * - Download
+     - Sources
+   * - `<https://github.com/pluginsGLPI/tag/releases>`_
+     - `<https://github.com/pluginsGLPI/tag>`_
+
 Requirements (on-premise)
 -------------------------
 
@@ -13,14 +21,6 @@ GLPI Version Minimum PHP Recommended
 
 .. note::
    This plugin is available without a GLPI-Network subscription. It is also available in Cloud.
-
-
-Sources
--------
-
-- Sources link: https://github.com/pluginsGLPI/tag
-- Download: https://github.com/pluginsGLPI/tag/releases
-
 
 Install the plugin
 ------------------

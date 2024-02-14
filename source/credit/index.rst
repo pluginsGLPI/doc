@@ -1,11 +1,13 @@
 Credit
 ======
 
-Sources
--------
+.. list-table::
+   :header-rows: 1
 
-* Sources link: `<https://github.com/pluginsGLPI/credit>`_
-* Download: `<https://github.com/pluginsGLPI/credit/releases>`_
+   * - Download
+     - Sources
+   * - `<https://github.com/pluginsGLPI/credit/releases>`_
+     - `<https://github.com/pluginsGLPI/credit>`_
 
 Requirements (on-premise)
 -------------------------
