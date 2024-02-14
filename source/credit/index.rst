@@ -27,7 +27,7 @@ Install the plugin
 -  Go to the marketplace. Download and install the plugin “**Credit**”.
 
 .. figure:: images/Credit-1.png
-   :alt: install the plugin
+   :alt: Install the plugin
    :scale: 100 %
 
 Setting up the plugin
