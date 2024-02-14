@@ -11,7 +11,7 @@ GLPI Version Minimum PHP Recommended
 ============ =========== ===========
 
 .. note::
-   A `basic licence <https://services.glpi-network.com/#offers>`__ (or higher) is required. This plugin is also available on `Cloud <https://glpi-network.cloud/fr/>`__.
+   A `basic licence <https://services.glpi-network.com/#offers>`_ (or higher) is required. This plugin is also available on `Cloud <https://glpi-network.cloud/fr/>`__.
 
 Install the plugin
 ------------------
@@ -99,4 +99,4 @@ Management by entity is possible to manage the counting of notifications by enti
 FAQ
 ---
 
-If you have any questions about using the plugin, please consult `our FAQ <https://faq.teclib.com/04_Plugins/Unread/>`__
+If you have any questions about using the plugin, please consult `our FAQ <https://faq.teclib.com/04_Plugins/Unread/>`_

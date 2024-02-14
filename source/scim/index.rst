@@ -11,7 +11,7 @@ GLPI Version Minimum PHP Recommended
 ============ =========== ===========
 
 .. note::
-   A `basic licence <https://services.glpi-network.com/#offers>`__ (or higher) is required. This plugin is also available from the `Cloud <https://glpi-network.cloud/fr/>`__.
+   A `basic licence <https://services.glpi-network.com/#offers>`_ (or higher) is required. This plugin is also available from the `Cloud <https://glpi-network.cloud/fr/>`__.
 
 
 .. figure:: pics/logo.png
@@ -19,7 +19,7 @@ GLPI Version Minimum PHP Recommended
    :scale: 70 %
 
 
-This plugin let you provision your users and groups from an external identity provider using the `SCIM <https://en.wikipedia.org/wiki/System_for_Cross-domain_Identity_Management>`__ protocol. The update from the directory to GLPI is done “just in time”.
+This plugin let you provision your users and groups from an external identity provider using the `SCIM <https://en.wikipedia.org/wiki/System_for_Cross-domain_Identity_Management>`_ protocol. The update from the directory to GLPI is done “just in time”.
 Each modification is done on the fly, without any cron. GLPI is the service provider, and the directory is the identity provider.
 
 **Warning, the SCIM API endpoint provided by the plugin must be accessible from the identity provider.** If we talk about Azure or Okta, this particular url should be available from the internet. We suggest strongly to limit the ip addresses that can access this url (in addition of adding a strong authentication method).
@@ -43,7 +43,7 @@ Fill at least:
 - check the “Active” field,
 - and submit by clicking the [+ Add] button at the bottom of the form.
 
-You’ll be given an API url you may paste into your identity provider configuration. Check `specific provider documentation <#providers>`__ for more details.
+You’ll be given an API url you may paste into your identity provider configuration. Check `specific provider documentation <#providers>`_ for more details.
 
 You may set some optional parameters :
 
@@ -75,13 +75,13 @@ Providers
 A Note about passwords sync
 ---------------------------
 
-Although it’s mentioned in the `SCIM specifications <https://datatracker.ietf.org/doc/html/rfc7643#section-9.2>`__, password sync is not always available depending on the provider:
+Although it’s mentioned in the `SCIM specifications <https://datatracker.ietf.org/doc/html/rfc7643#section-9.2>`_, password sync is not always available depending on the provider:
 
--  Azure: `not available <https://learn.microsoft.com/en-us/answers/questions/1113754/azure-ad-scim-provisioning-how-to-sync-passwords>`__
--  Okta: `available <https://developer.okta.com/docs/concepts/scim/#sync-passwords>`__
+-  Azure: `not available <https://learn.microsoft.com/en-us/answers/questions/1113754/azure-ad-scim-provisioning-how-to-sync-passwords>`_
+-  Okta: `available <https://developer.okta.com/docs/concepts/scim/#sync-passwords>`_
 
 
 FAQ
 ---
 
-If you have any questions about using the plugin, please consult `our FAQ <https://faq.teclib.com/04_Plugins/SCIM/>`__
+If you have any questions about using the plugin, please consult `our FAQ <https://faq.teclib.com/04_Plugins/SCIM/>`_

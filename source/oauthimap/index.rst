@@ -25,7 +25,7 @@ GLPI Version Minimum PHP Recommended
 ============ =========== ===========
 
 .. Note::
-   This plugin is available without a GLPI-Network subscription. It is also available in `Cloud <https://glpi-network.cloud/>`__
+   This plugin is available without a GLPI-Network subscription. It is also available in `Cloud <https://glpi-network.cloud/>`_
 
 
 Supported mail services
@@ -46,7 +46,7 @@ Install the plugin
    :alt: Install the plugin
    :scale: 70 %
 
--  Open the `Azure Portal <https://portal.azure.com/#home>`__ for your tenant
+-  Open the `Azure Portal <https://portal.azure.com/#home>`_ for your tenant
 -  In the search box type **registration**
 -  then select **App registrations**
 
@@ -126,4 +126,4 @@ Setup GLPI
 FAQ
 ---
 
-If you have any questions about using the plugin, please consult `our FAQ <https://faq.teclib.com/04_Plugins/OAuth_IMAP/>`__
+If you have any questions about using the plugin, please consult `our FAQ <https://faq.teclib.com/04_Plugins/OAuth_IMAP/>`_
