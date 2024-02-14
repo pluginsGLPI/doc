@@ -1,11 +1,13 @@
 SCCM
 ====
 
-Sources
--------
+.. list-table::
+   :header-rows: 1
 
-* Sources link: https://github.com/pluginsGLPI/sccm
-* Download: https://github.com/pluginsGLPI/news/sccm
+   * - Download
+     - Sources
+   * - `<https://github.com/pluginsGLPI/sccm/releases>`_
+     - `<https://github.com/pluginsGLPI/sccm>`_
 
 Requirements for latest version
 -------------------------------

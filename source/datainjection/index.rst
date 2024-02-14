@@ -1,6 +1,14 @@
 Datainjection
 =============
 
+.. list-table::
+   :header-rows: 1
+
+   * - Download
+     - Sources
+   * - `<https://github.com/pluginsGLPI/datainjection/releases>`_
+     - `<https://github.com/pluginsGLPI/datainjection>`_
+
 Requirements (on-premise)
 -------------------------
 
@@ -12,13 +20,6 @@ GLPI Version Minimum PHP Recommended
 
 .. Note::
    This plugin is available without a GLPI-Network subscription. It is also available in `Cloud <https://glpi-network.cloud/>`__
-
-Sources and download
---------------------
-
-- Sources link: https://github.com/pluginsGLPI/datainjection
-- Download: https://github.com/pluginsGLPI/datainjection/releases
-
 
 Plugin installation
 -------------------

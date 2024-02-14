@@ -1,12 +1,13 @@
 Order
 =====
 
-Sources
--------
+.. list-table::
+   :header-rows: 1
 
-* Sources link: https://github.com/pluginsGLPI/order
-* Download: https://github.com/pluginsGLPI/genericobject/order
-
+   * - Download
+     - Sources
+   * - `<https://github.com/pluginsGLPI/order/releases>`_
+     - `<https://github.com/pluginsGLPI/order>`_
 
 Requirements (on-premise)
 -------------------------

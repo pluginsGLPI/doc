@@ -1,13 +1,15 @@
 Fields
 ======
 
-Sources
--------
+Fields plugin allows to add additional fields on various items GLPI manages: tickets, computers, users, ...
 
-* Sources link: `<https://github.com/pluginsGLPI/fields>`_
-* Download: `<https://github.com/pluginsGLPI/fields/releases>`_
+.. list-table::
+   :header-rows: 1
 
-
+   * - Download
+     - Sources
+   * - `<https://github.com/pluginsGLPI/fields/releases>`_
+     - `<https://github.com/pluginsGLPI/fields>`_
 
 Requirements (on-premise)
 -------------------------
@@ -20,15 +22,6 @@ GLPI Version Minimum PHP Recommended
 
 .. Note::
    This plugin is available without a GLPI-Network subscription. It is also available in `Cloud <https://glpi-network.cloud/>`__
-
-Sources
--------
-
-* Sources link: https://github.com/pluginsGLPI/fields
-* Download: https://github.com/pluginsGLPI/fields/releases
-
-Fields plugin allows to add additional fields on various items GLPI manages: tickets, computers, users, ...
-
 
 Features
 --------

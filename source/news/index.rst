@@ -1,12 +1,13 @@
 News
 ====
 
-Sources
--------
+.. list-table::
+   :header-rows: 1
 
-* Sources link: https://github.com/pluginsGLPI/news
-* Download: https://github.com/pluginsGLPI/news/releases
-
+   * - Download
+     - Sources
+   * - `<https://github.com/pluginsGLPI/news/releases>`_
+     - `<https://github.com/pluginsGLPI/news>`_
 
 Requirements (on-premise)
 -------------------------

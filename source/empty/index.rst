@@ -1,8 +1,14 @@
 Empty
 =====
 
-* Sources link: https://github.com/pluginsGLPI/empty
-* Download: *not relevant*
+
+.. list-table::
+   :header-rows: 1
+
+   * - Download
+     - Sources
+   * - *not relevant*
+     - `<https://github.com/pluginsGLPI/empty>`_
 
 This plugins does... nothing. Really!
 

@@ -1,8 +1,13 @@
 Example
 =======
 
-* Sources link: https://github.com/pluginsGLPI/example
-* Download: *not relevant*
+.. list-table::
+   :header-rows: 1
+
+   * - Download
+     - Sources
+   * - *not relevant*
+     - `<https://github.com/pluginsGLPI/example>`_
 
 An example plugin... This is designed to show you various possibilities that are offered to plugins from GLPI core.
 
