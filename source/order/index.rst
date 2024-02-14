@@ -19,7 +19,7 @@ GLPI Version Minimum PHP Recommended
 ============ =========== ===========
 
 .. Note::
-   This plugin is available without a GLPI-Network subscription. It is also available in `Cloud <https://glpi-network.cloud/>`__
+   This plugin is available without a GLPI-Network subscription. It is also available in `Cloud <https://glpi-network.cloud/>`_
 
 Features
 --------
@@ -298,4 +298,4 @@ The plugin rights management allows to define, by profile, if the user has the r
 FAQ
 ---
 
-If you have any questions about using the plugin, please consult `our FAQ <https://faq.teclib.com/04_Plugins/Order/>`__
+If you have any questions about using the plugin, please consult `our FAQ <https://faq.teclib.com/04_Plugins/Order/>`_

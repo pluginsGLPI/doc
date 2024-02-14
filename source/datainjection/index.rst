@@ -19,7 +19,7 @@ GLPI Version Minimum PHP Recommended
 ============ =========== ===========
 
 .. Note::
-   This plugin is available without a GLPI-Network subscription. It is also available in `Cloud <https://glpi-network.cloud/>`__
+   This plugin is available without a GLPI-Network subscription. It is also available in `Cloud <https://glpi-network.cloud/>`_
 
 Plugin installation
 -------------------
@@ -210,4 +210,4 @@ Once the progress bar is full, click on **Finish**
 FAQ
 ---
 
-If you have any questions about using the plugin, please consult `our FAQ <https://faq.teclib.com/04_Plugins/Data_injection/>`__
+If you have any questions about using the plugin, please consult `our FAQ <https://faq.teclib.com/04_Plugins/Data_injection/>`_

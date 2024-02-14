@@ -6,9 +6,9 @@ OKTA
 References:
 -----------
 
--  `Understanding SCIM <https://developer.okta.com/docs/concepts/scim/>`__
--  `Add SCIM provisioning to app integrations <https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SCIM.htm>`__
--  `Assign applications to users <https://help.okta.com/en-us/Content/Topics/users-groups-profiles/usgp-assign-apps.htm>`__
+-  `Understanding SCIM <https://developer.okta.com/docs/concepts/scim/>`_
+-  `Add SCIM provisioning to app integrations <https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SCIM.htm>`_
+-  `Assign applications to users <https://help.okta.com/en-us/Content/Topics/users-groups-profiles/usgp-assign-apps.htm>`_
 
 Setup
 -----

@@ -8,7 +8,7 @@ Adding new features
 
 You can help us adding new features by forking the GitHub repository.
 
-Develop the new feature on your branch and then, ask for a `pull request <https://github.com/pluginsGLPI/formcreator/pulls>`__ to merge your development into the repository.
+Develop the new feature on your branch and then, ask for a `pull request <https://github.com/pluginsGLPI/formcreator/pulls>`_ to merge your development into the repository.
 
 You can also help us debug the `declared issues and requested features <https://github.com/pluginsGLPI/formcreator/issues>`_.
 
@@ -31,7 +31,7 @@ Documentation
 
 You can fork the `documentation repository <https://github.com/pluginsGLPI/doc>`_ to add new contents or fix some issues in existing content.
 
-Make your changes on your branch and then, ask for a `pull request <https://github.com/pluginsGLPI/doc/pulls>`__) to merge it into the repository.
+Make your changes on your branch and then, ask for a `pull request <https://github.com/pluginsGLPI/doc/pulls>`_) to merge it into the repository.
 
 Translations
 ^^^^^^^^^^^^

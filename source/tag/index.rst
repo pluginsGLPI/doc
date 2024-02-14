@@ -102,4 +102,4 @@ Example : Assign a VIP tag when a member of the management group writes a ticket
 FAQ
 ---
 
-If you have any questions about using the plugin, please consult `our FAQ <https://faq.teclib.com/04_Plugins/Tags/>`__
+If you have any questions about using the plugin, please consult `our FAQ <https://faq.teclib.com/04_Plugins/Tags/>`_

@@ -23,7 +23,7 @@ This plugin requires :
 * Microsoft Drivers for PHP for Microsoft SQL Server
 
 .. Note::
-   This plugin is available without a GLPI-Network subscription. It is not available in `Cloud <https://glpi-network.cloud/>`__
+   This plugin is available without a GLPI-Network subscription. It is not available in `Cloud <https://glpi-network.cloud/>`_
 
 
 Features

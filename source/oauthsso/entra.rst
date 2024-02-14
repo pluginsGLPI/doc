@@ -6,7 +6,7 @@ Register your application in Entra
 
 First, register your application with your Entra Active Directory (Entra AD) client. This will provide you with an application ID for your application and allow it to receive tokens.
 
--  Connect to the `Entra portal <https://entra.microsoft.com/#home>`__
+-  Connect to the `Entra portal <https://entra.microsoft.com/#home>`_
 -  Choose your Entra AD tenant by selecting your account in the top right corner of the page. Then select the **Change directory** navigation bar, then the desired tenant
 -  Skip this step if you only have one Entra AD tenant under your account or if you have already selected one
 

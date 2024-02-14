@@ -6,12 +6,12 @@ Azure portal
 References:
 -----------
 
--  `Use scim to provision users and groups <https://learn.microsoft.com/fr-fr/azure/active-directory/app-provisioning/use-scim-to-provision-users-and-groups#integrate-your-scim-endpoint-with-the-azure-ad-provisioning-service>`__
+-  `Use scim to provision users and groups <https://learn.microsoft.com/fr-fr/azure/active-directory/app-provisioning/use-scim-to-provision-users-and-groups#integrate-your-scim-endpoint-with-the-azure-ad-provisioning-service>`_
 
 Setup
 -----
 
--  Connect to your `Azure portal <https://aad.portal.azure.com/>`__ and  go to the **Azure Active Directory** > **Enterprise applications** menu.
+-  Connect to your `Azure portal <https://aad.portal.azure.com/>`_ and  go to the **Azure Active Directory** > **Enterprise applications** menu.
 -  Select **New application** and choose **Create your own application**.
 -  Choose a name for your application, select **Integrate any other application you don’t find in the gallery (Non-gallery)** and click on the **[Create]** button.
 

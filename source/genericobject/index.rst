@@ -19,7 +19,7 @@ GLPI Version Minimum PHP Recommended
 ============ =========== ===========
 
 .. note::
-   This plugin is available without a GLPI-Network subscription. It is also available in `Cloud <https://glpi-network.cloud/>`__
+   This plugin is available without a GLPI-Network subscription. It is also available in `Cloud <https://glpi-network.cloud/>`_
 
 
 Features
@@ -572,4 +572,4 @@ In order to gain time, define values in *Setup > Dropdowns > Objects management*
 FAQ
 ---
 
-If you have any questions about using the plugin, please consult `our FAQ <https://faq.teclib.com/04_Plugins/Generic_objects/>`__
+If you have any questions about using the plugin, please consult `our FAQ <https://faq.teclib.com/04_Plugins/Generic_objects/>`_

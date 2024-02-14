@@ -4,7 +4,7 @@ Google
 Creating a project
 ~~~~~~~~~~~~~~~~~~
 
--  From your `Google console <https://console.cloud.google.com/>`__ (administrator access is required)
+-  From your `Google console <https://console.cloud.google.com/>`_ (administrator access is required)
 -  Go to your organisation then new project
 -  Enter the name of your project
 -  Click on **Create**
