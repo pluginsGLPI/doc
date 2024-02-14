@@ -1,16 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016, Teclib'
+# Copyright (C) 2016-2024, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPI plugins 0.1\n"
+"Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-14 15:17+0200\n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
 "PO-Revision-Date: 2020-01-24 08:41+0000\n"
-"Language-Team: Catalan (Spain) (https://www.transifex.com/teclib/teams/28042/ca_ES/)\n"
+"Language-Team: Catalan (Spain) (https://app.transifex.com/teclib/teams/28042/ca_ES/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,246 +21,272 @@ msgstr ""
 msgid "Uninstall"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:4
-msgid "Sources link: https://github.com/pluginsGLPI/uninstall"
-msgstr ""
-
-#: ../../source/uninstall/index.rst:5
-msgid "Download: https://github.com/pluginsGLPI/uninstall/releases"
+#: ../../source/uninstall/index.rst:7
+msgid "Download"
 msgstr ""
 
 #: ../../source/uninstall/index.rst:8
-msgid "Requirements for latest version"
+msgid "Sources"
+msgstr ""
+
+#: ../../source/uninstall/index.rst:9
+msgid "`<https://github.com/pluginsGLPI/uninstall/releases>`_"
 msgstr ""
 
 #: ../../source/uninstall/index.rst:10
-msgid "This plugin requires :"
-msgstr ""
-
-#: ../../source/uninstall/index.rst:12
-msgid "PHP 7.2 or higher"
+msgid "`<https://github.com/pluginsGLPI/uninstall>`_"
 msgstr ""
 
 #: ../../source/uninstall/index.rst:13
-msgid "GLPI >= 9.4"
+msgid "Requirements (on-premise)"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:17
-msgid "Features"
+#: ../../source/uninstall/index.rst:16
+msgid "GLPI Version"
+msgstr ""
+
+#: ../../source/uninstall/index.rst:16
+msgid "Minimum PHP"
+msgstr ""
+
+#: ../../source/uninstall/index.rst:16
+msgid "Recommended"
 msgstr ""
 
 #: ../../source/uninstall/index.rst:18
+msgid "10.0.x"
+msgstr ""
+
+#: ../../source/uninstall/index.rst:18
+msgid "8.1"
+msgstr ""
+
+#: ../../source/uninstall/index.rst:18
+msgid "8.2"
+msgstr ""
+
+#: ../../source/uninstall/index.rst:22
+msgid ""
+"This plugin is available without a GLPI-Network subscription. It is also "
+"available in `Cloud <https://glpi-network.cloud/>`_"
+msgstr ""
+
+#: ../../source/uninstall/index.rst:25
+msgid "Features"
+msgstr ""
+
+#: ../../source/uninstall/index.rst:26
 msgid ""
 "This plugin, named \"uninstall\" or \"Item Uninstallation\", allows you to "
 "remove / replace devices from the inventory by automating certain actions on"
 " the fields."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:20
+#: ../../source/uninstall/index.rst:28
 msgid ""
 "It allows to manage the different stages of the life cycle of a hardware. It"
 " has been designed, among other things, to handle the following cases:"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:23
+#: ../../source/uninstall/index.rst:31
 msgid "scrapping of equipment"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:24
+#: ../../source/uninstall/index.rst:32
 msgid "removal from inventory of temporary equipment due to breakdown"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:25
+#: ../../source/uninstall/index.rst:33
 msgid ""
 "Replacement of equipment under a warranty for example (See: Replacement "
 "Equipment Feature)"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:27
+#: ../../source/uninstall/index.rst:35
 msgid "Once installed, the plugin includes :"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:29
+#: ../../source/uninstall/index.rst:37
 msgid ""
 "a rights management directly accessible from Administration -> Profiles (in "
 "the Plugins tab -> uninstall),"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:30
+#: ../../source/uninstall/index.rst:38
 msgid "a \"hardware uninstall\" menu in \"Configuration\","
 msgstr ""
 
-#: ../../source/uninstall/index.rst:31
+#: ../../source/uninstall/index.rst:39
 msgid "an \"uninstall\" menu in the user preferences."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:35
+#: ../../source/uninstall/index.rst:43
 msgid "Right managment"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:37
+#: ../../source/uninstall/index.rst:45
 msgid ""
 "It is possible to deny access to the plugin or to allow it by specifying the"
 " read or write option on the templates."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:39
+#: ../../source/uninstall/index.rst:47
 msgid ""
 "To do this, simply go to the menu \"Administration\" > \"Profiles\", to "
 "select the profile you wish to modify, then in the \"Uninstallation\" tab "
 "set the following options :"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:43
+#: ../../source/uninstall/index.rst:51
 msgid "*No access*: the plugin does not appear in the menu 'Plugin'."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:44
+#: ../../source/uninstall/index.rst:52
 msgid "*Playback*: only the use of previously created templates is possible"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:45
+#: ../../source/uninstall/index.rst:53
 msgid "*Writing*: Template creation is possible."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:46
+#: ../../source/uninstall/index.rst:54
 msgid "*Hardware replacement*: standard hardware replacement is possible"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:50
+#: ../../source/uninstall/index.rst:58
 msgid "Uninstall feature"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:52
+#: ../../source/uninstall/index.rst:60
 msgid ""
 "This functionality of the plugin 'Item Uninstallation' adds the possibility "
 "of modifying the value of certain fields and of removing the inventory of a "
 "computer of the OCS base or the cleaning of the FusionInventory tables."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:54
+#: ../../source/uninstall/index.rst:62
 msgid ""
 "The uninstall templates can be accessed in the \"Administration > Uninstall "
 "Hardware\" menu."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:56
+#: ../../source/uninstall/index.rst:64
 msgid ""
 "You can create as many uninstall templates as you want. Each template can "
 "contain different features, and be visible in the sub-entities or not."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:59
+#: ../../source/uninstall/index.rst:67
 msgid ""
 "Uninstall equipment is a transfer of the equipment to itself. During its "
 "transfer, a certain number of actions are performed, as specified in the "
 "definition of transfer."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:63
+#: ../../source/uninstall/index.rst:72
 msgid "*Name*: the name of the uninstall template"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:64
+#: ../../source/uninstall/index.rst:73
 msgid ""
 "*Sub-entities*: indicates whether the template is visible in the creation "
 "entity and its sub-entities"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:65
+#: ../../source/uninstall/index.rst:74
 msgid ""
 "*Model type*: indicates which type of model should be used (either Uninstall"
 " or Replace)"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:66
+#: ../../source/uninstall/index.rst:75
 msgid "*Comments*: free fields to add details about the model"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:67
+#: ../../source/uninstall/index.rst:76
 msgid ""
 "*Transfer template to be used*: Indicates the transfer template to be used "
 "when uninstalling the system."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:68
+#: ../../source/uninstall/index.rst:77
 msgid ""
 "*New hardware status*: indicates which status the hardware should take once "
 "uninstalled"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:69
+#: ../../source/uninstall/index.rst:78
 msgid ""
 "*New group*: indicates the group to which the hardware can belong once "
 "uninstalled."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:71
+#: ../../source/uninstall/index.rst:80
 msgid ""
 "*Software History Deletion* : Allows deletion of all lines in a computer's "
 "history that are relevant to software installations/uninstallations."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:72
+#: ../../source/uninstall/index.rst:81
 msgid "*REMOVE Name* : removes the name of the hardware during uninstallation"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:74
+#: ../../source/uninstall/index.rst:83
 msgid ""
 "*RAZ Contact* : removes the contact reassembled by OCS during uninstallation"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:75
+#: ../../source/uninstall/index.rst:84
 msgid ""
 "*Network reset*: resets the \"network\" field of the equipment record to "
 "zero."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:76
+#: ../../source/uninstall/index.rst:85
 msgid ""
 "*RAZ OS*: Removes OS information (OS, Version, Service Pack, Product Key, "
 "Product ID) when uninstalling."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:77
+#: ../../source/uninstall/index.rst:86
 msgid "*RAZ domain* : removes the \"domain\" field from the hardware"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:78
+#: ../../source/uninstall/index.rst:87
 msgid ""
 "*Remove IP & Gateway & Hacker & Subnet*: removes network information (except"
 " for the MAC address, which is hardware-related) during uninstallation"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:79
+#: ../../source/uninstall/index.rst:88
 msgid ""
 "*Remove the machine from OCS* : when uninstalling a computer in GLPI, remove"
 " from the OCS base the corresponding machine"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:80
+#: ../../source/uninstall/index.rst:89
 msgid ""
 "*Delete FusionInventory info*: Delete all FusionInventory info for this "
 "material"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:86
+#: ../../source/uninstall/index.rst:96
 msgid "Uninstall hardware"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:88
+#: ../../source/uninstall/index.rst:98
 msgid "There are 2 possibilities to uninstall a hardware:"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:90
+#: ../../source/uninstall/index.rst:100
 msgid "from its file, in the tab \"Uninstallation\"."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:91
+#: ../../source/uninstall/index.rst:101
 msgid "from the massive modifications list"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:93
+#: ../../source/uninstall/index.rst:103
 msgid ""
 "Since a template can be recursive (visible in the sub-entities), the list of"
 " templates displayed in the massive actions indicates all the templates "
@@ -268,46 +294,46 @@ msgid ""
 "an entity above it and visible in the sub-entities)."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:98
+#: ../../source/uninstall/index.rst:106
 msgid "Change of location on uninstallation"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:102
+#: ../../source/uninstall/index.rst:108
 msgid ""
 "It is possible to change the location of the hardware once it has been "
 "uninstalled. This selection is made either :"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:105
+#: ../../source/uninstall/index.rst:111
 msgid "in the hardware file, once the uninstallation model has been chosen."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:106
+#: ../../source/uninstall/index.rst:112
 msgid "from the user's preferences for uninstallation by massive modification"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:108
+#: ../../source/uninstall/index.rst:114
 msgid ""
 "It should be noted that a location is declared within an entity. It is "
 "therefore possible, depending on the current entity, to define an uninstall "
 "location."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:113
+#: ../../source/uninstall/index.rst:118
 msgid "Replace feature"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:115
+#: ../../source/uninstall/index.rst:120
 msgid ""
 "This feature of the 'Item Uninstallation' plugin adds the possibility to "
 "replace one hardware by another."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:120
+#: ../../source/uninstall/index.rst:123
 msgid "Replacement Model Form"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:123
+#: ../../source/uninstall/index.rst:125
 msgid ""
 "Replacement models are managed in the same way as uninstall models: They are"
 " accessible in the menu \"Administration > Uninstall hardware\". Each model "
@@ -315,19 +341,31 @@ msgid ""
 " not."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:127
-msgid ""
-"In this form there are 4 tabs : * Main: allows to display on the page only "
-"the main information of the template. * Replacing data: displays the various"
-" actions to be performed when replacing one piece of equipment with another."
-" * All: displays all the tabs on the same page"
+#: ../../source/uninstall/index.rst:129
+msgid "In this form there are 4 tabs :"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:134
+#: ../../source/uninstall/index.rst:131
+msgid ""
+"Main: allows to display on the page only the main information of the "
+"template."
+msgstr ""
+
+#: ../../source/uninstall/index.rst:132
+msgid ""
+"Replacing data: displays the various actions to be performed when replacing "
+"one piece of equipment with another."
+msgstr ""
+
+#: ../../source/uninstall/index.rst:133
+msgid "All: displays all the tabs on the same page"
+msgstr ""
+
+#: ../../source/uninstall/index.rst:138
 msgid "Here is the description of the fields of the main tab :"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:136
+#: ../../source/uninstall/index.rst:140
 msgid ""
 "*Name*: the name of the replacement model *Sub-entities*: indicates whether "
 "the template is visible in the creation entity and its sub-entities *Model "
@@ -337,37 +375,37 @@ msgid ""
 "take once it has been replaced"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:144
+#: ../../source/uninstall/index.rst:148
 msgid "Replacing data tab"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:148
+#: ../../source/uninstall/index.rst:153
 msgid "Here is the description of the fields of the actions tab."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:151
+#: ../../source/uninstall/index.rst:156
 msgid "*General Information*"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:153
+#: ../../source/uninstall/index.rst:158
 msgid ""
 "*Copy name*: allows you to define if you want to copy the name of the old "
 "hardware to the new one."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:154
+#: ../../source/uninstall/index.rst:159
 msgid ""
 "*Copy the serial number*: Allows you to define if you wish to copy the "
 "serial number of the old equipment to the new one."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:155
+#: ../../source/uninstall/index.rst:160
 msgid ""
 "*Copy the inventory number*: allows you to define if you want to copy the "
 "inventory number of the old equipment to the new one."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:156
+#: ../../source/uninstall/index.rst:161
 msgid ""
 "*Overwrite information* (from the old material to the new one): this option "
 "allows you to choose the behavior to adopt if one of the unique information "
@@ -378,17 +416,17 @@ msgid ""
 "will NEVER be overwritten by the information of the old hardware."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:158
+#: ../../source/uninstall/index.rst:163
 msgid "*Method of archiving old material*"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:160
+#: ../../source/uninstall/index.rst:165
 msgid ""
 "In this option, we define the behavior that the uninstall plugin must adopt "
 "with the old hardware :"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:162
+#: ../../source/uninstall/index.rst:167
 msgid ""
 "*Purge + PDF / CSV*: if you have the PDF plugin the old hardware will be "
 "purged from the GLPI database and its information will be attached to the "
@@ -396,30 +434,30 @@ msgid ""
 " be stored in CSV format."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:163
+#: ../../source/uninstall/index.rst:168
 msgid ""
 "*Deletion + Comments*: the old hardware is put in the trash and a comment is"
 " added in each of the two hardware (\"This hardware has been replaced "
 "by...\" and \"This hardware has replaced the hardware...\")."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:165
+#: ../../source/uninstall/index.rst:170
 msgid "*Data location - Connection with other hardware*"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:167
+#: ../../source/uninstall/index.rst:172
 msgid ""
 "*Copy Documents*: Allows you to attach documents from old equipment to new "
 "equipment."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:168
+#: ../../source/uninstall/index.rst:173
 msgid ""
 "*Copy Contracts*: allows you to attach the contracts from the old equipment "
 "to the new equipment."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:169
+#: ../../source/uninstall/index.rst:174
 msgid ""
 "*Copy financial information*: allows you to attach financial information "
 "from the old equipment to the new equipment. Warning: if the \"Overwrite "
@@ -427,61 +465,61 @@ msgid ""
 "information, it will be replaced by the old hardware."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:170
+#: ../../source/uninstall/index.rst:175
 msgid ""
 "*Copy Reservations*: Allows you to attach the reservations made on the old "
 "equipment to the new equipment. Attention: same remark as for the financial "
 "information."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:171
+#: ../../source/uninstall/index.rst:176
 msgid ""
 "*Copy the user*: allows you to pass on the user of the old equipment to the "
 "new one. Caution: same remark as for the financial information."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:172
+#: ../../source/uninstall/index.rst:177
 msgid ""
 "*Copy group*: Allows you to assign the group of the old equipment to the new"
 " equipment. Caution: same remark as for the financial information."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:173
+#: ../../source/uninstall/index.rst:178
 msgid ""
 "*Copy the tickets*: Allows you to attach the tickets of the old equipment to"
 " the new equipment."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:174
+#: ../../source/uninstall/index.rst:179
 msgid ""
 "*Copy network connections*: Allows you to transfer the network connections "
 "from the old hardware to the new hardware."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:175
+#: ../../source/uninstall/index.rst:180
 msgid ""
 "*Copy direct connections*: Allows you to transfer the direct connections "
 "(Monitor, Printer, Device, Phone) from the old hardware to the new hardware."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:180
+#: ../../source/uninstall/index.rst:185
 msgid "Replace hardware"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:182
+#: ../../source/uninstall/index.rst:187
 msgid ""
 "As well as uninstalling equipment, there are two ways to replace equipment:"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:184
+#: ../../source/uninstall/index.rst:189
 msgid "from the card of this one, in the tab \"Plugins -> Uninstallation\","
 msgstr ""
 
-#: ../../source/uninstall/index.rst:185
+#: ../../source/uninstall/index.rst:190
 msgid "from the massive modification list."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:187
+#: ../../source/uninstall/index.rst:192
 msgid ""
 "Since a replacement template can be recursive (visible in the sub-entities),"
 " the list of templates displayed in the massive actions indicates all the "
@@ -489,43 +527,63 @@ msgid ""
 "entity, or in an entity above it and visible in the sub-entities)."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:189
+#: ../../source/uninstall/index.rst:194
 msgid ""
 "Once you have selected the hardware to be replaced via the massive actions, "
 "or you use the \"Uninstall\" tab directly in it :"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:191
+#: ../../source/uninstall/index.rst:196
 msgid ""
 "a summary of the selected template appears in order to show you the actions "
 "that will be performed by the plugin."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:192
+#: ../../source/uninstall/index.rst:197
 msgid ""
 "the list of the selected hardware(s) appears and you can choose the "
 "replacement hardware in the same way as when you choose a hardware in a "
 "Support Ticket."
 msgstr ""
 
-#: ../../source/uninstall/index.rst:199
+#: ../../source/uninstall/index.rst:205
 msgid "Change of location on replacement"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:201
+#: ../../source/uninstall/index.rst:207
 msgid ""
 "It is possible to change the location of the equipment once it has been "
-"replaced. This selection is made either : * in the equipment sheet, once the"
-" replacement model has been chosen, * from the user's preferences for "
-"massive modification replacement."
+"replaced. This selection is made either :"
 msgstr ""
 
-#: ../../source/uninstall/index.rst:206
+#: ../../source/uninstall/index.rst:210
+msgid "in the equipment sheet, once the replacement model has been chosen,"
+msgstr ""
+
+#: ../../source/uninstall/index.rst:211
+msgid "from the user's preferences for massive modification replacement."
+msgstr ""
+
+#: ../../source/uninstall/index.rst:213
 msgid ""
 "Note that a location is declared within an entity. It is therefore possible,"
 " depending on the current entity, to define a replacement location."
 msgstr ""
 
+#: ../../source/uninstall/index.rst:216
+msgid "FAQ"
+msgstr ""
+
+#: ../../source/uninstall/index.rst:218
+msgid ""
+"If you have any questions about using the plugin, please consult `our FAQ "
+"<https://faq.teclib.com/04_Plugins/Uninstall/>`_"
+msgstr ""
+
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
+msgstr ""
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
 msgstr ""

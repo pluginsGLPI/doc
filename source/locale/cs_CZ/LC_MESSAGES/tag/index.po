@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-31 14:11+0100\n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
 "PO-Revision-Date: 2020-01-24 06:36+0000\n"
 "Last-Translator: David Stepan <stepand@tiscali.cz>, 2020\n"
 "Language-Team: Czech (Czech Republic) (https://app.transifex.com/teclib/teams/28042/cs_CZ/)\n"
@@ -25,58 +25,66 @@ msgstr ""
 msgid "Tag"
 msgstr "Štítek"
 
-#: ../../source/tag/index.rst:5
+#: ../../source/tag/index.rst:7
+msgid "Download"
+msgstr ""
+
+#: ../../source/tag/index.rst:8
+msgid "Sources"
+msgstr ""
+
+#: ../../source/tag/index.rst:9
+msgid "`<https://github.com/pluginsGLPI/tag/releases>`_"
+msgstr ""
+
+#: ../../source/tag/index.rst:10
+msgid "`<https://github.com/pluginsGLPI/tag>`_"
+msgstr ""
+
+#: ../../source/tag/index.rst:13
 msgid "Requirements (on-premise)"
 msgstr ""
 
-#: ../../source/tag/index.rst:8
+#: ../../source/tag/index.rst:16
 msgid "GLPI Version"
 msgstr ""
 
-#: ../../source/tag/index.rst:8
+#: ../../source/tag/index.rst:16
 msgid "Minimum PHP"
 msgstr ""
 
-#: ../../source/tag/index.rst:8
+#: ../../source/tag/index.rst:16
 msgid "Recommended"
 msgstr ""
 
-#: ../../source/tag/index.rst:10
+#: ../../source/tag/index.rst:18
 msgid "10.0.x"
 msgstr ""
 
-#: ../../source/tag/index.rst:10
+#: ../../source/tag/index.rst:18
 msgid "8.1"
 msgstr ""
 
-#: ../../source/tag/index.rst:10
+#: ../../source/tag/index.rst:18
 msgid "8.2"
 msgstr ""
 
-#: ../../source/tag/index.rst:15
+#: ../../source/tag/index.rst:23
 msgid ""
 "This plugin is available without a GLPI-Network subscription. It is also "
 "available in Cloud."
 msgstr ""
 
-#: ../../source/tag/index.rst:19
-msgid "Sources"
-msgstr ""
-
-#: ../../source/tag/index.rst:21
-msgid "Sources link: https://github.com/pluginsGLPI/tag"
-msgstr "Zdrojový odkaz: https://github.com/pluginsGLPI/tag"
-
-#: ../../source/tag/index.rst:22
-msgid "Download: https://github.com/pluginsGLPI/tag/releases"
-msgstr "Stáhnout: https://github.com/pluginsGLPI/tag/releases"
-
-#: ../../source/tag/index.rst:27
+#: ../../source/tag/index.rst:26
 msgid "Install the plugin"
 msgstr ""
 
-#: ../../source/tag/index.rst:29
+#: ../../source/tag/index.rst:28
 msgid "Go to the marketplace. Download and install the plugin “**Tag**”."
+msgstr ""
+
+#: ../../source/tag/index.rst-1
+msgid "install the plugin"
 msgstr ""
 
 #: ../../source/tag/index.rst:35
@@ -95,75 +103,113 @@ msgstr ""
 msgid "Then **Tags**"
 msgstr ""
 
-#: ../../source/tag/index.rst:44
-msgid "Enter a name that will be visible when tags are added"
+#: ../../source/tag/index.rst-1
+msgid "setup tags"
 msgstr ""
 
 #: ../../source/tag/index.rst:45
-msgid "Enter a description (optional)"
+msgid "Enter a name that will be visible when tags are added"
 msgstr ""
 
 #: ../../source/tag/index.rst:46
-msgid "Add a colour"
+msgid "Enter a description (optional)"
 msgstr ""
 
 #: ../../source/tag/index.rst:47
+msgid "Add a colour"
+msgstr ""
+
+#: ../../source/tag/index.rst:48
 msgid ""
 "Associate one or more elements. If nothing is ticked, it will not be visible"
 " in any element by default."
 msgstr ""
 
-#: ../../source/tag/index.rst:54
-msgid "Choose where to find the tag"
+#: ../../source/tag/index.rst-1
+msgid "add new tag"
 msgstr ""
 
 #: ../../source/tag/index.rst:56
+msgid "Choose where to find the tag"
+msgstr ""
+
+#: ../../source/tag/index.rst:58
 msgid ""
 "You can indicate whether the tag should be at the top or bottom of the list."
 msgstr ""
 
-#: ../../source/tag/index.rst:59
+#: ../../source/tag/index.rst:61
 msgid "From **Setup > General > Tag management**, specify the tag location."
 msgstr ""
 
-#: ../../source/tag/index.rst:61
+#: ../../source/tag/index.rst:63
 msgid "Bottom :"
 msgstr ""
 
-#: ../../source/tag/index.rst:66
+#: ../../source/tag/index.rst-1
+msgid "tag on bottom"
+msgstr ""
+
+#: ../../source/tag/index.rst:69
 msgid "Top:"
 msgstr ""
 
-#: ../../source/tag/index.rst:72
+#: ../../source/tag/index.rst-1
+msgid "tag on top"
+msgstr ""
+
+#: ../../source/tag/index.rst:76
 msgid "Adding rules"
 msgstr ""
 
-#: ../../source/tag/index.rst:74
+#: ../../source/tag/index.rst:78
 msgid ""
 "You can add business rules (tickets, computers, etc.) to add tags to "
 "particular items."
 msgstr ""
 
-#: ../../source/tag/index.rst:76
+#: ../../source/tag/index.rst:80
 msgid ""
 "Example : Assign a VIP tag when a member of the management group writes a "
 "ticket."
 msgstr ""
 
-#: ../../source/tag/index.rst:78
+#: ../../source/tag/index.rst:82
 msgid ""
 "Here are the criteria to be implemented from **Administration > Rules > "
 "Business rules for tickets**"
 msgstr ""
 
-#: ../../source/tag/index.rst:86
-msgid "After creating a ticket :"
+#: ../../source/tag/index.rst-1
+msgid "add new rule"
+msgstr ""
+
+#: ../../source/tag/index.rst-1
+msgid "criterion and action"
 msgstr ""
 
 #: ../../source/tag/index.rst:92
+msgid "After creating a ticket :"
+msgstr ""
+
+#: ../../source/tag/index.rst-1
+msgid "result"
+msgstr ""
+
+#: ../../source/tag/index.rst:99
 msgid ""
 "Tags can, of course, be added manually if they have been set to be visible "
 "in the specified item."
+msgstr ""
+
+#: ../../source/tag/index.rst:103
+msgid "FAQ"
+msgstr ""
+
+#: ../../source/tag/index.rst:105
+msgid ""
+"If you have any questions about using the plugin, please consult `our FAQ "
+"<https://faq.teclib.com/04_Plugins/Tags/>`_"
 msgstr ""
 
 #: ../../<rst_epilog>:2

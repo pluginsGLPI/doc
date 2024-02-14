@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016, Teclib'
+# Copyright (C) 2016-2024, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -10,12 +10,12 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPI plugins 0.1\n"
+"Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-14 15:17+0200\n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
 "PO-Revision-Date: 2016-10-25 19:22+0000\n"
 "Last-Translator: 李赋 <fu792659@163.com>, 2018\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/teclib/teams/28042/zh_CN/)\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/teclib/teams/28042/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -26,19 +26,27 @@ msgstr ""
 msgid "Empty"
 msgstr "空"
 
-#: ../../source/empty/index.rst:4
-msgid "Sources link: https://github.com/pluginsGLPI/empty"
-msgstr "源代码链接: https://github.com/pluginsGLPI/empty"
+#: ../../source/empty/index.rst:8
+msgid "Download"
+msgstr ""
 
-#: ../../source/empty/index.rst:5
-msgid "Download: *not relevant*"
-msgstr "下载：*不相关*"
+#: ../../source/empty/index.rst:9
+msgid "Sources"
+msgstr ""
 
-#: ../../source/empty/index.rst:7
+#: ../../source/empty/index.rst:10
+msgid "*not relevant*"
+msgstr ""
+
+#: ../../source/empty/index.rst:11
+msgid "`<https://github.com/pluginsGLPI/empty>`_"
+msgstr ""
+
+#: ../../source/empty/index.rst:13
 msgid "This plugins does... nothing. Really!"
 msgstr "这个插件什么...也没做。真的！"
 
-#: ../../source/empty/index.rst:9
+#: ../../source/empty/index.rst:15
 msgid ""
 "This is designed to be a start point for writing plugins, with very minimal "
 "defaults usefull scripts, and some advices. If you're looking for plugins "
@@ -46,87 +54,87 @@ msgid ""
 msgstr ""
 "这是设计用于编写插件的起点，具有非常有用的脚本默认值和一些建议。如果您正在寻找插件的可能性，请查看:doc:`示例插件<../example/index>`。"
 
-#: ../../source/empty/index.rst:12
+#: ../../source/empty/index.rst:18
 msgid "Create a new plugin"
 msgstr "新建插件"
 
-#: ../../source/empty/index.rst:14
+#: ../../source/empty/index.rst:20
 msgid ""
 "An utility script to create a new plugin - ``plugin.sh`` is provided. You "
 "will call it with a plugin name, a version, an optionally the path where "
 "your want it to be created:"
 msgstr "提供了一个用于创建新插件的实用程序脚本 - “plugin.sh”。您将使用插件名称，版本，可选择的路径来调用它："
 
-#: ../../source/empty/index.rst:20
+#: ../../source/empty/index.rst:26
 msgid ""
 "The script will sanityze and lowercase the name you provided, copy the "
 "templates files into the new directory, and then make some replacements."
 msgstr "该脚本将对您提供的名称进行审查和小写，将模板文件复制到新目录中，然后进行一些替换。"
 
-#: ../../source/empty/index.rst:22
+#: ../../source/empty/index.rst:28
 msgid ""
 "Using the script without destination parameter, it will create you directory"
 " plugin, ``mygreatplugin`` just beside its own directory. Otherwise, it "
 "would create the new directory in the specified path:"
 msgstr "使用没有目标参数的脚本，它将创建你的目录插件，``mygreatplugin``就在它自己的目录旁边。否则，它将在指定的路径中创建新目录："
 
-#: ../../source/empty/index.rst:29
+#: ../../source/empty/index.rst:35
 msgid "Update existing plugin"
 msgstr "更新现有插件"
 
-#: ../../source/empty/index.rst:31
+#: ../../source/empty/index.rst:37
 msgid ""
 "There is no automated way to update an existing plugin, because there would "
 "be too many cases to handle. But don't worry, procedure is quite simple ;)"
 msgstr "没有自动更新现有插件的方法，因为要处理的案例太多。但不要担心，程序很简单;）"
 
-#: ../../source/empty/index.rst:33
+#: ../../source/empty/index.rst:39
 msgid "Using empty features is as simple as creating a few files:"
 msgstr "使用空功能就像创建一些文件一样简单："
 
-#: ../../source/empty/index.rst:35
+#: ../../source/empty/index.rst:41
 msgid "``composer.json``,"
 msgstr "``composer.json``,"
 
-#: ../../source/empty/index.rst:36
+#: ../../source/empty/index.rst:42
 msgid "``.travis.yml``,"
 msgstr "``.travis.yml``,"
 
-#: ../../source/empty/index.rst:37
+#: ../../source/empty/index.rst:43
 msgid "``Robofile.php``,"
 msgstr "``Robofile.php``,"
 
-#: ../../source/empty/index.rst:38
+#: ../../source/empty/index.rst:44
 msgid "``.gitignore``."
 msgstr "``.gitignore``."
 
-#: ../../source/empty/index.rst:40
+#: ../../source/empty/index.rst:46
 msgid ""
 "If you do not have yet any composer or travis configuration file, you can "
 "just copy the ones from empty plugin. Otherwise; in you ``composer.json``, "
 "just add:"
 msgstr "如果您还没有任何composer或travis配置文件，则可以从空插件中复制那些文件。在你``composer.json``中，只需添加："
 
-#: ../../source/empty/index.rst:49
+#: ../../source/empty/index.rst:55
 msgid "And then run ``composer require glpi-project/tools``."
 msgstr "然后运行``composer require glpi-project/tools``。"
 
-#: ../../source/empty/index.rst:51
+#: ../../source/empty/index.rst:57
 msgid "In the travis configuration file, just add the CS call:"
 msgstr "在travis配置文件中，只需添加CS调用："
 
-#: ../../source/empty/index.rst:58
+#: ../../source/empty/index.rst:64
 msgid "In the ``.gitignore`` file, add the following:"
 msgstr "在``.gitignore``文件中，添加以下内容："
 
-#: ../../source/empty/index.rst:68
+#: ../../source/empty/index.rst:74
 msgid ""
 "As for the Robo.li configuration file, note that the one embed in the empty "
 "plugin is a bit specific, you'll have to edit it in order to get things "
 "working. See below for more informations."
 msgstr "至于Robo.li配置文件，请注意嵌入空插件的那个有点特别，你必须编辑它才能使它正常工作。有关更多信息，请参见下文。"
 
-#: ../../source/empty/index.rst:70
+#: ../../source/empty/index.rst:76
 msgid ""
 "Finally, as the ``tools`` project will provide you some features, you can "
 "remove duplicated tools scripts (files such as ``release``, "
@@ -134,15 +142,15 @@ msgid ""
 msgstr ""
 "最后，由于``tools``项目将为您提供一些功能，您可以删除重复的工具脚本（例如``release``，``extract_template.sh``，...等文件）。"
 
-#: ../../source/empty/index.rst:73
+#: ../../source/empty/index.rst:79
 msgid "Features"
 msgstr "特征"
 
-#: ../../source/empty/index.rst:76
+#: ../../source/empty/index.rst:82
 msgid "Coding standards"
 msgstr "编码标准"
 
-#: ../../source/empty/index.rst:78
+#: ../../source/empty/index.rst:84
 msgid ""
 "The GLPI `PHPCodeSniffer <http://pear.php.net/package/PHP_CodeSniffer>`_ "
 "rulesets are provided as ``vendor/glpi-project/coding-"
@@ -151,16 +159,16 @@ msgstr ""
 "GLPI `PHPCodeSniffer <http://pear.php.net/package/PHP_CodeSniffer>`_ "
 "rulesets以``vendor/glpi-project/coding-standard/GlpiStandard/``的形式提供。"
 
-#: ../../source/empty/index.rst:80
+#: ../../source/empty/index.rst:86
 msgid "To check coding standards, just use the Robo.li task ``code:cs``:"
 msgstr "检查编码标准，只需使用Robo.li任务``code:cs``："
 
-#: ../../source/empty/index.rst:88
+#: ../../source/empty/index.rst:94
 msgid ""
 "The above command will ignore ``vendor`` and run on the current directory."
 msgstr "上面的命令将忽略``vendor``并在当前目录上运行。"
 
-#: ../../source/empty/index.rst:90
+#: ../../source/empty/index.rst:96
 msgid ""
 "If you want to adapt ignore list or checked directories, you can just "
 "override ``$csignore`` and/or ``$csfiles`` in the ``RoboFile.php`` of the "
@@ -168,30 +176,30 @@ msgid ""
 msgstr ""
 "如果你想修改忽略列表或检查目录，你可以在插件的``RoboFile.php``中覆盖``$csignore``和/或``$csfiles``："
 
-#: ../../source/empty/index.rst:106
+#: ../../source/empty/index.rst:112
 msgid "Automated checks"
 msgstr "自动检查"
 
-#: ../../source/empty/index.rst:108
+#: ../../source/empty/index.rst:114
 msgid ""
 "For convenience; a ``.travis.yml`` file is also provided, that is setup to:"
 msgstr "为了方便；还提供了``.travis.yml``文件，设置为："
 
-#: ../../source/empty/index.rst:110
+#: ../../source/empty/index.rst:116
 msgid "check coding standards,"
 msgstr "检查编码标准，"
 
-#: ../../source/empty/index.rst:111
+#: ../../source/empty/index.rst:117
 msgid "run on a bunch on different configuration"
 msgstr "在不同的配置上运行堆"
 
-#: ../../source/empty/index.rst:113
+#: ../../source/empty/index.rst:119
 msgid ""
 "You still have to enable travis-ci builds from the website in order to "
 "activate automated tests."
 msgstr "您仍然必须从网站启用travis-ci构建才能激活自动化测试。"
 
-#: ../../source/empty/index.rst:115
+#: ../../source/empty/index.rst:121
 msgid ""
 "Of course, the ``.travis.yml`` file can be pimped; you can run unit tests, "
 "create/update a database, activate notifications, and so on. Refer to the "
@@ -200,17 +208,17 @@ msgstr ""
 "当然，``.travis.yml``文件可能原型；您可以运行单元测试，创建/更新数据库，激活通知等。请参阅`Travis-"
 "CI文档<https://docs.travis-ci.com/>`_了解更多信息。"
 
-#: ../../source/empty/index.rst:118
+#: ../../source/empty/index.rst:124
 msgid "Minifying CSS and JS"
 msgstr ""
 
-#: ../../source/empty/index.rst:122
+#: ../../source/empty/index.rst:128
 msgid ""
 "Disabled as of 0.1.13, because libs used from Robo are out of date and "
 "connot be replaced."
 msgstr ""
 
-#: ../../source/empty/index.rst:124
+#: ../../source/empty/index.rst:130
 msgid ""
 "A convenient script, using `Robo.li <http://robo.li>`_ is provided. The "
 "``RoboFile.php`` file is an empty class that extends "
@@ -218,59 +226,59 @@ msgid ""
 " which you can set your own stuff."
 msgstr ""
 "使用`Robo.li "
-"<http://robo.li>`_提供了一个方便的脚本。``RoboFile.php``文件是一个空类，它扩展了``Glpi\\Tools\\RoboFile``（由"
-"``glpi-project/tools``依赖提供），你可以在其中设置自己的东西。"
+"<http://robo.li>`_提供了一个方便的脚本。``RoboFile.php``文件是一个空类，它扩展了``Glpi\\Tools\\RoboFile``（由``glpi-"
+"project/tools``依赖提供），你可以在其中设置自己的东西。"
 
-#: ../../source/empty/index.rst:126
+#: ../../source/empty/index.rst:132
 msgid ""
 "That way, you can quite easily update the common file and get your own tasks"
 " remaining the same."
 msgstr "这样，您可以非常轻松地更新公共文件并使您自己的任务保持不变。"
 
-#: ../../source/empty/index.rst:128
+#: ../../source/empty/index.rst:134
 msgid ""
 "To get the required libs installed, you'll have to `get composer installed "
 "<http://getcomposer.org>`_ and then run:"
 msgstr "要安装所需的库，你必须“安装镜像<http://getcomposer.org>`_然后运行："
 
-#: ../../source/empty/index.rst:134
+#: ../../source/empty/index.rst:140
 msgid "There are three available targets:"
 msgstr "有三个目标："
 
-#: ../../source/empty/index.rst:136
+#: ../../source/empty/index.rst:142
 msgid "``minify`` that will minify all CSS and JS files (see below),"
 msgstr "``minify``将缩小所有CSS和JS文件（见下文），"
 
-#: ../../source/empty/index.rst:137
+#: ../../source/empty/index.rst:143
 msgid ""
 "``minify:css`` that will minify all css  stylesheets files in the ``css`` "
 "directory of your plugin, creating a ``.min.css`` version along with the "
 "original file,"
 msgstr "``minify：css``将缩小插件的``css``目录中的所有css样式表文件，创建一个``.min.css``版本以及原始文件，"
 
-#: ../../source/empty/index.rst:138
+#: ../../source/empty/index.rst:144
 msgid ""
 "``minify:js`` that will minify all javascript files in the ``js`` directory "
 "of your plugin, creating a ``.min.js`` version along with the original file."
 msgstr "``minify:js``将缩小插件的``js``目录中的所有javascript文件，创建一个``.min.js``版本以及原始文件。"
 
-#: ../../source/empty/index.rst:140
+#: ../../source/empty/index.rst:146
 msgid "Just choose a target, and run something like:"
 msgstr "只需选择目标，然后执行以下操作："
 
-#: ../../source/empty/index.rst:148
+#: ../../source/empty/index.rst:154
 msgid ""
 "Remember compiled files should not be commited on your repository sources. "
 "It is a release process to minify files."
 msgstr "请记住，不应在存储库源上提交已编译的文件。这是一个缩小文件的发布过程。"
 
-#: ../../source/empty/index.rst:150
+#: ../../source/empty/index.rst:156
 msgid ""
 "Also remember to adapt your scripts so they load your minified versions if "
 "available, and the original one otherwise :)"
 msgstr "还记得调整你的脚本，以便加载如果可用的缩小版本，原来的版本:）"
 
-#: ../../source/empty/index.rst:152
+#: ../../source/empty/index.rst:158
 msgid ""
 "As of GLPI 9.2; you do not have to care about loading minified files when "
 "using ``add_css`` and ``add_javascript`` hooks! You just need to call not "
@@ -280,17 +288,17 @@ msgstr ""
 "截至GLPI "
 "9.2；使用``add_css``和``add_javascript``挂钩时，你不必关心加载缩小的文件！你只需要调用不缩小的脚本；如果存在，则GLPI将使用缩小版本，如果不存在，则使用“DEBUG”模式。"
 
-#: ../../source/empty/index.rst:155
+#: ../../source/empty/index.rst:161
 msgid "Translations"
 msgstr "翻译"
 
-#: ../../source/empty/index.rst:157
+#: ../../source/empty/index.rst:163
 msgid ""
 "GLPI and its plugins use gettext for internationnalization. Several steps "
 "are required before that can work:"
 msgstr "GLPI及其插件使用gettext进行国际化。在此之前需要执行几个步骤："
 
-#: ../../source/empty/index.rst:159
+#: ../../source/empty/index.rst:165
 msgid ""
 "1 translatable strings must be extracted from source files, a ``POT`` file "
 "will be created or updated accordingly, 2 ``PO`` files must be created or "
@@ -300,7 +308,7 @@ msgstr ""
 "1 必须从源文件中提取1个可翻译的字符串，相应地创建或更新``POT``文件，2 "
 "``PO``文件必须从``POT``文件创建或更新，3``PO``文件必须翻译，4``MO``文件必须从最新的``PO``编译。"
 
-#: ../../source/empty/index.rst:164
+#: ../../source/empty/index.rst:170
 msgid ""
 "In the ``vendor/bin`` directory, you'll find a ``extract_template.sh`` "
 "script. This is designed to extract translatable strings from your source "
@@ -308,13 +316,13 @@ msgid ""
 msgstr ""
 "在``vendor/bin``目录中，你会找到一个``extract_template.sh``脚本。这旨在从源代码中提取可翻译的字符串（请参阅上面的第一点）。"
 
-#: ../../source/empty/index.rst:166
+#: ../../source/empty/index.rst:172
 msgid ""
 "Once it has been ran, a ``locale/mygreatplugin.pot`` file will be "
 "created/updated."
 msgstr "一旦运行，将创建/更新``locale/mygreatplugin.pot``文件。"
 
-#: ../../source/empty/index.rst:168
+#: ../../source/empty/index.rst:174
 msgid ""
 "For the second and third step, you'll have to make a choice. You can use "
 "gettext tools to update your ``PO`` files and translate them using a "
@@ -328,7 +336,7 @@ msgstr ""
 "<http://transifex.com/>`_或`Zanata "
 "<http://zanata.org/>`_。GLPI核心和许多现有插件现在都使用Transifex进行翻译。"
 
-#: ../../source/empty/index.rst:170
+#: ../../source/empty/index.rst:176
 msgid ""
 "Once you get your updated ``PO`` files, you'll have to compile them to "
 "``MO`` files. You can run it manually, the release script will compile them "
@@ -336,11 +344,11 @@ msgid ""
 msgstr ""
 "一旦获得更新的``PO``文件，就必须将它们编译为``MO``文件。你可以手动运行它，发布脚本会再次编译它们；请参阅:ref:`编译MO文件部分<compile_mo>`。"
 
-#: ../../source/empty/index.rst:175
+#: ../../source/empty/index.rst:181
 msgid "Release script"
 msgstr "发布脚本"
 
-#: ../../source/empty/index.rst:177
+#: ../../source/empty/index.rst:183
 msgid ""
 "A release script is provided in ``vendor/bin/plugin-release``. This is a "
 "\"simple\" `Python <http://python.org>`_ script; you should just have Python"
@@ -350,38 +358,38 @@ msgstr ""
 "在``vendor/bin/plugin-release``中提供了一个发布脚本。这是一个“简单的”`Python "
 "<http://python.org>`_ script；你应该在系统上安装Python（默认安装在大多数Linux发行版上）。"
 
-#: ../../source/empty/index.rst:181
+#: ../../source/empty/index.rst:187
 msgid ""
 "Note that the release script is only compatible if you use semantic "
 "versionning!"
 msgstr ""
 
-#: ../../source/empty/index.rst:183
+#: ../../source/empty/index.rst:189
 msgid ""
 "Using just the defaults, the script will try to retrieve the latest tag in "
 "your git repository, add third party dependencies and create a `Release` on "
 "the github project:"
 msgstr "仅使用默认值，脚本将尝试检索git存储库中的最新标记，添加第三方依赖项并在github项目上创建“Release”："
 
-#: ../../source/empty/index.rst:196
+#: ../../source/empty/index.rst:202
 msgid "Requirements"
 msgstr "要求"
 
-#: ../../source/empty/index.rst:198
+#: ../../source/empty/index.rst:204
 msgid ""
 "You will need a python interpreter installed as well as the following "
 "modules:"
 msgstr "您将需要安装python解释器以及以下模块："
 
-#: ../../source/empty/index.rst:200
+#: ../../source/empty/index.rst:206
 msgid "`termcolor <https://pypi.python.org/pypi/termcolor>`_,"
 msgstr "`termcolor <https://pypi.python.org/pypi/termcolor>`_,"
 
-#: ../../source/empty/index.rst:201
+#: ../../source/empty/index.rst:207
 msgid "`gitdb <https://github.com/gitpython-developers/gitdb>`_,"
 msgstr "`gitdb <https://github.com/gitpython-developers/gitdb>`_,"
 
-#: ../../source/empty/index.rst:202
+#: ../../source/empty/index.rst:208
 msgid ""
 "`github <https://github.com/PyGithub/PyGithub>`_ (to check for existing "
 "versions in also in drafts, and to create github releases), unless you use "
@@ -390,68 +398,68 @@ msgstr ""
 "`github "
 "<https://github.com/PyGithub/PyGithub>`_（在草稿中检查现有版本，并创建github版本），除非你使用``--nogithub``选项"
 
-#: ../../source/empty/index.rst:204
+#: ../../source/empty/index.rst:210
 msgid ""
 "If you want to get help on the script, try to run ``./vendor/bin/plugin-"
 "release -h``."
 msgstr "如果你想获得有关脚本的帮助，请尝试运行``./vendor/bin/plugin-release -h``。"
 
-#: ../../source/empty/index.rst:207
+#: ../../source/empty/index.rst:213
 msgid "Process"
 msgstr "进程"
 
-#: ../../source/empty/index.rst:209
+#: ../../source/empty/index.rst:215
 msgid "The release process will achieve the following tasks for you:"
 msgstr "发布过程将为您完成以下任务："
 
-#: ../../source/empty/index.rst:211
+#: ../../source/empty/index.rst:217
 msgid "check if the version constant is the same as the tag you've requested;"
 msgstr "检查版本常量是否与您请求的标记相同；"
 
-#: ../../source/empty/index.rst:212
+#: ../../source/empty/index.rst:218
 msgid ""
 "check if the version in the website XML file is the same as the tag you've "
 "requested;"
 msgstr "检查网站XML文件中的版本是否与您请求的标记相同；"
 
-#: ../../source/empty/index.rst:213
+#: ../../source/empty/index.rst:219
 msgid ""
 "check if a release already exists, locally, and remotely (assuming your "
 "project is hosted in the *pluginsGLPI* organization and the release is "
 "public);"
 msgstr "检查版本是否已存在，本地和远程（假设您的项目托管在* pluginsGLPI *组织中，并且该版本是公开的）;"
 
-#: ../../source/empty/index.rst:214
+#: ../../source/empty/index.rst:220
 msgid ""
 "make a `git archive` of the paths that are not excluded (``.git``, "
 "``tools``, ``tests``, ...);"
 msgstr "制作一个未被排除的路径的`git archive`（``.git``，``tools``，``tests``，...）;"
 
-#: ../../source/empty/index.rst:215
+#: ../../source/empty/index.rst:221
 msgid "if any, install composer dependencies;"
 msgstr "如果有的话，请安装composer依赖项;"
 
-#: ../../source/empty/index.rst:216
+#: ../../source/empty/index.rst:222
 msgid "if any, compile you ``MO`` files;"
 msgstr "如果有的话，编译你的``MO``文件;"
 
-#: ../../source/empty/index.rst:217
+#: ../../source/empty/index.rst:223
 msgid ""
 "if any, compile you CSS stylesheets and your Javascript files (using "
 "`Robo.li <http://robo.li>`_);"
 msgstr "如果有的话，编译你的CSS样式表和Javascript文件（使用`Robo.li <http://robo.li>`_）;"
 
-#: ../../source/empty/index.rst:218
+#: ../../source/empty/index.rst:224
 msgid ""
 "create a release archive with all that; that will be available in the "
 "``dist`` directory;"
 msgstr "创建一个包含所有这些的发布存档；这将在``dist``目录中提供；"
 
-#: ../../source/empty/index.rst:219
+#: ../../source/empty/index.rst:225
 msgid "use GPG to sign the archive."
 msgstr "使用GPG对存档进行签名。"
 
-#: ../../source/empty/index.rst:223
+#: ../../source/empty/index.rst:229
 msgid ""
 "The standard release process will not work on your files directly, it will "
 "make a copy in the ``dist/src`` directory before. The only exception is the "
@@ -459,7 +467,7 @@ msgid ""
 msgstr ""
 "标准的发布过程不能直接对你的文件起作用，它会在``dist/src``目录中复制。唯一的例外是:ref:`MO编译选项<compile_mo>`。"
 
-#: ../../source/empty/index.rst:225
+#: ../../source/empty/index.rst:231
 msgid ""
 "In order to check if all is OK before doing real release; create your tag "
 "and run ``./vendor/bin/plugin-release -C`` **before pushing your tag**. That"
@@ -469,68 +477,68 @@ msgstr ""
 "在进行实际发布之前检查是否一切正常；创建你的标签并在推动你的标签**之前运行`./vendor/bin/plugin-release -C`` "
 "**。这样，您就可以解决潜在问题并在本地重新创建标记（请记住，发布的标记应该永远不会被删除）。"
 
-#: ../../source/empty/index.rst:230
+#: ../../source/empty/index.rst:236
 msgid "Compiling MO files"
 msgstr "编译MO文件"
 
-#: ../../source/empty/index.rst:232
+#: ../../source/empty/index.rst:238
 msgid ""
 "The release process will automatically compile every ``PO`` file it will "
 "found in your ``locales`` directory. But you probably want the sources to "
 "contain the latests ``MO`` files, for testing purposes. The release script "
 "provide the ``--compile-mo`` (or ``-m``) to achieve that:"
 msgstr ""
-"发布过程将自动编译它将在``locales``目录中找到的每个``PO``文件。但是你可能希望源包含最后的``MO``文件，用于测试目的。发布脚本提供"
-"``--compile-mo``（或``-m``）来实现："
+"发布过程将自动编译它将在``locales``目录中找到的每个``PO``文件。但是你可能希望源包含最后的``MO``文件，用于测试目的。发布脚本提供``--compile-"
+"mo``（或``-m``）来实现："
 
-#: ../../source/empty/index.rst:240
+#: ../../source/empty/index.rst:246
 msgid ""
 "The above command will work on your plugins files directly; not on a copy as"
 " does other commands."
 msgstr "以上命令将直接对您的插件文件起作用；不像其他命令那样在副本上。"
 
-#: ../../source/empty/index.rst:243
+#: ../../source/empty/index.rst:249
 msgid "Pre-releases"
 msgstr "预览版"
 
-#: ../../source/empty/index.rst:245
+#: ../../source/empty/index.rst:251
 msgid ""
 "Per default, the release script will work only on existing tags. Any pre-"
 "release should have its own tag; but you may want to create a release "
 "archive without any tags in some circumstances."
 msgstr "默认情况下，发布脚本仅适用于现有标记。任何预发布都应该有自己的标签；但在某些情况下，您可能希望创建没有任何标记的版本存档。"
 
-#: ../../source/empty/index.rst:247
+#: ../../source/empty/index.rst:253
 msgid ""
 "In order to tell the release script what it should archive, you'll have to "
 "specify several parameters:"
 msgstr "为了告诉发布脚本它应归档的内容，您必须指定几个参数："
 
-#: ../../source/empty/index.rst:249
+#: ../../source/empty/index.rst:255
 msgid "``--commit`` (or ``-c``) giving the commit hash,"
 msgstr "``--commit``（或``-c``）给出提交哈希，"
 
-#: ../../source/empty/index.rst:250
+#: ../../source/empty/index.rst:256
 msgid ""
 "``--release`` (or ``-r``) giving the release version (usually, it will be "
 "the next release version),"
 msgstr "``--release``（或``-r``）给出发布版本（通常，它将是下一个发行版本），"
 
-#: ../../source/empty/index.rst:251
+#: ../../source/empty/index.rst:257
 msgid ""
 "``--extra`` (or ``-e``) to specify an extra string (such as *alpha*, *beta*,"
 " *rc1*, etc...)"
 msgstr "``--extra``（或``-e``）指定一个额外的字符串（例如* alpha *，* beta *，* rc1 *等...）"
 
-#: ../../source/empty/index.rst:253
+#: ../../source/empty/index.rst:259
 msgid "As an example with the *order* plugin:"
 msgstr "作为* order *插件的示例："
 
-#: ../../source/empty/index.rst:262
+#: ../../source/empty/index.rst:268
 msgid "Signing releases"
 msgstr "签署版本"
 
-#: ../../source/empty/index.rst:264
+#: ../../source/empty/index.rst:270
 msgid ""
 "Signing releases with a GPG key would permit users to check download "
 "integrity before installing. You'll need a GPG key publically available to "
@@ -539,29 +547,29 @@ msgid ""
 msgstr ""
 "使用GPG密钥签名版本将允许用户在安装之前检查下载完整性。您需要向用户公开提供GPG密钥；默认情况下会激活sign选项，您可以使用``--nosign``（或``-S``）选项取消激活。"
 
-#: ../../source/empty/index.rst:266
+#: ../../source/empty/index.rst:272
 msgid ""
 "A file containing the signature with the same name as the archive with a "
 "``.asc`` extension will be created in the ``dist`` directory."
 msgstr "将在``dist``目录中创建一个包含与具有“.asc``扩展名的存档同名的签名的文件。"
 
-#: ../../source/empty/index.rst:269
+#: ../../source/empty/index.rst:275
 msgid "GitHub release"
 msgstr "GitHub发布"
 
-#: ../../source/empty/index.rst:271
+#: ../../source/empty/index.rst:277
 msgid ""
 "The release script will create a release on your GitHub repository, as a "
 "draft, unless you use ``--nogithub`` (or ``-g``) option."
 msgstr "发布脚本将在您的GitHub存储库上创建一个发布版本，除非您使用``--nogithub``（或``-g``）选项。"
 
-#: ../../source/empty/index.rst:275
+#: ../../source/empty/index.rst:281
 msgid ""
 "Unfortunately, I was not able to get the newly created archive uploaded to "
 "this new release... Maybe that could be fixed in the future."
 msgstr "不幸的是，我无法将新创建的档案上传到这个新版本......也许这可以在将来修复。"
 
-#: ../../source/empty/index.rst:277
+#: ../../source/empty/index.rst:283
 msgid ""
 "In order to use this feature, you will need the `github "
 "<https://github.com/PyGithub/PyGithub>`_ installed; and you will need an "
@@ -571,7 +579,7 @@ msgstr ""
 "要使用此功能，您需要安装`github "
 "<https://github.com/PyGithub/PyGithub>`_；你需要一个访问口令。访问口令对每个用户有效，并提供对其所有存储库的访问权限。"
 
-#: ../../source/empty/index.rst:279
+#: ../../source/empty/index.rst:285
 msgid ""
 "You'll have to go to your `github account settings page, in the personnal "
 "access token tab <https://github.com/settings/tokens>`_. Click on *generate "
@@ -582,17 +590,17 @@ msgstr ""
 "您必须访问个人访问令牌选项卡<https://github.com/settings/tokens>`_中的`github帐户设置页面。单击*生成新令牌*，给出您想要的描述，并确保您只检查*"
 " public_repo *框（无需检查任何其他内容，如果需要，您可以创建多个访问令牌）。"
 
-#: ../../source/empty/index.rst:281
+#: ../../source/empty/index.rst:287
 msgid ""
 "The token will be displayed only once; store it in the ``.gh_token`` file in"
 " your plugin directory; and that's all!"
 msgstr "令牌只会显示一次；将它存储在插件目录中的``.gh_token``文件中；结束！"
 
-#: ../../source/empty/index.rst:284
+#: ../../source/empty/index.rst:290
 msgid "Excluding files"
 msgstr ""
 
-#: ../../source/empty/index.rst:286
+#: ../../source/empty/index.rst:292
 msgid ""
 "You can create a ``.ignore-release`` file at the root of your plugin and "
 "list here files and directories you want to explicitely exclude from the "
@@ -600,54 +608,58 @@ msgid ""
 "<https://docs.python.org/2/library/re.html>`_ per line"
 msgstr ""
 
-#: ../../source/empty/index.rst:293
+#: ../../source/empty/index.rst:299
 msgid "Some files will automatically be excluded:"
 msgstr ""
 
-#: ../../source/empty/index.rst:295
+#: ../../source/empty/index.rst:301
 msgid ".git*,"
 msgstr ""
 
-#: ../../source/empty/index.rst:296
+#: ../../source/empty/index.rst:302
 msgid ".gh_token"
 msgstr ""
 
-#: ../../source/empty/index.rst:297
+#: ../../source/empty/index.rst:303
 msgid ".tx/"
 msgstr ""
 
-#: ../../source/empty/index.rst:298
+#: ../../source/empty/index.rst:304
 msgid "tools/"
 msgstr ""
 
-#: ../../source/empty/index.rst:299
+#: ../../source/empty/index.rst:305
 msgid "tests/"
 msgstr ""
 
-#: ../../source/empty/index.rst:300
+#: ../../source/empty/index.rst:306
 msgid ".atoum.php"
 msgstr ""
 
-#: ../../source/empty/index.rst:301
+#: ../../source/empty/index.rst:307
 msgid ".travis.yml"
 msgstr ""
 
-#: ../../source/empty/index.rst:302
+#: ../../source/empty/index.rst:308
 msgid ".circleci/"
 msgstr ""
 
-#: ../../source/empty/index.rst:303
+#: ../../source/empty/index.rst:309
 msgid ".ignore-release"
 msgstr ""
 
-#: ../../source/empty/index.rst:304
+#: ../../source/empty/index.rst:310
 msgid "composer.lock"
 msgstr ""
 
-#: ../../source/empty/index.rst:305
+#: ../../source/empty/index.rst:311
 msgid "Robofile.php"
 msgstr ""
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
 msgstr "|CC-BY-NC-ND|"
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
+msgstr ""

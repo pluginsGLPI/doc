@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 16:17+0100\n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
 "PO-Revision-Date: 2024-01-26 14:57+0000\n"
 "Language-Team: Russian (Russia) (https://app.transifex.com/teclib/teams/28042/ru_RU/)\n"
 "MIME-Version: 1.0\n"
@@ -30,7 +30,7 @@ msgid ""
 "`Use scim to provision users and groups <https://learn.microsoft.com/fr-"
 "fr/azure/active-directory/app-provisioning/use-scim-to-provision-users-and-"
 "groups#integrate-your-scim-endpoint-with-the-azure-ad-provisioning-"
-"service>`__"
+"service>`_"
 msgstr ""
 
 #: ../../source/scim/azure.rst:12
@@ -39,7 +39,7 @@ msgstr ""
 
 #: ../../source/scim/azure.rst:14
 msgid ""
-"Connect to your `Azure portal <https://aad.portal.azure.com/>`__ and  go to "
+"Connect to your `Azure portal <https://aad.portal.azure.com/>`_ and  go to "
 "the **Azure Active Directory** > **Enterprise applications** menu."
 msgstr ""
 
@@ -93,30 +93,30 @@ msgstr ""
 msgid "Azure Configuration provisioning"
 msgstr ""
 
-#: ../../source/scim/azure.rst:35
+#: ../../source/scim/azure.rst:36
 msgid ""
 "You must choose in the **Parameters** > **Extended** section how you want to"
 " synchronize your users and groups:"
 msgstr ""
 
-#: ../../source/scim/azure.rst:37
+#: ../../source/scim/azure.rst:38
 msgid ""
 "Only users and groups assigned to the application. In this case, you must "
 "manually assign your users and groups to the application in the **Users and "
 "groups** section."
 msgstr ""
 
-#: ../../source/scim/azure.rst:38
+#: ../../source/scim/azure.rst:39
 msgid "All users and groups in the directory"
 msgstr ""
 
-#: ../../source/scim/azure.rst:40
+#: ../../source/scim/azure.rst:41
 msgid ""
 "After checking the mapping section, enable the **Provisioning** at the "
 "bottom and click on the **[Save]** button."
 msgstr ""
 
-#: ../../source/scim/azure.rst:41
+#: ../../source/scim/azure.rst:42
 msgid ""
 "You can check the advancement in the **Provisioning logs** section. Usually "
 "it start after a few minutes."

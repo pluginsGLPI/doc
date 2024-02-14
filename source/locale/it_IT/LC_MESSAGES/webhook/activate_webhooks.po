@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2024, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Davide <spam@habilitas.it>, 2024
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
+"PO-Revision-Date: 2024-02-14 07:35+0000\n"
+"Last-Translator: Davide <spam@habilitas.it>, 2024\n"
+"Language-Team: Italian (Italy) (https://app.transifex.com/teclib/teams/28042/it_IT/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../source/webhook/activate_webhooks.rst:2
+msgid "Activate webhooks"
+msgstr "Attiva i webhook"
+
+#: ../../source/webhook/activate_webhooks.rst:4
+msgid "In the tab **Setup > Notifications** activate Webhooks notifications"
+msgstr ""
+"Nella scheda **Configurazione > Notifiche**, attiva le notifiche webhook"
+
+#: ../../source/webhook/activate_webhooks.rst-1
+msgid "activate webhooks"
+msgstr "attiva i webhook"
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr "|ccbyncnd|"
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
+msgstr "Creative Commons License"

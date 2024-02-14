@@ -1,16 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016, Teclib'
+# Copyright (C) 2016-2024, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPI plugins 0.1\n"
+"Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-14 15:17+0200\n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
 "PO-Revision-Date: 2020-01-30 07:19+0000\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/teclib/teams/28042/zh_CN/)\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/teclib/teams/28042/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,185 +21,205 @@ msgstr ""
 msgid "Order"
 msgstr ""
 
-#: ../../source/order/index.rst:4
-msgid "Sources link: https://github.com/pluginsGLPI/order"
-msgstr ""
-
-#: ../../source/order/index.rst:5
-msgid "Download: https://github.com/pluginsGLPI/genericobject/order"
-msgstr ""
-
 #: ../../source/order/index.rst:7
-msgid ""
-"This user manual applies to version 2.5 of the GLPI Generic Object Plugin."
+msgid "Download"
+msgstr ""
+
+#: ../../source/order/index.rst:8
+msgid "Sources"
+msgstr ""
+
+#: ../../source/order/index.rst:9
+msgid "`<https://github.com/pluginsGLPI/order/releases>`_"
 msgstr ""
 
 #: ../../source/order/index.rst:10
-msgid "Requirements"
+msgid "`<https://github.com/pluginsGLPI/order>`_"
 msgstr ""
 
-#: ../../source/order/index.rst:12
-msgid "This plugin requires :"
+#: ../../source/order/index.rst:13
+msgid "Requirements (on-premise)"
 msgstr ""
 
-#: ../../source/order/index.rst:14
-msgid "PHP 7.2 or higher"
+#: ../../source/order/index.rst:16
+msgid "GLPI Version"
 msgstr ""
 
-#: ../../source/order/index.rst:15
-msgid "GLPI >= 9.4"
+#: ../../source/order/index.rst:16
+msgid "Minimum PHP"
 msgstr ""
 
-#: ../../source/order/index.rst:19
-msgid "Features"
+#: ../../source/order/index.rst:16
+msgid "Recommended"
 msgstr ""
 
-#: ../../source/order/index.rst:21
-msgid "This plugin supports the following aspects of order management :"
+#: ../../source/order/index.rst:18
+msgid "10.0.x"
 msgstr ""
 
-#: ../../source/order/index.rst:23
-msgid "Definition and management of a catalogue of product references"
+#: ../../source/order/index.rst:18
+msgid "8.1"
 msgstr ""
 
-#: ../../source/order/index.rst:24
-msgid "Order management (with approval workflow)"
+#: ../../source/order/index.rst:18
+msgid "8.2"
+msgstr ""
+
+#: ../../source/order/index.rst:22
+msgid ""
+"This plugin is available without a GLPI-Network subscription. It is also "
+"available in `Cloud <https://glpi-network.cloud/>`_"
 msgstr ""
 
 #: ../../source/order/index.rst:25
-msgid "Budgets management"
+msgid "Features"
 msgstr ""
 
-#: ../../source/order/index.rst:26
-msgid "Management of invoices associated with orders"
+#: ../../source/order/index.rst:27
+msgid "This plugin supports the following aspects of order management :"
 msgstr ""
 
 #: ../../source/order/index.rst:29
-msgid "Install the Plugin"
+msgid "Definition and management of a catalogue of product references"
 msgstr ""
 
 #: ../../source/order/index.rst:30
-msgid "Uncompress the archive."
+msgid "Order management (with approval workflow)"
 msgstr ""
 
 #: ../../source/order/index.rst:31
-msgid ""
-"Move the ``escalade`` directory to the ``<GLPI_ROOT>/plugins`` directory"
+msgid "Budgets management"
 msgstr ""
 
 #: ../../source/order/index.rst:32
-msgid "Navigate to the *Configuration > Plugins* page,"
+msgid "Management of invoices associated with orders"
 msgstr ""
 
-#: ../../source/order/index.rst:33
-msgid "Install and activate the plugin."
+#: ../../source/order/index.rst:35
+msgid "Install the Plugin"
 msgstr ""
 
 #: ../../source/order/index.rst:36
-msgid "Configuration"
+msgid "Uncompress the archive."
+msgstr ""
+
+#: ../../source/order/index.rst:37
+msgid "Move the ``order`` directory to the ``<GLPI_ROOT>/plugins`` directory"
 msgstr ""
 
 #: ../../source/order/index.rst:38
+msgid "Navigate to the *Configuration > Plugins* page,"
+msgstr ""
+
+#: ../../source/order/index.rst:39
+msgid "Install and activate the plugin."
+msgstr ""
+
+#: ../../source/order/index.rst:42
+msgid "Configuration"
+msgstr ""
+
+#: ../../source/order/index.rst:44
 msgid ""
 "You will access the plugin configuration from the *Setup* > *Plugins* > "
 "*Orders managment*."
 msgstr ""
 
-#: ../../source/order/index.rst:40
+#: ../../source/order/index.rst:46
 msgid ""
 "When the plugin is installed and enabled, the following options are "
 "available:"
 msgstr ""
 
-#: ../../source/order/index.rst:44
+#: ../../source/order/index.rst:52
 msgid ""
 "Default VAT: indicates the amount of VAT that will be proposed by default in"
 " the plugin"
 msgstr ""
 
-#: ../../source/order/index.rst:45
+#: ../../source/order/index.rst:53
 msgid ""
 "Use the validation process: indicates whether the full validation circuit "
 "should be used, or whether anyone can validate applications."
 msgstr ""
 
-#: ../../source/order/index.rst:46
+#: ../../source/order/index.rst:54
 msgid ""
 "Purchase order generation: indicates if the tab allowing the generation of a"
 " purchase order in ODT format is displayed or not."
 msgstr ""
 
-#: ../../source/order/index.rst:47
+#: ../../source/order/index.rst:55
 msgid ""
 "Enable supplier quality: indicates whether the tab for judging supplier "
 "satisfaction is displayed once the order is delivered."
 msgstr ""
 
-#: ../../source/order/index.rst:48
+#: ../../source/order/index.rst:56
 msgid ""
 "Display purchase order vendor information: Shows whether or not the tab for "
 "storing the reference and vendor purchase order number is displayed."
 msgstr ""
 
-#: ../../source/order/index.rst:49
+#: ../../source/order/index.rst:57
 msgid ""
 "Colour when the estimated delivery date is exceeded: colour of display in "
 "the search engine of an undelivered order for which the estimated delivery "
 "date is exceeded"
 msgstr ""
 
-#: ../../source/order/index.rst:50
+#: ../../source/order/index.rst:58
 msgid ""
 "Copy order documents when a new item is created : Copy order documents to "
 "generated item"
 msgstr ""
 
-#: ../../source/order/index.rst:51
+#: ../../source/order/index.rst:59
 msgid ""
 "Default heading when adding a document to an order : define default heading"
 msgstr ""
 
-#: ../../source/order/index.rst:52
+#: ../../source/order/index.rst:60
 msgid "Author group (Default values) : Define default author"
 msgstr ""
 
-#: ../../source/order/index.rst:53
+#: ../../source/order/index.rst:61
 msgid "Recipient group (Default values) : Define defaut Recipient group"
 msgstr ""
 
-#: ../../source/order/index.rst:54
+#: ../../source/order/index.rst:62
 msgid "Recipient (Default values) : Define default Recipient"
 msgstr ""
 
-#: ../../source/order/index.rst:55
+#: ../../source/order/index.rst:63
 msgid "Do not display expired budgets : yes or no"
 msgstr ""
 
-#: ../../source/order/index.rst:56
+#: ../../source/order/index.rst:64
 msgid "Transmit budget change to linked assets : yes or no"
 msgstr ""
 
-#: ../../source/order/index.rst:57
+#: ../../source/order/index.rst:65
 msgid "Display account section on order form : yes or no"
 msgstr ""
 
-#: ../../source/order/index.rst:58
+#: ../../source/order/index.rst:66
 msgid "Set account section as mandatory on order form : yes or no"
 msgstr ""
 
-#: ../../source/order/index.rst:59
+#: ../../source/order/index.rst:67
 msgid "Use free references : yes or no"
 msgstr ""
 
-#: ../../source/order/index.rst:60
+#: ../../source/order/index.rst:68
 msgid "Rename documents added in order :yes or no"
 msgstr ""
 
-#: ../../source/order/index.rst:63
+#: ../../source/order/index.rst:71
 msgid "Automatic actions when delivery Item"
 msgstr ""
 
-#: ../../source/order/index.rst:67
+#: ../../source/order/index.rst:76
 msgid ""
 "Generation does not apply to contracts, cartridges and consumables. In order"
 " to activate this feature, change the option Activate automatic generation "
@@ -207,318 +227,318 @@ msgid ""
 "with some randomly generated information:"
 msgstr ""
 
-#: ../../source/order/index.rst:71
+#: ../../source/order/index.rst:80
 msgid "Default name"
 msgstr ""
 
-#: ../../source/order/index.rst:72
+#: ../../source/order/index.rst:81
 msgid "Default Serial Number"
 msgstr ""
 
-#: ../../source/order/index.rst:73
+#: ../../source/order/index.rst:82
 msgid "Default inventory number"
 msgstr ""
 
-#: ../../source/order/index.rst:74
+#: ../../source/order/index.rst:83
 msgid ""
 "If a template is associated with the part number, and in this template the "
 "name and serial number are generated, then the settings defined above for "
 "these 2 fields do not apply."
 msgstr ""
 
-#: ../../source/order/index.rst:76
+#: ../../source/order/index.rst:85
 msgid ""
 "The default status will be set when the material is created. The positioning"
 " of the status during the creation of the material can lead to a date "
 "filling of the financial information. See the Entity Inventory tab."
 msgstr ""
 
-#: ../../source/order/index.rst:80
+#: ../../source/order/index.rst:89
 msgid "Order lifecycle"
 msgstr ""
 
-#: ../../source/order/index.rst:82
+#: ../../source/order/index.rst:91
 msgid "You can define your own status for order lifecycle"
 msgstr ""
 
-#: ../../source/order/index.rst:88
+#: ../../source/order/index.rst:97
 msgid "Creation of a reference catalogue"
 msgstr ""
 
-#: ../../source/order/index.rst:90
+#: ../../source/order/index.rst:99
 msgid ""
 "You will access the reference catalogue from the *Management* > *Orders* > "
 "*Products references*."
 msgstr ""
 
-#: ../../source/order/index.rst:96
+#: ../../source/order/index.rst:105
 msgid ""
 "The creation of product references is the prerequisite for order management."
 " Any product to be ordered must be referenced in the plugin catalog. When "
 "creating a product reference, the following fields must be filled in:"
 msgstr ""
 
-#: ../../source/order/index.rst:100
+#: ../../source/order/index.rst:109
 msgid ""
 "Sub-entities: indicates if the reference will be visible in the current "
 "entity only or in the sub-entities as well."
 msgstr ""
 
-#: ../../source/order/index.rst:101
+#: ../../source/order/index.rst:110
 msgid ""
 "Name: name of the reference, as it will be displayed when managing an order "
 "(required)"
 msgstr ""
 
-#: ../../source/order/index.rst:102
+#: ../../source/order/index.rst:111
 msgid "Manufacturer: the manufacturer of the product (not the supplier)"
 msgstr ""
 
-#: ../../source/order/index.rst:103
+#: ../../source/order/index.rst:112
 msgid ""
 "Type of equipment: indicates what type of equipment we are dealing with"
 msgstr ""
 
-#: ../../source/order/index.rst:104
+#: ../../source/order/index.rst:113
 msgid "Type: the type of the product"
 msgstr ""
 
-#: ../../source/order/index.rst:105
+#: ../../source/order/index.rst:114
 msgid "Model: the model of the product"
 msgstr ""
 
-#: ../../source/order/index.rst:106
+#: ../../source/order/index.rst:115
 msgid "Template: the GLPI template of the product if one already exists."
 msgstr ""
 
-#: ../../source/order/index.rst:107
+#: ../../source/order/index.rst:116
 msgid "comments: additional information on the reference"
 msgstr ""
 
-#: ../../source/order/index.rst:108
+#: ../../source/order/index.rst:117
 msgid ""
 "Once the reference is created, it is then necessary to indicate from which "
 "supplier(s) the product is available, as well as the price associated with "
 "it."
 msgstr ""
 
-#: ../../source/order/index.rst:110 ../../source/order/index.rst:140
+#: ../../source/order/index.rst:119 ../../source/order/index.rst:150
 msgid "It is also possible to :"
 msgstr ""
 
-#: ../../source/order/index.rst:112
+#: ../../source/order/index.rst:121
 msgid "Add related documents"
 msgstr ""
 
-#: ../../source/order/index.rst:113
+#: ../../source/order/index.rst:122
 msgid "View history"
 msgstr ""
 
-#: ../../source/order/index.rst:117
+#: ../../source/order/index.rst:126
 msgid "Creating an order"
 msgstr ""
 
-#: ../../source/order/index.rst:119
+#: ../../source/order/index.rst:128
 msgid "You will access orders from the *Management* > *Orders* > *Orders*."
 msgstr ""
 
-#: ../../source/order/index.rst:123
+#: ../../source/order/index.rst:133
 msgid ""
 "Once the reference catalogue has been created, it is now possible to add "
 "material orders. The fields to be filled in are :"
 msgstr ""
 
-#: ../../source/order/index.rst:126
+#: ../../source/order/index.rst:136
 msgid "Sub-entities: indicates if the order is visible in the sub-entities"
 msgstr ""
 
-#: ../../source/order/index.rst:127
+#: ../../source/order/index.rst:137
 msgid "Order name"
 msgstr ""
 
-#: ../../source/order/index.rst:128
+#: ../../source/order/index.rst:138
 msgid "Order number (required)"
 msgstr ""
 
-#: ../../source/order/index.rst:129
+#: ../../source/order/index.rst:139
 msgid "Date of order (required)"
 msgstr ""
 
-#: ../../source/order/index.rst:130
+#: ../../source/order/index.rst:140
 msgid "Budget: The budget to which the purchase order is posted."
 msgstr ""
 
-#: ../../source/order/index.rst:131
+#: ../../source/order/index.rst:141
 msgid ""
 "Vendor purchase order number: Indicates the internal number for the purchase"
 " order at the vendor."
 msgstr ""
 
-#: ../../source/order/index.rst:132
+#: ../../source/order/index.rst:142
 msgid ""
 "Payment terms: free field (can contain for example 30 days end of month, 60 "
 "days end of month, etc)"
 msgstr ""
 
-#: ../../source/order/index.rst:133
+#: ../../source/order/index.rst:143
 msgid "Billing number"
 msgstr ""
 
-#: ../../source/order/index.rst:134
+#: ../../source/order/index.rst:144
 msgid ""
 "Supplier: the supplier with whom the order is placed. Only the catalogue "
 "references from this supplier may be added to the order."
 msgstr ""
 
-#: ../../source/order/index.rst:135
+#: ../../source/order/index.rst:145
 msgid ""
 "Place of delivery of the order: indicates the place where the equipment will"
 " be delivered. This option has value only in the entity in which the order "
 "is created."
 msgstr ""
 
-#: ../../source/order/index.rst:136
+#: ../../source/order/index.rst:146
 msgid "Description: description of the order"
 msgstr ""
 
-#: ../../source/order/index.rst:137
+#: ../../source/order/index.rst:147
 msgid ""
 "Status: Indicates the current status of the purchase order in the release "
 "run."
 msgstr ""
 
-#: ../../source/order/index.rst:138
+#: ../../source/order/index.rst:148
 msgid ""
 "Estimated delivery date: indicates the indicative date by which the supplier"
 " must deliver the order."
 msgstr ""
 
-#: ../../source/order/index.rst:142
+#: ../../source/order/index.rst:152
 msgid "Define author and recipient"
 msgstr ""
 
-#: ../../source/order/index.rst:146
+#: ../../source/order/index.rst:156
 msgid "Adding articles"
 msgstr ""
 
-#: ../../source/order/index.rst:150
+#: ../../source/order/index.rst:161
 msgid "In the Details tab, it is now possible to add products to the order."
 msgstr ""
 
-#: ../../source/order/index.rst:152
+#: ../../source/order/index.rst:163
 msgid "Select the type of material to add to the order"
 msgstr ""
 
-#: ../../source/order/index.rst:153
+#: ../../source/order/index.rst:164
 msgid "Select product number"
 msgstr ""
 
-#: ../../source/order/index.rst:154
+#: ../../source/order/index.rst:165
 msgid "Indicate the quantity to order"
 msgstr ""
 
-#: ../../source/order/index.rst:155
+#: ../../source/order/index.rst:166
 msgid ""
 "Change the unit price if it is not the price indicated in the product "
 "reference."
 msgstr ""
 
-#: ../../source/order/index.rst:156
+#: ../../source/order/index.rst:167
 msgid "Indicate the percentage discount on products"
 msgstr ""
 
-#: ../../source/order/index.rst:157
+#: ../../source/order/index.rst:168
 msgid "You can then validate the addition of these products to the order."
 msgstr ""
 
-#: ../../source/order/index.rst:161
+#: ../../source/order/index.rst:174
 msgid ""
 "Note: it is possible to modify the price and the discount of a set of "
 "materials when the order is being edited. To do this, simply double-click on"
 " one of these 2 fields, modify its value and then validate the change."
 msgstr ""
 
-#: ../../source/order/index.rst:165
+#: ../../source/order/index.rst:178
 msgid "Validation workflow"
 msgstr ""
 
-#: ../../source/order/index.rst:169
+#: ../../source/order/index.rst:184
 msgid "The plugin has a validation workflow that works as follows:"
 msgstr ""
 
-#: ../../source/order/index.rst:171
+#: ../../source/order/index.rst:186
 msgid "Creating the order: status In progress"
 msgstr ""
 
-#: ../../source/order/index.rst:172
+#: ../../source/order/index.rst:187
 msgid "Request for order release: status Pending approval"
 msgstr ""
 
-#: ../../source/order/index.rst:173
+#: ../../source/order/index.rst:188
 msgid ""
 "Order confirmed: the order then goes to the status In process of delivery."
 msgstr ""
 
-#: ../../source/order/index.rst:174
+#: ../../source/order/index.rst:189
 msgid "Order completely received: automatic switch to Delivered status"
 msgstr ""
 
-#: ../../source/order/index.rst:175
+#: ../../source/order/index.rst:190
 msgid "Cancelled purchase order: Change to status Cancelled"
 msgstr ""
 
-#: ../../source/order/index.rst:177
+#: ../../source/order/index.rst:192
 msgid ""
 "The definition of the persons having the right to make a validation request,"
 " to validate or to cancel an order is done in the edition of the profiles."
 msgstr ""
 
-#: ../../source/order/index.rst:182
+#: ../../source/order/index.rst:197
 msgid "Receiving the order"
 msgstr ""
 
-#: ../../source/order/index.rst:184
+#: ../../source/order/index.rst:199
 msgid ""
 "Once the order has been confirmed, the equipment can begin to be received. "
 "To do this, you must go to the Receiving Equipment(s) tab. Each product is "
 "identified by a line with the following information:"
 msgstr ""
 
-#: ../../source/order/index.rst:188 ../../source/order/index.rst:206
+#: ../../source/order/index.rst:203 ../../source/order/index.rst:222
 msgid "Product reference"
 msgstr ""
 
-#: ../../source/order/index.rst:189
+#: ../../source/order/index.rst:204
 msgid "Number of equipment(s) received"
 msgstr ""
 
-#: ../../source/order/index.rst:190
+#: ../../source/order/index.rst:205
 msgid "Number of material(s) related to inventory items in GLPI"
 msgstr ""
 
-#: ../../source/order/index.rst:191
+#: ../../source/order/index.rst:206
 msgid "Unit price of the product (excl. VAT)"
 msgstr ""
 
-#: ../../source/order/index.rst:192
+#: ../../source/order/index.rst:207
 msgid "Unit price of the product (incl. VAT)"
 msgstr ""
 
-#: ../../source/order/index.rst:193 ../../source/order/index.rst:211
+#: ../../source/order/index.rst:208 ../../source/order/index.rst:227
 msgid "Price per unit awarded (excl. VAT)"
 msgstr ""
 
-#: ../../source/order/index.rst:195
+#: ../../source/order/index.rst:210
 msgid ""
 "By clicking on the *+* icon on the left of the line, it is possible to "
 "access the details of the products ordered."
 msgstr ""
 
-#: ../../source/order/index.rst:200
+#: ../../source/order/index.rst:216
 msgid "Receiving material"
 msgstr ""
 
-#: ../../source/order/index.rst:202
+#: ../../source/order/index.rst:218
 msgid ""
 "It is possible to receive the material that has been ordered, from the "
 "moment the order is validated. You have to go to the tab Reception of "
@@ -526,49 +546,49 @@ msgid ""
 "line contains the following information:"
 msgstr ""
 
-#: ../../source/order/index.rst:207
+#: ../../source/order/index.rst:223
 msgid ""
 "Received equipment(s): indicates the number of equipment received out of the"
 " total number of equipment ordered for this product."
 msgstr ""
 
-#: ../../source/order/index.rst:208
+#: ../../source/order/index.rst:224
 msgid ""
 "Related equipment(s): number of goods received related to inventory items in"
 " GLPI"
 msgstr ""
 
-#: ../../source/order/index.rst:209
+#: ../../source/order/index.rst:225
 msgid "Price per unit (excl. VAT)"
 msgstr ""
 
-#: ../../source/order/index.rst:210
+#: ../../source/order/index.rst:226
 msgid "Unit price (incl. VAT)"
 msgstr ""
 
-#: ../../source/order/index.rst:213
+#: ../../source/order/index.rst:229
 msgid ""
 "In order to proceed to the reception of products, just click on the + icon "
 "on the left of the line."
 msgstr ""
 
-#: ../../source/order/index.rst:215
+#: ../../source/order/index.rst:231
 msgid "There are 2 ways to receive material :"
 msgstr ""
 
-#: ../../source/order/index.rst:217
+#: ../../source/order/index.rst:233
 msgid ""
 "Reception of materials selected from the list of products ordered but not "
 "yet received"
 msgstr ""
 
-#: ../../source/order/index.rst:218
+#: ../../source/order/index.rst:234
 msgid ""
 "Receipt of materials in bulk: in this case we will indicate how many "
 "products are received (without first selecting from the list)."
 msgstr ""
 
-#: ../../source/order/index.rst:223
+#: ../../source/order/index.rst:239
 msgid ""
 "In both cases, it is necessary to return the delivery note associated with "
 "the reception of the material. Alternatively, a status of the received "
@@ -576,19 +596,19 @@ msgid ""
 "received, it is possible to :"
 msgstr ""
 
-#: ../../source/order/index.rst:226
+#: ../../source/order/index.rst:242
 msgid "Generate a material in GLPI from the received product"
 msgstr ""
 
-#: ../../source/order/index.rst:227
+#: ../../source/order/index.rst:243
 msgid "Link the product received to existing GLPI equipment"
 msgstr ""
 
-#: ../../source/order/index.rst:230
+#: ../../source/order/index.rst:246
 msgid "Generate the material"
 msgstr ""
 
-#: ../../source/order/index.rst:234
+#: ../../source/order/index.rst:251
 msgid ""
 "In order to generate materials from received products, simply select from "
 "the list those for which this operation is to be performed. Then select the "
@@ -596,40 +616,40 @@ msgid ""
 "represents a received product, and the following information must be given:"
 msgstr ""
 
-#: ../../source/order/index.rst:238
+#: ../../source/order/index.rst:255
 msgid "Name of the material generated in GLPI"
 msgstr ""
 
-#: ../../source/order/index.rst:239
+#: ../../source/order/index.rst:256
 msgid "Serial code"
 msgstr ""
 
-#: ../../source/order/index.rst:240
+#: ../../source/order/index.rst:257
 msgid "Asset number"
 msgstr ""
 
-#: ../../source/order/index.rst:242
+#: ../../source/order/index.rst:259
 msgid "Note:"
 msgstr ""
 
-#: ../../source/order/index.rst:244
+#: ../../source/order/index.rst:261
 msgid ""
 "If there is a template associated with the reference of the generated "
 "product, and if the latter is created in the same entity as the reference, "
 "then the inventory object in GLPI will be created from this template."
 msgstr ""
 
-#: ../../source/order/index.rst:245
+#: ../../source/order/index.rst:262
 msgid ""
 "The financial information of the order will be carried in the newly created "
 "inventory object."
 msgstr ""
 
-#: ../../source/order/index.rst:248
+#: ../../source/order/index.rst:265
 msgid "Link to an inventory item"
 msgstr ""
 
-#: ../../source/order/index.rst:252
+#: ../../source/order/index.rst:271
 msgid ""
 "It is possible not to generate a received product, but to link it to "
 "material already present in GLPI. To do this, you must select the option "
@@ -637,60 +657,74 @@ msgid ""
 "all the materials present in GLPI which :"
 msgstr ""
 
-#: ../../source/order/index.rst:256
+#: ../../source/order/index.rst:275
 msgid ""
 "Are in the entity of the order (or in a sub-entity if the order is visible "
 "in the sub-entities)"
 msgstr ""
 
-#: ../../source/order/index.rst:257 ../../source/order/index.rst:258
+#: ../../source/order/index.rst:276 ../../source/order/index.rst:277
 msgid "With the same type of equipment"
 msgstr ""
 
-#: ../../source/order/index.rst:259
+#: ../../source/order/index.rst:278
 msgid "Identical"
 msgstr ""
 
-#: ../../source/order/index.rst:261
+#: ../../source/order/index.rst:280
 msgid ""
 "Once linked to a product, the material in GLPI will receive the financial "
 "information from the order."
 msgstr ""
 
-#: ../../source/order/index.rst:264
+#: ../../source/order/index.rst:283
 msgid "Rights management"
 msgstr ""
 
-#: ../../source/order/index.rst:268
+#: ../../source/order/index.rst:289
 msgid ""
 "The plugin rights management allows to define, by profile, if the user has "
 "the right to :"
 msgstr ""
 
-#: ../../source/order/index.rst:270
+#: ../../source/order/index.rst:291
 msgid "Manage commands"
 msgstr ""
 
-#: ../../source/order/index.rst:271
+#: ../../source/order/index.rst:292
 msgid "Manage product references"
 msgstr ""
 
-#: ../../source/order/index.rst:272
+#: ../../source/order/index.rst:293
 msgid "Manage invoices"
 msgstr ""
 
-#: ../../source/order/index.rst:273
+#: ../../source/order/index.rst:294
 msgid "Confirm an order"
 msgstr ""
 
-#: ../../source/order/index.rst:274
+#: ../../source/order/index.rst:295
 msgid "Cancel an order"
 msgstr ""
 
-#: ../../source/order/index.rst:275
+#: ../../source/order/index.rst:296
 msgid "Modify a validated order"
+msgstr ""
+
+#: ../../source/order/index.rst:299
+msgid "FAQ"
+msgstr ""
+
+#: ../../source/order/index.rst:301
+msgid ""
+"If you have any questions about using the plugin, please consult `our FAQ "
+"<https://faq.teclib.com/04_Plugins/Order/>`_"
 msgstr ""
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
+msgstr ""
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
 msgstr ""

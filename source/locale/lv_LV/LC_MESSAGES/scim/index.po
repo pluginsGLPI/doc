@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 16:17+0100\n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
 "PO-Revision-Date: 2024-01-26 14:57+0000\n"
 "Language-Team: Latvian (Latvia) (https://app.transifex.com/teclib/teams/28042/lv_LV/)\n"
 "MIME-Version: 1.0\n"
@@ -21,18 +21,53 @@ msgstr ""
 msgid "SCIM"
 msgstr ""
 
-#: ../../source/scim/index.rst:7
+#: ../../source/scim/index.rst:5
+msgid "Requirements (on-premise)"
+msgstr ""
+
+#: ../../source/scim/index.rst:8
+msgid "GLPI Version"
+msgstr ""
+
+#: ../../source/scim/index.rst:8
+msgid "Minimum PHP"
+msgstr ""
+
+#: ../../source/scim/index.rst:8
+msgid "Recommended"
+msgstr ""
+
+#: ../../source/scim/index.rst:10
+msgid "10.0.x"
+msgstr ""
+
+#: ../../source/scim/index.rst:10
+msgid "8.1"
+msgstr ""
+
+#: ../../source/scim/index.rst:10
+msgid "8.2"
+msgstr ""
+
+#: ../../source/scim/index.rst:14
+msgid ""
+"A `basic licence <https://services.glpi-network.com/#offers>`_ (or higher) "
+"is required. This plugin is also available from the `Cloud <https://glpi-"
+"network.cloud/fr/>`__."
+msgstr ""
+
+#: ../../source/scim/index.rst:22
 msgid ""
 "This plugin let you provision your users and groups from an external "
 "identity provider using the `SCIM "
 "<https://en.wikipedia.org/wiki/System_for_Cross-"
-"domain_Identity_Management>`__ protocol. The update from the directory to "
+"domain_Identity_Management>`_ protocol. The update from the directory to "
 "GLPI is done “just in time”. Each modification is done on the fly, without "
 "any cron. GLPI is the service provider, and the directory is the identity "
 "provider."
 msgstr ""
 
-#: ../../source/scim/index.rst:10
+#: ../../source/scim/index.rst:25
 msgid ""
 "**Warning, the SCIM API endpoint provided by the plugin must be accessible "
 "from the identity provider.** If we talk about Azure or Okta, this "
@@ -41,11 +76,11 @@ msgid ""
 "strong authentication method)."
 msgstr ""
 
-#: ../../source/scim/index.rst:15
+#: ../../source/scim/index.rst:30
 msgid "Setup"
 msgstr ""
 
-#: ../../source/scim/index.rst:17
+#: ../../source/scim/index.rst:32
 msgid ""
 "You must declare an identity server in the plugin configuration (You can add"
 " any number). Go to **Setup** > **SCIM Identity servers** menu and click the"
@@ -56,94 +91,94 @@ msgstr ""
 msgid "SCIM configuration"
 msgstr ""
 
-#: ../../source/scim/index.rst:23
+#: ../../source/scim/index.rst:39
 msgid "Fill at least:"
 msgstr ""
 
-#: ../../source/scim/index.rst:25
+#: ../../source/scim/index.rst:41
 msgid "The name of the server,"
 msgstr ""
 
-#: ../../source/scim/index.rst:26
+#: ../../source/scim/index.rst:42
 msgid ""
 "the user applied on GLPI when receiving a request (this will identify the "
 "user in th GLPI logs),"
 msgstr ""
 
-#: ../../source/scim/index.rst:27
+#: ../../source/scim/index.rst:43
 msgid "check the “Active” field,"
 msgstr ""
 
-#: ../../source/scim/index.rst:28
+#: ../../source/scim/index.rst:44
 msgid "and submit by clicking the [+ Add] button at the bottom of the form."
 msgstr ""
 
-#: ../../source/scim/index.rst:30
+#: ../../source/scim/index.rst:46
 msgid ""
 "You’ll be given an API url you may paste into your identity provider "
-"configuration. Check `specific provider documentation <#providers>`__ for "
+"configuration. Check `specific provider documentation <#providers>`_ for "
 "more details."
 msgstr ""
 
-#: ../../source/scim/index.rst:32
+#: ../../source/scim/index.rst:48
 msgid "You may set some optional parameters :"
 msgstr ""
 
-#: ../../source/scim/index.rst:34
+#: ../../source/scim/index.rst:50
 msgid ""
 "**Save requests in logs**: if checked, all requests will be saved in the "
 "“Historical” tab of your declared server."
 msgstr ""
 
-#: ../../source/scim/index.rst:35
+#: ../../source/scim/index.rst:51
 msgid ""
 "**Default server**: if checked, this server will be used by default without "
 "providing it’s id in the API Url."
 msgstr ""
 
-#: ../../source/scim/index.rst:36
+#: ../../source/scim/index.rst:52
 msgid ""
 "**Security**: a dropdown of available security methods. Currently "
 "implemented:"
 msgstr ""
 
-#: ../../source/scim/index.rst:38
+#: ../../source/scim/index.rst:54
 msgid "**None**: no security, anyone can access the API."
 msgstr ""
 
-#: ../../source/scim/index.rst:39
+#: ../../source/scim/index.rst:55
 msgid ""
 "**Basic**: HTTP Basic authentication. You must provide a username and a "
 "password."
 msgstr ""
 
-#: ../../source/scim/index.rst:40
+#: ../../source/scim/index.rst:56
 msgid ""
 "**Digest**: HTTP Digest authentication. You must provide a username and a "
 "password."
 msgstr ""
 
-#: ../../source/scim/index.rst:41
+#: ../../source/scim/index.rst:57
 msgid ""
 "**Bearer**: HTTP Bearer authentication. A long lived (10years) jwt token "
 "will be generated."
 msgstr ""
 
-#: ../../source/scim/index.rst:42
+#: ../../source/scim/index.rst:58
 msgid ""
 "**OAuth2**: OAuth2 authentication. You must provide at least a valid "
 "redirection uri. We support the following flows:"
 msgstr ""
 
-#: ../../source/scim/index.rst:44
+#: ../../source/scim/index.rst:60
 msgid "Authorization code."
 msgstr ""
 
-#: ../../source/scim/index.rst:45
+#: ../../source/scim/index.rst:61
 msgid "Client credentials."
 msgstr ""
 
-#: ../../source/scim/index.rst:47
+#: ../../source/scim/index.rst:63
 msgid ""
 "Your SCIM server is now ready to receive requests from your identity "
 "provider."
@@ -153,40 +188,50 @@ msgstr ""
 msgid "SCIM API example"
 msgstr ""
 
-#: ../../source/scim/index.rst:54
+#: ../../source/scim/index.rst:70
 msgid "Providers"
 msgstr ""
 
-#: ../../source/scim/index.rst:56
+#: ../../source/scim/index.rst:72
 msgid ":doc:`Azure <azure>`"
 msgstr ""
 
-#: ../../source/scim/index.rst:57
+#: ../../source/scim/index.rst:73
 msgid ":doc:`Okta <okta>`"
 msgstr ""
 
-#: ../../source/scim/index.rst:60
+#: ../../source/scim/index.rst:76
 msgid "A Note about passwords sync"
 msgstr ""
 
-#: ../../source/scim/index.rst:62
+#: ../../source/scim/index.rst:78
 msgid ""
 "Although it’s mentioned in the `SCIM specifications "
-"<https://datatracker.ietf.org/doc/html/rfc7643#section-9.2>`__, password "
-"sync is not always available depending on the provider:"
+"<https://datatracker.ietf.org/doc/html/rfc7643#section-9.2>`_, password sync"
+" is not always available depending on the provider:"
 msgstr ""
 
-#: ../../source/scim/index.rst:64
+#: ../../source/scim/index.rst:80
 msgid ""
 "Azure: `not available <https://learn.microsoft.com/en-"
 "us/answers/questions/1113754/azure-ad-scim-provisioning-how-to-sync-"
-"passwords>`__"
+"passwords>`_"
 msgstr ""
 
-#: ../../source/scim/index.rst:65
+#: ../../source/scim/index.rst:81
 msgid ""
 "Okta: `available <https://developer.okta.com/docs/concepts/scim/#sync-"
-"passwords>`__"
+"passwords>`_"
+msgstr ""
+
+#: ../../source/scim/index.rst:85
+msgid "FAQ"
+msgstr ""
+
+#: ../../source/scim/index.rst:87
+msgid ""
+"If you have any questions about using the plugin, please consult `our FAQ "
+"<https://faq.teclib.com/04_Plugins/SCIM/>`_"
 msgstr ""
 
 #: ../../<rst_epilog>:2

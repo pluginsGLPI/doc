@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-31 14:11+0100\n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
 "PO-Revision-Date: 2024-01-31 13:12+0000\n"
 "Language-Team: Spanish (Colombia) (https://app.transifex.com/teclib/teams/28042/es_CO/)\n"
 "MIME-Version: 1.0\n"
@@ -30,6 +30,10 @@ msgstr ""
 
 #: ../../source/oauthsso/force_sso.rst:6
 msgid "(setup > Oauth SSO applications > setup)"
+msgstr ""
+
+#: ../../source/oauthsso/force_sso.rst-1
+msgid "hide standard login"
 msgstr ""
 
 #: ../../<rst_epilog>:2

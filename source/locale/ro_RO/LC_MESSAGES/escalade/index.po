@@ -1,16 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016, Teclib'
+# Copyright (C) 2016-2024, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPI plugins 0.1\n"
+"Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-14 15:17+0200\n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
 "PO-Revision-Date: 2020-01-21 14:02+0000\n"
-"Language-Team: Romanian (Romania) (https://www.transifex.com/teclib/teams/28042/ro_RO/)\n"
+"Language-Team: Romanian (Romania) (https://app.transifex.com/teclib/teams/28042/ro_RO/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,286 +21,360 @@ msgstr ""
 msgid "Escalade"
 msgstr ""
 
-#: ../../source/escalade/index.rst:4
-msgid "Sources link: https://github.com/pluginsGLPI/escalade"
-msgstr ""
-
-#: ../../source/escalade/index.rst:5
-msgid "Download: https://github.com/pluginsGLPI/escalade/releases"
+#: ../../source/escalade/index.rst:7
+msgid "Download"
 msgstr ""
 
 #: ../../source/escalade/index.rst:8
-msgid "Requirements for latest version"
+msgid "Sources"
+msgstr ""
+
+#: ../../source/escalade/index.rst:9
+msgid "`<https://github.com/pluginsGLPI/escalade/releases>`_"
 msgstr ""
 
 #: ../../source/escalade/index.rst:10
-msgid "This plugin requires :"
-msgstr ""
-
-#: ../../source/escalade/index.rst:12
-msgid "PHP 7.2 or higher"
+msgid "`<https://github.com/pluginsGLPI/escalade>`_"
 msgstr ""
 
 #: ../../source/escalade/index.rst:13
-msgid "GLPI >= 9.4"
+msgid "Requirements (on-premise)"
 msgstr ""
 
-#: ../../source/escalade/index.rst:17
-msgid "Features"
+#: ../../source/escalade/index.rst:16
+msgid "GLPI Version"
 msgstr ""
 
-#: ../../source/escalade/index.rst:19
+#: ../../source/escalade/index.rst:16
+msgid "Minimum PHP"
+msgstr ""
+
+#: ../../source/escalade/index.rst:16
+msgid "Recommended"
+msgstr ""
+
+#: ../../source/escalade/index.rst:18
+msgid "10.0.x"
+msgstr ""
+
+#: ../../source/escalade/index.rst:18
+msgid "8.1"
+msgstr ""
+
+#: ../../source/escalade/index.rst:18
+msgid "8.2"
+msgstr ""
+
+#: ../../source/escalade/index.rst:22
 msgid ""
-"Escalade plugin aims to simplifier the ticket escalation process in GLPI. It"
-" also adds a graphical historical for assigned groups."
-msgstr ""
-
-#: ../../source/escalade/index.rst:23
-msgid "Install the Plugin"
-msgstr ""
-
-#: ../../source/escalade/index.rst:24
-msgid "Uncompress the archive."
+"This plugin is available without a GLPI-Network subscription. It is also "
+"available in `Cloud <https://glpi-network.cloud/>`_"
 msgstr ""
 
 #: ../../source/escalade/index.rst:25
-msgid ""
-"Move the ``escalade`` directory to the ``<GLPI_ROOT>/plugins`` directory"
-msgstr ""
-
-#: ../../source/escalade/index.rst:26
-msgid "Navigate to the *Configuration > Plugins* page,"
+msgid "Install the plugin"
 msgstr ""
 
 #: ../../source/escalade/index.rst:27
-msgid "Install and activate the plugin."
+msgid "Go to the marketplace. Download and install the plugin **Escalade**."
 msgstr ""
 
-#: ../../source/escalade/index.rst:30
-msgid "Usage"
-msgstr ""
-
-#: ../../source/escalade/index.rst:32
-msgid ""
-"The plugin will create required tables in the database  automatically. Those"
-" tables will be updated along with the plugin."
-msgstr ""
-
-#: ../../source/escalade/index.rst:34
-msgid "Plugin usage is quite simple:"
-msgstr ""
-
-#: ../../source/escalade/index.rst:36
-msgid "configure plugin"
+#: ../../source/escalade/index.rst:35
+msgid "Assign a ticket"
 msgstr ""
 
 #: ../../source/escalade/index.rst:38
 msgid ""
-"You will access the plugin configuration from the *Setup* > *Plugins* > "
-"*Escalade*."
+"Escalade vs business rules We advise you **to use business rules** to "
+"allocate tickets or escalations. This allows you to manage more flexibly "
+"when changing category, urgency, etc."
 msgstr ""
 
-#: ../../source/escalade/index.rst:43
-msgid "Configuration"
-msgstr ""
-
-#: ../../source/escalade/index.rst:45
-msgid "Remove old assign group on new group assign"
-msgstr ""
-
-#: ../../source/escalade/index.rst:47
+#: ../../source/escalade/index.rst:42
 msgid ""
-"When this option is enabled, plugin remove old group when new group is "
-"assign to ticket"
+"**Escalade** allows tickets **to be escalated only to groups**, and not to "
+"live users."
 msgstr ""
 
-#: ../../source/escalade/index.rst:49
-msgid "Show group assign history visually"
-msgstr ""
-
-#: ../../source/escalade/index.rst:51
+#: ../../source/escalade/index.rst:44
 msgid ""
-"When this option is enabled, plugin display display group assign history"
+"When the plugin is activated, a new option is available from the ticket "
+"interface :"
 msgstr ""
 
-#: ../../source/escalade/index.rst:55
-msgid "Escalation history in tasks"
+#: ../../source/escalade/index.rst:52
+msgid "Set plugin parameters"
+msgstr ""
+
+#: ../../source/escalade/index.rst:54
+msgid ""
+"From the plugin, click on the spanner and choose the various options that "
+"interest you:"
 msgstr ""
 
 #: ../../source/escalade/index.rst:57
-msgid ""
-"When this option is enabled, the plugin adds a private task containing the "
-"escalation information fore each escalation"
+msgid "Action"
 msgstr ""
 
-#: ../../source/escalade/index.rst:61
-msgid "Remove technician(s) on escalation"
+#: ../../source/escalade/index.rst:57
+msgid "Effect"
+msgstr ""
+
+#: ../../source/escalade/index.rst:59
+msgid "**Remove old assign group on new group assign**"
+msgstr ""
+
+#: ../../source/escalade/index.rst:59
+msgid "Deletes or not the existing groups when you assign a new one"
+msgstr ""
+
+#: ../../source/escalade/index.rst:63
+msgid "**show group assign history visually**"
 msgstr ""
 
 #: ../../source/escalade/index.rst:63
 msgid ""
-"When this option is enabled, the plugin remove assign technician when "
-"escalation is performed"
+"(*valid only if previous option is set to* **yes**) Previous groups will be "
+"visible when a new group is escalated"
 msgstr ""
 
-#: ../../source/escalade/index.rst:65
-msgid "Ticket status after an escalation"
+#: ../../source/escalade/index.rst:70
+msgid "**Assign ticket to initial group on solve ticket**"
 msgstr ""
 
-#: ../../source/escalade/index.rst:67
+#: ../../source/escalade/index.rst:70
 msgid ""
-"When this option is enabled, the plugin change ticket status when escalation"
-" is performed"
+"(*valid only if previous option is set to* **yes**) Reassigns ticket to "
+"initial group if a group is deleted"
 msgstr ""
 
-#: ../../source/escalade/index.rst:69
-msgid "Assign ticket to initial group on solve ticket"
+#: ../../source/escalade/index.rst:75
+msgid "**Escalation history in tasks**"
 msgstr ""
 
-#: ../../source/escalade/index.rst:71 ../../source/escalade/index.rst:75
+#: ../../source/escalade/index.rst:75
+msgid "Keep or not the history of escalations in the tasks"
+msgstr ""
+
+#: ../../source/escalade/index.rst:78
+msgid "**Remove technician(s) on escalation**"
+msgstr ""
+
+#: ../../source/escalade/index.rst:78
 msgid ""
-"When this option is enabled, the plugin assign fisrt group assigned to "
-"ticket"
+"Technician(s) will be deleted when a new technician is added to the ticket"
 msgstr ""
 
-#: ../../source/escalade/index.rst:73
-msgid "Assign the technical manager on ticket category change"
+#: ../../source/escalade/index.rst:82
+msgid "**Ticket status can be changed after escalation**"
 msgstr ""
 
-#: ../../source/escalade/index.rst:77
-msgid "Assign the technical group on ticket category change"
-msgstr ""
-
-#: ../../source/escalade/index.rst:79
+#: ../../source/escalade/index.rst:82
 msgid ""
-"When this option is enabled, the plugin assign the technical group of "
-"categroy selected from ticket"
+"Modify the status of the ticket after the escalation. A “do not modify” "
+"option is also available."
 msgstr ""
 
-#: ../../source/escalade/index.rst:81
-msgid "Clone tickets"
+#: ../../source/escalade/index.rst:86
+msgid "**Assign the technical manager on ticket category change**"
 msgstr ""
 
-#: ../../source/escalade/index.rst:83
+#: ../../source/escalade/index.rst:86
 msgid ""
-"When this option is enabled, the plugin gives the possibility to clone a "
-"ticket and to link it the initial ticket"
-msgstr ""
-
-#: ../../source/escalade/index.rst:88
-msgid "Close cloned tickets at the same time"
-msgstr ""
-
-#: ../../source/escalade/index.rst:90
-msgid ""
-"When this option is enabled, at the closing of a ticket, cloned and linked "
-"tickets are also closed"
+"If a technical manager is declared in an ITIL category, they will be "
+"automatically assigned and will receive a notification."
 msgstr ""
 
 #: ../../source/escalade/index.rst:92
-msgid "Use the technician's group"
+msgid "**Assign the technical group on ticket category change**"
 msgstr ""
 
-#: ../../source/escalade/index.rst:94
+#: ../../source/escalade/index.rst:92
 msgid ""
-"When this option is enabled, the plugin assign fist or latest group of "
-"technician assign to ticket"
+"If a technical group is declared for an ITIL category, it will be "
+"automatically assigned and the members of the group will receive a "
+"notification"
 msgstr ""
 
-#: ../../source/escalade/index.rst:97
-msgid "Display delete button"
+#: ../../source/escalade/index.rst:98
+msgid "**Clone tickets**"
 msgstr ""
 
-#: ../../source/escalade/index.rst:99
+#: ../../source/escalade/index.rst:98
 msgid ""
-"Display or not delete button for group, user or supplier switch type "
-"(requester, watcher, assigned to)"
+"Possibility of cloning tickets from the helpdesk interface .. figure:: "
+"images/Escalade-4.png"
 msgstr ""
 
-#: ../../source/escalade/index.rst:101
-msgid "Enable filtering on the groups assignment"
+#: ../../source/escalade/index.rst:102
+msgid "**Close cloned tickets at the same time**"
 msgstr ""
 
-#: ../../source/escalade/index.rst:103
-msgid ""
-"When this option is activated, the plugin filters the groups displayed in "
-"the dropdown list"
+#: ../../source/escalade/index.rst:102
+msgid "Close all cloned tickets when one of them is closed"
 msgstr ""
 
 #: ../../source/escalade/index.rst:105
-msgid "Example"
+msgid "**Use the technician’s group**"
 msgstr ""
 
-#: ../../source/escalade/index.rst:107
-msgid "'glpi' user is affected to group 'groupe 1'"
-msgstr ""
-
-#: ../../source/escalade/index.rst:111
-msgid "'groupe 1' is configured to allow ticket escalation only to 'group 2'"
-msgstr ""
-
-#: ../../source/escalade/index.rst:115
+#: ../../source/escalade/index.rst:105
 msgid ""
-"'glpi' user can only reassign ticket to 'groupe 2' because it's assign to "
-"'groupe 1'"
+"If a technician is assigned, their group will also be assigned. You can "
+"choose to take account of the assignment when the ticket is created and/or "
+"modified. You can also choose to select the first or last group to which the"
+" user is assigned"
+msgstr ""
+
+#: ../../source/escalade/index.rst:114
+msgid "**Remove requester(s) on escalation**"
+msgstr ""
+
+#: ../../source/escalade/index.rst:114
+msgid ""
+"Remove requester(s) in the event of an escalation. Please note that no "
+"history is kept, as is the case for assigning a group"
+msgstr ""
+
+#: ../../source/escalade/index.rst:119
+msgid "**Display delete button**"
 msgstr ""
 
 #: ../../source/escalade/index.rst:119
 msgid ""
-"For other users not assign to 'groupe 1', they can't reassign group to "
-"ticket"
+"Displays the option of deleting actors from the ticket (ability to refine "
+"which user/group/supplier by requestor/watcher/technician)"
 msgstr ""
 
-#: ../../source/escalade/index.rst:123
-msgid "You can \"bypass\" this behavior per user"
+#: ../../source/escalade/index.rst:127
+msgid "**Activate filtering on allocation groups**"
 msgstr ""
 
-#: ../../source/escalade/index.rst:128
-msgid "Ticket's search engine"
-msgstr ""
-
-#: ../../source/escalade/index.rst:130
-msgid "Plugin add three new search option"
+#: ../../source/escalade/index.rst:127
+msgid ""
+"Enables filtering and whether or not escalation to other groups is possible."
+" *See next chapter for more information*"
 msgstr ""
 
 #: ../../source/escalade/index.rst:134
-msgid "Group concerning by escalation"
+msgid "Setting up filtering"
 msgstr ""
 
 #: ../../source/escalade/index.rst:136
-msgid "Ex : get all tickets actually escalated to group \"groupe 1\""
+msgid ""
+"Filtering allows you to define which group is able to escalate tickets to "
+"other groups. For example, we don’t want N1 support to be able to escalate "
+"to N3 directly. The escalation to N2 must be mandatory."
 msgstr ""
 
-#: ../../source/escalade/index.rst:138
-msgid "Number of escalation"
+#: ../../source/escalade/index.rst:139
+msgid "From **Administration > Groups**, select one of the groups"
 msgstr ""
 
 #: ../../source/escalade/index.rst:140
-msgid "Ex : get all tickets with more than ten escalation"
+msgid ""
+"In **Escalade**, add the groups to which this one will be able to escalate "
+"tickets."
 msgstr ""
 
-#: ../../source/escalade/index.rst:142
-msgid "Number of escalation between two groups"
-msgstr ""
-
-#: ../../source/escalade/index.rst:144
-msgid "Ex : get all tickets with more than 2 escalations between two groups"
+#: ../../source/escalade/index.rst:143
+msgid ""
+"This option can be useful, but it requires all groups to be set up. If, for "
+"example, the **technician N1** group can escalate tickets to the "
+"**technician N2** group, you need to ensure that the **technician N2** group"
+" can escalate tickets to the **technician N3** group and also to the **N1** "
+"group, so that a ticket can be escalated if necessary."
 msgstr ""
 
 #: ../../source/escalade/index.rst:148
-msgid "Central page"
+msgid "Example :"
 msgstr ""
 
 #: ../../source/escalade/index.rst:150
+msgid "**Joe** user is **added** to group **Groupe 1**"
+msgstr ""
+
+#: ../../source/escalade/index.rst:156
+msgid ""
+"**Groupe 1** is configured to allow ticket escalation only to **Groupe 2**"
+msgstr ""
+
+#: ../../source/escalade/index.rst:162
+msgid ""
+"**Joe** user can **only reassign** ticket to **Groupe 2** because it's "
+"assign to Groupe 1"
+msgstr ""
+
+#: ../../source/escalade/index.rst:168
+msgid ""
+"For other users not assign to **Groupe 1**, they can't reassign group to "
+"ticket (groups are not proposed in the list of assignation)"
+msgstr ""
+
+#: ../../source/escalade/index.rst:174
+msgid "You can **bypass** this behavior per user"
+msgstr ""
+
+#: ../../source/escalade/index.rst:182
+msgid "Ticket's search engine"
+msgstr ""
+
+#: ../../source/escalade/index.rst:184
+msgid "Plugin add three new search option"
+msgstr ""
+
+#: ../../source/escalade/index.rst:191
+msgid "Group concerning by escalation"
+msgstr ""
+
+#: ../../source/escalade/index.rst:193
+msgid "Ex : get all tickets actually escalated to group **Groupe 1**"
+msgstr ""
+
+#: ../../source/escalade/index.rst:195
+msgid "Number of escalation"
+msgstr ""
+
+#: ../../source/escalade/index.rst:197
+msgid "Ex : get all tickets with more than ten escalation"
+msgstr ""
+
+#: ../../source/escalade/index.rst:199
+msgid "Number of escalation between two groups"
+msgstr ""
+
+#: ../../source/escalade/index.rst:201
+msgid "Ex : get all tickets with more than 2 escalations between two groups"
+msgstr ""
+
+#: ../../source/escalade/index.rst:205
+msgid "Central page"
+msgstr ""
+
+#: ../../source/escalade/index.rst:207
 msgid "New dashlet to display ticket solved to close and assign to you group"
 msgstr ""
 
-#: ../../source/escalade/index.rst:154
+#: ../../source/escalade/index.rst:214
 msgid ""
 "New dashlet to display not solved ticket where your groups was not actually "
 "assign but was in the past"
 msgstr ""
 
+#: ../../source/escalade/index.rst:221
+msgid "FAQ"
+msgstr ""
+
+#: ../../source/escalade/index.rst:223
+msgid ""
+"If you have any questions about using the plugin, please consult `our FAQ "
+"<https://faq.teclib.com/04_Plugins/Escalade/>`_"
+msgstr ""
+
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
+msgstr ""
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
 msgstr ""

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-31 16:11+0100\n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
 "PO-Revision-Date: 2020-01-30 07:19+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2021\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -25,97 +25,104 @@ msgstr ""
 msgid "Datainjection"
 msgstr "Veri aktarımı"
 
-#: ../../source/datainjection/index.rst:5
+#: ../../source/datainjection/index.rst:7
+msgid "Download"
+msgstr ""
+
+#: ../../source/datainjection/index.rst:8
+msgid "Sources"
+msgstr ""
+
+#: ../../source/datainjection/index.rst:9
+msgid "`<https://github.com/pluginsGLPI/datainjection/releases>`_"
+msgstr ""
+
+#: ../../source/datainjection/index.rst:10
+msgid "`<https://github.com/pluginsGLPI/datainjection>`_"
+msgstr ""
+
+#: ../../source/datainjection/index.rst:13
 msgid "Requirements (on-premise)"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:8
+#: ../../source/datainjection/index.rst:16
 msgid "GLPI Version"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:8
+#: ../../source/datainjection/index.rst:16
 msgid "Minimum PHP"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:8
+#: ../../source/datainjection/index.rst:16
 msgid "Recommended"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:10
+#: ../../source/datainjection/index.rst:18
 msgid "10.0.x"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:10
+#: ../../source/datainjection/index.rst:18
 msgid "8.1"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:10
+#: ../../source/datainjection/index.rst:18
 msgid "8.2"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:14
-msgid "Sources and download"
+#: ../../source/datainjection/index.rst:22
+msgid ""
+"This plugin is available without a GLPI-Network subscription. It is also "
+"available in `Cloud <https://glpi-network.cloud/>`_"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:16
-msgid "Sources link: https://github.com/pluginsGLPI/datainjection"
-msgstr "Kaynak bağlantısı: https://github.com/pluginsGLPI/datainjection"
-
-#: ../../source/datainjection/index.rst:17
-msgid "Download: https://github.com/pluginsGLPI/datainjection/releases"
-msgstr ""
-"İndirme bağlantısı: https://github.com/pluginsGLPI/datainjection/releases"
-
-#: ../../source/datainjection/index.rst:21
+#: ../../source/datainjection/index.rst:25
 msgid "Plugin installation"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:24
-msgid ""
-"This plugin is available without a GLPI-Network subscription. It is also "
-"available in `Cloud <https://glpi-network.cloud/>`__"
-msgstr ""
-
-#: ../../source/datainjection/index.rst:26
+#: ../../source/datainjection/index.rst:27
 msgid ""
 "Go to the marketplace. Download and install the plugin **Data Injection**"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:32
+#: ../../source/datainjection/index.rst-1
+msgid "install the plugin"
+msgstr ""
+
+#: ../../source/datainjection/index.rst:35
 msgid "Rights management"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:34
+#: ../../source/datainjection/index.rst:37
 msgid ""
 "Once the plugin has been installed via the marketplace, you can configure "
 "rights according to profile:"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:36
+#: ../../source/datainjection/index.rst:39
 msgid "From **Administration > Profiles**, select the profile in question"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:37
+#: ../../source/datainjection/index.rst:40
 msgid "Go to **Data injection**"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:39
+#: ../../source/datainjection/index.rst:42
 msgid "For each user profile, you can grant the following rights:"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:41
+#: ../../source/datainjection/index.rst:44
 msgid "**Model management** : Read / Update / Create / Purge"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:42
+#: ../../source/datainjection/index.rst:45
 msgid "**Import file** : Read"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:45
+#: ../../source/datainjection/index.rst:48
 msgid "Configuration"
 msgstr "Yapılandırma"
 
-#: ../../source/datainjection/index.rst:47
+#: ../../source/datainjection/index.rst:50
 msgid ""
 "You can find the plugin configuration at **Tools > Data injection** The "
 "extension is presented in the form of a wizard, each operation is broken "
@@ -123,157 +130,161 @@ msgid ""
 " a choice."
 msgstr ""
 
-#: ../../source/datainjection/index.rst:50
+#: ../../source/datainjection/index.rst:53
 msgid "Managing or using a model"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:52
+#: ../../source/datainjection/index.rst:55
 msgid ""
 "The first step allows you to choose the operation to be carried out, "
 "depending on your rights."
 msgstr ""
 
-#: ../../source/datainjection/index.rst:54
+#: ../../source/datainjection/index.rst:57
 msgid "Use an existing template in the drop-down menu"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:56
+#: ../../source/datainjection/index.rst:59
 msgid "Manage templates to :"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:58
+#: ../../source/datainjection/index.rst:61
 msgid "Create a new template"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:59
+#: ../../source/datainjection/index.rst:62
 msgid "Modify an existing template"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:60
+#: ../../source/datainjection/index.rst:63
 msgid "Delete an existing template"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:61
+#: ../../source/datainjection/index.rst:64
 msgid "Use an existing template"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:64
+#: ../../source/datainjection/index.rst:67
 msgid "Creating a template"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:66
+#: ../../source/datainjection/index.rst:69
 msgid "The first step is to create a template if none exists."
 msgstr ""
 
-#: ../../source/datainjection/index.rst:68
+#: ../../source/datainjection/index.rst:71
 msgid "From **Tools > Data injection**"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:69
+#: ../../source/datainjection/index.rst:72
 msgid "Click on **Template**"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:70
+#: ../../source/datainjection/index.rst:73
 msgid "Click on **Add**"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:76
-msgid "Defining the model"
-msgstr ""
-
-#: ../../source/datainjection/index.rst:78
-msgid "This step allows you to define the main options for the extension:"
+#: ../../source/datainjection/index.rst-1
+msgid "add template"
 msgstr ""
 
 #: ../../source/datainjection/index.rst:80
+msgid "Defining the model"
+msgstr ""
+
+#: ../../source/datainjection/index.rst:82
+msgid "This step allows you to define the main options for the extension:"
+msgstr ""
+
+#: ../../source/datainjection/index.rst:84
 msgid "**Name**: the name that will be visible from the drop-down list"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:81
+#: ../../source/datainjection/index.rst:85
 msgid ""
 "**Visibility**: defines whether it will be visible to other users or not"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:82
+#: ../../source/datainjection/index.rst:86
 msgid ""
 "**Entity** and **sub-entity**: the template can be visible in the creation "
 "entity only (sub-entity set to no) or in the entity and all sub-entity (sub-"
 "entity set to yes)."
 msgstr ""
 
-#: ../../source/datainjection/index.rst:83
+#: ../../source/datainjection/index.rst:87
 msgid "**Comment**: a comment for the template."
 msgstr ""
 
-#: ../../source/datainjection/index.rst:84
+#: ../../source/datainjection/index.rst:88
 msgid ""
 "**Type of data to import**: the type of data present in the file to be "
 "imported. A file only consists of data of the same type."
 msgstr ""
 
-#: ../../source/datainjection/index.rst:85
+#: ../../source/datainjection/index.rst:89
 msgid ""
 "**Allow lines creation**: tells the plugin to create objects if the line "
 "does not correspond to an existing element in the database."
 msgstr ""
 
-#: ../../source/datainjection/index.rst:86
+#: ../../source/datainjection/index.rst:90
 msgid ""
 "**Allow update rows**: tells the plugin to modify existing objects using the"
 " data in the file."
 msgstr ""
 
-#: ../../source/datainjection/index.rst:87
+#: ../../source/datainjection/index.rst:91
 msgid ""
 "**Header’s presence**: tells the plugin whether the headings present in the "
 "file (location, type of equipment, models, etc.) should be created. Creation"
 " will also be limited by the rights of the template user."
 msgstr ""
 
-#: ../../source/datainjection/index.rst:88
+#: ../../source/datainjection/index.rst:92
 msgid ""
 "**Update existing fields**: the extension whether the data in the file can "
 "replace fields already filled in."
 msgstr ""
 
-#: ../../source/datainjection/index.rst:89
+#: ../../source/datainjection/index.rst:93
 msgid ""
 "**Date format**: the date format is contained in the CSV file. If the format"
 " is incorrect, the date cannot be imported."
 msgstr ""
 
-#: ../../source/datainjection/index.rst:90
+#: ../../source/datainjection/index.rst:94
 msgid ""
 "**Decimal number format**: the format used for the numbers in the CSV file. "
 "If the format is incorrect, the numbers cannot be imported."
 msgstr ""
 
-#: ../../source/datainjection/index.rst:92
+#: ../../source/datainjection/index.rst:96
 msgid "**After validation of the model**, the following fields are added:"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:94
+#: ../../source/datainjection/index.rst:98
 msgid ""
 "**Presence of a header**: indicates whether the first line of the CSV file "
 "is a header line, so that you can see the contents of the columns to "
 "identify the contents of the columns"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:95
+#: ../../source/datainjection/index.rst:99
 msgid "**File delimiter**: field separator (by default a semicolon)"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:98
+#: ../../source/datainjection/index.rst:102
 msgid "File to be injected"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:100
+#: ../../source/datainjection/index.rst:104
 msgid ""
 "From the **File to inject** tab, you need to choose a file on your computer "
 "with exactly the same structure as the data already imported."
 msgstr ""
 
-#: ../../source/datainjection/index.rst:101
+#: ../../source/datainjection/index.rst:105
 msgid ""
 "Then define the **encoding** (ISO8859-1 for Windows files, UTF-8 for Linux "
 "files. Automatic detection can be used to determine the encoding, but will "
@@ -281,16 +292,16 @@ msgid ""
 "UTF-8.)"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:103
+#: ../../source/datainjection/index.rst:107
 msgid ""
 "Once the file has been validated, you will be taken to the **Mappings** tab"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:106
+#: ../../source/datainjection/index.rst:110
 msgid "Mappings"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:108
+#: ../../source/datainjection/index.rst:112
 msgid ""
 "This stage is essential. It defines, for each column in the file, the "
 "corresponding field in the database. The columns are identified by the "
@@ -301,27 +312,27 @@ msgid ""
 "interpretation made by the plugin."
 msgstr ""
 
-#: ../../source/datainjection/index.rst:112
+#: ../../source/datainjection/index.rst:116
 msgid "For each column, you can choose"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:114
+#: ../../source/datainjection/index.rst:118
 msgid ""
 "**Do not retrieve data from this column** (leave the **Choose a table** "
 "option)"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:115
+#: ../../source/datainjection/index.rst:119
 msgid ""
 "**Choose a table**: the data type defined in step 2 or the financial "
 "information"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:116
+#: ../../source/datainjection/index.rst:120
 msgid "**Choose a field**: which will be populated by the import"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:117
+#: ../../source/datainjection/index.rst:121
 msgid ""
 "**Link field**: to indicate that this column will be used to check the "
 "existence of the data in the database and to choose between creating a new "
@@ -329,13 +340,17 @@ msgid ""
 "the **Name** or the **Inventory number**"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:121
+#: ../../source/datainjection/index.rst:125
 msgid ""
 "It is mandatory to define at least 1 linking field. If a field is checked, "
 "it must be entered in your **csv** file used for importing."
 msgstr ""
 
-#: ../../source/datainjection/index.rst:127
+#: ../../source/datainjection/index.rst-1
+msgid "match the fields"
+msgstr ""
+
+#: ../../source/datainjection/index.rst:132
 msgid ""
 "It is possible to define **Comments** or **Notes** as the destination for "
 "several columns in the file. Each column will be added to the field on a "
@@ -344,11 +359,11 @@ msgid ""
 "a test database or to and reserve this function for advanced users."
 msgstr ""
 
-#: ../../source/datainjection/index.rst:132
+#: ../../source/datainjection/index.rst:137
 msgid "Additional information"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:134
+#: ../../source/datainjection/index.rst:139
 msgid ""
 "This step is used to define the fields that can/should be populated by the "
 "user when a file is injected. For each field, the same value will be used "
@@ -356,51 +371,55 @@ msgid ""
 "file."
 msgstr ""
 
-#: ../../source/datainjection/index.rst:137
+#: ../../source/datainjection/index.rst:142
 msgid "**Table**: the data type defined in step **Matching**"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:138
+#: ../../source/datainjection/index.rst:143
 msgid "**Field**: will be populated by the import"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:139
+#: ../../source/datainjection/index.rst:144
 msgid ""
 "**Mandatory information**: whether model user input is mandatory or optional"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:141
+#: ../../source/datainjection/index.rst:146
 msgid "Example of use :"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:143
+#: ../../source/datainjection/index.rst:148
 msgid "Purchase date when importing a delivery note"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:144
+#: ../../source/datainjection/index.rst:149
 msgid ""
 "Comments to define a criterion that can be used in the search engine "
 "(e.g. IMPORT ON 31/10)"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:148
+#: ../../source/datainjection/index.rst:153
 msgid "Model validation"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:150
+#: ../../source/datainjection/index.rst:155
 msgid ""
 "From the Validation tab, you can confirm the registration. It is still "
 "possible to return to the previous steps to check and correct certain "
 "options."
 msgstr ""
 
-#: ../../source/datainjection/index.rst:158
+#: ../../source/datainjection/index.rst-1
+msgid "template validation"
+msgstr ""
+
+#: ../../source/datainjection/index.rst:164
 msgid ""
 "If you are working with a sub-entity, you must select the desired entity "
 "before importing."
 msgstr ""
 
-#: ../../source/datainjection/index.rst:161
+#: ../../source/datainjection/index.rst:167
 msgid ""
 "Some fields in your CSV file will need to be filled in as Booleans. This is "
 "the case, for example, with double-choice fields, such as: “Ports” "
@@ -410,61 +429,83 @@ msgid ""
 "been entered."
 msgstr ""
 
-#: ../../source/datainjection/index.rst:165
+#: ../../source/datainjection/index.rst:171
 msgid "Using a template"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:168
+#: ../../source/datainjection/index.rst:174
 msgid "Choosing a template"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:170
+#: ../../source/datainjection/index.rst:176
 msgid ""
 "From **Tools > Data injection**, select the template you require from the "
 "drop-down list"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:171
+#: ../../source/datainjection/index.rst:177
 msgid "Then enter the path to the CSV file to be injected"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:172
+#: ../../source/datainjection/index.rst:178
 msgid ""
 "Specify the **Encoding** of the file if you know it. If not, leave on "
 "**Automatic detection**"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:173
+#: ../../source/datainjection/index.rst:179
 msgid "Click on **Proceed with import**"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:179
+#: ../../source/datainjection/index.rst-1
+msgid "import file"
+msgstr ""
+
+#: ../../source/datainjection/index.rst:186
 msgid "Confirmation before import"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:181
+#: ../../source/datainjection/index.rst:188
 msgid ""
 "A popup will ask you to confirm or not the import of the selected file."
 msgstr ""
 
-#: ../../source/datainjection/index.rst:184
+#: ../../source/datainjection/index.rst:191
 msgid "Import result"
 msgstr "İçe aktarma sonuçları"
 
-#: ../../source/datainjection/index.rst:186
+#: ../../source/datainjection/index.rst:193
 msgid ""
 "From this last stage, by clicking on the coloured circle, you can view a "
 "report on the import and, in particular, locate any errors"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:192
+#: ../../source/datainjection/index.rst-1
+msgid "import result"
+msgstr ""
+
+#: ../../source/datainjection/index.rst:200
 msgid "Complete the operation"
 msgstr ""
 
-#: ../../source/datainjection/index.rst:194
+#: ../../source/datainjection/index.rst:202
 msgid ""
 "A popup window will ask you whether or not you want to confirm the import of"
 " the selected file. Once the progress bar is full, click on **Finish**"
+msgstr ""
+
+#: ../../source/datainjection/index.rst-1
+msgid "import completed"
+msgstr ""
+
+#: ../../source/datainjection/index.rst:211
+msgid "FAQ"
+msgstr ""
+
+#: ../../source/datainjection/index.rst:213
+msgid ""
+"If you have any questions about using the plugin, please consult `our FAQ "
+"<https://faq.teclib.com/04_Plugins/Data_injection/>`_"
 msgstr ""
 
 #: ../../<rst_epilog>:2

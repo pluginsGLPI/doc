@@ -1,16 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016, Teclib'
+# Copyright (C) 2016-2024, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPI plugins 0.1\n"
+"Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-14 15:17+0200\n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
 "PO-Revision-Date: 2016-10-25 19:22+0000\n"
-"Language-Team: German (Germany) (https://www.transifex.com/teclib/teams/28042/de_DE/)\n"
+"Language-Team: German (Germany) (https://app.transifex.com/teclib/teams/28042/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,21 +21,29 @@ msgstr ""
 msgid "Example"
 msgstr ""
 
-#: ../../source/example/index.rst:4
-msgid "Sources link: https://github.com/pluginsGLPI/example"
-msgstr ""
-
-#: ../../source/example/index.rst:5
-msgid "Download: *not relevant*"
-msgstr ""
-
 #: ../../source/example/index.rst:7
+msgid "Download"
+msgstr ""
+
+#: ../../source/example/index.rst:8
+msgid "Sources"
+msgstr ""
+
+#: ../../source/example/index.rst:9
+msgid "*not relevant*"
+msgstr ""
+
+#: ../../source/example/index.rst:10
+msgid "`<https://github.com/pluginsGLPI/example>`_"
+msgstr ""
+
+#: ../../source/example/index.rst:12
 msgid ""
 "An example plugin... This is designed to show you various possibilities that"
 " are offered to plugins from GLPI core."
 msgstr ""
 
-#: ../../source/example/index.rst:9
+#: ../../source/example/index.rst:14
 msgid ""
 "As this plugin does nothing in reality, there is no documentation for it. "
 "You would like to refer to :doc:`plugins presentation <../presentation>`, "
@@ -46,4 +54,8 @@ msgstr ""
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
+msgstr ""
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
 msgstr ""

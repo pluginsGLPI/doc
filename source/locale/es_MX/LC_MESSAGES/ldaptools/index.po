@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 16:17+0100\n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
 "PO-Revision-Date: 2024-01-26 14:56+0000\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/teclib/teams/28042/es_MX/)\n"
 "MIME-Version: 1.0\n"
@@ -51,60 +51,72 @@ msgstr ""
 
 #: ../../source/ldaptools/index.rst:14
 msgid ""
-"A `basic licence <https://services.glpi-network.com/#offers>`__ (or higher) "
+"A `basic licence <https://services.glpi-network.com/#offers>`_ (or higher) "
 "is required. This plugin is also available from the `Cloud <https://glpi-"
 "network.cloud/>`__."
 msgstr ""
 
-#: ../../source/ldaptools/index.rst:16
+#: ../../source/ldaptools/index.rst:17
+msgid "Install the plugin"
+msgstr ""
+
+#: ../../source/ldaptools/index.rst:19
 msgid "Go to the marketplace. Download and install the plugin **LDAP Tools**."
 msgstr ""
 
-#: ../../source/ldaptools/index.rst:22
+#: ../../source/ldaptools/index.rst-1
+msgid "install the plugin"
+msgstr ""
+
+#: ../../source/ldaptools/index.rst:25
 msgid "Using the plugin"
 msgstr ""
 
-#: ../../source/ldaptools/index.rst:24
+#: ../../source/ldaptools/index.rst:27
 msgid ""
 "From **tools > LDAP Tools**, if you have synchronised LDAP directories, they"
 " will appear directly."
 msgstr ""
 
-#: ../../source/ldaptools/index.rst:29
+#: ../../source/ldaptools/index.rst-1
+msgid "use the plugin"
+msgstr ""
+
+#: ../../source/ldaptools/index.rst:33
 msgid ""
 "Each directory has a number of tests which may or may not be validated "
 "depending on your configuration:"
 msgstr ""
 
-#: ../../source/ldaptools/index.rst:32
+#: ../../source/ldaptools/index.rst:36
 msgid "`Flux TCP`"
 msgstr ""
 
-#: ../../source/ldaptools/index.rst:33
+#: ../../source/ldaptools/index.rst:37
 msgid "`BaseDN`"
 msgstr ""
 
-#: ../../source/ldaptools/index.rst:34
+#: ../../source/ldaptools/index.rst:38
 msgid "`LDAP URI`"
 msgstr ""
 
-#: ../../source/ldaptools/index.rst:35
+#: ../../source/ldaptools/index.rst:39
 msgid "`Bind Auth`"
 msgstr ""
 
-#: ../../source/ldaptools/index.rst:36
+#: ../../source/ldaptools/index.rst:40
 msgid "`Generic search`"
 msgstr ""
 
-#: ../../source/ldaptools/index.rst:37
+#: ../../source/ldaptools/index.rst:41
 msgid "`Filtered search`"
 msgstr ""
 
-#: ../../source/ldaptools/index.rst:38
+#: ../../source/ldaptools/index.rst:42
 msgid "`Attributes`"
 msgstr ""
 
-#: ../../source/ldaptools/index.rst:40
+#: ../../source/ldaptools/index.rst:44
 msgid ""
 "As soon as one of the tests fails, the following tests will not be "
 "performed. You must start by correcting the 1st anomaly before the other "

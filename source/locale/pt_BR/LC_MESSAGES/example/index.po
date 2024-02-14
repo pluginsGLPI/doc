@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-31 14:11+0100\n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
 "PO-Revision-Date: 2016-10-25 19:22+0000\n"
 "Last-Translator: Eduardo Scott <edu.scott01@gmail.com>, 2024\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/teclib/teams/28042/pt_BR/)\n"
@@ -27,15 +27,23 @@ msgstr ""
 msgid "Example"
 msgstr "Exemplo"
 
-#: ../../source/example/index.rst:4
-msgid "Sources link: https://github.com/pluginsGLPI/example"
-msgstr "Origem do link: https://github.com/pluginsGLPI/example"
-
-#: ../../source/example/index.rst:5
-msgid "Download: *not relevant*"
-msgstr "Download: *irrelevante*"
-
 #: ../../source/example/index.rst:7
+msgid "Download"
+msgstr ""
+
+#: ../../source/example/index.rst:8
+msgid "Sources"
+msgstr ""
+
+#: ../../source/example/index.rst:9
+msgid "*not relevant*"
+msgstr ""
+
+#: ../../source/example/index.rst:10
+msgid "`<https://github.com/pluginsGLPI/example>`_"
+msgstr ""
+
+#: ../../source/example/index.rst:12
 msgid ""
 "An example plugin... This is designed to show you various possibilities that"
 " are offered to plugins from GLPI core."
@@ -43,7 +51,7 @@ msgstr ""
 "Um plugin de exemplo... Este é designado para mostrar diversas "
 "possibilidades que são oferecidas aos plugins pelo core do GLPI"
 
-#: ../../source/example/index.rst:9
+#: ../../source/example/index.rst:14
 msgid ""
 "As this plugin does nothing in reality, there is no documentation for it. "
 "You would like to refer to :doc:`plugins presentation <../presentation>`, "

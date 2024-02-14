@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 16:17+0100\n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
 "PO-Revision-Date: 2016-10-25 19:22+0000\n"
 "Language-Team: Japanese (Japan) (https://app.transifex.com/teclib/teams/28042/ja_JP/)\n"
 "MIME-Version: 1.0\n"
@@ -21,21 +21,29 @@ msgstr ""
 msgid "Example"
 msgstr ""
 
-#: ../../source/example/index.rst:4
-msgid "Sources link: https://github.com/pluginsGLPI/example"
-msgstr ""
-
-#: ../../source/example/index.rst:5
-msgid "Download: *not relevant*"
-msgstr ""
-
 #: ../../source/example/index.rst:7
+msgid "Download"
+msgstr ""
+
+#: ../../source/example/index.rst:8
+msgid "Sources"
+msgstr ""
+
+#: ../../source/example/index.rst:9
+msgid "*not relevant*"
+msgstr ""
+
+#: ../../source/example/index.rst:10
+msgid "`<https://github.com/pluginsGLPI/example>`_"
+msgstr ""
+
+#: ../../source/example/index.rst:12
 msgid ""
 "An example plugin... This is designed to show you various possibilities that"
 " are offered to plugins from GLPI core."
 msgstr ""
 
-#: ../../source/example/index.rst:9
+#: ../../source/example/index.rst:14
 msgid ""
 "As this plugin does nothing in reality, there is no documentation for it. "
 "You would like to refer to :doc:`plugins presentation <../presentation>`, "

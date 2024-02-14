@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-01 14:27+0100\n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
 "PO-Revision-Date: 2024-01-26 14:57+0000\n"
 "Last-Translator: Eduardo Scott <edu.scott01@gmail.com>, 2024\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/teclib/teams/28042/pt_BR/)\n"
@@ -34,12 +34,8 @@ msgid ""
 "`Use scim to provision users and groups <https://learn.microsoft.com/fr-"
 "fr/azure/active-directory/app-provisioning/use-scim-to-provision-users-and-"
 "groups#integrate-your-scim-endpoint-with-the-azure-ad-provisioning-"
-"service>`__"
+"service>`_"
 msgstr ""
-"Use scim para provisionar usuários e grupos <https://learn.microsoft.com/fr-"
-"fr/azure/active-directory/app-provisioning/use-scim-to-provision-users-and-"
-"groups#integrate-your-scim-endpoint-with-the-azure-ad-provisioning-"
-"service>`__"
 
 #: ../../source/scim/azure.rst:12
 msgid "Setup"
@@ -47,11 +43,9 @@ msgstr "Configuração"
 
 #: ../../source/scim/azure.rst:14
 msgid ""
-"Connect to your `Azure portal <https://aad.portal.azure.com/>`__ and  go to "
+"Connect to your `Azure portal <https://aad.portal.azure.com/>`_ and  go to "
 "the **Azure Active Directory** > **Enterprise applications** menu."
 msgstr ""
-"Conecte-se ao seu `portal Azure <https://aad.portal.azure.com/>`__ e vá para"
-" o menu **Azure Active Directory** > **Aplicativos empresariais**."
 
 #: ../../source/scim/azure.rst:15
 msgid "Select **New application** and choose **Create your own application**."
@@ -114,7 +108,7 @@ msgstr "Se o teste for bem-sucedido, clique no botão **[Salvar]**."
 msgid "Azure Configuration provisioning"
 msgstr "Configuração de provisionamento do Azure"
 
-#: ../../source/scim/azure.rst:35
+#: ../../source/scim/azure.rst:36
 msgid ""
 "You must choose in the **Parameters** > **Extended** section how you want to"
 " synchronize your users and groups:"
@@ -122,7 +116,7 @@ msgstr ""
 "Você deve escolher na seção **Parâmetros** > **Estendido** como deseja "
 "sincronizar seus usuários e grupos."
 
-#: ../../source/scim/azure.rst:37
+#: ../../source/scim/azure.rst:38
 msgid ""
 "Only users and groups assigned to the application. In this case, you must "
 "manually assign your users and groups to the application in the **Users and "
@@ -132,11 +126,11 @@ msgstr ""
 "atribuir manualmente seus usuários e grupos à aplicação na seção **Usuários "
 "e grupos**."
 
-#: ../../source/scim/azure.rst:38
+#: ../../source/scim/azure.rst:39
 msgid "All users and groups in the directory"
 msgstr "Todos os usuários e grupos no diretório"
 
-#: ../../source/scim/azure.rst:40
+#: ../../source/scim/azure.rst:41
 msgid ""
 "After checking the mapping section, enable the **Provisioning** at the "
 "bottom and click on the **[Save]** button."
@@ -144,7 +138,7 @@ msgstr ""
 "Depois de verificar a seção de mapeamento, habilite o **Provisionamento** na"
 " parte inferior e clique no botão **[Salvar]**."
 
-#: ../../source/scim/azure.rst:41
+#: ../../source/scim/azure.rst:42
 msgid ""
 "You can check the advancement in the **Provisioning logs** section. Usually "
 "it start after a few minutes."

@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2024, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
+"PO-Revision-Date: 2024-02-14 07:35+0000\n"
+"Language-Team: Russian (Latvia) (https://app.transifex.com/teclib/teams/28042/ru_lv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru_lv\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../../source/webhook/setup_glpi.rst:2
+msgid "Set up the webhook in GLPI"
+msgstr ""
+
+#: ../../source/webhook/setup_glpi.rst:4
+msgid ""
+"Fill in the requested information and select the channel on which you want "
+"the notifications to be sent."
+msgstr ""
+
+#: ../../source/webhook/setup_glpi.rst:6
+msgid ""
+"Once registered, a link will be sent to you. Copy this link and transfer it "
+"to **Setup > Notifications > Configuration of notifications by webhooks**"
+msgstr ""
+
+#: ../../source/webhook/setup_glpi.rst:9
+msgid "Click on + and enter :"
+msgstr ""
+
+#: ../../source/webhook/setup_glpi.rst:11
+msgid "Webhook name,"
+msgstr ""
+
+#: ../../source/webhook/setup_glpi.rst:12
+msgid "the type,"
+msgstr ""
+
+#: ../../source/webhook/setup_glpi.rst:13
+msgid "the URL."
+msgstr ""
+
+#: ../../source/webhook/setup_glpi.rst-1
+msgid "setup GLPI"
+msgstr ""
+
+#: ../../source/webhook/setup_glpi.rst:19
+msgid "Click on **Add**"
+msgstr ""
+
+#: ../../source/webhook/setup_glpi.rst:23
+msgid ""
+"For Telegram, you will need to re-enter the webhook and add the **chat_id** "
+"you selected earlier"
+msgstr ""
+
+#: ../../source/webhook/setup_glpi.rst:0
+msgid "paste chat_ID"
+msgstr ""
+
+#: ../../source/webhook/setup_glpi.rst:31
+msgid ""
+"You can test how it works by selecting your webhook and clicking on **Send "
+"notification**"
+msgstr ""
+
+#: ../../source/webhook/setup_glpi.rst-1
+msgid "test your webhook"
+msgstr ""
+
+#: ../../source/webhook/setup_glpi.rst:38
+msgid "Recipients"
+msgstr ""
+
+#: ../../source/webhook/setup_glpi.rst:40
+msgid ""
+"You now need to determine which notifications will be affected by the "
+"sending of a Webhook and assign them a template."
+msgstr ""
+
+#: ../../source/webhook/setup_glpi.rst:42
+msgid "Go to **Setup > Notifications > Notifications**"
+msgstr ""
+
+#: ../../source/webhook/setup_glpi.rst:43
+msgid ""
+"Select the 1st notification concerned by Webhooks (here **New ticket**)"
+msgstr ""
+
+#: ../../source/webhook/setup_glpi.rst:44
+msgid "In the **Recipients** tab, add your Webhook then **Update**."
+msgstr ""
+
+#: ../../source/webhook/setup_glpi.rst-1
+msgid "setup recipients"
+msgstr ""
+
+#: ../../source/webhook/setup_glpi.rst:51
+msgid "Templates"
+msgstr ""
+
+#: ../../source/webhook/setup_glpi.rst:53
+msgid "In the tab **Templates** click **Add a template**"
+msgstr ""
+
+#: ../../source/webhook/setup_glpi.rst:54
+msgid ""
+"Choose **Webook** in the **Notification method** and **New** in the "
+"**Notification template**"
+msgstr ""
+
+#: ../../source/webhook/setup_glpi.rst:56
+msgid ""
+"Your Webhook is ready to use. You can customise the template by clicking on "
+"**New** so that it matches your requirements."
+msgstr ""
+
+#: ../../source/webhook/setup_glpi.rst-1
+msgid "custom notification"
+msgstr ""
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr ""
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
+msgstr ""

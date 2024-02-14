@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-31 14:11+0100\n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
 "PO-Revision-Date: 2024-01-31 13:12+0000\n"
 "Language-Team: Latvian (Latvia) (https://app.transifex.com/teclib/teams/28042/lv_LV/)\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../source/oauthsso/google.rst:7
 msgid ""
-"From your `Google console <https://console.cloud.google.com/>`__ "
+"From your `Google console <https://console.cloud.google.com/>`_ "
 "(administrator access is required)"
 msgstr ""
 
@@ -39,156 +39,196 @@ msgstr ""
 msgid "Enter the name of your project"
 msgstr ""
 
-#: ../../source/oauthsso/google.rst:10 ../../source/oauthsso/google.rst:70
+#: ../../source/oauthsso/google.rst:10 ../../source/oauthsso/google.rst:84
 msgid "Click on **Create**"
 msgstr ""
 
-#: ../../source/oauthsso/google.rst:15
+#: ../../source/oauthsso/google.rst:0
+msgid "add project"
+msgstr ""
+
+#: ../../source/oauthsso/google.rst:17
 msgid "Return to your organisation,"
 msgstr ""
 
-#: ../../source/oauthsso/google.rst:16
+#: ../../source/oauthsso/google.rst:18
 msgid "Select your project"
 msgstr ""
 
-#: ../../source/oauthsso/google.rst:22
+#: ../../source/oauthsso/google.rst:0
+msgid "select the project"
+msgstr ""
+
+#: ../../source/oauthsso/google.rst:26
 msgid "Setup Oauth access"
 msgstr ""
 
-#: ../../source/oauthsso/google.rst:24
+#: ../../source/oauthsso/google.rst:28
 msgid "From the menu, click on **APIs & Services**"
 msgstr ""
 
-#: ../../source/oauthsso/google.rst:25
+#: ../../source/oauthsso/google.rst:29
 msgid "Then **OAuth consent screen**"
 msgstr ""
 
-#: ../../source/oauthsso/google.rst:30
+#: ../../source/oauthsso/google.rst:0
+msgid "add API"
+msgstr ""
+
+#: ../../source/oauthsso/google.rst:36
 msgid ""
 "Select the type of access that will be granted to the application (internal "
 "or external users)"
 msgstr ""
 
-#: ../../source/oauthsso/google.rst:31
+#: ../../source/oauthsso/google.rst:37
 msgid "Then click on **Create**."
 msgstr ""
 
-#: ../../source/oauthsso/google.rst:36
+#: ../../source/oauthsso/google.rst:0
+msgid "user type"
+msgstr ""
+
+#: ../../source/oauthsso/google.rst:44
 msgid ""
 "Enter (as a minimum) a name for the application, an email address for "
 "application support and the developer’s email address (this information is "
 "compulsory)."
 msgstr ""
 
-#: ../../source/oauthsso/google.rst:37
+#: ../../source/oauthsso/google.rst:45
 msgid "Click on **Save and continue**."
 msgstr ""
 
-#: ../../source/oauthsso/google.rst:39
+#: ../../source/oauthsso/google.rst:47
 msgid "In the **Scope** section"
 msgstr ""
 
-#: ../../source/oauthsso/google.rst:40
+#: ../../source/oauthsso/google.rst:48
 msgid "Click on **Add or remove application fields**"
 msgstr ""
 
-#: ../../source/oauthsso/google.rst:41
+#: ../../source/oauthsso/google.rst:49
 msgid "Add **auth/userinfo.email** **auth/userinfo.profile** and **openid**"
 msgstr ""
 
-#: ../../source/oauthsso/google.rst:46
+#: ../../source/oauthsso/google.rst:0
+msgid "update scopes"
+msgstr ""
+
+#: ../../source/oauthsso/google.rst:56
 msgid "Click on **Update**"
 msgstr ""
 
-#: ../../source/oauthsso/google.rst:47
+#: ../../source/oauthsso/google.rst:57
 msgid "Then **Save and continue**"
 msgstr ""
 
-#: ../../source/oauthsso/google.rst:50
+#: ../../source/oauthsso/google.rst:60
 msgid "ID settings"
 msgstr ""
 
-#: ../../source/oauthsso/google.rst:52
+#: ../../source/oauthsso/google.rst:62
 msgid "From the **Credentials** menu"
 msgstr ""
 
-#: ../../source/oauthsso/google.rst:53
+#: ../../source/oauthsso/google.rst:63
 msgid "Click on **Create credentials**"
 msgstr ""
 
-#: ../../source/oauthsso/google.rst:54
+#: ../../source/oauthsso/google.rst:64
 msgid "Then **Oauth client ID**."
 msgstr ""
 
-#: ../../source/oauthsso/google.rst:59
-msgid "Select the type of application **Web application**"
-msgstr ""
-
-#: ../../source/oauthsso/google.rst:60
-msgid "Enter an application name"
-msgstr ""
-
-#: ../../source/oauthsso/google.rst:61
-msgid "In the **Authorized redirect URIs** section"
-msgstr ""
-
-#: ../../source/oauthsso/google.rst:62
-msgid "Enter the GLPI **Callback URL**"
-msgstr ""
-
-#: ../../source/oauthsso/google.rst:65
-msgid "Where can I find my callback URL?"
+#: ../../source/oauthsso/google.rst:0
+msgid "add credentials"
 msgstr ""
 
 #: ../../source/oauthsso/google.rst:71
+msgid "Select the type of application **Web application**"
+msgstr ""
+
+#: ../../source/oauthsso/google.rst:72
+msgid "Enter an application name"
+msgstr ""
+
+#: ../../source/oauthsso/google.rst:73
+msgid "In the **Authorized redirect URIs** section"
+msgstr ""
+
+#: ../../source/oauthsso/google.rst:74
+msgid "Enter the GLPI **Callback URL**"
+msgstr ""
+
+#: ../../source/oauthsso/google.rst:77
+msgid "Where can I find my callback URL?"
+msgstr ""
+
+#: ../../source/oauthsso/google.rst:0
+msgid "find url callback"
+msgstr ""
+
+#: ../../source/oauthsso/google.rst:85
 msgid ""
 "A page appears with the identifier values. **Keep this information** as it "
 "will be requested in GLPI."
 msgstr ""
 
-#: ../../source/oauthsso/google.rst:77
-msgid "Setup GLPI"
-msgstr ""
-
-#: ../../source/oauthsso/google.rst:79
-msgid "From **Setup > Oauth SSO applications**"
-msgstr ""
-
-#: ../../source/oauthsso/google.rst:80 ../../source/oauthsso/google.rst:90
-msgid "Click on **Add**"
-msgstr ""
-
-#: ../../source/oauthsso/google.rst:81
-msgid "Select **Google** in the **Oauth provider** field"
-msgstr ""
-
-#: ../../source/oauthsso/google.rst:82
-msgid "Select the icon that will be visible on the home page"
-msgstr ""
-
-#: ../../source/oauthsso/google.rst:83
-msgid "Enter the **Client ID** (number 1 on the previous screenshot)"
-msgstr ""
-
-#: ../../source/oauthsso/google.rst:84
-msgid "Enter the **Client secret** (numbered 2 on the previous screenshot)"
-msgstr ""
-
-#: ../../source/oauthsso/google.rst:85
-msgid "Enter the **field user ID**  [1]_"
+#: ../../source/oauthsso/google.rst:0
+msgid "Overview"
 msgstr ""
 
 #: ../../source/oauthsso/google.rst:92
-msgid "From the home page, the new Oauth SSO login option will be visible:"
+msgid "Setup GLPI"
+msgstr ""
+
+#: ../../source/oauthsso/google.rst:94
+msgid "From **Setup > Oauth SSO applications**"
+msgstr ""
+
+#: ../../source/oauthsso/google.rst:95 ../../source/oauthsso/google.rst:107
+msgid "Click on **Add**"
+msgstr ""
+
+#: ../../source/oauthsso/google.rst:96
+msgid "Select **Google** in the **Oauth provider** field"
+msgstr ""
+
+#: ../../source/oauthsso/google.rst:97
+msgid "Select the icon that will be visible on the home page"
 msgstr ""
 
 #: ../../source/oauthsso/google.rst:98
+msgid "Enter the **Client ID** (number 1 on the previous screenshot)"
+msgstr ""
+
+#: ../../source/oauthsso/google.rst:99
+msgid "Enter the **Client secret** (numbered 2 on the previous screenshot)"
+msgstr ""
+
+#: ../../source/oauthsso/google.rst:100
+msgid "Enter the **field user ID**  [1]_"
+msgstr ""
+
+#: ../../source/oauthsso/google.rst:0
+msgid "setup GLPI"
+msgstr ""
+
+#: ../../source/oauthsso/google.rst:109
+msgid "From the home page, the new Oauth SSO login option will be visible:"
+msgstr ""
+
+#: ../../source/oauthsso/google.rst-1
+msgid "home page"
+msgstr ""
+
+#: ../../source/oauthsso/google.rst:116
 msgid ""
 "The first time a user logs on, they will be asked to accept access "
 "authorisations for their profile"
 msgstr ""
 
-#: ../../source/oauthsso/google.rst:101
+#: ../../source/oauthsso/google.rst:119
 msgid ""
 "the identifier field will be the user’s login. **Google user Id** represents"
 " the unique value for each user generated when the user is created."

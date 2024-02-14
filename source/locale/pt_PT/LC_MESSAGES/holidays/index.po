@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 16:17+0100\n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
 "PO-Revision-Date: 2024-01-26 14:56+0000\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/teclib/teams/28042/pt_PT/)\n"
 "MIME-Version: 1.0\n"
@@ -51,75 +51,105 @@ msgstr ""
 
 #: ../../source/holidays/index.rst:13
 msgid ""
-"A `basic license <https://services.glpi-network.com/#offers>`__ (or higher) "
+"A `basic license <https://services.glpi-network.com/#offers>`_ (or higher) "
 "is required. This plugin is also available from the `Cloud <https://glpi-"
 "network.cloud/fr/>`__."
 msgstr ""
 
-#: ../../source/holidays/index.rst:15
+#: ../../source/holidays/index.rst:16
+msgid "Install the plugin"
+msgstr ""
+
+#: ../../source/holidays/index.rst:18
 msgid "Go to the marketplace. Download and install the **Holiday** plugin."
 msgstr ""
 
-#: ../../source/holidays/index.rst:21
+#: ../../source/holidays/index.rst-1
+msgid "install the plugin"
+msgstr ""
+
+#: ../../source/holidays/index.rst:24
 msgid "Set up the plugin"
 msgstr ""
 
-#: ../../source/holidays/index.rst:23
+#: ../../source/holidays/index.rst:26
 msgid "From **Setup > General**, in the **Holiday** tab, enter :"
 msgstr ""
 
-#: ../../source/holidays/index.rst:25
+#: ../../source/holidays/index.rst:28
 msgid "The **Country** concerned"
 msgstr ""
 
-#: ../../source/holidays/index.rst:26
+#: ../../source/holidays/index.rst:29
 msgid "The **Number of years to insert**"
 msgstr ""
 
-#: ../../source/holidays/index.rst:27
+#: ../../source/holidays/index.rst:30
 msgid "**Clean all previous holidays** or not"
 msgstr ""
 
-#: ../../source/holidays/index.rst:28
+#: ../../source/holidays/index.rst:31
 msgid "Then click on **Insert holiday dates**"
 msgstr ""
 
-#: ../../source/holidays/index.rst:34
-msgid "Delete a holiday date/period"
-msgstr ""
-
-#: ../../source/holidays/index.rst:36
-msgid "The list of holiday days can be viewed and modified"
+#: ../../source/holidays/index.rst-1
+msgid "setup"
 msgstr ""
 
 #: ../../source/holidays/index.rst:38
+msgid "Delete a holiday date/period"
+msgstr ""
+
+#: ../../source/holidays/index.rst:40
+msgid "The list of holiday days can be viewed and modified"
+msgstr ""
+
+#: ../../source/holidays/index.rst:42
 msgid "From **Setup > Dropdowns**,"
 msgstr ""
 
-#: ../../source/holidays/index.rst:39
+#: ../../source/holidays/index.rst:43
 msgid "enter **Closing** and click on **Closing times**"
 msgstr ""
 
-#: ../../source/holidays/index.rst:44
+#: ../../source/holidays/index.rst-1
+msgid "list of holidays"
+msgstr ""
+
+#: ../../source/holidays/index.rst:49
 msgid ""
 "The list of days appears. Let’s assume that the company considers that "
 "Easter Monday is not a day off."
 msgstr ""
 
-#: ../../source/holidays/index.rst:47
+#: ../../source/holidays/index.rst:52
 msgid "In the search box, enter **Easter** then **Search**"
 msgstr ""
 
-#: ../../source/holidays/index.rst:48
+#: ../../source/holidays/index.rst:53
 msgid "Select all the entries"
 msgstr ""
 
-#: ../../source/holidays/index.rst:49
+#: ../../source/holidays/index.rst:54
 msgid "Click on **Actions**"
 msgstr ""
 
-#: ../../source/holidays/index.rst:50
+#: ../../source/holidays/index.rst:55
 msgid "Delete permanently"
+msgstr ""
+
+#: ../../source/holidays/index.rst-1
+msgid "mass removal"
+msgstr ""
+
+#: ../../source/holidays/index.rst:62
+msgid "FAQ"
+msgstr ""
+
+#: ../../source/holidays/index.rst:64
+msgid ""
+"If you have any questions about using the plugin, please consult `our FAQ "
+"<https://faq.teclib.com/04_Plugins/Holiday/>`_"
 msgstr ""
 
 #: ../../<rst_epilog>:2

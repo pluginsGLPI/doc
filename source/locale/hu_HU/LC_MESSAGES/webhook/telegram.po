@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2024, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
+"PO-Revision-Date: 2024-02-14 07:35+0000\n"
+"Language-Team: Hungarian (Hungary) (https://app.transifex.com/teclib/teams/28042/hu_HU/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/webhook/telegram.rst:2
+msgid "Telegram"
+msgstr ""
+
+#: ../../source/webhook/telegram.rst:4
+msgid ""
+"From Telegram, start a new chat with the bot **@BotFather** and run the "
+"following command **/newbot**"
+msgstr ""
+
+#: ../../source/webhook/telegram.rst:5
+msgid "Answer the few questions you will be asked to set up your bot"
+msgstr ""
+
+#: ../../source/webhook/telegram.rst:6
+msgid "Once finished, a token will be sent to you:"
+msgstr ""
+
+#: ../../source/webhook/telegram.rst-1
+msgid "token HTTP API"
+msgstr ""
+
+#: ../../source/webhook/telegram.rst:12
+msgid ""
+"If you have already created a dedicated channel to receive GLPI "
+"notifications, add your bot to it."
+msgstr ""
+
+#: ../../source/webhook/telegram.rst:13
+msgid "Otherwise, create your own channel"
+msgstr ""
+
+#: ../../source/webhook/telegram.rst:14
+msgid "add the newly created bot"
+msgstr ""
+
+#: ../../source/webhook/telegram.rst:16
+msgid ""
+"Send a message in the channel created to initiate a conversation and "
+"generate the various IDs we will need."
+msgstr ""
+
+#: ../../source/webhook/telegram.rst:18
+msgid "From your browser, enter the following URL:"
+msgstr ""
+
+#: ../../source/webhook/telegram.rst:20
+msgid "https://api.telegram.org/botmytoken/getupdates\\"
+msgstr ""
+
+#: ../../source/webhook/telegram.rst:22
+msgid "Replace *mytoken* with the value of the token generated above"
+msgstr ""
+
+#: ../../source/webhook/telegram.rst:25
+msgid ""
+"Telegram bot URLs take the form **https://api.telegram.org/bot{mytoken}**"
+msgstr ""
+
+#: ../../source/webhook/telegram.rst:27
+msgid "You should see a similar result:"
+msgstr ""
+
+#: ../../source/webhook/telegram.rst:56
+msgid "In the **my_chat_member** copy the **ID** value of the **chat**."
+msgstr ""
+
+#: ../../source/webhook/telegram.rst:59
+msgid "The negative sign **-** must also be copied"
+msgstr ""
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr ""
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
+msgstr ""

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-01 14:27+0100\n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
 "PO-Revision-Date: 2020-01-21 14:02+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2021\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -25,188 +25,204 @@ msgstr ""
 msgid "Escalade"
 msgstr "Düzey yükseltme"
 
-#: ../../source/escalade/index.rst:5
+#: ../../source/escalade/index.rst:7
+msgid "Download"
+msgstr ""
+
+#: ../../source/escalade/index.rst:8
+msgid "Sources"
+msgstr ""
+
+#: ../../source/escalade/index.rst:9
+msgid "`<https://github.com/pluginsGLPI/escalade/releases>`_"
+msgstr ""
+
+#: ../../source/escalade/index.rst:10
+msgid "`<https://github.com/pluginsGLPI/escalade>`_"
+msgstr ""
+
+#: ../../source/escalade/index.rst:13
 msgid "Requirements (on-premise)"
 msgstr ""
 
-#: ../../source/escalade/index.rst:8
+#: ../../source/escalade/index.rst:16
 msgid "GLPI Version"
 msgstr ""
 
-#: ../../source/escalade/index.rst:8
+#: ../../source/escalade/index.rst:16
 msgid "Minimum PHP"
 msgstr ""
 
-#: ../../source/escalade/index.rst:8
+#: ../../source/escalade/index.rst:16
 msgid "Recommended"
 msgstr ""
 
-#: ../../source/escalade/index.rst:10
+#: ../../source/escalade/index.rst:18
 msgid "10.0.x"
 msgstr ""
 
-#: ../../source/escalade/index.rst:10
+#: ../../source/escalade/index.rst:18
 msgid "8.1"
 msgstr ""
 
-#: ../../source/escalade/index.rst:10
+#: ../../source/escalade/index.rst:18
 msgid "8.2"
 msgstr ""
 
-#: ../../source/escalade/index.rst:14
+#: ../../source/escalade/index.rst:22
 msgid ""
 "This plugin is available without a GLPI-Network subscription. It is also "
-"available in `Cloud <https://glpi-network.cloud/>`__"
-msgstr ""
-
-#: ../../source/escalade/index.rst:17
-msgid "Install the plugin"
-msgstr ""
-
-#: ../../source/escalade/index.rst:19
-msgid "Go to the marketplace. Download and install the plugin **Escalade**."
+"available in `Cloud <https://glpi-network.cloud/>`_"
 msgstr ""
 
 #: ../../source/escalade/index.rst:25
+msgid "Install the plugin"
+msgstr ""
+
+#: ../../source/escalade/index.rst:27
+msgid "Go to the marketplace. Download and install the plugin **Escalade**."
+msgstr ""
+
+#: ../../source/escalade/index.rst:35
 msgid "Assign a ticket"
 msgstr ""
 
-#: ../../source/escalade/index.rst:28
+#: ../../source/escalade/index.rst:38
 msgid ""
 "Escalade vs business rules We advise you **to use business rules** to "
 "allocate tickets or escalations. This allows you to manage more flexibly "
 "when changing category, urgency, etc."
 msgstr ""
 
-#: ../../source/escalade/index.rst:32
+#: ../../source/escalade/index.rst:42
 msgid ""
 "**Escalade** allows tickets **to be escalated only to groups**, and not to "
 "live users."
 msgstr ""
 
-#: ../../source/escalade/index.rst:34
+#: ../../source/escalade/index.rst:44
 msgid ""
 "When the plugin is activated, a new option is available from the ticket "
 "interface :"
 msgstr ""
 
-#: ../../source/escalade/index.rst:40
+#: ../../source/escalade/index.rst:52
 msgid "Set plugin parameters"
 msgstr ""
 
-#: ../../source/escalade/index.rst:42
+#: ../../source/escalade/index.rst:54
 msgid ""
 "From the plugin, click on the spanner and choose the various options that "
 "interest you:"
 msgstr ""
 
-#: ../../source/escalade/index.rst:45
+#: ../../source/escalade/index.rst:57
 msgid "Action"
 msgstr ""
 
-#: ../../source/escalade/index.rst:45
+#: ../../source/escalade/index.rst:57
 msgid "Effect"
 msgstr ""
 
-#: ../../source/escalade/index.rst:47
+#: ../../source/escalade/index.rst:59
 msgid "**Remove old assign group on new group assign**"
 msgstr ""
 
-#: ../../source/escalade/index.rst:47
+#: ../../source/escalade/index.rst:59
 msgid "Deletes or not the existing groups when you assign a new one"
 msgstr ""
 
-#: ../../source/escalade/index.rst:51
+#: ../../source/escalade/index.rst:63
 msgid "**show group assign history visually**"
 msgstr ""
 
-#: ../../source/escalade/index.rst:51
+#: ../../source/escalade/index.rst:63
 msgid ""
 "(*valid only if previous option is set to* **yes**) Previous groups will be "
 "visible when a new group is escalated"
 msgstr ""
 
-#: ../../source/escalade/index.rst:58
+#: ../../source/escalade/index.rst:70
 msgid "**Assign ticket to initial group on solve ticket**"
 msgstr ""
 
-#: ../../source/escalade/index.rst:58
+#: ../../source/escalade/index.rst:70
 msgid ""
 "(*valid only if previous option is set to* **yes**) Reassigns ticket to "
 "initial group if a group is deleted"
 msgstr ""
 
-#: ../../source/escalade/index.rst:63
+#: ../../source/escalade/index.rst:75
 msgid "**Escalation history in tasks**"
 msgstr ""
 
-#: ../../source/escalade/index.rst:63
+#: ../../source/escalade/index.rst:75
 msgid "Keep or not the history of escalations in the tasks"
 msgstr ""
 
-#: ../../source/escalade/index.rst:66
+#: ../../source/escalade/index.rst:78
 msgid "**Remove technician(s) on escalation**"
 msgstr ""
 
-#: ../../source/escalade/index.rst:66
+#: ../../source/escalade/index.rst:78
 msgid ""
 "Technician(s) will be deleted when a new technician is added to the ticket"
 msgstr ""
 
-#: ../../source/escalade/index.rst:70
+#: ../../source/escalade/index.rst:82
 msgid "**Ticket status can be changed after escalation**"
 msgstr ""
 
-#: ../../source/escalade/index.rst:70
+#: ../../source/escalade/index.rst:82
 msgid ""
 "Modify the status of the ticket after the escalation. A “do not modify” "
 "option is also available."
 msgstr ""
 
-#: ../../source/escalade/index.rst:74
+#: ../../source/escalade/index.rst:86
 msgid "**Assign the technical manager on ticket category change**"
 msgstr ""
 
-#: ../../source/escalade/index.rst:74
+#: ../../source/escalade/index.rst:86
 msgid ""
 "If a technical manager is declared in an ITIL category, they will be "
 "automatically assigned and will receive a notification."
 msgstr ""
 
-#: ../../source/escalade/index.rst:80
+#: ../../source/escalade/index.rst:92
 msgid "**Assign the technical group on ticket category change**"
 msgstr ""
 
-#: ../../source/escalade/index.rst:80
+#: ../../source/escalade/index.rst:92
 msgid ""
 "If a technical group is declared for an ITIL category, it will be "
 "automatically assigned and the members of the group will receive a "
 "notification"
 msgstr ""
 
-#: ../../source/escalade/index.rst:86
+#: ../../source/escalade/index.rst:98
 msgid "**Clone tickets**"
 msgstr ""
 
-#: ../../source/escalade/index.rst:86
+#: ../../source/escalade/index.rst:98
 msgid ""
 "Possibility of cloning tickets from the helpdesk interface .. figure:: "
 "images/Escalade-4.png"
 msgstr ""
 
-#: ../../source/escalade/index.rst:90
+#: ../../source/escalade/index.rst:102
 msgid "**Close cloned tickets at the same time**"
 msgstr ""
 
-#: ../../source/escalade/index.rst:90
+#: ../../source/escalade/index.rst:102
 msgid "Close all cloned tickets when one of them is closed"
 msgstr ""
 
-#: ../../source/escalade/index.rst:93
+#: ../../source/escalade/index.rst:105
 msgid "**Use the technician’s group**"
 msgstr ""
 
-#: ../../source/escalade/index.rst:93
+#: ../../source/escalade/index.rst:105
 msgid ""
 "If a technician is assigned, their group will also be assigned. You can "
 "choose to take account of the assignment when the ticket is created and/or "
@@ -214,58 +230,58 @@ msgid ""
 " user is assigned"
 msgstr ""
 
-#: ../../source/escalade/index.rst:102
+#: ../../source/escalade/index.rst:114
 msgid "**Remove requester(s) on escalation**"
 msgstr ""
 
-#: ../../source/escalade/index.rst:102
+#: ../../source/escalade/index.rst:114
 msgid ""
 "Remove requester(s) in the event of an escalation. Please note that no "
 "history is kept, as is the case for assigning a group"
 msgstr ""
 
-#: ../../source/escalade/index.rst:107
+#: ../../source/escalade/index.rst:119
 msgid "**Display delete button**"
 msgstr ""
 
-#: ../../source/escalade/index.rst:107
+#: ../../source/escalade/index.rst:119
 msgid ""
 "Displays the option of deleting actors from the ticket (ability to refine "
 "which user/group/supplier by requestor/watcher/technician)"
 msgstr ""
 
-#: ../../source/escalade/index.rst:115
+#: ../../source/escalade/index.rst:127
 msgid "**Activate filtering on allocation groups**"
 msgstr ""
 
-#: ../../source/escalade/index.rst:115
+#: ../../source/escalade/index.rst:127
 msgid ""
 "Enables filtering and whether or not escalation to other groups is possible."
 " *See next chapter for more information*"
 msgstr ""
 
-#: ../../source/escalade/index.rst:122
+#: ../../source/escalade/index.rst:134
 msgid "Setting up filtering"
 msgstr ""
 
-#: ../../source/escalade/index.rst:124
+#: ../../source/escalade/index.rst:136
 msgid ""
 "Filtering allows you to define which group is able to escalate tickets to "
 "other groups. For example, we don’t want N1 support to be able to escalate "
 "to N3 directly. The escalation to N2 must be mandatory."
 msgstr ""
 
-#: ../../source/escalade/index.rst:127
+#: ../../source/escalade/index.rst:139
 msgid "From **Administration > Groups**, select one of the groups"
 msgstr ""
 
-#: ../../source/escalade/index.rst:128
+#: ../../source/escalade/index.rst:140
 msgid ""
 "In **Escalade**, add the groups to which this one will be able to escalate "
 "tickets."
 msgstr ""
 
-#: ../../source/escalade/index.rst:131
+#: ../../source/escalade/index.rst:143
 msgid ""
 "This option can be useful, but it requires all groups to be set up. If, for "
 "example, the **technician N1** group can escalate tickets to the "
@@ -274,87 +290,97 @@ msgid ""
 "group, so that a ticket can be escalated if necessary."
 msgstr ""
 
-#: ../../source/escalade/index.rst:136
+#: ../../source/escalade/index.rst:148
 msgid "Example :"
 msgstr ""
 
-#: ../../source/escalade/index.rst:138
+#: ../../source/escalade/index.rst:150
 msgid "**Joe** user is **added** to group **Groupe 1**"
 msgstr ""
 
-#: ../../source/escalade/index.rst:145
+#: ../../source/escalade/index.rst:156
 msgid ""
 "**Groupe 1** is configured to allow ticket escalation only to **Groupe 2**"
 msgstr ""
 
-#: ../../source/escalade/index.rst:150
+#: ../../source/escalade/index.rst:162
 msgid ""
 "**Joe** user can **only reassign** ticket to **Groupe 2** because it's "
 "assign to Groupe 1"
 msgstr ""
 
-#: ../../source/escalade/index.rst:155
+#: ../../source/escalade/index.rst:168
 msgid ""
 "For other users not assign to **Groupe 1**, they can't reassign group to "
 "ticket (groups are not proposed in the list of assignation)"
 msgstr ""
 
-#: ../../source/escalade/index.rst:160
+#: ../../source/escalade/index.rst:174
 msgid "You can **bypass** this behavior per user"
 msgstr ""
 
-#: ../../source/escalade/index.rst:166
+#: ../../source/escalade/index.rst:182
 msgid "Ticket's search engine"
 msgstr "Destek kaydının arama motoru"
 
-#: ../../source/escalade/index.rst:168
+#: ../../source/escalade/index.rst:184
 msgid "Plugin add three new search option"
 msgstr "Uygulama eki üç yeni arama seçeneği ekler"
 
-#: ../../source/escalade/index.rst:172
+#: ../../source/escalade/index.rst:191
 msgid "Group concerning by escalation"
 msgstr "Düzey yükseltme ile ilgilenen grup"
 
-#: ../../source/escalade/index.rst:174
+#: ../../source/escalade/index.rst:193
 msgid "Ex : get all tickets actually escalated to group **Groupe 1**"
 msgstr ""
 
-#: ../../source/escalade/index.rst:176
+#: ../../source/escalade/index.rst:195
 msgid "Number of escalation"
 msgstr "Düzey yükseltme sayısı"
 
-#: ../../source/escalade/index.rst:178
+#: ../../source/escalade/index.rst:197
 msgid "Ex : get all tickets with more than ten escalation"
 msgstr ""
 "Örnek: Düzeyi on kereden fazla yükseltilmiş tüm destek kayıtlarını alın"
 
-#: ../../source/escalade/index.rst:180
+#: ../../source/escalade/index.rst:199
 msgid "Number of escalation between two groups"
 msgstr "İki grup arasındaki düzey yükseltme sayısı"
 
-#: ../../source/escalade/index.rst:182
+#: ../../source/escalade/index.rst:201
 msgid "Ex : get all tickets with more than 2 escalations between two groups"
 msgstr ""
 "Örnek : İki grup arasında 2 kereden fazla yükseltilmiş tüm destek "
 "kayıtlarını alın"
 
-#: ../../source/escalade/index.rst:186
+#: ../../source/escalade/index.rst:205
 msgid "Central page"
 msgstr "Merkez sayfa"
 
-#: ../../source/escalade/index.rst:188
+#: ../../source/escalade/index.rst:207
 msgid "New dashlet to display ticket solved to close and assign to you group"
 msgstr ""
 "Kapatmak ve grubunuza atamak için çözümlenen destek kaydını görüntüleyen "
 "yeni pano bileşeni"
 
-#: ../../source/escalade/index.rst:192
+#: ../../source/escalade/index.rst:214
 msgid ""
 "New dashlet to display not solved ticket where your groups was not actually "
 "assign but was in the past"
 msgstr ""
 "Gruplarınızın güncel olarak atanmadığı ancak geçmişte atanmış olduğu "
 "çözümlenmemiş destek kayıtlarını görüntülemek için yeni pano bileşeni"
+
+#: ../../source/escalade/index.rst:221
+msgid "FAQ"
+msgstr ""
+
+#: ../../source/escalade/index.rst:223
+msgid ""
+"If you have any questions about using the plugin, please consult `our FAQ "
+"<https://faq.teclib.com/04_Plugins/Escalade/>`_"
+msgstr ""
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 16:17+0100\n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
 "PO-Revision-Date: 2024-01-26 14:57+0000\n"
 "Language-Team: Italian (Italy) (https://app.transifex.com/teclib/teams/28042/it_IT/)\n"
 "MIME-Version: 1.0\n"
@@ -26,20 +26,19 @@ msgid "References:"
 msgstr ""
 
 #: ../../source/scim/okta.rst:9
-msgid ""
-"`Understanding SCIM <https://developer.okta.com/docs/concepts/scim/>`__"
+msgid "`Understanding SCIM <https://developer.okta.com/docs/concepts/scim/>`_"
 msgstr ""
 
 #: ../../source/scim/okta.rst:10
 msgid ""
 "`Add SCIM provisioning to app integrations <https://help.okta.com/en-"
-"us/Content/Topics/Apps/Apps_App_Integration_Wizard_SCIM.htm>`__"
+"us/Content/Topics/Apps/Apps_App_Integration_Wizard_SCIM.htm>`_"
 msgstr ""
 
 #: ../../source/scim/okta.rst:11
 msgid ""
 "`Assign applications to users <https://help.okta.com/en-"
-"us/Content/Topics/users-groups-profiles/usgp-assign-apps.htm>`__"
+"us/Content/Topics/users-groups-profiles/usgp-assign-apps.htm>`_"
 msgstr ""
 
 #: ../../source/scim/okta.rst:14

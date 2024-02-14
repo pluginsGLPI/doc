@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 15:57+0100\n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
 "PO-Revision-Date: 2024-01-26 14:57+0000\n"
 "Language-Team: Spanish (Latin America) (https://app.transifex.com/teclib/teams/28042/es_419/)\n"
 "MIME-Version: 1.0\n"
@@ -18,138 +18,261 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/oauthimap/index.rst:2
-msgid "Oauth IMAP"
+msgid "OAuth IMAP"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:4
-msgid "Sources link: https://github.com/pluginsGLPI/oauthimap"
-msgstr ""
-
-#: ../../source/oauthimap/index.rst:5
-msgid "Download: https://github.com/pluginsGLPI/oauthimap/releases"
+#: ../../source/oauthimap/index.rst:7
+msgid "Download"
 msgstr ""
 
 #: ../../source/oauthimap/index.rst:8
-msgid "Features"
+msgid "Sources"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:9
+msgid "`<https://github.com/pluginsGLPI/oauthimap/releases>`_"
 msgstr ""
 
 #: ../../source/oauthimap/index.rst:10
-msgid "This plugin supports Oauth connection for emails receivers."
+msgid "`<https://github.com/pluginsGLPI/oauthimap>`_"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:12
-msgid "Supported mail services:"
-msgstr ""
-
-#: ../../source/oauthimap/index.rst:14
+#: ../../source/oauthimap/index.rst:13
 msgid ""
-"`Google (G Suite and Gmail) "
-"<https://developers.google.com/gmail/imap/xoauth2-protocol>`_,"
+"Microsoft is gradually removing the TLS 1.0 and 1.1 protocols for all "
+"Microsoft 365 applications. In order to keep your collector running, you "
+"need to add the **Oauth IMAP** plugin, which is available in the "
+"marketplace."
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:15
+#: ../../source/oauthimap/index.rst:16
 msgid ""
-"`Microsoft (Office 365 via Azure AD) <https://docs.microsoft.com/en-"
-"us/exchange/client-developer/legacy-protocols/how-to-authenticate-an-imap-"
-"pop-smtp-application-by-using-oauth>`_."
+"The Oauth tokens for the collector, retrieved during authentication with "
+"Azure by the OauthIMAP plugin, are “offline” tokens that delegate "
+"authorisation to a third-party application (GLPI). These tokens provide a "
+"renewal code that will be used by the application to renew them "
+"automatically without user intervention. You will therefore not be asked to "
+"re-authenticate after the 1st authorisation request."
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:18
-msgid "Install the Plugin"
-msgstr ""
-
-#: ../../source/oauthimap/index.rst:20
-msgid "Plugin is available inside GLPI marketplace."
+#: ../../source/oauthimap/index.rst:19
+msgid "Requirements (on-premise)"
 msgstr ""
 
 #: ../../source/oauthimap/index.rst:22
-msgid "You can also install it manually:"
+msgid "GLPI Version"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:22
+msgid "Minimum PHP"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:22
+msgid "Recommended"
 msgstr ""
 
 #: ../../source/oauthimap/index.rst:24
-msgid "Uncompress the archive."
+msgid "10.0.x"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:25
+#: ../../source/oauthimap/index.rst:24
+msgid "8.1"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:24
+msgid "8.2"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:28
 msgid ""
-"Move the ``oauthimap`` directory to the ``<GLPI_ROOT>/plugins`` directory."
-msgstr ""
-
-#: ../../source/oauthimap/index.rst:26
-msgid "Navigate to the *Setup > Plugins* page."
-msgstr ""
-
-#: ../../source/oauthimap/index.rst:27
-msgid "Install and activate the plugin."
-msgstr ""
-
-#: ../../source/oauthimap/index.rst:30
-msgid "Configure your Oauth IMAP application"
+"This plugin is available without a GLPI-Network subscription. It is also "
+"available in `Cloud <https://glpi-network.cloud/>`_"
 msgstr ""
 
 #: ../../source/oauthimap/index.rst:32
-msgid ""
-"To be able to connect to a mailbox using Oauth authentication, you first "
-"need to configure your *Oauth IMAP application*:"
+msgid "Supported mail services"
 msgstr ""
 
 #: ../../source/oauthimap/index.rst:34
-msgid ""
-"Register an external application on service provider management console;"
-msgstr ""
-
-#: ../../source/oauthimap/index.rst:35
-msgid ""
-"Create an item in *Setup > Oauth IMAP applications* using *id* and *secret* "
-"of your provider application;"
+msgid "OAuth IMAP support :"
 msgstr ""
 
 #: ../../source/oauthimap/index.rst:36
 msgid ""
-"Copy callback url from the Oauth IMAP application configuration and fill it "
-"in the provider console (GLPI will be called back after authentication "
-"process)."
+"Gmail : https://developers.google.com/gmail/imap/xoauth2-protocol?hl=fr"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:41
-msgid "Create an authorization"
+#: ../../source/oauthimap/index.rst:37
+msgid ""
+"Entra : https://learn.microsoft.com/fr-fr/power-platform/admin/connect-"
+"gmail-oauth2"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst-1 ../../source/oauthimap/index.rst:41
+msgid "Install the plugin"
 msgstr ""
 
 #: ../../source/oauthimap/index.rst:43
-msgid ""
-"Once your Oauth IMAP application created, you will need to create an "
-"authorization that will be used to authenticate on your mailbox. To do so, "
-"go in the *Oauth authorization* tab of your Oauth IMAP application, and "
-"click on *Create an authorization*."
+msgid "Go to the marketplace. Download Oauth IMAP and enable it"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:48
+#: ../../source/oauthimap/index.rst:49
 msgid ""
-"You can create an authorization for each of the mailboxes you want to use in"
-" mail receivers. When you create an authorization for a mailbox, previously "
-"existing authorizations for this mailbox are discarded."
+"Open the `Azure Portal <https://portal.azure.com/#home>`_ for your tenant"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:52
-msgid "Configure your mail receiver"
+#: ../../source/oauthimap/index.rst:50
+msgid "In the search box type **registration**"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:54
-msgid ""
-"To authenticate via Oauth on your mail receiver, you have to change the "
-"configuration of your mail receiver:"
+#: ../../source/oauthimap/index.rst:51
+msgid "then select **App registrations**"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:56
-msgid ""
-"choose your Oauth IMAP application in the first dropdown of *Connection "
-"options*;"
+#: ../../source/oauthimap/index.rst-1
+msgid "add app Entra"
 msgstr ""
 
 #: ../../source/oauthimap/index.rst:57
 msgid ""
-"then choose an existing authorization in the *Login* dropdown or select "
-"*Create authorization for another user*."
+"Here are the configuration steps including configuration phases on the Entra"
+" side."
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:60
+msgid "Register your Entra application"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:63
+msgid "Create the application"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:65
+msgid "Click on **New registration**"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:66
+msgid ""
+"Enter the desired name, select the type of account supported then enter the "
+"redirection URL (present in the configuration of the plugin from your GLPI "
+"interface: "
+"https://XXXXXXXXXXXXXX/marketplace/oauthimap/front/authorization.callback.php)"
+" specifying the **Web** option"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:68
+msgid "Then click on **Register**."
+msgstr ""
+
+#: ../../source/oauthimap/index.rst-1
+msgid "register app"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:75
+msgid "Add a secret"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:77
+msgid "In the **Certificates and secrets** tab"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:78
+msgid "Click on **Client secrets**"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:79
+msgid "Then **New client secret**"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst-1
+msgid "add secret"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:85
+msgid "Enter a description and then an expiration date"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:86
+msgid ""
+"A secret **value** is then generated. Keep this value well because once you "
+"have left this page, it will no longer be recoverable"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst-1
+msgid "select value secret"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:92
+msgid ""
+"Return to the **Overview** tab and **copy** the following values ​​and the "
+"secret seen above"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst-1
+msgid "overview"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:99
+msgid "Setup GLPI"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:101
+msgid ""
+"Now go back to your GLPI interface **Setup > Application Aouth IMAP** and "
+"indicate the information collected previously :"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst-1
+msgid "setup GLPI"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:107
+msgid "Click **Add**"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:108
+msgid ""
+"Now in the **Oauth authorization** tab, click **Create an authorization**"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst-1
+msgid "Oauth Auhorization"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:114
+msgid ""
+"When you click on **Create authorization**, you will be redirected to the "
+"Microsoft services sign-in page"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:115
+msgid ""
+"Enter the email address and password of the account that will be used for "
+"the collector"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:116
+msgid ""
+"You will also need to accept the necessary permissions related to the "
+"plugin."
+msgstr ""
+
+#: ../../source/oauthimap/index.rst-1
+msgid "app Auhorization"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst-1
+msgid "check account"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:127
+msgid "FAQ"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:129
+msgid ""
+"If you have any questions about using the plugin, please consult `our FAQ "
+"<https://faq.teclib.com/04_Plugins/OAuth_IMAP/>`_"
 msgstr ""
 
 #: ../../<rst_epilog>:2

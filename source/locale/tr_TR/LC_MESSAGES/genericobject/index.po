@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Kaya Zeren <kayazeren@gmail.com>, 2023
+# Kaya Zeren <kayazeren@gmail.com>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 15:57+0100\n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
 "PO-Revision-Date: 2016-11-02 10:38+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2023\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,37 +25,61 @@ msgstr ""
 msgid "Generic Object"
 msgstr "Genel nesne"
 
-#: ../../source/genericobject/index.rst:4
-msgid "Sources link: https://github.com/pluginsGLPI/genericobject"
-msgstr "Kaynak bağlantısı: https://github.com/pluginsGLPI/genericobject"
-
-#: ../../source/genericobject/index.rst:5
-msgid "Download: https://github.com/pluginsGLPI/genericobject/releases"
-msgstr ""
-"İndirme bağlantısı: https://github.com/pluginsGLPI/genericobject/releases"
-
 #: ../../source/genericobject/index.rst:7
-msgid ""
-"This user manual applies to version 2.14 of the GLPI Generic Object Plugin."
+msgid "Download"
+msgstr ""
+
+#: ../../source/genericobject/index.rst:8
+msgid "Sources"
+msgstr ""
+
+#: ../../source/genericobject/index.rst:9
+msgid "`<https://github.com/pluginsGLPI/genericobject/releases>`_"
 msgstr ""
 
 #: ../../source/genericobject/index.rst:10
-msgid "Requirements"
-msgstr "Gereksinimler"
-
-#: ../../source/genericobject/index.rst:12
-msgid ""
-"Please refer to `plugin page <https://plugins.glpi-"
-"project.org/#/plugin/genericobject>`."
+msgid "`<https://github.com/pluginsGLPI/genericobject>`_"
 msgstr ""
-"Lütfen `uygulama eki sayfasına bakın <https://plugins.glpi-"
-"project.org/#/plugin/genericobject>`."
 
-#: ../../source/genericobject/index.rst:15
+#: ../../source/genericobject/index.rst:13
+msgid "Requirements (on-premise)"
+msgstr ""
+
+#: ../../source/genericobject/index.rst:16
+msgid "GLPI Version"
+msgstr ""
+
+#: ../../source/genericobject/index.rst:16
+msgid "Minimum PHP"
+msgstr ""
+
+#: ../../source/genericobject/index.rst:16
+msgid "Recommended"
+msgstr ""
+
+#: ../../source/genericobject/index.rst:18
+msgid "10.0.x"
+msgstr ""
+
+#: ../../source/genericobject/index.rst:18
+msgid "8.1"
+msgstr ""
+
+#: ../../source/genericobject/index.rst:18
+msgid "8.2"
+msgstr ""
+
+#: ../../source/genericobject/index.rst:22
+msgid ""
+"This plugin is available without a GLPI-Network subscription. It is also "
+"available in `Cloud <https://glpi-network.cloud/>`_"
+msgstr ""
+
+#: ../../source/genericobject/index.rst:26
 msgid "Features"
 msgstr "Özellikler"
 
-#: ../../source/genericobject/index.rst:17
+#: ../../source/genericobject/index.rst:28
 msgid ""
 "This plugin allows you to add new inventory objects types, integrated into "
 "GLPI framework."
@@ -63,55 +87,55 @@ msgstr ""
 "Bu uygulama eki GLPI yapısına bütünleşik yeni envanter nesneleri "
 "eklenebilmesini sağlar."
 
-#: ../../source/genericobject/index.rst:19
+#: ../../source/genericobject/index.rst:30
 msgid "It supports following GLPI features:"
 msgstr "Şu GLPI özelliklerini destekler:"
 
-#: ../../source/genericobject/index.rst:21
+#: ../../source/genericobject/index.rst:32
 msgid "entity and sub-entities management;"
 msgstr "Varlık ve alt varlık yönetimi,"
 
-#: ../../source/genericobject/index.rst:22
+#: ../../source/genericobject/index.rst:33
 msgid "search;"
 msgstr "Arama,"
 
-#: ../../source/genericobject/index.rst:23
+#: ../../source/genericobject/index.rst:34
 msgid "templates;"
 msgstr "Kalıplar,"
 
-#: ../../source/genericobject/index.rst:24
+#: ../../source/genericobject/index.rst:35
 msgid "history;"
 msgstr "Geçmiş,"
 
-#: ../../source/genericobject/index.rst:25
+#: ../../source/genericobject/index.rst:36
 msgid "helpdesk integration;"
 msgstr "Destek merkezi bütünleştirmesi,"
 
-#: ../../source/genericobject/index.rst:26
+#: ../../source/genericobject/index.rst:37
 msgid "CSV file injection plugin integration;"
 msgstr "CSV dosya ekleme uygulama eki bütünleştirmesi,"
 
-#: ../../source/genericobject/index.rst:27
+#: ../../source/genericobject/index.rst:38
 msgid "Item uninstallation plugin integration;"
 msgstr "Öge kaldırma uygulama eki bütünleştirmesi,"
 
-#: ../../source/genericobject/index.rst:28
+#: ../../source/genericobject/index.rst:39
 msgid "order management plugin integration."
 msgstr "Sipariş yönetimi uygulama eki bütünleştirmesi."
 
-#: ../../source/genericobject/index.rst:31
+#: ../../source/genericobject/index.rst:42
 msgid "Example of usage"
 msgstr "Kullanım örneği"
 
-#: ../../source/genericobject/index.rst:33
+#: ../../source/genericobject/index.rst:44
 msgid "**Objective:** Manage your car fleet like the rest of your IT Assets."
 msgstr "**Amaç:** Araç filonuzu BT varlıklarınız gibi yönetmek."
 
-#: ../../source/genericobject/index.rst:35
+#: ../../source/genericobject/index.rst:46
 msgid "Create a new type of inventory object *car*."
 msgstr "*Araçlar* adında yeni bir envanter nesnesi ekleyin."
 
-#: ../../source/genericobject/index.rst:36
+#: ../../source/genericobject/index.rst:47
 msgid ""
 "Add the accurate fields for a *car*, like: *name*, *serial number*, "
 "*inventory number*, *type*, *model*, *color*, *state*, etc."
@@ -119,7 +143,7 @@ msgstr ""
 "*Araçlar* için kullanılacak alanları ekleyin: *ad*, *seri numarası*, *stok "
 "kodu*, *tür*, *model*, *renk*, *durum*, gibi."
 
-#: ../../source/genericobject/index.rst:37
+#: ../../source/genericobject/index.rst:48
 msgid ""
 "Describe the behaviour of a *car*: visible in subentity, retain history, "
 "etc."
@@ -127,87 +151,87 @@ msgstr ""
 "Bir *aracın* davranışını belirtin: Alt birimde görüntülensin, geçmişi "
 "kaydedilsin gibi."
 
-#: ../../source/genericobject/index.rst:38
+#: ../../source/genericobject/index.rst:49
 msgid "Adjust the rights on *cars*."
 msgstr "*Araçlar* üzerindeki izinleri ayarlayın."
 
-#: ../../source/genericobject/index.rst:39
+#: ../../source/genericobject/index.rst:50
 msgid "Activate the *cars* object."
 msgstr "*Araçlar* nesnesini etkinleştirin."
 
-#: ../../source/genericobject/index.rst:40
+#: ../../source/genericobject/index.rst:51
 msgid "Manage your collection of *cars* in GLPI."
 msgstr "*Araç* filonuzu GLPI üzerinden yönetin."
 
-#: ../../source/genericobject/index.rst:45
+#: ../../source/genericobject/index.rst:56
 msgid "Install the Plugin"
 msgstr "Uygulama ekini kurmak"
 
-#: ../../source/genericobject/index.rst:47
+#: ../../source/genericobject/index.rst:58
 msgid "Uncompress the archive."
 msgstr "Arşivi ayıklayın."
 
-#: ../../source/genericobject/index.rst:48
+#: ../../source/genericobject/index.rst:59
 msgid ""
 "Move the ``genericobject`` directory to the ``<GLPI_ROOT>/plugins`` "
 "directory"
 msgstr "``genericobject`` klasörünü ``<GLPI_ROOT>/plugins`` klasörüne taşıyın"
 
-#: ../../source/genericobject/index.rst:49
+#: ../../source/genericobject/index.rst:60
 msgid "Navigate to the *Configuration > Plugins* page"
 msgstr "*Yapılandırma > Uygulama ekleri* bölümüne gidin"
 
-#: ../../source/genericobject/index.rst:50
+#: ../../source/genericobject/index.rst:61
 msgid "Install and activate the plugin"
 msgstr "Uygulama ekini kurup etkinleştirin."
 
-#: ../../source/genericobject/index.rst:53
+#: ../../source/genericobject/index.rst:64
 msgid "Usage"
 msgstr "Kullanım"
 
-#: ../../source/genericobject/index.rst:58
+#: ../../source/genericobject/index.rst:69
 msgid "Create a new object type"
 msgstr "Yeni bir nesne türü ekleyin"
 
-#: ../../source/genericobject/index.rst:60
+#: ../../source/genericobject/index.rst:71
 msgid "This is the first step."
 msgstr "Bu ilk adımdır."
 
-#: ../../source/genericobject/index.rst:62
+#: ../../source/genericobject/index.rst:73
 msgid "Click on the *+* button in  the plugin configuration form."
 msgstr "Uygulama eki yapılandırması formunda *+* düğmesine tıklayın."
 
-#: ../../source/genericobject/index.rst:63
+#: ../../source/genericobject/index.rst:74
 msgid "Create the new type of inventory object:"
 msgstr "Yeni envanter nesnesi türü oluşturun:"
 
-#: ../../source/genericobject/index.rst:65
+#: ../../source/genericobject/index.rst:76
 msgid "*name*: mandatory, lowercase, and must be composed of letters only;"
 msgstr ""
 "*Ad*: Zorunludur, küçük harflerle ve yalnız şu karakterler kullanılarak "
 "yazılmalıdır:"
 
-#: ../../source/genericobject/index.rst:66
+#: ../../source/genericobject/index.rst:77
 msgid "*label*: by default, the same as the name."
 msgstr "*Etiket*: Varsayılan olarak ad ile aynıdır."
 
-#: ../../source/genericobject/index.rst:68
+#: ../../source/genericobject/index.rst:79
 msgid "Validate."
 msgstr "Doğrulayın."
 
-#: ../../source/genericobject/index.rst:69
+#: ../../source/genericobject/index.rst:80
 msgid "Activate the new item type to use it."
 msgstr "Kullanabilmek için yeni öge türünü etkinleştirin."
 
-#: ../../source/genericobject/index.rst:71
+#: ../../source/genericobject/index.rst:82
 msgid "**Example:** Create a new type of inventory object *car*."
 msgstr "**Örnek:** Yeni *Araç* envanter nesnesini oluşturun."
 
-#: ../../source/genericobject/index.rst:76
+#: ../../source/genericobject/index.rst:87
 msgid "Edit labels"
 msgstr "Etiketleri düzenleyin"
 
-#: ../../source/genericobject/index.rst:78
+#: ../../source/genericobject/index.rst:89
 msgid ""
 "For each type, a language file is available in "
 "``<GLPI_ROOT>/files/_plugins/genericobject/locales/itemtype/``"
@@ -215,24 +239,24 @@ msgstr ""
 "Her tür için ``<GLPI_ROOT>/files/_plugins/genericobject/locales/itemtype/`` "
 "altında bir dil dosyası bulunur"
 
-#: ../../source/genericobject/index.rst:80
+#: ../../source/genericobject/index.rst:91
 msgid "The plugin creates :"
 msgstr "Bu uygulama eki şunları oluşturur:"
 
-#: ../../source/genericobject/index.rst:82
+#: ../../source/genericobject/index.rst:93
 msgid "a language file for the current language"
 msgstr "Geçerli dil için bir dil dosyası"
 
-#: ../../source/genericobject/index.rst:83
+#: ../../source/genericobject/index.rst:94
 msgid "a language file for the default GLPI language"
 msgstr "Varsayılan GLPI dili için bir dil dosyası"
 
-#: ../../source/genericobject/index.rst:87
+#: ../../source/genericobject/index.rst:98
 msgid ""
 "If the current and default languages are the same, only one file is created."
 msgstr "Geçerli ve varsayılan dil aynı ise yalnız bir dosya oluşturulur."
 
-#: ../../source/genericobject/index.rst:89
+#: ../../source/genericobject/index.rst:100
 msgid ""
 "To change the label of the itemtype, for the english language, edit the "
 "file:"
@@ -240,18 +264,18 @@ msgstr ""
 "İngilizce dilinde öge türünün etiketini değiştirmek için şu dosyayı "
 "düzenleyin:"
 
-#: ../../source/genericobject/index.rst:97
+#: ../../source/genericobject/index.rst:108
 msgid ""
 "You can also define labels globally in "
 "``<GLPI_ROOT>/files/_plugins/genericobject/locales/fields.<lang>.php`` "
 "files:"
 msgstr ""
 
-#: ../../source/genericobject/index.rst:106
+#: ../../source/genericobject/index.rst:117
 msgid "Setup behaviour"
 msgstr "Kurulum davranışı"
 
-#: ../../source/genericobject/index.rst:108
+#: ../../source/genericobject/index.rst:119
 msgid ""
 "**Example:** Describe the behaviour of a *car*: visible in subentity, retain"
 " history, etc."
@@ -259,7 +283,7 @@ msgstr ""
 "**Örnek:** Bir *aracın* davranışını belirtin: Alt varlıkta görüntülensin, "
 "geçmişi kaydedilsin gibi."
 
-#: ../../source/genericobject/index.rst:110
+#: ../../source/genericobject/index.rst:121
 msgid ""
 "The new type will be managed the same way as the usual GLPI types (computer,"
 " monitor, network device, etc.)"
@@ -267,61 +291,61 @@ msgstr ""
 "Yeni tür normal GLPI türleri (bilgisayar, ekran, ağ aygıtı vb) ile aynı "
 "şekilde yönetilir"
 
-#: ../../source/genericobject/index.rst:114
+#: ../../source/genericobject/index.rst:125
 msgid "All objects are at least assigned to an *entity*"
 msgstr "Tüm nesneler için atanmış en az bir *birim* olmalıdır"
 
-#: ../../source/genericobject/index.rst:116
+#: ../../source/genericobject/index.rst:127
 msgid "The Behaviour tab allows you to define:"
 msgstr "Davranış sekmesinde şunlar tanımlanabilir:"
 
-#: ../../source/genericobject/index.rst:118
+#: ../../source/genericobject/index.rst:129
 msgid "*child-entities:* allows the type to be recursive;"
 msgstr "*Alt kayıtlar:* Türün alta doğru genişletilmesini sağlar;"
 
-#: ../../source/genericobject/index.rst:119
+#: ../../source/genericobject/index.rst:130
 msgid "*Helpdesk:* allows an object to be associated to a ticket;"
 msgstr ""
 "*Destek masası:* Bir nesnenin bir çağrı kaydı ile ilişkilendirilmesini "
 "sağlar:"
 
-#: ../../source/genericobject/index.rst:120
+#: ../../source/genericobject/index.rst:131
 msgid "*Trash:* use GLPI's trash functionnality;"
 msgstr "*Çöp:* GLPI çöp kutusu özelliğini kullanır;"
 
-#: ../../source/genericobject/index.rst:121
+#: ../../source/genericobject/index.rst:132
 msgid "*Notes:* use GLPI's note functionnality;"
 msgstr "*Notlar:* GLPI not özelliğini kullanır;"
 
-#: ../../source/genericobject/index.rst:122
+#: ../../source/genericobject/index.rst:133
 msgid "*History:* allow history for this type;"
 msgstr "*Geçmiş:* Bu türün geçmişini kaydeder;"
 
-#: ../../source/genericobject/index.rst:123
+#: ../../source/genericobject/index.rst:134
 msgid "*Templates:* allows template management;"
 msgstr "*Kalıplar:* Kalıpların yönetimini sağlar;"
 
-#: ../../source/genericobject/index.rst:124
+#: ../../source/genericobject/index.rst:135
 msgid ""
 "*Documents:* allows documents to be attached to an object of this type;"
 msgstr "*Belgeler:* Bu türdeki nesnelere belge eklenebilmesini sağlar;"
 
-#: ../../source/genericobject/index.rst:125
+#: ../../source/genericobject/index.rst:136
 msgid "*Loans:* allows objects to be loaned;"
 msgstr "*Ödünç verme:* Nesnelerin ödünç verilebilmesini sağlar;"
 
-#: ../../source/genericobject/index.rst:126
+#: ../../source/genericobject/index.rst:137
 msgid "*Contracts:* link an object to one or more contracts;"
 msgstr "*Sözleşmeler:* Bir nesneyi bir ya da bir kaç kişi ile ilişkilendirir;"
 
-#: ../../source/genericobject/index.rst:127
+#: ../../source/genericobject/index.rst:138
 msgid ""
 "*Network connections:* allow ports to be used and management for this type;"
 msgstr ""
 "*Ağ bağlantıları:* Bu tür için yönetim ve bağlantı noktalarının "
 "kullanılabilmesini sağlar;"
 
-#: ../../source/genericobject/index.rst:128
+#: ../../source/genericobject/index.rst:139
 msgid ""
 "*CSV file injection plugin:* allows this type to be available for use in the"
 " plugin;"
@@ -329,21 +353,21 @@ msgstr ""
 "*CSV file injection uygulama eki:* Bu türün şu uygulama ekiyle "
 "kullanılabilmesini sağlar;"
 
-#: ../../source/genericobject/index.rst:129
+#: ../../source/genericobject/index.rst:140
 msgid "*Item uninstallation plugin:* allows this type to be uninstalled;"
 msgstr "*Item uninstallation uygulama eki:* Bu türün kaldırılmasını sağlar;"
 
-#: ../../source/genericobject/index.rst:130
+#: ../../source/genericobject/index.rst:141
 msgid "*Order management plugin:* allows this type to be linked to an order;"
 msgstr ""
 "*Sipariş yönetimi uygulama eki:* Bu türün bir sipariş ile "
 "ilişkilendirilmesini sağlar;"
 
-#: ../../source/genericobject/index.rst:133
+#: ../../source/genericobject/index.rst:144
 msgid "Add Fields"
 msgstr "Alanlar ekleyin"
 
-#: ../../source/genericobject/index.rst:135
+#: ../../source/genericobject/index.rst:146
 msgid ""
 "**Example:** Add the accurate fields for a *car*, like: *name*, *serial "
 "number*, *inventory number*, *type*, *model*, *color*, *state*, etc."
@@ -351,139 +375,139 @@ msgstr ""
 "**Örnek:** *Araçlar* için kullanılacak alanları ekleyin: *ad*, *seri "
 "numarası*, *stok kodu*, *tür*, *model*, *renk*, *durum*, gibi."
 
-#: ../../source/genericobject/index.rst:137
+#: ../../source/genericobject/index.rst:148
 msgid "Navigate to the *Fields* tab."
 msgstr "*Alanlar* sekmesine gidin."
 
-#: ../../source/genericobject/index.rst:139
+#: ../../source/genericobject/index.rst:150
 msgid "The plugin comes with several ready to use fields:"
 msgstr "Bu uygulama eki ile kullanılmaya hazır bazı alanlar gelir:"
 
-#: ../../source/genericobject/index.rst:141
+#: ../../source/genericobject/index.rst:152
 msgid "Name"
 msgstr "Ad"
 
-#: ../../source/genericobject/index.rst:142
+#: ../../source/genericobject/index.rst:153
 msgid "Type"
 msgstr "Tür"
 
-#: ../../source/genericobject/index.rst:143
+#: ../../source/genericobject/index.rst:154
 msgid "Model"
 msgstr "Model"
 
-#: ../../source/genericobject/index.rst:144
+#: ../../source/genericobject/index.rst:155
 msgid "Serial number"
 msgstr "Seri numarası"
 
-#: ../../source/genericobject/index.rst:145
+#: ../../source/genericobject/index.rst:156
 msgid "Inventory number"
 msgstr "Stok numarası"
 
-#: ../../source/genericobject/index.rst:146
+#: ../../source/genericobject/index.rst:157
 msgid "Item's user"
 msgstr "Ögenin kullanıcısı"
 
-#: ../../source/genericobject/index.rst:147
+#: ../../source/genericobject/index.rst:158
 msgid "Group"
 msgstr "Grup"
 
-#: ../../source/genericobject/index.rst:148
+#: ../../source/genericobject/index.rst:159
 msgid "Status"
 msgstr "Durum"
 
-#: ../../source/genericobject/index.rst:149
+#: ../../source/genericobject/index.rst:160
 msgid "Comments"
 msgstr "Yorumlar"
 
-#: ../../source/genericobject/index.rst:150
+#: ../../source/genericobject/index.rst:161
 msgid "Notes"
 msgstr "Notlar"
 
-#: ../../source/genericobject/index.rst:151
+#: ../../source/genericobject/index.rst:162
 msgid "Location"
 msgstr "Konum"
 
-#: ../../source/genericobject/index.rst:152
+#: ../../source/genericobject/index.rst:163
 msgid "Other"
 msgstr "Diğer"
 
-#: ../../source/genericobject/index.rst:153
+#: ../../source/genericobject/index.rst:164
 msgid "Manufacturer"
 msgstr "Üretici"
 
-#: ../../source/genericobject/index.rst:154
+#: ../../source/genericobject/index.rst:165
 msgid "URL"
 msgstr "İnternet adresi"
 
-#: ../../source/genericobject/index.rst:155
+#: ../../source/genericobject/index.rst:166
 msgid "Creation date"
 msgstr "Eklenme tarihi"
 
-#: ../../source/genericobject/index.rst:156
+#: ../../source/genericobject/index.rst:167
 msgid "Expiration date"
 msgstr "Son kullanma tarihi"
 
-#: ../../source/genericobject/index.rst:157
+#: ../../source/genericobject/index.rst:168
 msgid "Category"
 msgstr "Kategori"
 
-#: ../../source/genericobject/index.rst:158
+#: ../../source/genericobject/index.rst:169
 msgid "Visible in Helpdesk"
 msgstr "Destek merkezinde görüntülensin"
 
-#: ../../source/genericobject/index.rst:159
+#: ../../source/genericobject/index.rst:170
 msgid "Technician in charge of the hardware"
 msgstr "Donanımdan sorumlu kişi"
 
-#: ../../source/genericobject/index.rst:160
+#: ../../source/genericobject/index.rst:171
 msgid "Domain"
 msgstr "Etki alanı"
 
-#: ../../source/genericobject/index.rst:161
+#: ../../source/genericobject/index.rst:172
 msgid "Contact"
 msgstr "İlgili"
 
-#: ../../source/genericobject/index.rst:162
+#: ../../source/genericobject/index.rst:173
 msgid "Contact number"
 msgstr "İlgilinin telefonu"
 
-#: ../../source/genericobject/index.rst:166
+#: ../../source/genericobject/index.rst:177
 msgid "Using some behaviour will automatically add some fields to the object:"
 msgstr ""
 "Bazı davranışlar kullanıldığında nesneye bazı alanlar otomatik olarak "
 "eklenir:"
 
-#: ../../source/genericobject/index.rst:168
+#: ../../source/genericobject/index.rst:179
 msgid "network connection => location"
 msgstr "Ağ bağlantısı => konum"
 
-#: ../../source/genericobject/index.rst:169
+#: ../../source/genericobject/index.rst:180
 msgid "loans => location"
 msgstr "Ödünç verme => konum"
 
-#: ../../source/genericobject/index.rst:170
+#: ../../source/genericobject/index.rst:181
 msgid "helpdesk => is visible in Helpdesk"
 msgstr "Destek merkezi => destek merkezinde görüntülensin"
 
-#: ../../source/genericobject/index.rst:171
+#: ../../source/genericobject/index.rst:182
 msgid "notes => notepad"
 msgstr "Notlar => notepad"
 
-#: ../../source/genericobject/index.rst:174
+#: ../../source/genericobject/index.rst:185
 msgid "Helpdesk integration"
 msgstr "Destek merkezi bütünleştirmesi"
 
-#: ../../source/genericobject/index.rst:176
+#: ../../source/genericobject/index.rst:187
 msgid "To use an object in the helpdesk, use following setup:"
 msgstr "Bir nesneyi destek merkezinde kullanmak için şu ayarları kullanın:"
 
-#: ../../source/genericobject/index.rst:178
+#: ../../source/genericobject/index.rst:189
 msgid "In *Behaviour* tab : *use helpdesk* must be set to **Yes**."
 msgstr ""
 "*Davranış* sekmesinde: *Destek merkezi kullanılsın* seçeneği **Evet** olarak"
 " ayarlanmalıdır."
 
-#: ../../source/genericobject/index.rst:179
+#: ../../source/genericobject/index.rst:190
 msgid ""
 "if the *User* field is defined, it allows item to be visible in the *My "
 "Items* list (as item whose owner is the user)."
@@ -491,7 +515,7 @@ msgstr ""
 "*Kullanıcı* alanı belirtilmiş ise öge *Ögelerim* listesinde görüntülenir "
 "(ögenin sahibi bu kullanıcı olarak)."
 
-#: ../../source/genericobject/index.rst:180
+#: ../../source/genericobject/index.rst:191
 msgid ""
 "if the *Group* field is defined, it allows item to be visible in the *My "
 "Items* list too (as item belonging to a group in which the user belongs to)."
@@ -499,7 +523,7 @@ msgstr ""
 "*Grup* alanı belirtilmiş ise öge gene *Ögelerim* listesinde görüntülenir "
 "(öge kullanıcının bulunduğu gruba ait olduğundan)."
 
-#: ../../source/genericobject/index.rst:181
+#: ../../source/genericobject/index.rst:192
 msgid ""
 "if *Helpdesk visible* field is set and if the value is set to **No** in the "
 "object, then the object won't be visible at all in the helpdesk."
@@ -507,17 +531,17 @@ msgstr ""
 "*Destek merkezinde görüntülensin* alanı ayarlanmış ve değeri **Hayır** ise "
 "nesne destek merkezinde görüntülenmez."
 
-#: ../../source/genericobject/index.rst:184
+#: ../../source/genericobject/index.rst:195
 msgid "Add new fields"
 msgstr "Yeni alanlar eklemek"
 
-#: ../../source/genericobject/index.rst:188
+#: ../../source/genericobject/index.rst:199
 msgid "New fields will be available for all object's types."
 msgstr ""
 "Bu seçenek etkinleştirildiğinde, yeni alanlar tüm nesne türleri için "
 "kullanılabilir."
 
-#: ../../source/genericobject/index.rst:190
+#: ../../source/genericobject/index.rst:201
 msgid ""
 "Create a new file named "
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/<type>.constant.php``"
@@ -525,7 +549,7 @@ msgstr ""
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/<type>.constant.php`` "
 "adında yeni bir dosya oluşturun"
 
-#: ../../source/genericobject/index.rst:192
+#: ../../source/genericobject/index.rst:203
 msgid ""
 "For example, for a *car* type the constant file will be "
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/car.constant.php``."
@@ -534,7 +558,7 @@ msgstr ""
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/arac.constant.php`` "
 "şeklinde olur."
 
-#: ../../source/genericobject/index.rst:194
+#: ../../source/genericobject/index.rst:205
 msgid ""
 "Please note that the file's first line must be the following, otherwise the "
 "new fields won't appear in the list:"
@@ -542,30 +566,30 @@ msgstr ""
 "Lütfen dosyanın ilk satırının şu şekilde olduğundan emin olun. Yoksa yeni "
 "alanlar listede görüntülenmez:"
 
-#: ../../source/genericobject/index.rst:201
+#: ../../source/genericobject/index.rst:212
 msgid "Add the new fields definitions."
 msgstr "Yeni alan tanımlarını ekleyin."
 
-#: ../../source/genericobject/index.rst:204
+#: ../../source/genericobject/index.rst:215
 msgid "Add a simple dropdown field"
 msgstr "Basit açılan kutu alanı eklemek"
 
-#: ../../source/genericobject/index.rst:215
+#: ../../source/genericobject/index.rst:226
 msgid ""
 "The language variable must be defined in the language file (see explaination"
 " above)."
 msgstr ""
 "Dil dosyasında dil değişkeni tanımlanmalıdır (yukarıdaki açıklamaya bakın)."
 
-#: ../../source/genericobject/index.rst:217
+#: ../../source/genericobject/index.rst:228
 msgid "Add a dropdown field that is assigned to an entity:"
 msgstr "Bir varlığa atanmış bir açılan kutu alanı eklemek:"
 
-#: ../../source/genericobject/index.rst:231
+#: ../../source/genericobject/index.rst:242
 msgid "Add a tree dropdown field"
 msgstr "Bir açılan ağaç alanı eklemek"
 
-#: ../../source/genericobject/index.rst:244
+#: ../../source/genericobject/index.rst:255
 msgid ""
 "You can use at the same time the following parameters : *entities_id*, "
 "*is_recursive*, *is_tree*."
@@ -573,14 +597,14 @@ msgstr ""
 "Aynı zamanda şu parametreleri de kullanabilirsiniz: *entities_id*, "
 "*is_recursive*, *is_tree*."
 
-#: ../../source/genericobject/index.rst:247
+#: ../../source/genericobject/index.rst:258
 msgid ""
 "Add a dropdown field that is based on a GLPI-core object (user, location...)"
 msgstr ""
 "GLPI çekirdek nesnesi temelli bir açılan kutu alanı eklemek (kullanıcı, "
 "konum...):"
 
-#: ../../source/genericobject/index.rst:257
+#: ../../source/genericobject/index.rst:268
 msgid ""
 "Name between brackets (``[]``) **MUST** begin with ``users_id`` in order to "
 "be recognized as a field based on GLPI users' list."
@@ -588,7 +612,7 @@ msgstr ""
 "Köşeli parantez içindeki adlar (``[]``) GLPI kullanıcı listesinde bir alan "
 "olarak değerlendirilmesi için ``users_id`` ile **BAŞLAMALIDIR**."
 
-#: ../../source/genericobject/index.rst:259
+#: ../../source/genericobject/index.rst:270
 msgid ""
 "See file "
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/field.constant.php`` to "
@@ -598,18 +622,18 @@ msgstr ""
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/field.constant.php`` "
 "dosyasından görebilirsiniz."
 
-#: ../../source/genericobject/index.rst:262
+#: ../../source/genericobject/index.rst:273
 msgid "Add a global dropdown"
 msgstr "Bir genel açılan kutu eklemek"
 
-#: ../../source/genericobject/index.rst:264
+#: ../../source/genericobject/index.rst:275
 msgid ""
 "A global dropdown can be used in all itemtypes. A good example would be :"
 msgstr ""
 "Tüm öge türleri için genel bir açılan kutu kullanılabilir. İyi bir örnek "
 "şöyle olabilir:"
 
-#: ../../source/genericobject/index.rst:273
+#: ../../source/genericobject/index.rst:284
 msgid ""
 "A specific category table will be created for each itemtype. The table name "
 "and field name will the computed this way:"
@@ -617,23 +641,23 @@ msgstr ""
 "Her öge türü için özel bir kategori tablosu oluşturulur. Tablo adı ve alan "
 "adı şu şekilde belirlenir:"
 
-#: ../../source/genericobject/index.rst:275
+#: ../../source/genericobject/index.rst:286
 msgid "table : ``glpi_plugin_genericobject_<itemtypename>_category``"
 msgstr "tablo : ``glpi_plugin_genericobject_<itemtypename>_category``"
 
-#: ../../source/genericobject/index.rst:276
+#: ../../source/genericobject/index.rst:287
 msgid "field name : ``plugin_genericobject_<itemtype>categories_id``"
 msgstr "alan adı : ``plugin_genericobject_<itemtype>categories_id``"
 
-#: ../../source/genericobject/index.rst:279
+#: ../../source/genericobject/index.rst:290
 msgid "Add an integer field"
 msgstr "Bir tamsayı alanı eklemek"
 
-#: ../../source/genericobject/index.rst:291
+#: ../../source/genericobject/index.rst:302
 msgid "Add a text field"
 msgstr "Bir metin alanı eklemek"
 
-#: ../../source/genericobject/index.rst:301
+#: ../../source/genericobject/index.rst:312
 msgid ""
 "By adding the following argument, you can tell the plugin that this field "
 "can be automatically generated when using a template:"
@@ -641,19 +665,19 @@ msgstr ""
 "Şu argümanı ekleyerek, uygulama ekine bir kalıpta kullanıldığında bu alanın "
 "otomatik olarak üretileceğini söylemiş olursunuz:"
 
-#: ../../source/genericobject/index.rst:309
+#: ../../source/genericobject/index.rst:320
 msgid "Add a Yes/No field"
 msgstr "Bir Evet/Hayır alanı eklemek"
 
-#: ../../source/genericobject/index.rst:318
+#: ../../source/genericobject/index.rst:329
 msgid "Add a date field"
 msgstr "Bir tarih alanı eklemek"
 
-#: ../../source/genericobject/index.rst:327
+#: ../../source/genericobject/index.rst:338
 msgid "Add a date & time field"
 msgstr "Bir tarih ve saat alanı eklemek"
 
-#: ../../source/genericobject/index.rst:337
+#: ../../source/genericobject/index.rst:348
 msgid ""
 "If you don't want a field to be modified using massive actions, add the "
 "following line to its definition:"
@@ -661,15 +685,15 @@ msgstr ""
 "Bir alanın toplu işlemlerden etkilenmesini istemiyorsanız tanımına şu satırı"
 " ekleyin:"
 
-#: ../../source/genericobject/index.rst:345
+#: ../../source/genericobject/index.rst:356
 msgid "Add global fields"
 msgstr "Genel alanlar eklemek"
 
-#: ../../source/genericobject/index.rst:347
+#: ../../source/genericobject/index.rst:358
 msgid "To make your fields accessible to all itemtypes:"
 msgstr "Alanlarınızın tüm öge türleri tarafından kullanılabilmesi için:"
 
-#: ../../source/genericobject/index.rst:349
+#: ../../source/genericobject/index.rst:360
 msgid ""
 "Create a file named "
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/field.constant.php``"
@@ -677,15 +701,15 @@ msgstr ""
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/field.constant.php`` "
 "adında bir dosya oluşturun"
 
-#: ../../source/genericobject/index.rst:350
+#: ../../source/genericobject/index.rst:361
 msgid "Put your definitions in this file."
 msgstr "Tanımlarınızı bu dosya içine ekleyin."
 
-#: ../../source/genericobject/index.rst:353
+#: ../../source/genericobject/index.rst:364
 msgid "Setup Rights"
 msgstr "Kurulum izinleri"
 
-#: ../../source/genericobject/index.rst:355
+#: ../../source/genericobject/index.rst:366
 msgid ""
 "You can define access rights for each object's type, for each profile. "
 "Available options are:"
@@ -693,24 +717,24 @@ msgstr ""
 "Her profil için her bir nesne türüne göre erişim izinleri tanımlanabilir. Şu"
 " seçenekler kullanılabilir:"
 
-#: ../../source/genericobject/index.rst:357
+#: ../../source/genericobject/index.rst:368
 msgid "*right on the type*: *no access*, *read*, *write*."
 msgstr "*Tür izni*: *Erişilemez*, *Okuma*, *Yazma*."
 
-#: ../../source/genericobject/index.rst:358
+#: ../../source/genericobject/index.rst:369
 msgid "*right to associate this type of object to tickets*: *yes*, *no*."
 msgstr ""
 "*Bu nesne türünü destek kayıtları ile ilişkilendirme izni*: *Evet*, *Hayır*"
 
-#: ../../source/genericobject/index.rst:360
+#: ../../source/genericobject/index.rst:371
 msgid "To associate the rights you can either:"
 msgstr "İzinleri atamak için şunları yapabilirsiniz:"
 
-#: ../../source/genericobject/index.rst:362
+#: ../../source/genericobject/index.rst:373
 msgid "Use the *Rights* tab in the *itemtype* form."
 msgstr "*Öge türü* formundaki *İzinler* sekmesini kullanın."
 
-#: ../../source/genericobject/index.rst:363
+#: ../../source/genericobject/index.rst:374
 msgid ""
 "Navigate to *Administration > Profiles* and administer the rights for each "
 "profile."
@@ -718,15 +742,15 @@ msgstr ""
 "*Yönetim > Profiller* bölümüne gidin ve her bir profil için izinleri "
 "ayarlayın."
 
-#: ../../source/genericobject/index.rst:366
+#: ../../source/genericobject/index.rst:377
 msgid "Use the new field"
 msgstr "Yeni alanı kullanmak"
 
-#: ../../source/genericobject/index.rst:368
+#: ../../source/genericobject/index.rst:379
 msgid "Activate the new type, it's now ready to be used."
 msgstr "Yeni türü etkinleştirin ve kullanmaya başlayın."
 
-#: ../../source/genericobject/index.rst:370
+#: ../../source/genericobject/index.rst:381
 msgid ""
 "The new type is available for users in the *Plugins > Objects management* "
 "menu."
@@ -734,15 +758,15 @@ msgstr ""
 "Kullanıcılar yeni türü *Uygulama ekleri > Nesne yönetimi* menüsünden "
 "kullanabilir."
 
-#: ../../source/genericobject/index.rst:373
+#: ../../source/genericobject/index.rst:384
 msgid "Use case of Generic Object as a CMMS"
 msgstr "Genel nesle ile BDBYS kullanım örneği"
 
-#: ../../source/genericobject/index.rst:376
+#: ../../source/genericobject/index.rst:387
 msgid "Purpose of this documentation"
 msgstr "Bu belgenin amacı"
 
-#: ../../source/genericobject/index.rst:378
+#: ../../source/genericobject/index.rst:389
 msgid ""
 "Showing a complete usage of Generic Object as a CMMS (Computerized "
 "Maintenance Management System) in biomedical environment."
@@ -750,37 +774,37 @@ msgstr ""
 "Biyotıp alanında Genel nesne ile BDBYS (bilgisayar destekli bakım yönetimi "
 "sistemi) kullanımını açıklar."
 
-#: ../../source/genericobject/index.rst:381
+#: ../../source/genericobject/index.rst:392
 msgid "At the end of this use case, you will have :"
 msgstr "Bu kullanım örneğinin sonunda şunları yapmış olacaksınız :"
 
-#: ../../source/genericobject/index.rst:383
+#: ../../source/genericobject/index.rst:394
 msgid "a dedicated *Biomed* entity (under *Root entity*)"
 msgstr "Adanmış bir *Biyotıp* varlığı (\"Kök varlık\" altında)"
 
-#: ../../source/genericobject/index.rst:384
+#: ../../source/genericobject/index.rst:395
 msgid "containing *Biomedical* objects (in *Assets* menu)"
 msgstr "*Biyotıp* nesneleri (*Varlıklar* menüsü altında)"
 
-#: ../../source/genericobject/index.rst:385
+#: ../../source/genericobject/index.rst:396
 msgid "with built-in and user-defined fields"
 msgstr "İç ve kullanıcı tanımlı alanlar ile"
 
-#: ../../source/genericobject/index.rst:386
+#: ../../source/genericobject/index.rst:397
 msgid "manages by users with *Admin_biomed* profile"
 msgstr "*Biyotıp_Yönetici* profilindeki yönetici kullanıcıları"
 
-#: ../../source/genericobject/index.rst:389
+#: ../../source/genericobject/index.rst:400
 msgid "Steps"
 msgstr "Adımlar"
 
-#: ../../source/genericobject/index.rst:391
+#: ../../source/genericobject/index.rst:402
 msgid "Following steps assume you have a Super-Admin authorization :"
 msgstr ""
 "Bundan sonraki adımları yapabilmek için Süper Yönetici yetkileriniz "
 "olmalıdır :"
 
-#: ../../source/genericobject/index.rst:393
+#: ../../source/genericobject/index.rst:404
 msgid ""
 "Installing Generic Object on GLPI (validated with genericobject >= 0.85-1.0 "
 "and GLPI >= 0.90)"
@@ -788,34 +812,34 @@ msgstr ""
 "GLPI üzerine Genel nesne uygulama ekini yükleyin (Generic Object 0.85 ile "
 "1.0 arasındaki sürümler ve GLPI 0.90 ve üzerindeki sürümler gereklidir)"
 
-#: ../../source/genericobject/index.rst:394
-#: ../../source/genericobject/index.rst:404
+#: ../../source/genericobject/index.rst:405
+#: ../../source/genericobject/index.rst:415
 msgid "Generic Object configuration"
 msgstr "Genel nesne yapılandırması"
 
-#: ../../source/genericobject/index.rst:395
-#: ../../source/genericobject/index.rst:530
+#: ../../source/genericobject/index.rst:406
+#: ../../source/genericobject/index.rst:541
 msgid "GLPI configuration"
 msgstr "GLPI yapılandırması"
 
-#: ../../source/genericobject/index.rst:396
-#: ../../source/genericobject/index.rst:555
+#: ../../source/genericobject/index.rst:407
+#: ../../source/genericobject/index.rst:566
 msgid "Start using Generic Object and GLPI"
 msgstr "Genel nesne ve GLPI kullanmaya başlayın"
 
-#: ../../source/genericobject/index.rst:399
+#: ../../source/genericobject/index.rst:410
 msgid "Installing Generic Object on GLPI"
 msgstr "GLPI üzerine Genel nesne uygulama ekini kurmak"
 
-#: ../../source/genericobject/index.rst:401
+#: ../../source/genericobject/index.rst:412
 msgid "See :ref:`install_plugin` section."
 msgstr "ref:`install_plugin` bölümüne bakın."
 
-#: ../../source/genericobject/index.rst:407
+#: ../../source/genericobject/index.rst:418
 msgid "Create your type of object"
 msgstr "Nesne türünüzü ekleyin"
 
-#: ../../source/genericobject/index.rst:409
+#: ../../source/genericobject/index.rst:420
 msgid ""
 "See :ref:`create_new_object` section and use *biomedical* as internal "
 "identifier. Label will be set automatically to *Biomedical* (with an "
@@ -824,21 +848,21 @@ msgstr ""
 ":ref:`create_new_object` bölümüne bakın ve iç belirteç olarak *biyotıp* "
 "yazın. Etiket otomatik olarak *Biyotıp* (Büyük *B* ile) olarak ayarlanır."
 
-#: ../../source/genericobject/index.rst:412
+#: ../../source/genericobject/index.rst:423
 msgid "After a logoff/login, you will see *Biomedical* menu in Assets."
 msgstr ""
 "Oturumu kapatıp yeniden açtıktan sonra Varlıklar menüsünde *Biyotıp* "
 "görüntülenir."
 
-#: ../../source/genericobject/index.rst:417
+#: ../../source/genericobject/index.rst:428
 msgid "Define Biomedical's new fields"
 msgstr "Biyotıp için yeni alanları tanımlayın"
 
-#: ../../source/genericobject/index.rst:419
+#: ../../source/genericobject/index.rst:430
 msgid "These fields will be usable only by Biomedical's objects :"
 msgstr "Bu alanlar yalnız Biyotıp nesneleri için kullanılabilir :"
 
-#: ../../source/genericobject/index.rst:421
+#: ../../source/genericobject/index.rst:432
 msgid ""
 "Create a new file named : "
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/biomedical.constant.php``"
@@ -846,11 +870,11 @@ msgstr ""
 "Şu adla yeni bir dosya oluşturun : "
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/biomedical.constant.php``"
 
-#: ../../source/genericobject/index.rst:422
+#: ../../source/genericobject/index.rst:433
 msgid "Add following content :"
 msgstr "Şu içeriği ekleyin :"
 
-#: ../../source/genericobject/index.rst:476
+#: ../../source/genericobject/index.rst:487
 msgid ""
 "Trailing ``s_id`` is mandatory in ``[plugin_genericobject_field*s_id*]`` "
 "because the GLPI framework requires foreign key fields to end with ``s_id``."
@@ -866,15 +890,15 @@ msgstr ""
 "documentation.readthedocs.io/en/master/devapi/database/dbmodel.html#fields>`_"
 " bölümüne bakın."
 
-#: ../../source/genericobject/index.rst:482
+#: ../../source/genericobject/index.rst:493
 msgid "Define fields labels"
 msgstr "Alan etiketlerini yazın"
 
-#: ../../source/genericobject/index.rst:484
+#: ../../source/genericobject/index.rst:495
 msgid "See :ref:`edit_labels` section."
 msgstr "ref:`edit_labels` bölümüne bakın."
 
-#: ../../source/genericobject/index.rst:486
+#: ../../source/genericobject/index.rst:497
 msgid ""
 "Edit your locales file, for example : "
 "``<GLPI_ROOT>/files/_plugins/genericobject/locales/biomedical/biomedical.fr_FR.php``"
@@ -882,62 +906,62 @@ msgstr ""
 "Dil dosyalarınızı düzenleyin, örnek : "
 "``<GLPI_ROOT>/files/_plugins/genericobject/locales/biyotip/biyotip.tr_TR.php``"
 
-#: ../../source/genericobject/index.rst:487
+#: ../../source/genericobject/index.rst:498
 msgid "Add following content at the end of file :"
 msgstr "Dosyanın sonuna şu içeriği ekleyin :"
 
-#: ../../source/genericobject/index.rst:504
+#: ../../source/genericobject/index.rst:515
 msgid "Define behaviours"
 msgstr "Davranışları tanımlayın"
 
-#: ../../source/genericobject/index.rst:506
+#: ../../source/genericobject/index.rst:517
 msgid "In *Plugins > Objects management* menu, on *Main* tab, select :"
 msgstr ""
 "*Uygulama ekleri > Nesne yönetimi* menüsündeki *Temel* sekmesinden şunu "
 "seçin :"
 
-#: ../../source/genericobject/index.rst:508
+#: ../../source/genericobject/index.rst:519
 msgid "*Item in the dustbin*"
 msgstr "*Öge çöp kutusunda*"
 
-#: ../../source/genericobject/index.rst:509
+#: ../../source/genericobject/index.rst:520
 msgid "*Historical*"
 msgstr "*Geçmiş*"
 
-#: ../../source/genericobject/index.rst:510
+#: ../../source/genericobject/index.rst:521
 msgid "*Financial and administratives information*"
 msgstr "*Mali ve idari bilgiler*"
 
-#: ../../source/genericobject/index.rst:511
+#: ../../source/genericobject/index.rst:522
 msgid "*Documents*"
 msgstr "*Belgeler*"
 
-#: ../../source/genericobject/index.rst:512
-#: ../../source/genericobject/index.rst:516
+#: ../../source/genericobject/index.rst:523
+#: ../../source/genericobject/index.rst:527
 msgid "*Global search*"
 msgstr "*Genel arama*"
 
-#: ../../source/genericobject/index.rst:513
+#: ../../source/genericobject/index.rst:524
 msgid "*Assistance*"
 msgstr "*Destek*"
 
-#: ../../source/genericobject/index.rst:514
+#: ../../source/genericobject/index.rst:525
 msgid "*Templates*"
 msgstr "*Kalıplar*"
 
-#: ../../source/genericobject/index.rst:515
+#: ../../source/genericobject/index.rst:526
 msgid "*Contracts*"
 msgstr "*Sözleşmeler*"
 
-#: ../../source/genericobject/index.rst:518
+#: ../../source/genericobject/index.rst:529
 msgid "This will add ready to use fields to your type of object."
 msgstr "Bu işlem nesne türünüze kullanmaya hazır alanlar ekler."
 
-#: ../../source/genericobject/index.rst:521
+#: ../../source/genericobject/index.rst:532
 msgid "Add fields to your type of object"
 msgstr "Nesne türünüze alanlar ekleyin"
 
-#: ../../source/genericobject/index.rst:523
+#: ../../source/genericobject/index.rst:534
 msgid ""
 "In *Plugins > Objects management* menu, on *Fields* tab, you can now add "
 "fields to Biomedical type of object :"
@@ -945,32 +969,32 @@ msgstr ""
 "*Uygulama ekleri > Nesne yönetimi* menüsündeki *Alanlar* sekmesinden Biyotıp"
 " türündeki nesneye alanlar ekleyebilirsiniz :"
 
-#: ../../source/genericobject/index.rst:526
+#: ../../source/genericobject/index.rst:537
 msgid "ready to use fields (GLPI's built-in fields)"
 msgstr "Kullanıma hazır alanlar (GLPI iç alanları)"
 
-#: ../../source/genericobject/index.rst:527
+#: ../../source/genericobject/index.rst:538
 msgid "new fields (defined in :ref:`biomedical_new_fields` section)"
 msgstr "Yeni alanlar (:ref:`biomedical_new_fields` bölümünde)"
 
-#: ../../source/genericobject/index.rst:533
+#: ../../source/genericobject/index.rst:544
 msgid "Define Admin_biomed profile"
 msgstr "Biyotıp_Yönetim profilini tanımlayın"
 
-#: ../../source/genericobject/index.rst:535
+#: ../../source/genericobject/index.rst:546
 msgid "Clone *Admin* profile"
 msgstr "*Yönetim* profilini kopyalayın"
 
-#: ../../source/genericobject/index.rst:536
+#: ../../source/genericobject/index.rst:547
 msgid "Set following rights in *Admin_biomed* profile :"
 msgstr "*Biyotıp-Yönetim* profili için şu izinleri ayarlayın :"
 
-#: ../../source/genericobject/index.rst:538
+#: ../../source/genericobject/index.rst:549
 msgid "*Administration > Profiles > Admin_biomed > Assets tab > Unselect all*"
 msgstr ""
 "*Yönetim > Profiller > Yönetim_Biyotıp > Varlıklar sekmesi > Tümünü bırak*"
 
-#: ../../source/genericobject/index.rst:539
+#: ../../source/genericobject/index.rst:550
 msgid ""
 "*Administration > Profiles > Admin_biomed > Assistance tab > Association > "
 "Associable items to a ticket > Biomedical*"
@@ -978,13 +1002,13 @@ msgstr ""
 "*Yönetim > Profiller > Yönetim_Biyotıp > Varlıklar sekmesi > Atama > Destek "
 "kaydına atanabilecek ögeler > Biyotıp*"
 
-#: ../../source/genericobject/index.rst:540
+#: ../../source/genericobject/index.rst:551
 msgid ""
 "*Administration > Profiles > Admin_biomed > Management tab > Select all*"
 msgstr ""
 "*Yönetim > Profiller > Yönetim_Biyotıp > Yönetim sekmesi > Tümünü seç*"
 
-#: ../../source/genericobject/index.rst:541
+#: ../../source/genericobject/index.rst:552
 msgid ""
 "*Administration > Profiles > Admin_biomed > Objects management tab > "
 "Biomedical > Select all*"
@@ -992,7 +1016,7 @@ msgstr ""
 "*Yönetim > Profiller > Yönetim_Biyotıp > Nesne yönetimi sekmesi > Biyotıp > "
 "Tümünü seç*"
 
-#: ../../source/genericobject/index.rst:545
+#: ../../source/genericobject/index.rst:556
 msgid ""
 "With these settings, *Admin_biomed* users only see *Biomedical* in Assets "
 "menu."
@@ -1000,18 +1024,18 @@ msgstr ""
 "Bu ayarlar ile *Yönetim_Biyotıp* kullanıcıları Varlık menüsünde yalnız "
 "*Biyotıp* seçeneğini görebilir."
 
-#: ../../source/genericobject/index.rst:548
+#: ../../source/genericobject/index.rst:559
 msgid "Define Biomed entity and authorizations rules"
 msgstr "Biyotıp varlığını ve izinlerini tanımlayın"
 
-#: ../../source/genericobject/index.rst:550
+#: ../../source/genericobject/index.rst:561
 msgid ""
 "Create *Biomed* entity under *Root entity* in *Administration > Entities*"
 msgstr ""
 "\"Yönetim > Valıklar* bölümünden *Kök varlık* altına *Biyotıp* varlığını "
 "ekleyin"
 
-#: ../../source/genericobject/index.rst:551
+#: ../../source/genericobject/index.rst:562
 msgid ""
 "Configure authorizations rules to assign *Admin_biomed* profile to *Biomed* "
 "entity users."
@@ -1019,7 +1043,7 @@ msgstr ""
 "*Biyotıp* varlığı kullanıcıları için *Biyotıp_Yönetim* profili izin "
 "kurallarını yapılandırın."
 
-#: ../../source/genericobject/index.rst:557
+#: ../../source/genericobject/index.rst:568
 msgid ""
 "As *Admin_biomed* user, you can create your first object in *Assets > "
 "Biomedical*."
@@ -1027,7 +1051,7 @@ msgstr ""
 "*Yönetim_Biyotıp* kullanıcısı olarak *Varlıklar > Biyotıp* içine ilk "
 "nesnenizi ekleyin."
 
-#: ../../source/genericobject/index.rst:559
+#: ../../source/genericobject/index.rst:570
 msgid ""
 "In order to gain time, define values in *Setup > Dropdowns > Objects "
 "management* for new fields."
@@ -1035,10 +1059,20 @@ msgstr ""
 "Zaman kazanmak için *Kurulum > Açılan kutular > Nesne yönetimi* bölümünden "
 "yeni alan değerlerini tanımlayın."
 
+#: ../../source/genericobject/index.rst:573
+msgid "FAQ"
+msgstr ""
+
+#: ../../source/genericobject/index.rst:575
+msgid ""
+"If you have any questions about using the plugin, please consult `our FAQ "
+"<https://faq.teclib.com/04_Plugins/Generic_objects/>`_"
+msgstr ""
+
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Creative Commons Lisansı"

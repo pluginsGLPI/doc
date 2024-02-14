@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# 조성현 (jaymz9634) <jaymz9634@gmail.com>, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 16:17+0100\n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
 "PO-Revision-Date: 2024-01-26 14:56+0000\n"
+"Last-Translator: 조성현 (jaymz9634) <jaymz9634@gmail.com>, 2024\n"
 "Language-Team: Korean (Korea) (https://app.transifex.com/teclib/teams/28042/ko_KR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,168 +23,212 @@ msgstr ""
 
 #: ../../source/advanceddashboard/index.rst:2
 msgid "Advanced dashboards"
-msgstr ""
+msgstr "고급 대시보드"
 
-#: ../../source/advanceddashboard/index.rst-1
 #: ../../source/advanceddashboard/index.rst:5
-msgid "Install the plugin"
+msgid "Requirements (on-premise)"
 msgstr ""
 
 #: ../../source/advanceddashboard/index.rst:8
-msgid ""
-"A `standard license <https://services.glpi-network.com/#offers>`__ (or "
-"higher) is required. This plugin is also available from the `Cloud "
-"<https://glpi-network.cloud/>`__."
+msgid "GLPI Version"
+msgstr ""
+
+#: ../../source/advanceddashboard/index.rst:8
+msgid "Minimum PHP"
+msgstr ""
+
+#: ../../source/advanceddashboard/index.rst:8
+msgid "Recommended"
 msgstr ""
 
 #: ../../source/advanceddashboard/index.rst:10
+msgid "10.0.x"
+msgstr ""
+
+#: ../../source/advanceddashboard/index.rst:10
+msgid "8.1"
+msgstr ""
+
+#: ../../source/advanceddashboard/index.rst:10
+msgid "8.2"
+msgstr ""
+
+#: ../../source/advanceddashboard/index.rst:14
+msgid ""
+"A `standard licence <https://services.glpi-network.com/#offers>`_ (or "
+"higher) is required. This plugin is also available from the `Cloud "
+"<https://glpi-network.cloud/fr/>`__."
+msgstr ""
+
+#: ../../source/advanceddashboard/index.rst-1
+#: ../../source/advanceddashboard/index.rst:17
+msgid "Install the plugin"
+msgstr "플러그인 설치"
+
+#: ../../source/advanceddashboard/index.rst:19
 msgid ""
 "Go to the marketplace. Download and install the “**Advanced dashboard**” "
 "plugin."
-msgstr ""
+msgstr "마켓플레이스로 이동하세요. 플러그인 “**Advanced dashboard**” 을 내려받고 설치하세요."
 
-#: ../../source/advanceddashboard/index.rst:16
+#: ../../source/advanceddashboard/index.rst:26
 msgid "Setup the plugin"
-msgstr ""
+msgstr "플러그인 설정"
 
-#: ../../source/advanceddashboard/index.rst:20
+#: ../../source/advanceddashboard/index.rst:30
 msgid ""
 "This plugin requires **a minimum knowledge of SQL** in order to be able to "
 "set certain criteria for the various queries that will appear in the "
 "dashboards. It is also recommended that you **know the structure of GLPI "
 "tables**."
 msgstr ""
+"이 플러그인을 사용하려면 대시보드에 표시되는 다양한 질의어들에 대한 특정 기준을 설정할 수 있도록 **SQL에 대한 최소한의 지식**이 "
+"필요합니다. **GLPI 테이블의 구조를 아는 것**도 권장됩니다."
 
-#: ../../source/advanceddashboard/index.rst:23
+#: ../../source/advanceddashboard/index.rst:33
 msgid "Create an SQL query"
-msgstr ""
+msgstr "SQL 질의어 생성"
 
-#: ../../source/advanceddashboard/index.rst:25
+#: ../../source/advanceddashboard/index.rst:35
 msgid ""
 "The below example gives us the number of tickets on the root entity over the"
 " last 2 years:"
-msgstr ""
+msgstr "다음 예제는 지난 2년간 루트 요소에서의 티켓 갯수를 제공합니다:"
 
-#: ../../source/advanceddashboard/index.rst:72
+#: ../../source/advanceddashboard/index.rst:82
 msgid "Setting query-related parameters"
-msgstr ""
+msgstr "질의어-관련 매개변수 설정"
 
-#: ../../source/advanceddashboard/index.rst:74
+#: ../../source/advanceddashboard/index.rst:84
 msgid "From **tools** > **SQL for dashboards**, click on **add**"
-msgstr ""
+msgstr "**도구** > **대시보드용 SQL**에서, **추가**를 클릭합니다."
 
-#: ../../source/advanceddashboard/index.rst:75
+#: ../../source/advanceddashboard/index.rst:85
 msgid ""
 "Name your query (the one that will be visible from the dashboards) and "
 "identify it as **active**."
-msgstr ""
+msgstr "(대시보드에 표시 될) 질의어 이름을 지정하고 **활성**으로 식별합니다."
 
-#: ../../source/advanceddashboard/index.rst:76
+#: ../../source/advanceddashboard/index.rst:86
 msgid ""
 "In the SQL Editor tab, paste the above query, taking care to change the name"
 " of the entity if you have changed it."
-msgstr ""
+msgstr "SQL 편집기 탭에서, 위 질의어를 붙여넣고, 요소 이름을 변경한다면 변경에 주의하세요."
 
-#: ../../source/advanceddashboard/index.rst:77
+#: ../../source/advanceddashboard/index.rst:87
 msgid ""
 "Click on the floppy icon to save the query and then on play icon to run the "
 "query."
-msgstr ""
+msgstr "질의어를 저장하려면 플로피 아이콘을 클릭하고 실행 아이콘을 클릭하여 질의어를 실행합니다."
 
 #: ../../source/advanceddashboard/index.rst-1
 msgid "SQL editor"
-msgstr ""
+msgstr "SQL 편집기"
 
-#: ../../source/advanceddashboard/index.rst:83
+#: ../../source/advanceddashboard/index.rst:95
 msgid "An insert at the bottom will display the result of the query:"
-msgstr ""
+msgstr "하단에 삽입하면 쿼리 결과가 표시됩니다:"
 
 #: ../../source/advanceddashboard/index.rst-1
 msgid "preview result"
-msgstr ""
+msgstr "결과 미리보기"
 
-#: ../../source/advanceddashboard/index.rst:89
+#: ../../source/advanceddashboard/index.rst:103
 msgid ""
 "In the **set up fields** tab, define the label, the number and the main "
 "label (optional, this is the name your table will have). In our case, *the "
 "label will be \"year\"*, *the number will be \"number of tickets\"* and the "
 "*main label will be \"\"number of tickets per year\"*."
 msgstr ""
+"**필드 설정** 탭에서 라벨, 번호 및 기본 라벨을 정의합니다(선택 사항, 이는 테이블의 이름입니다). 이 경우 *라벨은 "
+"\"연도\"*, *숫자는 \"티켓 수\"*, *메인 라벨은 \"\"연간 티켓 수\"*가 됩니다."
 
-#: ../../source/advanceddashboard/index.rst:90
+#: ../../source/advanceddashboard/index.rst:104
 msgid ""
 "Select the type of graph (this is for information purposes only, so that you"
 " can preview your table; you will be asked to select the type of graph you "
 "want to appear in the tile later),"
 msgstr ""
+"그래프 유형을 선택합니다(이는 정보 제공 목적으로만 제공되므로, 테이블을 미리 볼 수 있습니다; 나중에 타일에 표시할 그래프 유형을 "
+"선택하라는 메시지가 표시됩니다),"
 
-#: ../../source/advanceddashboard/index.rst:91
+#: ../../source/advanceddashboard/index.rst:105
 msgid "You can limit the amount of data to be displayed."
-msgstr ""
+msgstr "표시될 데이터의 양을 제한할 수 있습니다."
 
-#: ../../source/advanceddashboard/index.rst:92
+#: ../../source/advanceddashboard/index.rst:106
 msgid "Then click on **Save fields and preview**."
-msgstr ""
+msgstr "그리고 **항목 저장 및 미리보기**를 클릭하세요."
 
 #: ../../source/advanceddashboard/index.rst-1
 msgid "card setup"
-msgstr ""
+msgstr "카드 설정"
 
-#: ../../source/advanceddashboard/index.rst:98
+#: ../../source/advanceddashboard/index.rst:114
 msgid "Dashboard settings"
-msgstr ""
+msgstr "대시보드 설정"
 
-#: ../../source/advanceddashboard/index.rst:100
+#: ../../source/advanceddashboard/index.rst:116
 msgid ""
 "From **Assistance** > **Dashboard**, select the dashboard that is to receive"
 " the new tile"
-msgstr ""
+msgstr "**지원** > **대시보드**에서, 새 타일을 받을 대시보드를 선택하세요"
 
-#: ../../source/advanceddashboard/index.rst:101
+#: ../../source/advanceddashboard/index.rst:117
 msgid "Click on edit icon"
-msgstr ""
+msgstr "편집 아이콘을 클릭하세요"
 
-#: ../../source/advanceddashboard/index.rst:102
+#: ../../source/advanceddashboard/index.rst:118
 msgid "Add a new tile with plus icon"
-msgstr ""
+msgstr "더하기 아이콘으로 새 타일 추가하세요"
 
-#: ../../source/advanceddashboard/index.rst:103
+#: ../../source/advanceddashboard/index.rst:119
 msgid "Select the query you have just created"
-msgstr ""
+msgstr "당신이 방금 생성한 질의어를 선택하세요"
 
-#: ../../source/advanceddashboard/index.rst:104
+#: ../../source/advanceddashboard/index.rst:120
 msgid "Choose a colour for your tile"
-msgstr ""
+msgstr "타일 색상을 선택하세요"
 
 #: ../../source/advanceddashboard/index.rst-1
 msgid "more card setup"
-msgstr ""
+msgstr "추가 카드 설정"
 
-#: ../../source/advanceddashboard/index.rst:110
+#: ../../source/advanceddashboard/index.rst:128
 msgid "You will then be asked to select the chart type"
-msgstr ""
+msgstr "그러면 차트 유형을 선택하라고 표시됩니다"
 
-#: ../../source/advanceddashboard/index.rst:111
+#: ../../source/advanceddashboard/index.rst:129
 msgid ""
 "Some dashboards may ask you to use colours and display values and labels."
-msgstr ""
+msgstr "일부 대시보드에서는 색상 사용 및 값과 라벨 표시에 대해서 물어볼 수도 있습니다."
 
 #: ../../source/advanceddashboard/index.rst-1
 msgid "label setup"
-msgstr ""
+msgstr "라벨 설정"
 
-#: ../../source/advanceddashboard/index.rst:117
+#: ../../source/advanceddashboard/index.rst:137
 msgid "Your tile is now ready"
-msgstr ""
+msgstr "이제 타일이 준비되었습니다"
 
 #: ../../source/advanceddashboard/index.rst-1
 msgid "the card is ready"
+msgstr "카드가 준비되었습니다"
+
+#: ../../source/advanceddashboard/index.rst:145
+msgid "FAQ"
+msgstr ""
+
+#: ../../source/advanceddashboard/index.rst:147
+msgid ""
+"If you have any questions about using the plugin, please consult `our FAQ "
+"<https://faq.teclib.com/04_Plugins/Advanced_dashboard/>`_"
 msgstr ""
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "저작물사용 허가표시"

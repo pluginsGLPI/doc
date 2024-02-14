@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 16:17+0100\n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
 "PO-Revision-Date: 2016-12-20 09:45+0000\n"
 "Language-Team: Japanese (Japan) (https://app.transifex.com/teclib/teams/28042/ja_JP/)\n"
 "MIME-Version: 1.0\n"
@@ -21,15 +21,23 @@ msgstr ""
 msgid "Form creator"
 msgstr ""
 
-#: ../../source/formcreator/index.rst:4
-msgid "Sources link: https://github.com/pluginsGLPI/formcreator"
-msgstr ""
-
-#: ../../source/formcreator/index.rst:5
-msgid "Download: https://github.com/pluginsGLPI/formcreator/releases"
-msgstr ""
-
 #: ../../source/formcreator/index.rst:7
+msgid "Download"
+msgstr ""
+
+#: ../../source/formcreator/index.rst:8
+msgid "Sources"
+msgstr ""
+
+#: ../../source/formcreator/index.rst:9
+msgid "`<https://github.com/pluginsGLPI/formcreator/releases>`_"
+msgstr ""
+
+#: ../../source/formcreator/index.rst:10
+msgid "`<https://github.com/pluginsGLPI/formcreator>`_"
+msgstr ""
+
+#: ../../source/formcreator/index.rst:12
 msgid ""
 "FormCreator is a plugin which allow creation of custom forms of easy access."
 msgstr ""

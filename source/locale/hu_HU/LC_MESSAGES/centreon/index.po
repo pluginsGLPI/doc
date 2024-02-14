@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 16:17+0100\n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
 "PO-Revision-Date: 2024-01-26 14:56+0000\n"
 "Language-Team: Hungarian (Hungary) (https://app.transifex.com/teclib/teams/28042/hu_HU/)\n"
 "MIME-Version: 1.0\n"
@@ -21,27 +21,61 @@ msgstr ""
 msgid "Centreon"
 msgstr ""
 
-#: ../../source/centreon/index.rst:5
-msgid "Sources link: `<https://github.com/pluginsGLPI/centreon>`_"
+#: ../../source/centreon/index.rst:7
+msgid "Download"
 msgstr ""
 
-#: ../../source/centreon/index.rst:6
-msgid "Download: `<https://github.com/pluginsGLPI/centreon/releases>`_"
+#: ../../source/centreon/index.rst:8
+msgid "Sources"
 msgstr ""
 
 #: ../../source/centreon/index.rst:9
-msgid "Requirements"
+msgid "`<https://github.com/pluginsGLPI/centreon/releases>`_"
 msgstr ""
 
-#: ../../source/centreon/index.rst:11
-msgid "PHP >= 7.4.0 GLPI >= 10.0.0"
+#: ../../source/centreon/index.rst:10
+msgid "`<https://github.com/pluginsGLPI/centreon>`_"
 msgstr ""
 
-#: ../../source/centreon/index.rst:15
+#: ../../source/centreon/index.rst:13
+msgid "Requirements (on-premise)"
+msgstr ""
+
+#: ../../source/centreon/index.rst:16
+msgid "GLPI Version"
+msgstr ""
+
+#: ../../source/centreon/index.rst:16
+msgid "Minimum PHP"
+msgstr ""
+
+#: ../../source/centreon/index.rst:16
+msgid "Recommended"
+msgstr ""
+
+#: ../../source/centreon/index.rst:18
+msgid "10.0.x"
+msgstr ""
+
+#: ../../source/centreon/index.rst:18
+msgid "8.1"
+msgstr ""
+
+#: ../../source/centreon/index.rst:18
+msgid "8.2"
+msgstr ""
+
+#: ../../source/centreon/index.rst:22
+msgid ""
+"This plugin is available without a GLPI-Network subscription. It is also "
+"available in `Cloud <https://glpi-network.cloud/>`_"
+msgstr ""
+
+#: ../../source/centreon/index.rst:26
 msgid "Features"
 msgstr ""
 
-#: ../../source/centreon/index.rst:17
+#: ../../source/centreon/index.rst:28
 msgid ""
 "Centreon is a network, system, applicative supervision and monitoring tool. "
 "Centreon plugin allows you to see general information about hosts and their "
@@ -49,68 +83,68 @@ msgid ""
 "Centreon."
 msgstr ""
 
-#: ../../source/centreon/index.rst:21
+#: ../../source/centreon/index.rst:32
 msgid "You can perform 3 main actions :"
 msgstr ""
 
-#: ../../source/centreon/index.rst:23
+#: ../../source/centreon/index.rst:34
 msgid "Acknowledge a problem"
 msgstr ""
 
-#: ../../source/centreon/index.rst:24
+#: ../../source/centreon/index.rst:35
 msgid "Schedule a downtime"
 msgstr ""
 
-#: ../../source/centreon/index.rst:25
+#: ../../source/centreon/index.rst:36
 msgid "Trigger a host check,"
 msgstr ""
 
-#: ../../source/centreon/index.rst:27
+#: ../../source/centreon/index.rst:38
 msgid "and you can also see the timeline of the host."
 msgstr ""
 
-#: ../../source/centreon/index.rst:30
+#: ../../source/centreon/index.rst:41
 msgid "Installation"
 msgstr ""
 
-#: ../../source/centreon/index.rst:32
+#: ../../source/centreon/index.rst:43
 msgid "Uncompress the archive"
 msgstr ""
 
-#: ../../source/centreon/index.rst:33
+#: ../../source/centreon/index.rst:44
 msgid "Move the ``centreon`` folder to ``<GLPI_ROOT>/plugins`` directory"
 msgstr ""
 
-#: ../../source/centreon/index.rst:34
+#: ../../source/centreon/index.rst:45
 msgid "Navigate to the **Configuration > Plugins** page,"
 msgstr ""
 
-#: ../../source/centreon/index.rst:35
+#: ../../source/centreon/index.rst:46
 msgid "Install and activate the plugin."
 msgstr ""
 
-#: ../../source/centreon/index.rst:38
+#: ../../source/centreon/index.rst:49
 msgid "Usage"
 msgstr ""
 
-#: ../../source/centreon/index.rst:40
+#: ../../source/centreon/index.rst:51
 msgid ""
 "You need to configure the plugin before using it. To do so, go to the "
 "**Setup > Plugins > Centreon** page. You will need to fill the following "
 "fields :"
 msgstr ""
 
-#: ../../source/centreon/index.rst:43
+#: ../../source/centreon/index.rst:54
 msgid ""
 "**Centreon URL** : The URL of your Centreon interface, following by the "
 "number of the port, and the API version to use"
 msgstr ""
 
-#: ../../source/centreon/index.rst:44
+#: ../../source/centreon/index.rst:55
 msgid "**Centreon Username** : The username of your Centreon account"
 msgstr ""
 
-#: ../../source/centreon/index.rst:45
+#: ../../source/centreon/index.rst:56
 msgid "**Centreon Password** : The password of your Centreon account"
 msgstr ""
 
@@ -118,7 +152,7 @@ msgstr ""
 msgid "Centreon configuration"
 msgstr ""
 
-#: ../../source/centreon/index.rst:50
+#: ../../source/centreon/index.rst:63
 msgid ""
 "Then, it will create automatically a new SQL table named "
 "``glpi_plugin_centreon_hosts``. This table will contain all the hosts that "

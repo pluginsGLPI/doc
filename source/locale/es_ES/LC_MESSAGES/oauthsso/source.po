@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-31 14:11+0100\n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
 "PO-Revision-Date: 2024-01-31 13:12+0000\n"
 "Language-Team: Spanish (Spain) (https://app.transifex.com/teclib/teams/28042/es_ES/)\n"
 "MIME-Version: 1.0\n"
@@ -18,33 +18,43 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/oauthsso/source.rst:2
-msgid "Sources link"
+msgid "Resources"
 msgstr ""
 
 #: ../../source/oauthsso/source.rst:4
 msgid ""
 "`Documentation Oauth SSO client for GLPI <https://services.glpi-"
-"network.com/documentation/1731/file/README.md>`__"
+"network.com/documentation/1731/file/README.md>`_"
 msgstr ""
 
 #: ../../source/oauthsso/source.rst:5
 msgid ""
 "`Documentation Microsoft Configure your App Service Or Entra Functions app "
 "to use Entra AD login <https://learn.microsoft.com/en-us/azure/app-"
-"service/configure-authentication-provider-aad?tabs=workforce-tenant>`__"
+"service/configure-authentication-provider-aad?tabs=workforce-tenant>`_"
 msgstr ""
 
 #: ../../source/oauthsso/source.rst:6
 msgid ""
 "`Documentation OKTA Configure single Sign-On options "
 "<https://help.okta.com/oie/en-"
-"us/content/topics/apps/apps_overview_of_managing_apps_and_sso.htm>`__"
+"us/content/topics/apps/apps_overview_of_managing_apps_and_sso.htm>`_"
 msgstr ""
 
 #: ../../source/oauthsso/source.rst:7
 msgid ""
 "`Documentation Keycloak Managing OpenID connect Clients "
-"<https://www.keycloak.org/docs/latest/server_admin/#_oidc_clients>`__"
+"<https://www.keycloak.org/docs/latest/server_admin/#_oidc_clients>`_"
+msgstr ""
+
+#: ../../source/oauthsso/source.rst:10
+msgid "FAQ"
+msgstr ""
+
+#: ../../source/oauthsso/source.rst:12
+msgid ""
+"If you have any questions about using the plugin, please consult `our FAQ "
+"<https://faq.teclib.com/04_Plugins/Authentication_and_SSO/>`_"
 msgstr ""
 
 #: ../../<rst_epilog>:2

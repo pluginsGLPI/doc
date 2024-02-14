@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Nicolás Gaviola, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 16:17+0100\n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
 "PO-Revision-Date: 2024-01-26 14:55+0000\n"
+"Last-Translator: Nicolás Gaviola, 2024\n"
 "Language-Team: Spanish (Argentina) (https://app.transifex.com/teclib/teams/28042/es_AR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,152 +23,185 @@ msgstr ""
 
 #: ../../source/GDPR/index.rst:2
 msgid "GDPR Tools"
-msgstr ""
+msgstr "Herramientas GDPR"
 
 #: ../../source/GDPR/index.rst:5
 msgid "Requirements (on-premise)"
-msgstr ""
+msgstr "Requisitos (on-premise)"
 
 #: ../../source/GDPR/index.rst:8
 msgid "GLPI Version"
-msgstr ""
+msgstr "Versión GLPI"
 
 #: ../../source/GDPR/index.rst:8
 msgid "Minimum PHP"
-msgstr ""
+msgstr "PHP mínimo"
 
 #: ../../source/GDPR/index.rst:8
 msgid "Recommended"
-msgstr ""
+msgstr "Recomendado"
 
 #: ../../source/GDPR/index.rst:10
 msgid "10.0.x"
-msgstr ""
+msgstr "10.0.x"
 
 #: ../../source/GDPR/index.rst:10
 msgid "8.1"
-msgstr ""
+msgstr "8.1"
 
 #: ../../source/GDPR/index.rst:10
 msgid "8.2"
-msgstr ""
+msgstr "8.2"
 
 #: ../../source/GDPR/index.rst:14
 msgid ""
-"A `basic license <https://services.glpi-network.com/#offers>`__ (or higher) "
+"A `basic license <https://services.glpi-network.com/#offers>`_ (or higher) "
 "is required. This plugin is also available from the `Cloud <https://glpi-"
 "network.cloud/fr/>`__."
 msgstr ""
 
-#: ../../source/GDPR/index.rst:16
+#: ../../source/GDPR/index.rst-1 ../../source/GDPR/index.rst:18
+msgid "Install the plugin"
+msgstr ""
+
+#: ../../source/GDPR/index.rst:20
 msgid "Go to the marketplace. Download and install the **GDPR Tools** plugin."
 msgstr ""
+"Ve a la tienda. Descargue e instale el complemento **Herramientas GDPR**."
 
-#: ../../source/GDPR/index.rst:22
+#: ../../source/GDPR/index.rst:26
 msgid "Configure the plugin"
-msgstr ""
+msgstr "Configurar el complemento"
 
-#: ../../source/GDPR/index.rst:24
+#: ../../source/GDPR/index.rst:28
 msgid "From **Setup > General > GDPR tools**"
-msgstr ""
-
-#: ../../source/GDPR/index.rst:27
-msgid "Cleaning up inactive users"
-msgstr ""
-
-#: ../../source/GDPR/index.rst:29
-msgid "There are two possible ways of managing inactive users:"
-msgstr ""
+msgstr "Desde **Configuración > General > Herramientas GDPR**"
 
 #: ../../source/GDPR/index.rst:31
-msgid "Clearing the user’s data"
-msgstr ""
+msgid "Cleaning up inactive users"
+msgstr "Limpiar usuarios inactivos"
 
-#: ../../source/GDPR/index.rst:32
-msgid "Deleting the user"
-msgstr ""
+#: ../../source/GDPR/index.rst:33
+msgid "There are two possible ways of managing inactive users:"
+msgstr "Hay dos formas posibles de gestionar usuarios inactivos:"
 
 #: ../../source/GDPR/index.rst:35
-msgid "Cleaning up user data"
-msgstr ""
+msgid "Clearing the user’s data"
+msgstr "Borrar los datos del usuario"
 
-#: ../../source/GDPR/index.rst:37
+#: ../../source/GDPR/index.rst:36
+msgid "Deleting the user"
+msgstr "Eliminando el usuario"
+
+#: ../../source/GDPR/index.rst:39
+msgid "Cleaning up user data"
+msgstr "Limpiar datos de usuario"
+
+#: ../../source/GDPR/index.rst:41
 msgid ""
 "When the plugin is configured in **Clean** mode, the following actions will "
 "be performed:"
 msgstr ""
+"Cuando el complemento esté configurado en modo **Limpiar**, se realizarán "
+"las siguientes acciones:"
 
-#: ../../source/GDPR/index.rst:40 ../../source/GDPR/index.rst:51
+#: ../../source/GDPR/index.rst:44 ../../source/GDPR/index.rst:55
 msgid "Delete all references to the user from the GLPI history"
-msgstr ""
+msgstr "Eliminar todas las referencias al usuario del historial GLPI"
 
-#: ../../source/GDPR/index.rst:41 ../../source/GDPR/index.rst:52
+#: ../../source/GDPR/index.rst:45 ../../source/GDPR/index.rst:56
 msgid "Delete all associated emails"
-msgstr ""
+msgstr "Eliminar todos los correos electrónicos asociados"
 
-#: ../../source/GDPR/index.rst:42
+#: ../../source/GDPR/index.rst:46
 msgid "Reset all user fields and profiles"
-msgstr ""
+msgstr "Restablecer todos los campos y perfiles de usuario"
 
-#: ../../source/GDPR/index.rst:43
+#: ../../source/GDPR/index.rst:47
 msgid "Move the user to the recycle bin"
-msgstr ""
+msgstr "Mover al usuario a la papelera de reciclaje"
 
-#: ../../source/GDPR/index.rst:46 ../../source/GDPR/index.rst:53
+#: ../../source/GDPR/index.rst:50 ../../source/GDPR/index.rst:57
 msgid "Delete the user"
-msgstr ""
+msgstr "Eliminar el usuario"
 
-#: ../../source/GDPR/index.rst:48
+#: ../../source/GDPR/index.rst:52
 msgid ""
 "When the plugin is configured in “Delete” mode, the following actions will "
 "be performed:"
 msgstr ""
+"Cuando el complemento esté configurado en modo \"Eliminar\", se realizarán "
+"las siguientes acciones:"
 
-#: ../../source/GDPR/index.rst:56
+#: ../../source/GDPR/index.rst:60
 msgid "Deletion is permanent, the user cannot be recovered"
-msgstr ""
+msgstr "La eliminación es permanente, el usuario no se puede recuperar"
 
-#: ../../source/GDPR/index.rst:59
+#: ../../source/GDPR/index.rst:63
 msgid "Scope restriction"
-msgstr ""
+msgstr "Alcende de restricción"
 
-#: ../../source/GDPR/index.rst:61
+#: ../../source/GDPR/index.rst:65
 msgid ""
 "The automated deletion process can be restricted to the following scopes:"
 msgstr ""
+"El proceso de eliminación automatizada puede restringirse a los siguientes "
+"ámbitos:"
 
-#: ../../source/GDPR/index.rst:64
+#: ../../source/GDPR/index.rst:68
 msgid "All inactive users"
-msgstr ""
+msgstr "Todos los usuarios inactivos"
 
-#: ../../source/GDPR/index.rst:65
+#: ../../source/GDPR/index.rst:69
 msgid "Inactive users with no current tickets"
-msgstr ""
+msgstr "Usuarios inactivos sin tickets actuales"
 
-#: ../../source/GDPR/index.rst:66
+#: ../../source/GDPR/index.rst:70
 msgid "Inactive users without tickets"
+msgstr "Usuarios inactivos sin tickets"
+
+#: ../../source/GDPR/index.rst-1
+msgid "setup"
 msgstr ""
 
-#: ../../source/GDPR/index.rst:72
+#: ../../source/GDPR/index.rst:77
 msgid "Automated action"
-msgstr ""
+msgstr "Acción automatizada"
 
-#: ../../source/GDPR/index.rst:74
+#: ../../source/GDPR/index.rst:79
 msgid ""
 "Deletion will take place via a standard GLPI automatic action that can be "
 "configured to run as often as you like."
 msgstr ""
+"La eliminación se realizará mediante una acción automática GLPI estándar que"
+" se puede configurar para que se ejecute con la frecuencia que desee."
 
-#: ../../source/GDPR/index.rst:76
+#: ../../source/GDPR/index.rst:81
 msgid ""
 "Go to **Setup > Automatic actions**, and select the **cleaninactiveuser** "
 "action then configure it according to your needs."
 msgstr ""
+"Vaya a **Configuración > Acciones automáticas** y seleccione la acción "
+"**limpiarusuarioinactivo** y luego configúrela según sus necesidades."
+
+#: ../../source/GDPR/index.rst-1
+msgid "automatic action"
+msgstr ""
+
+#: ../../source/GDPR/index.rst:89
+msgid "FAQ"
+msgstr ""
+
+#: ../../source/GDPR/index.rst:91
+msgid ""
+"If you have any questions about using the plugin, please consult `our FAQ "
+"<https://faq.teclib.com/04_Plugins/GDRP/>`_"
+msgstr ""
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Creative Commons License"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 16:17+0100\n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
 "PO-Revision-Date: 2024-01-26 14:56+0000\n"
 "Language-Team: German (Germany) (https://app.transifex.com/teclib/teams/28042/de_DE/)\n"
 "MIME-Version: 1.0\n"
@@ -50,18 +50,22 @@ msgid "8.2"
 msgstr ""
 
 #: ../../source/branding/index.rst:14
-msgid "Install the plugin"
-msgstr ""
-
-#: ../../source/branding/index.rst:17
 msgid ""
-"A `basic licence <https://services.glpi-network.com/#offers>`__ (or higher) "
+"A `basic licence <https://services.glpi-network.com/#offers>`_ (or higher) "
 "is required. This plugin is also available from the `Cloud <https://glpi-"
 "network.cloud/fr/>`__."
 msgstr ""
 
+#: ../../source/branding/index.rst:17
+msgid "Install the plugin"
+msgstr ""
+
 #: ../../source/branding/index.rst:19
 msgid "Go to the marketplace. Download and install the **Branding** plugin."
+msgstr ""
+
+#: ../../source/branding/index.rst-1
+msgid "install the plugin"
 msgstr ""
 
 #: ../../source/branding/index.rst:26
@@ -76,7 +80,7 @@ msgstr ""
 msgid "Here you can replace :"
 msgstr ""
 
-#: ../../source/branding/index.rst:32 ../../source/branding/index.rst:45
+#: ../../source/branding/index.rst:32 ../../source/branding/index.rst:46
 msgid "the logo at top left (including folded bar)"
 msgstr ""
 
@@ -88,79 +92,97 @@ msgstr ""
 msgid "the background of the login page,"
 msgstr ""
 
-#: ../../source/branding/index.rst:35 ../../source/branding/index.rst:46
+#: ../../source/branding/index.rst:35 ../../source/branding/index.rst:47
 msgid "the icon in the browser bar"
 msgstr ""
 
-#: ../../source/branding/index.rst:41
+#: ../../source/branding/index.rst-1
+msgid "list of custom"
+msgstr ""
+
+#: ../../source/branding/index.rst:42
 msgid "Custom by entity"
 msgstr ""
 
-#: ../../source/branding/index.rst:43
+#: ../../source/branding/index.rst:44
 msgid "You can modify certain elements by entity:"
 msgstr ""
 
-#: ../../source/branding/index.rst:51
+#: ../../source/branding/index.rst-1
+msgid "custom by entity"
+msgstr ""
+
+#: ../../source/branding/index.rst:53
 msgid "Other customisations are common to all entities"
 msgstr ""
 
-#: ../../source/branding/index.rst:54
+#: ../../source/branding/index.rst:56
 msgid "Recommendations"
 msgstr ""
 
-#: ../../source/branding/index.rst:56
+#: ../../source/branding/index.rst:58
 msgid ""
 "**Top Left corner logo** - This can be changed according to the desired "
 "entity It is the logo you see when your GLPI page is opened and the left "
 "sidebar is expanded"
 msgstr ""
 
-#: ../../source/branding/index.rst:60
+#: ../../source/branding/index.rst:62
 msgid "Default recommended size: **100x55 pixels**"
 msgstr ""
 
-#: ../../source/branding/index.rst:62
+#: ../../source/branding/index.rst:64
 msgid ""
 "**Lop Left corner logo** (collapsed sidebar) - This can be changed according"
 " to the desired entity It is the logo you see when your GLPI page is opened "
 "and the left sidebar is collapsed."
 msgstr ""
 
-#: ../../source/branding/index.rst:66
+#: ../../source/branding/index.rst:68
 msgid "Default recommended size **40x40 pixels**"
 msgstr ""
 
-#: ../../source/branding/index.rst:68
+#: ../../source/branding/index.rst:70
 msgid ""
 "**Favicon** It is the logo you see next to the page title at the beginning "
 "of your browser’s the tab."
 msgstr ""
 
-#: ../../source/branding/index.rst:71
+#: ../../source/branding/index.rst:73
 msgid "Default recommended size: **16x16 or 32x32 pixels**"
 msgstr ""
 
-#: ../../source/branding/index.rst:73
+#: ../../source/branding/index.rst:75
 msgid ""
 "**Login page logo** It is the logo you see before you login. It appears with"
 " the fields to fill with your username and password"
 msgstr ""
 
-#: ../../source/branding/index.rst:76
+#: ../../source/branding/index.rst:78
 msgid "Default recommended size: **220x130 pixels**"
 msgstr ""
 
-#: ../../source/branding/index.rst:78
+#: ../../source/branding/index.rst:80
 msgid ""
 "**Login page background** It is the image you can add as a background at the"
 " login page."
 msgstr ""
 
-#: ../../source/branding/index.rst:81
+#: ../../source/branding/index.rst:83
 msgid ""
 "Default recommended size: **It depends on the usual size of your screens**. "
 "The bigger, the better. (Make sure not to surpass the maximum upload limit "
 "for files)"
+msgstr ""
+
+#: ../../source/branding/index.rst:87
+msgid "FAQ"
+msgstr ""
+
+#: ../../source/branding/index.rst:89
+msgid ""
+"If you have any questions about using the plugin, please consult `our FAQ "
+"<https://faq.teclib.com/04_Plugins/Branding/>`_"
 msgstr ""
 
 #: ../../<rst_epilog>:2

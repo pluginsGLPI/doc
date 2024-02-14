@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-01 14:27+0100\n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
 "PO-Revision-Date: 2024-02-01 06:43+0000\n"
 "Language-Team: English (United States) (https://app.transifex.com/teclib/teams/28042/en_US/)\n"
 "MIME-Version: 1.0\n"
@@ -51,7 +51,7 @@ msgstr ""
 
 #: ../../source/moresatisfaction/index.rst:15
 msgid ""
-"A `basic licence <https://services.glpi-network.com/#offers>`__ (or higher) "
+"A `basic licence <https://services.glpi-network.com/#offers>`_ (or higher) "
 "is required. This plugin is also available on `Cloud <https://glpi-"
 "network.cloud/fr/>`__."
 msgstr ""
@@ -63,6 +63,10 @@ msgstr ""
 #: ../../source/moresatisfaction/index.rst:20
 msgid ""
 "Go to the marketplace. Download and install the plugin **More satisfaction**"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst-1
+msgid "install the plugin"
 msgstr ""
 
 #: ../../source/moresatisfaction/index.rst:26
@@ -91,202 +95,256 @@ msgstr ""
 msgid "Then click on **Add**"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:38
+#: ../../source/moresatisfaction/index.rst-1
+msgid "add satisfaction survey"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:39
 msgid ""
 "It is only possible to create one survey per entity. If you wish to create "
 "several for different entities, remember to position yourself in the "
 "appropriate entity and do not tick the sub-entity box"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:44
-msgid "Create a question"
+#: ../../source/moresatisfaction/index.rst:0
+msgid "sub entity"
 msgstr ""
 
 #: ../../source/moresatisfaction/index.rst:46
-msgid "Enter your survey and go to the **Question** tab"
-msgstr ""
-
-#: ../../source/moresatisfaction/index.rst:47
-msgid "Click on Add a question"
+msgid "Create a question"
 msgstr ""
 
 #: ../../source/moresatisfaction/index.rst:48
+msgid "Enter your survey and go to the **Question** tab"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:49
+msgid "Click on Add a question"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:50
 msgid ""
 "Select the type of question **Yes/No** and enter the text that suits you"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:49
+#: ../../source/moresatisfaction/index.rst:51
 msgid "Then click **Add**"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:55
-msgid "Create a text field"
-msgstr ""
-
-#: ../../source/moresatisfaction/index.rst:57
-#: ../../source/moresatisfaction/index.rst:67
-msgid "In the question tab, click on **Add a question**"
+#: ../../source/moresatisfaction/index.rst-1
+msgid "create question"
 msgstr ""
 
 #: ../../source/moresatisfaction/index.rst:58
+msgid "Create a text field"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:60
+#: ../../source/moresatisfaction/index.rst:71
+msgid "In the question tab, click on **Add a question**"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:61
 msgid "Select the **Text** type"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:59
+#: ../../source/moresatisfaction/index.rst:62
 msgid "Enter the text to be displayed and click **Add**"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:65
-msgid "Create a note"
-msgstr ""
-
-#: ../../source/moresatisfaction/index.rst:68
-msgid "select the **Note** type"
+#: ../../source/moresatisfaction/index.rst-1
+msgid "text for question"
 msgstr ""
 
 #: ../../source/moresatisfaction/index.rst:69
+msgid "Create a note"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:72
+msgid "select the **Note** type"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:73
 msgid "You can select a score up to 10 and set a default value"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:70
+#: ../../source/moresatisfaction/index.rst:74
 msgid "Click on \"Add\" when you are happy with your settings"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:76
+#: ../../source/moresatisfaction/index.rst-1
+msgid "add note"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:81
 msgid "Preview"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:78
+#: ../../source/moresatisfaction/index.rst:83
 msgid ""
 "The preview tab allows you to see what users will receive once their ticket "
 "has been closed"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:84
+#: ../../source/moresatisfaction/index.rst-1
+msgid "preview"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:90
 msgid "Translation"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:86
+#: ../../source/moresatisfaction/index.rst:92
 msgid ""
 "You can translate each of the questions asked in the questionnaire into the "
 "language of your choice"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:88
+#: ../../source/moresatisfaction/index.rst:94
 msgid "Go to the **Translations** tab"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:89
+#: ../../source/moresatisfaction/index.rst:95
 msgid ""
 "Choose the language you want and then, question by question, write the "
 "translation"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:95
+#: ../../source/moresatisfaction/index.rst-1
+msgid "translate"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:102
 msgid "Schedule reminders"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:97
+#: ../../source/moresatisfaction/index.rst:104
 msgid ""
 "In the event of a non-response to the survey, you can send out reminders to "
 "follow-up with the user. You can create your own reminder or select a "
 "predefined one"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:100
+#: ../../source/moresatisfaction/index.rst:107
 msgid "Customised reminder"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:102
-#: ../../source/moresatisfaction/index.rst:116
+#: ../../source/moresatisfaction/index.rst:109
+#: ../../source/moresatisfaction/index.rst:124
 msgid "Go to the **Reminders** tab"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:103
+#: ../../source/moresatisfaction/index.rst:110
 msgid "Click on **Add a reminder**."
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:108
+#: ../../source/moresatisfaction/index.rst:115
 msgid "Enter a :"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:105
+#: ../../source/moresatisfaction/index.rst:112
 msgid "**Name**"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:106
+#: ../../source/moresatisfaction/index.rst:113
 msgid "**Type of duration (day or month)**"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:107
+#: ../../source/moresatisfaction/index.rst:114
 msgid "The **duration** of the reminder"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:108
+#: ../../source/moresatisfaction/index.rst:115
 msgid "**Activate** your reminder"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:114
+#: ../../source/moresatisfaction/index.rst-1
+msgid "custom reminder"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:122
 msgid "Predefined reminder"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:117
+#: ../../source/moresatisfaction/index.rst:125
 msgid "Click on **Add a predefined reminder**"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:118
+#: ../../source/moresatisfaction/index.rst:126
 msgid "You will have 3 options to choose from:"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:123
-msgid "1 week: reminder every 7 days,"
-msgstr ""
-
-#: ../../source/moresatisfaction/index.rst:124
-msgid "2 weeks: reminder every 14 days."
-msgstr ""
-
-#: ../../source/moresatisfaction/index.rst:125
-msgid "1 month: monthly reminder."
-msgstr ""
-
-#: ../../source/moresatisfaction/index.rst:127
-msgid "Select the option that suits you and click on **Add**"
-msgstr ""
-
-#: ../../source/moresatisfaction/index.rst:130
-msgid "Limit the number of reminders"
+#: ../../source/moresatisfaction/index.rst-1
+msgid "predefined reminder"
 msgstr ""
 
 #: ../../source/moresatisfaction/index.rst:132
+msgid "1 week: reminder every 7 days,"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:133
+msgid "2 weeks: reminder every 14 days."
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:134
+msgid "1 month: monthly reminder."
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:136
+msgid "Select the option that suits you and click on **Add**"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:139
+msgid "Limit the number of reminders"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:141
 msgid ""
 "In the **Setup maximum number of days to send reminder** section, enter a "
 "limit for the **Maximum number of days to send a reminder**"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:134
+#: ../../source/moresatisfaction/index.rst:143
 msgid ""
 "**Example** : If a person has not responded after 3 reminders, GLPI will no "
 "longer send reminders and the satisfaction survey will then remain "
 "unanswered"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:141
+#: ../../source/moresatisfaction/index.rst-1
+msgid "reminder example"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:150
 msgid "Set up the automatic action"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:143
+#: ../../source/moresatisfaction/index.rst:152
 msgid ""
 "Survey reminders are sent via an automatic action already created by the "
 "plugin. Make sure that this is activated and set up correctly"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:145
+#: ../../source/moresatisfaction/index.rst:154
 msgid "Go to **Setup > Automatic actions**"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:146
+#: ../../source/moresatisfaction/index.rst:155
 msgid "Select the **SatisfactionReminder** action."
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst-1
+msgid "automatic action"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:162
+msgid "FAQ"
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:164
+msgid ""
+"If you have any questions about using the plugin, please consult `our FAQ "
+"<https://faq.teclib.com/04_Plugins/Satisfaction_survey/>`_"
 msgstr ""
 
 #: ../../<rst_epilog>:2

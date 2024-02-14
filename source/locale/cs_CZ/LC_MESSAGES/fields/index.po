@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016, Teclib'
+# Copyright (C) 2016-2024, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -9,12 +9,12 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPI plugins 0.1\n"
+"Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-14 15:17+0200\n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
 "PO-Revision-Date: 2016-11-30 10:06+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>, 2018\n"
-"Language-Team: Czech (Czech Republic) (https://www.transifex.com/teclib/teams/28042/cs_CZ/)\n"
+"Language-Team: Czech (Czech Republic) (https://app.transifex.com/teclib/teams/28042/cs_CZ/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -26,14 +26,6 @@ msgid "Fields"
 msgstr "Kolonky"
 
 #: ../../source/fields/index.rst:4
-msgid "Sources link: https://github.com/pluginsGLPI/fields"
-msgstr "Odkaz na zdrojové kódy: https://github.com/pluginsGLPI/fields"
-
-#: ../../source/fields/index.rst:5
-msgid "Download: https://github.com/pluginsGLPI/fields/releases"
-msgstr "Stažení: https://github.com/pluginsGLPI/fields/releases"
-
-#: ../../source/fields/index.rst:7
 msgid ""
 "Fields plugin allows to add additional fields on various items GLPI manages:"
 " tickets, computers, users, ..."
@@ -41,83 +33,113 @@ msgstr ""
 "Zásuvný modul kolonky umožňuje přidat další kolonky do různých položek které"
 " GLPI spravuje: požadavků, počítačů, uživatelů, …"
 
+#: ../../source/fields/index.rst:9
+msgid "Download"
+msgstr ""
+
 #: ../../source/fields/index.rst:10
-msgid "Requirements"
-msgstr "Požadavky"
+msgid "Sources"
+msgstr ""
+
+#: ../../source/fields/index.rst:11
+msgid "`<https://github.com/pluginsGLPI/fields/releases>`_"
+msgstr ""
 
 #: ../../source/fields/index.rst:12
-msgid "This plugin requires :"
-msgstr "Tento zásuvný modul vyžaduje:"
-
-#: ../../source/fields/index.rst:14
-msgid "GLPI 0.85 or higher,"
-msgstr "GLPI 0.85 nebo novější,"
+msgid "`<https://github.com/pluginsGLPI/fields>`_"
+msgstr ""
 
 #: ../../source/fields/index.rst:15
-msgid ""
-"PHP 5.4 or higher when used with GLPI 9.1, and PHP 5.5 or higher when used "
-"with a previous GLPI release."
+msgid "Requirements (on-premise)"
 msgstr ""
-"PHP 5.4 nebo novější při použití s GLPI 9.1, a PHP 5.5 nebo novější při "
-"použití s přechozím vydáním GLPI."
 
-#: ../../source/fields/index.rst:19
+#: ../../source/fields/index.rst:18
+msgid "GLPI Version"
+msgstr ""
+
+#: ../../source/fields/index.rst:18
+msgid "Minimum PHP"
+msgstr ""
+
+#: ../../source/fields/index.rst:18
+msgid "Recommended"
+msgstr ""
+
+#: ../../source/fields/index.rst:20
+msgid "10.0.x"
+msgstr ""
+
+#: ../../source/fields/index.rst:20
+msgid "8.1"
+msgstr ""
+
+#: ../../source/fields/index.rst:20
+msgid "8.2"
+msgstr ""
+
+#: ../../source/fields/index.rst:24
+msgid ""
+"This plugin is available without a GLPI-Network subscription. It is also "
+"available in `Cloud <https://glpi-network.cloud/>`_"
+msgstr ""
+
+#: ../../source/fields/index.rst:27
 msgid "Features"
 msgstr "Funkce"
 
-#: ../../source/fields/index.rst:21
+#: ../../source/fields/index.rst:29
 msgid "Add containers block on various items,"
 msgstr "Přidat blok kontejnerů na různé položky,"
 
-#: ../../source/fields/index.rst:22
+#: ../../source/fields/index.rst:30
 msgid "Add fields into blocks,"
 msgstr "Přidat kolonky do bloků,"
 
-#: ../../source/fields/index.rst:23
+#: ../../source/fields/index.rst:31
 msgid "Display blocks in an existing tab or in their own tab,"
 msgstr "Zobrazit bloky ve stávající kartě nebo na jejich vlastní,"
 
-#: ../../source/fields/index.rst:24
+#: ../../source/fields/index.rst:32
 msgid "Many fields types available,"
 msgstr "Je k dispozici mnoho typů kolonek,"
 
-#: ../../source/fields/index.rst:25
+#: ../../source/fields/index.rst:33
 msgid "Fields can be flagged as required,"
 msgstr "Kolonky je možné označit jako povinné,"
 
-#: ../../source/fields/index.rst:26
+#: ../../source/fields/index.rst:34
 msgid "Manage profiles ACLs per container,"
 msgstr "Spravovat ACL profily v jednotlivých kontejnerech,"
 
-#: ../../source/fields/index.rst:27
+#: ../../source/fields/index.rst:35
 msgid "..."
 msgstr "…"
 
-#: ../../source/fields/index.rst:30
+#: ../../source/fields/index.rst:38
 msgid "Install the Plugin"
 msgstr "Nainstalovat zásuvný modul"
 
-#: ../../source/fields/index.rst:32
+#: ../../source/fields/index.rst:40
 msgid "Uncompress the archive."
 msgstr "Rozbalit archiv."
 
-#: ../../source/fields/index.rst:33
+#: ../../source/fields/index.rst:41
 msgid "Move the ``fields`` directory to the ``<GLPI_ROOT>/plugins`` directory"
 msgstr "Přesuňte složku ``fields`` do složky ``<GLPI_ROOT>/plugins``"
 
-#: ../../source/fields/index.rst:34
+#: ../../source/fields/index.rst:42
 msgid "Navigate to the *Configuration > Plugins* page,"
 msgstr "Přejděte na stránku *Nastavení > Zásuvné moduly*,"
 
-#: ../../source/fields/index.rst:35
+#: ../../source/fields/index.rst:43
 msgid "Install and activate the plugin."
 msgstr "Nainstalovat a zapnout zásuvný modul."
 
-#: ../../source/fields/index.rst:38
+#: ../../source/fields/index.rst:46
 msgid "Usage"
 msgstr "Použití"
 
-#: ../../source/fields/index.rst:40
+#: ../../source/fields/index.rst:48
 msgid ""
 "The plugin will create required tables in the database and some files on "
 "disk (into ``<GLPI_ROOT>/files/_plugins/fields``) automatically. Those files"
@@ -127,19 +149,19 @@ msgstr ""
 " na úložišti (v ``<GLPI_ROOT>/files/_plugins/fields``). Tyto kolonky a "
 "tabulky budou aktualizovány společně se zásuvným modulem."
 
-#: ../../source/fields/index.rst:42
+#: ../../source/fields/index.rst:50
 msgid "Plugin usage is quite simple:"
 msgstr "Používání zásuvného modulu je velmi jednoduché:"
 
-#: ../../source/fields/index.rst:44
+#: ../../source/fields/index.rst:52
 msgid "create a block linked with some items,"
 msgstr "vytvořte blok propojený s nějakými položkami,"
 
-#: ../../source/fields/index.rst:45
+#: ../../source/fields/index.rst:53
 msgid "create fields in this block."
 msgstr "vytvořte kolonky v tomto bloku."
 
-#: ../../source/fields/index.rst:47
+#: ../../source/fields/index.rst:55
 msgid ""
 "You will access the plugin configuration from the *Setup* > *Aditionnal "
 "fields* menu."
@@ -147,30 +169,30 @@ msgstr ""
 "Nastavení zásuvného modulu jsou přístupná z nabídky *Nastavení* > *Další "
 "kolonky*."
 
-#: ../../source/fields/index.rst:50
+#: ../../source/fields/index.rst:58
 msgid "Adding a new block"
 msgstr "Přidání nového bloku"
 
-#: ../../source/fields/index.rst:54 ../../source/fields/index.rst:86
+#: ../../source/fields/index.rst:64 ../../source/fields/index.rst:102
 msgid "`Label`: the label of the block that will appears on items forms,"
 msgstr "`Štítek`: štítek bloku který se objeví ve formulářích položek,"
 
-#: ../../source/fields/index.rst:55
+#: ../../source/fields/index.rst:65
 msgid "`Type`: type of display, one of:"
 msgstr "`Type`: typ zobrazení, jedno z:"
 
-#: ../../source/fields/index.rst:57
+#: ../../source/fields/index.rst:67
 msgid "`Add tab`: will add a new tab on the item form containing the block,"
 msgstr ""
 "`Přidat panel`: přidá nový panel na položku formuláře obsahujícího blok,"
 
-#: ../../source/fields/index.rst:58
+#: ../../source/fields/index.rst:68
 msgid ""
 "`Insertion in the form`: will add the block at the end of the main item "
 "form,"
 msgstr "`Vložení do formuláře`: přidá blok na konec formuláře hlavní položky,"
 
-#: ../../source/fields/index.rst:59
+#: ../../source/fields/index.rst:69
 msgid ""
 "`Insertion in the form of a specific tab`: will add the block at the end of "
 "a specific tab of the item."
@@ -178,18 +200,18 @@ msgstr ""
 "`Vložení ve formuláři konkrétního panelu`: přidá blok na konec konkrétního "
 "panelu položky."
 
-#: ../../source/fields/index.rst:61
+#: ../../source/fields/index.rst:71
 msgid ""
 "`Associated item type`: a list of items types on which the block will be "
 "added,"
 msgstr ""
 "`Přiřazený typ položky`: seznam typů položek na který bude blok přidán."
 
-#: ../../source/fields/index.rst:62
+#: ../../source/fields/index.rst:72
 msgid "`Active`: whether the block is active or not."
 msgstr "`Active`: zda blok bude nebo nebude aktivní."
 
-#: ../../source/fields/index.rst:66
+#: ../../source/fields/index.rst:76
 msgid ""
 "You can add only one block of the type `Insertion in the form` for an "
 "associated item type."
@@ -197,11 +219,11 @@ msgstr ""
 "Pro přiřazený typ položky je možné přidat pouze jeden blok typu `Vložení do "
 "formuláře`."
 
-#: ../../source/fields/index.rst:68
+#: ../../source/fields/index.rst:78
 msgid "Inserting a block in a specific tab is only possible for one item:"
 msgstr "Vložit blok do konkrétní karty je možné pouze pro jedinou položku:"
 
-#: ../../source/fields/index.rst:72
+#: ../../source/fields/index.rst:84
 msgid ""
 "Once a block have been created, it is possible to change its label or is "
 "active flag, but not its type or associated items list."
@@ -209,11 +231,11 @@ msgstr ""
 "Jakmile je blok vytvořený, je možné změnit jeho štítek nebo aktivní příznak,"
 " ale už ne jeho typ nebo seznam souvisejících položek."
 
-#: ../../source/fields/index.rst:75
+#: ../../source/fields/index.rst:87
 msgid "Profiles"
 msgstr "Profily"
 
-#: ../../source/fields/index.rst:77
+#: ../../source/fields/index.rst:89
 msgid ""
 "You can refine profiles access on the block using the `Profiles` tab from "
 "the block. You will be able to choose either `No access`, `Read` or `Write` "
@@ -223,31 +245,31 @@ msgstr ""
 "bloku. Budete schopní zvolit buď `Žádný přístup`, `Čtení` nebo `Zápis` pro "
 "každý z existujících profilů."
 
-#: ../../source/fields/index.rst:82
+#: ../../source/fields/index.rst:96
 msgid "Adding a new field"
 msgstr "Přidání nové kolonky"
 
-#: ../../source/fields/index.rst:87
+#: ../../source/fields/index.rst:103
 msgid "`Type` field type, one of:"
 msgstr "`Type` typ kolonky, jedno z:"
 
-#: ../../source/fields/index.rst:89
+#: ../../source/fields/index.rst:105
 msgid "`Header`: an header label, for visual distinction,"
 msgstr "`Header`: štítek hlavičky pro vizuální rozlišení,"
 
-#: ../../source/fields/index.rst:90
+#: ../../source/fields/index.rst:106
 msgid "`Text (single line)`: a single line (``input/@type=\"text\"``) of text,"
 msgstr "`Text (jeden řádek)`: jeden řádek (``input/@type=\"text\"``) textu,"
 
-#: ../../source/fields/index.rst:91
+#: ../../source/fields/index.rst:107
 msgid "`Text (multiples lines)`: a multiline (``textarea``) text,"
 msgstr "`Text (víceřádkový)`: víceřádkový (``textarea``) text,"
 
-#: ../../source/fields/index.rst:92
+#: ../../source/fields/index.rst:108
 msgid "`Number`: a single number (no text allowed),"
 msgstr "`Number`: jediné číslo (text není dovolen),"
 
-#: ../../source/fields/index.rst:93
+#: ../../source/fields/index.rst:109
 msgid ""
 "`Dropdown`: a configurable dropdown list, values are configured from the "
 "main GLPI dropdown configuration you can find in *Setup* > *Dropdowns* menu,"
@@ -256,15 +278,15 @@ msgstr ""
 "nastavené z nastavení hlavního rozbalovacího seznamu GLPI, které se nachází "
 "v nabídce *Nastavení* > *Rozbalovací nabídky*,"
 
-#: ../../source/fields/index.rst:94
+#: ../../source/fields/index.rst:110
 msgid "`Yes/No`: a dropdown list with only `Yes` and `No` values,"
 msgstr "`Ano/Ne`: rozbalovací nabídka s hodnotami pouze `Ano` a `Ne`,"
 
-#: ../../source/fields/index.rst:95
+#: ../../source/fields/index.rst:111
 msgid "`Date`: a standalone date with a date picker,"
 msgstr "`Datum`: samostatné datum s jeho volbou,"
 
-#: ../../source/fields/index.rst:96
+#: ../../source/fields/index.rst:112
 msgid ""
 "`Date & time`: a date field with a date picker and a time dropdown field "
 "(step is configured from GLPI core),"
@@ -272,27 +294,27 @@ msgstr ""
 "`Datum a čas`: kolonka datum s rozbalovacím voličem data a času a kolonkou "
 "času s rozbalovací nabídkou (krok je nastavený z GLPI samotného),"
 
-#: ../../source/fields/index.rst:97
+#: ../../source/fields/index.rst:113
 msgid "`Users`: list of users."
 msgstr "`Users`: seznam uživatelů."
 
-#: ../../source/fields/index.rst:99
+#: ../../source/fields/index.rst:115
 msgid "`Active`: whether the block is active or not,"
 msgstr "`Aktivní`: zda je blok aktivní či ne,"
 
-#: ../../source/fields/index.rst:100
+#: ../../source/fields/index.rst:116
 msgid "`Read only`: flag this field as read only,"
 msgstr "`Pouze pro čtení`: označit tuto kolonku pouze pro čtení,"
 
-#: ../../source/fields/index.rst:101
+#: ../../source/fields/index.rst:117
 msgid "`Default values`: default field values,"
 msgstr "`Výchozí hodnoty`: výchozí hodnoty kolonky,"
 
-#: ../../source/fields/index.rst:102
+#: ../../source/fields/index.rst:118
 msgid "`Mandatory field`: flag this field as mandatory."
 msgstr "`Povinná kolonka`: označit tuto kolonku jako povinnou."
 
-#: ../../source/fields/index.rst:106
+#: ../../source/fields/index.rst:122
 msgid ""
 "Of course, you will need to pay attention playing with the various "
 "options... For example, if you flag a field as mandatory and as read only, "
@@ -302,7 +324,7 @@ msgstr ""
 "pokud označíte kolonku jako povinnou a pouze pro čtení a neposkytnete "
 "výchozí hodnotu, ověření formuláře se nezdaří."
 
-#: ../../source/fields/index.rst:108
+#: ../../source/fields/index.rst:124
 msgid ""
 "Another example: you should not set a text default value for a number "
 "field... That kind of things ;)"
@@ -310,7 +332,7 @@ msgstr ""
 "Jiný příklad: neměli byste výchozí textovou hodnotu pro číselnou kolonku… A "
 "tak podobně ;)"
 
-#: ../../source/fields/index.rst:110
+#: ../../source/fields/index.rst:126
 msgid ""
 "Once fields have been created, you can reorder or edit them from the Fields "
 "tab of the block:"
@@ -318,15 +340,15 @@ msgstr ""
 "Jakmile jsou kolonky založené, je možné přeuspořádat jejich pořadí nebo je "
 "upravit z panelu Kolonky bloku:"
 
-#: ../../source/fields/index.rst:114
+#: ../../source/fields/index.rst:132
 msgid "And see what it should look like on a `User` item for example:"
 msgstr "A podívejte jak by to vypadalo například u položky `Uživatel`:"
 
-#: ../../source/fields/index.rst:119
+#: ../../source/fields/index.rst:139
 msgid "Search"
 msgstr "Hledat"
 
-#: ../../source/fields/index.rst:121
+#: ../../source/fields/index.rst:141
 msgid ""
 "All fields that have been added are available in the attached items search "
 "forms."
@@ -334,11 +356,11 @@ msgstr ""
 "Všechny kolonky které byly přidány jsou dostupné ve vyhledávacích "
 "formulářích připojených položek."
 
-#: ../../source/fields/index.rst:124
+#: ../../source/fields/index.rst:144
 msgid "Simplified Interface"
 msgstr "Zjednodušené rozhraní"
 
-#: ../../source/fields/index.rst:126
+#: ../../source/fields/index.rst:146
 msgid ""
 "Only blocks attached to tickets and with the type `Insertion in the form` "
 "will be displayed in the simplified interface of ticket creation. Of course,"
@@ -348,11 +370,11 @@ msgstr ""
 "požadavkům a s typem `Vložení do formuláře`. Samozřejmě také dle oprávnění "
 "stávajícího profilu!"
 
-#: ../../source/fields/index.rst:129
+#: ../../source/fields/index.rst:149
 msgid "Translations"
 msgstr "Překlady"
 
-#: ../../source/fields/index.rst:133
+#: ../../source/fields/index.rst:153
 msgid ""
 "Plugin itself is translated using `the transifex services "
 "<https://www.transifex.com/teclib/glpi-plugin-plugin-fields>`_; but you aslo"
@@ -364,11 +386,11 @@ msgstr ""
 " překládat hodnoty štítků pro bloky a kolonky; postup je v obou případech "
 "totožný:"
 
-#: ../../source/fields/index.rst:135
+#: ../../source/fields/index.rst:155
 msgid "On the block form, choose the *Translations* tab:"
 msgstr "Ve formuláři bloku, zvolte kartu *Překlady*:"
 
-#: ../../source/fields/index.rst:139
+#: ../../source/fields/index.rst:161
 msgid ""
 "On block creation, a new translation with current language and value set as "
 "label will be created; you can add as many translations as you want."
@@ -377,14 +399,14 @@ msgstr ""
 "hodnotou nastavenou jako štítek; překladů je možné přidat kolik budete "
 "chtít."
 
-#: ../../source/fields/index.rst:143
+#: ../../source/fields/index.rst:167
 msgid ""
 "Dropdown values can be translated using the core's dropdown configuration."
 msgstr ""
 "Hodnoty rozbalovací nabídky mohou být překládány pomocí nastavení "
 "rozbalovacích nabídek aplikace samotné."
 
-#: ../../source/fields/index.rst:147
+#: ../../source/fields/index.rst:171
 msgid ""
 "As of GLPI 9.1.1; some issues on the core side prevent dropdown plugin "
 "values to be translated; the possibility has been deactivated in the plugin."
@@ -395,11 +417,11 @@ msgstr ""
 "zásuvném modulu vypnuta. Bude zapnuta jakmile bude problém v aplikaci "
 "opraven."
 
-#: ../../source/fields/index.rst:150
+#: ../../source/fields/index.rst:174
 msgid "Entities"
 msgstr "Entity"
 
-#: ../../source/fields/index.rst:152
+#: ../../source/fields/index.rst:176
 msgid ""
 "If you are using entities in your GLPI instance, a block will be displayed "
 "only if the entity it is attached to is compatible with the one of the item "
@@ -408,7 +430,7 @@ msgstr ""
 "Pokud ve své instanci GLPI používáte entity, blok bude zobrazen pouze pokud "
 "je entita ke které je připojena s tou na kterou je položka uplatněna."
 
-#: ../../source/fields/index.rst:154
+#: ../../source/fields/index.rst:178
 msgid ""
 "When you create or edit a block in multi entities mode, you'll have to "
 "choose if the block will be available in children entities:"
@@ -416,27 +438,27 @@ msgstr ""
 "Když vytvoříte nebo upravíte blok v režimu více entit, bude třeba zvolit zda"
 " blok bude dostupný v podřízených entitách:"
 
-#: ../../source/fields/index.rst:158
+#: ../../source/fields/index.rst:184
 msgid "As an example, let's say our entities have the following structure:"
 msgstr "Jako příklad, řekněme že vaše entity mají následující strukturu:"
 
-#: ../../source/fields/index.rst:160
+#: ../../source/fields/index.rst:186
 msgid "``root``"
 msgstr "``root``"
 
-#: ../../source/fields/index.rst:162
+#: ../../source/fields/index.rst:188
 msgid "``A``"
 msgstr "``A``"
 
-#: ../../source/fields/index.rst:164
+#: ../../source/fields/index.rst:190
 msgid "``C``"
 msgstr "``C``"
 
-#: ../../source/fields/index.rst:166
+#: ../../source/fields/index.rst:192
 msgid "``B``"
 msgstr "``B``"
 
-#: ../../source/fields/index.rst:168
+#: ../../source/fields/index.rst:194
 msgid ""
 "The following table will tell you in wich cases the block is displayed or "
 "not:"
@@ -444,50 +466,61 @@ msgstr ""
 "Následující tabulka uvádí ve kterých případech budou bloky zobrazeny a ve "
 "kterých ne:"
 
-#: ../../source/fields/index.rst:171
+#: ../../source/fields/index.rst:197
 msgid "Block entity"
 msgstr "Blok položky"
 
-#: ../../source/fields/index.rst:171
+#: ../../source/fields/index.rst:197
 msgid "Recursive block"
 msgstr "Rekurzivní blok"
 
-#: ../../source/fields/index.rst:171
+#: ../../source/fields/index.rst:197
 msgid "Item entity"
 msgstr "Entita položky"
 
-#: ../../source/fields/index.rst:171
+#: ../../source/fields/index.rst:197
 msgid "Block displayed"
 msgstr "Blok zobrazený"
 
-#: ../../source/fields/index.rst:173 ../../source/fields/index.rst:173
-#: ../../source/fields/index.rst:174 ../../source/fields/index.rst:175
-#: ../../source/fields/index.rst:176
+#: ../../source/fields/index.rst:199 ../../source/fields/index.rst:200
+#: ../../source/fields/index.rst:201 ../../source/fields/index.rst:202
 msgid "A"
 msgstr "A"
 
-#: ../../source/fields/index.rst:173 ../../source/fields/index.rst:174
+#: ../../source/fields/index.rst:199 ../../source/fields/index.rst:200
 msgid "Yes or No"
 msgstr "Ano nebo Ne"
 
-#: ../../source/fields/index.rst:173 ../../source/fields/index.rst:175
-#: ../../source/fields/index.rst:175
+#: ../../source/fields/index.rst:199 ../../source/fields/index.rst:201
 msgid "Yes"
 msgstr "Ano"
 
-#: ../../source/fields/index.rst:174
+#: ../../source/fields/index.rst:200
 msgid "B"
 msgstr "B"
 
-#: ../../source/fields/index.rst:174 ../../source/fields/index.rst:176
-#: ../../source/fields/index.rst:176
+#: ../../source/fields/index.rst:200 ../../source/fields/index.rst:202
 msgid "No"
 msgstr "Ne"
 
-#: ../../source/fields/index.rst:175 ../../source/fields/index.rst:176
+#: ../../source/fields/index.rst:201 ../../source/fields/index.rst:202
 msgid "C"
 msgstr "C"
+
+#: ../../source/fields/index.rst:206
+msgid "FAQ"
+msgstr ""
+
+#: ../../source/fields/index.rst:208
+msgid ""
+"If you have any questions about using the plugin, please consult `our FAQ "
+"<https://faq.teclib.com/04_Plugins/Fields/>`_"
+msgstr ""
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
+msgstr ""

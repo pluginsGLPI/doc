@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-01 14:27+0100\n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
 "PO-Revision-Date: 2024-01-26 14:56+0000\n"
 "Last-Translator: Pablo Pierri <pablo.terdulino@gmail.com>, 2024\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/teclib/teams/28042/pt_BR/)\n"
@@ -26,22 +26,47 @@ msgstr ""
 msgid "Advanced dashboards"
 msgstr "Painéis de visualização avançadas"
 
-#: ../../source/advanceddashboard/index.rst-1
 #: ../../source/advanceddashboard/index.rst:5
+msgid "Requirements (on-premise)"
+msgstr ""
+
+#: ../../source/advanceddashboard/index.rst:8
+msgid "GLPI Version"
+msgstr ""
+
+#: ../../source/advanceddashboard/index.rst:8
+msgid "Minimum PHP"
+msgstr ""
+
+#: ../../source/advanceddashboard/index.rst:8
+msgid "Recommended"
+msgstr ""
+
+#: ../../source/advanceddashboard/index.rst:10
+msgid "10.0.x"
+msgstr ""
+
+#: ../../source/advanceddashboard/index.rst:10
+msgid "8.1"
+msgstr ""
+
+#: ../../source/advanceddashboard/index.rst:10
+msgid "8.2"
+msgstr ""
+
+#: ../../source/advanceddashboard/index.rst:14
+msgid ""
+"A `standard licence <https://services.glpi-network.com/#offers>`_ (or "
+"higher) is required. This plugin is also available from the `Cloud "
+"<https://glpi-network.cloud/fr/>`__."
+msgstr ""
+
+#: ../../source/advanceddashboard/index.rst-1
+#: ../../source/advanceddashboard/index.rst:17
 msgid "Install the plugin"
 msgstr "Instalar o plugin"
 
-#: ../../source/advanceddashboard/index.rst:8
-msgid ""
-"A `standard license <https://services.glpi-network.com/#offers>`__ (or "
-"higher) is required. This plugin is also available from the `Cloud "
-"<https://glpi-network.cloud/>`__."
-msgstr ""
-"Uma licença `padrão <https://services.glpi-network.com/#offers>`__ (ou "
-"superior) é necessária. Este plugin também está disponível na `Nuvem "
-"<https://glpi-network.cloud/>`__."
-
-#: ../../source/advanceddashboard/index.rst:10
+#: ../../source/advanceddashboard/index.rst:19
 msgid ""
 "Go to the marketplace. Download and install the “**Advanced dashboard**” "
 "plugin."
@@ -49,11 +74,11 @@ msgstr ""
 "Vá para o marketplace. Baixe e instale o plugin \"*Painéis de visualização "
 "avançados**\"."
 
-#: ../../source/advanceddashboard/index.rst:16
+#: ../../source/advanceddashboard/index.rst:26
 msgid "Setup the plugin"
 msgstr "Configurar o plugin"
 
-#: ../../source/advanceddashboard/index.rst:20
+#: ../../source/advanceddashboard/index.rst:30
 msgid ""
 "This plugin requires **a minimum knowledge of SQL** in order to be able to "
 "set certain criteria for the various queries that will appear in the "
@@ -65,11 +90,11 @@ msgstr ""
 "painéis. Também é recomendado que você **conheça a estrutura das tabelas do "
 "GLPI**."
 
-#: ../../source/advanceddashboard/index.rst:23
+#: ../../source/advanceddashboard/index.rst:33
 msgid "Create an SQL query"
 msgstr "Criar uma consulta SQL"
 
-#: ../../source/advanceddashboard/index.rst:25
+#: ../../source/advanceddashboard/index.rst:35
 msgid ""
 "The below example gives us the number of tickets on the root entity over the"
 " last 2 years:"
@@ -77,15 +102,15 @@ msgstr ""
 "O exemplo abaixo nos dá o número de ingressos na entidade raiz nos últimos 2"
 " anos."
 
-#: ../../source/advanceddashboard/index.rst:72
+#: ../../source/advanceddashboard/index.rst:82
 msgid "Setting query-related parameters"
 msgstr "Definindo parâmetros relacionados à consulta"
 
-#: ../../source/advanceddashboard/index.rst:74
+#: ../../source/advanceddashboard/index.rst:84
 msgid "From **tools** > **SQL for dashboards**, click on **add**"
 msgstr "De **ferramentas** > **SQL para painéis**, clique em **adicionar**"
 
-#: ../../source/advanceddashboard/index.rst:75
+#: ../../source/advanceddashboard/index.rst:85
 msgid ""
 "Name your query (the one that will be visible from the dashboards) and "
 "identify it as **active**."
@@ -93,7 +118,7 @@ msgstr ""
 "Nomeie sua consulta (aquela que será visível nos painéis) e identifique-a "
 "como **ativa**."
 
-#: ../../source/advanceddashboard/index.rst:76
+#: ../../source/advanceddashboard/index.rst:86
 msgid ""
 "In the SQL Editor tab, paste the above query, taking care to change the name"
 " of the entity if you have changed it."
@@ -101,7 +126,7 @@ msgstr ""
 "Na guia Editor SQL, cole a consulta acima, tomando cuidado para alterar o "
 "nome da entidade, caso você tenha alterado."
 
-#: ../../source/advanceddashboard/index.rst:77
+#: ../../source/advanceddashboard/index.rst:87
 msgid ""
 "Click on the floppy icon to save the query and then on play icon to run the "
 "query."
@@ -113,7 +138,7 @@ msgstr ""
 msgid "SQL editor"
 msgstr "Editor SQL"
 
-#: ../../source/advanceddashboard/index.rst:83
+#: ../../source/advanceddashboard/index.rst:95
 msgid "An insert at the bottom will display the result of the query:"
 msgstr "Um inserir na parte inferior exibirá o resultado da consulta:"
 
@@ -121,7 +146,7 @@ msgstr "Um inserir na parte inferior exibirá o resultado da consulta:"
 msgid "preview result"
 msgstr "resultado de visualização"
 
-#: ../../source/advanceddashboard/index.rst:89
+#: ../../source/advanceddashboard/index.rst:103
 msgid ""
 "In the **set up fields** tab, define the label, the number and the main "
 "label (optional, this is the name your table will have). In our case, *the "
@@ -133,7 +158,7 @@ msgstr ""
 "rótulo será \"ano\"*, *o número será \"número de ingressos\"* e o *rótulo "
 "principal será \"número de ingressos por ano\"*"
 
-#: ../../source/advanceddashboard/index.rst:90
+#: ../../source/advanceddashboard/index.rst:104
 msgid ""
 "Select the type of graph (this is for information purposes only, so that you"
 " can preview your table; you will be asked to select the type of graph you "
@@ -143,11 +168,11 @@ msgstr ""
 "você possa visualizar sua tabela; você será solicitado a selecionar o tipo "
 "de gráfico que deseja que apareça no bloco mais tarde),"
 
-#: ../../source/advanceddashboard/index.rst:91
+#: ../../source/advanceddashboard/index.rst:105
 msgid "You can limit the amount of data to be displayed."
 msgstr "Você pode limitar a quantidade de dados a serem mostrados."
 
-#: ../../source/advanceddashboard/index.rst:92
+#: ../../source/advanceddashboard/index.rst:106
 msgid "Then click on **Save fields and preview**."
 msgstr "Então clique em **Salvar campos e visualizar**."
 
@@ -155,11 +180,11 @@ msgstr "Então clique em **Salvar campos e visualizar**."
 msgid "card setup"
 msgstr "configuração do cartão"
 
-#: ../../source/advanceddashboard/index.rst:98
+#: ../../source/advanceddashboard/index.rst:114
 msgid "Dashboard settings"
 msgstr "Configuração de painel de visualização"
 
-#: ../../source/advanceddashboard/index.rst:100
+#: ../../source/advanceddashboard/index.rst:116
 msgid ""
 "From **Assistance** > **Dashboard**, select the dashboard that is to receive"
 " the new tile"
@@ -167,19 +192,19 @@ msgstr ""
 "Do **Assistência** > **Painel de controle**, selecione o painel de controle "
 "que irá receber o novo bloco"
 
-#: ../../source/advanceddashboard/index.rst:101
+#: ../../source/advanceddashboard/index.rst:117
 msgid "Click on edit icon"
 msgstr "Clique no ícone de edição"
 
-#: ../../source/advanceddashboard/index.rst:102
+#: ../../source/advanceddashboard/index.rst:118
 msgid "Add a new tile with plus icon"
 msgstr "Adicione um novo bloco com ícone de adição"
 
-#: ../../source/advanceddashboard/index.rst:103
+#: ../../source/advanceddashboard/index.rst:119
 msgid "Select the query you have just created"
 msgstr "Selecione a consulta que você acabou de criar"
 
-#: ../../source/advanceddashboard/index.rst:104
+#: ../../source/advanceddashboard/index.rst:120
 msgid "Choose a colour for your tile"
 msgstr "Escolha uma cor para o seu bloco"
 
@@ -187,11 +212,11 @@ msgstr "Escolha uma cor para o seu bloco"
 msgid "more card setup"
 msgstr "mais configurações do cartão"
 
-#: ../../source/advanceddashboard/index.rst:110
+#: ../../source/advanceddashboard/index.rst:128
 msgid "You will then be asked to select the chart type"
 msgstr "Você será então solicitado a selecionar o tipo de gráfico."
 
-#: ../../source/advanceddashboard/index.rst:111
+#: ../../source/advanceddashboard/index.rst:129
 msgid ""
 "Some dashboards may ask you to use colours and display values and labels."
 msgstr ""
@@ -201,13 +226,23 @@ msgstr ""
 msgid "label setup"
 msgstr "configuração da etiqueta"
 
-#: ../../source/advanceddashboard/index.rst:117
+#: ../../source/advanceddashboard/index.rst:137
 msgid "Your tile is now ready"
 msgstr "Seu título está pronto agora."
 
 #: ../../source/advanceddashboard/index.rst-1
 msgid "the card is ready"
 msgstr "o cartão está pronto"
+
+#: ../../source/advanceddashboard/index.rst:145
+msgid "FAQ"
+msgstr ""
+
+#: ../../source/advanceddashboard/index.rst:147
+msgid ""
+"If you have any questions about using the plugin, please consult `our FAQ "
+"<https://faq.teclib.com/04_Plugins/Advanced_dashboard/>`_"
+msgstr ""
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"

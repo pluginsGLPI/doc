@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-26 16:17+0100\n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
 "PO-Revision-Date: 2024-01-26 14:57+0000\n"
 "Language-Team: Spanish (Colombia) (https://app.transifex.com/teclib/teams/28042/es_CO/)\n"
 "MIME-Version: 1.0\n"
@@ -22,10 +22,45 @@ msgid "Translate"
 msgstr ""
 
 #: ../../source/translate/index.rst:6
+msgid "Requirements (on-premise)"
+msgstr ""
+
+#: ../../source/translate/index.rst:9
+msgid "GLPI Version"
+msgstr ""
+
+#: ../../source/translate/index.rst:9
+msgid "Minimum PHP"
+msgstr ""
+
+#: ../../source/translate/index.rst:9
+msgid "Recommended"
+msgstr ""
+
+#: ../../source/translate/index.rst:11
+msgid "10.0.x"
+msgstr ""
+
+#: ../../source/translate/index.rst:11
+msgid "8.1"
+msgstr ""
+
+#: ../../source/translate/index.rst:11
+msgid "8.2"
+msgstr ""
+
+#: ../../source/translate/index.rst:15
+msgid ""
+"A `basic licence <https://services.glpi-network.com/#offers>`_ (or higher) "
+"is required. This plugin is also available from the `Cloud <https://glpi-"
+"network.cloud/fr/>`__."
+msgstr ""
+
+#: ../../source/translate/index.rst:18
 msgid "Introduction"
 msgstr ""
 
-#: ../../source/translate/index.rst:8
+#: ../../source/translate/index.rst:20
 msgid ""
 "The **Translate** plugin for GLPI is a handy tool designed to enhance "
 "multilingual communication within your GLPI. Leveraging `DeepL "
@@ -34,7 +69,7 @@ msgid ""
 "timeline, fostering seamless collaboration within international teams."
 msgstr ""
 
-#: ../../source/translate/index.rst:10
+#: ../../source/translate/index.rst:22
 msgid ""
 "Whether you're managing projects with teams scattered worldwide or simply "
 "aiming to facilitate communication with users in different languages, the "
@@ -42,59 +77,59 @@ msgid ""
 "instance."
 msgstr ""
 
-#: ../../source/translate/index.rst:13
+#: ../../source/translate/index.rst:25
 msgid "Features"
 msgstr ""
 
-#: ../../source/translate/index.rst:15
+#: ../../source/translate/index.rst:27
 msgid "Translate individual timeline elements"
 msgstr ""
 
-#: ../../source/translate/index.rst:16
+#: ../../source/translate/index.rst:28
 msgid "Translate the entire ticket timeline"
 msgstr ""
 
-#: ../../source/translate/index.rst:17
+#: ../../source/translate/index.rst:29
 msgid "Translate a follow-up during composition"
 msgstr ""
 
-#: ../../source/translate/index.rst:18
+#: ../../source/translate/index.rst:30
 msgid "Restrict translation to specific languages"
 msgstr ""
 
-#: ../../source/translate/index.rst:19
+#: ../../source/translate/index.rst:31
 msgid "Restrict translation to specific types of timeline elements"
 msgstr ""
 
-#: ../../source/translate/index.rst:20
+#: ../../source/translate/index.rst:32
 msgid "API usage notification"
 msgstr ""
 
-#: ../../source/translate/index.rst:21
+#: ../../source/translate/index.rst:33
 msgid "Translation rights management"
 msgstr ""
 
-#: ../../source/translate/index.rst:24
+#: ../../source/translate/index.rst:36
 msgid "Requirements"
 msgstr ""
 
-#: ../../source/translate/index.rst:26
+#: ../../source/translate/index.rst:38
 msgid "GLPI version 10.0.10 or higher"
 msgstr ""
 
-#: ../../source/translate/index.rst:27
+#: ../../source/translate/index.rst:39
 msgid "DeepL API token"
 msgstr ""
 
-#: ../../source/translate/index.rst:30
+#: ../../source/translate/index.rst:42
 msgid "Operation"
 msgstr ""
 
-#: ../../source/translate/index.rst:33
+#: ../../source/translate/index.rst:45
 msgid "Translating an Element"
 msgstr ""
 
-#: ../../source/translate/index.rst:35
+#: ../../source/translate/index.rst:47
 msgid ""
 "Translation of a ticket element is done by activating the translation button"
 " located at the top right of the element. The target language will "
@@ -105,32 +140,32 @@ msgstr ""
 msgid "Translate Button"
 msgstr ""
 
-#: ../../source/translate/index.rst:46
+#: ../../source/translate/index.rst:59
 msgid ""
 "If the translation button does not appear, it may be due to various reasons:"
 msgstr ""
 
-#: ../../source/translate/index.rst:43 ../../source/translate/index.rst:87
+#: ../../source/translate/index.rst:56 ../../source/translate/index.rst:104
 msgid "the plugin is not configured"
 msgstr ""
 
-#: ../../source/translate/index.rst:44 ../../source/translate/index.rst:88
+#: ../../source/translate/index.rst:57 ../../source/translate/index.rst:105
 msgid "you do not have the right to translate"
 msgstr ""
 
-#: ../../source/translate/index.rst:45
+#: ../../source/translate/index.rst:58
 msgid "your preferred language is not allowed in the configuration"
 msgstr ""
 
-#: ../../source/translate/index.rst:46 ../../source/translate/index.rst:89
+#: ../../source/translate/index.rst:59 ../../source/translate/index.rst:106
 msgid "the element you want to translate is not allowed in the configuration"
 msgstr ""
 
-#: ../../source/translate/index.rst:49
+#: ../../source/translate/index.rst:62
 msgid "Undo Translation / Display Original Version"
 msgstr ""
 
-#: ../../source/translate/index.rst:51
+#: ../../source/translate/index.rst:64
 msgid ""
 "Once an element is translated, it will remain so until you request to undo "
 "the translation and display the original version. Displaying the original "
@@ -142,11 +177,11 @@ msgstr ""
 msgid "Undo Translation Button"
 msgstr ""
 
-#: ../../source/translate/index.rst:57
+#: ../../source/translate/index.rst:71
 msgid "Translate Entire Timeline"
 msgstr ""
 
-#: ../../source/translate/index.rst:59
+#: ../../source/translate/index.rst:73
 msgid ""
 "It is possible to translate the entire timeline at once. To do this, display"
 " the additional options menu at the bottom right, next to the \"Save\" "
@@ -157,11 +192,11 @@ msgstr ""
 msgid "Translate All Elements"
 msgstr ""
 
-#: ../../source/translate/index.rst:65
+#: ../../source/translate/index.rst:80
 msgid "Undo Translations / Display Original Versions of Entire Timeline"
 msgstr ""
 
-#: ../../source/translate/index.rst:67
+#: ../../source/translate/index.rst:82
 msgid ""
 "If all timeline elements are translated and you want to display their "
 "original versions, display the additional options menu at the bottom right, "
@@ -173,11 +208,11 @@ msgstr ""
 msgid "Undo All Translations"
 msgstr ""
 
-#: ../../source/translate/index.rst:73
+#: ../../source/translate/index.rst:89
 msgid "Translating a Follow-up during Writing"
 msgstr ""
 
-#: ../../source/translate/index.rst:75
+#: ../../source/translate/index.rst:91
 msgid ""
 "It is possible to translate a follow-up before it is sent. To do this, write"
 " your follow-up and click on the drop-down menu at the top right of the "
@@ -185,13 +220,13 @@ msgid ""
 "up's content should be translated."
 msgstr ""
 
-#: ../../source/translate/index.rst:77
+#: ../../source/translate/index.rst:93
 msgid ""
 "Once your follow-up is translated, you can revert to the original text by "
 "selecting the \"Original\" option in the previous language selection menu."
 msgstr ""
 
-#: ../../source/translate/index.rst:79
+#: ../../source/translate/index.rst:95
 msgid ""
 "This feature is also available for tasks, validation requests, and "
 "solutions."
@@ -201,16 +236,16 @@ msgstr ""
 msgid "Translate Follow-up"
 msgstr ""
 
-#: ../../source/translate/index.rst:89
+#: ../../source/translate/index.rst:106
 msgid ""
 "If the translation menu does not appear, it may be due to various reasons:"
 msgstr ""
 
-#: ../../source/translate/index.rst:92
+#: ../../source/translate/index.rst:109
 msgid "Persistence of Translations"
 msgstr ""
 
-#: ../../source/translate/index.rst:94
+#: ../../source/translate/index.rst:111
 msgid ""
 "To reduce character consumption and improve plugin performance, translations"
 " are saved in the database. This approach allows sharing translations among "
@@ -218,25 +253,25 @@ msgid ""
 " the same language."
 msgstr ""
 
-#: ../../source/translate/index.rst:96
+#: ../../source/translate/index.rst:113
 msgid ""
 "Translation requests from a user for an element are also saved, "
 "automatically displaying the translated version when returning to a ticket's"
 " timeline."
 msgstr ""
 
-#: ../../source/translate/index.rst:98
+#: ../../source/translate/index.rst:115
 msgid ""
 "If an element is modified, old translations will be considered obsolete. "
 "When a user requests a translation, a new translation will be performed for "
 "that element."
 msgstr ""
 
-#: ../../source/translate/index.rst:101
+#: ../../source/translate/index.rst:118
 msgid "DeepL API Key"
 msgstr ""
 
-#: ../../source/translate/index.rst:103
+#: ../../source/translate/index.rst:120
 msgid ""
 "The **Translate** plugin uses the DeepL translation service. For this, a "
 "DeepL API key is required. DeepL offers two API plans, a free plan (limited "
@@ -244,77 +279,77 @@ msgid ""
 "€0.00002/character). Both plans are supported by the plugin."
 msgstr ""
 
-#: ../../source/translate/index.rst:106
+#: ../../source/translate/index.rst:123
 msgid "Obtaining the API Key"
 msgstr ""
 
-#: ../../source/translate/index.rst:108
+#: ../../source/translate/index.rst:125
 msgid "Visit the DeepL website, \"API\" section (https://www.deepl.com/pro-api)"
 msgstr ""
 
-#: ../../source/translate/index.rst:110
+#: ../../source/translate/index.rst:127
 msgid "DeepL API Section"
 msgstr ""
 
-#: ../../source/translate/index.rst:113
+#: ../../source/translate/index.rst:132
 msgid "Select a plan"
 msgstr ""
 
-#: ../../source/translate/index.rst:115
+#: ../../source/translate/index.rst:134
 msgid "Select Plan"
 msgstr ""
 
-#: ../../source/translate/index.rst:118
+#: ../../source/translate/index.rst:139
 msgid "Log in or create an account"
 msgstr ""
 
-#: ../../source/translate/index.rst:120
-msgid "Log in or Create Account"
+#: ../../source/translate/index.rst:141
+msgid "Log in or Create Accoun"
 msgstr ""
 
-#: ../../source/translate/index.rst:123
+#: ../../source/translate/index.rst:145
 msgid "Enter your personal informations"
 msgstr ""
 
-#: ../../source/translate/index.rst:125
+#: ../../source/translate/index.rst:147
 msgid "Enter Personal Informations"
 msgstr ""
 
-#: ../../source/translate/index.rst:128
+#: ../../source/translate/index.rst:151
 msgid "Accept the terms of use and complete the registration"
 msgstr ""
 
-#: ../../source/translate/index.rst:130
+#: ../../source/translate/index.rst:153
 msgid "Accept Terms"
 msgstr ""
 
-#: ../../source/translate/index.rst:133
+#: ../../source/translate/index.rst:157
 msgid "Click on \"Account management\" to retrieve your API key"
 msgstr ""
 
-#: ../../source/translate/index.rst:135
+#: ../../source/translate/index.rst:159
 msgid "Account Management"
 msgstr ""
 
-#: ../../source/translate/index.rst:138
+#: ../../source/translate/index.rst:163
 msgid ""
 "In the \"Account\" tab, retrieve your API key at the bottom of the page, in "
 "the \"Authentication Key for DeepL API\" section"
 msgstr ""
 
-#: ../../source/translate/index.rst:140
+#: ../../source/translate/index.rst:165
 msgid "Retrieve API Key"
 msgstr ""
 
-#: ../../source/translate/index.rst:144
+#: ../../source/translate/index.rst:171
 msgid "Configuration"
 msgstr ""
 
-#: ../../source/translate/index.rst:147
+#: ../../source/translate/index.rst:174
 msgid "Initial Configuration"
 msgstr ""
 
-#: ../../source/translate/index.rst:149
+#: ../../source/translate/index.rst:176
 msgid "After installing the plugin, it is necessary to enter a DeepL API key."
 msgstr ""
 
@@ -322,162 +357,172 @@ msgstr ""
 msgid "Enter API Key"
 msgstr ""
 
-#: ../../source/translate/index.rst:155
+#: ../../source/translate/index.rst:183
 msgid "Consumption Configuration"
 msgstr ""
 
-#: ../../source/translate/index.rst:157
+#: ../../source/translate/index.rst:185
 msgid ""
 "Some configuration options are only available if the API key is linked to "
 "the paid plan."
 msgstr ""
 
-#: ../../source/translate/index.rst:160
+#: ../../source/translate/index.rst:188
 msgid "Usage"
 msgstr ""
 
-#: ../../source/translate/index.rst:162
+#: ../../source/translate/index.rst:190
 msgid ""
 "This progress bar allows you to monitor character consumption at the API "
 "level."
 msgstr ""
 
-#: ../../source/translate/index.rst:165
+#: ../../source/translate/index.rst:193
 msgid "Allow Exceeding Limit"
 msgstr ""
 
-#: ../../source/translate/index.rst:167
+#: ../../source/translate/index.rst:195
 msgid ""
 "Allows setting or not setting a monthly limit on character consumption."
 msgstr ""
 
-#: ../../source/translate/index.rst:169
+#: ../../source/translate/index.rst:197
 msgid "> This option is limited to the paid DeepL API plan."
 msgstr ""
 
-#: ../../source/translate/index.rst:171
+#: ../../source/translate/index.rst:199
 msgid "**Usage Limit**"
 msgstr ""
 
-#: ../../source/translate/index.rst:173
+#: ../../source/translate/index.rst:201
 msgid "Allows setting the type of limitation:"
 msgstr ""
 
-#: ../../source/translate/index.rst:175
+#: ../../source/translate/index.rst:203
 msgid "Characters: Limits usage to the number of characters"
 msgstr ""
 
-#: ../../source/translate/index.rst:176
+#: ../../source/translate/index.rst:204
 msgid "Cost: Limits usage to cost"
 msgstr ""
 
-#: ../../source/translate/index.rst:178 ../../source/translate/index.rst:188
+#: ../../source/translate/index.rst:206 ../../source/translate/index.rst:216
 msgid "This option is limited to the paid DeepL API plan."
 msgstr ""
 
-#: ../../source/translate/index.rst:180
+#: ../../source/translate/index.rst:208
 msgid "**Per Characters / Per Cost**"
 msgstr ""
 
-#: ../../source/translate/index.rst:182
+#: ../../source/translate/index.rst:210
 msgid ""
 "Allows setting the consumption limit corresponding to the type defined "
 "above."
 msgstr ""
 
-#: ../../source/translate/index.rst:184
+#: ../../source/translate/index.rst:212
 msgid "For usage limited by cost, monthly subscription fees are not included."
 msgstr ""
 
-#: ../../source/translate/index.rst:191
+#: ../../source/translate/index.rst:219
 msgid "Maximum Number of Characters Translated per Translation"
 msgstr ""
 
-#: ../../source/translate/index.rst:193
+#: ../../source/translate/index.rst:221
 msgid ""
 "Allows setting a maximum number of characters translated at once. This "
 "configuration is important and filters out overly large and resource-"
 "consuming elements for the API."
 msgstr ""
 
-#: ../../source/translate/index.rst:196
+#: ../../source/translate/index.rst:224
 msgid "Notification Configuration"
 msgstr ""
 
-#: ../../source/translate/index.rst:199
+#: ../../source/translate/index.rst:227
 msgid "Enable API Usage Notifications"
 msgstr ""
 
-#: ../../source/translate/index.rst:201
+#: ../../source/translate/index.rst:229
 msgid ""
 "Allows enabling API usage notifications. Once enabled, alert thresholds are "
 "configurable using the \"Usage Threshold\" fields. Default value: Yes"
 msgstr ""
 
-#: ../../source/translate/index.rst:205
+#: ../../source/translate/index.rst:233
 msgid "Usage Threshold"
 msgstr ""
 
-#: ../../source/translate/index.rst:207
+#: ../../source/translate/index.rst:235
 msgid ""
 "This option allows setting usage alert thresholds. Requires enabling the "
 "\"Enable API Usage Notifications\" option. Default values: 25%, 50%, 75%, "
 "100%"
 msgstr ""
 
-#: ../../source/translate/index.rst:211
+#: ../../source/translate/index.rst:239
 msgid "User Configuration"
 msgstr ""
 
-#: ../../source/translate/index.rst:214
+#: ../../source/translate/index.rst:242
 msgid "Allowed Target Languages for All Users"
 msgstr ""
 
-#: ../../source/translate/index.rst:216
+#: ../../source/translate/index.rst:244
 msgid ""
 "Defines the languages in which elements can be translated by all users."
 msgstr ""
 
-#: ../../source/translate/index.rst:217
+#: ../../source/translate/index.rst:245
 msgid "Default values: Languages proposed by DeepL"
 msgstr ""
 
-#: ../../source/translate/index.rst:220
+#: ../../source/translate/index.rst:248
 msgid "Allowed Translatable Elements for All Users"
 msgstr ""
 
-#: ../../source/translate/index.rst:222
+#: ../../source/translate/index.rst:250
 msgid "Defines the elements that can be translated by all users."
 msgstr ""
 
-#: ../../source/translate/index.rst:223
+#: ../../source/translate/index.rst:251
 msgid ""
 "Default values: Ticket, Follow-up, Ticket Task, Solution, Validation Request"
 msgstr ""
 
-#: ../../source/translate/index.rst:226
+#: ../../source/translate/index.rst:254
 msgid "Rights"
 msgstr ""
 
-#: ../../source/translate/index.rst:229
+#: ../../source/translate/index.rst:257
 msgid ""
 "Allow translation of displayed elements (language configured in preferences)"
 msgstr ""
 
-#: ../../source/translate/index.rst:231
+#: ../../source/translate/index.rst:259
 msgid ""
 "This right defines whether a profile can translate timeline elements of a "
 "ticket (Ticket, Follow-up, Task, Solution, Validation Request)."
 msgstr ""
 
-#: ../../source/translate/index.rst:234
+#: ../../source/translate/index.rst:262
 msgid "Allow translation while writing"
 msgstr ""
 
-#: ../../source/translate/index.rst:236
+#: ../../source/translate/index.rst:264
 msgid ""
 "This right defines whether a profile can translate the content of a follow-"
 "up before sending."
+msgstr ""
+
+#: ../../source/translate/index.rst:267
+msgid "FAQ"
+msgstr ""
+
+#: ../../source/translate/index.rst:269
+msgid ""
+"If you have any questions about using the plugin, please consult `our FAQ "
+"<https://faq.teclib.com/04_Plugins/Translate/>`_"
 msgstr ""
 
 #: ../../<rst_epilog>:2

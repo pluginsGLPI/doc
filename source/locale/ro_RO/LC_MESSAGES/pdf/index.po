@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-31 14:11+0100\n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
 "PO-Revision-Date: 2024-01-31 13:12+0000\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/teclib/teams/28042/ro_RO/)\n"
 "MIME-Version: 1.0\n"
@@ -63,40 +63,56 @@ msgstr ""
 msgid "Go to the marketplace. Download and install the plugin **PDF**"
 msgstr ""
 
-#: ../../source/pdf/index.rst:25
-msgid "Set up the plugin"
+#: ../../source/pdf/index.rst-1
+msgid "install the plugin"
 msgstr ""
 
 #: ../../source/pdf/index.rst:27
-msgid "From **Setup > General > Print to pdf**, select :"
+msgid "Set up the plugin"
 msgstr ""
 
 #: ../../source/pdf/index.rst:29
+msgid "From **Setup > General > Print to pdf**, select :"
+msgstr ""
+
+#: ../../source/pdf/index.rst:31
 msgid "your preferred currency"
 msgstr ""
 
-#: ../../source/pdf/index.rst:30
+#: ../../source/pdf/index.rst:32
 msgid "Any text that will be displayed on the PDF."
 msgstr ""
 
-#: ../../source/pdf/index.rst:36
+#: ../../source/pdf/index.rst-1
+msgid "setup the plugin"
+msgstr ""
+
+#: ../../source/pdf/index.rst:40
 msgid "Using the plugin"
 msgstr ""
 
-#: ../../source/pdf/index.rst:39
+#: ../../source/pdf/index.rst:43
 msgid "Printing a contract and its related elements"
 msgstr ""
 
-#: ../../source/pdf/index.rst:41
+#: ../../source/pdf/index.rst:45
 msgid "From **Management > Contracts**, select the contract you require"
 msgstr ""
 
-#: ../../source/pdf/index.rst:42
+#: ../../source/pdf/index.rst:46
 msgid "From the **Print pdf** tab"
 msgstr ""
 
-#: ../../source/pdf/index.rst:43
+#: ../../source/pdf/index.rst:47
 msgid "Click on **Print**"
+msgstr ""
+
+#: ../../source/pdf/index.rst-1
+msgid "example"
+msgstr ""
+
+#: ../../source/pdf/index.rst-1
+msgid "print PDF"
 msgstr ""
 
 #: ../../<rst_epilog>:2

@@ -1,204 +1,212 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016, Teclib'
+# Copyright (C) 2016-2024, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: GLPI plugins 0.1\n"
+"Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-14 15:17+0200\n"
+"POT-Creation-Date: 2024-02-14 19:27+0100\n"
 "PO-Revision-Date: 2016-10-25 19:22+0000\n"
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/teclib/teams/28042/pt_BR/)\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/teclib/teams/28042/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt_BR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../../source/empty/index.rst:2
 msgid "Empty"
 msgstr ""
 
-#: ../../source/empty/index.rst:4
-msgid "Sources link: https://github.com/pluginsGLPI/empty"
-msgstr ""
-
-#: ../../source/empty/index.rst:5
-msgid "Download: *not relevant*"
-msgstr ""
-
-#: ../../source/empty/index.rst:7
-msgid "This plugins does... nothing. Really!"
+#: ../../source/empty/index.rst:8
+msgid "Download"
 msgstr ""
 
 #: ../../source/empty/index.rst:9
+msgid "Sources"
+msgstr ""
+
+#: ../../source/empty/index.rst:10
+msgid "*not relevant*"
+msgstr ""
+
+#: ../../source/empty/index.rst:11
+msgid "`<https://github.com/pluginsGLPI/empty>`_"
+msgstr ""
+
+#: ../../source/empty/index.rst:13
+msgid "This plugins does... nothing. Really!"
+msgstr ""
+
+#: ../../source/empty/index.rst:15
 msgid ""
 "This is designed to be a start point for writing plugins, with very minimal "
 "defaults usefull scripts, and some advices. If you're looking for plugins "
 "possibilities, take a look at :doc:`the example plugin <../example/index>`."
 msgstr ""
 
-#: ../../source/empty/index.rst:12
+#: ../../source/empty/index.rst:18
 msgid "Create a new plugin"
 msgstr ""
 
-#: ../../source/empty/index.rst:14
+#: ../../source/empty/index.rst:20
 msgid ""
 "An utility script to create a new plugin - ``plugin.sh`` is provided. You "
 "will call it with a plugin name, a version, an optionally the path where "
 "your want it to be created:"
 msgstr ""
 
-#: ../../source/empty/index.rst:20
+#: ../../source/empty/index.rst:26
 msgid ""
 "The script will sanityze and lowercase the name you provided, copy the "
 "templates files into the new directory, and then make some replacements."
 msgstr ""
 
-#: ../../source/empty/index.rst:22
+#: ../../source/empty/index.rst:28
 msgid ""
 "Using the script without destination parameter, it will create you directory"
 " plugin, ``mygreatplugin`` just beside its own directory. Otherwise, it "
 "would create the new directory in the specified path:"
 msgstr ""
 
-#: ../../source/empty/index.rst:29
+#: ../../source/empty/index.rst:35
 msgid "Update existing plugin"
 msgstr ""
 
-#: ../../source/empty/index.rst:31
+#: ../../source/empty/index.rst:37
 msgid ""
 "There is no automated way to update an existing plugin, because there would "
 "be too many cases to handle. But don't worry, procedure is quite simple ;)"
 msgstr ""
 
-#: ../../source/empty/index.rst:33
+#: ../../source/empty/index.rst:39
 msgid "Using empty features is as simple as creating a few files:"
 msgstr ""
 
-#: ../../source/empty/index.rst:35
+#: ../../source/empty/index.rst:41
 msgid "``composer.json``,"
 msgstr ""
 
-#: ../../source/empty/index.rst:36
+#: ../../source/empty/index.rst:42
 msgid "``.travis.yml``,"
 msgstr ""
 
-#: ../../source/empty/index.rst:37
+#: ../../source/empty/index.rst:43
 msgid "``Robofile.php``,"
 msgstr ""
 
-#: ../../source/empty/index.rst:38
+#: ../../source/empty/index.rst:44
 msgid "``.gitignore``."
 msgstr ""
 
-#: ../../source/empty/index.rst:40
+#: ../../source/empty/index.rst:46
 msgid ""
 "If you do not have yet any composer or travis configuration file, you can "
 "just copy the ones from empty plugin. Otherwise; in you ``composer.json``, "
 "just add:"
 msgstr ""
 
-#: ../../source/empty/index.rst:49
+#: ../../source/empty/index.rst:55
 msgid "And then run ``composer require glpi-project/tools``."
 msgstr ""
 
-#: ../../source/empty/index.rst:51
+#: ../../source/empty/index.rst:57
 msgid "In the travis configuration file, just add the CS call:"
 msgstr ""
 
-#: ../../source/empty/index.rst:58
+#: ../../source/empty/index.rst:64
 msgid "In the ``.gitignore`` file, add the following:"
 msgstr ""
 
-#: ../../source/empty/index.rst:68
+#: ../../source/empty/index.rst:74
 msgid ""
 "As for the Robo.li configuration file, note that the one embed in the empty "
 "plugin is a bit specific, you'll have to edit it in order to get things "
 "working. See below for more informations."
 msgstr ""
 
-#: ../../source/empty/index.rst:70
+#: ../../source/empty/index.rst:76
 msgid ""
 "Finally, as the ``tools`` project will provide you some features, you can "
 "remove duplicated tools scripts (files such as ``release``, "
 "``extract_template.sh``, ...) that would be present in your plugin."
 msgstr ""
 
-#: ../../source/empty/index.rst:73
+#: ../../source/empty/index.rst:79
 msgid "Features"
 msgstr ""
 
-#: ../../source/empty/index.rst:76
+#: ../../source/empty/index.rst:82
 msgid "Coding standards"
 msgstr ""
 
-#: ../../source/empty/index.rst:78
+#: ../../source/empty/index.rst:84
 msgid ""
 "The GLPI `PHPCodeSniffer <http://pear.php.net/package/PHP_CodeSniffer>`_ "
 "rulesets are provided as ``vendor/glpi-project/coding-"
 "standard/GlpiStandard/``."
 msgstr ""
 
-#: ../../source/empty/index.rst:80
+#: ../../source/empty/index.rst:86
 msgid "To check coding standards, just use the Robo.li task ``code:cs``:"
 msgstr ""
 
-#: ../../source/empty/index.rst:88
+#: ../../source/empty/index.rst:94
 msgid ""
 "The above command will ignore ``vendor`` and run on the current directory."
 msgstr ""
 
-#: ../../source/empty/index.rst:90
+#: ../../source/empty/index.rst:96
 msgid ""
 "If you want to adapt ignore list or checked directories, you can just "
 "override ``$csignore`` and/or ``$csfiles`` in the ``RoboFile.php`` of the "
 "plugin:"
 msgstr ""
 
-#: ../../source/empty/index.rst:106
+#: ../../source/empty/index.rst:112
 msgid "Automated checks"
 msgstr ""
 
-#: ../../source/empty/index.rst:108
+#: ../../source/empty/index.rst:114
 msgid ""
 "For convenience; a ``.travis.yml`` file is also provided, that is setup to:"
 msgstr ""
 
-#: ../../source/empty/index.rst:110
+#: ../../source/empty/index.rst:116
 msgid "check coding standards,"
 msgstr ""
 
-#: ../../source/empty/index.rst:111
+#: ../../source/empty/index.rst:117
 msgid "run on a bunch on different configuration"
 msgstr ""
 
-#: ../../source/empty/index.rst:113
+#: ../../source/empty/index.rst:119
 msgid ""
 "You still have to enable travis-ci builds from the website in order to "
 "activate automated tests."
 msgstr ""
 
-#: ../../source/empty/index.rst:115
+#: ../../source/empty/index.rst:121
 msgid ""
 "Of course, the ``.travis.yml`` file can be pimped; you can run unit tests, "
 "create/update a database, activate notifications, and so on. Refer to the "
 "`Travis-CI documentation <https://docs.travis-ci.com/>`_ to know more."
 msgstr ""
 
-#: ../../source/empty/index.rst:118
+#: ../../source/empty/index.rst:124
 msgid "Minifying CSS and JS"
 msgstr ""
 
-#: ../../source/empty/index.rst:122
+#: ../../source/empty/index.rst:128
 msgid ""
 "Disabled as of 0.1.13, because libs used from Robo are out of date and "
 "connot be replaced."
 msgstr ""
 
-#: ../../source/empty/index.rst:124
+#: ../../source/empty/index.rst:130
 msgid ""
 "A convenient script, using `Robo.li <http://robo.li>`_ is provided. The "
 "``RoboFile.php`` file is an empty class that extends "
@@ -206,56 +214,56 @@ msgid ""
 " which you can set your own stuff."
 msgstr ""
 
-#: ../../source/empty/index.rst:126
+#: ../../source/empty/index.rst:132
 msgid ""
 "That way, you can quite easily update the common file and get your own tasks"
 " remaining the same."
 msgstr ""
 
-#: ../../source/empty/index.rst:128
+#: ../../source/empty/index.rst:134
 msgid ""
 "To get the required libs installed, you'll have to `get composer installed "
 "<http://getcomposer.org>`_ and then run:"
 msgstr ""
 
-#: ../../source/empty/index.rst:134
+#: ../../source/empty/index.rst:140
 msgid "There are three available targets:"
 msgstr ""
 
-#: ../../source/empty/index.rst:136
+#: ../../source/empty/index.rst:142
 msgid "``minify`` that will minify all CSS and JS files (see below),"
 msgstr ""
 
-#: ../../source/empty/index.rst:137
+#: ../../source/empty/index.rst:143
 msgid ""
 "``minify:css`` that will minify all css  stylesheets files in the ``css`` "
 "directory of your plugin, creating a ``.min.css`` version along with the "
 "original file,"
 msgstr ""
 
-#: ../../source/empty/index.rst:138
+#: ../../source/empty/index.rst:144
 msgid ""
 "``minify:js`` that will minify all javascript files in the ``js`` directory "
 "of your plugin, creating a ``.min.js`` version along with the original file."
 msgstr ""
 
-#: ../../source/empty/index.rst:140
+#: ../../source/empty/index.rst:146
 msgid "Just choose a target, and run something like:"
 msgstr ""
 
-#: ../../source/empty/index.rst:148
+#: ../../source/empty/index.rst:154
 msgid ""
 "Remember compiled files should not be commited on your repository sources. "
 "It is a release process to minify files."
 msgstr ""
 
-#: ../../source/empty/index.rst:150
+#: ../../source/empty/index.rst:156
 msgid ""
 "Also remember to adapt your scripts so they load your minified versions if "
 "available, and the original one otherwise :)"
 msgstr ""
 
-#: ../../source/empty/index.rst:152
+#: ../../source/empty/index.rst:158
 msgid ""
 "As of GLPI 9.2; you do not have to care about loading minified files when "
 "using ``add_css`` and ``add_javascript`` hooks! You just need to call not "
@@ -263,17 +271,17 @@ msgid ""
 "not in `DEBUG` mode."
 msgstr ""
 
-#: ../../source/empty/index.rst:155
+#: ../../source/empty/index.rst:161
 msgid "Translations"
 msgstr ""
 
-#: ../../source/empty/index.rst:157
+#: ../../source/empty/index.rst:163
 msgid ""
 "GLPI and its plugins use gettext for internationnalization. Several steps "
 "are required before that can work:"
 msgstr ""
 
-#: ../../source/empty/index.rst:159
+#: ../../source/empty/index.rst:165
 msgid ""
 "1 translatable strings must be extracted from source files, a ``POT`` file "
 "will be created or updated accordingly, 2 ``PO`` files must be created or "
@@ -281,20 +289,20 @@ msgid ""
 "files must be compiled from the latest ``PO``."
 msgstr ""
 
-#: ../../source/empty/index.rst:164
+#: ../../source/empty/index.rst:170
 msgid ""
 "In the ``vendor/bin`` directory, you'll find a ``extract_template.sh`` "
 "script. This is designed to extract translatable strings from your source "
 "code (see first point above)."
 msgstr ""
 
-#: ../../source/empty/index.rst:166
+#: ../../source/empty/index.rst:172
 msgid ""
 "Once it has been ran, a ``locale/mygreatplugin.pot`` file will be "
 "created/updated."
 msgstr ""
 
-#: ../../source/empty/index.rst:168
+#: ../../source/empty/index.rst:174
 msgid ""
 "For the second and third step, you'll have to make a choice. You can use "
 "gettext tools to update your ``PO`` files and translate them using a "
@@ -304,18 +312,18 @@ msgid ""
 "translated using Transifex right now."
 msgstr ""
 
-#: ../../source/empty/index.rst:170
+#: ../../source/empty/index.rst:176
 msgid ""
 "Once you get your updated ``PO`` files, you'll have to compile them to "
 "``MO`` files. You can run it manually, the release script will compile them "
 "again anywways; see the :ref:`compiling MO files section <compile_mo>`."
 msgstr ""
 
-#: ../../source/empty/index.rst:175
+#: ../../source/empty/index.rst:181
 msgid "Release script"
 msgstr ""
 
-#: ../../source/empty/index.rst:177
+#: ../../source/empty/index.rst:183
 msgid ""
 "A release script is provided in ``vendor/bin/plugin-release``. This is a "
 "\"simple\" `Python <http://python.org>`_ script; you should just have Python"
@@ -323,113 +331,113 @@ msgid ""
 "distributions)."
 msgstr ""
 
-#: ../../source/empty/index.rst:181
+#: ../../source/empty/index.rst:187
 msgid ""
 "Note that the release script is only compatible if you use semantic "
 "versionning!"
 msgstr ""
 
-#: ../../source/empty/index.rst:183
+#: ../../source/empty/index.rst:189
 msgid ""
 "Using just the defaults, the script will try to retrieve the latest tag in "
 "your git repository, add third party dependencies and create a `Release` on "
 "the github project:"
 msgstr ""
 
-#: ../../source/empty/index.rst:196
+#: ../../source/empty/index.rst:202
 msgid "Requirements"
 msgstr ""
 
-#: ../../source/empty/index.rst:198
+#: ../../source/empty/index.rst:204
 msgid ""
 "You will need a python interpreter installed as well as the following "
 "modules:"
 msgstr ""
 
-#: ../../source/empty/index.rst:200
+#: ../../source/empty/index.rst:206
 msgid "`termcolor <https://pypi.python.org/pypi/termcolor>`_,"
 msgstr ""
 
-#: ../../source/empty/index.rst:201
+#: ../../source/empty/index.rst:207
 msgid "`gitdb <https://github.com/gitpython-developers/gitdb>`_,"
 msgstr ""
 
-#: ../../source/empty/index.rst:202
+#: ../../source/empty/index.rst:208
 msgid ""
 "`github <https://github.com/PyGithub/PyGithub>`_ (to check for existing "
 "versions in also in drafts, and to create github releases), unless you use "
 "the ``--nogithub`` option"
 msgstr ""
 
-#: ../../source/empty/index.rst:204
+#: ../../source/empty/index.rst:210
 msgid ""
 "If you want to get help on the script, try to run ``./vendor/bin/plugin-"
 "release -h``."
 msgstr ""
 
-#: ../../source/empty/index.rst:207
+#: ../../source/empty/index.rst:213
 msgid "Process"
 msgstr ""
 
-#: ../../source/empty/index.rst:209
+#: ../../source/empty/index.rst:215
 msgid "The release process will achieve the following tasks for you:"
 msgstr ""
 
-#: ../../source/empty/index.rst:211
+#: ../../source/empty/index.rst:217
 msgid "check if the version constant is the same as the tag you've requested;"
 msgstr ""
 
-#: ../../source/empty/index.rst:212
+#: ../../source/empty/index.rst:218
 msgid ""
 "check if the version in the website XML file is the same as the tag you've "
 "requested;"
 msgstr ""
 
-#: ../../source/empty/index.rst:213
+#: ../../source/empty/index.rst:219
 msgid ""
 "check if a release already exists, locally, and remotely (assuming your "
 "project is hosted in the *pluginsGLPI* organization and the release is "
 "public);"
 msgstr ""
 
-#: ../../source/empty/index.rst:214
+#: ../../source/empty/index.rst:220
 msgid ""
 "make a `git archive` of the paths that are not excluded (``.git``, "
 "``tools``, ``tests``, ...);"
 msgstr ""
 
-#: ../../source/empty/index.rst:215
+#: ../../source/empty/index.rst:221
 msgid "if any, install composer dependencies;"
 msgstr ""
 
-#: ../../source/empty/index.rst:216
+#: ../../source/empty/index.rst:222
 msgid "if any, compile you ``MO`` files;"
 msgstr ""
 
-#: ../../source/empty/index.rst:217
+#: ../../source/empty/index.rst:223
 msgid ""
 "if any, compile you CSS stylesheets and your Javascript files (using "
 "`Robo.li <http://robo.li>`_);"
 msgstr ""
 
-#: ../../source/empty/index.rst:218
+#: ../../source/empty/index.rst:224
 msgid ""
 "create a release archive with all that; that will be available in the "
 "``dist`` directory;"
 msgstr ""
 
-#: ../../source/empty/index.rst:219
+#: ../../source/empty/index.rst:225
 msgid "use GPG to sign the archive."
 msgstr ""
 
-#: ../../source/empty/index.rst:223
+#: ../../source/empty/index.rst:229
 msgid ""
 "The standard release process will not work on your files directly, it will "
 "make a copy in the ``dist/src`` directory before. The only exception is the "
 ":ref:`MO compiling option <compile_mo>`."
 msgstr ""
 
-#: ../../source/empty/index.rst:225
+#: ../../source/empty/index.rst:231
 msgid ""
 "In order to check if all is OK before doing real release; create your tag "
 "and run ``./vendor/bin/plugin-release -C`` **before pushing your tag**. That"
@@ -437,11 +445,11 @@ msgid ""
 "(remember published tags should **never** be removed)."
 msgstr ""
 
-#: ../../source/empty/index.rst:230
+#: ../../source/empty/index.rst:236
 msgid "Compiling MO files"
 msgstr ""
 
-#: ../../source/empty/index.rst:232
+#: ../../source/empty/index.rst:238
 msgid ""
 "The release process will automatically compile every ``PO`` file it will "
 "found in your ``locales`` directory. But you probably want the sources to "
@@ -449,54 +457,54 @@ msgid ""
 "provide the ``--compile-mo`` (or ``-m``) to achieve that:"
 msgstr ""
 
-#: ../../source/empty/index.rst:240
+#: ../../source/empty/index.rst:246
 msgid ""
 "The above command will work on your plugins files directly; not on a copy as"
 " does other commands."
 msgstr ""
 
-#: ../../source/empty/index.rst:243
+#: ../../source/empty/index.rst:249
 msgid "Pre-releases"
 msgstr ""
 
-#: ../../source/empty/index.rst:245
+#: ../../source/empty/index.rst:251
 msgid ""
 "Per default, the release script will work only on existing tags. Any pre-"
 "release should have its own tag; but you may want to create a release "
 "archive without any tags in some circumstances."
 msgstr ""
 
-#: ../../source/empty/index.rst:247
+#: ../../source/empty/index.rst:253
 msgid ""
 "In order to tell the release script what it should archive, you'll have to "
 "specify several parameters:"
 msgstr ""
 
-#: ../../source/empty/index.rst:249
+#: ../../source/empty/index.rst:255
 msgid "``--commit`` (or ``-c``) giving the commit hash,"
 msgstr ""
 
-#: ../../source/empty/index.rst:250
+#: ../../source/empty/index.rst:256
 msgid ""
 "``--release`` (or ``-r``) giving the release version (usually, it will be "
 "the next release version),"
 msgstr ""
 
-#: ../../source/empty/index.rst:251
+#: ../../source/empty/index.rst:257
 msgid ""
 "``--extra`` (or ``-e``) to specify an extra string (such as *alpha*, *beta*,"
 " *rc1*, etc...)"
 msgstr ""
 
-#: ../../source/empty/index.rst:253
+#: ../../source/empty/index.rst:259
 msgid "As an example with the *order* plugin:"
 msgstr ""
 
-#: ../../source/empty/index.rst:262
+#: ../../source/empty/index.rst:268
 msgid "Signing releases"
 msgstr ""
 
-#: ../../source/empty/index.rst:264
+#: ../../source/empty/index.rst:270
 msgid ""
 "Signing releases with a GPG key would permit users to check download "
 "integrity before installing. You'll need a GPG key publically available to "
@@ -504,29 +512,29 @@ msgid ""
 "the ``--nosign`` (or ``-S``) option."
 msgstr ""
 
-#: ../../source/empty/index.rst:266
+#: ../../source/empty/index.rst:272
 msgid ""
 "A file containing the signature with the same name as the archive with a "
 "``.asc`` extension will be created in the ``dist`` directory."
 msgstr ""
 
-#: ../../source/empty/index.rst:269
+#: ../../source/empty/index.rst:275
 msgid "GitHub release"
 msgstr ""
 
-#: ../../source/empty/index.rst:271
+#: ../../source/empty/index.rst:277
 msgid ""
 "The release script will create a release on your GitHub repository, as a "
 "draft, unless you use ``--nogithub`` (or ``-g``) option."
 msgstr ""
 
-#: ../../source/empty/index.rst:275
+#: ../../source/empty/index.rst:281
 msgid ""
 "Unfortunately, I was not able to get the newly created archive uploaded to "
 "this new release... Maybe that could be fixed in the future."
 msgstr ""
 
-#: ../../source/empty/index.rst:277
+#: ../../source/empty/index.rst:283
 msgid ""
 "In order to use this feature, you will need the `github "
 "<https://github.com/PyGithub/PyGithub>`_ installed; and you will need an "
@@ -534,7 +542,7 @@ msgid ""
 "repositories."
 msgstr ""
 
-#: ../../source/empty/index.rst:279
+#: ../../source/empty/index.rst:285
 msgid ""
 "You'll have to go to your `github account settings page, in the personnal "
 "access token tab <https://github.com/settings/tokens>`_. Click on *generate "
@@ -543,17 +551,17 @@ msgid ""
 "several access token if you need)."
 msgstr ""
 
-#: ../../source/empty/index.rst:281
+#: ../../source/empty/index.rst:287
 msgid ""
 "The token will be displayed only once; store it in the ``.gh_token`` file in"
 " your plugin directory; and that's all!"
 msgstr ""
 
-#: ../../source/empty/index.rst:284
+#: ../../source/empty/index.rst:290
 msgid "Excluding files"
 msgstr ""
 
-#: ../../source/empty/index.rst:286
+#: ../../source/empty/index.rst:292
 msgid ""
 "You can create a ``.ignore-release`` file at the root of your plugin and "
 "list here files and directories you want to explicitely exclude from the "
@@ -561,54 +569,58 @@ msgid ""
 "<https://docs.python.org/2/library/re.html>`_ per line"
 msgstr ""
 
-#: ../../source/empty/index.rst:293
+#: ../../source/empty/index.rst:299
 msgid "Some files will automatically be excluded:"
 msgstr ""
 
-#: ../../source/empty/index.rst:295
+#: ../../source/empty/index.rst:301
 msgid ".git*,"
 msgstr ""
 
-#: ../../source/empty/index.rst:296
+#: ../../source/empty/index.rst:302
 msgid ".gh_token"
 msgstr ""
 
-#: ../../source/empty/index.rst:297
+#: ../../source/empty/index.rst:303
 msgid ".tx/"
 msgstr ""
 
-#: ../../source/empty/index.rst:298
+#: ../../source/empty/index.rst:304
 msgid "tools/"
 msgstr ""
 
-#: ../../source/empty/index.rst:299
+#: ../../source/empty/index.rst:305
 msgid "tests/"
 msgstr ""
 
-#: ../../source/empty/index.rst:300
+#: ../../source/empty/index.rst:306
 msgid ".atoum.php"
 msgstr ""
 
-#: ../../source/empty/index.rst:301
+#: ../../source/empty/index.rst:307
 msgid ".travis.yml"
 msgstr ""
 
-#: ../../source/empty/index.rst:302
+#: ../../source/empty/index.rst:308
 msgid ".circleci/"
 msgstr ""
 
-#: ../../source/empty/index.rst:303
+#: ../../source/empty/index.rst:309
 msgid ".ignore-release"
 msgstr ""
 
-#: ../../source/empty/index.rst:304
+#: ../../source/empty/index.rst:310
 msgid "composer.lock"
 msgstr ""
 
-#: ../../source/empty/index.rst:305
+#: ../../source/empty/index.rst:311
 msgid "Robofile.php"
 msgstr ""
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
+msgstr ""
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
 msgstr ""
