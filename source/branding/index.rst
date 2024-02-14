@@ -81,3 +81,9 @@ Default recommended size: **220x130 pixels**
    at the login page.
 
 Default recommended size: **It depends on the usual size of your screens**. The bigger, the better. (Make sure not to surpass the maximum upload limit for files)
+
+
+FAQ
+---
+
+If you have any questions about using the plugin, please consult `our FAQ <https://faq.teclib.com/04_Plugins/Branding/>`__

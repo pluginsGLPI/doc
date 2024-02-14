@@ -262,3 +262,8 @@ Allow translation while writing
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This right defines whether a profile can translate the content of a follow-up before sending.
+
+FAQ
+---
+
+If you have any questions about using the plugin, please consult `our FAQ <https://faq.teclib.com/04_Plugins/Translate/>`__

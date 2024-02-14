@@ -62,3 +62,8 @@ An email will be received with the option of **Validating** or **Refusing** the 
 .. figure:: images/Approval_mail-6.png
    :alt: refused
    :scale: 100 %
+
+FAQ
+---
+
+If you have any questions about using the plugin, please consult `our FAQ <https://faq.teclib.com/04_Plugins/Approval_mail/>`__

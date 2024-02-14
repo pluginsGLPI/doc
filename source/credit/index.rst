@@ -190,4 +190,7 @@ An automatic action is available to notify you when a credit has expired.
 You can of course customise the notification to suit your needs (**Setup > Notifications > Notifications > credit expired**)
 
 
+FAQ
+---
 
+If you have any questions about using the plugin, please consult `our FAQ <https://faq.teclib.com/04_Plugins/Cr%C3%A9dit/>`__

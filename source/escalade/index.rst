@@ -215,3 +215,8 @@ New dashlet to display not solved ticket where your groups was not actually assi
 .. image:: images/central_follow.png
    :alt:
    :scale: 90 %
+
+FAQ
+---
+
+If you have any questions about using the plugin, please consult `our FAQ <https://faq.teclib.com/04_Plugins/Escalade/>`__

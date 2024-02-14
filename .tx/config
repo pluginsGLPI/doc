@@ -243,6 +243,60 @@ source_file = build/locale/webhook/index.pot
 source_lang = en
 type = PO
 
+[o:teclib:p:glpi-plugins-documentation:r:webhook--activate_webhooks]
+file_filter = source/locale/<lang>/LC_MESSAGES/webhook/activate_webhooks.po
+source_file = build/locale/webhook/activate_webhooks.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:webhook--faq]
+file_filter = source/locale/<lang>/LC_MESSAGES/webhook/faq.po
+source_file = build/locale/webhook/faq.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:webhook--install_plugin]
+file_filter = source/locale/<lang>/LC_MESSAGES/webhook/install_plugin.po
+source_file = build/locale/webhook/install_plugin.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:webhook--mattermost]
+file_filter = source/locale/<lang>/LC_MESSAGES/webhook/mattermost.po
+source_file = build/locale/webhook/mattermost.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:webhook--rocket]
+file_filter = source/locale/<lang>/LC_MESSAGES/webhook/rocket.po
+source_file = build/locale/webhook/rocket.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:webhook--setup_glpi]
+file_filter = source/locale/<lang>/LC_MESSAGES/webhook/setup_glpi.po
+source_file = build/locale/webhook/setup_glpi.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:webhook--slack]
+file_filter = source/locale/<lang>/LC_MESSAGES/webhook/slack.po
+source_file = build/locale/webhook/slack.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:webhook--teams]
+file_filter = source/locale/<lang>/LC_MESSAGES/webhook/teams.po
+source_file = build/locale/webhook/teams.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:webhook--telegram]
+file_filter = source/locale/<lang>/LC_MESSAGES/webhook/telegram.po
+source_file = build/locale/webhook/telegram.pot
+source_lang = en
+type = PO
+
 [o:teclib:p:glpi-plugins-documentation:r:splitcat--index]
 file_filter = source/locale/<lang>/LC_MESSAGES/splitcat/index.po
 source_file = build/locale/splitcat/index.pot

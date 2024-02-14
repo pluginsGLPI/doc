@@ -79,3 +79,9 @@ Although it’s mentioned in the `SCIM specifications <https://datatracker.ietf.
 
 -  Azure: `not available <https://learn.microsoft.com/en-us/answers/questions/1113754/azure-ad-scim-provisioning-how-to-sync-passwords>`__
 -  Okta: `available <https://developer.okta.com/docs/concepts/scim/#sync-passwords>`__
+
+
+FAQ
+---
+
+If you have any questions about using the plugin, please consult `our FAQ <https://faq.teclib.com/04_Plugins/SCIM/>`__

@@ -158,5 +158,8 @@ Survey reminders are sent via an automatic action already created by the plugin.
    :alt: automatic action
    :scale: 70 %
 
+FAQ
+---
 
+If you have any questions about using the plugin, please consult `our FAQ <https://faq.teclib.com/04_Plugins/Satisfaction_survey/>`__
 
