@@ -1,4 +1,4 @@
-Approbal by mail
+Approval by mail
 ================
 
 Requirements (on-premise)
