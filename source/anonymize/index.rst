@@ -316,17 +316,23 @@ Via CLI (on-premise only)
 
 -  Run all default profiles on all objects:
 
-   -  ``php bin/console glpi:plugin:anonymize --all``
+   ::
+
+      $ php bin/console glpi:plugin:anonymize --all
 
 -  Run profile X on all objects / on one object:
 
-   -  ``php bin/console glpi:plugin:anonymize --profile=X``
-   -  ``php bin/console glpi:plugin:anonymize --profile=X --item-id=X``
+   ::
+
+      $ php bin/console glpi:plugin:anonymize --profile=X
+      $ php bin/console glpi:plugin:anonymize --profile=X --item-id=X
 
 -  Run default profile type X on all objects / on one object :
 
-   -  ``php bin/console glpi:plugin:anonymize --itemtype=X``
-   -  ``php bin/console glpi:plugin:anonymize --itemtype=X --item-id=X``
+   ::
+
+      $ php bin/console glpi:plugin:anonymize --itemtype=X
+      $ php bin/console glpi:plugin:anonymize --itemtype=X --item-id=X
 
 Creating a profile
 ------------------
