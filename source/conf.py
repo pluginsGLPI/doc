@@ -13,7 +13,7 @@
 # serve to show the default.
 
 import datetime
-import sphinx_glpi_theme
+#import sphinx_glpi_theme
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -130,17 +130,26 @@ todo_include_todos = True
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'glpi'
+html_theme = 'sphinx_material'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-# html_theme_options = {}
+html_theme_options = {
+    'nav_title': '',
+
+    'color_primary': 'blue',
+    'color_accent': 'light-blue',
+    'globaltoc_depth': 1,
+
+    'repo_url': 'https://github.com/pluginsGLPI/doc/',
+    'repo_name': 'pluginsGLPI/doc',
+}
 
 # Add any paths that contain custom themes here, relative to this directory.
 # html_theme_path = []
-html_theme_path = sphinx_glpi_theme.get_html_themes_path()
+#html_theme_path = sphinx_glpi_theme.get_html_themes_path()
 
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
@@ -190,6 +199,9 @@ html_logo = 'static/images/glpi.png'
 # Custom sidebar templates, maps document names to template names.
 #
 # html_sidebars = {}
+html_sidebars = {
+    "**": ["logo-text.html", "globaltoc.html", "localtoc.html", "searchbox.html"]
+}
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.
