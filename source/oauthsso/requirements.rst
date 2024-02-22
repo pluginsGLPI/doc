@@ -44,6 +44,10 @@ The fields that can be retrieved by SSO are as follows:
    :alt: field to complete
    :scale: 45 %
 
+.. Important::
+   If you are using **SCIM + OAuth SSO**, we recommend that you **leave these fields blank**. SCIM will take care of filling them in and will therefore not conflict with OAuth SSO, 
+   which would also try to fill in these fields. You could then end up with empty fields.
+
 -  Save your Setup
 
 You must also activate the automatic addition of users in GLPI to create them in GLPI at the time of authentication
