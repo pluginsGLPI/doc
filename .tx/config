@@ -345,3 +345,56 @@ source_file = build/locale/oauthsso/source.pot
 source_lang = en
 type = PO
 
+[o:teclib:p:glpi-plugins-documentation:r:glpiai--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/glpiai/index.po
+source_file = build/locale/glpiai/index.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:glpiai--requirements]
+file_filter = source/locale/<lang>/LC_MESSAGES/glpiai/requirements.po
+source_file = build/locale/glpiai/requirements.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:glpiai--installation]
+file_filter = source/locale/<lang>/LC_MESSAGES/glpiai/installation.po
+source_file = build/locale/glpiai/installation.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:glpiai--organization]
+file_filter = source/locale/<lang>/LC_MESSAGES/glpiai/organization.po
+source_file = build/locale/glpiai/organization.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:glpiai--secret]
+file_filter = source/locale/<lang>/LC_MESSAGES/glpiai/secret.po
+source_file = build/locale/glpiai/secret.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:glpiai--setup_glpi]
+file_filter = source/locale/<lang>/LC_MESSAGES/glpiai/setup_glpi.po
+source_file = build/locale/glpiai/setup_glpi.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:glpiai--consumtpion]
+file_filter = source/locale/<lang>/LC_MESSAGES/glpiai/consumtpion.po
+source_file = build/locale/glpiai/consumtpion.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:glpiai--preferences]
+file_filter = source/locale/<lang>/LC_MESSAGES/glpiai/preferences.po
+source_file = build/locale/glpiai/preferences.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:glpiai--example]
+file_filter = source/locale/<lang>/LC_MESSAGES/glpiai/example.po
+source_file = build/locale/glpiai/example.pot
+source_lang = en
+type = PO
