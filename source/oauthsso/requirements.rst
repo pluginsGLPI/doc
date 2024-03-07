@@ -54,3 +54,16 @@ You must also activate the automatic addition of users in GLPI to create them in
 .. figure:: images/oauhtsso-4.png
    :alt: add user auto
    :scale: 50 %
+
+Fetch information from user profile option
+------------------------------------------
+
+You can choose if you want to retrieve informations from the user profile. In **setup > Oauth SSO applications** select yes or no as required.
+
+.. Important::
+
+   If **OAuth SSO** is your **only source of authentication AND provisioning**, we recommend that you set the **Fetch information from user profile option** to **Yes**
+   so that user information can be fetched. Please note that claims must also be set correctly on the provider side.
+
+   If you are using an **external provisioning source** such as SCIM, we recommend that you set the **Fetch information from user profile option** to **No**
+   so that user information is not overwritten and replaced by that of the OAuth SSO plugin.
