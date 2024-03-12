@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-14 19:27+0100\n"
+"POT-Creation-Date: 2024-03-12 09:31+0100\n"
 "PO-Revision-Date: 2024-01-26 14:56+0000\n"
 "Last-Translator: Johan Cwiklinski, 2024\n"
 "Language-Team: French (France) (https://app.transifex.com/teclib/teams/28042/fr_FR/)\n"
@@ -57,8 +57,11 @@ msgstr "8.2"
 msgid ""
 "A `basic licence <https://services.glpi-network.com/#offers>`_ (or higher) "
 "is required. This plugin is also available from the `Cloud <https://glpi-"
-"network.cloud/fr/>`__."
+"network.cloud/fr/>`_."
 msgstr ""
+"Une `license basique <https://services.glpi-network.com/#offers>`_ (ou plus)"
+" est requise. Ce plugin est également disponible sur le `Cloud "
+"<https://glpi-network.cloud/fr/>`_."
 
 #: ../../source/branding/index.rst:17
 msgid "Install the plugin"
@@ -67,6 +70,7 @@ msgstr "Installer le plugin"
 #: ../../source/branding/index.rst:19
 msgid "Go to the marketplace. Download and install the **Branding** plugin."
 msgstr ""
+"Allez sur le marketplace. Téléchargez et installez le plugin **Branding**."
 
 #: ../../source/branding/index.rst-1
 msgid "install the plugin"
@@ -74,7 +78,7 @@ msgstr "Installer le plugin"
 
 #: ../../source/branding/index.rst:26
 msgid "Customize your instance"
-msgstr ""
+msgstr "Personnaliser votre instance"
 
 #: ../../source/branding/index.rst:28
 msgid "Go to **administration > entities** > **branding** tab"
@@ -82,7 +86,7 @@ msgstr ""
 
 #: ../../source/branding/index.rst:30
 msgid "Here you can replace :"
-msgstr ""
+msgstr "Ici vous pouvez remplacer :"
 
 #: ../../source/branding/index.rst:32 ../../source/branding/index.rst:46
 msgid "the logo at top left (including folded bar)"
@@ -90,15 +94,15 @@ msgstr ""
 
 #: ../../source/branding/index.rst:33
 msgid "the logo on the login page,"
-msgstr ""
+msgstr "le logo de la page d'accueuil,"
 
 #: ../../source/branding/index.rst:34
 msgid "the background of the login page,"
-msgstr ""
+msgstr "l'arrière plan de la page de connexion,"
 
 #: ../../source/branding/index.rst:35 ../../source/branding/index.rst:47
 msgid "the icon in the browser bar"
-msgstr ""
+msgstr "l'icône de la barre du naviguateur"
 
 #: ../../source/branding/index.rst-1
 msgid "list of custom"
@@ -110,7 +114,7 @@ msgstr ""
 
 #: ../../source/branding/index.rst:44
 msgid "You can modify certain elements by entity:"
-msgstr ""
+msgstr "Vous pouvez modifier certains éléments par entité :"
 
 #: ../../source/branding/index.rst-1
 msgid "custom by entity"
@@ -122,7 +126,7 @@ msgstr ""
 
 #: ../../source/branding/index.rst:56
 msgid "Recommendations"
-msgstr ""
+msgstr "Recommandations"
 
 #: ../../source/branding/index.rst:58
 msgid ""
@@ -181,13 +185,15 @@ msgstr ""
 
 #: ../../source/branding/index.rst:87
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: ../../source/branding/index.rst:89
 msgid ""
 "If you have any questions about using the plugin, please consult `our FAQ "
 "<https://faq.teclib.com/04_Plugins/Branding/>`_"
 msgstr ""
+"Si vous avez des questions à propos de l'utilisation de ce plugin, veuillez "
+"consulter `notre FAQ <https://faq.teclib.com/04_Plugins/Branding/>`_"
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"

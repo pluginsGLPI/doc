@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Johan Cwiklinski, 2017
+# Johan Cwiklinski, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-14 19:27+0100\n"
+"POT-Creation-Date: 2024-03-12 09:31+0100\n"
 "PO-Revision-Date: 2016-11-30 10:06+0000\n"
-"Last-Translator: Johan Cwiklinski, 2017\n"
+"Last-Translator: Johan Cwiklinski, 2024\n"
 "Language-Team: French (France) (https://app.transifex.com/teclib/teams/28042/fr_FR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,19 +35,19 @@ msgstr ""
 
 #: ../../source/fields/index.rst:9
 msgid "Download"
-msgstr ""
+msgstr "Télécharger"
 
 #: ../../source/fields/index.rst:10
 msgid "Sources"
-msgstr ""
+msgstr "Sources"
 
 #: ../../source/fields/index.rst:11
 msgid "`<https://github.com/pluginsGLPI/fields/releases>`_"
-msgstr ""
+msgstr "`<https://github.com/pluginsGLPI/fields/releases>`_"
 
 #: ../../source/fields/index.rst:12
 msgid "`<https://github.com/pluginsGLPI/fields>`_"
-msgstr ""
+msgstr "`<https://github.com/pluginsGLPI/fields>`_"
 
 #: ../../source/fields/index.rst:15
 msgid "Requirements (on-premise)"
@@ -55,33 +55,35 @@ msgstr ""
 
 #: ../../source/fields/index.rst:18
 msgid "GLPI Version"
-msgstr ""
+msgstr "Version de GLPI"
 
 #: ../../source/fields/index.rst:18
 msgid "Minimum PHP"
-msgstr ""
+msgstr "PHP minimum"
 
 #: ../../source/fields/index.rst:18
 msgid "Recommended"
-msgstr ""
+msgstr "Recommandé"
 
 #: ../../source/fields/index.rst:20
 msgid "10.0.x"
-msgstr ""
+msgstr "10.0.x"
 
 #: ../../source/fields/index.rst:20
 msgid "8.1"
-msgstr ""
+msgstr "8.1"
 
 #: ../../source/fields/index.rst:20
 msgid "8.2"
-msgstr ""
+msgstr "8.2"
 
 #: ../../source/fields/index.rst:24
 msgid ""
 "This plugin is available without a GLPI-Network subscription. It is also "
 "available in `Cloud <https://glpi-network.cloud/>`_"
 msgstr ""
+"Ce plugin est disponible sans souscription GLPI-Network. Il est également "
+"disponible sur le `Cloud <https://glpi-network.cloud/>`_."
 
 #: ../../source/fields/index.rst:27
 msgid "Features"
@@ -525,13 +527,15 @@ msgstr "C"
 
 #: ../../source/fields/index.rst:206
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: ../../source/fields/index.rst:208
 msgid ""
 "If you have any questions about using the plugin, please consult `our FAQ "
 "<https://faq.teclib.com/04_Plugins/Fields/>`_"
 msgstr ""
+"Si vous avez des questions à propos de l'utilisation de ce plugin, veuillez "
+"consulter `notre FAQ <https://faq.teclib.com/04_Plugins/Fields/>`_"
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
@@ -539,4 +543,4 @@ msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Licence Creative Commons"

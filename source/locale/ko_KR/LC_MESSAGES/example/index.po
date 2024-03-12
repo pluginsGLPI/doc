@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-14 19:27+0100\n"
+"POT-Creation-Date: 2024-03-12 09:31+0100\n"
 "PO-Revision-Date: 2016-10-25 19:22+0000\n"
 "Last-Translator: 조성현 (jaymz9634) <jaymz9634@gmail.com>, 2024\n"
 "Language-Team: Korean (Korea) (https://app.transifex.com/teclib/teams/28042/ko_KR/)\n"
@@ -27,19 +27,19 @@ msgstr "예제"
 
 #: ../../source/example/index.rst:7
 msgid "Download"
-msgstr ""
+msgstr "내려받기"
 
 #: ../../source/example/index.rst:8
 msgid "Sources"
-msgstr ""
+msgstr "소스"
 
 #: ../../source/example/index.rst:9
 msgid "*not relevant*"
-msgstr ""
+msgstr "*관련 없음*"
 
 #: ../../source/example/index.rst:10
 msgid "`<https://github.com/pluginsGLPI/example>`_"
-msgstr ""
+msgstr "`<https://github.com/pluginsGLPI/example>`_"
 
 #: ../../source/example/index.rst:12
 msgid ""

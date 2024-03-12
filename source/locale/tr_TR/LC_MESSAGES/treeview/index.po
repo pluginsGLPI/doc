@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-14 19:27+0100\n"
+"POT-Creation-Date: 2024-03-12 09:31+0100\n"
 "PO-Revision-Date: 2020-01-24 13:02+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -27,19 +27,19 @@ msgstr "Treeview"
 
 #: ../../source/treeview/index.rst:7
 msgid "Download"
-msgstr ""
+msgstr "İndir"
 
 #: ../../source/treeview/index.rst:8
 msgid "Sources"
-msgstr ""
+msgstr "Kaynaklar"
 
 #: ../../source/treeview/index.rst:9
 msgid "`<https://github.com/pluginsGLPI/treeview/releases>`_"
-msgstr ""
+msgstr "`<https://github.com/pluginsGLPI/treeview/releases>`_"
 
 #: ../../source/treeview/index.rst:10
 msgid "`<https://github.com/pluginsGLPI/treeview>`_"
-msgstr ""
+msgstr "`<https://github.com/pluginsGLPI/treeview>`_"
 
 #: ../../source/treeview/index.rst:13
 msgid "Requirements for latest version"
@@ -47,37 +47,39 @@ msgstr "Son sürümün gereksinimleri"
 
 #: ../../source/treeview/index.rst:16
 msgid "Requirements (on-premise)"
-msgstr ""
+msgstr "Gereksinimler (özel kurulum)"
 
 #: ../../source/treeview/index.rst:19
 msgid "GLPI Version"
-msgstr ""
+msgstr "GLPI sürümü"
 
 #: ../../source/treeview/index.rst:19
 msgid "Minimum PHP"
-msgstr ""
+msgstr "En düşük PHP sürümü"
 
 #: ../../source/treeview/index.rst:19
 msgid "Recommended"
-msgstr ""
+msgstr "Önerilen"
 
 #: ../../source/treeview/index.rst:21
 msgid "10.0.x"
-msgstr ""
+msgstr "10.0.x"
 
 #: ../../source/treeview/index.rst:21
 msgid "8.1"
-msgstr ""
+msgstr "8.1"
 
 #: ../../source/treeview/index.rst:21
 msgid "8.2"
-msgstr ""
+msgstr "8.2"
 
 #: ../../source/treeview/index.rst:25
 msgid ""
 "This plugin is available without a GLPI-Network subscription. It is also "
 "available in `Cloud <https://glpi-network.cloud/>`_"
 msgstr ""
+"Bu uygulama eki bir GLPI-Network aboneliği olmadan kullanılabilir. Ayrıca "
+"`Cloud <https://glpi-network.cloud/>`_ üzerinde de bulunuyor"
 
 #: ../../source/treeview/index.rst:29
 msgid "Features"

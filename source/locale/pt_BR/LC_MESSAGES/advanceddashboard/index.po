@@ -6,15 +6,16 @@
 # Translators:
 # Eduardo Scott <edu.scott01@gmail.com>, 2024
 # Pablo Pierri <pablo.terdulino@gmail.com>, 2024
+# Luis José Machado Sousa <luisjosemachado@gmail.com>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-14 19:27+0100\n"
+"POT-Creation-Date: 2024-03-12 09:31+0100\n"
 "PO-Revision-Date: 2024-01-26 14:56+0000\n"
-"Last-Translator: Pablo Pierri <pablo.terdulino@gmail.com>, 2024\n"
+"Last-Translator: Luis José Machado Sousa <luisjosemachado@gmail.com>, 2024\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/teclib/teams/28042/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,37 +29,37 @@ msgstr "Painéis de visualização avançadas"
 
 #: ../../source/advanceddashboard/index.rst:5
 msgid "Requirements (on-premise)"
-msgstr ""
+msgstr "Requisitos (localmente)"
 
 #: ../../source/advanceddashboard/index.rst:8
 msgid "GLPI Version"
-msgstr ""
+msgstr "Versão do GLPI"
 
 #: ../../source/advanceddashboard/index.rst:8
 msgid "Minimum PHP"
-msgstr ""
+msgstr "PHP mínimo"
 
 #: ../../source/advanceddashboard/index.rst:8
 msgid "Recommended"
-msgstr ""
+msgstr "Recomendado"
 
 #: ../../source/advanceddashboard/index.rst:10
 msgid "10.0.x"
-msgstr ""
+msgstr "10.0.x"
 
 #: ../../source/advanceddashboard/index.rst:10
 msgid "8.1"
-msgstr ""
+msgstr "8.1"
 
 #: ../../source/advanceddashboard/index.rst:10
 msgid "8.2"
-msgstr ""
+msgstr "8.2"
 
 #: ../../source/advanceddashboard/index.rst:14
 msgid ""
 "A `standard licence <https://services.glpi-network.com/#offers>`_ (or "
 "higher) is required. This plugin is also available from the `Cloud "
-"<https://glpi-network.cloud/fr/>`__."
+"<https://glpi-network.cloud/fr/>`_."
 msgstr ""
 
 #: ../../source/advanceddashboard/index.rst-1

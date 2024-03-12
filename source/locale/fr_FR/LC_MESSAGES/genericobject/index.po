@@ -5,17 +5,17 @@
 # 
 # Translators:
 # Pierre <plebel@teclib.com>, 2016
-# Johan Cwiklinski, 2016
 # Nicolas Quiniou-Briand <nqb@azyx.fr>, 2018
+# Johan Cwiklinski, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-14 19:27+0100\n"
+"POT-Creation-Date: 2024-03-12 09:31+0100\n"
 "PO-Revision-Date: 2016-11-02 10:38+0000\n"
-"Last-Translator: Nicolas Quiniou-Briand <nqb@azyx.fr>, 2018\n"
+"Last-Translator: Johan Cwiklinski, 2024\n"
 "Language-Team: French (France) (https://app.transifex.com/teclib/teams/28042/fr_FR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,19 +29,19 @@ msgstr "Generic Object"
 
 #: ../../source/genericobject/index.rst:7
 msgid "Download"
-msgstr ""
+msgstr "Télécharger"
 
 #: ../../source/genericobject/index.rst:8
 msgid "Sources"
-msgstr ""
+msgstr "Sources"
 
 #: ../../source/genericobject/index.rst:9
 msgid "`<https://github.com/pluginsGLPI/genericobject/releases>`_"
-msgstr ""
+msgstr "`<https://github.com/pluginsGLPI/genericobject/releases>`_"
 
 #: ../../source/genericobject/index.rst:10
 msgid "`<https://github.com/pluginsGLPI/genericobject>`_"
-msgstr ""
+msgstr "`<https://github.com/pluginsGLPI/genericobject>`_"
 
 #: ../../source/genericobject/index.rst:13
 msgid "Requirements (on-premise)"
@@ -49,33 +49,35 @@ msgstr ""
 
 #: ../../source/genericobject/index.rst:16
 msgid "GLPI Version"
-msgstr ""
+msgstr "Version de GLPI"
 
 #: ../../source/genericobject/index.rst:16
 msgid "Minimum PHP"
-msgstr ""
+msgstr "PHP minimum"
 
 #: ../../source/genericobject/index.rst:16
 msgid "Recommended"
-msgstr ""
+msgstr "Recommandé"
 
 #: ../../source/genericobject/index.rst:18
 msgid "10.0.x"
-msgstr ""
+msgstr "10.0.x"
 
 #: ../../source/genericobject/index.rst:18
 msgid "8.1"
-msgstr ""
+msgstr "8.1"
 
 #: ../../source/genericobject/index.rst:18
 msgid "8.2"
-msgstr ""
+msgstr "8.2"
 
 #: ../../source/genericobject/index.rst:22
 msgid ""
 "This plugin is available without a GLPI-Network subscription. It is also "
 "available in `Cloud <https://glpi-network.cloud/>`_"
 msgstr ""
+"Ce plugin est disponible sans souscription GLPI-Network. Il est également "
+"disponible sur le `Cloud <https://glpi-network.cloud/>`_."
 
 #: ../../source/genericobject/index.rst:26
 msgid "Features"
@@ -278,6 +280,8 @@ msgid ""
 "``<GLPI_ROOT>/files/_plugins/genericobject/locales/fields.<lang>.php`` "
 "files:"
 msgstr ""
+"Vous pouvez également définir des libellés globalement dans les fichiers  "
+"``<GLPI_ROOT>/files/_plugins/genericobject/locales/fields.<lang>.php`` :"
 
 #: ../../source/genericobject/index.rst:117
 msgid "Setup behaviour"
@@ -1077,13 +1081,15 @@ msgstr ""
 
 #: ../../source/genericobject/index.rst:573
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: ../../source/genericobject/index.rst:575
 msgid ""
 "If you have any questions about using the plugin, please consult `our FAQ "
 "<https://faq.teclib.com/04_Plugins/Generic_objects/>`_"
 msgstr ""
+"Si vous avez des questions à propos de l'utilisation de ce plugin, veuillez "
+"consulter `notre FAQ <https://faq.teclib.com/04_Plugins/Generic_objects/>`_"
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
@@ -1091,4 +1097,4 @@ msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Licence Creative Commons"

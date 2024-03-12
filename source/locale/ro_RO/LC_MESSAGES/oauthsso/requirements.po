@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-14 19:27+0100\n"
+"POT-Creation-Date: 2024-03-12 09:31+0100\n"
 "PO-Revision-Date: 2024-01-31 13:12+0000\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/teclib/teams/28042/ro_RO/)\n"
 "MIME-Version: 1.0\n"
@@ -49,7 +49,7 @@ msgstr ""
 msgid ""
 "A `basic licence <https://services.glpi-network.com/#offers>`_ (or higher) "
 "is required. This plugin is also available from the `Cloud <https://glpi-"
-"network.cloud/fr/>`__."
+"network.cloud/fr/>`_."
 msgstr ""
 
 #: ../../source/oauthsso/requirements.rst:14
@@ -170,6 +170,32 @@ msgstr ""
 
 #: ../../source/oauthsso/requirements.rst-1
 msgid "add user auto"
+msgstr ""
+
+#: ../../source/oauthsso/requirements.rst:59
+msgid "Fetch information from user profile option"
+msgstr ""
+
+#: ../../source/oauthsso/requirements.rst:61
+msgid ""
+"You can choose if you want to retrieve informations from the user profile. "
+"In **setup > Oauth SSO applications** select yes or no as required."
+msgstr ""
+
+#: ../../source/oauthsso/requirements.rst:65
+msgid ""
+"If **OAuth SSO** is your **only source of authentication AND provisioning**,"
+" we recommend that you set the **Fetch information from user profile "
+"option** to **Yes** so that user information can be fetched. Please note "
+"that claims must also be set correctly on the provider side."
+msgstr ""
+
+#: ../../source/oauthsso/requirements.rst:68
+msgid ""
+"If you are using an **external provisioning source** such as SCIM, we "
+"recommend that you set the **Fetch information from user profile option** to"
+" **No** so that user information is not overwritten and replaced by that of "
+"the OAuth SSO plugin."
 msgstr ""
 
 #: ../../<rst_epilog>:2

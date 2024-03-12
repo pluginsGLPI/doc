@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-14 19:27+0100\n"
+"POT-Creation-Date: 2024-03-12 09:31+0100\n"
 "PO-Revision-Date: 2024-01-26 14:56+0000\n"
 "Last-Translator: 조성현 (jaymz9634) <jaymz9634@gmail.com>, 2024\n"
 "Language-Team: Korean (Korea) (https://app.transifex.com/teclib/teams/28042/ko_KR/)\n"
@@ -27,38 +27,40 @@ msgstr "고급 대시보드"
 
 #: ../../source/advanceddashboard/index.rst:5
 msgid "Requirements (on-premise)"
-msgstr ""
+msgstr "요구사항 (직접설치 시)"
 
 #: ../../source/advanceddashboard/index.rst:8
 msgid "GLPI Version"
-msgstr ""
+msgstr "GLPI 버전"
 
 #: ../../source/advanceddashboard/index.rst:8
 msgid "Minimum PHP"
-msgstr ""
+msgstr "PHP 최소버전"
 
 #: ../../source/advanceddashboard/index.rst:8
 msgid "Recommended"
-msgstr ""
+msgstr "권장"
 
 #: ../../source/advanceddashboard/index.rst:10
 msgid "10.0.x"
-msgstr ""
+msgstr "10.0.x"
 
 #: ../../source/advanceddashboard/index.rst:10
 msgid "8.1"
-msgstr ""
+msgstr "8.1"
 
 #: ../../source/advanceddashboard/index.rst:10
 msgid "8.2"
-msgstr ""
+msgstr "8.2"
 
 #: ../../source/advanceddashboard/index.rst:14
 msgid ""
 "A `standard licence <https://services.glpi-network.com/#offers>`_ (or "
 "higher) is required. This plugin is also available from the `Cloud "
-"<https://glpi-network.cloud/fr/>`__."
+"<https://glpi-network.cloud/fr/>`_."
 msgstr ""
+"`표준 라이선스<https://services.glpi-network.com/#offers>`_(또는 그 이상)가 필요합니다. 이 "
+"플러그인은 `Cloud <https://glpi-network.cloud/fr/>`_에서도 사용할 수 있습니다."
 
 #: ../../source/advanceddashboard/index.rst-1
 #: ../../source/advanceddashboard/index.rst:17
@@ -217,13 +219,15 @@ msgstr "카드가 준비되었습니다"
 
 #: ../../source/advanceddashboard/index.rst:145
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: ../../source/advanceddashboard/index.rst:147
 msgid ""
 "If you have any questions about using the plugin, please consult `our FAQ "
 "<https://faq.teclib.com/04_Plugins/Advanced_dashboard/>`_"
 msgstr ""
+"플러그인 사용에 대해 궁금한 점이 있으면 "
+"'FAQ<https://faq.teclib.com/04_Plugins/Advanced_dashboard/>'를 참조하세요"
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"

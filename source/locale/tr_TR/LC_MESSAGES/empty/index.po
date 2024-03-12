@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-14 19:27+0100\n"
+"POT-Creation-Date: 2024-03-12 09:31+0100\n"
 "PO-Revision-Date: 2016-10-25 19:22+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -27,19 +27,19 @@ msgstr "Empty"
 
 #: ../../source/empty/index.rst:8
 msgid "Download"
-msgstr ""
+msgstr "İndir"
 
 #: ../../source/empty/index.rst:9
 msgid "Sources"
-msgstr ""
+msgstr "Kaynaklar"
 
 #: ../../source/empty/index.rst:10
 msgid "*not relevant*"
-msgstr ""
+msgstr "*ilgisiz*"
 
 #: ../../source/empty/index.rst:11
 msgid "`<https://github.com/pluginsGLPI/empty>`_"
-msgstr ""
+msgstr "`<https://github.com/pluginsGLPI/empty>`_"
 
 #: ../../source/empty/index.rst:13
 msgid "This plugins does... nothing. Really!"

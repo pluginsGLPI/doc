@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2024, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-12 09:31+0100\n"
+"PO-Revision-Date: 2024-03-12 08:29+0000\n"
+"Language-Team: Romanian (Romania) (https://app.transifex.com/teclib/teams/28042/ro_RO/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro_RO\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: ../../source/glpiai/setup_glpi.rst:2
+msgid "Set up GLPI"
+msgstr ""
+
+#: ../../source/glpiai/setup_glpi.rst:4
+msgid "In GLPI, go to **Setup > General > GLPI AI**"
+msgstr ""
+
+#: ../../source/glpiai/setup_glpi.rst:5
+msgid "Fill in the fields with the values copied previously"
+msgstr ""
+
+#: ../../source/glpiai/setup_glpi.rst-1
+msgid "fill fields"
+msgstr ""
+
+#: ../../source/glpiai/setup_glpi.rst:11
+msgid ""
+"If your configuration is correct, you will be able to see your account "
+"entries, your consumption and your preferences."
+msgstr ""
+
+#: ../../source/glpiai/setup_glpi.rst-1
+msgid "field check"
+msgstr ""
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr ""
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
+msgstr ""

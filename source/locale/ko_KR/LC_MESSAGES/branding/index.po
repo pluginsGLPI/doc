@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# 조성현 (jaymz9634) <jaymz9634@gmail.com>, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-14 19:27+0100\n"
+"POT-Creation-Date: 2024-03-12 09:31+0100\n"
 "PO-Revision-Date: 2024-01-26 14:56+0000\n"
+"Last-Translator: 조성현 (jaymz9634) <jaymz9634@gmail.com>, 2024\n"
 "Language-Team: Korean (Korea) (https://app.transifex.com/teclib/teams/28042/ko_KR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,54 +27,56 @@ msgstr ""
 
 #: ../../source/branding/index.rst:5
 msgid "Requirements (on-premise)"
-msgstr ""
+msgstr "요구사항 (직접설치 시)"
 
 #: ../../source/branding/index.rst:8
 msgid "GLPI Version"
-msgstr ""
+msgstr "GLPI 버전"
 
 #: ../../source/branding/index.rst:8
 msgid "Minimum PHP"
-msgstr ""
+msgstr "PHP 최소버전"
 
 #: ../../source/branding/index.rst:8
 msgid "Recommended"
-msgstr ""
+msgstr "권장"
 
 #: ../../source/branding/index.rst:10
 msgid "10.0.x"
-msgstr ""
+msgstr "10.0.x"
 
 #: ../../source/branding/index.rst:10
 msgid "8.1"
-msgstr ""
+msgstr "8.1"
 
 #: ../../source/branding/index.rst:10
 msgid "8.2"
-msgstr ""
+msgstr "8.2"
 
 #: ../../source/branding/index.rst:14
 msgid ""
 "A `basic licence <https://services.glpi-network.com/#offers>`_ (or higher) "
 "is required. This plugin is also available from the `Cloud <https://glpi-"
-"network.cloud/fr/>`__."
+"network.cloud/fr/>`_."
 msgstr ""
+"`기본 라이선스<https://services.glpi-network.com/#offers>`_(또는 그 이상)가 필요합니다. 이 "
+"플러그인은 `Cloud <https://glpi-network.cloud/fr/>`_에서도 사용할 수 있습니다."
 
 #: ../../source/branding/index.rst:17
 msgid "Install the plugin"
-msgstr ""
+msgstr "플러그인 설치"
 
 #: ../../source/branding/index.rst:19
 msgid "Go to the marketplace. Download and install the **Branding** plugin."
-msgstr ""
+msgstr "마켓플레이스로 이동하세요. 플러그인 “**Branding**” 을 내려받고 설치하세요."
 
 #: ../../source/branding/index.rst-1
 msgid "install the plugin"
-msgstr ""
+msgstr "플러그인 설치"
 
 #: ../../source/branding/index.rst:26
 msgid "Customize your instance"
-msgstr ""
+msgstr "인스턴스 사용자 정의"
 
 #: ../../source/branding/index.rst:28
 msgid "Go to **administration > entities** > **branding** tab"
@@ -78,27 +84,27 @@ msgstr ""
 
 #: ../../source/branding/index.rst:30
 msgid "Here you can replace :"
-msgstr ""
+msgstr "대체할 수 있는 위치 :"
 
 #: ../../source/branding/index.rst:32 ../../source/branding/index.rst:46
 msgid "the logo at top left (including folded bar)"
-msgstr ""
+msgstr "왼쪽 상단 로고 (접힌 바 포함)"
 
 #: ../../source/branding/index.rst:33
 msgid "the logo on the login page,"
-msgstr ""
+msgstr "로그인 페이지 로고,"
 
 #: ../../source/branding/index.rst:34
 msgid "the background of the login page,"
-msgstr ""
+msgstr "로그인 페이지 배경,"
 
 #: ../../source/branding/index.rst:35 ../../source/branding/index.rst:47
 msgid "the icon in the browser bar"
-msgstr ""
+msgstr "탐색 바 아이콘"
 
 #: ../../source/branding/index.rst-1
 msgid "list of custom"
-msgstr ""
+msgstr "맞춤 목록"
 
 #: ../../source/branding/index.rst:42
 msgid "Custom by entity"
@@ -118,7 +124,7 @@ msgstr ""
 
 #: ../../source/branding/index.rst:56
 msgid "Recommendations"
-msgstr ""
+msgstr "권장 사항"
 
 #: ../../source/branding/index.rst:58
 msgid ""
@@ -177,7 +183,7 @@ msgstr ""
 
 #: ../../source/branding/index.rst:87
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: ../../source/branding/index.rst:89
 msgid ""
@@ -187,8 +193,8 @@ msgstr ""
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "저작물사용 허가표시"

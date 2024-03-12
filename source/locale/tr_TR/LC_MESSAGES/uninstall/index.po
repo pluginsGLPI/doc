@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-14 19:27+0100\n"
+"POT-Creation-Date: 2024-03-12 09:31+0100\n"
 "PO-Revision-Date: 2020-01-24 08:41+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -27,53 +27,55 @@ msgstr "Kaldır"
 
 #: ../../source/uninstall/index.rst:7
 msgid "Download"
-msgstr ""
+msgstr "İndir"
 
 #: ../../source/uninstall/index.rst:8
 msgid "Sources"
-msgstr ""
+msgstr "Kaynaklar"
 
 #: ../../source/uninstall/index.rst:9
 msgid "`<https://github.com/pluginsGLPI/uninstall/releases>`_"
-msgstr ""
+msgstr "`<https://github.com/pluginsGLPI/uninstall/releases>`_"
 
 #: ../../source/uninstall/index.rst:10
 msgid "`<https://github.com/pluginsGLPI/uninstall>`_"
-msgstr ""
+msgstr "`<https://github.com/pluginsGLPI/uninstall>`_"
 
 #: ../../source/uninstall/index.rst:13
 msgid "Requirements (on-premise)"
-msgstr ""
+msgstr "Gereksinimler (özel kurulum)"
 
 #: ../../source/uninstall/index.rst:16
 msgid "GLPI Version"
-msgstr ""
+msgstr "GLPI sürümü"
 
 #: ../../source/uninstall/index.rst:16
 msgid "Minimum PHP"
-msgstr ""
+msgstr "En düşük PHP sürümü"
 
 #: ../../source/uninstall/index.rst:16
 msgid "Recommended"
-msgstr ""
+msgstr "Önerilen"
 
 #: ../../source/uninstall/index.rst:18
 msgid "10.0.x"
-msgstr ""
+msgstr "10.0.x"
 
 #: ../../source/uninstall/index.rst:18
 msgid "8.1"
-msgstr ""
+msgstr "8.1"
 
 #: ../../source/uninstall/index.rst:18
 msgid "8.2"
-msgstr ""
+msgstr "8.2"
 
 #: ../../source/uninstall/index.rst:22
 msgid ""
 "This plugin is available without a GLPI-Network subscription. It is also "
 "available in `Cloud <https://glpi-network.cloud/>`_"
 msgstr ""
+"Bu uygulama eki bir GLPI-Network aboneliği olmadan kullanılabilir. Ayrıca "
+"`Cloud <https://glpi-network.cloud/>`_ üzerinde de bulunuyor"
 
 #: ../../source/uninstall/index.rst:25
 msgid "Features"
@@ -403,23 +405,26 @@ msgstr ""
 
 #: ../../source/uninstall/index.rst:129
 msgid "In this form there are 4 tabs :"
-msgstr ""
+msgstr "Bu formda 4 sekme bulunur:"
 
 #: ../../source/uninstall/index.rst:131
 msgid ""
 "Main: allows to display on the page only the main information of the "
 "template."
 msgstr ""
+"Temel: Sayfada kalıbın yalnızca temel bilgilerinin görüntülenmesini sağlar."
 
 #: ../../source/uninstall/index.rst:132
 msgid ""
 "Replacing data: displays the various actions to be performed when replacing "
 "one piece of equipment with another."
 msgstr ""
+"Verileri değiştirme: Bir aygıtı bir başkasıyla değiştirirken yapılacak "
+"çeşitli işlemleri görüntüler."
 
 #: ../../source/uninstall/index.rst:133
 msgid "All: displays all the tabs on the same page"
-msgstr ""
+msgstr "Tümü: Tüm sekmeleri aynı sayfada görüntüler"
 
 #: ../../source/uninstall/index.rst:138
 msgid "Here is the description of the fields of the main tab :"
@@ -676,14 +681,16 @@ msgid ""
 "It is possible to change the location of the equipment once it has been "
 "replaced. This selection is made either :"
 msgstr ""
+"Değiştirildikten sonra aygıtın yeri değiştirilebilir. Bu seçim şu şekillerde"
+" yapılabilir:"
 
 #: ../../source/uninstall/index.rst:210
 msgid "in the equipment sheet, once the replacement model has been chosen,"
-msgstr ""
+msgstr "aygıt sayfasında değiştirilecek model seçildikten sonra,"
 
 #: ../../source/uninstall/index.rst:211
 msgid "from the user's preferences for massive modification replacement."
-msgstr ""
+msgstr "toplu değişiklik değişimi için kullanıcının ayarlarından."
 
 #: ../../source/uninstall/index.rst:213
 msgid ""
@@ -695,13 +702,15 @@ msgstr ""
 
 #: ../../source/uninstall/index.rst:216
 msgid "FAQ"
-msgstr ""
+msgstr "SSS"
 
 #: ../../source/uninstall/index.rst:218
 msgid ""
 "If you have any questions about using the plugin, please consult `our FAQ "
 "<https://faq.teclib.com/04_Plugins/Uninstall/>`_"
 msgstr ""
+"Uygulama ekinin kullanımıyla ilgili herhangi bir sorunuz varsa `SSS "
+"<https://faq.teclib.com/04_Plugins/Uninstall/>`_ bölümüne bakabilirsiniz."
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
