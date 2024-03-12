@@ -381,9 +381,9 @@ source_file = build/locale/glpiai/setup_glpi.pot
 source_lang = en
 type = PO
 
-[o:teclib:p:glpi-plugins-documentation:r:glpiai--consumtpion]
-file_filter = source/locale/<lang>/LC_MESSAGES/glpiai/consumtpion.po
-source_file = build/locale/glpiai/consumtpion.pot
+[o:teclib:p:glpi-plugins-documentation:r:glpiai--consumption]
+file_filter = source/locale/<lang>/LC_MESSAGES/glpiai/consumption.po
+source_file = build/locale/glpiai/consumption.pot
 source_lang = en
 type = PO
 
