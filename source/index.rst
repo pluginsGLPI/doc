@@ -50,6 +50,7 @@ You'll find here user documentation for various `GLPI <http://glpi-project.org>`
    branding/index
    webhook/index
    GDPR/index
+   glpiai/index
    holidays/index
    ldaptools/index
    moresatisfaction/index
