@@ -113,8 +113,5 @@ Synchronising selected groups and users
 
 Repeat this step for all users and groups you want to import.
 
-.. Note::
-   It seems that OKTA does not offer an automatic way of assigning users to an application if you choose to synchronise groups and selected users.
-
 .. Important::
    See the procedure for setting up the `OAuth SSO <https://glpi-plugins.readthedocs.io/en/latest/oauthsso/okta.html>`_ plugin to authenticate users on GLPI  to authenticate your user.
