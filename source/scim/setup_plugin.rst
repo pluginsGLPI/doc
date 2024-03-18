@@ -41,3 +41,8 @@ Your SCIM server is now ready to receive requests from your identity provider.
 .. figure:: images/scim_api.png
    :alt: SCIM API example
    :scale: 78 %
+
+FAQ
+---
+
+If you have any questions about using the plugin, please consult `our FAQ <https://faq.teclib.com/04_Plugins/SCIM/>`_

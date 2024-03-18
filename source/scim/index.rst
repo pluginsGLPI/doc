@@ -10,4 +10,3 @@ SCIM
    entra
    okta
    setup_plugin
-   faq
