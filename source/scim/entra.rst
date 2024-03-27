@@ -4,7 +4,7 @@ Entra
 References:
 ~~~~~~~~~~
 
--  `Use scim to provision users and groups <https://learn.microsoft.com/fr-fr/azure/active-directory/app-provisioning/use-scim-to-provision-users-and-groups#integrate-your-scim-endpoint-with-the-azure-ad-provisioning-service>`_
+-  `Use SCIM to provision users and groups <https://learn.microsoft.com/en-us/entra/identity/app-provisioning/use-scim-to-provision-users-and-groups#integrate-your-scim-endpoint-with-the-azure-ad-provisioning-service>`_
 
 Setup
 ~~~~~
