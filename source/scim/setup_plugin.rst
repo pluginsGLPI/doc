@@ -30,8 +30,9 @@ You may set some optional parameters :
    -  **None**: no security, anyone can access the API.
    -  **Basic**: HTTP Basic authentication. You must provide a username and a password.
    -  **Digest**: HTTP Digest authentication. You must provide a username and a password.
-   -  **Bearer**: HTTP Bearer authentication. A long lived (10years) jwt token will be generated.
-   -  **OAuth2**: OAuth2 authentication. You must provide at least a valid redirection uri. We support the following flows:
+   -  **Bearer**: HTTP Bearer authentication. A long lived (10 years) JWT token will be generated.
+   -  **OAuth2**: OAuth2 authentication. You must provide at least a valid redirection URI. We support the following flows:
+
 
       -  Authorization code.
       -  Client credentials.
