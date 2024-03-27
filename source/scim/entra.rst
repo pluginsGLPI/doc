@@ -13,7 +13,7 @@ Create application
 ~~~~~~~~~~~~~~~~~~
 
 - Connect to your `Azure portal <https://aad.portal.azure.com/>`_
-- Click on **add**
+- Click on **Add**
 - then **Enterprise application**.
 
 .. figure:: images/scim-4.png
