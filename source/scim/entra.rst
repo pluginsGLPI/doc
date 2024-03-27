@@ -84,10 +84,10 @@ Synchronising selected groups and users (default option)
    :scale: 100 %
 
 - Then go to **Users and groups**
-- Click on **add a user/group**
-- Click on **no selection**
+- Click on **Add a user/group**
+- Click on **No selection**
 - Select the groups and users you want in the box on the right
-- Then **select** and **assign**.
+- Then **Select** and **Assign**.
 
 .. figure:: images/scim-12.png
    :alt: select users/groupes
