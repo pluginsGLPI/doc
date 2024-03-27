@@ -120,4 +120,4 @@ Check synchronisation status
    :scale: 43 %
 
 .. Important::
-   See the procedure for setting up the `OAuth SSO <https://glpi-plugins.readthedocs.io/en/latest/oauthsso/entra.html>`_ plugin to authenticate users on GLPI  to authenticate your user.
+   See the procedure for setting up the `OAuth SSO <https://glpi-plugins.readthedocs.io/en/latest/oauthsso/entra.html>`_ plugin to authenticate users on GLPI.
