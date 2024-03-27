@@ -113,7 +113,7 @@ Check synchronisation status
    :alt: check provisionning
    :scale: 82 %
 
-- On the GLPI side, Go to the **request log** section of your SCIM plugin **configuration** > **SCIM identity servers** to check that the accounts are correctly synchronised.
+- On the GLPI side, Go to the **Request log** section of your SCIM plugin **Setup** > **SCIM identity servers** to check that the accounts are correctly synchronised.
 
 .. figure:: images/scim-15.png
    :alt: check provisionning
