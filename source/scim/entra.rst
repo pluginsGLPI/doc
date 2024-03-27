@@ -37,7 +37,7 @@ Setup the application
    :alt: add provisionning
    :scale: 100 %
 
-- Select **automatic**.
+- Select **Automatic**.
 - Specify the **URL** `generated earlier <setup_plugin.html>`_ from GLPI and paste the **token**.
 
 .. Warning:: Make sure you **paste the token (JWT token)** to ensure your application works properly.
