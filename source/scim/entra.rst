@@ -107,7 +107,7 @@ Activate provisioning
 Check synchronisation status
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- In the **overview** section, you can check that synchronisation has been successful.
+- In the **Overview** section, you can check that synchronisation has been successful.
 
 .. figure:: images/scim-14.png
    :alt: check provisionning
