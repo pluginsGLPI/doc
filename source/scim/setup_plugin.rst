@@ -19,7 +19,8 @@ You must declare an identity server in the plugin configuration (You can add any
 
 .. Warning:: Make sure you **paste the token (Jwt token)** to ensure your application works properly.
 
-You’ll be given an API url you may paste into your identity provider configuration. Check `specific provider documentation <#providers>`_ for more details.
+You’ll be given an API URL you may paste into your identity provider configuration. Check the `specific provider documentation <#providers>`_ for more details.
+
 
 You may set some optional parameters :
 
