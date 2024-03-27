@@ -59,7 +59,7 @@ Setup the application
    :scale: 100 %
 
 
-- Click on **save**
+- Click on **Save**
 
 
 Synchronising all users
