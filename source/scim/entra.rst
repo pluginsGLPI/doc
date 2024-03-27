@@ -75,9 +75,9 @@ Synchronising all users
 Synchronising selected groups and users (default option)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- You can choose to synchronise only certain groups and/or users. When refreshing the **`provisionning`** page
-- Go to the **parameters > scope** tab
-- Select **synchronise assigned users and groups only**
+- You can choose to synchronise only certain groups and/or users. When refreshing the **`Provisionning`** page
+- Go to the **Parameters > Scope** tab
+- Select **Synchronise assigned users and groups only**
 
 .. figure:: images/scim-11.png
    :alt: sync selection
