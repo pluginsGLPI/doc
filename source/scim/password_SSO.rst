@@ -7,4 +7,4 @@ Although it’s mentioned in the `SCIM specifications <https://datatracker.ietf.
 -  Okta: `available <https://developer.okta.com/docs/concepts/scim/#sync-passwords>`_
 
 .. Attention::
-   Instead pushing passwords, we strongly recommend that you use `OAuth SSO <https://glpi-plugins.readthedocs.io/en/latest/oauthsso/index.html>`_ to connect your users to GLPI
+   Instead of pushing passwords, we strongly recommend that you use `OAuth SSO <https://glpi-plugins.readthedocs.io/en/latest/oauthsso/index.html>`_ to connect your users to GLPI
