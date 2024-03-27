@@ -47,9 +47,9 @@ Setup the application
    :alt: setup general
    :scale: 100 %
 
-To setup the provisionning, you need to setup GLPI. Refer to `setup GLPI <setup_plugin.html>`_ to configure **URL API** and **Jwt Token**
+To setup the provisioning, you need to setup GLPI. Refer to `setup GLPI <setup_plugin.html>`_ to configure **URL API** and **JWT Token**
 
-- Copy the **API URL** and the **Jwt token**, you need to paste theses informations in OKTA.
+- Copy the **API URL** and the **JWT token**, you need to paste this information in OKTA.
 
 
 
