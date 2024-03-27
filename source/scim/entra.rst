@@ -31,7 +31,7 @@ Create application
 Setup the application
 ~~~~~~~~~~~~~~~~~~~~~
 
-- Once you've created your application, go to **provisionning**.
+- Once you've created your application, go to **Provisioning**.
 
 .. figure:: images/scim-6.png
    :alt: add provisionning
