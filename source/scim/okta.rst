@@ -38,7 +38,7 @@ Setup the application
 ~~~~~~~~~~~~~~~~~~~~~
 
 - Go back to **General**
-- Click **edit**
+- Click **Edit**
 - Name the label
 - Select SCIM to activate the service
 - Click **Save**
