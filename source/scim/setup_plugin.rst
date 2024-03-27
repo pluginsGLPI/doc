@@ -24,7 +24,8 @@ You’ll be given an API url you may paste into your identity provider configura
 You may set some optional parameters :
 
 -  **Save requests in logs**: if checked, all requests will be saved in the “Historical” tab of your declared server.
--  **Default server**: if checked, this server will be used by default without providing it’s id in the API Url.
+-  **Default server**: if checked, this server will be used by default without providing it’s ID in the API URL.
+
 -  **Security**: a dropdown of available security methods. Currently implemented:
 
    -  **None**: no security, anyone can access the API.
