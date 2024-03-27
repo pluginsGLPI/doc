@@ -58,10 +58,10 @@ To setup the provisioning, you need to setup GLPI. Refer to `setup GLPI <setup_p
 - Select the Unique identifier field for users (*name.familyName, phoneNumber, name.givenName, id, userName, email,* etc. This will be the method to authenticate the users)
 - Select the actions which can be supported
 - Select **HTTP Header**
-- Paste the **Jwt token**
+- Paste the **JWT token**
 
 .. Important::
-   You need to **paste the Jwt token** not the secret
+   You need to **paste the JWT token** not the secret
 
 .. figure:: images/scim-21.png
    :alt: setup provisionning
