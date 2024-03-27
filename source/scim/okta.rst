@@ -114,4 +114,4 @@ Synchronising selected groups and users
 Repeat this step for all users and groups you want to import.
 
 .. Important::
-   See the procedure for setting up the `OAuth SSO <https://glpi-plugins.readthedocs.io/en/latest/oauthsso/okta.html>`_ plugin to authenticate users on GLPI  to authenticate your user.
+   See the procedure for setting up the `OAuth SSO <https://glpi-plugins.readthedocs.io/en/latest/oauthsso/okta.html>`_ plugin to authenticate users in GLPI.
