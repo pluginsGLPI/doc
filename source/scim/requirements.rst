@@ -12,4 +12,5 @@ GLPI Version Minimum PHP Recommended
 
 
 .. important::
-   The SCIM API endpoint provided by the plugin must be accessible from the identity provider. If we talk about Azure or Okta, this particular url should be available from the internet. We suggest strongly to limit the ip addresses that can access this url (in addition of adding a strong authentication method).
+   The SCIM API endpoint provided by the plugin must be accessible from the identity provider. If we talk about Azure or Okta, this particular URL should be available from the internet. We suggest strongly to limit the IP addresses that can access this URL (in addition of adding a strong authentication method).
+
