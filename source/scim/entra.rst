@@ -66,7 +66,7 @@ Synchronising all users
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 - You can choose to synchronise your entire directory.
-- Go to the **settings > scope** tab and select **sync all users and groups**.
+- Go to the **Settings > Scope** tab and select **Sync all users and groups**.
 
 .. figure:: images/scim-10.png
    :alt: sync all
