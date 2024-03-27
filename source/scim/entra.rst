@@ -40,7 +40,7 @@ Setup the application
 - Select **automatic**.
 - Specify the **URL** `generated earlier <setup_plugin.html>`_ from GLPI and paste the **token**.
 
-.. Warning:: Make sure you **paste the token (Jwt token)** to ensure your application works properly.
+.. Warning:: Make sure you **paste the token (JWT token)** to ensure your application works properly.
 
 .. figure:: images/scim-7.png
    :alt: setup provisionning
