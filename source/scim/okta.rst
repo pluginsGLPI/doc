@@ -75,7 +75,7 @@ To setup the provisionning, you need to setup GLPI. Refer to `setup GLPI <setup_
 
 - you can now **close** this window and **save** your configuration
 
-- Always in **provisionning**, you can edit and select the possible actions for updating your user data.
+- Always in **provisioning**, you can edit and select the possible actions for updating your user data.
 
 .. Warning::
    We recommand to unselect **Sync Password** and use `OAuth SSO <https://glpi-plugins.readthedocs.io/en/latest/oauthsso/okta.html>`_ to authenticate your user.
