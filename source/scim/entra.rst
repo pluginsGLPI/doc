@@ -96,8 +96,8 @@ Synchronising selected groups and users (default option)
 Activate provisioning
 ~~~~~~~~~~~~~~~~~~~~~
 
-- In the **provisionning** section
-- Change the status from **disabled** to **enabled**
+- In the **Provisioning** section
+- Change the status from **Disabled** to **Enabled**
 
 .. figure:: images/scim-13.gif
    :alt: enable sync
