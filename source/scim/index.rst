@@ -7,6 +7,7 @@ SCIM
    requirements
    password_SSO
    install_plugin
+   setup_plugin
    entra
    okta
-   setup_plugin
+   faq

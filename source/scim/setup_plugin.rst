@@ -17,6 +17,11 @@ You must declare an identity server in the plugin configuration (You can add any
    :alt: setup general
    :scale: 45 %
 
+.. note:: For Azure, the awaited secret is a long life valid jwt token.
+      We cannot use an oauth exchange (Azure doesn’t ask for an authorize URL).
+      So in GLPI, setup you SCIM server with **Bearer** security and paste the JWT token from GLPI in the **Secret token** field of Azure.
+
+
 .. Warning:: Make sure you **paste the token (Jwt token)** to ensure your application works properly.
 
 You’ll be given an API URL you may paste into your identity provider configuration. Check the `specific provider documentation <#providers>`_ for more details.
@@ -44,8 +49,3 @@ Your SCIM server is now ready to receive requests from your identity provider.
 .. figure:: images/scim_api.png
    :alt: SCIM API example
    :scale: 78 %
-
-FAQ
----
-
-If you have any questions about using the plugin, please consult `our FAQ <https://faq.teclib.com/04_Plugins/SCIM/>`_
