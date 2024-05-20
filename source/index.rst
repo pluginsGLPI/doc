@@ -56,6 +56,7 @@ You'll find here user documentation for various `GLPI <http://glpi-project.org>`
    moresatisfaction/index
    oauthsso/index
    renamestrings/index
+   saml/index
    scim/index
    splitcat/index
    translate/index
