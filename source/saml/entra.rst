@@ -71,7 +71,8 @@ Add users allowed to use SAML
 
 SAML needs users/groups to be added so that they are authorised to use authentication.
 
-* Click on **users and groups ** tab,
+* Click on **users and groups** tab,
+
 * Click on **+ Add user/group**
 * Select all the users and groups required
 * Click on **Assign**
