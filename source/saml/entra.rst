@@ -3,11 +3,13 @@ Entra
 
 .. include:: tabs/add-app.rst
 
+.. include:: tabs/for-entra.rst
+
 Add an app in Entra
 -------------------
 
 * Connect to your `Entra portal <https://portal.azure.com/#home>`_
-* click on **Entreprise Application**
+* Click on **Entreprise Application**
 * **And + New application**
 * In the search bar, enter **saml toolkit**
 * Click on **Microsoft Entra SAML Toolkit**
@@ -42,6 +44,15 @@ Setup the app
     :alt: See the values in GLPI
     :scale: 75%
 
+Setup the Service Provider
+---------------------------
+
+In **SP certificate** and **SP Private Key**, copy/paste your certificate in place of those already present.
+There are no strict requirements for these certificates, other than that they are valid X509 certificates.
+
+.. image:: images/certificates-service-provider.png
+    :alt: setup the values
+    :scale: 80%
 
 Setup the Identity Provider
 ---------------------------
@@ -66,16 +77,72 @@ Setup the Identity Provider
     :alt: setup the values
     :scale: 100%
 
+.. tip:: It is advisable to use **none** as the **REQ AUTHN CONTEXT**
+
+Security
+--------
+
+For a production instance, you must activate the **Strict** option.
+
+We advise you to activate **JIT user creation**. This will allow the rules you create from JIT Rules to be applied.
+
+.. image:: images/security.png
+    :alt: options for security
+    :scale: 82%
+
+.. Warning::
+    For the plugin to authenticate a user, the field must contain a **valid UPN** formatted **as an email**.
+    This behaviour can lead to duplicate entries in GLPI when users leave Ldap.
+    This is an important detail because some users who leave Active directory in certain scenarios still use the usersam account name
+    (old netbui names) as the UPN in entra.
+    As a result, the nameId field in the samlResponse will not be populated with a valid email address.
+    The username field is used because the email field is not guaranteed to be unique in GLPI and it is essential that a
+    unique identifier is used to allow authorisation of a specific GLPI user.
+
+
 Add users allowed to use SAML
 -----------------------------
 
 SAML needs users/groups to be added so that they are authorised to use authentication.
 
 * Click on **users and groups** tab,
-
 * Click on **+ Add user/group**
 * Select all the users and groups required
 * Click on **Assign**
+
+.. image:: images/select-users-groups.png
+    :alt: add user allowed
+    :scale: 45%
+
+Mapping
+-------
+
+If you wish to add additional information to your profile, you can use Attributes & Claims.
+Your profile will be populated with the information entered in Entra.
+
+* In **Single sign on**, click on **Edit**
+* Copy the URL of the one of the other claim
+
+.. image:: images/copy_url_claims.png
+    :alt: Copy the URL schema
+    :scale: 78%
+
+* Click on **+ Add new claim**
+* Select a name
+* Paste the URL you've just copied ine **Namespace**
+* Selct **attribute**
+* Search the value that you want in the **Source attribute**
+* Save your modification
+* Repeat this step for all the desired values
+
+
+.. image:: images/add_claims_entra.png
+    :alt: add claims in Entra
+    :scale: 45%
+
+.. image:: images/see_claims_entra.png
+    :alt: see claims in Entra
+    :scale: 83%
 
 .. include:: tabs/rules.rst
 

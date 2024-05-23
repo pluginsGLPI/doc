@@ -11,6 +11,10 @@ GLPI Version Minimum PHP Recommended
    This plugin is available without a GLPI-Network subscription. It is also available in `Cloud <https://glpi-network.cloud/>`_.
 
 
+.. Warning::
+   You need an admin access to the Entra/Google console to setup the application
+
+
 Download the plugin
 -------------------
 
