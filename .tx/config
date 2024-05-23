@@ -464,3 +464,11 @@ file_filter = source/locale/<lang>/LC_MESSAGES/saml/tabs/add-app.po
 source_file = build/locale/saml/tabs/add-app.pot
 source_lang = en
 type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:saml--for-entra]
+file_filter = source/locale/<lang>/LC_MESSAGES/saml/tabs/for-entra.po
+source_file = build/locale/saml/tabs/for-entra.pot
+source_lang = en
+type = PO
+
+
