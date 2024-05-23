@@ -73,6 +73,26 @@ Your app is now created
     :alt: Your app is now created
     :scale: 44%
 
+Security
+--------
+
+For a production instance, in GLPI, you must activate the **Strict** option in setup plugin SAML.
+
+We advise you to activate **JIT user creation**. This will allow the rules you create from JIT Rules to be applied.
+
+.. image:: images/security.png
+    :alt: options for security
+    :scale: 82%
+
+.. Warning::
+    For the plugin to authenticate a user, the field must contain a **valid UPN** formatted **as an email**.
+    This behaviour can lead to duplicate entries in GLPI when users leave Ldap.
+    This is an important detail because some users who leave Active directory in certain scenarios still use the usersam account name
+    (old netbui names) as the UPN in entra.
+    As a result, the nameId field in the samlResponse will not be populated with a valid email address.
+    The username field is used because the email field is not guaranteed to be unique in GLPI and it is essential that a
+    unique identifier is used to allow authorisation of a specific GLPI user.
+
 Add users allowed to use SAML
 -----------------------------
 
