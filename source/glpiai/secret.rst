@@ -6,7 +6,7 @@ Create a secret
 
 .. figure:: images/glpiai-3.png
    :alt: create secret
-   :scale: 55 %
+   :scale: 38 %
 
 - Give a name to your secret
 - Click on **Create secret key**
