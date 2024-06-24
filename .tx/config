@@ -195,9 +195,33 @@ source_file = build/locale/scim/index.pot
 source_lang = en
 type = PO
 
-[o:teclib:p:glpi-plugins-documentation:r:scim--azure]
-file_filter = source/locale/<lang>/LC_MESSAGES/scim/azure.po
-source_file = build/locale/scim/azure.pot
+[o:teclib:p:glpi-plugins-documentation:r:scim--entra]
+file_filter = source/locale/<lang>/LC_MESSAGES/scim/entra.po
+source_file = build/locale/scim/entra.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:scim--faq]
+file_filter = source/locale/<lang>/LC_MESSAGES/scim/faq.po
+source_file = build/locale/scim/faq.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:scim--install_plugin]
+file_filter = source/locale/<lang>/LC_MESSAGES/scim/install_plugin.po
+source_file = build/locale/scim/install_plugin.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:scim--password_SSO]
+file_filter = source/locale/<lang>/LC_MESSAGES/scim/password_SSO.po
+source_file = build/locale/scim/password_SSO.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:scim--requirements]
+file_filter = source/locale/<lang>/LC_MESSAGES/scim/requirements.po
+source_file = build/locale/scim/requirements.pot
 source_lang = en
 type = PO
 
@@ -398,3 +422,53 @@ file_filter = source/locale/<lang>/LC_MESSAGES/glpiai/example.po
 source_file = build/locale/glpiai/example.pot
 source_lang = en
 type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:saml--entra]
+file_filter = source/locale/<lang>/LC_MESSAGES/saml/entra.po
+source_file = build/locale/saml/entra.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:saml--google]
+file_filter = source/locale/<lang>/LC_MESSAGES/saml/google.po
+source_file = build/locale/saml/google.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:saml--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/saml/index.po
+source_file = build/locale/saml/index.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:saml--requirements]
+file_filter = source/locale/<lang>/LC_MESSAGES/saml/requirements.po
+source_file = build/locale/saml/requirements.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:saml--rules]
+file_filter = source/locale/<lang>/LC_MESSAGES/saml/rules.po
+source_file = build/locale/saml/rules.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:saml--sources]
+file_filter = source/locale/<lang>/LC_MESSAGES/saml/tabs/sources.po
+source_file = build/locale/saml/tabs/sources.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:saml--add-app]
+file_filter = source/locale/<lang>/LC_MESSAGES/saml/tabs/add-app.po
+source_file = build/locale/saml/tabs/add-app.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:saml--for-entra]
+file_filter = source/locale/<lang>/LC_MESSAGES/saml/tabs/for-entra.po
+source_file = build/locale/saml/tabs/for-entra.pot
+source_lang = en
+type = PO
+
+
