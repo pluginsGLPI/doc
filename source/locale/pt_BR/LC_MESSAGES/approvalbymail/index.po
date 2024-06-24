@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Rafael Santos <rafacss@gmail.com>, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-12 09:31+0100\n"
+"POT-Creation-Date: 2024-06-24 10:21+0200\n"
 "PO-Revision-Date: 2024-02-14 18:27+0000\n"
+"Last-Translator: Rafael Santos <rafacss@gmail.com>, 2024\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/teclib/teams/28042/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,35 +23,35 @@ msgstr ""
 
 #: ../../source/approvalbymail/index.rst:2
 msgid "Approval by mail"
-msgstr ""
+msgstr "Aprovação por email"
 
 #: ../../source/approvalbymail/index.rst:5
 msgid "Requirements (on-premise)"
-msgstr ""
+msgstr "Requisitos (no local)"
 
 #: ../../source/approvalbymail/index.rst:8
 msgid "GLPI Version"
-msgstr ""
+msgstr "Versão do GLPI"
 
 #: ../../source/approvalbymail/index.rst:8
 msgid "Minimum PHP"
-msgstr ""
+msgstr "PHP mínimo"
 
 #: ../../source/approvalbymail/index.rst:8
 msgid "Recommended"
-msgstr ""
+msgstr "Recomendado"
 
 #: ../../source/approvalbymail/index.rst:10
 msgid "10.0.x"
-msgstr ""
+msgstr "10.0.x"
 
 #: ../../source/approvalbymail/index.rst:10
 msgid "8.1"
-msgstr ""
+msgstr "8.1"
 
 #: ../../source/approvalbymail/index.rst:10
 msgid "8.2"
-msgstr ""
+msgstr "8.2"
 
 #: ../../source/approvalbymail/index.rst:14
 msgid ""
@@ -55,23 +59,26 @@ msgid ""
 "is required. This plugin is also available from the `Cloud <https://glpi-"
 "network.cloud/>`_."
 msgstr ""
+"`Licença padrão <https://services.glpi-network.com/#offers>`_ (ou superior) "
+"é necessária. Este plugin também está disponível na `Cloud <https://glpi-"
+"network.cloud/>`_."
 
 #: ../../source/approvalbymail/index.rst:17
 msgid "Install the plugin"
-msgstr ""
+msgstr "Instale o plug-in"
 
 #: ../../source/approvalbymail/index.rst:19
 msgid ""
 "Go to the marketplace. Download and install the plugin **ApprovalByMail**."
-msgstr ""
+msgstr "Vá ao marketplace. Baixe e instale o plugin **ApprovalByMail**."
 
 #: ../../source/approvalbymail/index.rst-1
 msgid "install the plugin"
-msgstr ""
+msgstr "Instale o plug-in"
 
 #: ../../source/approvalbymail/index.rst:25
 msgid "Using the plugin"
-msgstr ""
+msgstr "Usando o plug-in"
 
 #: ../../source/approvalbymail/index.rst:27
 msgid ""
@@ -79,16 +86,21 @@ msgid ""
 "notification layout, if you wish, via **Setup > Notifications > Notification"
 " templates**. The template is **Tickets validation**)"
 msgstr ""
+"Uma vez ativado, não há configurações específicas a serem feitas (além do "
+"layout da notificação, se desejar, via **Configuração > Notificações > "
+"Modelos de notificação**. O modelo é **Validação de tickets**)"
 
 #: ../../source/approvalbymail/index.rst:29
 msgid ""
 "In a new ticket, enter the name of the person or group receiving the "
 "approval request."
 msgstr ""
+"Em um novo ticket, insira o nome da pessoa ou grupo que receberá a "
+"solicitação da aprovação."
 
 #: ../../source/approvalbymail/index.rst-1
 msgid "add approbation"
-msgstr ""
+msgstr "adicionar aprovação"
 
 #: ../../source/approvalbymail/index.rst:35
 msgid ""
@@ -96,14 +108,17 @@ msgid ""
 "the request. This contains 3 links (if no changes have been made to the "
 "model)."
 msgstr ""
+"Será recebido um e-mail com a opção de **Validar** ou **Recusar** a "
+"solicitação. Contém 3 links (se nenhuma alteração tiver sido feita no "
+"modelo)."
 
 #: ../../source/approvalbymail/index.rst:37
 msgid "The ticket reminder"
-msgstr ""
+msgstr "O lembrete do ticket"
 
 #: ../../source/approvalbymail/index.rst:38
 msgid "The acceptance link"
-msgstr ""
+msgstr "O link de aceitação"
 
 #: ../../source/approvalbymail/index.rst:39
 msgid "The refusal link"
@@ -111,51 +126,59 @@ msgstr ""
 
 #: ../../source/approvalbymail/index.rst-1
 msgid "see the email"
-msgstr ""
+msgstr "veja o email"
 
 #: ../../source/approvalbymail/index.rst:45
 msgid ""
 "When the form is validated, you are redirected to GLPI with a notification "
 "of acceptance:"
 msgstr ""
+"Quando o formulário for validado, você será redirecionado ao GLPI com uma "
+"notificação de aceitação:"
 
 #: ../../source/approvalbymail/index.rst-1
 msgid "validation ok"
-msgstr ""
+msgstr "validação ok"
 
 #: ../../source/approvalbymail/index.rst:52
 msgid ""
 "If the form is refused, a comment will be requested to validate the refusal:"
 msgstr ""
+"Caso o formulário seja recusado, será solicitado um comentário para validar "
+"a recusa:"
 
 #: ../../source/approvalbymail/index.rst-1
 msgid "add text refused"
-msgstr ""
+msgstr "adicionar texto recusado"
 
 #: ../../source/approvalbymail/index.rst:59
 msgid ""
 "It is not possible to reply 2 times to the validation, an error message will"
 " be displayed:"
 msgstr ""
+"Não é possível responder 2 vezes à validação, será exibida uma mensagem de "
+"erro:"
 
 #: ../../source/approvalbymail/index.rst-1
 msgid "refused"
-msgstr ""
+msgstr "recusado"
 
 #: ../../source/approvalbymail/index.rst:67
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: ../../source/approvalbymail/index.rst:69
 msgid ""
 "If you have any questions about using the plugin, please consult `our FAQ "
 "<https://faq.teclib.com/04_Plugins/Approval_mail/>`_"
 msgstr ""
+"Se você tiver alguma dúvida sobre o uso do plugin, consulte `nosso FAQ "
+"<https://faq.teclib.com/04_Plugins/Approval_mail/>`_"
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Licença Creative Commons"

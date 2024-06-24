@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Shawn Long <webaccounts@kkg.org>, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-12 09:31+0100\n"
+"POT-Creation-Date: 2024-06-24 10:21+0200\n"
 "PO-Revision-Date: 2024-01-26 14:56+0000\n"
+"Last-Translator: Shawn Long <webaccounts@kkg.org>, 2024\n"
 "Language-Team: English (United States) (https://app.transifex.com/teclib/teams/28042/en_US/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,35 +23,35 @@ msgstr ""
 
 #: ../../source/anonymize/index.rst:2
 msgid "Anonymize"
-msgstr ""
+msgstr "Anonymize"
 
 #: ../../source/anonymize/index.rst:5
 msgid "Requirements (on-premise)"
-msgstr ""
+msgstr "Requirements (on-premise)"
 
 #: ../../source/anonymize/index.rst:8
 msgid "GLPI Version"
-msgstr ""
+msgstr "GLPI Version"
 
 #: ../../source/anonymize/index.rst:8
 msgid "Minimum PHP"
-msgstr ""
+msgstr "Minimum PHP"
 
 #: ../../source/anonymize/index.rst:8
 msgid "Recommended"
-msgstr ""
+msgstr "Recommended"
 
 #: ../../source/anonymize/index.rst:10
 msgid "10.0.x"
-msgstr ""
+msgstr "10.0.x"
 
 #: ../../source/anonymize/index.rst:10
 msgid "8.1"
-msgstr ""
+msgstr "8.1"
 
 #: ../../source/anonymize/index.rst:10
 msgid "8.2"
-msgstr ""
+msgstr "8.2"
 
 #: ../../source/anonymize/index.rst:14
 msgid ""
@@ -55,19 +59,23 @@ msgid ""
 "is required. This plugin is also available from the `Cloud <https://glpi-"
 "network.cloud/fr/>`_."
 msgstr ""
+"A `basic licence <https://services.glpi-network.com/#offers>`_ (or higher) "
+"is required. This plugin is also available from the `Cloud <https://glpi-"
+"network.cloud/fr/>`_."
 
 #: ../../source/anonymize/index.rst-1 ../../source/anonymize/index.rst:17
 msgid "Install the plugin"
-msgstr ""
+msgstr "Install the plugin"
 
 #: ../../source/anonymize/index.rst:19
 msgid ""
 "Go to the marketplace. Download and install the “`Anonymize`”   plugin."
 msgstr ""
+"Go to the marketplace. Download and install the “`Anonymize`”   plugin."
 
 #: ../../source/anonymize/index.rst:26
 msgid "Choice of profile"
-msgstr ""
+msgstr "Choice of profile"
 
 #: ../../source/anonymize/index.rst:28
 msgid ""
@@ -75,50 +83,57 @@ msgid ""
 "you select a profile, a certain amount of data is already set. They can, of "
 "course, be modified."
 msgstr ""
+"Anonymisation works by profile. There are 4 profiles already created. When "
+"you select a profile, a certain amount of data is already set. They can, of "
+"course, be modified."
 
 #: ../../source/anonymize/index.rst:31
 msgid ""
 "Go to **Administration** > **Anonymization profile** and select the profile "
 "best suited to your needs:"
 msgstr ""
+"Go to **Administration** > **Anonymization profile** and select the profile "
+"best suited to your needs:"
 
 #: ../../source/anonymize/index.rst:33
 msgid "The 4 profiles you will find are :"
-msgstr ""
+msgstr "The 4 profiles you will find are :"
 
 #: ../../source/anonymize/index.rst:35 ../../source/anonymize/index.rst:56
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: ../../source/anonymize/index.rst:36 ../../source/anonymize/index.rst:65
 msgid "Entity"
-msgstr ""
+msgstr "Entity"
 
 #: ../../source/anonymize/index.rst:37 ../../source/anonymize/index.rst:164
 msgid "Computer"
-msgstr ""
+msgstr "Computer"
 
 #: ../../source/anonymize/index.rst:38
 msgid "User profile"
-msgstr ""
+msgstr "User Profile"
 
 #: ../../source/anonymize/index.rst-1
 msgid "Profiles"
-msgstr ""
+msgstr "Profiles"
 
 #: ../../source/anonymize/index.rst:46
 msgid "Anonymisable data per profile (predefined)"
-msgstr ""
+msgstr "Anonymisable data per profile (predefined)"
 
 #: ../../source/anonymize/index.rst:48
 msgid ""
 "Each profile has an element assigned to it. You will need to define the "
 "value of each attribute that it will be able to anonymise (or not)"
 msgstr ""
+"Each profile has an element assigned to it. You will need to define the "
+"value of each attribute that it will be able to anonymise (or not)"
 
 #: ../../source/anonymize/index.rst-1
 msgid "attributes"
-msgstr ""
+msgstr "attributes"
 
 #: ../../source/anonymize/index.rst:60 ../../source/anonymize/index.rst:185
 #: ../../source/anonymize/index.rst:401 ../../source/anonymize/index.rst:513
@@ -132,16 +147,16 @@ msgstr ""
 #: ../../source/anonymize/index.rst:1209 ../../source/anonymize/index.rst:1241
 #: ../../source/anonymize/index.rst:1394
 msgid "`users_id`"
-msgstr ""
+msgstr "`users_id`"
 
 #: ../../source/anonymize/index.rst:61
 msgid "`is_default`"
-msgstr ""
+msgstr "`is_default`"
 
 #: ../../source/anonymize/index.rst:62 ../../source/anonymize/index.rst:83
 #: ../../source/anonymize/index.rst:553 ../../source/anonymize/index.rst:1296
 msgid "`email`"
-msgstr ""
+msgstr "`email`"
 
 #: ../../source/anonymize/index.rst:69 ../../source/anonymize/index.rst:169
 #: ../../source/anonymize/index.rst:199 ../../source/anonymize/index.rst:364
@@ -166,7 +181,7 @@ msgstr ""
 #: ../../source/anonymize/index.rst:1309 ../../source/anonymize/index.rst:1326
 #: ../../source/anonymize/index.rst:1344 ../../source/anonymize/index.rst:1416
 msgid "`name`"
-msgstr ""
+msgstr "`name`"
 
 #: ../../source/anonymize/index.rst:70 ../../source/anonymize/index.rst:168
 #: ../../source/anonymize/index.rst:218 ../../source/anonymize/index.rst:363
@@ -190,7 +205,7 @@ msgstr ""
 #: ../../source/anonymize/index.rst:1325 ../../source/anonymize/index.rst:1343
 #: ../../source/anonymize/index.rst:1417
 msgid "`entities_id`"
-msgstr ""
+msgstr "`entities_id`"
 
 #: ../../source/anonymize/index.rst:71 ../../source/anonymize/index.rst:176
 #: ../../source/anonymize/index.rst:211 ../../source/anonymize/index.rst:397
@@ -211,313 +226,313 @@ msgstr ""
 #: ../../source/anonymize/index.rst:1310 ../../source/anonymize/index.rst:1330
 #: ../../source/anonymize/index.rst:1418
 msgid "`comment`"
-msgstr ""
+msgstr "`comment`"
 
 #: ../../source/anonymize/index.rst:72 ../../source/anonymize/index.rst:682
 #: ../../source/anonymize/index.rst:719 ../../source/anonymize/index.rst:821
 #: ../../source/anonymize/index.rst:1225 ../../source/anonymize/index.rst:1311
 msgid "`level`"
-msgstr ""
+msgstr "`level`"
 
 #: ../../source/anonymize/index.rst:73 ../../source/anonymize/index.rst:684
 #: ../../source/anonymize/index.rst:725 ../../source/anonymize/index.rst:823
 #: ../../source/anonymize/index.rst:1253 ../../source/anonymize/index.rst:1313
 msgid "`sons_cache`"
-msgstr ""
+msgstr "`sons_cache`"
 
 #: ../../source/anonymize/index.rst:74 ../../source/anonymize/index.rst:683
 #: ../../source/anonymize/index.rst:724 ../../source/anonymize/index.rst:822
 #: ../../source/anonymize/index.rst:1252 ../../source/anonymize/index.rst:1312
 msgid "`ancestors_cache`"
-msgstr ""
+msgstr "`ancestors_cache`"
 
 #: ../../source/anonymize/index.rst:75 ../../source/anonymize/index.rst:557
 #: ../../source/anonymize/index.rst:824 ../../source/anonymize/index.rst:1287
 msgid "`address`"
-msgstr ""
+msgstr "`address`"
 
 #: ../../source/anonymize/index.rst:76 ../../source/anonymize/index.rst:558
 #: ../../source/anonymize/index.rst:825 ../../source/anonymize/index.rst:1288
 msgid "`postcode`"
-msgstr ""
+msgstr "`postcode`"
 
 #: ../../source/anonymize/index.rst:77 ../../source/anonymize/index.rst:559
 #: ../../source/anonymize/index.rst:826 ../../source/anonymize/index.rst:1289
 msgid "`town`"
-msgstr ""
+msgstr "`town`"
 
 #: ../../source/anonymize/index.rst:78 ../../source/anonymize/index.rst:560
 #: ../../source/anonymize/index.rst:827 ../../source/anonymize/index.rst:1290
 #: ../../source/anonymize/index.rst:1333 ../../source/anonymize/index.rst:1401
 msgid "`state`"
-msgstr ""
+msgstr "`state`"
 
 #: ../../source/anonymize/index.rst:79 ../../source/anonymize/index.rst:561
 #: ../../source/anonymize/index.rst:828 ../../source/anonymize/index.rst:1291
 msgid "`country`"
-msgstr ""
+msgstr "`country`"
 
 #: ../../source/anonymize/index.rst:80 ../../source/anonymize/index.rst:1292
 msgid "`website`"
-msgstr ""
+msgstr "`website`"
 
 #: ../../source/anonymize/index.rst:81 ../../source/anonymize/index.rst:1293
 msgid "`phonenumber`"
-msgstr ""
+msgstr "`phonenumber`"
 
 #: ../../source/anonymize/index.rst:82 ../../source/anonymize/index.rst:552
 #: ../../source/anonymize/index.rst:1295
 msgid "`fax`"
-msgstr ""
+msgstr "`fax`"
 
 #: ../../source/anonymize/index.rst:84
 msgid "`admin_email`"
-msgstr ""
+msgstr "`admin_email`"
 
 #: ../../source/anonymize/index.rst:85
 msgid "`admin_email_name`"
-msgstr ""
+msgstr "`admin_email_name`"
 
 #: ../../source/anonymize/index.rst:86
 msgid "`from_email`"
-msgstr ""
+msgstr "`from_email`"
 
 #: ../../source/anonymize/index.rst:87
 msgid "`from_email_name`"
-msgstr ""
+msgstr "`from_email_name`"
 
 #: ../../source/anonymize/index.rst:88
 msgid "`noreply_email`"
-msgstr ""
+msgstr "`noreply_email`"
 
 #: ../../source/anonymize/index.rst:89
 msgid "`noreply_email_name`"
-msgstr ""
+msgstr "`noreply_email_name`"
 
 #: ../../source/anonymize/index.rst:90
 msgid "`replyto_email`"
-msgstr ""
+msgstr "`replyto_email`"
 
 #: ../../source/anonymize/index.rst:91
 msgid "`replyto_email_name`"
-msgstr ""
+msgstr "`replyto_email_name`"
 
 #: ../../source/anonymize/index.rst:92
 msgid "`notification_subject_tag`"
-msgstr ""
+msgstr "`notification_subject_tag`"
 
 #: ../../source/anonymize/index.rst:93
 msgid "`ldap_dn`"
-msgstr ""
+msgstr "`ldap_dn`"
 
 #: ../../source/anonymize/index.rst:94 ../../source/anonymize/index.rst:372
 #: ../../source/anonymize/index.rst:626
 msgid "`tag`"
-msgstr ""
+msgstr "`tag`"
 
 #: ../../source/anonymize/index.rst:95
 msgid "`authldaps_id`"
-msgstr ""
+msgstr "`authldaps_id`"
 
 #: ../../source/anonymize/index.rst:96
 msgid "`mail_domain`"
-msgstr ""
+msgstr "`mail_domain`"
 
 #: ../../source/anonymize/index.rst:97
 msgid "`entity_ldapfilter`"
-msgstr ""
+msgstr "`entity_ldapfilter`"
 
 #: ../../source/anonymize/index.rst:98
 msgid "`mailing_signature`"
-msgstr ""
+msgstr "`mailing_signature`"
 
 #: ../../source/anonymize/index.rst:99
 msgid "`cartridges_alert_repeat`"
-msgstr ""
+msgstr "`cartridges_alert_repeat`"
 
 #: ../../source/anonymize/index.rst:100
 msgid "`consumables_alert_repeat`"
-msgstr ""
+msgstr "`consumables_alert_repeat`"
 
 #: ../../source/anonymize/index.rst:101
 msgid "`use_licenses_alert`"
-msgstr ""
+msgstr "`use_licenses_alert`"
 
 #: ../../source/anonymize/index.rst:102
 msgid "`send_licenses_alert_before_delay`"
-msgstr ""
+msgstr "`send_licenses_alert_before_delay`"
 
 #: ../../source/anonymize/index.rst:103
 msgid "`use_certificates_alert`"
-msgstr ""
+msgstr "`use_certificates_alert`"
 
 #: ../../source/anonymize/index.rst:104
 msgid "`send_certificates_alert_before_delay`"
-msgstr ""
+msgstr "`send_certificates_alert_before_delay`"
 
 #: ../../source/anonymize/index.rst:105
 msgid "`certificates_alert_repeat_interval`"
-msgstr ""
+msgstr "`certificates_alert_repeat_interval`"
 
 #: ../../source/anonymize/index.rst:106
 msgid "`use_contracts_alert`"
-msgstr ""
+msgstr "`use_contracts_alert`"
 
 #: ../../source/anonymize/index.rst:107
 msgid "`send_contracts_alert_before_delay`"
-msgstr ""
+msgstr "`send_contracts_alert_before_delay`"
 
 #: ../../source/anonymize/index.rst:108
 msgid "`use_infocoms_alert`"
-msgstr ""
+msgstr "`use_infocoms_alert`"
 
 #: ../../source/anonymize/index.rst:109
 msgid "`send_infocoms_alert_before_delay`"
-msgstr ""
+msgstr "`send_infocoms_alert_before_delay`"
 
 #: ../../source/anonymize/index.rst:110
 msgid "`use_reservations_alert`"
-msgstr ""
+msgstr "`use_reservations_alert`"
 
 #: ../../source/anonymize/index.rst:111
 msgid "`use_domains_alert`"
-msgstr ""
+msgstr "`use_domains_alert`"
 
 #: ../../source/anonymize/index.rst:112
 msgid "`send_domains_alert_close_expiries_delay`"
-msgstr ""
+msgstr "`send_domains_alert_close_expiries_delay`"
 
 #: ../../source/anonymize/index.rst:113
 msgid "`send_domains_alert_expired_delay`"
-msgstr ""
+msgstr "`send_domains_alert_expired_delay`"
 
 #: ../../source/anonymize/index.rst:114
 msgid "`autoclose_delay`"
-msgstr ""
+msgstr "`autoclose_delay`"
 
 #: ../../source/anonymize/index.rst:115
 msgid "`autopurge_delay`"
-msgstr ""
+msgstr "`autopurge_delay`"
 
 #: ../../source/anonymize/index.rst:116
 msgid "`notclosed_delay`"
-msgstr ""
+msgstr "`notclosed_delay`"
 
 #: ../../source/anonymize/index.rst:117
 msgid "`calendars_strategy`"
-msgstr ""
+msgstr "`calendars_strategy`"
 
 #: ../../source/anonymize/index.rst:118
 msgid "`calendars_id`"
-msgstr ""
+msgstr "`calendars_id`"
 
 #: ../../source/anonymize/index.rst:119
 msgid "`auto_assign_mode`"
-msgstr ""
+msgstr "`auto_assign_mode`"
 
 #: ../../source/anonymize/index.rst:120
 msgid "`tickettype`"
-msgstr ""
+msgstr "`tickettype`"
 
 #: ../../source/anonymize/index.rst:121
 msgid "`max_closedate`"
-msgstr ""
+msgstr "`max_closedate`"
 
 #: ../../source/anonymize/index.rst:122
 msgid "`inquest_config`"
-msgstr ""
+msgstr "`inquest_config`"
 
 #: ../../source/anonymize/index.rst:123
 msgid "`inquest_rate`"
-msgstr ""
+msgstr "`inquest_rate`"
 
 #: ../../source/anonymize/index.rst:124
 msgid "`inquest_delay`"
-msgstr ""
+msgstr "`inquest_delay`"
 
 #: ../../source/anonymize/index.rst:125
 msgid "`inquest_URL`"
-msgstr ""
+msgstr "`inquest_URL`"
 
 #: ../../source/anonymize/index.rst:126
 msgid "`autofill_warranty_date`"
-msgstr ""
+msgstr "`autofill_warranty_date`"
 
 #: ../../source/anonymize/index.rst:127
 msgid "`autofill_use_date`"
-msgstr ""
+msgstr "`autofill_use_date`"
 
 #: ../../source/anonymize/index.rst:128
 msgid "`autofill_buy_date`"
-msgstr ""
+msgstr "`autofill_buy_date`"
 
 #: ../../source/anonymize/index.rst:129
 msgid "`autofill_delivery_date`"
-msgstr ""
+msgstr "`autofill_delivery_date`"
 
 #: ../../source/anonymize/index.rst:130
 msgid "`autofill_order_date`"
-msgstr ""
+msgstr "`autofill_order_date`"
 
 #: ../../source/anonymize/index.rst:131
 msgid "`tickettemplates_strategy`"
-msgstr ""
+msgstr "`tickettemplates_strategy`"
 
 #: ../../source/anonymize/index.rst:132
 msgid "`tickettemplates_id`"
-msgstr ""
+msgstr "`tickettemplates_id`"
 
 #: ../../source/anonymize/index.rst:133
 msgid "`changetemplates_strategy`"
-msgstr ""
+msgstr "`changetemplates_strategy`"
 
 #: ../../source/anonymize/index.rst:134 ../../source/anonymize/index.rst:729
 msgid "`changetemplates_id`"
-msgstr ""
+msgstr "`changetemplates_id`"
 
 #: ../../source/anonymize/index.rst:135
 msgid "`problemtemplates_strategy`"
-msgstr ""
+msgstr "`problemtemplates_strategy`"
 
 #: ../../source/anonymize/index.rst:136 ../../source/anonymize/index.rst:730
 msgid "`problemtemplates_id`"
-msgstr ""
+msgstr "`problemtemplates_id`"
 
 #: ../../source/anonymize/index.rst:137
 msgid "`entities_strategy_software`"
-msgstr ""
+msgstr "`entities_strategy_software`"
 
 #: ../../source/anonymize/index.rst:138
 msgid "`entities_id_software`"
-msgstr ""
+msgstr "`entities_id_software`"
 
 #: ../../source/anonymize/index.rst:139
 msgid "`default_contract_alert`"
-msgstr ""
+msgstr "`default_contract_alert`"
 
 #: ../../source/anonymize/index.rst:140
 msgid "`default_infocom_alert`"
-msgstr ""
+msgstr "`default_infocom_alert`"
 
 #: ../../source/anonymize/index.rst:141
 msgid "`default_cartridges_alarm_threshold`"
-msgstr ""
+msgstr "`default_cartridges_alarm_threshold`"
 
 #: ../../source/anonymize/index.rst:142
 msgid "`default_consumables_alarm_threshold`"
-msgstr ""
+msgstr "`default_consumables_alarm_threshold`"
 
 #: ../../source/anonymize/index.rst:143
 msgid "`delay_send_emails`"
-msgstr ""
+msgstr "`delay_send_emails`"
 
 #: ../../source/anonymize/index.rst:144
 msgid "`is_notif_enable_default`"
-msgstr ""
+msgstr "`is_notif_enable_default`"
 
 #: ../../source/anonymize/index.rst:145
 msgid "`inquest_duration`"
-msgstr ""
+msgstr "`inquest_duration`"
 
 #: ../../source/anonymize/index.rst:146 ../../source/anonymize/index.rst:177
 #: ../../source/anonymize/index.rst:215 ../../source/anonymize/index.rst:405
@@ -542,7 +557,7 @@ msgstr ""
 #: ../../source/anonymize/index.rst:1316 ../../source/anonymize/index.rst:1331
 #: ../../source/anonymize/index.rst:1349 ../../source/anonymize/index.rst:1404
 msgid "`date_mod`"
-msgstr ""
+msgstr "`date_mod`"
 
 #: ../../source/anonymize/index.rst:147 ../../source/anonymize/index.rst:190
 #: ../../source/anonymize/index.rst:241 ../../source/anonymize/index.rst:406
@@ -567,55 +582,55 @@ msgstr ""
 #: ../../source/anonymize/index.rst:1317 ../../source/anonymize/index.rst:1332
 #: ../../source/anonymize/index.rst:1382 ../../source/anonymize/index.rst:1405
 msgid "`date_creation`"
-msgstr ""
+msgstr "`date_creation`"
 
 #: ../../source/anonymize/index.rst:148
 msgid "`autofill_decommission_date`"
-msgstr ""
+msgstr "`autofill_decommission_date`"
 
 #: ../../source/anonymize/index.rst:149
 msgid "`suppliers_as_private`"
-msgstr ""
+msgstr "`suppliers_as_private`"
 
 #: ../../source/anonymize/index.rst:150
 msgid "`anonymize_support_agents`"
-msgstr ""
+msgstr "`anonymize_support_agents`"
 
 #: ../../source/anonymize/index.rst:151
 msgid "`display_users_initials`"
-msgstr ""
+msgstr "`display_users_initials`"
 
 #: ../../source/anonymize/index.rst:152
 msgid "`contracts_strategy_default`"
-msgstr ""
+msgstr "`contracts_strategy_default`"
 
 #: ../../source/anonymize/index.rst:153
 msgid "`contracts_id_default`"
-msgstr ""
+msgstr "`contracts_id_default`"
 
 #: ../../source/anonymize/index.rst:154
 msgid "`enable_custom_css`"
-msgstr ""
+msgstr "`enable_custom_css`"
 
 #: ../../source/anonymize/index.rst:155
 msgid "`custom_css_code`"
-msgstr ""
+msgstr "`custom_css_code`"
 
 #: ../../source/anonymize/index.rst:156 ../../source/anonymize/index.rst:831
 msgid "`latitude`"
-msgstr ""
+msgstr "`latitude`"
 
 #: ../../source/anonymize/index.rst:157 ../../source/anonymize/index.rst:832
 msgid "`longitude`"
-msgstr ""
+msgstr "`longitude`"
 
 #: ../../source/anonymize/index.rst:158 ../../source/anonymize/index.rst:833
 msgid "`altitude`"
-msgstr ""
+msgstr "`altitude`"
 
 #: ../../source/anonymize/index.rst:159
 msgid "`transfers_strategy`"
-msgstr ""
+msgstr "`transfers_strategy`"
 
 #: ../../source/anonymize/index.rst:160
 msgid "`transfers_id`"

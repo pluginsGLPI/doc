@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-12 09:31+0100\n"
+"POT-Creation-Date: 2024-06-24 10:21+0200\n"
 "PO-Revision-Date: 2016-10-25 19:22+0000\n"
 "Last-Translator: Doru  DEACONU <dumitrudeaconu@yahoo.com>, 2016\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/teclib/teams/28042/ro_RO/)\n"
@@ -29,7 +29,7 @@ msgstr ""
 msgid "🧩 GLPI Plugins"
 msgstr ""
 
-#: ../../source/index.rst:43
+#: ../../source/index.rst:44
 msgid "⭐ GLPI-Network Plugins"
 msgstr ""
 

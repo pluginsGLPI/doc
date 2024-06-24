@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-12 09:31+0100\n"
+"POT-Creation-Date: 2024-06-24 10:21+0200\n"
 "PO-Revision-Date: 2016-10-25 19:22+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -29,7 +29,7 @@ msgstr "🚀 Eğitimler"
 msgid "🧩 GLPI Plugins"
 msgstr "🧩 GLPI uygulama ekleri"
 
-#: ../../source/index.rst:43
+#: ../../source/index.rst:44
 msgid "⭐ GLPI-Network Plugins"
 msgstr "⭐ GLPI-Network uygulama ekleri"
 

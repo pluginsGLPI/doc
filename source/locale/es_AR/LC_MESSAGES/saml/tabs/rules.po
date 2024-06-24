@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2024, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"PO-Revision-Date: 2024-06-24 08:21+0000\n"
+"Language-Team: Spanish (Argentina) (https://app.transifex.com/teclib/teams/28042/es_AR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_AR\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../source/saml/tabs/rules.rst:2
+msgid "Rules for assigning authorisations"
+msgstr ""
+
+#: ../../source/saml/tabs/rules.rst:5
+msgid ""
+"It will be necessary to establish rules for assigning authorisations to your"
+" users (to give them a profile, for example)."
+msgstr ""
+
+#: ../../source/saml/tabs/rules.rst:7
+msgid ""
+"To do this, go to **Administration** > **Rules** > **GLPI SAML - Saml import"
+" rules** or by the button **JIT Rules** directly in the plugin"
+msgstr ""
+
+#: ../../source/saml/tabs/rules.rst:10
+msgid "add rule"
+msgstr ""
+
+#: ../../source/saml/tabs/rules.rst:14
+msgid ""
+"A hard limitation in the current plugin is that the rules can only be bound "
+"to the 'email' condition. We are planning to allow binding it to additional "
+"SamlClaims, currently it only allows the value communicated via the nameId "
+"property or emailaddress claim."
+msgstr ""
+
+#: ../../source/saml/tabs/rules.rst:18
+msgid ""
+"For example, you want your users with SAML authentication to obtain the "
+"Self-Service profile."
+msgstr ""
+
+#: ../../source/saml/tabs/rules.rst:20
+msgid "You would set your criteria and action as shown here:"
+msgstr ""
+
+#: ../../source/saml/tabs/rules.rst:23
+msgid "manage cable type"
+msgstr ""
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr ""
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
+msgstr ""

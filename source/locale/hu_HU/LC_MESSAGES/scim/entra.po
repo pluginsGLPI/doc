@@ -1,0 +1,236 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2024, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"PO-Revision-Date: 2024-06-24 08:21+0000\n"
+"Language-Team: Hungarian (Hungary) (https://app.transifex.com/teclib/teams/28042/hu_HU/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/scim/entra.rst:2
+msgid "Entra"
+msgstr ""
+
+#: ../../source/scim/entra.rst:5
+msgid "References:"
+msgstr ""
+
+#: ../../source/scim/entra.rst:7
+msgid ""
+"`Use SCIM to provision users and groups <https://learn.microsoft.com/en-"
+"us/entra/identity/app-provisioning/use-scim-to-provision-users-and-"
+"groups#integrate-your-scim-endpoint-with-the-azure-ad-provisioning-"
+"service>`_"
+msgstr ""
+
+#: ../../source/scim/entra.rst:10
+msgid "Setup"
+msgstr ""
+
+#: ../../source/scim/entra.rst:13
+msgid "Create application"
+msgstr ""
+
+#: ../../source/scim/entra.rst:15
+msgid "Connect to your `Azure portal <https://aad.portal.azure.com/>`_"
+msgstr ""
+
+#: ../../source/scim/entra.rst:16
+msgid "Click on **Add**"
+msgstr ""
+
+#: ../../source/scim/entra.rst:17
+msgid "then **Enterprise application**."
+msgstr ""
+
+#: ../../source/scim/entra.rst-1
+msgid "add application"
+msgstr ""
+
+#: ../../source/scim/entra.rst:23
+msgid "Click on **Create your application**."
+msgstr ""
+
+#: ../../source/scim/entra.rst:24
+msgid ""
+"In the section that appears on the right, enter the name of your application"
+" and choose the 3rd option **`integrate any other application don't find in "
+"the gallery`**."
+msgstr ""
+
+#: ../../source/scim/entra.rst-1
+msgid "create application"
+msgstr ""
+
+#: ../../source/scim/entra.rst:32
+msgid "Setup the application"
+msgstr ""
+
+#: ../../source/scim/entra.rst:34
+msgid "Once you've created your application, go to **Provisioning**."
+msgstr ""
+
+#: ../../source/scim/entra.rst-1
+msgid "add provisionning"
+msgstr ""
+
+#: ../../source/scim/entra.rst:40
+msgid "Select **Automatic**."
+msgstr ""
+
+#: ../../source/scim/entra.rst:41
+msgid ""
+"Specify the **URL** `generated earlier <setup_plugin.html>`_ from GLPI and "
+"paste the **token**."
+msgstr ""
+
+#: ../../source/scim/entra.rst:43
+msgid ""
+"Make sure you **paste the token (JWT token)** to ensure your application "
+"works properly."
+msgstr ""
+
+#: ../../source/scim/entra.rst-1
+msgid "setup provisionning"
+msgstr ""
+
+#: ../../source/scim/entra.rst:49
+msgid ""
+"Click on Test connection. A message will appear informing you of the "
+"successful connection."
+msgstr ""
+
+#: ../../source/scim/entra.rst:55
+msgid ""
+"On the same page, you can also configure an email address and a number in "
+"case of failure or accidental deletions."
+msgstr ""
+
+#: ../../source/scim/entra.rst-1
+msgid "check provisionning"
+msgstr ""
+
+#: ../../source/scim/entra.rst:62
+msgid "Click on **Save**"
+msgstr ""
+
+#: ../../source/scim/entra.rst:66
+msgid "Synchronising all users"
+msgstr ""
+
+#: ../../source/scim/entra.rst:68
+msgid "You can choose to synchronise your entire directory."
+msgstr ""
+
+#: ../../source/scim/entra.rst:69
+msgid ""
+"Go to the **Settings > Scope** tab and select **Sync all users and groups**."
+msgstr ""
+
+#: ../../source/scim/entra.rst-1
+msgid "sync all"
+msgstr ""
+
+#: ../../source/scim/entra.rst:76
+msgid "Synchronising selected groups and users (default option)"
+msgstr ""
+
+#: ../../source/scim/entra.rst:78
+msgid ""
+"You can choose to synchronise only certain groups and/or users. When "
+"refreshing the **`Provisioning`** page"
+msgstr ""
+
+#: ../../source/scim/entra.rst:79
+msgid "Go to the **Parameters > Scope** tab"
+msgstr ""
+
+#: ../../source/scim/entra.rst:80
+msgid "Select **Synchronise assigned users and groups only**"
+msgstr ""
+
+#: ../../source/scim/entra.rst-1
+msgid "sync selection"
+msgstr ""
+
+#: ../../source/scim/entra.rst:86
+msgid "Then go to **Users and groups**"
+msgstr ""
+
+#: ../../source/scim/entra.rst:87
+msgid "Click on **Add a user/group**"
+msgstr ""
+
+#: ../../source/scim/entra.rst:88
+msgid "Click on **No selection**"
+msgstr ""
+
+#: ../../source/scim/entra.rst:89
+msgid "Select the groups and users you want in the box on the right"
+msgstr ""
+
+#: ../../source/scim/entra.rst:90
+msgid "Then **Select** and **Assign**."
+msgstr ""
+
+#: ../../source/scim/entra.rst-1
+msgid "select users/groupes"
+msgstr ""
+
+#: ../../source/scim/entra.rst:97
+msgid "Activate provisioning"
+msgstr ""
+
+#: ../../source/scim/entra.rst:99
+msgid "In the **Provisioning** section"
+msgstr ""
+
+#: ../../source/scim/entra.rst:100
+msgid "Change the status from **Disabled** to **Enabled**"
+msgstr ""
+
+#: ../../source/scim/entra.rst-1
+msgid "enable sync"
+msgstr ""
+
+#: ../../source/scim/entra.rst:108
+msgid "Check synchronisation status"
+msgstr ""
+
+#: ../../source/scim/entra.rst:110
+msgid ""
+"In the **Overview** section, you can check that synchronisation has been "
+"successful."
+msgstr ""
+
+#: ../../source/scim/entra.rst:116
+msgid ""
+"On the GLPI side, Go to the **Request log** section of your SCIM plugin "
+"**Setup** > **SCIM identity servers** to check that the accounts are "
+"correctly synchronised."
+msgstr ""
+
+#: ../../source/scim/entra.rst:123
+msgid ""
+"See the procedure for setting up the `OAuth SSO <https://glpi-"
+"plugins.readthedocs.io/en/latest/oauthsso/entra.html>`_ plugin to "
+"authenticate users on GLPI."
+msgstr ""
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr ""
+
+#: ../../<rst_epilog>:0
+msgid "Creative Commons License"
+msgstr ""

@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# David Stepan <stepand@tiscali.cz>, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-12 09:31+0100\n"
+"POT-Creation-Date: 2024-06-24 10:21+0200\n"
 "PO-Revision-Date: 2024-01-26 14:56+0000\n"
+"Last-Translator: David Stepan <stepand@tiscali.cz>, 2024\n"
 "Language-Team: Czech (Czech Republic) (https://app.transifex.com/teclib/teams/28042/cs_CZ/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,35 +23,35 @@ msgstr ""
 
 #: ../../source/advanceddashboard/index.rst:2
 msgid "Advanced dashboards"
-msgstr ""
+msgstr "Pokročilé nástěnky"
 
 #: ../../source/advanceddashboard/index.rst:5
 msgid "Requirements (on-premise)"
-msgstr ""
+msgstr "Požadavky (on-premise)"
 
 #: ../../source/advanceddashboard/index.rst:8
 msgid "GLPI Version"
-msgstr ""
+msgstr "Verze GLPI"
 
 #: ../../source/advanceddashboard/index.rst:8
 msgid "Minimum PHP"
-msgstr ""
+msgstr "Minimum PHP"
 
 #: ../../source/advanceddashboard/index.rst:8
 msgid "Recommended"
-msgstr ""
+msgstr "Doporučeno"
 
 #: ../../source/advanceddashboard/index.rst:10
 msgid "10.0.x"
-msgstr ""
+msgstr "10.0.x"
 
 #: ../../source/advanceddashboard/index.rst:10
 msgid "8.1"
-msgstr ""
+msgstr "8.1"
 
 #: ../../source/advanceddashboard/index.rst:10
 msgid "8.2"
-msgstr ""
+msgstr "8.2"
 
 #: ../../source/advanceddashboard/index.rst:14
 msgid ""
@@ -55,21 +59,26 @@ msgid ""
 "higher) is required. This plugin is also available from the `Cloud "
 "<https://glpi-network.cloud/fr/>`_."
 msgstr ""
+"Je vyžadována `standardní licence <https://services.glpi-"
+"network.com/#offers>`_(nebo vyšší). Tento zásuvný modul je také dostupný z "
+"`Cloud <https://glpi-network.cloud/fr/>`_."
 
 #: ../../source/advanceddashboard/index.rst-1
 #: ../../source/advanceddashboard/index.rst:17
 msgid "Install the plugin"
-msgstr ""
+msgstr "Nainstalovat zásuvný modul"
 
 #: ../../source/advanceddashboard/index.rst:19
 msgid ""
 "Go to the marketplace. Download and install the “**Advanced dashboard**” "
 "plugin."
 msgstr ""
+"Jít do obchodu. Stáhnout a nainstalovat zásuvný modul “**Advanced "
+"dashboard**”."
 
 #: ../../source/advanceddashboard/index.rst:26
 msgid "Setup the plugin"
-msgstr ""
+msgstr "Nastavení zásuvného modulu"
 
 #: ../../source/advanceddashboard/index.rst:30
 msgid ""
@@ -78,54 +87,65 @@ msgid ""
 "dashboards. It is also recommended that you **know the structure of GLPI "
 "tables**."
 msgstr ""
+"Tento zásuvný modul vyžaduje **minimální znalosti SQL** abyste mohli "
+"nastavit určitá kritéria pro různé dotazy, které se zobrazí na panelech. "
+"Doporučuje se také **znát strukturu tabulek GLPI**."
 
 #: ../../source/advanceddashboard/index.rst:33
 msgid "Create an SQL query"
-msgstr ""
+msgstr "Vytvořit SQL dotaz"
 
 #: ../../source/advanceddashboard/index.rst:35
 msgid ""
 "The below example gives us the number of tickets on the root entity over the"
 " last 2 years:"
 msgstr ""
+"Níže uvedený příklad nám udává počet požadavků na kořenové entitě za "
+"poslední 2 roky:"
 
 #: ../../source/advanceddashboard/index.rst:82
 msgid "Setting query-related parameters"
-msgstr ""
+msgstr "Nastavení parametrů souvisejících s dotazem"
 
 #: ../../source/advanceddashboard/index.rst:84
 msgid "From **tools** > **SQL for dashboards**, click on **add**"
-msgstr ""
+msgstr "Z **Nástroje** > **SQL pro nástěnky** klikněte na **přidat**"
 
 #: ../../source/advanceddashboard/index.rst:85
 msgid ""
 "Name your query (the one that will be visible from the dashboards) and "
 "identify it as **active**."
 msgstr ""
+"Pojmenujte svůj dotaz (ten, který bude viditelný na panelech) a označte jej "
+"jako **aktivní**."
 
 #: ../../source/advanceddashboard/index.rst:86
 msgid ""
 "In the SQL Editor tab, paste the above query, taking care to change the name"
 " of the entity if you have changed it."
 msgstr ""
+"Na kartě Editor SQL vložte výše uvedený dotaz a dejte pozor, abyste změnili "
+"název entity, pokud jste jej změnili."
 
 #: ../../source/advanceddashboard/index.rst:87
 msgid ""
 "Click on the floppy icon to save the query and then on play icon to run the "
 "query."
 msgstr ""
+"Klikněte na ikonu diskety pro uložení dotazu a poté na ikonu přehrávání pro "
+"spuštění dotazu."
 
 #: ../../source/advanceddashboard/index.rst-1
 msgid "SQL editor"
-msgstr ""
+msgstr "Editor SQL"
 
 #: ../../source/advanceddashboard/index.rst:95
 msgid "An insert at the bottom will display the result of the query:"
-msgstr ""
+msgstr "Vložení v dolní části zobrazí výsledek dotazu:"
 
 #: ../../source/advanceddashboard/index.rst-1
 msgid "preview result"
-msgstr ""
+msgstr "náhled výsledku"
 
 #: ../../source/advanceddashboard/index.rst:103
 msgid ""
@@ -134,6 +154,10 @@ msgid ""
 "label will be \"year\"*, *the number will be \"number of tickets\"* and the "
 "*main label will be \"\"number of tickets per year\"*."
 msgstr ""
+"Na záložce **nastavení polí** definujte nadpis, číslo a hlavní nadpis "
+"(volitelné, toto je název, který bude mít vaše tabulka). V našem případě "
+"bude *nadpis \"rok\"*, *číslo \"počet požadavků\"* a *hlavní nadpis "
+"\"\"počet požadavků za rok\"*."
 
 #: ../../source/advanceddashboard/index.rst:104
 msgid ""
@@ -141,84 +165,94 @@ msgid ""
 " can preview your table; you will be asked to select the type of graph you "
 "want to appear in the tile later),"
 msgstr ""
+"Vyberte typ grafu (toto slouží pouze pro informační účely, abyste si mohli "
+"zobrazit náhled tabulky; později budete požádáni o výběr typu grafu, který "
+"chcete na dlaždici zobrazit),"
 
 #: ../../source/advanceddashboard/index.rst:105
 msgid "You can limit the amount of data to be displayed."
-msgstr ""
+msgstr "Můžete omezit množství zobrazovaných dat."
 
 #: ../../source/advanceddashboard/index.rst:106
 msgid "Then click on **Save fields and preview**."
-msgstr ""
+msgstr "Poté klikněte na **Uložit pole a náhled**."
 
 #: ../../source/advanceddashboard/index.rst-1
 msgid "card setup"
-msgstr ""
+msgstr "nastavení karty"
 
 #: ../../source/advanceddashboard/index.rst:114
 msgid "Dashboard settings"
-msgstr ""
+msgstr "Nastavení nástěnky"
 
 #: ../../source/advanceddashboard/index.rst:116
 msgid ""
 "From **Assistance** > **Dashboard**, select the dashboard that is to receive"
 " the new tile"
 msgstr ""
+"V části **Podpora** > **Nástěnka** vyberte řídicí panel, který má obdržet "
+"novou dlaždici"
 
 #: ../../source/advanceddashboard/index.rst:117
 msgid "Click on edit icon"
-msgstr ""
+msgstr "Klikněte na ikonu úprav"
 
 #: ../../source/advanceddashboard/index.rst:118
 msgid "Add a new tile with plus icon"
-msgstr ""
+msgstr "Přidejte novou dlaždici s ikonou plus"
 
 #: ../../source/advanceddashboard/index.rst:119
 msgid "Select the query you have just created"
-msgstr ""
+msgstr "Vyberte dotaz, který jste právě vytvořili"
 
 #: ../../source/advanceddashboard/index.rst:120
 msgid "Choose a colour for your tile"
-msgstr ""
+msgstr "Vyberte si barvu dlaždice"
 
 #: ../../source/advanceddashboard/index.rst-1
 msgid "more card setup"
-msgstr ""
+msgstr "další nastavení karty"
 
 #: ../../source/advanceddashboard/index.rst:128
 msgid "You will then be asked to select the chart type"
-msgstr ""
+msgstr "Poté budete požádáni o výběr typu grafu"
 
 #: ../../source/advanceddashboard/index.rst:129
 msgid ""
 "Some dashboards may ask you to use colours and display values and labels."
 msgstr ""
+"Některé řídicí panely mohou vyžadovat použití barev a zobrazení hodnot a "
+"názvů."
 
 #: ../../source/advanceddashboard/index.rst-1
 msgid "label setup"
-msgstr ""
+msgstr "nastavení názvu"
 
 #: ../../source/advanceddashboard/index.rst:137
 msgid "Your tile is now ready"
-msgstr ""
+msgstr "Vaše dlaždice je nyní připravena"
 
 #: ../../source/advanceddashboard/index.rst-1
 msgid "the card is ready"
-msgstr ""
+msgstr "karta je připravena"
 
 #: ../../source/advanceddashboard/index.rst:145
 msgid "FAQ"
-msgstr ""
+msgstr "Časté dotazy"
 
 #: ../../source/advanceddashboard/index.rst:147
 msgid ""
 "If you have any questions about using the plugin, please consult `our FAQ "
 "<https://faq.teclib.com/04_Plugins/Advanced_dashboard/>`_"
 msgstr ""
+"Máte-li jakékoli dotazy týkající se používání zásuvného modulu, přečtěte si "
+"prosím `naše časté dotazy "
+"<https://faq.teclib.com/04_Plugins/Advanced_dashboard/>`_"
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Licence Creative Commons"

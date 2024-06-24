@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# 조성현 (jaymz9634) <jaymz9634@gmail.com>, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-12 09:31+0100\n"
+"POT-Creation-Date: 2024-06-24 10:21+0200\n"
 "PO-Revision-Date: 2024-03-12 08:31+0000\n"
+"Last-Translator: 조성현 (jaymz9634) <jaymz9634@gmail.com>, 2024\n"
 "Language-Team: Korean (Korea) (https://app.transifex.com/teclib/teams/28042/ko_KR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +23,7 @@ msgstr ""
 
 #: ../../source/glpiai/consumption.rst:2
 msgid "Consumption"
-msgstr ""
+msgstr "소비"
 
 #: ../../source/glpiai/consumption.rst:4
 msgid ""
@@ -29,10 +33,13 @@ msgid ""
 " configuration to account for usage outside of the plugin if you want the "
 "plugin to account for that in its usage limitation."
 msgstr ""
+"초과하면 안 되는 한도를 지정하여 API 사용을 제한할 수 있습니다. 이 플러그인은 OpenAI의 각 응답을 기반으로 사용량을 "
+"추적합니다. 따라서, 플러그인이 사용 제한에 대해 설명하도록 하려면 플러그인 외부의 사용을 설명하기 위해 구성의 \"사용자 정의 사용\""
+" 항목을 활용해야 할 수도 있습니다."
 
 #: ../../source/glpiai/consumption.rst-1
 msgid "see the usage"
-msgstr ""
+msgstr "사용법 보기"
 
 #: ../../source/glpiai/consumption.rst:11
 msgid ""
@@ -40,21 +47,23 @@ msgid ""
 "exceeded. If this limit is exceeded, the plugin will no longer function "
 "until this value is increased."
 msgstr ""
+"사용량을 제한하고 초과실행을 방지하려면, 초과하면 안 되는 값을 지정하세요. 이 제한을 초과하면, 이 값이 증가할 때까지 플러그인이 더 "
+"이상 작동하지 않습니다."
 
 #: ../../source/glpiai/consumption.rst:12
 msgid ""
 "Enter the custom usage if you want to account for previous usage outside of "
 "the plugin."
-msgstr ""
+msgstr "플러그인 외부의 이전 사용량을 고려하려면 사용자 정의 사용량을 입력하세요."
 
 #: ../../source/glpiai/consumption.rst-1
 msgid "real usage"
-msgstr ""
+msgstr "실제 사용"
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "저작물사용 허가표시"

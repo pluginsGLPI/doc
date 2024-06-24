@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Eduardo Spinola <eduardo.spinola@gmail.com>, 2024
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-12 09:31+0100\n"
+"POT-Creation-Date: 2024-06-24 10:21+0200\n"
 "PO-Revision-Date: 2024-02-14 07:35+0000\n"
+"Last-Translator: Eduardo Spinola <eduardo.spinola@gmail.com>, 2024\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/teclib/teams/28042/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,79 +23,87 @@ msgstr ""
 
 #: ../../source/webhook/telegram.rst:2
 msgid "Telegram"
-msgstr ""
+msgstr "Telegram"
 
 #: ../../source/webhook/telegram.rst:4
 msgid ""
 "From Telegram, start a new chat with the bot **@BotFather** and run the "
 "following command **/newbot**"
 msgstr ""
+"No Telegram, abra um novo chat com o bot @BotFather e execute o seguinte "
+"comando /newbot"
 
 #: ../../source/webhook/telegram.rst:5
 msgid "Answer the few questions you will be asked to set up your bot"
-msgstr ""
+msgstr "Preencha as informações solicitadas para criar o seu bot."
 
 #: ../../source/webhook/telegram.rst:6
 msgid "Once finished, a token will be sent to you:"
-msgstr ""
+msgstr "Após a conclusão, um token será enviado para você:"
 
 #: ../../source/webhook/telegram.rst-1
 msgid "token HTTP API"
-msgstr ""
+msgstr "token HTTP API"
 
 #: ../../source/webhook/telegram.rst:12
 msgid ""
 "If you have already created a dedicated channel to receive GLPI "
 "notifications, add your bot to it."
 msgstr ""
+"Se você já criou um canal dedicado para receber notificações do GLPI, "
+"adicione seu bot a ele."
 
 #: ../../source/webhook/telegram.rst:13
 msgid "Otherwise, create your own channel"
-msgstr ""
+msgstr "Caso contrário, crie seu próprio canal."
 
 #: ../../source/webhook/telegram.rst:14
 msgid "add the newly created bot"
-msgstr ""
+msgstr "Adicione o bot que você acabou de criar:"
 
 #: ../../source/webhook/telegram.rst:16
 msgid ""
 "Send a message in the channel created to initiate a conversation and "
 "generate the various IDs we will need."
 msgstr ""
+"Envie uma mensagem no canal criado para iniciar uma conversa e gerar os IDs "
+"necessários."
 
 #: ../../source/webhook/telegram.rst:18
 msgid "From your browser, enter the following URL:"
-msgstr ""
+msgstr "Do navegador, acesse a seguinte URL:"
 
 #: ../../source/webhook/telegram.rst:20
 msgid "https://api.telegram.org/botmytoken/getupdates\\"
-msgstr ""
+msgstr "https://api.telegram.org/botmytoken/getupdates\\"
 
 #: ../../source/webhook/telegram.rst:22
 msgid "Replace *mytoken* with the value of the token generated above"
-msgstr ""
+msgstr "Substitua \"mytoken\" pelo valor do token gerado acima"
 
 #: ../../source/webhook/telegram.rst:25
 msgid ""
 "Telegram bot URLs take the form **https://api.telegram.org/bot{mytoken}**"
 msgstr ""
+"As URLs de bots do Telegram seguem o formato "
+"**https://api.telegram.org/bot{mytoken}**"
 
 #: ../../source/webhook/telegram.rst:27
 msgid "You should see a similar result:"
-msgstr ""
+msgstr "Você deverá ver um resultado similar."
 
 #: ../../source/webhook/telegram.rst:56
 msgid "In the **my_chat_member** copy the **ID** value of the **chat**."
-msgstr ""
+msgstr "Em **my_chat_member**, copie o valor do campo **ID** do **chat**."
 
 #: ../../source/webhook/telegram.rst:59
 msgid "The negative sign **-** must also be copied"
-msgstr ""
+msgstr "O sinal negativo **-** também deve ser copiado."
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Licença Creative Commons"
