@@ -448,8 +448,8 @@ source_lang = en
 type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:saml--rules]
-file_filter = source/locale/<lang>/LC_MESSAGES/saml/rules.po
-source_file = build/locale/saml/rules.pot
+file_filter = source/locale/<lang>/LC_MESSAGES/saml/tabs/rules.po
+source_file = build/locale/saml/tabs/rules.pot
 source_lang = en
 type = PO
 
