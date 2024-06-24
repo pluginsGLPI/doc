@@ -454,8 +454,8 @@ source_lang = en
 type = PO
 
 [o:teclib:p:glpi-plugins-documentation:r:saml--sources]
-file_filter = source/locale/<lang>/LC_MESSAGES/saml/tabs/sources.po
-source_file = build/locale/saml/tabs/sources.pot
+file_filter = source/locale/<lang>/LC_MESSAGES/saml/tabs/sourcepo
+source_file = build/locale/saml/tabs/source.pot
 source_lang = en
 type = PO
 
