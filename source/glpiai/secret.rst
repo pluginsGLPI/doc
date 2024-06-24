@@ -2,7 +2,7 @@ Create a secret
 ----------------
 
 - From this URL https://platform.openai.com/api-keys
-- Click on **Create a new secret**
+- Click on **Create a new key**
 
 .. figure:: images/glpiai-3.png
    :alt: create secret
