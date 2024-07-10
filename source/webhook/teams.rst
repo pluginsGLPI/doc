@@ -2,7 +2,7 @@ Teams
 -----
 
 .. Warning:: Following the end of O365 connectors, Microsoft is imposing a new method of setting up your webhooks using workflows.
-   This procedure must be implemented before 15 August. After this date, your webhooks will no longer be able to function.
+   This procedure must be implemented before August 15th. After this date, your webhooks will no longer function.
    Your webhooks used by incoming Webhooks (old method) will no longer be available
 
 .. Note:: The channel used must be public. Microsoft does not currently allow webhooks with Workflows from a private channel.
