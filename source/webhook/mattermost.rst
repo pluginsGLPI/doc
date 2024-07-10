@@ -31,3 +31,6 @@ Mattermost
 .. figure:: images/Webhook-16.png
    :alt: URL incoming webhook
    :scale: 100 %
+
+
+- Go to :doc:`setup the webhook in GLPI <setup_glpi>`
