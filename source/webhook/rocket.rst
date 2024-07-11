@@ -5,3 +5,5 @@ Rocket
 
 - Add a new configuration, select the channel where you want notifications and you will get the webhook url.
 - You can optionally setup a name and a logo for your hook.
+
+- Go to :doc:`setup the webhook in GLPI <setup_glpi>`

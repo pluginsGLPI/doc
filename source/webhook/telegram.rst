@@ -57,3 +57,6 @@ Replace *mytoken* with the value of the token generated above
 
 .. Warning::
    The negative sign **-** must also be copied
+
+
+- Go to :doc:`setup the webhook in GLPI <setup_glpi>`
