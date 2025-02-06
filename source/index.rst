@@ -46,6 +46,7 @@ You'll find here user documentation for various `GLPI <http://glpi-project.org>`
    :caption: ⭐ GLPI-Network Plugins
 
    advanceddashboard/index
+   agent_config/index
    anonymize/index
    approvalbymail/index
    branding/index
