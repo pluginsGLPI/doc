@@ -31,7 +31,8 @@ In **Setup** > **General** > **GLPI Agent Contiguration**, select the options yo
 * By default, the URL of the inventory is indicated
 * To secure your instance and limit feedback from your mobile devices, you can enter a **login** and **password** for each mobile device to be inventoried
 * You can use a **tag entity** (choose **Yes** and indicate your **tag** if needed)
-* Choose the **asset type** by default (computers or phones, this information indicates the type of device by default, but can be modified individually from each asset)
+* Choose the **asset type** by default (computers or phones, this information indicates the type of device by default, but can be modified individually from each device)
+
 * Display **QR Code** (on central page)
 * Display **Deeplink** (on central page)
 * Manage **automatic inventory and frequency** for android
