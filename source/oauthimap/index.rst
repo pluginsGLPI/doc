@@ -101,7 +101,7 @@ Add API permissions
 
 *  In the **API Permissions** tab
 *  Click on **your API** (Microsoft Graph in this case)
-*  Then select **Deleagted permission**
+*  Then select **Delegated permission**
 *  Select :
 
    * email
