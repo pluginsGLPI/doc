@@ -95,6 +95,24 @@ Add a secret
    :alt: overview
    :scale: 100 %
 
+
+Add API permissions
+~~~~~~~~~~~~~~~~~~~
+
+*  In the **API Permissions** tab
+*  Click on **your API** (Microsoft Graph in this case)
+*  Then select **Delegated permission**
+*  Select :
+
+   * email
+   * offline_access
+   * openid
+   * profile
+
+.. figure:: images/oauth-imap-11.png
+   :alt: add api permissions
+   :scale: 44 %
+
 Setup GLPI
 ----------
 
