@@ -7,8 +7,7 @@ GLPI Version Minimum PHP Recommended
 10.0.x       8.1         8.2
 ============ =========== ===========
 
-.. note::
-   This plugin is available without a GLPI-Network subscription. It is also available in `Cloud <https://glpi-network.cloud/>`_.
+.. include:: ../include/no_subscription.rst
 
 .. note::
    **We recommend using the** :doc:`OAuth SSO </oauthsso/index>` **and** :doc:`SCIM </scim/index>` **plugins if you need autologin or user provisioning, officially supported by the publisher.**

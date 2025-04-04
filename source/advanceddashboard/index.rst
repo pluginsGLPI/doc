@@ -10,8 +10,8 @@ GLPI Version Minimum PHP Recommended
 10.0.x       8.1         8.2
 ============ =========== ===========
 
-.. Note::
-   A `standard licence <https://services.glpi-network.com/#offers>`_ (or higher) is required. This plugin is also available from the `Cloud <https://glpi-network.cloud/fr/>`_.
+
+.. include:: ../include/standard_subscription.rst
 
 Install the plugin
 ------------------
