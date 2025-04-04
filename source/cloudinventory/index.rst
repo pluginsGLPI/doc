@@ -1,6 +1,9 @@
 Cloud Inventory
 ===============
 
+.. figure:: images/providers.png
+   :alt: Providers
+   :scale: 36%
 
 .. toctree::
    :maxdepth: 2
