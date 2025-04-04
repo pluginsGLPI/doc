@@ -14,6 +14,7 @@ Cloud Inventory
    right
    discovery
    cloud_instance
+   crontask
    search
    dashboard
    rule_asset
