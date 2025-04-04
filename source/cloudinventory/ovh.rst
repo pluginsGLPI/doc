@@ -19,9 +19,9 @@ Create credentials
 
 To access the ``Create API Keys`` form
 
-.. figure:: images/connect_ovh.png
-   :alt: install plugin
-   :scale: 100 %
+.. figure:: images/ovh_api.png
+   :alt: Create API keys
+   :scale: 60%
 
 * Fill in the following information :
 
