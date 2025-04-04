@@ -12,6 +12,12 @@ GLPI Version Minimum PHP Recommended
 
 .. include:: ../include/basic_subscription.rst
 
+
+.. warning:: The plugin **cannot work with anonymous users** (with email only)
+   The plugin needs a GLPI account to use the user's token and allow one-click responses without authentication (the plugin takes care of this via the token).
+   In this context you will need to use an external satisfaction survey, for example google forms.
+
+
 Install the plugin
 ------------------
 
