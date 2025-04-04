@@ -11,7 +11,7 @@ GLPI Version Minimum PHP Recommended
 ============ =========== ===========
 
 
-.. include:: ../tabs/standard_subscription.rst
+.. include:: ../include/standard_subscription.rst
 
 Install the plugin
 ------------------

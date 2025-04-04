@@ -10,5 +10,5 @@ GLPI Version Minimum PHP Recommended
 - Open AI API key (free or paid plan) (https://platform.openai.com/api-keys)
 - Open AI organization ID (https://platform.openai.com/account/organization)
 
-.. include:: ../tabs/basic_subscription.rst
+.. include:: ../include/basic_subscription.rst
 

@@ -22,7 +22,7 @@ This plugin requires :
 * Microsoft System Center Configuration Manager
 * Microsoft Drivers for PHP for Microsoft SQL Server
 
-.. include:: ../tabs/no_subscription_no_cloud.rst
+.. include:: ../include/no_subscription_no_cloud.rst
 
 
 Features
