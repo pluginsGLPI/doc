@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kaya Zeren <kayazeren@gmail.com>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2024-01-26 14:56+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,159 +23,173 @@ msgstr ""
 
 #: ../../source/centreon/index.rst:2
 msgid "Centreon"
-msgstr ""
+msgstr "Centreon"
 
 #: ../../source/centreon/index.rst:7
 msgid "Download"
-msgstr ""
+msgstr "İndir"
 
 #: ../../source/centreon/index.rst:8
 msgid "Sources"
-msgstr ""
+msgstr "Kaynaklar"
 
 #: ../../source/centreon/index.rst:9
 msgid "`<https://github.com/pluginsGLPI/centreon/releases>`_"
-msgstr ""
+msgstr "`<https://github.com/pluginsGLPI/centreon/releases>`_"
 
 #: ../../source/centreon/index.rst:10
 msgid "`<https://github.com/pluginsGLPI/centreon>`_"
-msgstr ""
+msgstr "`<https://github.com/pluginsGLPI/centreon>`_"
 
 #: ../../source/centreon/index.rst:13
 msgid "Requirements (on-premise)"
-msgstr ""
+msgstr "Gereksinimler (özel kurulum)"
 
 #: ../../source/centreon/index.rst:16
 msgid "GLPI Version"
-msgstr ""
+msgstr "GLPI sürümü"
 
 #: ../../source/centreon/index.rst:16
 msgid "Minimum PHP"
-msgstr ""
+msgstr "En düşük PHP sürümü"
 
 #: ../../source/centreon/index.rst:16
 msgid "Recommended"
-msgstr ""
+msgstr "Önerilen"
 
 #: ../../source/centreon/index.rst:18
 msgid "10.0.x"
-msgstr ""
+msgstr "10.0.x"
 
 #: ../../source/centreon/index.rst:18
 msgid "8.1"
-msgstr ""
+msgstr "8.1"
 
 #: ../../source/centreon/index.rst:18
 msgid "8.2"
-msgstr ""
+msgstr "8.2"
 
-#: ../../source/centreon/index.rst:22
+#: ../../source/include/no_subscription.rst:2
 msgid ""
-"This plugin is available without a GLPI-Network subscription. It is also "
-"available in `Cloud <https://glpi-network.cloud/>`_"
+"This plugin is available without a `GLPI Network <https://services.glpi-"
+"network.com/#offers>`_ subscription. It is also available on `GLPI Cloud "
+"<https://glpi-network.cloud>`_."
 msgstr ""
 
-#: ../../source/centreon/index.rst:26
+#: ../../source/centreon/index.rst:25
 msgid "Features"
-msgstr ""
+msgstr "Özellikler"
 
-#: ../../source/centreon/index.rst:28
+#: ../../source/centreon/index.rst:27
 msgid ""
 "Centreon is a network, system, applicative supervision and monitoring tool. "
 "Centreon plugin allows you to see general information about hosts and their "
 "services on your GLPI interface, as long as the items are both in GLPI and "
 "Centreon."
 msgstr ""
+"Centreon bir ağ, sistem, uygulama denetim ve izleme aracıdır. Centreon "
+"eklentisi, ögeler hem GLPI hem de Centreon üzerinde bulunduğu sürece, GLPI "
+"arayüzünüzdeki sistemler ve hizmetleri hakkında genel bilgileri görmenizi "
+"sağlar."
 
-#: ../../source/centreon/index.rst:32
+#: ../../source/centreon/index.rst:31
 msgid "You can perform 3 main actions :"
-msgstr ""
+msgstr "3 ana işlem yapabilirsiniz:"
+
+#: ../../source/centreon/index.rst:33
+msgid "Acknowledge a problem"
+msgstr "Bir sorunu onaylamak"
 
 #: ../../source/centreon/index.rst:34
-msgid "Acknowledge a problem"
-msgstr ""
+msgid "Schedule a downtime"
+msgstr "Bir durma aralığı zamanlamak"
 
 #: ../../source/centreon/index.rst:35
-msgid "Schedule a downtime"
-msgstr ""
-
-#: ../../source/centreon/index.rst:36
 msgid "Trigger a host check,"
-msgstr ""
+msgstr "Bir sistem denetimi başlatmak,"
 
-#: ../../source/centreon/index.rst:38
+#: ../../source/centreon/index.rst:37
 msgid "and you can also see the timeline of the host."
-msgstr ""
+msgstr "ve sistemin zaman çizelgesini görmek."
 
-#: ../../source/centreon/index.rst:41
+#: ../../source/centreon/index.rst:40
 msgid "Installation"
-msgstr ""
+msgstr "Kurulum"
+
+#: ../../source/centreon/index.rst:42
+msgid "Uncompress the archive"
+msgstr "Arşivi ayıklayın"
 
 #: ../../source/centreon/index.rst:43
-msgid "Uncompress the archive"
-msgstr ""
+msgid "Move the ``centreon`` folder to ``<GLPI_ROOT>/plugins`` directory"
+msgstr "``centreon`` klasörünü ``<GLPI_ROOT>/plugins`` klasörüne taşıyın"
 
 #: ../../source/centreon/index.rst:44
-msgid "Move the ``centreon`` folder to ``<GLPI_ROOT>/plugins`` directory"
-msgstr ""
+msgid "Navigate to the **Configuration > Plugins** page,"
+msgstr "**Yapılandırma > Eklentiler** bölümüne gidin."
 
 #: ../../source/centreon/index.rst:45
-msgid "Navigate to the **Configuration > Plugins** page,"
-msgstr ""
-
-#: ../../source/centreon/index.rst:46
 msgid "Install and activate the plugin."
-msgstr ""
+msgstr "Eklentiyi kurup etkinleştirin."
 
-#: ../../source/centreon/index.rst:49
+#: ../../source/centreon/index.rst:48
 msgid "Usage"
-msgstr ""
+msgstr "Kullanım"
 
-#: ../../source/centreon/index.rst:51
+#: ../../source/centreon/index.rst:50
 msgid ""
 "You need to configure the plugin before using it. To do so, go to the "
 "**Setup > Plugins > Centreon** page. You will need to fill the following "
 "fields :"
 msgstr ""
+"Eklentiyi kullanmadan önce yapılandırmanız gerekir. Bunu yapmak için "
+"**Kurulum > Eklentiler > Centreon** bölümüne gidin. Aşağıdaki alanları "
+"doldurmanız gerekecek:"
 
-#: ../../source/centreon/index.rst:54
+#: ../../source/centreon/index.rst:53
 msgid ""
 "**Centreon URL** : The URL of your Centreon interface, following by the "
 "number of the port, and the API version to use"
 msgstr ""
+"**Centreon adresi**: Centreon arayüzünüzün adresi, ardından bağlantı noktası"
+" numarası ve kullanılacak API sürümü"
+
+#: ../../source/centreon/index.rst:54
+msgid "**Centreon Username** : The username of your Centreon account"
+msgstr "**Centreon kullanıcı adı**: Centreon hesabınızın kullanıcı adı"
 
 #: ../../source/centreon/index.rst:55
-msgid "**Centreon Username** : The username of your Centreon account"
-msgstr ""
-
-#: ../../source/centreon/index.rst:56
 msgid "**Centreon Password** : The password of your Centreon account"
-msgstr ""
+msgstr "**Centreon parolası** : Centreon hesabınızın parolası"
 
 #: ../../source/centreon/index.rst-1
 msgid "Centreon configuration"
-msgstr ""
+msgstr "Centreon yapılandırması"
 
-#: ../../source/centreon/index.rst:63
+#: ../../source/centreon/index.rst:62
 msgid ""
 "Then, it will create automatically a new SQL table named "
 "``glpi_plugin_centreon_hosts``. This table will contain all the hosts that "
 "are both in GLPI and Centreon. A new tab is created on the host page, so you"
 " can see the information about the host."
 msgstr ""
+"Ardından, otomatik olarak ``glpi_plugin_centreon_hosts`` adında yeni bir SQL"
+" tablosu oluşturulur. Bu tabloda, hem GLPI hem de Centreon üzerinde bulunan "
+"tüm sistemler bulunur. Sistem sayfasında yeni bir sekme oluşturulur, böylece"
+" sistem hakkındaki bilgileri görebilirsiniz."
 
 #: ../../source/centreon/index.rst-1
 msgid "Centreon homepage"
-msgstr ""
+msgstr "Centreon sitesi"
 
 #: ../../source/centreon/index.rst-1
 msgid "Centreon timeline"
-msgstr ""
+msgstr "Centreon zaman akışı"
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Creative Commons Lisansı"

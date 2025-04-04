@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kaya Zeren <kayazeren@gmail.com>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2024-06-24 08:21+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,10 +23,10 @@ msgstr ""
 
 #: ../../source/scim/entra.rst:2
 msgid "Entra"
-msgstr ""
+msgstr "Entra"
 
 #: ../../source/scim/entra.rst:5
-msgid "References:"
+msgid "References"
 msgstr ""
 
 #: ../../source/scim/entra.rst:7
@@ -32,34 +36,38 @@ msgid ""
 "groups#integrate-your-scim-endpoint-with-the-azure-ad-provisioning-"
 "service>`_"
 msgstr ""
+"`Kullanıcıları ve grupları sağlamak için SCIM kullanımı "
+"<https://learn.microsoft.com/en-us/entra/identity/app-provisioning/use-scim-"
+"to-provision-users-and-groups#integrate-your-scim-endpoint-with-the-azure-"
+"ad-provisioning-service>`_"
 
 #: ../../source/scim/entra.rst:10
 msgid "Setup"
-msgstr ""
+msgstr "Kurulum"
 
 #: ../../source/scim/entra.rst:13
 msgid "Create application"
-msgstr ""
+msgstr "Uygulamayı oluşturun"
 
 #: ../../source/scim/entra.rst:15
 msgid "Connect to your `Azure portal <https://aad.portal.azure.com/>`_"
-msgstr ""
+msgstr "`Azure portal <https://aad.portal.azure.com/>`_ sayfasını açın"
 
 #: ../../source/scim/entra.rst:16
 msgid "Click on **Add**"
-msgstr ""
+msgstr "**Ekle** üzerine tıklayın"
 
 #: ../../source/scim/entra.rst:17
 msgid "then **Enterprise application**."
-msgstr ""
+msgstr "**Kurumsal uygulama** üzerine tıklayın"
 
 #: ../../source/scim/entra.rst-1
 msgid "add application"
-msgstr ""
+msgstr "Uygulama ekleyin"
 
 #: ../../source/scim/entra.rst:23
 msgid "Click on **Create your application**."
-msgstr ""
+msgstr "**Uygulamanızı oluşturun** üzerine tıklayın."
 
 #: ../../source/scim/entra.rst:24
 msgid ""
@@ -67,151 +75,170 @@ msgid ""
 " and choose the 3rd option **`integrate any other application don't find in "
 "the gallery`**."
 msgstr ""
+"Sağ tarafta çıkan bölüme uygulamanızın adını yazın ve 3. seçenek olan "
+"**Galeride bulunmayan herhangi bir uygulamayı bütünleştir** seçeneğini "
+"seçin."
 
 #: ../../source/scim/entra.rst-1
 msgid "create application"
-msgstr ""
+msgstr "Uygulamayı oluşturun"
 
 #: ../../source/scim/entra.rst:32
 msgid "Setup the application"
-msgstr ""
+msgstr "Uygulamayı kurmak"
 
 #: ../../source/scim/entra.rst:34
 msgid "Once you've created your application, go to **Provisioning**."
-msgstr ""
+msgstr "Uygulamanızı oluşturduktan sonra **Sağlama** bölümüne gidin."
 
 #: ../../source/scim/entra.rst-1
 msgid "add provisionning"
-msgstr ""
+msgstr "Sağlama ekle"
 
 #: ../../source/scim/entra.rst:40
 msgid "Select **Automatic**."
-msgstr ""
+msgstr "**Otomatik** seçin."
 
 #: ../../source/scim/entra.rst:41
 msgid ""
 "Specify the **URL** `generated earlier <setup_plugin.html>`_ from GLPI and "
 "paste the **token**."
 msgstr ""
+"GLPI üzerindenden daha önce oluşturulan **Adres** değerini belirtin ve "
+"**Kod** değerini yapıştırın."
 
 #: ../../source/scim/entra.rst:43
 msgid ""
 "Make sure you **paste the token (JWT token)** to ensure your application "
 "works properly."
 msgstr ""
+"Uygulamanızın düzgün çalışmasını sağlamak için **Kodu (JWT kodu) "
+"yapıştırdığınızdan** emin olun."
 
 #: ../../source/scim/entra.rst-1
 msgid "setup provisionning"
-msgstr ""
+msgstr "Sağlamayı kurun"
 
 #: ../../source/scim/entra.rst:49
 msgid ""
 "Click on Test connection. A message will appear informing you of the "
 "successful connection."
 msgstr ""
+"Bağlantıyı sına üzerine tıklayın. Bağlantı kurulduğunda sizi bilgilendiren "
+"bir ileti görüntülenir."
 
 #: ../../source/scim/entra.rst:55
 msgid ""
 "On the same page, you can also configure an email address and a number in "
 "case of failure or accidental deletions."
 msgstr ""
+"Aynı sayfada, başarısızlık veya yanlışlıkla silme durumunda "
+"kullanabileceğiniz bir e-posta adresi ve numara da yapılandırabilirsiniz."
 
 #: ../../source/scim/entra.rst-1
 msgid "check provisionning"
-msgstr ""
+msgstr "Sağlamayı denetleyin"
 
 #: ../../source/scim/entra.rst:62
 msgid "Click on **Save**"
-msgstr ""
+msgstr "**Kaydet** üzerine tıklayın"
 
 #: ../../source/scim/entra.rst:66
 msgid "Synchronising all users"
-msgstr ""
+msgstr "Tüm kullanıcıları eşitlemek"
 
 #: ../../source/scim/entra.rst:68
 msgid "You can choose to synchronise your entire directory."
-msgstr ""
+msgstr "Tüm dizininizi eşitlemeyi seçebilirsiniz."
 
 #: ../../source/scim/entra.rst:69
 msgid ""
 "Go to the **Settings > Scope** tab and select **Sync all users and groups**."
 msgstr ""
+"**Ayarlar > Kapsam** sekmesine gidin ve **Tüm kullanıcılar ve gruplar "
+"eşitlensin** seçeneğini seçin."
 
 #: ../../source/scim/entra.rst-1
 msgid "sync all"
-msgstr ""
+msgstr "Tümünü eşitleyin"
 
 #: ../../source/scim/entra.rst:76
 msgid "Synchronising selected groups and users (default option)"
-msgstr ""
+msgstr "Seçilmiş grupları ve kullanıcıları eşitlemek (varsayılan seçenek)"
 
 #: ../../source/scim/entra.rst:78
 msgid ""
 "You can choose to synchronise only certain groups and/or users. When "
 "refreshing the **`Provisioning`** page"
 msgstr ""
+"Yalnızca belirli grupları ve/veya kullanıcıları eşitlemeyi seçebilirsiniz. "
+"**`Sağlama`** sayfasını yenilerken"
 
 #: ../../source/scim/entra.rst:79
 msgid "Go to the **Parameters > Scope** tab"
-msgstr ""
+msgstr "**Parametreler > Kapsam** sekmesine gidin"
 
 #: ../../source/scim/entra.rst:80
 msgid "Select **Synchronise assigned users and groups only**"
 msgstr ""
+"**Yalnızca atanmış kullanıcılar ve gruplar eşitlensin** seçeneğini "
+"belirleyin"
 
 #: ../../source/scim/entra.rst-1
 msgid "sync selection"
-msgstr ""
+msgstr "Eşitleme seçimi"
 
 #: ../../source/scim/entra.rst:86
 msgid "Then go to **Users and groups**"
-msgstr ""
+msgstr "Ardından **Kullanıcılar ve gruplar** bölümüne gidin"
 
 #: ../../source/scim/entra.rst:87
 msgid "Click on **Add a user/group**"
-msgstr ""
+msgstr "**Kullanıcı/grup ekle** üzerine tıklayın"
 
 #: ../../source/scim/entra.rst:88
 msgid "Click on **No selection**"
-msgstr ""
+msgstr "**Seçim yok** üzerine tıklayın"
 
 #: ../../source/scim/entra.rst:89
 msgid "Select the groups and users you want in the box on the right"
-msgstr ""
+msgstr "Sağdaki kutudan istediğiniz grupları ve kullanıcıları seçin"
 
 #: ../../source/scim/entra.rst:90
 msgid "Then **Select** and **Assign**."
-msgstr ""
+msgstr "Ardından **Seç** ve **Ata** üzerine tıklayın."
 
 #: ../../source/scim/entra.rst-1
 msgid "select users/groupes"
-msgstr ""
+msgstr "Kullanıcıları/grupları seçin"
 
 #: ../../source/scim/entra.rst:97
 msgid "Activate provisioning"
-msgstr ""
+msgstr "Sağlamayı etkinleştirin"
 
 #: ../../source/scim/entra.rst:99
 msgid "In the **Provisioning** section"
-msgstr ""
+msgstr "\"Sağlama\" bölümüne gidin"
 
 #: ../../source/scim/entra.rst:100
 msgid "Change the status from **Disabled** to **Enabled**"
-msgstr ""
+msgstr "Durumu **Etkisiz** yerine **Etkin** olarak değiştirin"
 
 #: ../../source/scim/entra.rst-1
 msgid "enable sync"
-msgstr ""
+msgstr "Eşitlemeyi etkinleştirin"
 
 #: ../../source/scim/entra.rst:108
 msgid "Check synchronisation status"
-msgstr ""
+msgstr "Eşitleme durumunu denetleyin"
 
 #: ../../source/scim/entra.rst:110
 msgid ""
 "In the **Overview** section, you can check that synchronisation has been "
 "successful."
 msgstr ""
+"**Özet** bölümünden eşitlemenin başarılı olup olmadığını kontrol "
+"edebilirsiniz."
 
 #: ../../source/scim/entra.rst:116
 msgid ""
@@ -219,6 +246,9 @@ msgid ""
 "**Setup** > **SCIM identity servers** to check that the accounts are "
 "correctly synchronised."
 msgstr ""
+"GLPI tarafında, hesapların doğru olarak eşitlendiğini kontrol etmek için "
+"SCIM eklentinizin **Kurulum** > **SCIM kimlik sunucuları** bölümünden "
+"**İstek günlüğü** bölümüne gidin."
 
 #: ../../source/scim/entra.rst:123
 msgid ""
@@ -226,11 +256,14 @@ msgid ""
 "plugins.readthedocs.io/en/latest/oauthsso/entra.html>`_ plugin to "
 "authenticate users on GLPI."
 msgstr ""
+"GLPI üzerinde kullanıcıların kimliğini doğrulamak için `OAuth SSO "
+"<https://glpi-plugins.readthedocs.io/en/latest/oauthsso/entra.html>`_ "
+"eklentisini kurma yönergesine bakın."
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Creative Commons Lisansı"

@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kaya Zeren <kayazeren@gmail.com>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2024-02-14 07:35+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,119 +23,138 @@ msgstr ""
 
 #: ../../source/webhook/setup_glpi.rst:2
 msgid "Set up the webhook in GLPI"
-msgstr ""
+msgstr "GLPI üzerinde internet kancasını ayarlayın"
 
 #: ../../source/webhook/setup_glpi.rst:4
 msgid ""
 "Fill in the requested information and select the channel on which you want "
 "the notifications to be sent."
 msgstr ""
+"İstenilen bilgileri doldurun ve bildirimlerin gönderilmesini istediğiniz "
+"kanalı seçin."
 
 #: ../../source/webhook/setup_glpi.rst:6
 msgid ""
 "Once registered, a link will be sent to you. Copy this link and transfer it "
 "to **Setup > Notifications > Configuration of notifications by webhooks**"
 msgstr ""
+"Hesap açtıktan sonra size bir bağlantı gönderilir. Bu bağlantıyı kopyalayın "
+"ve **Kurulum > Bildirimler > İnternet kancaları ile bildirimlerin "
+"yapılandırılması** bölümüne aktarın"
 
 #: ../../source/webhook/setup_glpi.rst:9
 msgid "Click on + and enter :"
-msgstr ""
+msgstr "+ üzerine tıklayın ve şunları yazın:"
 
 #: ../../source/webhook/setup_glpi.rst:11
 msgid "Webhook name,"
-msgstr ""
+msgstr "İnternet kancasının adı"
 
 #: ../../source/webhook/setup_glpi.rst:12
 msgid "the type,"
-msgstr ""
+msgstr "Türü"
 
 #: ../../source/webhook/setup_glpi.rst:13
 msgid "the URL."
-msgstr ""
+msgstr "Adresi"
 
 #: ../../source/webhook/setup_glpi.rst-1
 msgid "setup GLPI"
-msgstr ""
+msgstr "GLPI kurulumu"
 
 #: ../../source/webhook/setup_glpi.rst:19
 msgid "Click on **Add**"
-msgstr ""
+msgstr "**Ekle** üzerine tıklayın"
 
 #: ../../source/webhook/setup_glpi.rst:23
 msgid ""
 "For Telegram, you will need to re-enter the webhook and add the **chat_id** "
 "you selected earlier"
 msgstr ""
+"Telegram için internet kancasına yeniden girmeniz ve daha önce seçtiğiniz "
+"**chat_id** değerini eklemeniz gerekir"
 
 #: ../../source/webhook/setup_glpi.rst:0
 msgid "paste chat_ID"
-msgstr ""
+msgstr "chat_ID değerini yapıştırın"
 
 #: ../../source/webhook/setup_glpi.rst:31
 msgid ""
 "You can test how it works by selecting your webhook and clicking on **Send "
 "notification**"
 msgstr ""
+"İnternet kancanızı seçip **Bildirim gönder** üzerine tıklayarak nasıl "
+"çalıştığını sınayabilirsiniz"
 
 #: ../../source/webhook/setup_glpi.rst-1
 msgid "test your webhook"
-msgstr ""
+msgstr "İnternet kancanızı sınayın"
 
 #: ../../source/webhook/setup_glpi.rst:38
 msgid "Recipients"
-msgstr ""
+msgstr "Alıcılar"
 
 #: ../../source/webhook/setup_glpi.rst:40
 msgid ""
 "You now need to determine which notifications will be affected by the "
 "sending of a Webhook and assign them a template."
 msgstr ""
+"Artık bir internet kancası gönderildiğinde hangi bildirimlerin "
+"etkileneceğini belirlemeniz ve bunlara bir kalıp atamanız gerekiyor."
 
 #: ../../source/webhook/setup_glpi.rst:42
 msgid "Go to **Setup > Notifications > Notifications**"
-msgstr ""
+msgstr "**Kurulum > Bildirimler > Bildirimler** bölümüne gidin"
 
 #: ../../source/webhook/setup_glpi.rst:43
 msgid ""
 "Select the 1st notification concerned by Webhooks (here **New ticket**)"
 msgstr ""
+"İnternet kancaları tarafından etkilenecek ilk bildirimi seçin (burada **Yeni"
+" destek kaydı**)"
 
 #: ../../source/webhook/setup_glpi.rst:44
 msgid "In the **Recipients** tab, add your Webhook then **Update**."
 msgstr ""
+"**Alıcılar** sekmesinden internet kancanızı ekleyin ve ardından **Güncelle**"
+" üzerine tıklayın."
 
 #: ../../source/webhook/setup_glpi.rst-1
 msgid "setup recipients"
-msgstr ""
+msgstr "Alıcıları ayarlayın"
 
 #: ../../source/webhook/setup_glpi.rst:51
 msgid "Templates"
-msgstr ""
+msgstr "Kalıplar"
 
 #: ../../source/webhook/setup_glpi.rst:53
 msgid "In the tab **Templates** click **Add a template**"
-msgstr ""
+msgstr "**Kalıplar** sekmesinden **Kalıp ekle** üzerine tıklayın"
 
 #: ../../source/webhook/setup_glpi.rst:54
 msgid ""
 "Choose **Webook** in the **Notification method** and **New** in the "
 "**Notification template**"
 msgstr ""
+"**Bildirim yöntemi** olarak **İnternet kancası** ve **Bildirim kalıbı** "
+"olarak **Yeni** seçin"
 
 #: ../../source/webhook/setup_glpi.rst:56
 msgid ""
 "Your Webhook is ready to use. You can customise the template by clicking on "
 "**New** so that it matches your requirements."
 msgstr ""
+"İnternet kancanız kullanılmaya hazır. Kalıbı gereksinimlerinize uygun olarak"
+" **Yeni** üzerine tıklayarak özelleştirebilirsiniz."
 
 #: ../../source/webhook/setup_glpi.rst-1
 msgid "custom notification"
-msgstr ""
+msgstr "Özel bildirim"
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Creative Commons Lisansı"

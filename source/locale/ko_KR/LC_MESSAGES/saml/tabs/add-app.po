@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# 조성현 (jaymz9634) <jaymz9634@gmail.com>, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2024-06-24 08:21+0000\n"
+"Last-Translator: 조성현 (jaymz9634) <jaymz9634@gmail.com>, 2025\n"
 "Language-Team: Korean (Korea) (https://app.transifex.com/teclib/teams/28042/ko_KR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,38 +23,39 @@ msgstr ""
 
 #: ../../source/saml/tabs/add-app.rst:2
 msgid "Add a new SAML Application on GLPI"
-msgstr ""
+msgstr "GLPI 에 새 SAML 응용프로그램 추가"
 
 #: ../../source/saml/tabs/add-app.rst:4
 msgid ""
 "First of all, you need to add a SAML application on GLPI because we need to "
 "report some information on GLPI <-> Entra/Google."
 msgstr ""
+"우선, <->GLPI Entra/Google에 일부 정보를 보고해야 하므로 GLPI에 SAML 응용프로그램을 추가해야 합니다."
 
 #: ../../source/saml/tabs/add-app.rst:6
 msgid "In **Setup** > **SAML SSO Applications**, click on **+ Add**"
-msgstr ""
+msgstr "**Setup** > **SAML SSO Applications** 에서, **+ Add** 클릭"
 
 #: ../../source/saml/tabs/add-app.rst:7
 msgid "Give a **name** to your application"
-msgstr ""
+msgstr "응용프로그램에 **name** 부여"
 
 #: ../../source/saml/tabs/add-app.rst:8
 msgid "Click on **is active**"
-msgstr ""
+msgstr "**is active** 클릭"
 
 #: ../../source/saml/tabs/add-app.rst:10
 msgid "Click on **Save**"
-msgstr ""
+msgstr "**Save** 클릭"
 
 #: ../../source/saml/tabs/add-app.rst-1
 msgid "Add GLPI app"
-msgstr ""
+msgstr "GLPI 앱 추가"
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "저작물사용 허가표시"

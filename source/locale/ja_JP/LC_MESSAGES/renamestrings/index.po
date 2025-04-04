@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 13:57+0200\n"
 "PO-Revision-Date: 2024-01-31 13:12+0000\n"
 "Language-Team: Japanese (Japan) (https://app.transifex.com/teclib/teams/28042/ja_JP/)\n"
 "MIME-Version: 1.0\n"
@@ -49,18 +49,18 @@ msgstr ""
 msgid "8.2"
 msgstr ""
 
-#: ../../source/renamestrings/index.rst:15
+#: ../../source/include/basic_subscription.rst:2
 msgid ""
-"A `basic licence <https://services.glpi-network.com/#offers>`_ (or higher) "
-"is required. This plugin is also available from the `Cloud <https://glpi-"
-"network.cloud/fr/>`_"
+"A `GLPI Network BASIC <https://services.glpi-network.com/#offers>`_ "
+"subscription (or higher) is required. This plugin is also available for all "
+"GLPI Network `Cloud instances <https://glpi-network.cloud>`_."
 msgstr ""
 
-#: ../../source/renamestrings/index.rst:18
+#: ../../source/renamestrings/index.rst:17
 msgid "Download the plugin"
 msgstr ""
 
-#: ../../source/renamestrings/index.rst:20
+#: ../../source/renamestrings/index.rst:19
 msgid ""
 "Go to **Marketplace**. Download and install the plugin **Rename GLPI "
 "strings**"
@@ -70,39 +70,39 @@ msgstr ""
 msgid "isntall the plugin"
 msgstr ""
 
-#: ../../source/renamestrings/index.rst:27
+#: ../../source/renamestrings/index.rst:26
 msgid "Creating an override"
 msgstr ""
 
-#: ../../source/renamestrings/index.rst:29
+#: ../../source/renamestrings/index.rst:28
 msgid "Go to **Setup > Rename GLPI strings**"
 msgstr ""
 
-#: ../../source/renamestrings/index.rst:30
+#: ../../source/renamestrings/index.rst:29
 msgid "Click on **Add** and select the appropriate language."
 msgstr ""
 
-#: ../../source/renamestrings/index.rst:31
+#: ../../source/renamestrings/index.rst:30
 msgid "In the **Override** tab, click on **New override**."
 msgstr ""
 
-#: ../../source/renamestrings/index.rst:32
+#: ../../source/renamestrings/index.rst:31
 msgid ""
 "Select the value you wish to change from the drop-down list. You can search "
 "directly."
 msgstr ""
 
-#: ../../source/renamestrings/index.rst:34
+#: ../../source/renamestrings/index.rst:33
 msgid "We are going to change the value **Computer** to **PC**"
 msgstr ""
 
-#: ../../source/renamestrings/index.rst:36
+#: ../../source/renamestrings/index.rst:35
 msgid ""
 "Select computer and enter the singular and plural of the word to be changed "
 "in the corresponding fields."
 msgstr ""
 
-#: ../../source/renamestrings/index.rst:37
+#: ../../source/renamestrings/index.rst:36
 msgid "Click on **Save**"
 msgstr ""
 
@@ -110,17 +110,17 @@ msgstr ""
 msgid "create override"
 msgstr ""
 
-#: ../../source/renamestrings/index.rst:44
+#: ../../source/renamestrings/index.rst:43
 msgid "Show the change"
 msgstr ""
 
-#: ../../source/renamestrings/index.rst:46
+#: ../../source/renamestrings/index.rst:45
 msgid ""
 "You may not see the change immediately. To make it appear, log out and then "
 "log back in."
 msgstr ""
 
-#: ../../source/renamestrings/index.rst:48
+#: ../../source/renamestrings/index.rst:47
 msgid "Before :"
 msgstr ""
 
@@ -128,7 +128,7 @@ msgstr ""
 msgid "before"
 msgstr ""
 
-#: ../../source/renamestrings/index.rst:54
+#: ../../source/renamestrings/index.rst:53
 msgid "After :"
 msgstr ""
 
@@ -136,11 +136,11 @@ msgstr ""
 msgid "after"
 msgstr ""
 
-#: ../../source/renamestrings/index.rst:61
+#: ../../source/renamestrings/index.rst:60
 msgid "FAQ"
 msgstr ""
 
-#: ../../source/renamestrings/index.rst:63
+#: ../../source/renamestrings/index.rst:62
 msgid ""
 "If you have any questions about using the plugin, please consult `our FAQ "
 "<https://faq.teclib.com/04_Plugins/Rename_strings/>`_"

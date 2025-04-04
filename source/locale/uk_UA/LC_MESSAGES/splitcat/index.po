@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 13:57+0200\n"
 "PO-Revision-Date: 2024-01-31 13:12+0000\n"
 "Language-Team: Ukrainian (Ukraine) (https://app.transifex.com/teclib/teams/28042/uk_UA/)\n"
 "MIME-Version: 1.0\n"
@@ -49,18 +49,18 @@ msgstr ""
 msgid "8.2"
 msgstr ""
 
-#: ../../source/splitcat/index.rst:14
+#: ../../source/include/basic_subscription.rst:2
 msgid ""
-"A `basic licence <https://services.glpi-network.com/#offers>`_ (or higher) "
-"is required. This plugin is also available from the `Cloud <https://glpi-"
-"network.cloud/fr/>`_."
+"A `GLPI Network BASIC <https://services.glpi-network.com/#offers>`_ "
+"subscription (or higher) is required. This plugin is also available for all "
+"GLPI Network `Cloud instances <https://glpi-network.cloud>`_."
 msgstr ""
 
-#: ../../source/splitcat/index.rst:18
+#: ../../source/splitcat/index.rst:17
 msgid "Download the plugin"
 msgstr ""
 
-#: ../../source/splitcat/index.rst:20
+#: ../../source/splitcat/index.rst:19
 msgid ""
 "From the marketplace (**Setup > Plugins**), download the **Splitcat** plugin"
 msgstr ""
@@ -69,17 +69,17 @@ msgstr ""
 msgid "install the plugin"
 msgstr ""
 
-#: ../../source/splitcat/index.rst:27
+#: ../../source/splitcat/index.rst:26
 msgid "Settings"
 msgstr ""
 
-#: ../../source/splitcat/index.rst:29
+#: ../../source/splitcat/index.rst:28
 msgid ""
 "There are no special settings to be made for this plugin. You can see the "
 "effect of the plugin directly when you open a new ticket."
 msgstr ""
 
-#: ../../source/splitcat/index.rst:32
+#: ../../source/splitcat/index.rst:31
 msgid "Before"
 msgstr ""
 
@@ -87,7 +87,7 @@ msgstr ""
 msgid "before"
 msgstr ""
 
-#: ../../source/splitcat/index.rst:40
+#: ../../source/splitcat/index.rst:39
 msgid "After"
 msgstr ""
 
@@ -95,11 +95,11 @@ msgstr ""
 msgid "after"
 msgstr ""
 
-#: ../../source/splitcat/index.rst:47
+#: ../../source/splitcat/index.rst:46
 msgid "FAQ"
 msgstr ""
 
-#: ../../source/splitcat/index.rst:49
+#: ../../source/splitcat/index.rst:48
 msgid ""
 "If you have any questions about using the plugin, please consult `our FAQ "
 "<https://faq.teclib.com/04_Plugins/Splitcat/>`_"

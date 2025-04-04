@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kaya Zeren <kayazeren@gmail.com>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2024-02-01 06:43+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,338 +23,371 @@ msgstr ""
 
 #: ../../source/moresatisfaction/index.rst:2
 msgid "More satisfaction"
-msgstr ""
+msgstr "Daha iyi memnuniyet"
 
 #: ../../source/moresatisfaction/index.rst:5
 msgid "Requirements (on-premise)"
-msgstr ""
+msgstr "Gereksinimler (özel kurulum)"
 
 #: ../../source/moresatisfaction/index.rst:8
 msgid "GLPI Version"
-msgstr ""
+msgstr "GLPI sürümü"
 
 #: ../../source/moresatisfaction/index.rst:8
 msgid "Minimum PHP"
-msgstr ""
+msgstr "En düşük PHP sürümü"
 
 #: ../../source/moresatisfaction/index.rst:8
 msgid "Recommended"
-msgstr ""
+msgstr "Önerilen"
 
 #: ../../source/moresatisfaction/index.rst:10
 msgid "10.0.x"
-msgstr ""
+msgstr "10.0.x"
 
 #: ../../source/moresatisfaction/index.rst:10
 msgid "8.1"
-msgstr ""
+msgstr "8.1"
 
 #: ../../source/moresatisfaction/index.rst:10
 msgid "8.2"
-msgstr ""
+msgstr "8.2"
 
-#: ../../source/moresatisfaction/index.rst:15
+#: ../../source/include/basic_subscription.rst:2
 msgid ""
-"A `basic licence <https://services.glpi-network.com/#offers>`_ (or higher) "
-"is required. This plugin is also available on `Cloud <https://glpi-"
-"network.cloud/fr/>`_."
+"A `GLPI Network BASIC <https://services.glpi-network.com/#offers>`_ "
+"subscription (or higher) is required. This plugin is also available for all "
+"GLPI Network `Cloud instances <https://glpi-network.cloud>`_."
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:18
+#: ../../source/moresatisfaction/index.rst:16
+msgid ""
+"The plugin **cannot work with anonymous users** (with email only) The plugin"
+" needs a GLPI account to use the user's token and allow one-click responses "
+"without authentication (the plugin takes care of this via the token). In "
+"this context you will need to use an external satisfaction survey, for "
+"example google forms."
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:22
 msgid "Install the plugin"
-msgstr ""
+msgstr "Eklentiyi kurmak"
 
-#: ../../source/moresatisfaction/index.rst:20
+#: ../../source/moresatisfaction/index.rst:24
 msgid ""
 "Go to the marketplace. Download and install the plugin **More satisfaction**"
-msgstr ""
+msgstr "Mağazaya gidin. **Daha iyi memnuniyet** eklentisini indirip kurun."
 
 #: ../../source/moresatisfaction/index.rst-1
 msgid "install the plugin"
-msgstr ""
-
-#: ../../source/moresatisfaction/index.rst:26
-msgid "Create a survey"
-msgstr ""
-
-#: ../../source/moresatisfaction/index.rst:28
-msgid "Once installed, go to **Administration > Satisfaction survey**"
-msgstr ""
-
-#: ../../source/moresatisfaction/index.rst:29
-msgid "Click on **Add**"
-msgstr ""
+msgstr "Eklentiyi kurmak"
 
 #: ../../source/moresatisfaction/index.rst:30
-msgid "Name your survey and set it as active"
-msgstr ""
+msgid "Create a survey"
+msgstr "Bir anket oluşturun"
 
-#: ../../source/moresatisfaction/index.rst:31
+#: ../../source/moresatisfaction/index.rst:32
+msgid "Once installed, go to **Administration > Satisfaction survey**"
+msgstr "Kurulduktan sonra **Yönetim > Memnuniyet anketi** bölümüne gidin"
+
+#: ../../source/moresatisfaction/index.rst:33
+msgid "Click on **Add**"
+msgstr "**Ekle** üzerine tıklayın"
+
+#: ../../source/moresatisfaction/index.rst:34
+msgid "Name your survey and set it as active"
+msgstr "Anketinize bir ad verin ve etkin olarak ayarlayın"
+
+#: ../../source/moresatisfaction/index.rst:35
 msgid ""
 "Also remember to tick the sub-entity box if you want it to be available to "
 "all child entities"
 msgstr ""
+"Tüm alt varlıklar için de kullanılabilir olmasını istiyorsanız alt varlık "
+"kutusunu işaretlemeyi unutmayın"
 
-#: ../../source/moresatisfaction/index.rst:32
+#: ../../source/moresatisfaction/index.rst:36
 msgid "Then click on **Add**"
-msgstr ""
+msgstr "Ardından **Ekle** üzerine tıklayın"
 
 #: ../../source/moresatisfaction/index.rst-1
 msgid "add satisfaction survey"
-msgstr ""
+msgstr "Memnuniyet anketini ekleyin"
 
-#: ../../source/moresatisfaction/index.rst:39
+#: ../../source/moresatisfaction/index.rst:43
 msgid ""
 "It is only possible to create one survey per entity. If you wish to create "
 "several for different entities, remember to position yourself in the "
 "appropriate entity and do not tick the sub-entity box"
 msgstr ""
+"Her varlık için yalnızca bir anket oluşturulabilir. Farklı varlıklar için "
+"birkaç anket oluşturmak istiyorsanız, kendinizi uygun varlığa geçirmeyi "
+"unutmayın ve alt varlık kutusunu işaretlemeyin"
 
 #: ../../source/moresatisfaction/index.rst:0
 msgid "sub entity"
-msgstr ""
-
-#: ../../source/moresatisfaction/index.rst:46
-msgid "Create a question"
-msgstr ""
-
-#: ../../source/moresatisfaction/index.rst:48
-msgid "Enter your survey and go to the **Question** tab"
-msgstr ""
-
-#: ../../source/moresatisfaction/index.rst:49
-msgid "Click on Add a question"
-msgstr ""
+msgstr "Alt varlık"
 
 #: ../../source/moresatisfaction/index.rst:50
+msgid "Create a question"
+msgstr "Bir soru oluşturun"
+
+#: ../../source/moresatisfaction/index.rst:52
+msgid "Enter your survey and go to the **Question** tab"
+msgstr "Anketinizi açın ve **Soru** sekmesine gidin"
+
+#: ../../source/moresatisfaction/index.rst:53
+msgid "Click on Add a question"
+msgstr "Soru ekle üzerine tıklayın"
+
+#: ../../source/moresatisfaction/index.rst:54
 msgid ""
 "Select the type of question **Yes/No** and enter the text that suits you"
-msgstr ""
+msgstr "Soru türünü **Evet/Hayır** olarak seçin ve size uygun metni yazın"
 
-#: ../../source/moresatisfaction/index.rst:51
+#: ../../source/moresatisfaction/index.rst:55
 msgid "Then click **Add**"
-msgstr ""
+msgstr "Ardından **Ekle** üzerine tıklayın"
 
 #: ../../source/moresatisfaction/index.rst-1
 msgid "create question"
-msgstr ""
-
-#: ../../source/moresatisfaction/index.rst:58
-msgid "Create a text field"
-msgstr ""
-
-#: ../../source/moresatisfaction/index.rst:60
-#: ../../source/moresatisfaction/index.rst:71
-msgid "In the question tab, click on **Add a question**"
-msgstr ""
-
-#: ../../source/moresatisfaction/index.rst:61
-msgid "Select the **Text** type"
-msgstr ""
+msgstr "Soru oluşturun"
 
 #: ../../source/moresatisfaction/index.rst:62
+msgid "Create a text field"
+msgstr "Bir metin alanı oluşturun"
+
+#: ../../source/moresatisfaction/index.rst:64
+#: ../../source/moresatisfaction/index.rst:75
+msgid "In the question tab, click on **Add a question**"
+msgstr "Soru sekmesinden **Soru ekle** üzerine tıklayın"
+
+#: ../../source/moresatisfaction/index.rst:65
+msgid "Select the **Text** type"
+msgstr "**Metin** türünü seçin"
+
+#: ../../source/moresatisfaction/index.rst:66
 msgid "Enter the text to be displayed and click **Add**"
-msgstr ""
+msgstr "Görüntülenecek metni yazın ve **Ekle** üzerine tıklayın"
 
 #: ../../source/moresatisfaction/index.rst-1
 msgid "text for question"
-msgstr ""
-
-#: ../../source/moresatisfaction/index.rst:69
-msgid "Create a note"
-msgstr ""
-
-#: ../../source/moresatisfaction/index.rst:72
-msgid "select the **Note** type"
-msgstr ""
+msgstr "Soru metni"
 
 #: ../../source/moresatisfaction/index.rst:73
+msgid "Create a note"
+msgstr "Bir not oluşturun"
+
+#: ../../source/moresatisfaction/index.rst:76
+msgid "select the **Note** type"
+msgstr "**Not** türünü seçin"
+
+#: ../../source/moresatisfaction/index.rst:77
 msgid "You can select a score up to 10 and set a default value"
 msgstr ""
+"En fazla 10 olabilecek not seçebilir ve varsayılan bir değer "
+"belirleyebilirsiniz"
 
-#: ../../source/moresatisfaction/index.rst:74
+#: ../../source/moresatisfaction/index.rst:78
 msgid "Click on \"Add\" when you are happy with your settings"
-msgstr ""
+msgstr "Ayarlarınızı tamamladığınızda \"Ekle\" üzerine tıklayın"
 
 #: ../../source/moresatisfaction/index.rst-1
 msgid "add note"
-msgstr ""
+msgstr "Not ekleyin"
 
-#: ../../source/moresatisfaction/index.rst:81
+#: ../../source/moresatisfaction/index.rst:85
 msgid "Preview"
-msgstr ""
+msgstr "Ön izleme"
 
-#: ../../source/moresatisfaction/index.rst:83
+#: ../../source/moresatisfaction/index.rst:87
 msgid ""
 "The preview tab allows you to see what users will receive once their ticket "
 "has been closed"
 msgstr ""
+"Önizleme sekmesi, kullanıcıların destek kayıtları kapatıldıktan sonra neyle "
+"karşılaşacağını görmenizi sağlar"
 
 #: ../../source/moresatisfaction/index.rst-1
 msgid "preview"
-msgstr ""
+msgstr "Ön izleme"
 
-#: ../../source/moresatisfaction/index.rst:90
+#: ../../source/moresatisfaction/index.rst:94
 msgid "Translation"
-msgstr ""
+msgstr "Çeviri"
 
-#: ../../source/moresatisfaction/index.rst:92
+#: ../../source/moresatisfaction/index.rst:96
 msgid ""
 "You can translate each of the questions asked in the questionnaire into the "
 "language of your choice"
-msgstr ""
+msgstr "Ankette sorulan her soruyu istediğiniz dile çevirebilirsiniz."
 
-#: ../../source/moresatisfaction/index.rst:94
+#: ../../source/moresatisfaction/index.rst:98
 msgid "Go to the **Translations** tab"
-msgstr ""
+msgstr "**Çeviriler** sekmesine gidin"
 
-#: ../../source/moresatisfaction/index.rst:95
+#: ../../source/moresatisfaction/index.rst:99
 msgid ""
 "Choose the language you want and then, question by question, write the "
 "translation"
 msgstr ""
+"Çevirmek istediğiniz dili seçin ve ardından her sorunun çevirisini yazın"
 
 #: ../../source/moresatisfaction/index.rst-1
 msgid "translate"
-msgstr ""
+msgstr "Çevirin"
 
-#: ../../source/moresatisfaction/index.rst:102
+#: ../../source/moresatisfaction/index.rst:106
 msgid "Schedule reminders"
-msgstr ""
+msgstr "Anımsatıcılar zamanlayın"
 
-#: ../../source/moresatisfaction/index.rst:104
+#: ../../source/moresatisfaction/index.rst:108
 msgid ""
 "In the event of a non-response to the survey, you can send out reminders to "
 "follow-up with the user. You can create your own reminder or select a "
 "predefined one"
 msgstr ""
+"Ankete yanıt verilmemesi durumunda, kullanıcılara anımsatıcılar "
+"gönderebilirsiniz. Kendi anımsatıcınızı oluşturabilir veya önceden "
+"tanımlanmış bir hazır anımsatıcı seçebilirsiniz"
 
-#: ../../source/moresatisfaction/index.rst:107
+#: ../../source/moresatisfaction/index.rst:111
 msgid "Customised reminder"
-msgstr ""
-
-#: ../../source/moresatisfaction/index.rst:109
-#: ../../source/moresatisfaction/index.rst:124
-msgid "Go to the **Reminders** tab"
-msgstr ""
-
-#: ../../source/moresatisfaction/index.rst:110
-msgid "Click on **Add a reminder**."
-msgstr ""
-
-#: ../../source/moresatisfaction/index.rst:115
-msgid "Enter a :"
-msgstr ""
-
-#: ../../source/moresatisfaction/index.rst:112
-msgid "**Name**"
-msgstr ""
+msgstr "Özelleştirilmiş anımsatıcı"
 
 #: ../../source/moresatisfaction/index.rst:113
-msgid "**Type of duration (day or month)**"
-msgstr ""
+#: ../../source/moresatisfaction/index.rst:128
+msgid "Go to the **Reminders** tab"
+msgstr "**Anımsatıcılar** sekmesine gidin"
 
 #: ../../source/moresatisfaction/index.rst:114
-msgid "The **duration** of the reminder"
-msgstr ""
+msgid "Click on **Add a reminder**."
+msgstr "**Anımsatıcı ekle** seçeneğine tıklayın."
 
-#: ../../source/moresatisfaction/index.rst:115
+#: ../../source/moresatisfaction/index.rst:119
+msgid "Enter a :"
+msgstr "Şunları yazın:"
+
+#: ../../source/moresatisfaction/index.rst:116
+msgid "**Name**"
+msgstr "**Ad**"
+
+#: ../../source/moresatisfaction/index.rst:117
+msgid "**Type of duration (day or month)**"
+msgstr "**Süre türü (gün ya da ay)**"
+
+#: ../../source/moresatisfaction/index.rst:118
+msgid "The **duration** of the reminder"
+msgstr "Anımsatıcı için **süre**"
+
+#: ../../source/moresatisfaction/index.rst:119
 msgid "**Activate** your reminder"
-msgstr ""
+msgstr "Anımsatıcınızı **etkinleştirin**"
 
 #: ../../source/moresatisfaction/index.rst-1
 msgid "custom reminder"
-msgstr ""
-
-#: ../../source/moresatisfaction/index.rst:122
-msgid "Predefined reminder"
-msgstr ""
-
-#: ../../source/moresatisfaction/index.rst:125
-msgid "Click on **Add a predefined reminder**"
-msgstr ""
+msgstr "Özel anımsatıcı"
 
 #: ../../source/moresatisfaction/index.rst:126
+msgid "Predefined reminder"
+msgstr "Hazır anımsatıcı"
+
+#: ../../source/moresatisfaction/index.rst:129
+msgid "Click on **Add a predefined reminder**"
+msgstr "**Hazır anımsatıcı ekle** seçeneğine tıklayın."
+
+#: ../../source/moresatisfaction/index.rst:130
 msgid "You will have 3 options to choose from:"
-msgstr ""
+msgstr "Seçebileceğiniz 3 seçenek vardır:"
 
 #: ../../source/moresatisfaction/index.rst-1
 msgid "predefined reminder"
-msgstr ""
-
-#: ../../source/moresatisfaction/index.rst:132
-msgid "1 week: reminder every 7 days,"
-msgstr ""
-
-#: ../../source/moresatisfaction/index.rst:133
-msgid "2 weeks: reminder every 14 days."
-msgstr ""
-
-#: ../../source/moresatisfaction/index.rst:134
-msgid "1 month: monthly reminder."
-msgstr ""
+msgstr "Hazır anımsatıcı"
 
 #: ../../source/moresatisfaction/index.rst:136
+msgid "1 week: reminder every 7 days,"
+msgstr "1 hafta:  7 günde bir anımsatır,"
+
+#: ../../source/moresatisfaction/index.rst:137
+msgid "2 weeks: reminder every 14 days."
+msgstr "2 hafta: 14 günde bir anımsatır,"
+
+#: ../../source/moresatisfaction/index.rst:138
+msgid "1 month: monthly reminder."
+msgstr "1 ay: 1 ayda bir anımsatır,"
+
+#: ../../source/moresatisfaction/index.rst:140
 msgid "Select the option that suits you and click on **Add**"
-msgstr ""
+msgstr "Size uygun seçeneği seçin ve **Ekle** üzerine tıklayın"
 
-#: ../../source/moresatisfaction/index.rst:139
+#: ../../source/moresatisfaction/index.rst:143
 msgid "Limit the number of reminders"
-msgstr ""
+msgstr "Anımsatıcı sayısını sınırlayın"
 
-#: ../../source/moresatisfaction/index.rst:141
+#: ../../source/moresatisfaction/index.rst:145
 msgid ""
 "In the **Setup maximum number of days to send reminder** section, enter a "
 "limit for the **Maximum number of days to send a reminder**"
 msgstr ""
+"**Anımsatıcı gönderilecek en fazla gün sayısını ayarla** bölümünde, "
+"**Anımsatıcının gönderileceği en fazla gün sayısı** için bir sınır değeri "
+"yazın"
 
-#: ../../source/moresatisfaction/index.rst:143
+#: ../../source/moresatisfaction/index.rst:147
 msgid ""
 "**Example** : If a person has not responded after 3 reminders, GLPI will no "
 "longer send reminders and the satisfaction survey will then remain "
 "unanswered"
 msgstr ""
+"**Örnek**: Bir kişi 3 anımsatmadan sonra yanıt vermezse, GLPI bir daha "
+"anımsatma göndermez ve memnuniyet anketi yanıtsız kalır."
 
 #: ../../source/moresatisfaction/index.rst-1
 msgid "reminder example"
-msgstr ""
+msgstr "Anımsatıcı örneği"
 
-#: ../../source/moresatisfaction/index.rst:150
+#: ../../source/moresatisfaction/index.rst:154
 msgid "Set up the automatic action"
-msgstr ""
+msgstr "Otomatik işlemi ayarlayın"
 
-#: ../../source/moresatisfaction/index.rst:152
+#: ../../source/moresatisfaction/index.rst:156
 msgid ""
 "Survey reminders are sent via an automatic action already created by the "
 "plugin. Make sure that this is activated and set up correctly"
 msgstr ""
+"Anket anımsatıcıları, eklenti tarafından önceden oluşturulmuş bir otomatik "
+"işlem ile gönderilir. Bu işlemin etkinleştirildiğinden ve doğru "
+"ayarlandığından emin olun"
 
-#: ../../source/moresatisfaction/index.rst:154
+#: ../../source/moresatisfaction/index.rst:158
 msgid "Go to **Setup > Automatic actions**"
-msgstr ""
+msgstr "**Kurulum > Otomatik işlemler** bölümüne gidin"
 
-#: ../../source/moresatisfaction/index.rst:155
+#: ../../source/moresatisfaction/index.rst:159
 msgid "Select the **SatisfactionReminder** action."
-msgstr ""
+msgstr "**SatisfactionReminder** işlemini seçin."
 
 #: ../../source/moresatisfaction/index.rst-1
 msgid "automatic action"
-msgstr ""
+msgstr "Otomatik işlem"
 
-#: ../../source/moresatisfaction/index.rst:162
+#: ../../source/moresatisfaction/index.rst:166
 msgid "FAQ"
-msgstr ""
+msgstr "SSS"
 
-#: ../../source/moresatisfaction/index.rst:164
+#: ../../source/moresatisfaction/index.rst:168
 msgid ""
 "If you have any questions about using the plugin, please consult `our FAQ "
 "<https://faq.teclib.com/04_Plugins/Satisfaction_survey/>`_"
 msgstr ""
+"Eklentinin kullanımıyla ilgili herhangi bir sorunuz varsa `SSS "
+"<https://faq.teclib.com/04_Plugins/Satisfaction_survey/>`_ bölümüne "
+"bakabilirsiniz."
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Creative Commons Lisansı"

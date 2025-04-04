@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 13:57+0200\n"
 "PO-Revision-Date: 2024-06-24 08:21+0000\n"
 "Language-Team: German (Austria) (https://app.transifex.com/teclib/teams/28042/de_AT/)\n"
 "MIME-Version: 1.0\n"
@@ -45,36 +45,37 @@ msgstr ""
 msgid "8.2"
 msgstr ""
 
-#: ../../source/saml/requirements.rst:11
+#: ../../source/include/no_subscription.rst:2
 msgid ""
-"This plugin is available without a GLPI-Network subscription. It is also "
-"available in `Cloud <https://glpi-network.cloud/>`_."
+"This plugin is available without a `GLPI Network <https://services.glpi-"
+"network.com/#offers>`_ subscription. It is also available on `GLPI Cloud "
+"<https://glpi-network.cloud>`_."
 msgstr ""
 
-#: ../../source/saml/requirements.rst:14
+#: ../../source/saml/requirements.rst:13
 msgid ""
 "**We recommend using the** :doc:`OAuth SSO </oauthsso/index>` **and** "
 ":doc:`SCIM </scim/index>` **plugins if you need autologin or user "
 "provisioning, officially supported by the publisher.**"
 msgstr ""
 
-#: ../../source/saml/requirements.rst:16
+#: ../../source/saml/requirements.rst:15
 msgid ""
 "But we suggest using this plugin if SAML protocol is mandatory for your "
 "organization."
 msgstr ""
 
-#: ../../source/saml/requirements.rst:20
+#: ../../source/saml/requirements.rst:19
 msgid ""
 "You need an admin access to the Entra/Google console to setup the "
 "application"
 msgstr ""
 
-#: ../../source/saml/requirements.rst:24
+#: ../../source/saml/requirements.rst:23
 msgid "Download the plugin"
 msgstr ""
 
-#: ../../source/saml/requirements.rst:26
+#: ../../source/saml/requirements.rst:25
 msgid ""
 "From the marketplace (**Setup > Plugins**), download the **GLPI SAML** "
 "plugin"

@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kaya Zeren <kayazeren@gmail.com>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2024-01-31 13:12+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,262 +23,296 @@ msgstr ""
 
 #: ../../source/oauthsso/keycloak.rst:2
 msgid "Keycloak"
-msgstr ""
+msgstr "Keycloak"
 
 #: ../../source/oauthsso/keycloak.rst:5
 msgid "Create a REALM"
-msgstr ""
+msgstr "Bir REALM oluşturun"
 
 #: ../../source/oauthsso/keycloak.rst:7
 msgid "After installing keycloak, go to the admin console:"
-msgstr ""
+msgstr "Keycloak kurduktan sonra yönetici panosuna gidin:"
 
 #: ../../source/oauthsso/keycloak.rst:9
 msgid "http://XXXXXXXXXX:8080/admin or https://XXXXXXXXXX:8080/admin"
-msgstr ""
+msgstr "http://XXXXXXXXXX:8080/admin ya da https://XXXXXXXXXX:8080/admin"
 
 #: ../../source/oauthsso/keycloak.rst:11
 msgid ""
 "Create your **realm** by clicking on **master** at the top left of your "
 "screen"
 msgstr ""
+"Ekranınızın sol üst köşesinden **master** üzerine tıklayarak **Realm** "
+"ortamınızı oluşturun"
 
 #: ../../source/oauthsso/keycloak.rst:12
 msgid "Then **create Realm**"
-msgstr ""
+msgstr "Ardından **Realm oluştur** üzerine tıklayın"
 
 #: ../../source/oauthsso/keycloak.rst:13
 msgid "Give it a name that suits you"
-msgstr ""
+msgstr "Uygun bir ad yazın"
 
 #: ../../source/oauthsso/keycloak.rst:14
 msgid "Click on **Create**"
-msgstr ""
+msgstr "**Oluştur** üzerine tıklayın"
 
 #: ../../source/oauthsso/keycloak.rst-1
 msgid "create Realm"
-msgstr ""
+msgstr "Realm oluşturun"
 
 #: ../../source/oauthsso/keycloak.rst:21
 msgid "Create user"
-msgstr ""
+msgstr "Kullanıcı oluşturmak"
 
 #: ../../source/oauthsso/keycloak.rst:23
 msgid "Then go to the **Users** tab"
-msgstr ""
+msgstr "**Kullanıcılar** sekmesine gidin"
 
 #: ../../source/oauthsso/keycloak.rst:24
 msgid ""
 "Then **Create new user** (we’ll use a local user, but you can synchronize "
 "your LDAP if necessary)"
 msgstr ""
+"Ardından **Yeni kullanıcı oluştur** (yerel bir kullanıcı kullanacağız, ancak"
+" gerekirse LDAP ile eşitleyebilirsiniz)"
 
 #: ../../source/oauthsso/keycloak.rst-1
 msgid "create user"
-msgstr ""
+msgstr "Kullanıcı oluşturun"
 
 #: ../../source/oauthsso/keycloak.rst:30
 msgid ""
 "Create your user according to your needs, remembering to check the Email "
 "verified box"
 msgstr ""
+"Gereksinimlerinize uygun kullanıcınızı oluşturun, E-posta doğrulandı "
+"işaretini koymayı unutmayın"
 
 #: ../../source/oauthsso/keycloak.rst:31
 msgid "Click on **Create** once you’ve entered your details."
-msgstr ""
+msgstr "Bilgilerinizi yazdıktan sonra **Oluştur** üzerine tıklayın."
 
 #: ../../source/oauthsso/keycloak.rst-1
 msgid "email verified"
-msgstr ""
+msgstr "E-posta doğrulandı"
 
 #: ../../source/oauthsso/keycloak.rst:37
 msgid "Stay in your user file and click on **Credentials**"
-msgstr ""
+msgstr "Kullanıcı dosyanızda kalın ve **Kimlik Bilgileri** üzerine tıklayın"
 
 #: ../../source/oauthsso/keycloak.rst:38
 msgid "Then **Set pasword**"
-msgstr ""
+msgstr "Ardından **Parolayı ayarla** üzerine tıklayın"
 
 #: ../../source/oauthsso/keycloak.rst-1
 msgid "add credentials"
-msgstr ""
+msgstr "Kimlik doğrulama bilgilerini ekleyin"
 
 #: ../../source/oauthsso/keycloak.rst:44
 msgid ""
 "Configure the user password, taking care to indicate that the password is "
 "not temporary"
 msgstr ""
+"Kullanıcı parolasını ayarlayın. Parolanın geçici olmamasına dikkat edin"
 
 #: ../../source/oauthsso/keycloak.rst:45
 msgid "Click on save then **Save password**"
 msgstr ""
+"Kaydet üzerine tıklayın ve ardından **Parolayı kaydet** üzerine tıklayın"
 
 #: ../../source/oauthsso/keycloak.rst-1
 msgid "setup credentials"
-msgstr ""
+msgstr "Kimlik doğrulama bilgilerini ayarlayın"
 
 #: ../../source/oauthsso/keycloak.rst:51
 msgid ""
 "You can check that your configuration is correct by logging on to the user "
 "account console:"
 msgstr ""
+"Yapılandırmanızın doğru olup olmadığını kullanıcı hesabı panosunda oturum "
+"açarak kontrol edebilirsiniz:"
 
 #: ../../source/oauthsso/keycloak.rst:53
 msgid ""
 "http://XXXXXXXXXXX/realms/GLPI/account/#/ or "
 "https://XXXXXXXXXXX/realms/GLPI/account/#/"
 msgstr ""
+"http://XXXXXXXXXXX/realms/GLPI/account/#/ ya da "
+"https://XXXXXXXXXXX/realms/GLPI/account/#/"
 
 #: ../../source/oauthsso/keycloak.rst:56
 msgid "(Remember to adapt the realm name if you haven’t named it GLPI)."
-msgstr ""
+msgstr "(GLPI adını vermediyseniz Realm adını uyarlamayı unutmayın)."
 
 #: ../../source/oauthsso/keycloak.rst:58
 msgid ""
 "You will then be able to connect to the record of the previously created "
 "user or one of your LDAP users."
 msgstr ""
+"Ardından daha önce oluşturduğunuz kullanıcının veya LDAP kullanıcılarınızdan"
+" birinin kaydı ile bağlantı kurabileceksiniz."
 
 #: ../../source/oauthsso/keycloak.rst:61 ../../source/oauthsso/keycloak.rst:66
 msgid "Create client"
-msgstr ""
+msgstr "İstemci oluştur"
 
 #: ../../source/oauthsso/keycloak.rst:63
 msgid "Now we can register our GLPI application with Keycloak"
-msgstr ""
+msgstr "Artık GLPI uygulamamızı Keycloak üzerinde kaydedebiliriz"
 
 #: ../../source/oauthsso/keycloak.rst:65
 msgid "Go to **Clients**"
-msgstr ""
+msgstr "**İstemciler** bölümüne gidin"
 
 #: ../../source/oauthsso/keycloak.rst-1
 msgid "create client"
-msgstr ""
+msgstr "İstemci oluşturun"
 
 #: ../../source/oauthsso/keycloak.rst:72
 msgid ""
 "Give your application a client ID, which you’ll need to pass on to your GLPI"
 " Oauth SSO configuration"
 msgstr ""
+"Uygulamanıza, GLPI Oauth SSO yapılandırmanıza iletmeniz gereken bir istemci "
+"kimliği verin"
 
 #: ../../source/oauthsso/keycloak.rst:73
 msgid ""
 "Click on next and make sure on the next page that the **standard flow** and "
 "**client authentication** options are active"
 msgstr ""
+"İleri üzerine tıklayın ve bir sonraki sayfada **standart akış** ve **istemci"
+" kimlik doğrulaması** seçeneklerinin etkin olduğundan emin olun"
 
 #: ../../source/oauthsso/keycloak.rst:74
 msgid "Click on **Save**"
-msgstr ""
+msgstr "**Kaydet** üzerine tıklayın"
 
 #: ../../source/oauthsso/keycloak.rst:76
 msgid "Keep this page active, we’ll come back to it later."
-msgstr ""
+msgstr "Bu sayfayı açık tutun, daha sonra yeniden geleceğiz."
 
 #: ../../source/oauthsso/keycloak.rst-1
 msgid "client type"
-msgstr ""
+msgstr "İstemci türü"
 
 #: ../../source/oauthsso/keycloak.rst:83
 msgid "Setup GLPI"
-msgstr ""
+msgstr "GLPI kurulumu"
 
 #: ../../source/oauthsso/keycloak.rst:85
 msgid "Go to GLPI"
-msgstr ""
+msgstr "GLPI panosuna gidin"
 
 #: ../../source/oauthsso/keycloak.rst:86
 msgid ""
 "In **Setup > Oauth SSO applications click on add** (at the top of your "
 "screen)"
 msgstr ""
+"**Kurulum > Oauth SSO uygulamaları bölümünde Ekle üzerine tıklayın "
+"(ekranınızın üst bölümünde)"
 
 #: ../../source/oauthsso/keycloak.rst-1
 msgid "add SSO GLPI"
-msgstr ""
+msgstr "SSO GLPI ekleyin"
 
 #: ../../source/oauthsso/keycloak.rst:92
 msgid ""
 "Start by retrieving the return URL and pasting it into Keycloak’s **valid "
 "redirect URIs** field"
 msgstr ""
+"Dönüş adresini alarak ve onu Keycloak **Geçerli yönlendirme adresleri** "
+"alanına yapıştırarak başlayın"
 
 #: ../../source/oauthsso/keycloak.rst-1
 msgid "copy URL callback"
-msgstr ""
+msgstr "Dönüş adresini kopyalayın"
 
 #: ../../source/oauthsso/keycloak.rst:98
 msgid ""
 "Back in GLPI’s Oauth SSO plugin configuration, fill in the required fields:"
 msgstr ""
+"GLPI Oauth SSO eklentisi yapılandırmasına geri dönün. Gerekli alanları "
+"doldurun:"
 
 #: ../../source/oauthsso/keycloak.rst-1
 msgid "setup GLPI"
-msgstr ""
+msgstr "GLPI kurulumu"
 
 #: ../../source/oauthsso/keycloak.rst:104
 msgid ""
 "Give your provider a name, which will appear on the login page for users"
 msgstr ""
+"Sağlayıcınıza, kullanıcıların oturum açma sayfasında görüntülenecek bir ad "
+"verin"
 
 #: ../../source/oauthsso/keycloak.rst:106
 msgid ""
 "Activate this plugin so that it is visible and usable on the login page"
 msgstr ""
+"Bu eklentiyi etkinleştirin. Böylece oturum açma sayfasında görüntülenir ve "
+"kullanılabilir"
 
 #: ../../source/oauthsso/keycloak.rst:108
 msgid "Choose Keycloak as your Oauth provider"
-msgstr ""
+msgstr "OAuth sağlayıcınız olarak Keycloak seçin"
 
 #: ../../source/oauthsso/keycloak.rst:110
 msgid "Enter the client name set above"
-msgstr ""
+msgstr "Yukarıda ayarlanan istemci adını yazın"
 
 #: ../../source/oauthsso/keycloak.rst:112
 msgid ""
 "Retrieve client secret from Keycloak (client, client_name, credentials)"
 msgstr ""
+"Keycloak istemci parolasını alın (istemci, istemci_adı, kimlik doğrulama "
+"bilgileri)"
 
 #: ../../source/oauthsso/keycloak.rst:118
 msgid ""
 "Enter the discovery URL: http://mondomaine/realms/monrealms/.well-"
 "known/openid-configuration."
 msgstr ""
+"Keşif adresini yazın: http://mondomaine/realms/monrealms/.well-known/openid-"
+"configuration."
 
 #: ../../source/oauthsso/keycloak.rst:120
 msgid "Click on **Add**"
-msgstr ""
+msgstr "**Ekle** üzerine tıklayın"
 
 #: ../../source/oauthsso/keycloak.rst:122
 msgid "In the plugin, to see the approval message:"
-msgstr ""
+msgstr "Eklentide onay iletisini görmek için:"
 
 #: ../../source/oauthsso/keycloak.rst-1
 msgid "test connexion"
-msgstr ""
+msgstr "Bağlantıyı sınayın"
 
 #: ../../source/oauthsso/keycloak.rst:128
 msgid ""
 "Now that configuration is complete, you can test the connection with the "
 "user you created earlier, or with your LDAP user."
 msgstr ""
+"Artık yapılandırma tamamlandığına göre, daha önce oluşturduğunuz "
+"kullanıcıyla veya LDAP kullanıcınızla bağlantıyı sınayabilirsiniz."
 
 #: ../../source/oauthsso/keycloak.rst-1
 msgid "login page"
-msgstr ""
+msgstr "Oturum açma sayfası"
 
 #: ../../source/oauthsso/keycloak.rst-1
 msgid "connexion Keycloak"
-msgstr ""
+msgstr "Keycloak bağlantısı"
 
 #: ../../source/oauthsso/keycloak.rst-1
 msgid "home page"
-msgstr ""
+msgstr "Giriş sayfası"
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Creative Commons Lisansı"

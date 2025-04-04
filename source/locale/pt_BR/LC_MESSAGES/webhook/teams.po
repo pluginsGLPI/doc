@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 13:57+0200\n"
 "PO-Revision-Date: 2024-02-14 07:35+0000\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/teclib/teams/28042/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -23,64 +23,74 @@ msgstr ""
 
 #: ../../source/webhook/teams.rst:4
 msgid ""
-"From a Teams administrator account, go to the channel that will receive GLPI"
-" notifications"
+"Following the end of O365 connectors, Microsoft is imposing a new method of "
+"setting up your webhooks using workflows. This procedure must be implemented"
+" before August 15th. After this date, your webhooks will no longer function."
+" Your webhooks used by incoming Webhooks (old method) will no longer be "
+"available"
 msgstr ""
 
-#: ../../source/webhook/teams.rst:5
-msgid "Click on the channel menu"
+#: ../../source/webhook/teams.rst:8
+msgid ""
+"The channel used must be public. Microsoft does not currently allow webhooks"
+" with Workflows from a private channel."
 msgstr ""
 
-#: ../../source/webhook/teams.rst:6
-msgid "Then **Manage channel**"
+#: ../../source/webhook/teams.rst:10
+msgid "From **Teams**, go to **Apps**"
 msgstr ""
 
-#: ../../source/webhook/teams.rst-1
-msgid "manage channel"
+#: ../../source/webhook/teams.rst:11
+msgid "In the search box, enter **Workflows**"
 msgstr ""
 
 #: ../../source/webhook/teams.rst:12
-msgid "In the **Connectors** section,"
-msgstr ""
-
-#: ../../source/webhook/teams.rst:13
-msgid "click on **Modify**"
-msgstr ""
-
-#: ../../source/webhook/teams.rst-1
-msgid "edit connector"
-msgstr ""
-
-#: ../../source/webhook/teams.rst:19
-msgid "From the **incoming Webhook connector**"
-msgstr ""
-
-#: ../../source/webhook/teams.rst:20
-msgid "click on **Configure**"
-msgstr ""
-
-#: ../../source/webhook/teams.rst-1
-msgid "add webhook"
-msgstr ""
-
-#: ../../source/webhook/teams.rst:26
-msgid "Enter a name for your webhook and an image (optional)"
-msgstr ""
-
-#: ../../source/webhook/teams.rst:27
-msgid "Click on **Create**"
-msgstr ""
-
-#: ../../source/webhook/teams.rst-1
-msgid "setup webhook"
-msgstr ""
-
-#: ../../source/webhook/teams.rst:33
-msgid "You will then be sent the URL of your webhook"
+msgid "In the list of applications, click on **Add**"
 msgstr ""
 
 #: ../../source/webhook/teams.rst-1
 msgid "copy URL"
+msgstr ""
+
+#: ../../source/webhook/teams.rst:19
+msgid ""
+"Some information may take a while to appear, so please be patient between "
+"each step and wait for the information to appear on the screen before moving"
+" on to the next step."
+msgstr ""
+
+#: ../../source/webhook/teams.rst:23
+msgid "From the desired Teams channel, click on the **···** menu"
+msgstr ""
+
+#: ../../source/webhook/teams.rst:29
+msgid "Click on **Workflows**"
+msgstr ""
+
+#: ../../source/webhook/teams.rst:30
+msgid "Choose \"**Post to a channel when a webhook request is received**\""
+msgstr ""
+
+#: ../../source/webhook/teams.rst:31
+msgid ""
+"In the new window, make sure that the current account has a sufficient "
+"licence to send webhooks"
+msgstr ""
+
+#: ../../source/webhook/teams.rst:37
+msgid ""
+"Teams will give you a summary of the selected channel. If you've got it "
+"right, click on Add Workflows"
+msgstr ""
+
+#: ../../source/webhook/teams.rst:44
+msgid ""
+"The URL of your workflow appears. Copy it and keep it, it will be used to "
+"configure GLPI."
+msgstr ""
+
+#: ../../source/webhook/teams.rst:51
+msgid "Go to :doc:`setup the webhook in GLPI <setup_glpi>`"
 msgstr ""
 
 #: ../../<rst_epilog>:2

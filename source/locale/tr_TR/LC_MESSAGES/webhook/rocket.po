@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kaya Zeren <kayazeren@gmail.com>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2024-02-14 07:35+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,28 +23,36 @@ msgstr ""
 
 #: ../../source/webhook/rocket.rst:2
 msgid "Rocket"
-msgstr ""
+msgstr "Rocket"
 
 #: ../../source/webhook/rocket.rst:4
 msgid ""
 "You need to add an application to your team (the link is present in the "
 "bottom of the left sidebar) and select incoming-webhook"
 msgstr ""
+"Ekibinize bir uygulama eklemeniz gerekiyor (bağlantı sol kenar çubuğunun alt"
+" kısmında bulunabilir) ve gelen internet kancasını seçmeniz gerekiyor"
 
 #: ../../source/webhook/rocket.rst:6
 msgid ""
 "Add a new configuration, select the channel where you want notifications and"
 " you will get the webhook url."
 msgstr ""
+"Yeni bir yapılandırma ekleyin, bildirimlerin gelmesini istediğiniz kanalı "
+"seçin ve internet kancası adresini alın."
 
 #: ../../source/webhook/rocket.rst:7
 msgid "You can optionally setup a name and a logo for your hook."
+msgstr "İsteğe bağlı olarak kancanıza bir ad ve logo da ayarlayabilirsiniz."
+
+#: ../../source/webhook/rocket.rst:9
+msgid "Go to :doc:`setup the webhook in GLPI <setup_glpi>`"
 msgstr ""
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Creative Commons Lisansı"

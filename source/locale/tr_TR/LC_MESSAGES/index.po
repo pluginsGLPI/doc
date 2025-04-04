@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2016-10-25 19:22+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -27,15 +27,15 @@ msgstr "🚀 Eğitimler"
 
 #: ../../source/index.rst:23
 msgid "🧩 GLPI Plugins"
-msgstr "🧩 GLPI uygulama ekleri"
+msgstr "🧩 GLPI eklentileri"
 
 #: ../../source/index.rst:44
 msgid "⭐ GLPI-Network Plugins"
-msgstr "⭐ GLPI-Network uygulama ekleri"
+msgstr "⭐ GLPI-Network eklentileri"
 
 #: ../../source/index.rst:7
 msgid "GLPI plugins's documentation"
-msgstr "GLPI uygulama ekleri belgeleri"
+msgstr "GLPI eklentileri belgeleri"
 
 #: ../../source/index.rst-1
 msgid "GLPI"
@@ -46,8 +46,8 @@ msgid ""
 "You'll find here user documentation for various `GLPI <http://glpi-"
 "project.org>`_ plugins."
 msgstr ""
-"Bu bölümde çeşitli `GLPI <http://glpi-project.org>`_ uygulama ekleri ile "
-"ilgili belgeleri bulabilirsiniz."
+"Bu bölümde çeşitli `GLPI <http://glpi-project.org>`_ eklentileri ile ilgili "
+"belgeleri bulabilirsiniz."
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"

@@ -1,20 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# David Stepan <stepand@tiscali.cz>, 2016
 # Pavel Borecki <pavel.borecki@gmail.com>, 2018
+# David Stepan <stepand@tiscali.cz>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2016-11-02 10:38+0000\n"
-"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>, 2018\n"
+"Last-Translator: David Stepan <stepand@tiscali.cz>, 2024\n"
 "Language-Team: Czech (Czech Republic) (https://app.transifex.com/teclib/teams/28042/cs_CZ/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,59 +28,60 @@ msgstr "Obecný objekt"
 
 #: ../../source/genericobject/index.rst:7
 msgid "Download"
-msgstr ""
+msgstr "Stáhnout"
 
 #: ../../source/genericobject/index.rst:8
 msgid "Sources"
-msgstr ""
+msgstr "Zdroje"
 
 #: ../../source/genericobject/index.rst:9
 msgid "`<https://github.com/pluginsGLPI/genericobject/releases>`_"
-msgstr ""
+msgstr "`<https://github.com/pluginsGLPI/genericobject/releases>`_"
 
 #: ../../source/genericobject/index.rst:10
 msgid "`<https://github.com/pluginsGLPI/genericobject>`_"
-msgstr ""
+msgstr "`<https://github.com/pluginsGLPI/genericobject>`_"
 
 #: ../../source/genericobject/index.rst:13
 msgid "Requirements (on-premise)"
-msgstr ""
+msgstr "Požadavky (on-premise)"
 
 #: ../../source/genericobject/index.rst:16
 msgid "GLPI Version"
-msgstr ""
+msgstr "Verze GLPI"
 
 #: ../../source/genericobject/index.rst:16
 msgid "Minimum PHP"
-msgstr ""
+msgstr "Minimum PHP"
 
 #: ../../source/genericobject/index.rst:16
 msgid "Recommended"
-msgstr ""
+msgstr "Doporučeno"
 
 #: ../../source/genericobject/index.rst:18
 msgid "10.0.x"
-msgstr ""
+msgstr "10.0.x"
 
 #: ../../source/genericobject/index.rst:18
 msgid "8.1"
-msgstr ""
+msgstr "8.1"
 
 #: ../../source/genericobject/index.rst:18
 msgid "8.2"
-msgstr ""
+msgstr "8.2"
 
-#: ../../source/genericobject/index.rst:22
+#: ../../source/include/no_subscription.rst:2
 msgid ""
-"This plugin is available without a GLPI-Network subscription. It is also "
-"available in `Cloud <https://glpi-network.cloud/>`_"
+"This plugin is available without a `GLPI Network <https://services.glpi-"
+"network.com/#offers>`_ subscription. It is also available on `GLPI Cloud "
+"<https://glpi-network.cloud>`_."
 msgstr ""
 
-#: ../../source/genericobject/index.rst:26
+#: ../../source/genericobject/index.rst:25
 msgid "Features"
 msgstr "Funkce"
 
-#: ../../source/genericobject/index.rst:28
+#: ../../source/genericobject/index.rst:27
 msgid ""
 "This plugin allows you to add new inventory objects types, integrated into "
 "GLPI framework."
@@ -88,55 +89,55 @@ msgstr ""
 "Tento zásuvný modul umožňuje přidávat nové typy objektů, integrované do "
 "GLPI."
 
-#: ../../source/genericobject/index.rst:30
+#: ../../source/genericobject/index.rst:29
 msgid "It supports following GLPI features:"
 msgstr "Podporuje následující funkce GLPI:"
 
-#: ../../source/genericobject/index.rst:32
+#: ../../source/genericobject/index.rst:31
 msgid "entity and sub-entities management;"
 msgstr "správa entit a podřízených entit;"
 
-#: ../../source/genericobject/index.rst:33
+#: ../../source/genericobject/index.rst:32
 msgid "search;"
 msgstr "vyhledávání;"
 
-#: ../../source/genericobject/index.rst:34
+#: ../../source/genericobject/index.rst:33
 msgid "templates;"
 msgstr "šablony;"
 
-#: ../../source/genericobject/index.rst:35
+#: ../../source/genericobject/index.rst:34
 msgid "history;"
 msgstr "historie;"
 
-#: ../../source/genericobject/index.rst:36
+#: ../../source/genericobject/index.rst:35
 msgid "helpdesk integration;"
 msgstr "Začlenění služby podpory;"
 
-#: ../../source/genericobject/index.rst:37
+#: ../../source/genericobject/index.rst:36
 msgid "CSV file injection plugin integration;"
 msgstr "začlenění zásuvného modulu pro vložení CSV souboru;"
 
-#: ../../source/genericobject/index.rst:38
+#: ../../source/genericobject/index.rst:37
 msgid "Item uninstallation plugin integration;"
 msgstr "Začlenění zásuvného modulu odinstalace položky;"
 
-#: ../../source/genericobject/index.rst:39
+#: ../../source/genericobject/index.rst:38
 msgid "order management plugin integration."
 msgstr "začlenění zásuvného modulu Správa objednávek."
 
-#: ../../source/genericobject/index.rst:42
+#: ../../source/genericobject/index.rst:41
 msgid "Example of usage"
 msgstr "Příklad použití"
 
-#: ../../source/genericobject/index.rst:44
+#: ../../source/genericobject/index.rst:43
 msgid "**Objective:** Manage your car fleet like the rest of your IT Assets."
 msgstr "**Cíl:** Spravovat vozový park podobně jako vaše počítačové vybavení."
 
-#: ../../source/genericobject/index.rst:46
+#: ../../source/genericobject/index.rst:45
 msgid "Create a new type of inventory object *car*."
 msgstr "Vytvořte nový typ objektu inventáře *auto*."
 
-#: ../../source/genericobject/index.rst:47
+#: ../../source/genericobject/index.rst:46
 msgid ""
 "Add the accurate fields for a *car*, like: *name*, *serial number*, "
 "*inventory number*, *type*, *model*, *color*, *state*, etc."
@@ -144,7 +145,7 @@ msgstr ""
 "Přidejte přesné kolonky pro *automobil* jako: *název*, *WIN kód*, "
 "*inventární číslo*, *typ*, *model*, *barva*, *stav*, atp."
 
-#: ../../source/genericobject/index.rst:48
+#: ../../source/genericobject/index.rst:47
 msgid ""
 "Describe the behaviour of a *car*: visible in subentity, retain history, "
 "etc."
@@ -152,85 +153,85 @@ msgstr ""
 "Popište chování *automobilu*: viditelnost v dílčí položce, uchovávání "
 "historie, atp."
 
-#: ../../source/genericobject/index.rst:49
+#: ../../source/genericobject/index.rst:48
 msgid "Adjust the rights on *cars*."
 msgstr "Upravte oprávnění na *automobily*."
 
-#: ../../source/genericobject/index.rst:50
+#: ../../source/genericobject/index.rst:49
 msgid "Activate the *cars* object."
 msgstr "Aktivujte objekt *automobily*."
 
-#: ../../source/genericobject/index.rst:51
+#: ../../source/genericobject/index.rst:50
 msgid "Manage your collection of *cars* in GLPI."
 msgstr "Spravujte svůj vozový park v GLPI."
 
-#: ../../source/genericobject/index.rst:56
+#: ../../source/genericobject/index.rst:55
 msgid "Install the Plugin"
 msgstr "Nainstalovat zásuvný modul"
 
-#: ../../source/genericobject/index.rst:58
+#: ../../source/genericobject/index.rst:57
 msgid "Uncompress the archive."
 msgstr "Rozbalit archiv"
 
-#: ../../source/genericobject/index.rst:59
+#: ../../source/genericobject/index.rst:58
 msgid ""
 "Move the ``genericobject`` directory to the ``<GLPI_ROOT>/plugins`` "
 "directory"
 msgstr "Přesuňte složku ``genericobject`` do složky ``<GLPI_ROOT>/plugins``"
 
-#: ../../source/genericobject/index.rst:60
+#: ../../source/genericobject/index.rst:59
 msgid "Navigate to the *Configuration > Plugins* page"
 msgstr "Přejděte do *Nastavení > Zásuvné moduly*"
 
-#: ../../source/genericobject/index.rst:61
+#: ../../source/genericobject/index.rst:60
 msgid "Install and activate the plugin"
 msgstr "Nainstalovat a aktivovat zásuvný modul"
 
-#: ../../source/genericobject/index.rst:64
+#: ../../source/genericobject/index.rst:63
 msgid "Usage"
 msgstr "Využití"
 
-#: ../../source/genericobject/index.rst:69
+#: ../../source/genericobject/index.rst:68
 msgid "Create a new object type"
 msgstr "Vytvořit nový typ objektu"
 
-#: ../../source/genericobject/index.rst:71
+#: ../../source/genericobject/index.rst:70
 msgid "This is the first step."
 msgstr "Toto je první krok."
 
-#: ../../source/genericobject/index.rst:73
+#: ../../source/genericobject/index.rst:72
 msgid "Click on the *+* button in  the plugin configuration form."
 msgstr "Klikněte na tlačítko *+* ve formuláři nastavení zásuvného modulu."
 
-#: ../../source/genericobject/index.rst:74
+#: ../../source/genericobject/index.rst:73
 msgid "Create the new type of inventory object:"
 msgstr "Vytvořte nový typ objektu inventáře:"
 
-#: ../../source/genericobject/index.rst:76
+#: ../../source/genericobject/index.rst:75
 msgid "*name*: mandatory, lowercase, and must be composed of letters only;"
 msgstr "*název*: povinný, malými písmeny – může obsahovat pouze písmena;"
 
-#: ../../source/genericobject/index.rst:77
+#: ../../source/genericobject/index.rst:76
 msgid "*label*: by default, the same as the name."
 msgstr "*štítek*: ve výchozím stavu je stejné jako název."
 
-#: ../../source/genericobject/index.rst:79
+#: ../../source/genericobject/index.rst:78
 msgid "Validate."
 msgstr "Ověřit"
 
-#: ../../source/genericobject/index.rst:80
+#: ../../source/genericobject/index.rst:79
 msgid "Activate the new item type to use it."
 msgstr "Aby ji bylo možné použít, novou položku aktivujte."
 
-#: ../../source/genericobject/index.rst:82
+#: ../../source/genericobject/index.rst:81
 msgid "**Example:** Create a new type of inventory object *car*."
 msgstr "**Příklad:** Vytvořte nový typ objektu *auto*."
 
-#: ../../source/genericobject/index.rst:87
+#: ../../source/genericobject/index.rst:86
 msgid "Edit labels"
 msgstr "Upravit označení"
 
-#: ../../source/genericobject/index.rst:89
+#: ../../source/genericobject/index.rst:88
 msgid ""
 "For each type, a language file is available in "
 "``<GLPI_ROOT>/files/_plugins/genericobject/locales/itemtype/``"
@@ -238,42 +239,44 @@ msgstr ""
 "Pro každý typ je k dispozici jazykový soubor v "
 "``<GLPI_ROOT>/files/_plugins/genericobject/locales/itemtype/``"
 
-#: ../../source/genericobject/index.rst:91
+#: ../../source/genericobject/index.rst:90
 msgid "The plugin creates :"
 msgstr "Zásuvný modul vytváří:"
 
-#: ../../source/genericobject/index.rst:93
+#: ../../source/genericobject/index.rst:92
 msgid "a language file for the current language"
 msgstr "jazykový soubor pro stávající jazyk"
 
-#: ../../source/genericobject/index.rst:94
+#: ../../source/genericobject/index.rst:93
 msgid "a language file for the default GLPI language"
 msgstr "jazykový soubor pro výchozí jazyk GLPI"
 
-#: ../../source/genericobject/index.rst:98
+#: ../../source/genericobject/index.rst:97
 msgid ""
 "If the current and default languages are the same, only one file is created."
 msgstr ""
 "Pokud stávající a výchozí jazyk jsou stejné, je vytvořen pouze jeden soubor."
 
-#: ../../source/genericobject/index.rst:100
+#: ../../source/genericobject/index.rst:99
 msgid ""
 "To change the label of the itemtype, for the english language, edit the "
 "file:"
 msgstr "Pro změnu označení typu položky, pro český jazyk, upravte soubor:"
 
-#: ../../source/genericobject/index.rst:108
+#: ../../source/genericobject/index.rst:107
 msgid ""
 "You can also define labels globally in "
 "``<GLPI_ROOT>/files/_plugins/genericobject/locales/fields.<lang>.php`` "
 "files:"
 msgstr ""
+"Můžete také definovat štítky globálně v souborech "
+"``<GLPI_ROOT>/files/_plugins/genericobject/locales/fields.<lang>.php``:"
 
-#: ../../source/genericobject/index.rst:117
+#: ../../source/genericobject/index.rst:116
 msgid "Setup behaviour"
 msgstr "Nastavení chování"
 
-#: ../../source/genericobject/index.rst:119
+#: ../../source/genericobject/index.rst:118
 msgid ""
 "**Example:** Describe the behaviour of a *car*: visible in subentity, retain"
 " history, etc."
@@ -281,7 +284,7 @@ msgstr ""
 "**Příklad:** Popište chování *automobilu*: viditelné v dílčí položce, "
 "uchovávat historii, etc."
 
-#: ../../source/genericobject/index.rst:121
+#: ../../source/genericobject/index.rst:120
 msgid ""
 "The new type will be managed the same way as the usual GLPI types (computer,"
 " monitor, network device, etc.)"
@@ -289,59 +292,59 @@ msgstr ""
 "Nový typ bude spravován stejným způsobem jako obvyklé GLPI typy (počítač, "
 "monitor, síťové zařízení, atd.)"
 
-#: ../../source/genericobject/index.rst:125
+#: ../../source/genericobject/index.rst:124
 msgid "All objects are at least assigned to an *entity*"
 msgstr "Všechny objekty jsou přinejmenším přiřazeny k *entitě*"
 
-#: ../../source/genericobject/index.rst:127
+#: ../../source/genericobject/index.rst:126
 msgid "The Behaviour tab allows you to define:"
 msgstr "Karta Chování umožňuje určit:"
 
-#: ../../source/genericobject/index.rst:129
+#: ../../source/genericobject/index.rst:128
 msgid "*child-entities:* allows the type to be recursive;"
 msgstr "*child-entities:* umožní typu aby byl rekurzivní;"
 
-#: ../../source/genericobject/index.rst:130
+#: ../../source/genericobject/index.rst:129
 msgid "*Helpdesk:* allows an object to be associated to a ticket;"
 msgstr "*Služba podpory:* umožňuje aby objekt byl přiřazen k požadavku;"
 
-#: ../../source/genericobject/index.rst:131
+#: ../../source/genericobject/index.rst:130
 msgid "*Trash:* use GLPI's trash functionnality;"
 msgstr "*Koš:* použít funkci GLPI koš;"
 
-#: ../../source/genericobject/index.rst:132
+#: ../../source/genericobject/index.rst:131
 msgid "*Notes:* use GLPI's note functionnality;"
 msgstr "*Poznámky:* použít funkci GLPI poznámky;"
 
-#: ../../source/genericobject/index.rst:133
+#: ../../source/genericobject/index.rst:132
 msgid "*History:* allow history for this type;"
 msgstr "*Historie:* umožnit historii pro tento typ;"
 
-#: ../../source/genericobject/index.rst:134
+#: ../../source/genericobject/index.rst:133
 msgid "*Templates:* allows template management;"
 msgstr "*Šablony:* umožňuje správu šablon;"
 
-#: ../../source/genericobject/index.rst:135
+#: ../../source/genericobject/index.rst:134
 msgid ""
 "*Documents:* allows documents to be attached to an object of this type;"
 msgstr "*Dokumenty:* umožňuje připojovat dokumenty k objektu tohoto typu;"
 
-#: ../../source/genericobject/index.rst:136
+#: ../../source/genericobject/index.rst:135
 msgid "*Loans:* allows objects to be loaned;"
 msgstr "*Zápůjčky:* umožňuje aby objekty byly zapůjčovány;"
 
-#: ../../source/genericobject/index.rst:137
+#: ../../source/genericobject/index.rst:136
 msgid "*Contracts:* link an object to one or more contracts;"
 msgstr "*Smlouvy:* odkaz na objekt jednoho a více smluv;"
 
-#: ../../source/genericobject/index.rst:138
+#: ../../source/genericobject/index.rst:137
 msgid ""
 "*Network connections:* allow ports to be used and management for this type;"
 msgstr ""
 "*Síťová připojení:* umožní aby pro tento typ byly používány a spravovány "
 "porty;"
 
-#: ../../source/genericobject/index.rst:139
+#: ../../source/genericobject/index.rst:138
 msgid ""
 "*CSV file injection plugin:* allows this type to be available for use in the"
 " plugin;"
@@ -349,21 +352,21 @@ msgstr ""
 "*Zásuvný modul vložení CSV souboru:* umožní aby tento typ byl k dispozici "
 "pro použití v zásuvném modulu;"
 
-#: ../../source/genericobject/index.rst:140
+#: ../../source/genericobject/index.rst:139
 msgid "*Item uninstallation plugin:* allows this type to be uninstalled;"
 msgstr "*Zásuvný modul odebrání položky:* umožní odinstalaci tohoto typu;"
 
-#: ../../source/genericobject/index.rst:141
+#: ../../source/genericobject/index.rst:140
 msgid "*Order management plugin:* allows this type to be linked to an order;"
 msgstr ""
 "*Zásuvný modul pro správu objednávek:* umožní tomuto typu aby byl propojený "
 "s objednávkou;"
 
-#: ../../source/genericobject/index.rst:144
+#: ../../source/genericobject/index.rst:143
 msgid "Add Fields"
 msgstr "Přidat kolonky"
 
-#: ../../source/genericobject/index.rst:146
+#: ../../source/genericobject/index.rst:145
 msgid ""
 "**Example:** Add the accurate fields for a *car*, like: *name*, *serial "
 "number*, *inventory number*, *type*, *model*, *color*, *state*, etc."
@@ -371,138 +374,138 @@ msgstr ""
 "**Příklad:** Přidejte přesné kolonky pro *automobil* jako: *název*, *WIN "
 "kód*, *inventární číslo*, *typ*, *model*, *barva*, *stav*, atd."
 
-#: ../../source/genericobject/index.rst:148
+#: ../../source/genericobject/index.rst:147
 msgid "Navigate to the *Fields* tab."
 msgstr "Přejděte na kartu *Kolonky*."
 
-#: ../../source/genericobject/index.rst:150
+#: ../../source/genericobject/index.rst:149
 msgid "The plugin comes with several ready to use fields:"
 msgstr "Zásuvný modul přichází s několika předpřipravenými kolonkami:"
 
-#: ../../source/genericobject/index.rst:152
+#: ../../source/genericobject/index.rst:151
 msgid "Name"
 msgstr "Název"
 
-#: ../../source/genericobject/index.rst:153
+#: ../../source/genericobject/index.rst:152
 msgid "Type"
 msgstr "Typ"
 
-#: ../../source/genericobject/index.rst:154
+#: ../../source/genericobject/index.rst:153
 msgid "Model"
 msgstr "Model"
 
-#: ../../source/genericobject/index.rst:155
+#: ../../source/genericobject/index.rst:154
 msgid "Serial number"
 msgstr "Sériové číslo"
 
-#: ../../source/genericobject/index.rst:156
+#: ../../source/genericobject/index.rst:155
 msgid "Inventory number"
 msgstr "Inventární číslo"
 
-#: ../../source/genericobject/index.rst:157
+#: ../../source/genericobject/index.rst:156
 msgid "Item's user"
 msgstr "Uživatel položky"
 
-#: ../../source/genericobject/index.rst:158
+#: ../../source/genericobject/index.rst:157
 msgid "Group"
 msgstr "Skupina"
 
-#: ../../source/genericobject/index.rst:159
+#: ../../source/genericobject/index.rst:158
 msgid "Status"
 msgstr "Stav"
 
-#: ../../source/genericobject/index.rst:160
+#: ../../source/genericobject/index.rst:159
 msgid "Comments"
 msgstr "Komentáře"
 
-#: ../../source/genericobject/index.rst:161
+#: ../../source/genericobject/index.rst:160
 msgid "Notes"
 msgstr "Poznámky"
 
-#: ../../source/genericobject/index.rst:162
+#: ../../source/genericobject/index.rst:161
 msgid "Location"
 msgstr "Umístění"
 
-#: ../../source/genericobject/index.rst:163
+#: ../../source/genericobject/index.rst:162
 msgid "Other"
 msgstr "Ostatní"
 
-#: ../../source/genericobject/index.rst:164
+#: ../../source/genericobject/index.rst:163
 msgid "Manufacturer"
 msgstr "Výrobce"
 
-#: ../../source/genericobject/index.rst:165
+#: ../../source/genericobject/index.rst:164
 msgid "URL"
 msgstr "URL adresa"
 
-#: ../../source/genericobject/index.rst:166
+#: ../../source/genericobject/index.rst:165
 msgid "Creation date"
 msgstr "Datum vytvoření"
 
-#: ../../source/genericobject/index.rst:167
+#: ../../source/genericobject/index.rst:166
 msgid "Expiration date"
 msgstr "Datum skončení platnosti"
 
-#: ../../source/genericobject/index.rst:168
+#: ../../source/genericobject/index.rst:167
 msgid "Category"
 msgstr "Kategorie"
 
-#: ../../source/genericobject/index.rst:169
+#: ../../source/genericobject/index.rst:168
 msgid "Visible in Helpdesk"
 msgstr "Viditelné ve službě podpory"
 
-#: ../../source/genericobject/index.rst:170
+#: ../../source/genericobject/index.rst:169
 msgid "Technician in charge of the hardware"
 msgstr "Technik odpovědný za hardware"
 
-#: ../../source/genericobject/index.rst:171
+#: ../../source/genericobject/index.rst:170
 msgid "Domain"
 msgstr "Doména"
 
-#: ../../source/genericobject/index.rst:172
+#: ../../source/genericobject/index.rst:171
 msgid "Contact"
 msgstr "Kontakt"
 
-#: ../../source/genericobject/index.rst:173
+#: ../../source/genericobject/index.rst:172
 msgid "Contact number"
 msgstr "Kontaktní číslo"
 
-#: ../../source/genericobject/index.rst:177
+#: ../../source/genericobject/index.rst:176
 msgid "Using some behaviour will automatically add some fields to the object:"
 msgstr "Použití nějakého chování automaticky přidá objektu některé kolonky:"
 
-#: ../../source/genericobject/index.rst:179
+#: ../../source/genericobject/index.rst:178
 msgid "network connection => location"
 msgstr "síťové připojení => umístění"
 
-#: ../../source/genericobject/index.rst:180
+#: ../../source/genericobject/index.rst:179
 msgid "loans => location"
 msgstr "zápůjčky => umístění"
 
-#: ../../source/genericobject/index.rst:181
+#: ../../source/genericobject/index.rst:180
 msgid "helpdesk => is visible in Helpdesk"
 msgstr "služba podpory => je viditelné ve službě podpory"
 
-#: ../../source/genericobject/index.rst:182
+#: ../../source/genericobject/index.rst:181
 msgid "notes => notepad"
 msgstr "poznámky => poznámkový blok"
 
-#: ../../source/genericobject/index.rst:185
+#: ../../source/genericobject/index.rst:184
 msgid "Helpdesk integration"
 msgstr "Začlenění služby podpory"
 
-#: ../../source/genericobject/index.rst:187
+#: ../../source/genericobject/index.rst:186
 msgid "To use an object in the helpdesk, use following setup:"
 msgstr ""
 "Pro použití objektu ve službě podpory, použijte následující uspořádání:"
 
-#: ../../source/genericobject/index.rst:189
+#: ../../source/genericobject/index.rst:188
 msgid "In *Behaviour* tab : *use helpdesk* must be set to **Yes**."
 msgstr ""
 "V panelu *Chování*: je třeba, aby *použít službu podpory* bylo nastaveno na "
 "**Ano**."
 
-#: ../../source/genericobject/index.rst:190
+#: ../../source/genericobject/index.rst:189
 msgid ""
 "if the *User* field is defined, it allows item to be visible in the *My "
 "Items* list (as item whose owner is the user)."
@@ -510,7 +513,7 @@ msgstr ""
 "pokud je určena kolonka *Uživatel*, umožní to, aby položka byla viditelná v "
 "seznamu *Moje položky* (jako položka jejíž vlastník je uživatel)."
 
-#: ../../source/genericobject/index.rst:191
+#: ../../source/genericobject/index.rst:190
 msgid ""
 "if the *Group* field is defined, it allows item to be visible in the *My "
 "Items* list too (as item belonging to a group in which the user belongs to)."
@@ -519,7 +522,7 @@ msgstr ""
 "seznamu *Moje položky* (protože položka náležející do skupiny do které "
 "náleží uživatel)."
 
-#: ../../source/genericobject/index.rst:192
+#: ../../source/genericobject/index.rst:191
 msgid ""
 "if *Helpdesk visible* field is set and if the value is set to **No** in the "
 "object, then the object won't be visible at all in the helpdesk."
@@ -527,15 +530,15 @@ msgstr ""
 "pokud je v objektu kolonka *Služba podpory viditelná* nastavená a pokud je "
 "její hodnota **Ne**, pak objekt nebude vůbec viditelný ve službě podpory."
 
-#: ../../source/genericobject/index.rst:195
+#: ../../source/genericobject/index.rst:194
 msgid "Add new fields"
 msgstr "Přidat nové kolonky"
 
-#: ../../source/genericobject/index.rst:199
+#: ../../source/genericobject/index.rst:198
 msgid "New fields will be available for all object's types."
 msgstr "Nové kolonky budou dostupné pro objekty všech typů."
 
-#: ../../source/genericobject/index.rst:201
+#: ../../source/genericobject/index.rst:200
 msgid ""
 "Create a new file named "
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/<type>.constant.php``"
@@ -543,7 +546,7 @@ msgstr ""
 "Vytvořte nový soubor nazvaný "
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/<type>.constant.php``"
 
-#: ../../source/genericobject/index.rst:203
+#: ../../source/genericobject/index.rst:202
 msgid ""
 "For example, for a *car* type the constant file will be "
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/car.constant.php``."
@@ -551,7 +554,7 @@ msgstr ""
 "Například, pro typ *auto* soubor konstanty bude "
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/car.constant.php``."
 
-#: ../../source/genericobject/index.rst:205
+#: ../../source/genericobject/index.rst:204
 msgid ""
 "Please note that the file's first line must be the following, otherwise the "
 "new fields won't appear in the list:"
@@ -559,15 +562,15 @@ msgstr ""
 "Mějte na paměti, že je třeba, aby první řádek souboru byl následující, jinak"
 " se nové kolonky neobjeví v seznamu:"
 
-#: ../../source/genericobject/index.rst:212
+#: ../../source/genericobject/index.rst:211
 msgid "Add the new fields definitions."
 msgstr "Přidat definice nových kolonek."
 
-#: ../../source/genericobject/index.rst:215
+#: ../../source/genericobject/index.rst:214
 msgid "Add a simple dropdown field"
 msgstr "Přidat kolonku jednoduchého rozbalovacího seznamu"
 
-#: ../../source/genericobject/index.rst:226
+#: ../../source/genericobject/index.rst:225
 msgid ""
 "The language variable must be defined in the language file (see explaination"
 " above)."
@@ -575,15 +578,15 @@ msgstr ""
 "V souboru s jazykovými daty je třeba určit proměnnou pro jazyk (viz "
 "vysvětlení výše)."
 
-#: ../../source/genericobject/index.rst:228
+#: ../../source/genericobject/index.rst:227
 msgid "Add a dropdown field that is assigned to an entity:"
 msgstr "Přidat kolonku rozbalovací nabídky která je přiřazená k entitě:"
 
-#: ../../source/genericobject/index.rst:242
+#: ../../source/genericobject/index.rst:241
 msgid "Add a tree dropdown field"
 msgstr "Přidat kolonku stromové rozbalovací nabídky"
 
-#: ../../source/genericobject/index.rst:255
+#: ../../source/genericobject/index.rst:254
 msgid ""
 "You can use at the same time the following parameters : *entities_id*, "
 "*is_recursive*, *is_tree*."
@@ -591,14 +594,14 @@ msgstr ""
 "Ve stejnou chvíli je možné použít následující parametry: *entities_id*, "
 "*is_recursive*, *is_tree*."
 
-#: ../../source/genericobject/index.rst:258
+#: ../../source/genericobject/index.rst:257
 msgid ""
 "Add a dropdown field that is based on a GLPI-core object (user, location...)"
 msgstr ""
 "Přidat rozbalovací kolonku která je založena na objektu GLPI samotného "
 "(uživatel, umístění…)"
 
-#: ../../source/genericobject/index.rst:268
+#: ../../source/genericobject/index.rst:267
 msgid ""
 "Name between brackets (``[]``) **MUST** begin with ``users_id`` in order to "
 "be recognized as a field based on GLPI users' list."
@@ -607,7 +610,7 @@ msgstr ""
 "**NUTNÉ**, aby jméno mezi hranatými závorkami (``[]``) začínalo na "
 "``users_id`."
 
-#: ../../source/genericobject/index.rst:270
+#: ../../source/genericobject/index.rst:269
 msgid ""
 "See file "
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/field.constant.php`` to "
@@ -617,18 +620,18 @@ msgstr ""
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/field.constant.php`` s "
 "úplným seznamem kolonek, které jsou k dispozici."
 
-#: ../../source/genericobject/index.rst:273
+#: ../../source/genericobject/index.rst:272
 msgid "Add a global dropdown"
 msgstr "Přidat globální rozbalovací nabídku"
 
-#: ../../source/genericobject/index.rst:275
+#: ../../source/genericobject/index.rst:274
 msgid ""
 "A global dropdown can be used in all itemtypes. A good example would be :"
 msgstr ""
 "Globální rozbalovací nabídku je možné použít ve všech typech položek. Dobrý "
 "příklad by byl:"
 
-#: ../../source/genericobject/index.rst:284
+#: ../../source/genericobject/index.rst:283
 msgid ""
 "A specific category table will be created for each itemtype. The table name "
 "and field name will the computed this way:"
@@ -636,23 +639,23 @@ msgstr ""
 "Pro každý typ položky bude vytvořena zvlášť tabulka kategorie. Název tabulky"
 " a kolonky bude vytvořena takto:"
 
-#: ../../source/genericobject/index.rst:286
+#: ../../source/genericobject/index.rst:285
 msgid "table : ``glpi_plugin_genericobject_<itemtypename>_category``"
 msgstr "tabulka: ``glpi_plugin_genericobject_<itemtypename>_category``"
 
-#: ../../source/genericobject/index.rst:287
+#: ../../source/genericobject/index.rst:286
 msgid "field name : ``plugin_genericobject_<itemtype>categories_id``"
 msgstr "název kolonky: ``plugin_genericobject_<itemtype>categories_id``"
 
-#: ../../source/genericobject/index.rst:290
+#: ../../source/genericobject/index.rst:289
 msgid "Add an integer field"
 msgstr "Přidat celočíselnou kolonku"
 
-#: ../../source/genericobject/index.rst:302
+#: ../../source/genericobject/index.rst:301
 msgid "Add a text field"
 msgstr "Přidat textovou kolonku"
 
-#: ../../source/genericobject/index.rst:312
+#: ../../source/genericobject/index.rst:311
 msgid ""
 "By adding the following argument, you can tell the plugin that this field "
 "can be automatically generated when using a template:"
@@ -660,19 +663,19 @@ msgstr ""
 "Přidáním následujícího argumentu je možné zásuvnému modulu sdělit, že tato "
 "kolonka může být vytvořena automaticky při použití šablony:"
 
-#: ../../source/genericobject/index.rst:320
+#: ../../source/genericobject/index.rst:319
 msgid "Add a Yes/No field"
 msgstr "Přidat kolonku Ano/Ne"
 
-#: ../../source/genericobject/index.rst:329
+#: ../../source/genericobject/index.rst:328
 msgid "Add a date field"
 msgstr "Přidat datumovou kolonku"
 
-#: ../../source/genericobject/index.rst:338
+#: ../../source/genericobject/index.rst:337
 msgid "Add a date & time field"
 msgstr "Přidat kolonku datum a čas"
 
-#: ../../source/genericobject/index.rst:348
+#: ../../source/genericobject/index.rst:347
 msgid ""
 "If you don't want a field to be modified using massive actions, add the "
 "following line to its definition:"
@@ -680,15 +683,15 @@ msgstr ""
 "Pokud nechcete aby byla kolonka upravena hromadnými akcemi, přidejte do její"
 " definice následující řádek:"
 
-#: ../../source/genericobject/index.rst:356
+#: ../../source/genericobject/index.rst:355
 msgid "Add global fields"
 msgstr "Přidat globální kolonky"
 
-#: ../../source/genericobject/index.rst:358
+#: ../../source/genericobject/index.rst:357
 msgid "To make your fields accessible to all itemtypes:"
 msgstr "Pro zpřístupnění vašich kolonek všem položkám všech typů:"
 
-#: ../../source/genericobject/index.rst:360
+#: ../../source/genericobject/index.rst:359
 msgid ""
 "Create a file named "
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/field.constant.php``"
@@ -696,15 +699,15 @@ msgstr ""
 "Vytvořte soubor nazvaný "
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/field.constant.php``"
 
-#: ../../source/genericobject/index.rst:361
+#: ../../source/genericobject/index.rst:360
 msgid "Put your definitions in this file."
 msgstr "Umístěte své definice do tohoto souboru."
 
-#: ../../source/genericobject/index.rst:364
+#: ../../source/genericobject/index.rst:363
 msgid "Setup Rights"
 msgstr "Nastavit oprávnění"
 
-#: ../../source/genericobject/index.rst:366
+#: ../../source/genericobject/index.rst:365
 msgid ""
 "You can define access rights for each object's type, for each profile. "
 "Available options are:"
@@ -712,37 +715,37 @@ msgstr ""
 "Je možné určit přístupová práva pro každý z typů objektu, pro každý profil. "
 "Dostupné možnosti jsou:"
 
-#: ../../source/genericobject/index.rst:368
+#: ../../source/genericobject/index.rst:367
 msgid "*right on the type*: *no access*, *read*, *write*."
 msgstr "*právo na typu*: *žádný přístup*, *čtení*, *zápis*."
 
-#: ../../source/genericobject/index.rst:369
+#: ../../source/genericobject/index.rst:368
 msgid "*right to associate this type of object to tickets*: *yes*, *no*."
 msgstr "*právo přiřadit tento typ objektu k požadavku*: *ano*, *ne*."
 
-#: ../../source/genericobject/index.rst:371
+#: ../../source/genericobject/index.rst:370
 msgid "To associate the rights you can either:"
 msgstr "Pro přiřazení oprávnění je možné buď:"
 
-#: ../../source/genericobject/index.rst:373
+#: ../../source/genericobject/index.rst:372
 msgid "Use the *Rights* tab in the *itemtype* form."
 msgstr "Použijte panel *Práva* ve formuláři *typ položky*."
 
-#: ../../source/genericobject/index.rst:374
+#: ../../source/genericobject/index.rst:373
 msgid ""
 "Navigate to *Administration > Profiles* and administer the rights for each "
 "profile."
 msgstr "Přejděte do *Správa > Profily* a spravujte práva pro každý z profilů."
 
-#: ../../source/genericobject/index.rst:377
+#: ../../source/genericobject/index.rst:376
 msgid "Use the new field"
 msgstr "Použít novou kolonku"
 
-#: ../../source/genericobject/index.rst:379
+#: ../../source/genericobject/index.rst:378
 msgid "Activate the new type, it's now ready to be used."
 msgstr "Aktivujte nový typ, nyní je připraven k použití."
 
-#: ../../source/genericobject/index.rst:381
+#: ../../source/genericobject/index.rst:380
 msgid ""
 "The new type is available for users in the *Plugins > Objects management* "
 "menu."
@@ -750,15 +753,15 @@ msgstr ""
 "Nový typ je uživatelů k dispozici v nabídce *Zásuvné moduly > Správa "
 "objektů*."
 
-#: ../../source/genericobject/index.rst:384
+#: ../../source/genericobject/index.rst:383
 msgid "Use case of Generic Object as a CMMS"
 msgstr "Použít velikost generického objektu jako CMMS"
 
-#: ../../source/genericobject/index.rst:387
+#: ../../source/genericobject/index.rst:386
 msgid "Purpose of this documentation"
 msgstr "Účel této dokumentace"
 
-#: ../../source/genericobject/index.rst:389
+#: ../../source/genericobject/index.rst:388
 msgid ""
 "Showing a complete usage of Generic Object as a CMMS (Computerized "
 "Maintenance Management System) in biomedical environment."
@@ -766,37 +769,37 @@ msgstr ""
 "Zobrazuje se úplné použití Obecného objektu jako CMMS (počítačem podporovaná"
 " správa údržby) v biomedicínském prostředí."
 
-#: ../../source/genericobject/index.rst:392
+#: ../../source/genericobject/index.rst:391
 msgid "At the end of this use case, you will have :"
 msgstr "Na konci tohoto příkladu využití budete mít:"
 
-#: ../../source/genericobject/index.rst:394
+#: ../../source/genericobject/index.rst:393
 msgid "a dedicated *Biomed* entity (under *Root entity*)"
 msgstr "vyhrazenou entitu *Biomed* (pod *Kořenová entita*)"
 
-#: ../../source/genericobject/index.rst:395
+#: ../../source/genericobject/index.rst:394
 msgid "containing *Biomedical* objects (in *Assets* menu)"
 msgstr "obsahující *Biomedicínské* objekty (v nabídce *Majetky*)"
 
-#: ../../source/genericobject/index.rst:396
+#: ../../source/genericobject/index.rst:395
 msgid "with built-in and user-defined fields"
 msgstr "s vestavěnými a uživatelsky určenými kolonkami"
 
-#: ../../source/genericobject/index.rst:397
+#: ../../source/genericobject/index.rst:396
 msgid "manages by users with *Admin_biomed* profile"
 msgstr "spravuje uživatele s profile *Spravce_biomed*"
 
-#: ../../source/genericobject/index.rst:400
+#: ../../source/genericobject/index.rst:399
 msgid "Steps"
 msgstr "Kroky"
 
-#: ../../source/genericobject/index.rst:402
+#: ../../source/genericobject/index.rst:401
 msgid "Following steps assume you have a Super-Admin authorization :"
 msgstr ""
 "Následující kroky předpokládají, že máte práva hlavního správce (Super-"
 "Admin):"
 
-#: ../../source/genericobject/index.rst:404
+#: ../../source/genericobject/index.rst:403
 msgid ""
 "Installing Generic Object on GLPI (validated with genericobject >= 0.85-1.0 "
 "and GLPI >= 0.90)"
@@ -804,34 +807,34 @@ msgstr ""
 "Instaluje se Obecný objekt on GLPI (ověřeno s genericobject >= 0.85-1.0 a "
 "GLPI >= 0.90)"
 
-#: ../../source/genericobject/index.rst:405
-#: ../../source/genericobject/index.rst:415
+#: ../../source/genericobject/index.rst:404
+#: ../../source/genericobject/index.rst:414
 msgid "Generic Object configuration"
 msgstr "Nastavení obecného objektu"
 
-#: ../../source/genericobject/index.rst:406
-#: ../../source/genericobject/index.rst:541
+#: ../../source/genericobject/index.rst:405
+#: ../../source/genericobject/index.rst:540
 msgid "GLPI configuration"
 msgstr "Nastavení GLPI"
 
-#: ../../source/genericobject/index.rst:407
-#: ../../source/genericobject/index.rst:566
+#: ../../source/genericobject/index.rst:406
+#: ../../source/genericobject/index.rst:565
 msgid "Start using Generic Object and GLPI"
 msgstr "Začít používat obecný objekt a GLPI"
 
-#: ../../source/genericobject/index.rst:410
+#: ../../source/genericobject/index.rst:409
 msgid "Installing Generic Object on GLPI"
 msgstr "Instalace obecného objektu do GLPI"
 
-#: ../../source/genericobject/index.rst:412
+#: ../../source/genericobject/index.rst:411
 msgid "See :ref:`install_plugin` section."
 msgstr "Viz sekce :ref:`install_plugin`."
 
-#: ../../source/genericobject/index.rst:418
+#: ../../source/genericobject/index.rst:417
 msgid "Create your type of object"
 msgstr "Vytvořte typ objektu"
 
-#: ../../source/genericobject/index.rst:420
+#: ../../source/genericobject/index.rst:419
 msgid ""
 "See :ref:`create_new_object` section and use *biomedical* as internal "
 "identifier. Label will be set automatically to *Biomedical* (with an "
@@ -841,19 +844,19 @@ msgstr ""
 "identifikátor. Štítek bude automaticky nastaven na *Biomedicínské* (S velkým"
 " písmenem *B*)."
 
-#: ../../source/genericobject/index.rst:423
+#: ../../source/genericobject/index.rst:422
 msgid "After a logoff/login, you will see *Biomedical* menu in Assets."
 msgstr "Po odhlášení/přihlášení, v Majetku uvidíte nabídku *Biomedicínské*."
 
-#: ../../source/genericobject/index.rst:428
+#: ../../source/genericobject/index.rst:427
 msgid "Define Biomedical's new fields"
 msgstr "Určit nové kolonky biomedicínského"
 
-#: ../../source/genericobject/index.rst:430
+#: ../../source/genericobject/index.rst:429
 msgid "These fields will be usable only by Biomedical's objects :"
 msgstr "Tyto kolonky budou použitelné pouze v biomedicínských objektech:"
 
-#: ../../source/genericobject/index.rst:432
+#: ../../source/genericobject/index.rst:431
 msgid ""
 "Create a new file named : "
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/biomedical.constant.php``"
@@ -861,11 +864,11 @@ msgstr ""
 "Vytvořte nový soubor nazvaný: "
 "``<GLPI_ROOT>/files/_plugins/genericobject/fields/biomedical.constant.php``"
 
-#: ../../source/genericobject/index.rst:433
+#: ../../source/genericobject/index.rst:432
 msgid "Add following content :"
 msgstr "Přidejte následující obsah:"
 
-#: ../../source/genericobject/index.rst:487
+#: ../../source/genericobject/index.rst:486
 msgid ""
 "Trailing ``s_id`` is mandatory in ``[plugin_genericobject_field*s_id*]`` "
 "because the GLPI framework requires foreign key fields to end with ``s_id``."
@@ -880,15 +883,15 @@ msgstr ""
 "developer-"
 "documentation.readthedocs.io/en/master/devapi/database/dbmodel.html#fields>`_."
 
-#: ../../source/genericobject/index.rst:493
+#: ../../source/genericobject/index.rst:492
 msgid "Define fields labels"
 msgstr "Definovat štítky kolonek"
 
-#: ../../source/genericobject/index.rst:495
+#: ../../source/genericobject/index.rst:494
 msgid "See :ref:`edit_labels` section."
 msgstr "Viz sekce :ref:`edit_labels`."
 
-#: ../../source/genericobject/index.rst:497
+#: ../../source/genericobject/index.rst:496
 msgid ""
 "Edit your locales file, for example : "
 "``<GLPI_ROOT>/files/_plugins/genericobject/locales/biomedical/biomedical.fr_FR.php``"
@@ -896,61 +899,61 @@ msgstr ""
 "Upravte svůj soubor s místními a jazykovými nastaveními, například: "
 "``<GLPI_ROOT>/files/_plugins/genericobject/locales/biomedical/biomedical.cs_CZ.php``"
 
-#: ../../source/genericobject/index.rst:498
+#: ../../source/genericobject/index.rst:497
 msgid "Add following content at the end of file :"
 msgstr "Na konec souboru přidejte následující obsah:"
 
-#: ../../source/genericobject/index.rst:515
+#: ../../source/genericobject/index.rst:514
 msgid "Define behaviours"
 msgstr "Určit chování"
 
-#: ../../source/genericobject/index.rst:517
+#: ../../source/genericobject/index.rst:516
 msgid "In *Plugins > Objects management* menu, on *Main* tab, select :"
 msgstr ""
 "V nabídce *Zásuvné moduly > Správa objektů*, na panelu *Hlavní*, vyberte:"
 
-#: ../../source/genericobject/index.rst:519
+#: ../../source/genericobject/index.rst:518
 msgid "*Item in the dustbin*"
 msgstr "*Položky v koši*"
 
-#: ../../source/genericobject/index.rst:520
+#: ../../source/genericobject/index.rst:519
 msgid "*Historical*"
 msgstr "*Historické*"
 
-#: ../../source/genericobject/index.rst:521
+#: ../../source/genericobject/index.rst:520
 msgid "*Financial and administratives information*"
 msgstr "*Finanční a správní informace*"
 
-#: ../../source/genericobject/index.rst:522
+#: ../../source/genericobject/index.rst:521
 msgid "*Documents*"
 msgstr "*Dokumenty*"
 
-#: ../../source/genericobject/index.rst:523
-#: ../../source/genericobject/index.rst:527
+#: ../../source/genericobject/index.rst:522
+#: ../../source/genericobject/index.rst:526
 msgid "*Global search*"
 msgstr "*Globální hledání*"
 
-#: ../../source/genericobject/index.rst:524
+#: ../../source/genericobject/index.rst:523
 msgid "*Assistance*"
 msgstr "*Asistence*"
 
-#: ../../source/genericobject/index.rst:525
+#: ../../source/genericobject/index.rst:524
 msgid "*Templates*"
 msgstr "*Šablony*"
 
-#: ../../source/genericobject/index.rst:526
+#: ../../source/genericobject/index.rst:525
 msgid "*Contracts*"
 msgstr "*Smlouvy*"
 
-#: ../../source/genericobject/index.rst:529
+#: ../../source/genericobject/index.rst:528
 msgid "This will add ready to use fields to your type of object."
 msgstr "Toto přidá předpřipravené kolonky do vašeho typu objektu."
 
-#: ../../source/genericobject/index.rst:532
+#: ../../source/genericobject/index.rst:531
 msgid "Add fields to your type of object"
 msgstr "Přidat kolonky do svého typu objektu"
 
-#: ../../source/genericobject/index.rst:534
+#: ../../source/genericobject/index.rst:533
 msgid ""
 "In *Plugins > Objects management* menu, on *Fields* tab, you can now add "
 "fields to Biomedical type of object :"
@@ -958,32 +961,32 @@ msgstr ""
 "V nabídce *Zásuvné moduly > Správa objektů*, na panelu *Kolonky*, je možné "
 "přidat kolonky k typu objektu Biomedicínské:"
 
-#: ../../source/genericobject/index.rst:537
+#: ../../source/genericobject/index.rst:536
 msgid "ready to use fields (GLPI's built-in fields)"
 msgstr "předpřipravené kolonky (kolonky vestavěné v GLPI)"
 
-#: ../../source/genericobject/index.rst:538
+#: ../../source/genericobject/index.rst:537
 msgid "new fields (defined in :ref:`biomedical_new_fields` section)"
 msgstr "nové kolonky (určené v sekci :ref:`biomedical_new_fields`;)"
 
-#: ../../source/genericobject/index.rst:544
+#: ../../source/genericobject/index.rst:543
 msgid "Define Admin_biomed profile"
 msgstr "Určete profil Spravce_biomedicinskeho"
 
-#: ../../source/genericobject/index.rst:546
+#: ../../source/genericobject/index.rst:545
 msgid "Clone *Admin* profile"
 msgstr "Klonovat profil *Správce* "
 
-#: ../../source/genericobject/index.rst:547
+#: ../../source/genericobject/index.rst:546
 msgid "Set following rights in *Admin_biomed* profile :"
 msgstr "V profilu *Spravce_biomedicinskeho* nastavte následující práva:"
 
-#: ../../source/genericobject/index.rst:549
+#: ../../source/genericobject/index.rst:548
 msgid "*Administration > Profiles > Admin_biomed > Assets tab > Unselect all*"
 msgstr ""
 "*Správa > Profilů > Spravce_biomedicínského > panel Majetky > Odznačit vše*"
 
-#: ../../source/genericobject/index.rst:550
+#: ../../source/genericobject/index.rst:549
 msgid ""
 "*Administration > Profiles > Admin_biomed > Assistance tab > Association > "
 "Associable items to a ticket > Biomedical*"
@@ -991,13 +994,13 @@ msgstr ""
 "*Správa > Profilů > Spravce_biomedicínského > panel Asistence > Přiřazení > "
 "Položky přiřaditelné k požadavku > Biomedical*"
 
-#: ../../source/genericobject/index.rst:551
+#: ../../source/genericobject/index.rst:550
 msgid ""
 "*Administration > Profiles > Admin_biomed > Management tab > Select all*"
 msgstr ""
 "*Správa > Profilů > Spravce_biomedicínského > Panel správa > Vybrat vše*"
 
-#: ../../source/genericobject/index.rst:552
+#: ../../source/genericobject/index.rst:551
 msgid ""
 "*Administration > Profiles > Admin_biomed > Objects management tab > "
 "Biomedical > Select all*"
@@ -1005,7 +1008,7 @@ msgstr ""
 "*Správa > Profily > Admin_biomed > Panel správa objektů > Biomedicínsko > "
 "Vybrat vše*"
 
-#: ../../source/genericobject/index.rst:556
+#: ../../source/genericobject/index.rst:555
 msgid ""
 "With these settings, *Admin_biomed* users only see *Biomedical* in Assets "
 "menu."
@@ -1013,17 +1016,17 @@ msgstr ""
 "S těmito nastaveními, uživatelé z *Admin_biomed* vidí v nabídce Majetky "
 "pouze *Biomedicínské*."
 
-#: ../../source/genericobject/index.rst:559
+#: ../../source/genericobject/index.rst:558
 msgid "Define Biomed entity and authorizations rules"
 msgstr "Určit entitu Biomed a ověřovací pravidla"
 
-#: ../../source/genericobject/index.rst:561
+#: ../../source/genericobject/index.rst:560
 msgid ""
 "Create *Biomed* entity under *Root entity* in *Administration > Entities*"
 msgstr ""
 "Vytvořte entitu *Biomedicínské* pod *Kořenová entita* v *Správa > Entity*"
 
-#: ../../source/genericobject/index.rst:562
+#: ../../source/genericobject/index.rst:561
 msgid ""
 "Configure authorizations rules to assign *Admin_biomed* profile to *Biomed* "
 "entity users."
@@ -1031,7 +1034,7 @@ msgstr ""
 "Nastavit pravidla ověřování pro přiřazení *Admin_biomed* profilu k entity "
 "*Biomedicínské* uživatelů."
 
-#: ../../source/genericobject/index.rst:568
+#: ../../source/genericobject/index.rst:567
 msgid ""
 "As *Admin_biomed* user, you can create your first object in *Assets > "
 "Biomedical*."
@@ -1039,7 +1042,7 @@ msgstr ""
 "Jako *Admin_biomed* uživatel, můžete vytvořit svůj první objekt v *Majetky >"
 " Biomedicínské*."
 
-#: ../../source/genericobject/index.rst:570
+#: ../../source/genericobject/index.rst:569
 msgid ""
 "In order to gain time, define values in *Setup > Dropdowns > Objects "
 "management* for new fields."
@@ -1047,15 +1050,18 @@ msgstr ""
 "Pro získání času, zadejte hodnoty v *Nastavení > Rozbalovací nabídky > "
 "Správa objektů pro nové kolonky*"
 
-#: ../../source/genericobject/index.rst:573
+#: ../../source/genericobject/index.rst:572
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
-#: ../../source/genericobject/index.rst:575
+#: ../../source/genericobject/index.rst:574
 msgid ""
 "If you have any questions about using the plugin, please consult `our FAQ "
 "<https://faq.teclib.com/04_Plugins/Generic_objects/>`_"
 msgstr ""
+"Máte-li jakékoli dotazy týkající se používání zásuvného modulu, přečtěte si "
+"prosím `naše časté dotazy "
+"<https://faq.teclib.com/04_Plugins/Generic_objects/>`_"
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
@@ -1063,4 +1069,4 @@ msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Licence Creative Commons"

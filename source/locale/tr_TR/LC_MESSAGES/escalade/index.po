@@ -1,19 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Kaya Zeren <kayazeren@gmail.com>, 2021
+# Kaya Zeren <kayazeren@gmail.com>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2020-01-21 14:02+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2021\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,65 +27,66 @@ msgstr "Düzey yükseltme"
 
 #: ../../source/escalade/index.rst:7
 msgid "Download"
-msgstr ""
+msgstr "İndir"
 
 #: ../../source/escalade/index.rst:8
 msgid "Sources"
-msgstr ""
+msgstr "Kaynaklar"
 
 #: ../../source/escalade/index.rst:9
 msgid "`<https://github.com/pluginsGLPI/escalade/releases>`_"
-msgstr ""
+msgstr "`<https://github.com/pluginsGLPI/escalade/releases>`_"
 
 #: ../../source/escalade/index.rst:10
 msgid "`<https://github.com/pluginsGLPI/escalade>`_"
-msgstr ""
+msgstr "`<https://github.com/pluginsGLPI/escalade>`_"
 
 #: ../../source/escalade/index.rst:13
 msgid "Requirements (on-premise)"
-msgstr ""
+msgstr "Gereksinimler (özel kurulum)"
 
 #: ../../source/escalade/index.rst:16
 msgid "GLPI Version"
-msgstr ""
+msgstr "GLPI sürümü"
 
 #: ../../source/escalade/index.rst:16
 msgid "Minimum PHP"
-msgstr ""
+msgstr "En düşük PHP sürümü"
 
 #: ../../source/escalade/index.rst:16
 msgid "Recommended"
-msgstr ""
+msgstr "Önerilen"
 
 #: ../../source/escalade/index.rst:18
 msgid "10.0.x"
-msgstr ""
+msgstr "10.0.x"
 
 #: ../../source/escalade/index.rst:18
 msgid "8.1"
-msgstr ""
+msgstr "8.1"
 
 #: ../../source/escalade/index.rst:18
 msgid "8.2"
-msgstr ""
+msgstr "8.2"
 
-#: ../../source/escalade/index.rst:22
+#: ../../source/include/no_subscription.rst:2
 msgid ""
-"This plugin is available without a GLPI-Network subscription. It is also "
-"available in `Cloud <https://glpi-network.cloud/>`_"
+"This plugin is available without a `GLPI Network <https://services.glpi-"
+"network.com/#offers>`_ subscription. It is also available on `GLPI Cloud "
+"<https://glpi-network.cloud>`_."
 msgstr ""
 
 #: ../../source/escalade/index.rst:25
 msgid "Install the plugin"
-msgstr ""
+msgstr "Eklentiyi kurmak"
 
 #: ../../source/escalade/index.rst:27
 msgid "Go to the marketplace. Download and install the plugin **Escalade**."
-msgstr ""
+msgstr "Mağazaya gidin. **Üste aktar** eklentisini indirip kurun."
 
 #: ../../source/escalade/index.rst:35
 msgid "Assign a ticket"
-msgstr ""
+msgstr "Bir destek kaydı ekleyin"
 
 #: ../../source/escalade/index.rst:38
 msgid ""
@@ -93,105 +94,126 @@ msgid ""
 "allocate tickets or escalations. This allows you to manage more flexibly "
 "when changing category, urgency, etc."
 msgstr ""
+"Üste aktarma ile iş kurallarını karşılaştırırsak, destek kayıtlarını veya "
+"üste aktarmaları atamak için **İş kuralları** kullanmanızı öneririz. "
+"Böylece, kategori ve önem düzeyi gibi değişiklikleri daha esnek bir şekilde "
+"yönetebilirsiniz."
 
 #: ../../source/escalade/index.rst:42
 msgid ""
 "**Escalade** allows tickets **to be escalated only to groups**, and not to "
 "live users."
 msgstr ""
+"**Üste aktar**, destek kayıtlarının **Yalnızca gruplara** aktarılmasına izin"
+" verir, canlı kullanıcılara aktarılmasına izin vermez."
 
 #: ../../source/escalade/index.rst:44
 msgid ""
 "When the plugin is activated, a new option is available from the ticket "
 "interface :"
 msgstr ""
+"Eklenti etkinleştirildiğinde, destek kaydı arayüzünde yeni bir seçenek "
+"kullanılabilir:"
 
 #: ../../source/escalade/index.rst:52
 msgid "Set plugin parameters"
-msgstr ""
+msgstr "Eklenti parametrelerini ayarlayın"
 
 #: ../../source/escalade/index.rst:54
 msgid ""
 "From the plugin, click on the spanner and choose the various options that "
 "interest you:"
 msgstr ""
+"Eklentide somun anahtarı simgesine tıklayın ve ilgilendiğiniz seçenekleri "
+"seçin:"
 
 #: ../../source/escalade/index.rst:57
 msgid "Action"
-msgstr ""
+msgstr "İşlem"
 
 #: ../../source/escalade/index.rst:57
 msgid "Effect"
-msgstr ""
+msgstr "Etki"
 
 #: ../../source/escalade/index.rst:59
 msgid "**Remove old assign group on new group assign**"
-msgstr ""
+msgstr "**Yeni grup atandığında önceki atanmış grup kaldırılsın**"
 
 #: ../../source/escalade/index.rst:59
 msgid "Deletes or not the existing groups when you assign a new one"
 msgstr ""
+"Yeni bir grup atadığınızda var olan grupların silinip silinmeyeceğini "
+"belirler"
 
 #: ../../source/escalade/index.rst:63
 msgid "**show group assign history visually**"
-msgstr ""
+msgstr "**Grup atama geçmişi görselleştirilsin**"
 
 #: ../../source/escalade/index.rst:63
 msgid ""
 "(*valid only if previous option is set to* **yes**) Previous groups will be "
 "visible when a new group is escalated"
 msgstr ""
+"(*Yalnızca önceki seçenek **Evet** olarak ayarlandığında geçerlidir) Yeni "
+"bir grup üste aktarıldığında önceki gruplar görünür olur"
 
 #: ../../source/escalade/index.rst:70
 msgid "**Assign ticket to initial group on solve ticket**"
-msgstr ""
+msgstr "**Destek kaydı çözümlendiğinde ilk gruba atansın**"
 
 #: ../../source/escalade/index.rst:70
 msgid ""
 "(*valid only if previous option is set to* **yes**) Reassigns ticket to "
 "initial group if a group is deleted"
 msgstr ""
+"(*Yalnızca önceki seçenek **Evet** olarak ayarlandığında geçerlidir) Bir "
+"grup silinirse destek kaydını ilk gruba yeniden atar"
 
 #: ../../source/escalade/index.rst:75
 msgid "**Escalation history in tasks**"
-msgstr ""
+msgstr "**Görevlerde üste aktarma geçmişi kaydedilsin**"
 
 #: ../../source/escalade/index.rst:75
 msgid "Keep or not the history of escalations in the tasks"
 msgstr ""
+"Görevlerde üste aktarma geçmişinin kaydedilip kaydedilmeyeceğini belirler"
 
 #: ../../source/escalade/index.rst:78
 msgid "**Remove technician(s) on escalation**"
-msgstr ""
+msgstr "**Üste aktarmada teknisyenler kaldırılsın**"
 
 #: ../../source/escalade/index.rst:78
 msgid ""
 "Technician(s) will be deleted when a new technician is added to the ticket"
-msgstr ""
+msgstr "**Destek kaydına yeni bir teknisyen eklendiğinde teknisyenler silinir"
 
 #: ../../source/escalade/index.rst:82
 msgid "**Ticket status can be changed after escalation**"
-msgstr ""
+msgstr "**Üste aktarma sonrası destek kaydı durumu değiştirilebilsin**"
 
 #: ../../source/escalade/index.rst:82
 msgid ""
 "Modify the status of the ticket after the escalation. A “do not modify” "
 "option is also available."
 msgstr ""
+"Üste aktarma sonrasında destek kaydının durumunu değiştirir. "
+"\"Değiştirilmesin\" seçeneği de vardır."
 
 #: ../../source/escalade/index.rst:86
 msgid "**Assign the technical manager on ticket category change**"
-msgstr ""
+msgstr "**Destek kaydı kategorisi değiştiğinde teknik yönetici atansın**"
 
 #: ../../source/escalade/index.rst:86
 msgid ""
 "If a technical manager is declared in an ITIL category, they will be "
 "automatically assigned and will receive a notification."
 msgstr ""
+"Bir ITIL kategorisi için bir teknik yönetici belirtilmiş ise, otomatik "
+"olarak atanır ve bir bildirim alır."
 
 #: ../../source/escalade/index.rst:92
 msgid "**Assign the technical group on ticket category change**"
-msgstr ""
+msgstr "**Destek kaydı kategorisi değiştiğinde teknik grup atansın**"
 
 #: ../../source/escalade/index.rst:92
 msgid ""
@@ -199,28 +221,33 @@ msgid ""
 "automatically assigned and the members of the group will receive a "
 "notification"
 msgstr ""
+"Bir ITIL kategorisi için bir teknik grup belirtilmiş ise, otomatik olarak "
+"atanır ve grubun üyeleri bir bildirim alır"
 
 #: ../../source/escalade/index.rst:98
 msgid "**Clone tickets**"
-msgstr ""
+msgstr "**Destek kayıtları kopyalansın**"
 
 #: ../../source/escalade/index.rst:98
 msgid ""
 "Possibility of cloning tickets from the helpdesk interface .. figure:: "
 "images/Escalade-4.png"
 msgstr ""
+"Yardım masası arayüzünden destek kayıtlarını kopyalayabilme .. şekil:: "
+"images/Escalade-4.png"
 
 #: ../../source/escalade/index.rst:102
 msgid "**Close cloned tickets at the same time**"
-msgstr ""
+msgstr "**Kopyalanmış destek kayıtları aynı anda kapatılsın**"
 
 #: ../../source/escalade/index.rst:102
 msgid "Close all cloned tickets when one of them is closed"
 msgstr ""
+"Kopyalanmış destek kayıtlarının biri kapatıldığında diğeri de kapatılır"
 
 #: ../../source/escalade/index.rst:105
 msgid "**Use the technician’s group**"
-msgstr ""
+msgstr "**Teknisyenin grubu kullanılsın**"
 
 #: ../../source/escalade/index.rst:105
 msgid ""
@@ -229,40 +256,51 @@ msgid ""
 "modified. You can also choose to select the first or last group to which the"
 " user is assigned"
 msgstr ""
+"Bir teknisyen atanırsa, grubu da atanır. Destek kaydı oluşturulduğunda "
+"ve/veya değiştirildiğinde atamayı hesaba katmayı seçebilirsiniz. Ayrıca "
+"kullanıcının atandığı ilk veya son grubun seçilmesini de seçebilirsiniz"
 
 #: ../../source/escalade/index.rst:114
 msgid "**Remove requester(s) on escalation**"
-msgstr ""
+msgstr "**Üste aktarmada istekte bulunanlar kaldırılsın**"
 
 #: ../../source/escalade/index.rst:114
 msgid ""
 "Remove requester(s) in the event of an escalation. Please note that no "
 "history is kept, as is the case for assigning a group"
 msgstr ""
+"Üste aktarma sonrasında istekte bulunanları kaldırır. Lütfen bir grup "
+"atanması durumunda olduğu gibi herhangi bir geçmiş kaydının korunmayacağını "
+"unutmayın"
 
 #: ../../source/escalade/index.rst:119
 msgid "**Display delete button**"
-msgstr ""
+msgstr "**Sil düğmesi görüntülensin**"
 
 #: ../../source/escalade/index.rst:119
 msgid ""
 "Displays the option of deleting actors from the ticket (ability to refine "
 "which user/group/supplier by requestor/watcher/technician)"
 msgstr ""
+"Aktörleri destek kaydından silme seçeneğini görüntüler (istekte "
+"bulunan/izleyen/teknisyen tarafından hangi kullanıcı/grup/tedarikçinin "
+"silineceği belirlenebilir)"
 
 #: ../../source/escalade/index.rst:127
 msgid "**Activate filtering on allocation groups**"
-msgstr ""
+msgstr "**Atama grupları süzülebilsin**"
 
 #: ../../source/escalade/index.rst:127
 msgid ""
 "Enables filtering and whether or not escalation to other groups is possible."
 " *See next chapter for more information*"
 msgstr ""
+"Süzme ve diğer gruplara üste aktarma yapılıp yapılamayacağını belirler. "
+"*Ayrıntılı bilgi almak için bir sonraki bölüme bakın*"
 
 #: ../../source/escalade/index.rst:134
 msgid "Setting up filtering"
-msgstr ""
+msgstr "Süzmeyi ayarlamak"
 
 #: ../../source/escalade/index.rst:136
 msgid ""
@@ -270,16 +308,21 @@ msgid ""
 "other groups. For example, we don’t want N1 support to be able to escalate "
 "to N3 directly. The escalation to N2 must be mandatory."
 msgstr ""
+"Süzme, hangi grubun destek kayıtları diğer gruplara üste aktarabileceğinizi "
+"belirlemenizi sağlar. Örneğin, N1 desteğinin doğrudan N3 üstüne "
+"aktarılmasını istemiyoruz. N2 üstüne aktarılması zorunlu olmalıdır."
 
 #: ../../source/escalade/index.rst:139
 msgid "From **Administration > Groups**, select one of the groups"
-msgstr ""
+msgstr "**Yönetim > Gruplar** bölümünden bir grup seçin"
 
 #: ../../source/escalade/index.rst:140
 msgid ""
 "In **Escalade**, add the groups to which this one will be able to escalate "
 "tickets."
 msgstr ""
+"**Üste aktar** bölümünden bu grubun destek kayıtlarını aktarabileceği "
+"grupları ekleyin."
 
 #: ../../source/escalade/index.rst:143
 msgid ""
@@ -289,35 +332,46 @@ msgid ""
 " can escalate tickets to the **technician N3** group and also to the **N1** "
 "group, so that a ticket can be escalated if necessary."
 msgstr ""
+"Bu seçenek yararlı olabilir, ancak tüm grupların kurulmuş olması gerekir. "
+"Örneğin, **N1 Teknisyen** grubu destek kayıtları **N2 Teknisyen** grubu "
+"üstüne aktarabiliyorsa, **N2 Teknisyen** grubunun destek kayıtlarının **N3 "
+"Teknisyen** grubu ve ayrıca **N1** grubu üstüne aktarılabildiğinden emin "
+"olmalısınız. Böylece gerekirse bir destek kaydı üste aktarılabilir."
 
 #: ../../source/escalade/index.rst:148
 msgid "Example :"
-msgstr ""
+msgstr "Örnek:"
 
 #: ../../source/escalade/index.rst:150
 msgid "**Joe** user is **added** to group **Groupe 1**"
-msgstr ""
+msgstr "**Ali** kullanıcısı **Grup 1** grubuna **eklendiğinde** "
 
 #: ../../source/escalade/index.rst:156
 msgid ""
 "**Groupe 1** is configured to allow ticket escalation only to **Groupe 2**"
 msgstr ""
+"**Grup 1** destek kayıtlarını yalnızca **Grup 2** üstüne aktarmaya izin "
+"verecek şekilde yapılandırılmıştır"
 
 #: ../../source/escalade/index.rst:162
 msgid ""
 "**Joe** user can **only reassign** ticket to **Groupe 2** because it's "
 "assign to Groupe 1"
 msgstr ""
+"**Ali** kullanıcısı destek kaydını **Grup 2** grubuna **yalnızca yeniden "
+"atayabilir** çünkü bu destek kaydı Grup 1 grubuna atanır"
 
 #: ../../source/escalade/index.rst:168
 msgid ""
 "For other users not assign to **Groupe 1**, they can't reassign group to "
 "ticket (groups are not proposed in the list of assignation)"
 msgstr ""
+"**Grup 1** grubuna atanmayan diğer kullanıcılar, grubu destek kaydına "
+"yeniden atayamazlar (gruplar atama listesinde önerilmez)"
 
 #: ../../source/escalade/index.rst:174
 msgid "You can **bypass** this behavior per user"
-msgstr ""
+msgstr "Bu davranışı her kullanıcı için **atlayabilirsiniz**"
 
 #: ../../source/escalade/index.rst:182
 msgid "Ticket's search engine"
@@ -325,7 +379,7 @@ msgstr "Destek kaydının arama motoru"
 
 #: ../../source/escalade/index.rst:184
 msgid "Plugin add three new search option"
-msgstr "Uygulama eki üç yeni arama seçeneği ekler"
+msgstr "Eklenti üç yeni arama seçeneği ekler"
 
 #: ../../source/escalade/index.rst:191
 msgid "Group concerning by escalation"
@@ -334,6 +388,7 @@ msgstr "Düzey yükseltme ile ilgilenen grup"
 #: ../../source/escalade/index.rst:193
 msgid "Ex : get all tickets actually escalated to group **Groupe 1**"
 msgstr ""
+"Örnek : **Grup 1** grubu üstüne aktarılmış tüm destek kayıtlarını alın"
 
 #: ../../source/escalade/index.rst:195
 msgid "Number of escalation"
@@ -374,13 +429,15 @@ msgstr ""
 
 #: ../../source/escalade/index.rst:221
 msgid "FAQ"
-msgstr ""
+msgstr "SSS"
 
 #: ../../source/escalade/index.rst:223
 msgid ""
 "If you have any questions about using the plugin, please consult `our FAQ "
 "<https://faq.teclib.com/04_Plugins/Escalade/>`_"
 msgstr ""
+"Eklentinin kullanımıyla ilgili herhangi bir sorunuz varsa `SSS "
+"<https://faq.teclib.com/04_Plugins/Escalade/>`_ bölümüne bakabilirsiniz."
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
@@ -388,4 +445,4 @@ msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Creative Commons Lisansı"

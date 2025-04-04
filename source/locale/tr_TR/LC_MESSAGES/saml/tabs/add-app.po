@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kaya Zeren <kayazeren@gmail.com>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2024-06-24 08:21+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,38 +23,42 @@ msgstr ""
 
 #: ../../source/saml/tabs/add-app.rst:2
 msgid "Add a new SAML Application on GLPI"
-msgstr ""
+msgstr "GLPI üzerine yeni bir SAML uygulaması ekleyin"
 
 #: ../../source/saml/tabs/add-app.rst:4
 msgid ""
 "First of all, you need to add a SAML application on GLPI because we need to "
 "report some information on GLPI <-> Entra/Google."
 msgstr ""
+"Öncelikle GLPI üzerine bir SAML uygulaması eklemeniz gerekiyor çünkü GLPI "
+"<-> Entra/Google üzerinde bazı bilgileri bildirmemiz gerekiyor."
 
 #: ../../source/saml/tabs/add-app.rst:6
 msgid "In **Setup** > **SAML SSO Applications**, click on **+ Add**"
 msgstr ""
+"**Kurulum** > **SAML SSO uygulamaları** bölümünden **+ Ekle** üzerine "
+"tıklayın"
 
 #: ../../source/saml/tabs/add-app.rst:7
 msgid "Give a **name** to your application"
-msgstr ""
+msgstr "Uygulamanıza bir **ad** verin"
 
 #: ../../source/saml/tabs/add-app.rst:8
 msgid "Click on **is active**"
-msgstr ""
+msgstr "**Etkin** üzerine tıklayın"
 
 #: ../../source/saml/tabs/add-app.rst:10
 msgid "Click on **Save**"
-msgstr ""
+msgstr "**Kaydet** üzerine tıklayın"
 
 #: ../../source/saml/tabs/add-app.rst-1
 msgid "Add GLPI app"
-msgstr ""
+msgstr "GLPI uygulaması ekleyin"
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Creative Commons Lisansı"

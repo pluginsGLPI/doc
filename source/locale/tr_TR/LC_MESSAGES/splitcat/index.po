@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kaya Zeren <kayazeren@gmail.com>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2024-01-31 13:12+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,96 +23,101 @@ msgstr ""
 
 #: ../../source/splitcat/index.rst:2
 msgid "Splitcat"
-msgstr ""
+msgstr "Splitcat"
 
 #: ../../source/splitcat/index.rst:5
 msgid "Requirements (on-premise)"
-msgstr ""
+msgstr "Gereksinimler (özel kurulum)"
 
 #: ../../source/splitcat/index.rst:8
 msgid "GLPI Version"
-msgstr ""
+msgstr "GLPI sürümü"
 
 #: ../../source/splitcat/index.rst:8
 msgid "Minimum PHP"
-msgstr ""
+msgstr "En düşük PHP sürümü"
 
 #: ../../source/splitcat/index.rst:8
 msgid "Recommended"
-msgstr ""
+msgstr "Önerilen"
 
 #: ../../source/splitcat/index.rst:10
 msgid "10.0.x"
-msgstr ""
+msgstr "10.0.x"
 
 #: ../../source/splitcat/index.rst:10
 msgid "8.1"
-msgstr ""
+msgstr "8.1"
 
 #: ../../source/splitcat/index.rst:10
 msgid "8.2"
-msgstr ""
+msgstr "8.2"
 
-#: ../../source/splitcat/index.rst:14
+#: ../../source/include/basic_subscription.rst:2
 msgid ""
-"A `basic licence <https://services.glpi-network.com/#offers>`_ (or higher) "
-"is required. This plugin is also available from the `Cloud <https://glpi-"
-"network.cloud/fr/>`_."
+"A `GLPI Network BASIC <https://services.glpi-network.com/#offers>`_ "
+"subscription (or higher) is required. This plugin is also available for all "
+"GLPI Network `Cloud instances <https://glpi-network.cloud>`_."
 msgstr ""
 
-#: ../../source/splitcat/index.rst:18
+#: ../../source/splitcat/index.rst:17
 msgid "Download the plugin"
-msgstr ""
+msgstr "Eklentiyi indirin"
 
-#: ../../source/splitcat/index.rst:20
+#: ../../source/splitcat/index.rst:19
 msgid ""
 "From the marketplace (**Setup > Plugins**), download the **Splitcat** plugin"
 msgstr ""
+"Mağazadan (**Kurulum > Eklentiler**), **Splitcat** eklentisini indirin"
 
 #: ../../source/splitcat/index.rst-1
 msgid "install the plugin"
-msgstr ""
+msgstr "Eklentiyi kurmak"
 
-#: ../../source/splitcat/index.rst:27
+#: ../../source/splitcat/index.rst:26
 msgid "Settings"
-msgstr ""
+msgstr "Ayarlar"
 
-#: ../../source/splitcat/index.rst:29
+#: ../../source/splitcat/index.rst:28
 msgid ""
 "There are no special settings to be made for this plugin. You can see the "
 "effect of the plugin directly when you open a new ticket."
 msgstr ""
+"Bu eklenti için yapılması gereken özel bir ayar bulunmuyor. Yeni bir destek "
+"kaydı açtığınızda eklentinin etkisini doğrudan görebilirsiniz."
 
-#: ../../source/splitcat/index.rst:32
+#: ../../source/splitcat/index.rst:31
 msgid "Before"
-msgstr ""
+msgstr "Önceki"
 
 #: ../../source/splitcat/index.rst-1
 msgid "before"
-msgstr ""
+msgstr "Önceki"
 
-#: ../../source/splitcat/index.rst:40
+#: ../../source/splitcat/index.rst:39
 msgid "After"
-msgstr ""
+msgstr "Sonraki"
 
 #: ../../source/splitcat/index.rst-1
 msgid "after"
-msgstr ""
+msgstr "Sonraki"
 
-#: ../../source/splitcat/index.rst:47
+#: ../../source/splitcat/index.rst:46
 msgid "FAQ"
-msgstr ""
+msgstr "SSS"
 
-#: ../../source/splitcat/index.rst:49
+#: ../../source/splitcat/index.rst:48
 msgid ""
 "If you have any questions about using the plugin, please consult `our FAQ "
 "<https://faq.teclib.com/04_Plugins/Splitcat/>`_"
 msgstr ""
+"Eklentinin kullanımıyla ilgili herhangi bir sorunuz varsa `SSS "
+"<https://faq.teclib.com/04_Plugins/Splitcat/>`_ bölümüne bakabilirsiniz."
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Creative Commons Lisansı"

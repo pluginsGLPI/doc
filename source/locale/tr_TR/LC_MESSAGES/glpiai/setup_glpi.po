@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kaya Zeren <kayazeren@gmail.com>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2024-03-12 08:29+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,34 +23,36 @@ msgstr ""
 
 #: ../../source/glpiai/setup_glpi.rst:2
 msgid "Set up GLPI"
-msgstr ""
+msgstr "GLPI kurulumu"
 
 #: ../../source/glpiai/setup_glpi.rst:4
 msgid "In GLPI, go to **Setup > General > GLPI AI**"
-msgstr ""
+msgstr "GLPI içinde **Kurulum > Genel > GLPI AI** bölümüne gidin"
 
 #: ../../source/glpiai/setup_glpi.rst:5
 msgid "Fill in the fields with the values copied previously"
-msgstr ""
+msgstr "Alanları daha önce kopyaladığınız değerlerle doldurun"
 
 #: ../../source/glpiai/setup_glpi.rst-1
 msgid "fill fields"
-msgstr ""
+msgstr "Alanları doldurun"
 
 #: ../../source/glpiai/setup_glpi.rst:11
 msgid ""
 "If your configuration is correct, you will be able to see your account "
 "entries, your consumption and your preferences."
 msgstr ""
+"Yapılandırmanız doğruysa hesap kayıtlarınızı, tüketiminizi ve ayarlarınızı "
+"görebilirsiniz."
 
 #: ../../source/glpiai/setup_glpi.rst-1
 msgid "field check"
-msgstr ""
+msgstr "Alan denetimi"
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Creative Commons Lisansı"

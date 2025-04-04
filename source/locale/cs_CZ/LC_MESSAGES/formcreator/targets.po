@@ -1,20 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Pavel Borecki <pavel.borecki@gmail.com>, 2018
-# David Stepan <stepand@tiscali.cz>, 2022
+# David Stepan <stepand@tiscali.cz>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2017-02-09 07:26+0000\n"
-"Last-Translator: David Stepan <stepand@tiscali.cz>, 2022\n"
+"Last-Translator: David Stepan <stepand@tiscali.cz>, 2024\n"
 "Language-Team: Czech (Czech Republic) (https://app.transifex.com/teclib/teams/28042/cs_CZ/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -357,6 +357,9 @@ msgid ""
 "Location from template or none: sets the location from a template if any and"
 " if this template has a predefined location. None in all other cases,"
 msgstr ""
+"Umístění ze šablony nebo žádné: nastaví umístění ze šablony, pokud existuje "
+"a pokud má tato šablona předdefinované umístění. Žádné ve všech ostatních "
+"případech,"
 
 #: ../../source/formcreator/targets.rst:110
 msgid "Specific location: a location set by the form's designer"
@@ -415,7 +418,7 @@ msgstr "nastavit kategorii změny"
 
 #: ../../source/formcreator/targets.rst:137
 msgid "Target description templating"
-msgstr ""
+msgstr "Šablona popisu cíle"
 
 #: ../../source/formcreator/targets.rst:139
 msgid ""
@@ -424,22 +427,27 @@ msgid ""
 "where all questions and sections are displayed in the same order as the "
 "form."
 msgstr ""
+"Cílový požadavek i cílová změna mají šablonu popisu. Ve výchozím nastavení "
+"šablona používá značku ``##FULLFORM##``. Tato značka je výchozí šablonou, "
+"kde se všechny otázky a sekce zobrazují ve stejném pořadí jako formulář."
 
 #: ../../source/formcreator/targets.rst:141
 msgid "Each question has 2 tags"
-msgstr ""
+msgstr "Každá otázka má 2 značky"
 
 #: ../../source/formcreator/targets.rst:143
 msgid ""
 "``##question_x##`` which is replaced by the label of the question. X is the "
 "ID of the question."
-msgstr ""
+msgstr "``##question_x##``, který je nahrazen štítkem otázky. X je ID otázky."
 
 #: ../../source/formcreator/targets.rst:144
 msgid ""
 "``##answer_x##`` which is replaced by the answer to a question. X is the ID "
 "of the matching question."
 msgstr ""
+"``##answer_x##``, který je nahrazen odpovědí na otázku. X je ID odpovídající"
+" otázky."
 
 #: ../../source/formcreator/targets.rst:146
 msgid ""
@@ -448,6 +456,10 @@ msgid ""
 "after the dot is the name of a property available in the search options of "
 "the itemtype of the dropdown question."
 msgstr ""
+"Rozbalovací seznam otázek typu podporuje složitější výrazy, jako je "
+"``##answer_x.name##``. ``x`` stále znamená ID otázky. slovo za tečkou je "
+"název vlastnosti dostupné v možnostech vyhledávání typu položky rozbalovací "
+"otázky."
 
 #: ../../source/formcreator/targets.rst:148
 msgid ""
@@ -457,6 +469,11 @@ msgid ""
 "address, postcode, state, building, and many other data. To find them, the "
 "admin may rely on the list available in the search filters for a location."
 msgstr ""
+"Jako příklad zvažte rozbalovací otázku, která ukazuje umístění. Typ položky "
+"nastavený návrhářem formuláře je \"Umístění\". Návrhář může v cíli vykreslit"
+" mnoho polí místa vybraného žadatelem, jako je adresa, PSČ, stát, budova a "
+"mnoho dalších dat. Při jejich nalezení se může správce spolehnout na seznam "
+"dostupný ve vyhledávacích filtrech pro umístění."
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
@@ -464,4 +481,4 @@ msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Licence Creative Commons"

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2016-12-20 09:45+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../source/formcreator/installation.rst:2
 msgid "Install the Plugin"
-msgstr "Uygulama ekini kurmak"
+msgstr "Eklentiyi kurmak"
 
 #: ../../source/formcreator/installation.rst:4
 msgid "Uncompress the archive."
@@ -36,15 +36,15 @@ msgstr "``formcreator`` klasörünü ``<GLPI_ROOT>/plugins`` klasörüne taşıy
 
 #: ../../source/formcreator/installation.rst:6
 msgid "Navigate to the *Configuration > Plugins* page,"
-msgstr "*Yapılandırma > Uygulama ekleri* bölümüne gidin."
+msgstr "*Yapılandırma > Eklentiler* bölümüne gidin."
 
 #: ../../source/formcreator/installation.rst:7
 msgid "Install and activate the plugin."
-msgstr "Uygulama ekini kurup etkinleştirin."
+msgstr "Eklentiyi kurup etkinleştirin."
 
 #: ../../source/formcreator/installation.rst:11
 msgid "The plugin's directory must have the same name as the plugin:"
-msgstr "Uygulama ekinin klasörü uygulama eki ile aynı adı taşımalıdır:"
+msgstr "Eklentinin klasörü eklenti ile aynı adı taşımalıdır:"
 
 #: ../../source/formcreator/installation.rst:13
 msgid "**Good**: `glpi/plugins/formcreator`"
@@ -64,9 +64,9 @@ msgid ""
 "the GLPI plugins directory. **Don't rename the plugin's directory for "
 "backup, move it!**"
 msgstr ""
-"Bir uygulama ekinin dosyaları için GLPI plugins klasöründe yalnız bir klasör"
-" bulunmalıdır. **Yedeklemek için bir uygulama eki klasörünün adını "
-"değiştirmeyin, kopyalayıp silin!**"
+"Bir eklentinin dosyaları için GLPI plugins klasöründe yalnızca bir klasör "
+"bulunmalıdır. **Yedeklemek için bir eklenti klasörünün adını değiştirmeyin, "
+"kopyalayıp silin!**"
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"

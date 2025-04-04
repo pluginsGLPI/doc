@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2016-10-25 19:22+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -43,7 +43,7 @@ msgstr "`<https://github.com/pluginsGLPI/empty>`_"
 
 #: ../../source/empty/index.rst:13
 msgid "This plugins does... nothing. Really!"
-msgstr "Bu uygulama eki aslında... hiç bir şey yapmaz. Gerçekten!"
+msgstr "Bu eklenti aslında... hiç bir şey yapmaz. Gerçekten!"
 
 #: ../../source/empty/index.rst:15
 msgid ""
@@ -51,14 +51,14 @@ msgid ""
 "defaults usefull scripts, and some advices. If you're looking for plugins "
 "possibilities, take a look at :doc:`the example plugin <../example/index>`."
 msgstr ""
-"Bu uygulama ekinde, geliştirmeye bir başlangıç noktası oluşturmak için "
-"kullanılabilecek şekilde bazı varsayılan betikler ve öneriler bulunur. "
-"Uygulama eki olanaklarını öğrenmek istiyorsanız :doc:`örnek uygulama eki "
-"<../example/index>` bölümüne bakın."
+"Bu eklentide, geliştirmeye bir başlangıç noktası oluşturmak için "
+"kullanılabilecek bazı varsayılan betikler ve öneriler bulunur. Eklenti "
+"olanaklarını öğrenmek istiyorsanız :doc:`örnek eklenti <../example/index>` "
+"bölümüne bakın."
 
 #: ../../source/empty/index.rst:18
 msgid "Create a new plugin"
-msgstr "Yeni bir uygulama eki oluşturmak"
+msgstr "Yeni bir eklenti oluşturmak"
 
 #: ../../source/empty/index.rst:20
 msgid ""
@@ -66,9 +66,9 @@ msgid ""
 "will call it with a plugin name, a version, an optionally the path where "
 "your want it to be created:"
 msgstr ""
-"Yeni bir uygulama eki oluşturmak için ``plugin.sh`` betiği kullanılır. Betik"
-" çağrılırken bir uygulama eki adı, bir sürüm ve isteğe bağlı olarak uygulama"
-" ekinin oluşturulması istenilen yol belirtilmelidir:"
+"Yeni bir eklenti oluşturmak için ``plugin.sh`` betiği kullanılır. Betik "
+"çağrılırken bir eklenti adı, bir sürüm ve isteğe bağlı olarak eklentinin "
+"oluşturulması istenilen yol belirtilmelidir:"
 
 #: ../../source/empty/index.rst:26
 msgid ""
@@ -90,7 +90,7 @@ msgstr ""
 
 #: ../../source/empty/index.rst:35
 msgid "Update existing plugin"
-msgstr "Var olan uygulama ekini güncellemek"
+msgstr "Var olan eklentiyi güncellemek"
 
 #: ../../source/empty/index.rst:37
 msgid ""
@@ -98,8 +98,8 @@ msgid ""
 "be too many cases to handle. But don't worry, procedure is quite simple ;)"
 msgstr ""
 "Gözden geçirilmesi gereken çok sayıda durum olduğundan henüz var olan "
-"uygulama ekleri otomatik olarak güncellenemiyor. Gene de sorun değil, işlem "
-"oldukça basit ;)"
+"eklenti otomatik olarak güncellenemiyor. Gene de sorun değil, işlem oldukça "
+"basit ;)"
 
 #: ../../source/empty/index.rst:39
 msgid "Using empty features is as simple as creating a few files:"
@@ -127,8 +127,8 @@ msgid ""
 "just copy the ones from empty plugin. Otherwise; in you ``composer.json``, "
 "just add:"
 msgstr ""
-"Herhangi bir composer ya da travis yapılandırma dosyanız yoksa, boş uygulama"
-" ekindeki dosyaları kopyalayın. Varsa; ``composer.json`` dosyasına şunu "
+"Herhangi bir composer ya da travis yapılandırma dosyanız yoksa, boş "
+"eklentideki dosyaları kopyalayın. Varsa; ``composer.json`` dosyasına şunu "
 "ekleyin:"
 
 #: ../../source/empty/index.rst:55
@@ -149,9 +149,9 @@ msgid ""
 "plugin is a bit specific, you'll have to edit it in order to get things "
 "working. See below for more informations."
 msgstr ""
-"Robo.li yapılandırma dosyasında, boş uygulama ekini gömmenin biraz incelikli"
-" olduğunu unutmayın. Sorunsuz çalışması için düzenlemeniz gereken bazı "
-"şeyler var. Ayrıntılı bilgi almak için aşağıya bakın."
+"Robo.li yapılandırma dosyasında, boş eklentiyi gömmenin biraz incelikli "
+"olduğunu unutmayın. Sorunsuz çalışması için düzenlemeniz gereken bazı şeyler"
+" var. Ayrıntılı bilgi almak için aşağıya bakın."
 
 #: ../../source/empty/index.rst:76
 msgid ""
@@ -159,7 +159,7 @@ msgid ""
 "remove duplicated tools scripts (files such as ``release``, "
 "``extract_template.sh``, ...) that would be present in your plugin."
 msgstr ""
-"Son olarak ``tools`` projesi size bazı özellikler sunar. Uygulama ekinizde "
+"Son olarak ``tools`` projesi size bazı özellikler sunar. Eklentinizde "
 "bulunabilecek çift araç betiği dosyalarını silebilirsiniz (`release``, "
 "``extract_template.sh``, gibi)."
 
@@ -200,7 +200,7 @@ msgid ""
 "plugin:"
 msgstr ""
 "Yok sayma listesi ya da denetlenmiş klasörleri uygulamak istiyorsanız, "
-"uygulama ekinin ``RoboFile.php`` dosyasındaki ``$csignore`` ve ``$csfiles`` "
+"eklentinin ``RoboFile.php`` dosyasındaki ``$csignore`` ve ``$csfiles`` "
 "değerlerini değiştirmeniz yeterlidir:"
 
 #: ../../source/empty/index.rst:112
@@ -251,7 +251,7 @@ msgid ""
 "connot be replaced."
 msgstr ""
 "Robo kitaplıkları eskimiş olduğundan ve değiştirilemediğinden 0.1.13 "
-"sürümüyle birlikte devre dışı bırakıldı."
+"sürümüyle birlikte kullanımdan kaldırıldı."
 
 #: ../../source/empty/index.rst:130
 msgid ""
@@ -278,8 +278,8 @@ msgid ""
 "To get the required libs installed, you'll have to `get composer installed "
 "<http://getcomposer.org>`_ and then run:"
 msgstr ""
-"Gerekli kitaplıkların yüklenmesi için get composer "
-"<http://getcomposer.org>`_ yükleyip şunu çalıştırmalısınız:"
+"Gerekli kitaplıkların kurulması için get composer <http://getcomposer.org>`_"
+" kurup şunu çalıştırmalısınız:"
 
 #: ../../source/empty/index.rst:140
 msgid "There are three available targets:"
@@ -296,22 +296,20 @@ msgid ""
 "directory of your plugin, creating a ``.min.css`` version along with the "
 "original file,"
 msgstr ""
-"``küçült:css`` uygulama ekinizin ``css`` klasöründeki tüm css stil "
-"sayfalarını küçülterek özgün dosyaların yanında ``.min.css`` sürümlerini "
-"oluşturur."
+"``küçült:css`` eklentinizin ``css`` klasöründeki tüm CSS biçem sayfalarını "
+"küçülterek özgün dosyaların yanında ``.min.css`` sürümlerini oluşturur."
 
 #: ../../source/empty/index.rst:144
 msgid ""
 "``minify:js`` that will minify all javascript files in the ``js`` directory "
 "of your plugin, creating a ``.min.js`` version along with the original file."
 msgstr ""
-"``küçült:js`` uygulama ekinizin ``js`` klasöründeki tüm javascript "
-"dosyalarını küçülterek özgün dosyaların yanında ``.min.js`` sürümlerini "
-"oluşturur."
+"``küçült:js`` eklentinizin ``js`` klasöründeki tüm javascript dosyalarını "
+"küçülterek özgün dosyaların yanında ``.min.js`` sürümlerini oluşturur."
 
 #: ../../source/empty/index.rst:146
 msgid "Just choose a target, and run something like:"
-msgstr "Yalnız hedefi seçin ve şunun gibi bir şey çalıştırın:"
+msgstr "Yalnızca hedefi seçin ve şunun gibi bir şey çalıştırın:"
 
 #: ../../source/empty/index.rst:154
 msgid ""
@@ -350,8 +348,8 @@ msgid ""
 "GLPI and its plugins use gettext for internationnalization. Several steps "
 "are required before that can work:"
 msgstr ""
-"GLPI ve uygulama eklerinin dil çevirileri için gettext kullanılır. "
-"Çevirilerin doğru çalışması için bir kaç adım gereklidir:"
+"GLPI ve eklentilerinin dil çevirileri için gettext kullanılır. Çevirilerin "
+"doğru çalışması için bir kaç adım gereklidir:"
 
 #: ../../source/empty/index.rst:165
 msgid ""
@@ -381,8 +379,8 @@ msgid ""
 "Once it has been ran, a ``locale/mygreatplugin.pot`` file will be "
 "created/updated."
 msgstr ""
-"Bu betik çalıştırıldığında ``locale/uygulamaekim.pot`` dosyası oluşturulur "
-"ya da güncellenir."
+"Bu betik çalıştırıldığında ``locale/eklentim.pot`` dosyası oluşturulur ya da"
+" güncellenir."
 
 #: ../../source/empty/index.rst:174
 msgid ""
@@ -398,7 +396,7 @@ msgstr ""
 "gibi gettext araçlarını kullanabileceğiniz gibi`Transifex "
 "<http://transifex.com/>`_ ya da `Zanata <http://zanata.org/>`_ gibi çevrim "
 "içi çeviri sistemlerinden yararlanabilirsiniz. Şu anda Transifex üzerinde "
-"GLPI çekirdeği ve çoğu uygulama ekinin çevirileri bulunmaktadır."
+"GLPI çekirdeği ve çoğu eklentinin çevirileri bulunmaktadır."
 
 #: ../../source/empty/index.rst:176
 msgid ""
@@ -423,14 +421,14 @@ msgid ""
 msgstr ""
 "``vendor/bin/plugin-release`` klasöründe bir yayınlama betiği bulunur. "
 "\"Basit\" `bir Python <http://python.org>`_ betiğidir. Sisteminizde Python "
-"yüklü olmalıdır (çoğu linux dağıtımında varsayılan olarak yüklüdür)."
+"kurulu olmalıdır (çoğu linux dağıtımında varsayılan olarak kuruludur)."
 
 #: ../../source/empty/index.rst:187
 msgid ""
 "Note that the release script is only compatible if you use semantic "
 "versionning!"
 msgstr ""
-"Yayınlama betiğinin yalnız anlam bilimsel sürümleme ile uyumlu olduğunu "
+"Yayınlama betiğinin yalnızca anlam bilimsel sürümleme ile uyumlu olduğunu "
 "unutmayın!"
 
 #: ../../source/empty/index.rst:189
@@ -439,9 +437,9 @@ msgid ""
 "your git repository, add third party dependencies and create a `Release` on "
 "the github project:"
 msgstr ""
-"Yalnız varsayılan değerler kullanıldığında betik git deponuzdaki son etiketi"
-" almayı, üçüncü taraf bağlılıklarını eklemeyi ve github projesinde `Yayın` "
-"sürümünü oluşturmayı dener:"
+"Yalnızca varsayılan değerler kullanıldığında betik git deponuzdaki son "
+"etiketi almayı, üçüncü taraf bağlılıklarını eklemeyi ve github projesinde "
+"`Yayın` sürümünü oluşturmayı dener:"
 
 #: ../../source/empty/index.rst:202
 msgid "Requirements"
@@ -451,7 +449,7 @@ msgstr "Gereksinimler"
 msgid ""
 "You will need a python interpreter installed as well as the following "
 "modules:"
-msgstr "Python derleyicinin şu modüller ile yüklenmiş olması gerekir:"
+msgstr "Python derleyicinin şu modüller ile kurulmuş olması gerekir:"
 
 #: ../../source/empty/index.rst:206
 msgid "`termcolor <https://pypi.python.org/pypi/termcolor>`_,"
@@ -514,12 +512,12 @@ msgid ""
 "make a `git archive` of the paths that are not excluded (``.git``, "
 "``tools``, ``tests``, ...);"
 msgstr ""
-"Devre dışı bırakılmamış yolların `git arşivi` of oluşturulur (``.git``, "
-"``tools``, ``tests``, ...),"
+"Katılmayan yollar için `git archive` oluşturulsun (``.git``, ``tools``, "
+"``tests``, ...),"
 
 #: ../../source/empty/index.rst:221
 msgid "if any, install composer dependencies;"
-msgstr "Varsa derleyici bağımlılıkları yüklenir,"
+msgstr "Varsa derleyici bağımlılıkları kurulur,"
 
 #: ../../source/empty/index.rst:222
 msgid "if any, compile you ``MO`` files;"
@@ -590,9 +588,8 @@ msgid ""
 "The above command will work on your plugins files directly; not on a copy as"
 " does other commands."
 msgstr ""
-"Bu komut yukarıdaki diğer komutlar gibi uygulama eki dosyalarınızın "
-"kopyaları üzerinde değil, doğrudan uygulama eki dosyalarınızın üzerinde "
-"çalışır."
+"Bu komut yukarıdaki diğer komutlar gibi eklenti dosyalarınızın kopyaları "
+"üzerinde değil, doğrudan eklenti dosyalarınızın üzerinde çalışır."
 
 #: ../../source/empty/index.rst:249
 msgid "Pre-releases"
@@ -604,7 +601,7 @@ msgid ""
 "release should have its own tag; but you may want to create a release "
 "archive without any tags in some circumstances."
 msgstr ""
-"Varsayılan olarak yayınlama betiği yalnız var olan etiketler üzerinde "
+"Varsayılan olarak yayınlama betiği yalnızca var olan etiketler üzerinde "
 "çalışır. Herhangi bir ön yayının kendi etiketi olmalıdır. Ancak bazı "
 "durumlarda herhangi bir etiketi olmayan bir yayın arşivi oluşturmak "
 "isteyebilirsiniz."
@@ -639,7 +636,7 @@ msgstr ""
 
 #: ../../source/empty/index.rst:259
 msgid "As an example with the *order* plugin:"
-msgstr "Örnek olarak *sipariş* uygulama eki için:"
+msgstr "Örnek olarak *sipariş* eklentisi için:"
 
 #: ../../source/empty/index.rst:268
 msgid "Signing releases"
@@ -652,11 +649,11 @@ msgid ""
 "users; the sign option is activated per default, you can deactivate using "
 "the ``--nosign`` (or ``-S``) option."
 msgstr ""
-"Yayın sürümlerinin GPG anahtarı ile imzalanması kullanıcıların yüklemeden "
-"önce indirdikleri dosyanın sorunsuz olduğunu anlamalarını sağlar. Bu işlem "
-"için herkese açık olarak sunacağınız bir GPG anahtarına gerek vardır. "
-"İmzalama seçeneği varsayılan olarak etkindir. ``--nosign`` (ya da ``-S``) "
-"seçeneği kullanılarak devre dışı bırakılabilir."
+"Yayın sürümlerinin GPG anahtarı ile imzalanması kullanıcıların kurmadan önce"
+" indirdikleri dosyanın sorunsuz olduğunu anlamalarını sağlar. Bu işlem için "
+"herkese açık olarak sunacağınız bir GPG anahtarına gerek vardır. İmzalama "
+"seçeneği varsayılan olarak etkindir. ``--nosign`` (ya da ``-S``) seçeneği "
+"kullanılarak etkisizleştirilebilir."
 
 #: ../../source/empty/index.rst:272
 msgid ""
@@ -708,7 +705,7 @@ msgid ""
 msgstr ""
 "`GitHub ayarları sayfasınıza giderek, personnal access token sekmesinden "
 "<https://github.com/settings/tokens>`_. *generate new token* üzerine "
-"tıklayın. Açıklamayı isteğinize göre yazın ve yalnız *public_repo* "
+"tıklayın. Açıklamayı isteğinize göre yazın ve yalnızca *public_repo* "
 "seçeneğini işaretlediğinizden emin olun (başka bir seçeneği işaretlemeniz "
 "gerekmez. Gerek duyarsanız bir kaç erişim kodu üretebilirsiniz)."
 
@@ -717,7 +714,7 @@ msgid ""
 "The token will be displayed only once; store it in the ``.gh_token`` file in"
 " your plugin directory; and that's all!"
 msgstr ""
-"Kod yalnız bir kez görüntülenir. kodu plugin klasörünüzdeki ``.gh_token`` "
+"Kod yalnızca bir kez görüntülenir. kodu plugin klasörünüzdeki ``.gh_token`` "
 "dosyasına kaydederek işlemi tamamlayabilirsiniz."
 
 #: ../../source/empty/index.rst:290
@@ -731,9 +728,9 @@ msgid ""
 "release archive. Write one `expression "
 "<https://docs.python.org/2/library/re.html>`_ per line"
 msgstr ""
-"Uygulama ekinizin kök klasöründe bir ``.ignore-release`` dosyası "
-"oluşturabilir ve içine sürüm arşivine katılmasını istemediğiniz dosya ve "
-"klasörleri yazabilirsiniz. Her satıra bir `ifade "
+"Eklentinizin kök klasöründe bir ``.ignore-release`` dosyası oluşturabilir ve"
+" içine sürüm arşivine katılmasını istemediğiniz dosya ve klasörleri "
+"yazabilirsiniz. Her satıra bir `ifade "
 "<https://docs.python.org/2/library/re.html>`_ yazın"
 
 #: ../../source/empty/index.rst:299

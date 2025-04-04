@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 13:57+0200\n"
 "PO-Revision-Date: 2020-01-24 06:36+0000\n"
 "Language-Team: English (United Kingdom) (https://app.transifex.com/teclib/teams/28042/en_GB/)\n"
 "MIME-Version: 1.0\n"
@@ -65,153 +65,154 @@ msgstr ""
 msgid "8.2"
 msgstr ""
 
-#: ../../source/news/index.rst:22
+#: ../../source/include/no_subscription.rst:2
 msgid ""
-"This plugin is available without a GLPI-Network subscription. It is also "
-"available in `Cloud <https://glpi-network.cloud/>`_"
+"This plugin is available without a `GLPI Network <https://services.glpi-"
+"network.com/#offers>`_ subscription. It is also available on `GLPI Cloud "
+"<https://glpi-network.cloud>`_."
 msgstr ""
 
-#: ../../source/news/index.rst:26
+#: ../../source/news/index.rst:24
 msgid "Features"
 msgstr ""
 
-#: ../../source/news/index.rst:28
+#: ../../source/news/index.rst:26
 msgid ""
 "This plugin allows to display alerts messages on GLPI homepage and / or "
 "login page."
 msgstr ""
 
-#: ../../source/news/index.rst:30
+#: ../../source/news/index.rst:28
 msgid "Create alert with rich text as for notes."
 msgstr ""
 
-#: ../../source/news/index.rst:31
+#: ../../source/news/index.rst:29
 msgid "Choice of begin/end publication date."
 msgstr ""
 
-#: ../../source/news/index.rst:32
+#: ../../source/news/index.rst:30
 msgid "Manage alerts by entity."
 msgstr ""
 
-#: ../../source/news/index.rst:33
+#: ../../source/news/index.rst:31
 msgid "Target : display alerts by profile / group / user."
 msgstr ""
 
-#: ../../source/news/index.rst:37
+#: ../../source/news/index.rst:35
 msgid "Install the Plugin"
 msgstr ""
 
-#: ../../source/news/index.rst:38
+#: ../../source/news/index.rst:36
 msgid "Uncompress the archive."
 msgstr ""
 
-#: ../../source/news/index.rst:39
+#: ../../source/news/index.rst:37
 msgid "Move the ``news`` directory to the ``<GLPI_ROOT>/plugins`` directory"
 msgstr ""
 
-#: ../../source/news/index.rst:40
+#: ../../source/news/index.rst:38
 msgid "Navigate to the *Configuration > Plugins* page,"
 msgstr ""
 
-#: ../../source/news/index.rst:41
+#: ../../source/news/index.rst:39
 msgid "Install and activate the plugin."
 msgstr ""
 
-#: ../../source/news/index.rst:44
+#: ../../source/news/index.rst:42
 msgid "Usage"
 msgstr ""
 
-#: ../../source/news/index.rst:46
+#: ../../source/news/index.rst:44
 msgid ""
 "The plugin will create required tables in the database  automatically. Those"
 " tables will be updated along with the plugin."
 msgstr ""
 
-#: ../../source/news/index.rst:48
+#: ../../source/news/index.rst:46
 msgid "Plugin usage is quite simple:"
 msgstr ""
 
-#: ../../source/news/index.rst:50
+#: ../../source/news/index.rst:48
 msgid "configure alerts"
 msgstr ""
 
-#: ../../source/news/index.rst:52
+#: ../../source/news/index.rst:50
 msgid "You will access the plugin configuration from the *Tools* > *Alerts*."
 msgstr ""
 
-#: ../../source/news/index.rst:56
+#: ../../source/news/index.rst:54
 msgid "Create alerts"
 msgstr ""
 
-#: ../../source/news/index.rst:58
+#: ../../source/news/index.rst:56
 msgid "Name : display as talert title"
 msgstr ""
 
-#: ../../source/news/index.rst:59
+#: ../../source/news/index.rst:57
 msgid "Active : is active or not"
 msgstr ""
 
-#: ../../source/news/index.rst:60
+#: ../../source/news/index.rst:58
 msgid "Description : content of alert"
 msgstr ""
 
-#: ../../source/news/index.rst:61
+#: ../../source/news/index.rst:59
 msgid "Visibility start / end : period of Visibility"
 msgstr ""
 
-#: ../../source/news/index.rst:62
+#: ../../source/news/index.rst:60
 msgid "Type : type of alert (General, Information, Warning, Problem)"
 msgstr ""
 
-#: ../../source/news/index.rst:63
+#: ../../source/news/index.rst:61
 msgid "Can close alert : User can close alert ?"
 msgstr ""
 
-#: ../../source/news/index.rst:64
+#: ../../source/news/index.rst:62
 msgid "Show on login page : display or not alert on login page"
 msgstr ""
 
-#: ../../source/news/index.rst:65
+#: ../../source/news/index.rst:63
 msgid "Show on helpdesk page : display or not alert on helpdesk page"
 msgstr ""
 
-#: ../../source/news/index.rst:66
+#: ../../source/news/index.rst:64
 msgid "Sub-entity : display or not on sub-entity"
 msgstr ""
 
-#: ../../source/news/index.rst:72
+#: ../../source/news/index.rst:70
 msgid "Targets"
 msgstr ""
 
-#: ../../source/news/index.rst:74
+#: ../../source/news/index.rst:72
 msgid "You can define target by type"
 msgstr ""
 
-#: ../../source/news/index.rst:76
+#: ../../source/news/index.rst:74
 msgid "Group : for all users of group"
 msgstr ""
 
-#: ../../source/news/index.rst:77
+#: ../../source/news/index.rst:75
 msgid "Profil : for all users with profile"
 msgstr ""
 
-#: ../../source/news/index.rst:78
+#: ../../source/news/index.rst:76
 msgid "User : for specifi user"
 msgstr ""
 
-#: ../../source/news/index.rst:84
+#: ../../source/news/index.rst:82
 msgid "Display on login page"
 msgstr ""
 
-#: ../../source/news/index.rst:90
+#: ../../source/news/index.rst:88
 msgid "Display on helpdesk page"
 msgstr ""
 
-#: ../../source/news/index.rst:97
+#: ../../source/news/index.rst:95
 msgid "FAQ"
 msgstr ""
 
-#: ../../source/news/index.rst:99
+#: ../../source/news/index.rst:97
 msgid ""
 "If you have any questions about using the plugin, please consult `our FAQ "
 "<https://faq.teclib.com/04_Plugins/News/>`_"

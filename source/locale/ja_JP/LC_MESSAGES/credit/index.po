@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 13:57+0200\n"
 "PO-Revision-Date: 2020-01-24 06:36+0000\n"
 "Language-Team: Japanese (Japan) (https://app.transifex.com/teclib/teams/28042/ja_JP/)\n"
 "MIME-Version: 1.0\n"
@@ -65,33 +65,34 @@ msgstr ""
 msgid "8.2"
 msgstr ""
 
-#: ../../source/credit/index.rst:22
+#: ../../source/include/no_subscription.rst:2
 msgid ""
-"This plugin is available without a GLPI-Network subscription. It is also "
-"available in `Cloud <https://glpi-network.cloud/>`_"
+"This plugin is available without a `GLPI Network <https://services.glpi-"
+"network.com/#offers>`_ subscription. It is also available on `GLPI Cloud "
+"<https://glpi-network.cloud>`_."
 msgstr ""
 
-#: ../../source/credit/index.rst-1 ../../source/credit/index.rst:25
+#: ../../source/credit/index.rst-1 ../../source/credit/index.rst:24
 msgid "Install the plugin"
 msgstr ""
 
-#: ../../source/credit/index.rst:27
+#: ../../source/credit/index.rst:26
 msgid "Go to the marketplace. Download and install the plugin “**Credit**”."
 msgstr ""
 
-#: ../../source/credit/index.rst:34
+#: ../../source/credit/index.rst:33
 msgid "Setting up the plugin"
 msgstr ""
 
-#: ../../source/credit/index.rst:37
+#: ../../source/credit/index.rst:36
 msgid "Creating a credit type"
 msgstr ""
 
-#: ../../source/credit/index.rst:39
+#: ../../source/credit/index.rst:38
 msgid "From **Setup > Dropdowns**,"
 msgstr ""
 
-#: ../../source/credit/index.rst:40
+#: ../../source/credit/index.rst:39
 msgid "click on **Credits** then **Credit types**."
 msgstr ""
 
@@ -99,11 +100,11 @@ msgstr ""
 msgid "search credit"
 msgstr ""
 
-#: ../../source/credit/index.rst:46
+#: ../../source/credit/index.rst:45
 msgid "Click on **add**."
 msgstr ""
 
-#: ../../source/credit/index.rst:47
+#: ../../source/credit/index.rst:46
 msgid "Enter a name representing the type of credit granted"
 msgstr ""
 
@@ -111,73 +112,73 @@ msgstr ""
 msgid "add credit"
 msgstr ""
 
-#: ../../source/credit/index.rst:54
+#: ../../source/credit/index.rst:53
 msgid "Add credit to customer entity(ies)"
 msgstr ""
 
-#: ../../source/credit/index.rst:56
+#: ../../source/credit/index.rst:55
 msgid "Example : We will create 3 types of credit:"
 msgstr ""
 
-#: ../../source/credit/index.rst:58
+#: ../../source/credit/index.rst:57
 msgid "For a new follow-up"
 msgstr ""
 
-#: ../../source/credit/index.rst:59
+#: ../../source/credit/index.rst:58
 msgid "For a new task"
 msgstr ""
 
-#: ../../source/credit/index.rst:60
+#: ../../source/credit/index.rst:59
 msgid "For a new solution"
 msgstr ""
 
-#: ../../source/credit/index.rst:62
+#: ../../source/credit/index.rst:61
 msgid ""
 "You can create a single type of credit which will group together the 3, it "
 "depends on the management of each case."
 msgstr ""
 
-#: ../../source/credit/index.rst:64
+#: ../../source/credit/index.rst:63
 msgid ""
 "In **Administration > Entities**, select the entity that will receive the "
 "credits."
 msgstr ""
 
-#: ../../source/credit/index.rst:65 ../../source/credit/index.rst:91
+#: ../../source/credit/index.rst:64 ../../source/credit/index.rst:90
 msgid "Go to the **Credit** section"
 msgstr ""
 
-#: ../../source/credit/index.rst:66
+#: ../../source/credit/index.rst:65
 msgid "In the section **Add a credit**, enter a name for the new credit"
 msgstr ""
 
-#: ../../source/credit/index.rst:67
+#: ../../source/credit/index.rst:66
 msgid "Define the type of credit created earlier"
 msgstr ""
 
-#: ../../source/credit/index.rst:68
+#: ../../source/credit/index.rst:67
 msgid "The start and end dates of the credit"
 msgstr ""
 
-#: ../../source/credit/index.rst:69
+#: ../../source/credit/index.rst:68
 msgid "Activate it,"
 msgstr ""
 
-#: ../../source/credit/index.rst:70
+#: ../../source/credit/index.rst:69
 msgid ""
 "Make it available or not in the child entities (note that if you are in the "
 "parent entity, it will be accessible to all entities)"
 msgstr ""
 
-#: ../../source/credit/index.rst:71
+#: ../../source/credit/index.rst:70
 msgid "The quantity of credit sold"
 msgstr ""
 
-#: ../../source/credit/index.rst:72
+#: ../../source/credit/index.rst:71
 msgid "The authorisation to overconsume or not"
 msgstr ""
 
-#: ../../source/credit/index.rst:73
+#: ../../source/credit/index.rst:72
 msgid "Click on **add**"
 msgstr ""
 
@@ -185,13 +186,13 @@ msgstr ""
 msgid "add voucher"
 msgstr ""
 
-#: ../../source/credit/index.rst:79
+#: ../../source/credit/index.rst:78
 msgid ""
 "Here, we’ll do the same for the 3 types of credit (followup, task and "
 "solution)"
 msgstr ""
 
-#: ../../source/credit/index.rst:81
+#: ../../source/credit/index.rst:80
 msgid ""
 "It is therefore possible to enter different values (number of credits, "
 "validity, overconsumption, etc.) for each credit:"
@@ -201,21 +202,21 @@ msgstr ""
 msgid "list voucher"
 msgstr ""
 
-#: ../../source/credit/index.rst:88
+#: ../../source/credit/index.rst:87
 msgid "Define default values"
 msgstr ""
 
-#: ../../source/credit/index.rst:90
+#: ../../source/credit/index.rst:89
 msgid ""
 "In **Administration > Entities**, select the entity that will receive the "
 "credits"
 msgstr ""
 
-#: ../../source/credit/index.rst:92
+#: ../../source/credit/index.rst:91
 msgid "In the **Default options for entity** section"
 msgstr ""
 
-#: ../../source/credit/index.rst:93
+#: ../../source/credit/index.rst:92
 msgid "Select the type of credit by action"
 msgstr ""
 
@@ -223,31 +224,31 @@ msgstr ""
 msgid "default credit"
 msgstr ""
 
-#: ../../source/credit/index.rst:100 ../../source/credit/index.rst:148
+#: ../../source/credit/index.rst:99 ../../source/credit/index.rst:147
 msgid "Click on **Update**"
 msgstr ""
 
-#: ../../source/credit/index.rst:103
+#: ../../source/credit/index.rst:102
 msgid ""
 "\"Caution Indicating credit types does not allow automatic settlement. It "
 "pre-selects the credit but it must be settled by the technician."
 msgstr ""
 
-#: ../../source/credit/index.rst:106
+#: ../../source/credit/index.rst:105
 msgid "Counting credits"
 msgstr ""
 
-#: ../../source/credit/index.rst:108
+#: ../../source/credit/index.rst:107
 msgid ""
 "When a ticket is created, you can choose whether or not to deduct the "
 "corresponding credits."
 msgstr ""
 
-#: ../../source/credit/index.rst:111
+#: ../../source/credit/index.rst:110
 msgid "In our example, we have chosen to deduct each action."
 msgstr ""
 
-#: ../../source/credit/index.rst:113
+#: ../../source/credit/index.rst:112
 msgid ""
 "If we are doing a **follow-up**, we can deduct the credit assigned by "
 "default:"
@@ -257,7 +258,7 @@ msgstr ""
 msgid "add credit on ticket"
 msgstr ""
 
-#: ../../source/credit/index.rst:119
+#: ../../source/credit/index.rst:118
 msgid "The same for a **task**:"
 msgstr ""
 
@@ -265,7 +266,7 @@ msgstr ""
 msgid "add credit on task"
 msgstr ""
 
-#: ../../source/credit/index.rst:125
+#: ../../source/credit/index.rst:124
 msgid "And for a **solution** :"
 msgstr ""
 
@@ -273,7 +274,7 @@ msgstr ""
 msgid "add credit on solution"
 msgstr ""
 
-#: ../../source/credit/index.rst:131
+#: ../../source/credit/index.rst:130
 msgid ""
 "In the **Credit** section of the ticket you can see a summary of credits "
 "spent and remaining"
@@ -283,39 +284,39 @@ msgstr ""
 msgid "list of credits"
 msgstr ""
 
-#: ../../source/credit/index.rst:138
+#: ../../source/credit/index.rst:137
 msgid "Modify a credit on a ticket"
 msgstr ""
 
-#: ../../source/credit/index.rst:141
+#: ../../source/credit/index.rst:140
 msgid "Increase or decrease a granted credit"
 msgstr ""
 
-#: ../../source/credit/index.rst:143
+#: ../../source/credit/index.rst:142
 msgid "You can modify credits on a ticket if a readjustment is necessary."
 msgstr ""
 
-#: ../../source/credit/index.rst:145
+#: ../../source/credit/index.rst:144
 msgid "From the ticket in question, go to the **credit** section"
 msgstr ""
 
-#: ../../source/credit/index.rst:146
+#: ../../source/credit/index.rst:145
 msgid "Select the credit you wish to adjust"
 msgstr ""
 
-#: ../../source/credit/index.rst:147 ../../source/credit/index.rst:163
+#: ../../source/credit/index.rst:146 ../../source/credit/index.rst:162
 msgid "Click on **Actions**"
 msgstr ""
 
-#: ../../source/credit/index.rst:149
+#: ../../source/credit/index.rst:148
 msgid "Click on **Quantity consumed** then add the desired quantity"
 msgstr ""
 
-#: ../../source/credit/index.rst:150 ../../source/credit/index.rst:165
+#: ../../source/credit/index.rst:149 ../../source/credit/index.rst:164
 msgid "Click on **Send**"
 msgstr ""
 
-#: ../../source/credit/index.rst:155 ../../source/credit/index.rst:170
+#: ../../source/credit/index.rst:154 ../../source/credit/index.rst:169
 msgid "See how to proceed"
 msgstr ""
 
@@ -323,19 +324,19 @@ msgstr ""
 msgid "modify credit on ticket"
 msgstr ""
 
-#: ../../source/credit/index.rst:159
+#: ../../source/credit/index.rst:158
 msgid "Delete deducted credits"
 msgstr ""
 
-#: ../../source/credit/index.rst:161
+#: ../../source/credit/index.rst:160
 msgid "From the ticket in question, go to the **Credit** section"
 msgstr ""
 
-#: ../../source/credit/index.rst:162
+#: ../../source/credit/index.rst:161
 msgid "Select the credit you wish to delete"
 msgstr ""
 
-#: ../../source/credit/index.rst:164
+#: ../../source/credit/index.rst:163
 msgid "Click on **Delete permanently**"
 msgstr ""
 
@@ -343,37 +344,37 @@ msgstr ""
 msgid "delete credit on ticket"
 msgstr ""
 
-#: ../../source/credit/index.rst:173
+#: ../../source/credit/index.rst:172
 msgid "Credits will be automatically reallocated in the credit bank"
 msgstr ""
 
-#: ../../source/credit/index.rst:176
+#: ../../source/credit/index.rst:175
 msgid "Including an expired credit"
 msgstr ""
 
-#: ../../source/credit/index.rst:178
+#: ../../source/credit/index.rst:177
 msgid ""
 "If the credit has expired, it will not be proposed in the list of available "
 "credits. You will not be able to deduct it. You will need to change the end "
 "date of the credit to be able to use it again."
 msgstr ""
 
-#: ../../source/credit/index.rst:181
+#: ../../source/credit/index.rst:180
 msgid "Notification of expired credits"
 msgstr ""
 
-#: ../../source/credit/index.rst:183
+#: ../../source/credit/index.rst:182
 msgid ""
 "An automatic action is available to notify you when a credit has expired."
 msgstr ""
 
-#: ../../source/credit/index.rst:185
+#: ../../source/credit/index.rst:184
 msgid ""
 "From **Setup > Automatic actions**, modify the **creditexpired** action to "
 "suit your needs."
 msgstr ""
 
-#: ../../source/credit/index.rst:186
+#: ../../source/credit/index.rst:185
 msgid "Click on **Save**"
 msgstr ""
 
@@ -381,17 +382,17 @@ msgstr ""
 msgid "automatic action"
 msgstr ""
 
-#: ../../source/credit/index.rst:192
+#: ../../source/credit/index.rst:191
 msgid ""
 "You can of course customise the notification to suit your needs (**Setup > "
 "Notifications > Notifications > credit expired**)"
 msgstr ""
 
-#: ../../source/credit/index.rst:196
+#: ../../source/credit/index.rst:195
 msgid "FAQ"
 msgstr ""
 
-#: ../../source/credit/index.rst:198
+#: ../../source/credit/index.rst:197
 msgid ""
 "If you have any questions about using the plugin, please consult `our FAQ "
 "<https://faq.teclib.com/04_Plugins/Cr%C3%A9dit/>`_"

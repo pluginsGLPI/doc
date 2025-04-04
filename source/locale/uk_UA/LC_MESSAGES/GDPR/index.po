@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 13:57+0200\n"
 "PO-Revision-Date: 2024-01-26 14:55+0000\n"
 "Language-Team: Ukrainian (Ukraine) (https://app.transifex.com/teclib/teams/28042/uk_UA/)\n"
 "MIME-Version: 1.0\n"
@@ -49,103 +49,103 @@ msgstr ""
 msgid "8.2"
 msgstr ""
 
-#: ../../source/GDPR/index.rst:14
+#: ../../source/include/basic_subscription.rst:2
 msgid ""
-"A `basic license <https://services.glpi-network.com/#offers>`_ (or higher) "
-"is required. This plugin is also available from the `Cloud <https://glpi-"
-"network.cloud/fr/>`_."
+"A `GLPI Network BASIC <https://services.glpi-network.com/#offers>`_ "
+"subscription (or higher) is required. This plugin is also available for all "
+"GLPI Network `Cloud instances <https://glpi-network.cloud>`_."
 msgstr ""
 
-#: ../../source/GDPR/index.rst-1 ../../source/GDPR/index.rst:18
+#: ../../source/GDPR/index.rst-1 ../../source/GDPR/index.rst:17
 msgid "Install the plugin"
 msgstr ""
 
-#: ../../source/GDPR/index.rst:20
+#: ../../source/GDPR/index.rst:19
 msgid "Go to the marketplace. Download and install the **GDPR Tools** plugin."
 msgstr ""
 
-#: ../../source/GDPR/index.rst:26
+#: ../../source/GDPR/index.rst:25
 msgid "Configure the plugin"
 msgstr ""
 
-#: ../../source/GDPR/index.rst:28
+#: ../../source/GDPR/index.rst:27
 msgid "From **Setup > General > GDPR tools**"
 msgstr ""
 
-#: ../../source/GDPR/index.rst:31
+#: ../../source/GDPR/index.rst:30
 msgid "Cleaning up inactive users"
 msgstr ""
 
-#: ../../source/GDPR/index.rst:33
+#: ../../source/GDPR/index.rst:32
 msgid "There are two possible ways of managing inactive users:"
 msgstr ""
 
-#: ../../source/GDPR/index.rst:35
+#: ../../source/GDPR/index.rst:34
 msgid "Clearing the user’s data"
 msgstr ""
 
-#: ../../source/GDPR/index.rst:36
+#: ../../source/GDPR/index.rst:35
 msgid "Deleting the user"
 msgstr ""
 
-#: ../../source/GDPR/index.rst:39
+#: ../../source/GDPR/index.rst:38
 msgid "Cleaning up user data"
 msgstr ""
 
-#: ../../source/GDPR/index.rst:41
+#: ../../source/GDPR/index.rst:40
 msgid ""
 "When the plugin is configured in **Clean** mode, the following actions will "
 "be performed:"
 msgstr ""
 
-#: ../../source/GDPR/index.rst:44 ../../source/GDPR/index.rst:55
+#: ../../source/GDPR/index.rst:43 ../../source/GDPR/index.rst:54
 msgid "Delete all references to the user from the GLPI history"
 msgstr ""
 
-#: ../../source/GDPR/index.rst:45 ../../source/GDPR/index.rst:56
+#: ../../source/GDPR/index.rst:44 ../../source/GDPR/index.rst:55
 msgid "Delete all associated emails"
 msgstr ""
 
-#: ../../source/GDPR/index.rst:46
+#: ../../source/GDPR/index.rst:45
 msgid "Reset all user fields and profiles"
 msgstr ""
 
-#: ../../source/GDPR/index.rst:47
+#: ../../source/GDPR/index.rst:46
 msgid "Move the user to the recycle bin"
 msgstr ""
 
-#: ../../source/GDPR/index.rst:50 ../../source/GDPR/index.rst:57
+#: ../../source/GDPR/index.rst:49 ../../source/GDPR/index.rst:56
 msgid "Delete the user"
 msgstr ""
 
-#: ../../source/GDPR/index.rst:52
+#: ../../source/GDPR/index.rst:51
 msgid ""
 "When the plugin is configured in “Delete” mode, the following actions will "
 "be performed:"
 msgstr ""
 
-#: ../../source/GDPR/index.rst:60
+#: ../../source/GDPR/index.rst:59
 msgid "Deletion is permanent, the user cannot be recovered"
 msgstr ""
 
-#: ../../source/GDPR/index.rst:63
+#: ../../source/GDPR/index.rst:62
 msgid "Scope restriction"
 msgstr ""
 
-#: ../../source/GDPR/index.rst:65
+#: ../../source/GDPR/index.rst:64
 msgid ""
 "The automated deletion process can be restricted to the following scopes:"
 msgstr ""
 
-#: ../../source/GDPR/index.rst:68
+#: ../../source/GDPR/index.rst:67
 msgid "All inactive users"
 msgstr ""
 
-#: ../../source/GDPR/index.rst:69
+#: ../../source/GDPR/index.rst:68
 msgid "Inactive users with no current tickets"
 msgstr ""
 
-#: ../../source/GDPR/index.rst:70
+#: ../../source/GDPR/index.rst:69
 msgid "Inactive users without tickets"
 msgstr ""
 
@@ -153,17 +153,17 @@ msgstr ""
 msgid "setup"
 msgstr ""
 
-#: ../../source/GDPR/index.rst:77
+#: ../../source/GDPR/index.rst:76
 msgid "Automated action"
 msgstr ""
 
-#: ../../source/GDPR/index.rst:79
+#: ../../source/GDPR/index.rst:78
 msgid ""
 "Deletion will take place via a standard GLPI automatic action that can be "
 "configured to run as often as you like."
 msgstr ""
 
-#: ../../source/GDPR/index.rst:81
+#: ../../source/GDPR/index.rst:80
 msgid ""
 "Go to **Setup > Automatic actions**, and select the **cleaninactiveuser** "
 "action then configure it according to your needs."
@@ -173,11 +173,11 @@ msgstr ""
 msgid "automatic action"
 msgstr ""
 
-#: ../../source/GDPR/index.rst:89
+#: ../../source/GDPR/index.rst:88
 msgid "FAQ"
 msgstr ""
 
-#: ../../source/GDPR/index.rst:91
+#: ../../source/GDPR/index.rst:90
 msgid ""
 "If you have any questions about using the plugin, please consult `our FAQ "
 "<https://faq.teclib.com/04_Plugins/GDRP/>`_"

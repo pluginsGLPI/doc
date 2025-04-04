@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kaya Zeren <kayazeren@gmail.com>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2024-03-12 08:29+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,29 +23,35 @@ msgstr ""
 
 #: ../../source/glpiai/preferences.rst:2
 msgid "Preferences"
-msgstr ""
+msgstr "Ayarlar"
 
 #: ../../source/glpiai/preferences.rst:4
 msgid ""
 "In preferences, you can set up the response model. In Free mode, you can use"
 " the GPT-3.5 Turbo 16K model."
 msgstr ""
+"Ayarlar bölümünden yanıt modelini ayarlayabilirsiniz. Serbest kipte GPT-3.5 "
+"Turbo 16K modelini kullanabilirsiniz."
 
 #: ../../source/glpiai/preferences.rst-1
 msgid "field check"
-msgstr ""
+msgstr "Alan denetimi"
 
 #: ../../source/glpiai/preferences.rst:10
 msgid ""
 "You can find information regarding the other plans and plan limits `here "
 "<https://platform.openai.com/account/limits>`_"
 msgstr ""
+"Diğer tarifeler ve tarife sınırları ile ilgili bilgiye `buradan "
+"<https://platform.openai.com/account/limits>`_ ulaşabilirsiniz"
 
 #: ../../source/glpiai/preferences.rst:12
 msgid ""
 "By clicking on **Configure preferences**, you can setup a context and a "
 "role."
 msgstr ""
+"**Ayarları ​​yapılandır** üzerine tıklayarak bir bağlam ve rol "
+"ayarlayabilirsiniz."
 
 #: ../../source/glpiai/preferences.rst:14
 msgid ""
@@ -49,6 +59,10 @@ msgid ""
 " in the company. AI needs to understand your context if it is to respond as "
 "pertinently as possible (there is a context by default that you can change)."
 msgstr ""
+"**Bağlam** kuruluşunuzun, amacınızın, kuruluştaki görevinizin tanımı "
+"olabilir. Yapay zekanın olabildiğince ilgili bir yanıt verebilmesi için "
+"bağlamınızı anlaması gerekir (daha sonra değiştirebileceğiniz bir varsayılan"
+" bağlam vardır)."
 
 #: ../../source/glpiai/preferences.rst:15
 msgid ""
@@ -56,11 +70,15 @@ msgid ""
 " or expert role? The role can influence the tone and level of detail of the "
 "response (there is a role by default that you can change)."
 msgstr ""
+"**Rol**, yapay zekanın nasıl yanıt vermesi gerektiğini belirler. Öğretme, "
+"danışmanlık veya uzman gibi bir rol var mı? Rol, yanıtın tonunu ve ayrıntı "
+"düzeyini etkileyebilir (daha sonra değiştirebileceğiniz bir varsayılan rol "
+"vardır)."
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Creative Commons Lisansı"

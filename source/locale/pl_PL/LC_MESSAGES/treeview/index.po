@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 13:57+0200\n"
 "PO-Revision-Date: 2020-01-24 13:02+0000\n"
 "Language-Team: Polish (Poland) (https://app.transifex.com/teclib/teams/28042/pl_PL/)\n"
 "MIME-Version: 1.0\n"
@@ -69,94 +69,95 @@ msgstr ""
 msgid "8.2"
 msgstr ""
 
-#: ../../source/treeview/index.rst:25
+#: ../../source/include/no_subscription.rst:2
 msgid ""
-"This plugin is available without a GLPI-Network subscription. It is also "
-"available in `Cloud <https://glpi-network.cloud/>`_"
+"This plugin is available without a `GLPI Network <https://services.glpi-"
+"network.com/#offers>`_ subscription. It is also available on `GLPI Cloud "
+"<https://glpi-network.cloud>`_."
 msgstr ""
 
-#: ../../source/treeview/index.rst:29
+#: ../../source/treeview/index.rst:27
 msgid "Features"
 msgstr ""
 
-#: ../../source/treeview/index.rst:31
+#: ../../source/treeview/index.rst:29
 msgid ""
 "This plugin allows you to browse through your inventory via a tree view in a"
 " panel located on the left side of the screen."
 msgstr ""
 
-#: ../../source/treeview/index.rst:33
+#: ../../source/treeview/index.rst:31
 msgid "You can browse the tree of your site to see the equipment."
 msgstr ""
 
-#: ../../source/treeview/index.rst:36
+#: ../../source/treeview/index.rst:34
 msgid "Install the Plugin"
 msgstr ""
 
-#: ../../source/treeview/index.rst:37
+#: ../../source/treeview/index.rst:35
 msgid "Uncompress the archive."
 msgstr ""
 
-#: ../../source/treeview/index.rst:38
+#: ../../source/treeview/index.rst:36
 msgid "Move the ``tag`` directory to the ``<GLPI_ROOT>/plugins`` directory"
 msgstr ""
 
-#: ../../source/treeview/index.rst:39
+#: ../../source/treeview/index.rst:37
 msgid "Navigate to the *Configuration > Plugins* page,"
 msgstr ""
 
-#: ../../source/treeview/index.rst:40
+#: ../../source/treeview/index.rst:38
 msgid "Install and activate the plugin."
 msgstr ""
 
-#: ../../source/treeview/index.rst:44
+#: ../../source/treeview/index.rst:42
 msgid "Usage"
 msgstr ""
 
-#: ../../source/treeview/index.rst:46
+#: ../../source/treeview/index.rst:44
 msgid ""
 "The plugin will create required tables in the database  automatically. Those"
 " tables will be updated along with the plugin."
 msgstr ""
 
-#: ../../source/treeview/index.rst:48
+#: ../../source/treeview/index.rst:46
 msgid "Plugin configuration is quite simple:"
 msgstr ""
 
-#: ../../source/treeview/index.rst:51
+#: ../../source/treeview/index.rst:49
 msgid ""
 "You will access the create form from the *Setup* > *Plugins* > *treeview*."
 msgstr ""
 
-#: ../../source/treeview/index.rst:56
+#: ../../source/treeview/index.rst:54
 msgid "Target for all node : on clic  on node, redirect to new window"
 msgstr ""
 
-#: ../../source/treeview/index.rst:57
+#: ../../source/treeview/index.rst:55
 msgid "Nodes can be highlighted : highlight selcted node or not"
 msgstr ""
 
-#: ../../source/treeview/index.rst:58
+#: ../../source/treeview/index.rst:56
 msgid "Tree is drawn with lines : display or not"
 msgstr ""
 
-#: ../../source/treeview/index.rst:59
+#: ../../source/treeview/index.rst:57
 msgid "Tree is drawn with icons : Display or not icon for node"
 msgstr ""
 
-#: ../../source/treeview/index.rst:60
+#: ../../source/treeview/index.rst:58
 msgid ""
 "Only one node within a parent can be expanded at the same time : more tthan "
 "one parent node can be expand at same time"
 msgstr ""
 
-#: ../../source/treeview/index.rst:61
+#: ../../source/treeview/index.rst:59
 msgid ""
 "Item name : name or inventory number or name + inventory number or inventory"
 " number + name"
 msgstr ""
 
-#: ../../source/treeview/index.rst:62
+#: ../../source/treeview/index.rst:60
 msgid ""
 "Location name : short name or long name or long name + comment or long name "
 "+ comment"

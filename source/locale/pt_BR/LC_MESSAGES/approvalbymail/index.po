@@ -1,19 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Rafael Santos <rafacss@gmail.com>, 2024
+# Diego Nobre <diego@koruma.com.br>, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2024-02-14 18:27+0000\n"
-"Last-Translator: Rafael Santos <rafacss@gmail.com>, 2024\n"
+"Last-Translator: Diego Nobre <diego@koruma.com.br>, 2025\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/teclib/teams/28042/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -53,21 +54,18 @@ msgstr "8.1"
 msgid "8.2"
 msgstr "8.2"
 
-#: ../../source/approvalbymail/index.rst:14
+#: ../../source/include/standard_subscription.rst:2
 msgid ""
-"`standard license <https://services.glpi-network.com/#offers>`_ (or higher) "
-"is required. This plugin is also available from the `Cloud <https://glpi-"
-"network.cloud/>`_."
+"A `GLPI Network STANDARD <https://services.glpi-network.com/#offers>`_ "
+"subscription (or higher) is required. This plugin is also available for all "
+"GLPI Network `Cloud instances <https://glpi-network.cloud>`_."
 msgstr ""
-"`Licença padrão <https://services.glpi-network.com/#offers>`_ (ou superior) "
-"é necessária. Este plugin também está disponível na `Cloud <https://glpi-"
-"network.cloud/>`_."
 
-#: ../../source/approvalbymail/index.rst:17
+#: ../../source/approvalbymail/index.rst:16
 msgid "Install the plugin"
 msgstr "Instale o plug-in"
 
-#: ../../source/approvalbymail/index.rst:19
+#: ../../source/approvalbymail/index.rst:18
 msgid ""
 "Go to the marketplace. Download and install the plugin **ApprovalByMail**."
 msgstr "Vá ao marketplace. Baixe e instale o plugin **ApprovalByMail**."
@@ -76,11 +74,11 @@ msgstr "Vá ao marketplace. Baixe e instale o plugin **ApprovalByMail**."
 msgid "install the plugin"
 msgstr "Instale o plug-in"
 
-#: ../../source/approvalbymail/index.rst:25
+#: ../../source/approvalbymail/index.rst:24
 msgid "Using the plugin"
 msgstr "Usando o plug-in"
 
-#: ../../source/approvalbymail/index.rst:27
+#: ../../source/approvalbymail/index.rst:26
 msgid ""
 "Once activated, there are no specific settings to be made (apart from the "
 "notification layout, if you wish, via **Setup > Notifications > Notification"
@@ -90,7 +88,7 @@ msgstr ""
 "layout da notificação, se desejar, via **Configuração > Notificações > "
 "Modelos de notificação**. O modelo é **Validação de tickets**)"
 
-#: ../../source/approvalbymail/index.rst:29
+#: ../../source/approvalbymail/index.rst:28
 msgid ""
 "In a new ticket, enter the name of the person or group receiving the "
 "approval request."
@@ -102,7 +100,7 @@ msgstr ""
 msgid "add approbation"
 msgstr "adicionar aprovação"
 
-#: ../../source/approvalbymail/index.rst:35
+#: ../../source/approvalbymail/index.rst:34
 msgid ""
 "An email will be received with the option of **Validating** or **Refusing** "
 "the request. This contains 3 links (if no changes have been made to the "
@@ -112,23 +110,23 @@ msgstr ""
 "solicitação. Contém 3 links (se nenhuma alteração tiver sido feita no "
 "modelo)."
 
-#: ../../source/approvalbymail/index.rst:37
+#: ../../source/approvalbymail/index.rst:36
 msgid "The ticket reminder"
 msgstr "O lembrete do ticket"
 
-#: ../../source/approvalbymail/index.rst:38
+#: ../../source/approvalbymail/index.rst:37
 msgid "The acceptance link"
 msgstr "O link de aceitação"
 
-#: ../../source/approvalbymail/index.rst:39
+#: ../../source/approvalbymail/index.rst:38
 msgid "The refusal link"
-msgstr ""
+msgstr "O link de recusa"
 
 #: ../../source/approvalbymail/index.rst-1
 msgid "see the email"
 msgstr "veja o email"
 
-#: ../../source/approvalbymail/index.rst:45
+#: ../../source/approvalbymail/index.rst:44
 msgid ""
 "When the form is validated, you are redirected to GLPI with a notification "
 "of acceptance:"
@@ -140,7 +138,7 @@ msgstr ""
 msgid "validation ok"
 msgstr "validação ok"
 
-#: ../../source/approvalbymail/index.rst:52
+#: ../../source/approvalbymail/index.rst:51
 msgid ""
 "If the form is refused, a comment will be requested to validate the refusal:"
 msgstr ""
@@ -151,7 +149,7 @@ msgstr ""
 msgid "add text refused"
 msgstr "adicionar texto recusado"
 
-#: ../../source/approvalbymail/index.rst:59
+#: ../../source/approvalbymail/index.rst:58
 msgid ""
 "It is not possible to reply 2 times to the validation, an error message will"
 " be displayed:"
@@ -163,11 +161,11 @@ msgstr ""
 msgid "refused"
 msgstr "recusado"
 
-#: ../../source/approvalbymail/index.rst:67
+#: ../../source/approvalbymail/index.rst:66
 msgid "FAQ"
 msgstr "FAQ"
 
-#: ../../source/approvalbymail/index.rst:69
+#: ../../source/approvalbymail/index.rst:68
 msgid ""
 "If you have any questions about using the plugin, please consult `our FAQ "
 "<https://faq.teclib.com/04_Plugins/Approval_mail/>`_"

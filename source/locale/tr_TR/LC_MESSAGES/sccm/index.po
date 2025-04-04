@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2020-01-24 13:02+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -47,7 +47,7 @@ msgstr "Son sürümün gereksinimleri"
 
 #: ../../source/sccm/index.rst:15
 msgid "This plugin requires :"
-msgstr "Bu uygulama ekinin gereksinimleri:"
+msgstr "Bu eklentinin gereksinimleri:"
 
 #: ../../source/sccm/index.rst:17
 msgid "PHP 7.2 or higher"
@@ -59,7 +59,7 @@ msgstr "GLPI 9.4 ve üzerindeki sürümler"
 
 #: ../../source/sccm/index.rst:19
 msgid "FusionInventory plugin for GLPI"
-msgstr "GLPI için FusionInventory uygulama eki"
+msgstr "GLPI için FusionInventory eklentisi"
 
 #: ../../source/sccm/index.rst:20
 msgid "SCCM >= 1802"
@@ -77,51 +77,50 @@ msgstr "Microsoft System Center Configuration Manager"
 msgid "Microsoft Drivers for PHP for Microsoft SQL Server"
 msgstr "PHP için Microsoft SQL Server sürücüleri"
 
-#: ../../source/sccm/index.rst:26
+#: ../../source/include/no_subscription_no_cloud.rst:2
 msgid ""
-"This plugin is available without a GLPI-Network subscription. It is not "
-"available in `Cloud <https://glpi-network.cloud/>`_"
+"This plugin is available without a `GLPI Network <https://services.glpi-"
+"network.com/#offers>`_ subscription. It is not available on `GLPI Cloud "
+"<https://glpi-network.cloud>`_."
 msgstr ""
-"Bu uygulama eki bir GLPI-Network aboneliği olmadan kullanılabilir. `Cloud "
-"<https://glpi-network.cloud/>`_ üzerinde bulunmuyor"
 
-#: ../../source/sccm/index.rst:30
+#: ../../source/sccm/index.rst:29
 msgid "Features"
 msgstr "Özellikler"
 
-#: ../../source/sccm/index.rst:32
+#: ../../source/sccm/index.rst:31
 msgid ""
 "Plugin to synchronize computers from SCCM (version 1802) to GLPI (version "
 "9.3 and 9.4). It uses the \"FusionInventory for GLPI\" plugin and the power "
 "of its internal engine."
 msgstr ""
-"Bu uygulama eki SCCM üzerindeki bilgisayarları (sürüm 1802) GLPI ile (sürüm "
-"9.3 ve 9.4) eşitlemek için kullanılır. \"GLPI FusionInventory\" uygulama eki"
-" ve iç işleyicinin gücünü kullanır."
+"Bu eklenti SCCM üzerindeki bilgisayarları (sürüm 1802) GLPI ile (sürüm 9.3 "
+"ve 9.4) eşitlemek için kullanılır. \"GLPI FusionInventory\" eklentisi ve iç "
+"işleyicinin gücünü kullanır."
 
-#: ../../source/sccm/index.rst:36
+#: ../../source/sccm/index.rst:35
 msgid "Workflow"
 msgstr "İş akışı"
 
-#: ../../source/sccm/index.rst:38
+#: ../../source/sccm/index.rst:37
 msgid "This plugin add two automatic actions : \"SCCMCollect\" et \"SCCMPush\""
-msgstr "Bu uygulama eki iki otomatik işlem ekler: \"SCCMCollect\" ve \"SCCMPush\""
+msgstr "Bu eklenti iki otomatik işlem ekler: \"SCCMCollect\" ve \"SCCMPush\""
 
-#: ../../source/sccm/index.rst:39
+#: ../../source/sccm/index.rst:38
 msgid ""
 "The automatic action \"SCCMCollect\" queries the SCCM server with MsSQL "
 "queries."
 msgstr ""
 "Otomatik \"SCCMCollect\" işlemi, SCCM sunucusuna MsSQL sorguları gönderir."
 
-#: ../../source/sccm/index.rst:40
+#: ../../source/sccm/index.rst:39
 msgid ""
 "This same action builds an XML foreach computer (in FusionInventory format)."
 msgstr ""
 "Aynı işlem, her bilgisayar için bir XML dosyası oluşturur (FusionInventory "
 "biçiminde)."
 
-#: ../../source/sccm/index.rst:41
+#: ../../source/sccm/index.rst:40
 msgid ""
 "The automatic action \"SCCMPush\" injects XML files into GLPI over HTTP(s) "
 "(via cURL and FusionInventory) to display computer in GLPI."
@@ -130,15 +129,15 @@ msgstr ""
 "XML dosyalarını http(s) iletişim kuralı üzerinden GLPI üzerine (cURL ve "
 "FusionInventory aracılığıyla) aktarır."
 
-#: ../../source/sccm/index.rst:45
+#: ../../source/sccm/index.rst:44
 msgid "Schematic diagram"
 msgstr "Şematik çizim"
 
-#: ../../source/sccm/index.rst:52
+#: ../../source/sccm/index.rst:51
 msgid "Collected data"
 msgstr "Toplanan veriler"
 
-#: ../../source/sccm/index.rst:54
+#: ../../source/sccm/index.rst:53
 msgid ""
 "Depending on data availability in the SCCM server, foreach computer we "
 "collect:"
@@ -146,7 +145,7 @@ msgstr ""
 "SCCM sunucusundaki verilerin kullanılabilirliğine bağlı olarak, her "
 "bilgisayar için şu veriler toplanır:"
 
-#: ../../source/sccm/index.rst:56
+#: ../../source/sccm/index.rst:55
 msgid ""
 "Computer: name, last connected user, UUID, user login, domain, comments, "
 "serial"
@@ -154,18 +153,18 @@ msgstr ""
 "Bilgisayar: Ad, son bağlanan kullanıcı, UUID, kullanıcı oturumu açma, etki "
 "alanı, açıklama, seri no"
 
-#: ../../source/sccm/index.rst:57
+#: ../../source/sccm/index.rst:56
 msgid "Operating system: name, architecture, version, service pack"
 msgstr "İşletim sistemi: Ad, mimari, sürüm, hizmet paketi"
 
-#: ../../source/sccm/index.rst:58
+#: ../../source/sccm/index.rst:57
 msgid ""
 "BIOS information: tag, model, type, manufacturer, serial, install date, "
 "version"
 msgstr ""
 "BIOS bilgileri: Etiket, model, tür, üretici, seri no, kurulum tarihi, sürüm"
 
-#: ../../source/sccm/index.rst:59
+#: ../../source/sccm/index.rst:58
 msgid ""
 "CPU: description (or name), manufacturer, frequency, type (arch), nb core, "
 "nb threads"
@@ -173,49 +172,49 @@ msgstr ""
 "İşlemci: Açıklama (veya ad), üretici, frekans, tür (mimari), çekirdek "
 "sayısı, işlem sayısı"
 
-#: ../../source/sccm/index.rst:60
+#: ../../source/sccm/index.rst:59
 msgid "Softwares: name, version, editor, install date"
 msgstr "Yazılımlar: Ad, sürüm, düzenleyici, kurulum tarihi"
 
-#: ../../source/sccm/index.rst:61
+#: ../../source/sccm/index.rst:60
 msgid "Memory (RAM): capacity, decription, frequency, type, bus, serial"
 msgstr "Bellek (RAM): Kapasite, açıklama, frekans, tür, veri yolu, seri no"
 
-#: ../../source/sccm/index.rst:62
+#: ../../source/sccm/index.rst:61
 msgid "Graphical card: name, chipset, memory"
 msgstr "Görüntü kartı: Ad, yonga seti, bellek"
 
-#: ../../source/sccm/index.rst:63
+#: ../../source/sccm/index.rst:62
 msgid "Sound card: name, manufacturer"
 msgstr "Ses kartı: Ad, üretici"
 
-#: ../../source/sccm/index.rst:64
+#: ../../source/sccm/index.rst:63
 msgid "Network card: name, MAC address, IP address (v4, v6)"
 msgstr "Ağ kartı: Ad, MAC adresi, IP adresi (v4, v6)"
 
-#: ../../source/sccm/index.rst:65
+#: ../../source/sccm/index.rst:64
 msgid "Disk part: name, mount type, total size"
 msgstr "Disk bölümü: Ad, bağlama türü, toplam boyut"
 
-#: ../../source/sccm/index.rst:69
+#: ../../source/sccm/index.rst:68
 msgid "Automatic actions"
 msgstr "Otomatik işlemler"
 
-#: ../../source/sccm/index.rst:76
+#: ../../source/sccm/index.rst:75
 msgid "SCCMCollect"
 msgstr "SCCMCollect"
 
-#: ../../source/sccm/index.rst:78
+#: ../../source/sccm/index.rst:77
 msgid "Action to collect data from SCCM to XML files."
 msgstr "SCCM üzerinden XML dosyalarına veri toplama işlemi."
 
-#: ../../source/sccm/index.rst:83
+#: ../../source/sccm/index.rst:82
 msgid "SCCMPush"
 msgstr "SCCMPush"
 
-#: ../../source/sccm/index.rst:85
+#: ../../source/sccm/index.rst:84
 msgid "Action to push XML file to FusionInventory plugin"
-msgstr "XML dosyasını FusionInventory uygulama ekine gönderme işlemi"
+msgstr "XML dosyasını FusionInventory eklentisine gönderme işlemi"
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"

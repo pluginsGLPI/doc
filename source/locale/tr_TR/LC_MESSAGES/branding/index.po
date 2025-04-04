@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kaya Zeren <kayazeren@gmail.com>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2024-01-26 14:56+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,106 +23,106 @@ msgstr ""
 
 #: ../../source/branding/index.rst:2
 msgid "Branding"
-msgstr ""
+msgstr "Marka"
 
 #: ../../source/branding/index.rst:5
 msgid "Requirements (on-premise)"
-msgstr ""
+msgstr "Gereksinimler (özel kurulum)"
 
 #: ../../source/branding/index.rst:8
 msgid "GLPI Version"
-msgstr ""
+msgstr "GLPI sürümü"
 
 #: ../../source/branding/index.rst:8
 msgid "Minimum PHP"
-msgstr ""
+msgstr "En düşük PHP sürümü"
 
 #: ../../source/branding/index.rst:8
 msgid "Recommended"
-msgstr ""
+msgstr "Önerilen"
 
 #: ../../source/branding/index.rst:10
 msgid "10.0.x"
-msgstr ""
+msgstr "10.0.x"
 
 #: ../../source/branding/index.rst:10
 msgid "8.1"
-msgstr ""
+msgstr "8.1"
 
 #: ../../source/branding/index.rst:10
 msgid "8.2"
-msgstr ""
+msgstr "8.2"
 
-#: ../../source/branding/index.rst:14
+#: ../../source/include/basic_subscription.rst:2
 msgid ""
-"A `basic licence <https://services.glpi-network.com/#offers>`_ (or higher) "
-"is required. This plugin is also available from the `Cloud <https://glpi-"
-"network.cloud/fr/>`_."
+"A `GLPI Network BASIC <https://services.glpi-network.com/#offers>`_ "
+"subscription (or higher) is required. This plugin is also available for all "
+"GLPI Network `Cloud instances <https://glpi-network.cloud>`_."
 msgstr ""
 
 #: ../../source/branding/index.rst:17
 msgid "Install the plugin"
-msgstr ""
+msgstr "Eklentiyi kurmak"
 
 #: ../../source/branding/index.rst:19
 msgid "Go to the marketplace. Download and install the **Branding** plugin."
-msgstr ""
+msgstr "Mağazaya gidin. **Marka** eklentisini indirip kurun."
 
 #: ../../source/branding/index.rst-1
 msgid "install the plugin"
-msgstr ""
+msgstr "Eklentiyi kurmak"
 
 #: ../../source/branding/index.rst:26
 msgid "Customize your instance"
-msgstr ""
+msgstr "Kopyanızı özelleştirin"
 
 #: ../../source/branding/index.rst:28
 msgid "Go to **administration > entities** > **branding** tab"
-msgstr ""
+msgstr "**Yönetim > Varlıklar** > **Marka** sekmesine gidin"
 
 #: ../../source/branding/index.rst:30
 msgid "Here you can replace :"
-msgstr ""
+msgstr "Buradan şu değişiklikleri yapabilirsiniz:"
 
 #: ../../source/branding/index.rst:32 ../../source/branding/index.rst:46
 msgid "the logo at top left (including folded bar)"
-msgstr ""
+msgstr "Sol üstteki logo (katlanmış çubuk ile)"
 
 #: ../../source/branding/index.rst:33
 msgid "the logo on the login page,"
-msgstr ""
+msgstr "Oturum açma sayfasındaki logo,"
 
 #: ../../source/branding/index.rst:34
 msgid "the background of the login page,"
-msgstr ""
+msgstr "Oturum açma sayfasının arka planı,"
 
 #: ../../source/branding/index.rst:35 ../../source/branding/index.rst:47
 msgid "the icon in the browser bar"
-msgstr ""
+msgstr "Tarayıcı çubuğundaki simge"
 
 #: ../../source/branding/index.rst-1
 msgid "list of custom"
-msgstr ""
+msgstr "Özelleştirmelerin listesi"
 
 #: ../../source/branding/index.rst:42
 msgid "Custom by entity"
-msgstr ""
+msgstr "Varlığa göre özelleştirme"
 
 #: ../../source/branding/index.rst:44
 msgid "You can modify certain elements by entity:"
-msgstr ""
+msgstr "Belirli bileşenleri varlığa göre değiştirebilirsiniz:"
 
 #: ../../source/branding/index.rst-1
 msgid "custom by entity"
-msgstr ""
+msgstr "Varlığa göre özelleştirme"
 
 #: ../../source/branding/index.rst:53
 msgid "Other customisations are common to all entities"
-msgstr ""
+msgstr "Diğer özelleştirmeler tüm varlıklar için ortaktır"
 
 #: ../../source/branding/index.rst:56
 msgid "Recommendations"
-msgstr ""
+msgstr "Öneriler"
 
 #: ../../source/branding/index.rst:58
 msgid ""
@@ -126,10 +130,13 @@ msgid ""
 "entity It is the logo you see when your GLPI page is opened and the left "
 "sidebar is expanded"
 msgstr ""
+"**Sol üst köşe logosu** - İstenilen varlığa göre değiştirilebilir. GLPI "
+"sayfanız açıldığında ve sol kenar çubuğu genişletildiğinde görüntülenen "
+"logodur."
 
 #: ../../source/branding/index.rst:62
 msgid "Default recommended size: **100x55 pixels**"
-msgstr ""
+msgstr "Varsayılan önerilen boyut: **100x55 piksel**"
 
 #: ../../source/branding/index.rst:64
 msgid ""
@@ -137,36 +144,46 @@ msgid ""
 " to the desired entity It is the logo you see when your GLPI page is opened "
 "and the left sidebar is collapsed."
 msgstr ""
+"**Lop sol köşe logosu** (daraltılmış kenar çubuğu) - İstenilen varlığa göre "
+"değiştirilebilir. GLPI sayfanız açıldığında ve sol kenar çubuğu "
+"daraltıldığında görüntülenen logodur."
 
 #: ../../source/branding/index.rst:68
 msgid "Default recommended size **40x40 pixels**"
-msgstr ""
+msgstr "Varsayılan önerilen boyut: **40x40 piksel**"
 
 #: ../../source/branding/index.rst:70
 msgid ""
 "**Favicon** It is the logo you see next to the page title at the beginning "
 "of your browser’s the tab."
 msgstr ""
+"**Favicon** Tarayıcınızın sekmesi açıldığında sayfa başlığının yanında "
+"görüntülenen logodur."
 
 #: ../../source/branding/index.rst:73
 msgid "Default recommended size: **16x16 or 32x32 pixels**"
-msgstr ""
+msgstr "Varsayılan önerilen boyut: **16x16 ya da 32x32 piksel**"
 
 #: ../../source/branding/index.rst:75
 msgid ""
 "**Login page logo** It is the logo you see before you login. It appears with"
 " the fields to fill with your username and password"
 msgstr ""
+"**Oturum açma sayfası logosu** Oturum açmadan önce görüntülenen logodur. "
+"Kullanıcı adının ve parolanın yazılması gereken alanlarla birlikte "
+"görüntülenir."
 
 #: ../../source/branding/index.rst:78
 msgid "Default recommended size: **220x130 pixels**"
-msgstr ""
+msgstr "Varsayılan önerilen boyut: **220x130 piksel**"
 
 #: ../../source/branding/index.rst:80
 msgid ""
 "**Login page background** It is the image you can add as a background at the"
 " login page."
 msgstr ""
+"**Oturum açma sayfası arka planı** Oturum açma sayfasının arka planı olarak "
+"ekleyebileceğiniz görseldir."
 
 #: ../../source/branding/index.rst:83
 msgid ""
@@ -174,21 +191,26 @@ msgid ""
 "The bigger, the better. (Make sure not to surpass the maximum upload limit "
 "for files)"
 msgstr ""
+"Varsayılan önerilen boyut: **Ekranlarınızın genel boyutuna bağlıdır**. Ne "
+"kadar büyükse o kadar iyidir. (Dosyalar için en büyük yükleme sınırını "
+"aşmamaya dikkat edin)"
 
 #: ../../source/branding/index.rst:87
 msgid "FAQ"
-msgstr ""
+msgstr "SSS"
 
 #: ../../source/branding/index.rst:89
 msgid ""
 "If you have any questions about using the plugin, please consult `our FAQ "
 "<https://faq.teclib.com/04_Plugins/Branding/>`_"
 msgstr ""
+"Eklentinin kullanımıyla ilgili herhangi bir sorunuz varsa `SSS "
+"<https://faq.teclib.com/04_Plugins/Branding/>`_ bölümüne bakabilirsiniz."
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Creative Commons Lisansı"

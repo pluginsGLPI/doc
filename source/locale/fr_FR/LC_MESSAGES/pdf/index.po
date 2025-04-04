@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2024-01-31 13:12+0000\n"
 "Last-Translator: Johan Cwiklinski, 2024\n"
 "Language-Team: French (France) (https://app.transifex.com/teclib/teams/28042/fr_FR/)\n"
@@ -53,19 +53,18 @@ msgstr "8.1"
 msgid "8.2"
 msgstr "8.2"
 
-#: ../../source/pdf/index.rst:14
+#: ../../source/include/no_subscription.rst:2
 msgid ""
-"This plugin is available without a GLPI-Network subscription. It is also "
-"available in Cloud."
+"This plugin is available without a `GLPI Network <https://services.glpi-"
+"network.com/#offers>`_ subscription. It is also available on `GLPI Cloud "
+"<https://glpi-network.cloud>`_."
 msgstr ""
-"Ce plugin est disponible sans souscription GLPI-Network. Il est également "
-"disponible sur le Cloud."
 
-#: ../../source/pdf/index.rst:17
+#: ../../source/pdf/index.rst:16
 msgid "Install the plugin"
 msgstr "Installer le plugin"
 
-#: ../../source/pdf/index.rst:19
+#: ../../source/pdf/index.rst:18
 msgid "Go to the marketplace. Download and install the plugin **PDF**"
 msgstr "Allez sur le marketplace. Téléchargez et installez le plugin **PDF**."
 
@@ -73,20 +72,20 @@ msgstr "Allez sur le marketplace. Téléchargez et installez le plugin **PDF**."
 msgid "install the plugin"
 msgstr "Installer le plugin"
 
-#: ../../source/pdf/index.rst:27
+#: ../../source/pdf/index.rst:26
 msgid "Set up the plugin"
 msgstr "Configurer le plugin"
 
-#: ../../source/pdf/index.rst:29
+#: ../../source/pdf/index.rst:28
 msgid "From **Setup > General > Print to pdf**, select :"
 msgstr ""
 "Depuis le menu **Configuration > Général > Imrpimer en PDF**, sélectionnez :"
 
-#: ../../source/pdf/index.rst:31
+#: ../../source/pdf/index.rst:30
 msgid "your preferred currency"
 msgstr "votre devise préférée"
 
-#: ../../source/pdf/index.rst:32
+#: ../../source/pdf/index.rst:31
 msgid "Any text that will be displayed on the PDF."
 msgstr "N'importe quel texte qui sera affiché sur le PDF."
 
@@ -94,25 +93,25 @@ msgstr "N'importe quel texte qui sera affiché sur le PDF."
 msgid "setup the plugin"
 msgstr "Configurer le plugin"
 
-#: ../../source/pdf/index.rst:40
+#: ../../source/pdf/index.rst:39
 msgid "Using the plugin"
 msgstr "Utiliser le plugin"
 
-#: ../../source/pdf/index.rst:43
+#: ../../source/pdf/index.rst:42
 msgid "Printing a contract and its related elements"
 msgstr "Imprimer un contrat et ses éléments liés"
 
-#: ../../source/pdf/index.rst:45
+#: ../../source/pdf/index.rst:44
 msgid "From **Management > Contracts**, select the contract you require"
 msgstr ""
 "Depuis le menu **Gestion > Contrats**, sélectionnez le contrat que vous "
 "souhaitez"
 
-#: ../../source/pdf/index.rst:46
+#: ../../source/pdf/index.rst:45
 msgid "From the **Print pdf** tab"
 msgstr "Depuis l'onglet **Imprimer PDF**"
 
-#: ../../source/pdf/index.rst:47
+#: ../../source/pdf/index.rst:46
 msgid "Click on **Print**"
 msgstr "Cliquez sur **Imprimer**"
 

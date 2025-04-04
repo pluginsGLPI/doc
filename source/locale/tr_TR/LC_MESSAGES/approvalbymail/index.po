@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kaya Zeren <kayazeren@gmail.com>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2024-02-14 18:27+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,143 +23,155 @@ msgstr ""
 
 #: ../../source/approvalbymail/index.rst:2
 msgid "Approval by mail"
-msgstr ""
+msgstr "E-posta ile onay"
 
 #: ../../source/approvalbymail/index.rst:5
 msgid "Requirements (on-premise)"
-msgstr ""
+msgstr "Gereksinimler (özel kurulum)"
 
 #: ../../source/approvalbymail/index.rst:8
 msgid "GLPI Version"
-msgstr ""
+msgstr "GLPI sürümü"
 
 #: ../../source/approvalbymail/index.rst:8
 msgid "Minimum PHP"
-msgstr ""
+msgstr "En düşük PHP sürümü"
 
 #: ../../source/approvalbymail/index.rst:8
 msgid "Recommended"
-msgstr ""
+msgstr "Önerilen"
 
 #: ../../source/approvalbymail/index.rst:10
 msgid "10.0.x"
-msgstr ""
+msgstr "10.0.x"
 
 #: ../../source/approvalbymail/index.rst:10
 msgid "8.1"
-msgstr ""
+msgstr "8.1"
 
 #: ../../source/approvalbymail/index.rst:10
 msgid "8.2"
-msgstr ""
+msgstr "8.2"
 
-#: ../../source/approvalbymail/index.rst:14
+#: ../../source/include/standard_subscription.rst:2
 msgid ""
-"`standard license <https://services.glpi-network.com/#offers>`_ (or higher) "
-"is required. This plugin is also available from the `Cloud <https://glpi-"
-"network.cloud/>`_."
+"A `GLPI Network STANDARD <https://services.glpi-network.com/#offers>`_ "
+"subscription (or higher) is required. This plugin is also available for all "
+"GLPI Network `Cloud instances <https://glpi-network.cloud>`_."
 msgstr ""
 
-#: ../../source/approvalbymail/index.rst:17
+#: ../../source/approvalbymail/index.rst:16
 msgid "Install the plugin"
-msgstr ""
+msgstr "Eklentiyi kurmak"
 
-#: ../../source/approvalbymail/index.rst:19
+#: ../../source/approvalbymail/index.rst:18
 msgid ""
 "Go to the marketplace. Download and install the plugin **ApprovalByMail**."
-msgstr ""
+msgstr "Mağazaya gidin. **E-posta ile onay** eklentisini indirip kurun."
 
 #: ../../source/approvalbymail/index.rst-1
 msgid "install the plugin"
-msgstr ""
+msgstr "Eklentiyi kurmak"
 
-#: ../../source/approvalbymail/index.rst:25
+#: ../../source/approvalbymail/index.rst:24
 msgid "Using the plugin"
-msgstr ""
+msgstr "Eklentiyi kullanmak"
 
-#: ../../source/approvalbymail/index.rst:27
+#: ../../source/approvalbymail/index.rst:26
 msgid ""
 "Once activated, there are no specific settings to be made (apart from the "
 "notification layout, if you wish, via **Setup > Notifications > Notification"
 " templates**. The template is **Tickets validation**)"
 msgstr ""
+"Etkinleştirildikten sonra, yapılması gereken özel bir ayar yoktur "
+"(isterseniz, **Kurulum > Bildirimler > Bildirim kalıpları** bölümünden "
+"bildirim yerleşimini ayarlayabilirsiniz. **Destek kaydı doğrulama** "
+"kalıbıdır)"
 
-#: ../../source/approvalbymail/index.rst:29
+#: ../../source/approvalbymail/index.rst:28
 msgid ""
 "In a new ticket, enter the name of the person or group receiving the "
 "approval request."
 msgstr ""
+"Yeni bir destek kaydında onay isteğinde bulunulacak kişinin veya grubun "
+"adını yazın."
 
 #: ../../source/approvalbymail/index.rst-1
 msgid "add approbation"
-msgstr ""
+msgstr "Onay ekle"
 
-#: ../../source/approvalbymail/index.rst:35
+#: ../../source/approvalbymail/index.rst:34
 msgid ""
 "An email will be received with the option of **Validating** or **Refusing** "
 "the request. This contains 3 links (if no changes have been made to the "
 "model)."
 msgstr ""
+"**Doğrulama** veya **Reddetme** seçeneği bulunan bir e-posta alınır. İçinde "
+"3 bağlantı bulunur (modelde herhangi bir değişiklik yapılmadıysa)."
+
+#: ../../source/approvalbymail/index.rst:36
+msgid "The ticket reminder"
+msgstr "Destek kaydı anımsatıcısı"
 
 #: ../../source/approvalbymail/index.rst:37
-msgid "The ticket reminder"
-msgstr ""
+msgid "The acceptance link"
+msgstr "Onaylama bağlantısı"
 
 #: ../../source/approvalbymail/index.rst:38
-msgid "The acceptance link"
-msgstr ""
-
-#: ../../source/approvalbymail/index.rst:39
 msgid "The refusal link"
-msgstr ""
+msgstr "Reddetme bağlantısı"
 
 #: ../../source/approvalbymail/index.rst-1
 msgid "see the email"
-msgstr ""
+msgstr "E-postayı görüntüle"
 
-#: ../../source/approvalbymail/index.rst:45
+#: ../../source/approvalbymail/index.rst:44
 msgid ""
 "When the form is validated, you are redirected to GLPI with a notification "
 "of acceptance:"
 msgstr ""
+"Form onaylandığında, onay bildirimiyle GLPI üzerine yönlendirilirsiniz:"
 
 #: ../../source/approvalbymail/index.rst-1
 msgid "validation ok"
-msgstr ""
+msgstr "Onaylandı"
 
-#: ../../source/approvalbymail/index.rst:52
+#: ../../source/approvalbymail/index.rst:51
 msgid ""
 "If the form is refused, a comment will be requested to validate the refusal:"
-msgstr ""
+msgstr "Form reddedilirse, reddi doğrulamak için bir yorum yazılması istenir:"
 
 #: ../../source/approvalbymail/index.rst-1
 msgid "add text refused"
-msgstr ""
+msgstr "Reddetme metnini ekleyin"
 
-#: ../../source/approvalbymail/index.rst:59
+#: ../../source/approvalbymail/index.rst:58
 msgid ""
 "It is not possible to reply 2 times to the validation, an error message will"
 " be displayed:"
-msgstr ""
+msgstr "Onay 2 kez yanıtlanamaz. Bir hata iletisi görüntülenir:"
 
 #: ../../source/approvalbymail/index.rst-1
 msgid "refused"
-msgstr ""
+msgstr "Reddedildi"
 
-#: ../../source/approvalbymail/index.rst:67
+#: ../../source/approvalbymail/index.rst:66
 msgid "FAQ"
-msgstr ""
+msgstr "SSS"
 
-#: ../../source/approvalbymail/index.rst:69
+#: ../../source/approvalbymail/index.rst:68
 msgid ""
 "If you have any questions about using the plugin, please consult `our FAQ "
 "<https://faq.teclib.com/04_Plugins/Approval_mail/>`_"
 msgstr ""
+"Eklentinin kullanımıyla ilgili herhangi bir sorunuz varsa `SSS "
+"<https://faq.teclib.com/04_Plugins/Approval_mail/>`_ bölümüne "
+"bakabilirsiniz."
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Creative Commons Lisansı"

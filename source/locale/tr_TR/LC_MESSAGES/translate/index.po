@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kaya Zeren <kayazeren@gmail.com>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2024-01-26 14:57+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,48 +23,48 @@ msgstr ""
 
 #: ../../source/translate/index.rst:3
 msgid "Translate"
-msgstr ""
+msgstr "Çeviri"
 
 #: ../../source/translate/index.rst:6
 msgid "Requirements (on-premise)"
-msgstr ""
+msgstr "Gereksinimler (özel kurulum)"
 
 #: ../../source/translate/index.rst:9
 msgid "GLPI Version"
-msgstr ""
+msgstr "GLPI sürümü"
 
 #: ../../source/translate/index.rst:9
 msgid "Minimum PHP"
-msgstr ""
+msgstr "En düşük PHP sürümü"
 
 #: ../../source/translate/index.rst:9
 msgid "Recommended"
-msgstr ""
+msgstr "Önerilen"
 
 #: ../../source/translate/index.rst:11
 msgid "10.0.x"
-msgstr ""
+msgstr "10.0.x"
 
 #: ../../source/translate/index.rst:11
 msgid "8.1"
-msgstr ""
+msgstr "8.1"
 
 #: ../../source/translate/index.rst:11
 msgid "8.2"
-msgstr ""
+msgstr "8.2"
 
-#: ../../source/translate/index.rst:15
+#: ../../source/include/basic_subscription.rst:2
 msgid ""
-"A `basic licence <https://services.glpi-network.com/#offers>`_ (or higher) "
-"is required. This plugin is also available from the `Cloud <https://glpi-"
-"network.cloud/fr/>`_."
+"A `GLPI Network BASIC <https://services.glpi-network.com/#offers>`_ "
+"subscription (or higher) is required. This plugin is also available for all "
+"GLPI Network `Cloud instances <https://glpi-network.cloud>`_."
 msgstr ""
 
-#: ../../source/translate/index.rst:18
+#: ../../source/translate/index.rst:17
 msgid "Introduction"
-msgstr ""
+msgstr "Giriş"
 
-#: ../../source/translate/index.rst:20
+#: ../../source/translate/index.rst:19
 msgid ""
 "The **Translate** plugin for GLPI is a handy tool designed to enhance "
 "multilingual communication within your GLPI. Leveraging `DeepL "
@@ -68,467 +72,540 @@ msgid ""
 "simple and effective solution for translating elements in the ticket "
 "timeline, fostering seamless collaboration within international teams."
 msgstr ""
+"GLPI için **Çeviri** eklentisi, GLPI içindeki çok dilli iletişimi "
+"geliştirmek için tasarlanmış kullanışlı bir araçtır. `DeepL "
+"<https://www.deepl.com/>`_ çeviri teknolojisinden yararlanan bu eklenti, "
+"destek kaydı zaman akışındaki bileşenleri çevirmek için basit ve etkili bir "
+"çözüm sunarak uluslararası ekipler arasında sorunsuz bir iş birliği sağlar."
 
-#: ../../source/translate/index.rst:22
+#: ../../source/translate/index.rst:21
 msgid ""
 "Whether you're managing projects with teams scattered worldwide or simply "
 "aiming to facilitate communication with users in different languages, the "
 "Translate plugin streamlines the translation process within your GLPI "
 "instance."
 msgstr ""
+"İster dünyanın dört bir yanına dağılmış ekiplerinizle projeler yönetiyor "
+"olun, ister yalnızca farklı dillerdeki kullanıcılarla iletişimi "
+"kolaylaştırmayı hedefliyor olun, Çeviri eklentisi GLPI kopyanızdaki çeviri "
+"sürecini kolaylaştırır."
 
-#: ../../source/translate/index.rst:25
+#: ../../source/translate/index.rst:24
 msgid "Features"
-msgstr ""
+msgstr "Özellikler"
+
+#: ../../source/translate/index.rst:26
+msgid "Translate individual timeline elements"
+msgstr "Bireysel zaman akışı bileşenlerini çevirin"
 
 #: ../../source/translate/index.rst:27
-msgid "Translate individual timeline elements"
-msgstr ""
+msgid "Translate the entire ticket timeline"
+msgstr "Tüm destek kaydı zaman akışını çevirin"
 
 #: ../../source/translate/index.rst:28
-msgid "Translate the entire ticket timeline"
-msgstr ""
+msgid "Translate a follow-up during composition"
+msgstr "Kompozisyon sırasında bir izleme cümlesini çevirin"
 
 #: ../../source/translate/index.rst:29
-msgid "Translate a follow-up during composition"
-msgstr ""
+msgid "Restrict translation to specific languages"
+msgstr "Çeviriyi belirli dillerle sınırlayın"
 
 #: ../../source/translate/index.rst:30
-msgid "Restrict translation to specific languages"
-msgstr ""
+msgid "Restrict translation to specific types of timeline elements"
+msgstr "Çeviriyi belirli türdeki zaman akışı bileşenleriyle sınırlayın"
 
 #: ../../source/translate/index.rst:31
-msgid "Restrict translation to specific types of timeline elements"
-msgstr ""
+msgid "API usage notification"
+msgstr "API kullanımı bildirimi"
 
 #: ../../source/translate/index.rst:32
-msgid "API usage notification"
-msgstr ""
-
-#: ../../source/translate/index.rst:33
 msgid "Translation rights management"
-msgstr ""
+msgstr "Çeviri izinleri yönetimi"
 
-#: ../../source/translate/index.rst:36
+#: ../../source/translate/index.rst:35
 msgid "Requirements"
-msgstr ""
+msgstr "Gereksinimler"
+
+#: ../../source/translate/index.rst:37
+msgid "GLPI version 10.0.10 or higher"
+msgstr "GLPI 10.0.10 ya da üzerindeki bir sürüm"
 
 #: ../../source/translate/index.rst:38
-msgid "GLPI version 10.0.10 or higher"
-msgstr ""
-
-#: ../../source/translate/index.rst:39
 msgid "DeepL API token"
-msgstr ""
+msgstr "DeepL API kodu"
 
-#: ../../source/translate/index.rst:42
+#: ../../source/translate/index.rst:41
 msgid "Operation"
-msgstr ""
+msgstr "İşlem"
 
-#: ../../source/translate/index.rst:45
+#: ../../source/translate/index.rst:44
 msgid "Translating an Element"
-msgstr ""
+msgstr "Bir bileşeni çevirmek"
 
-#: ../../source/translate/index.rst:47
+#: ../../source/translate/index.rst:46
 msgid ""
 "Translation of a ticket element is done by activating the translation button"
 " located at the top right of the element. The target language will "
 "correspond to the user's preferred language."
 msgstr ""
+"Bir destek kaydı bileşeninin çevirisi, bileşenin sağ üst kısmında bulunan "
+"çeviri düğmesinin etkinleştirilmesiyle yapılır. Hedef dil, kullanıcının "
+"yeğlediği dile karşılık gelir."
 
 #: ../../source/translate/index.rst-1
 msgid "Translate Button"
-msgstr ""
-
-#: ../../source/translate/index.rst:59
-msgid ""
-"If the translation button does not appear, it may be due to various reasons:"
-msgstr ""
-
-#: ../../source/translate/index.rst:56 ../../source/translate/index.rst:104
-msgid "the plugin is not configured"
-msgstr ""
-
-#: ../../source/translate/index.rst:57 ../../source/translate/index.rst:105
-msgid "you do not have the right to translate"
-msgstr ""
+msgstr "Çeviri düğmesi"
 
 #: ../../source/translate/index.rst:58
+msgid ""
+"If the translation button does not appear, it may be due to various reasons:"
+msgstr "Çeviri düğmesi görünmüyorsa bunun çeşitli nedenleri olabilir:"
+
+#: ../../source/translate/index.rst:55 ../../source/translate/index.rst:103
+msgid "the plugin is not configured"
+msgstr "Eklenti yapılandırılmamıştır"
+
+#: ../../source/translate/index.rst:56 ../../source/translate/index.rst:104
+msgid "you do not have the right to translate"
+msgstr "Çeviri yapma izniniz yoktur"
+
+#: ../../source/translate/index.rst:57
 msgid "your preferred language is not allowed in the configuration"
-msgstr ""
+msgstr "Kullandığınız dile yapılandırmada izin verilmemiştir"
 
-#: ../../source/translate/index.rst:59 ../../source/translate/index.rst:106
+#: ../../source/translate/index.rst:58 ../../source/translate/index.rst:105
 msgid "the element you want to translate is not allowed in the configuration"
-msgstr ""
+msgstr "Çevirmek istediğiniz bileşene yapılandırmada izin verilmemiştir"
 
-#: ../../source/translate/index.rst:62
+#: ../../source/translate/index.rst:61
 msgid "Undo Translation / Display Original Version"
-msgstr ""
+msgstr "Çeviriyi geri al / Özgün sürümü görüntüle"
 
-#: ../../source/translate/index.rst:64
+#: ../../source/translate/index.rst:63
 msgid ""
 "Once an element is translated, it will remain so until you request to undo "
 "the translation and display the original version. Displaying the original "
 "version is done through the same button used to translate an element, "
 "located at the top right of the element."
 msgstr ""
+"Bir bileşen çevrildikten sonra, çeviriyi geri alıp özgün sürümün "
+"görüntülenmesi istenene kadar öyle kalır. Özgün sürümün görüntülenmesi, "
+"bileşenin sağ üst köşesinde bulunan, bileşeni çevirmek için kullanılan aynı "
+"düğme ile yapılır."
 
 #: ../../source/translate/index.rst-1
 msgid "Undo Translation Button"
-msgstr ""
+msgstr "Çeviriyi geri al düğmesi"
 
-#: ../../source/translate/index.rst:71
+#: ../../source/translate/index.rst:70
 msgid "Translate Entire Timeline"
-msgstr ""
+msgstr "Tüm zaman akışını çevirin"
 
-#: ../../source/translate/index.rst:73
+#: ../../source/translate/index.rst:72
 msgid ""
 "It is possible to translate the entire timeline at once. To do this, display"
 " the additional options menu at the bottom right, next to the \"Save\" "
 "button. Then, click on \"Translate all elements.\""
 msgstr ""
+"Tüm zaman akışı bir kerede çevrilebilir. Bunu yapmak için, sağ altta, "
+"\"Kaydet\" düğmesinin yanında ek seçenekler menüsünü görüntüleyin. Ardından,"
+" \"Tüm bileşenleri çevir\" üzerine tıklayın."
 
 #: ../../source/translate/index.rst-1
 msgid "Translate All Elements"
-msgstr ""
+msgstr "Tüm bileşenleri çevirin"
 
-#: ../../source/translate/index.rst:80
+#: ../../source/translate/index.rst:79
 msgid "Undo Translations / Display Original Versions of Entire Timeline"
 msgstr ""
+"Tüm zaman akışında çevirileri geri alın / özgün sürümleri görüntüleyin"
 
-#: ../../source/translate/index.rst:82
+#: ../../source/translate/index.rst:81
 msgid ""
 "If all timeline elements are translated and you want to display their "
 "original versions, display the additional options menu at the bottom right, "
 "next to the \"Save\" button. Then, click on \"Undo translation of all "
 "elements.\""
 msgstr ""
+"Tüm zaman akışı bileşenleri çevrilmişse ve özgün sürümlerini görüntülemek "
+"istiyorsanız, sağ altta, \"Kaydet\" düğmesinin yanında ek seçenekler "
+"menüsünü görüntüleyin. Ardından, \"Tüm bileşenlerin çevirisini geri al\" "
+"üzerine tıklayın."
 
 #: ../../source/translate/index.rst-1
 msgid "Undo All Translations"
-msgstr ""
+msgstr "Tüm çevirileri geri alın"
 
-#: ../../source/translate/index.rst:89
+#: ../../source/translate/index.rst:88
 msgid "Translating a Follow-up during Writing"
-msgstr ""
+msgstr "Yazma sırasında bir izlemeyi çevirin"
 
-#: ../../source/translate/index.rst:91
+#: ../../source/translate/index.rst:90
 msgid ""
 "It is possible to translate a follow-up before it is sent. To do this, write"
 " your follow-up and click on the drop-down menu at the top right of the "
 "follow-up editing window. Finally, select the language in which the follow-"
 "up's content should be translated."
 msgstr ""
+"Bir izleme gönderilmeden önce çevrilebilir. Bunu yapmak için, izleme "
+"yazınızı yazın ve izleme düzenleme penceresinin sağ üst köşesindeki açılır "
+"menüye tıklayın. Son olarak, izleme yazısının içeriğinin çevrileceği dili "
+"seçin."
 
-#: ../../source/translate/index.rst:93
+#: ../../source/translate/index.rst:92
 msgid ""
 "Once your follow-up is translated, you can revert to the original text by "
 "selecting the \"Original\" option in the previous language selection menu."
 msgstr ""
+"İzleme metninin çevirisi tamamlandıktan sonra önceki dil seçim menüsünden "
+"\"Özgün\" seçeneğini seçerek özgün metne geri dönebilirsiniz."
 
-#: ../../source/translate/index.rst:95
+#: ../../source/translate/index.rst:94
 msgid ""
 "This feature is also available for tasks, validation requests, and "
 "solutions."
 msgstr ""
+"Bu özellik görevler, doğrulama istekleri ve çözümler için de kullanılabilir."
 
 #: ../../source/translate/index.rst-1
 msgid "Translate Follow-up"
-msgstr ""
+msgstr "İzlemeyi çevirin"
 
-#: ../../source/translate/index.rst:106
+#: ../../source/translate/index.rst:105
 msgid ""
 "If the translation menu does not appear, it may be due to various reasons:"
-msgstr ""
+msgstr "Çeviri menüsü görünmüyorsa bunun çeşitli nedenleri olabilir:"
 
-#: ../../source/translate/index.rst:109
+#: ../../source/translate/index.rst:108
 msgid "Persistence of Translations"
-msgstr ""
+msgstr "Çevirilerin kalıcılığı"
 
-#: ../../source/translate/index.rst:111
+#: ../../source/translate/index.rst:110
 msgid ""
 "To reduce character consumption and improve plugin performance, translations"
 " are saved in the database. This approach allows sharing translations among "
 "all users, avoiding the need to translate the same element multiple times in"
 " the same language."
 msgstr ""
+"Karakter tüketimini azaltmak ve eklenti başarımını iyileştirmek için "
+"çeviriler veri tabanına kaydedilir. Bu yaklaşım, çevirilerin tüm "
+"kullanıcılar arasında paylaşılmasını sağlayarak aynı bileşeni aynı dilde "
+"birden fazla kez çevirme gereksinimini ortadan kaldırır."
 
-#: ../../source/translate/index.rst:113
+#: ../../source/translate/index.rst:112
 msgid ""
 "Translation requests from a user for an element are also saved, "
 "automatically displaying the translated version when returning to a ticket's"
 " timeline."
 msgstr ""
+"Bir kullanıcıdan bir bileşen için gelen çeviri istekleri de kaydedilir ve "
+"bir destek kaydının zaman akışına geri dönüldüğünde çevrilmiş sürüm otomatik"
+" olarak görüntülenir."
 
-#: ../../source/translate/index.rst:115
+#: ../../source/translate/index.rst:114
 msgid ""
 "If an element is modified, old translations will be considered obsolete. "
 "When a user requests a translation, a new translation will be performed for "
 "that element."
 msgstr ""
+"Bir bileşen değiştirilirse, eski çeviriler geçersiz sayılır. Bir kullanıcı "
+"bir çeviri isteğinde bulunduğunda, o bileşen için yeni bir çeviri yapılır."
 
-#: ../../source/translate/index.rst:118
+#: ../../source/translate/index.rst:117
 msgid "DeepL API Key"
-msgstr ""
+msgstr "DeepL API anahtarı"
 
-#: ../../source/translate/index.rst:120
+#: ../../source/translate/index.rst:119
 msgid ""
 "The **Translate** plugin uses the DeepL translation service. For this, a "
 "DeepL API key is required. DeepL offers two API plans, a free plan (limited "
 "to 500,000 characters per month) and a paid plan (at €4.99/month + "
 "€0.00002/character). Both plans are supported by the plugin."
 msgstr ""
+"**Çeviri** eklentisi DeepL çeviri hizmetini kullanır. Bunun için bir DeepL "
+"API anahtarı gerekir. DeepL iki API tarifesi sunar, bir ücretsiz tarife "
+"(ayda 500.000 karakterle sınırlıdır) ve bir ücretli tarife (ayda 4,99 € + "
+"0,00002 €/karakter). Her iki tarife de eklenti tarafından desteklenir."
 
-#: ../../source/translate/index.rst:123
+#: ../../source/translate/index.rst:122
 msgid "Obtaining the API Key"
-msgstr ""
+msgstr "API anahtarını almak"
 
-#: ../../source/translate/index.rst:125
+#: ../../source/translate/index.rst:124
 msgid "Visit the DeepL website, \"API\" section (https://www.deepl.com/pro-api)"
-msgstr ""
+msgstr "DeepL sitesinde \"API\" bölümüne gidin (https://www.deepl.com/pro-api)"
 
-#: ../../source/translate/index.rst:127
+#: ../../source/translate/index.rst:126
 msgid "DeepL API Section"
-msgstr ""
+msgstr "DeepL API bölümü"
 
-#: ../../source/translate/index.rst:132
+#: ../../source/translate/index.rst:131
 msgid "Select a plan"
-msgstr ""
+msgstr "Bir tarife seçin"
 
-#: ../../source/translate/index.rst:134
+#: ../../source/translate/index.rst:133
 msgid "Select Plan"
-msgstr ""
+msgstr "Tarifeyi seçin"
 
-#: ../../source/translate/index.rst:139
+#: ../../source/translate/index.rst:138
 msgid "Log in or create an account"
-msgstr ""
+msgstr "Oturum ya da hesap açın"
 
-#: ../../source/translate/index.rst:141
+#: ../../source/translate/index.rst:140
 msgid "Log in or Create Accoun"
-msgstr ""
+msgstr "Oturum ya da hesap açın"
 
-#: ../../source/translate/index.rst:145
+#: ../../source/translate/index.rst:144
 msgid "Enter your personal informations"
-msgstr ""
+msgstr "Kişisel bilgilerinizi yazın"
 
-#: ../../source/translate/index.rst:147
+#: ../../source/translate/index.rst:146
 msgid "Enter Personal Informations"
-msgstr ""
+msgstr "Kişisel bilgilerinizi yazın"
 
-#: ../../source/translate/index.rst:151
+#: ../../source/translate/index.rst:150
 msgid "Accept the terms of use and complete the registration"
-msgstr ""
+msgstr "Hesap açmayı tamamlamak için kullanım koşullarını kabul edin"
 
-#: ../../source/translate/index.rst:153
+#: ../../source/translate/index.rst:152
 msgid "Accept Terms"
-msgstr ""
+msgstr "Koşulları kabul edin"
 
-#: ../../source/translate/index.rst:157
+#: ../../source/translate/index.rst:156
 msgid "Click on \"Account management\" to retrieve your API key"
-msgstr ""
+msgstr "API anahtarınızı almak için \"Hesap yönetimi\" üzerine tıklayın"
 
-#: ../../source/translate/index.rst:159
+#: ../../source/translate/index.rst:158
 msgid "Account Management"
-msgstr ""
+msgstr "Hesap yönetimi"
 
-#: ../../source/translate/index.rst:163
+#: ../../source/translate/index.rst:162
 msgid ""
 "In the \"Account\" tab, retrieve your API key at the bottom of the page, in "
 "the \"Authentication Key for DeepL API\" section"
 msgstr ""
+"\"Hesap\" sekmesinde, sayfanın alt kısmındaki \"DeepL API için kimlik "
+"doğrulama anahtarı\" bölümünden API anahtarınızı alın"
 
-#: ../../source/translate/index.rst:165
+#: ../../source/translate/index.rst:164
 msgid "Retrieve API Key"
-msgstr ""
+msgstr "API anahtarınızı alın"
 
-#: ../../source/translate/index.rst:171
+#: ../../source/translate/index.rst:170
 msgid "Configuration"
-msgstr ""
+msgstr "Yapılandırma"
 
-#: ../../source/translate/index.rst:174
+#: ../../source/translate/index.rst:173
 msgid "Initial Configuration"
-msgstr ""
+msgstr "İlk yapılandırma"
 
-#: ../../source/translate/index.rst:176
+#: ../../source/translate/index.rst:175
 msgid "After installing the plugin, it is necessary to enter a DeepL API key."
-msgstr ""
+msgstr "Eklentiyi kurduktan sonra DeepL API anahtarını yazmanız gerekir."
 
 #: ../../source/translate/index.rst-1
 msgid "Enter API Key"
-msgstr ""
+msgstr "API anahtarını yazın"
 
-#: ../../source/translate/index.rst:183
+#: ../../source/translate/index.rst:182
 msgid "Consumption Configuration"
-msgstr ""
+msgstr "Tüketim yapılandırması"
 
-#: ../../source/translate/index.rst:185
+#: ../../source/translate/index.rst:184
 msgid ""
 "Some configuration options are only available if the API key is linked to "
 "the paid plan."
 msgstr ""
+"Bazı yapılandırma seçenekleri yalnızca API anahtarı bir ücretli tarifeye "
+"bağlıysa kullanılabilir."
 
-#: ../../source/translate/index.rst:188
+#: ../../source/translate/index.rst:187
 msgid "Usage"
-msgstr ""
+msgstr "Kullanım"
 
-#: ../../source/translate/index.rst:190
+#: ../../source/translate/index.rst:189
 msgid ""
 "This progress bar allows you to monitor character consumption at the API "
 "level."
 msgstr ""
+"Bu ilerleme çubuğu, API düzeyinde karakter tüketimini izlemenizi sağlar."
 
-#: ../../source/translate/index.rst:193
+#: ../../source/translate/index.rst:192
 msgid "Allow Exceeding Limit"
-msgstr ""
+msgstr "Sınır aşılabilsin"
 
-#: ../../source/translate/index.rst:195
+#: ../../source/translate/index.rst:194
 msgid ""
 "Allows setting or not setting a monthly limit on character consumption."
-msgstr ""
+msgstr "Karakter tüketiminde aylık sınır olup olmamasını belirler."
 
-#: ../../source/translate/index.rst:197
+#: ../../source/translate/index.rst:196
 msgid "> This option is limited to the paid DeepL API plan."
-msgstr ""
+msgstr "> Bu seçenek yalnızca ücretli DeepL API tarifesiyle sınırlıdır."
 
-#: ../../source/translate/index.rst:199
+#: ../../source/translate/index.rst:198
 msgid "**Usage Limit**"
-msgstr ""
+msgstr "**Kullanım sınırı**"
 
-#: ../../source/translate/index.rst:201
+#: ../../source/translate/index.rst:200
 msgid "Allows setting the type of limitation:"
-msgstr ""
+msgstr "Sınırlama türünün ayarlanmasını sağlar:"
+
+#: ../../source/translate/index.rst:202
+msgid "Characters: Limits usage to the number of characters"
+msgstr "Karakterler: Kullanımını karakter sayısıyla sınırlar"
 
 #: ../../source/translate/index.rst:203
-msgid "Characters: Limits usage to the number of characters"
-msgstr ""
-
-#: ../../source/translate/index.rst:204
 msgid "Cost: Limits usage to cost"
-msgstr ""
+msgstr "Maliyet: Kullanımı maliyetle sınırlar"
 
-#: ../../source/translate/index.rst:206 ../../source/translate/index.rst:216
+#: ../../source/translate/index.rst:205 ../../source/translate/index.rst:215
 msgid "This option is limited to the paid DeepL API plan."
-msgstr ""
+msgstr "Bu seçenek yalnızca ücretli DeepL API tarifesiyle sınırlıdır."
 
-#: ../../source/translate/index.rst:208
+#: ../../source/translate/index.rst:207
 msgid "**Per Characters / Per Cost**"
-msgstr ""
+msgstr "**Karaktere göre / Maliyete göre**"
 
-#: ../../source/translate/index.rst:210
+#: ../../source/translate/index.rst:209
 msgid ""
 "Allows setting the consumption limit corresponding to the type defined "
 "above."
 msgstr ""
+"Yukarıda tanımlanan türe karşılık gelen tüketim sınırının ayarlanmasını "
+"sağlar."
 
-#: ../../source/translate/index.rst:212
+#: ../../source/translate/index.rst:211
 msgid "For usage limited by cost, monthly subscription fees are not included."
 msgstr ""
+"Maliyet ile sınırlı kullanımlarda aylık abonelik ücretleri katılmamıştır."
 
-#: ../../source/translate/index.rst:219
+#: ../../source/translate/index.rst:218
 msgid "Maximum Number of Characters Translated per Translation"
-msgstr ""
+msgstr "Çeviri başına çevrilebilecek en fazla karakter sayısı"
 
-#: ../../source/translate/index.rst:221
+#: ../../source/translate/index.rst:220
 msgid ""
 "Allows setting a maximum number of characters translated at once. This "
 "configuration is important and filters out overly large and resource-"
 "consuming elements for the API."
 msgstr ""
+"Aynı anda çevrilecek en fazla karakter sayısını ayarlamayı sağlar. Bu "
+"yapılandırma önemlidir ve API için aşırı büyük ve kaynak tüketen bileşenleri"
+" süzer."
 
-#: ../../source/translate/index.rst:224
+#: ../../source/translate/index.rst:223
 msgid "Notification Configuration"
-msgstr ""
+msgstr "Bildirim yapılandırması"
 
-#: ../../source/translate/index.rst:227
+#: ../../source/translate/index.rst:226
 msgid "Enable API Usage Notifications"
-msgstr ""
+msgstr "API kullanımı bildirimlerini açın"
 
-#: ../../source/translate/index.rst:229
+#: ../../source/translate/index.rst:228
 msgid ""
 "Allows enabling API usage notifications. Once enabled, alert thresholds are "
 "configurable using the \"Usage Threshold\" fields. Default value: Yes"
 msgstr ""
+"API kullanım bildirimlerini açar. Açıldıktan sonra, uyarı eşikleri "
+"\"Kullanım eşiği\" alanları kullanılarak yapılandırılabilir. Varsayılan "
+"değer: Evet"
 
-#: ../../source/translate/index.rst:233
+#: ../../source/translate/index.rst:232
 msgid "Usage Threshold"
-msgstr ""
+msgstr "Kullanım eşiği"
 
-#: ../../source/translate/index.rst:235
+#: ../../source/translate/index.rst:234
 msgid ""
 "This option allows setting usage alert thresholds. Requires enabling the "
 "\"Enable API Usage Notifications\" option. Default values: 25%, 50%, 75%, "
 "100%"
 msgstr ""
+"Bu seçenek kullanım uyarı eşiklerini ayarlamanızı sağlar. \"API kullanımı "
+"bildirimlerini aç\" seçeneğinin açılması gerekir. Varsayılan değerler: %25, "
+"%50, %75, %100"
 
-#: ../../source/translate/index.rst:239
+#: ../../source/translate/index.rst:238
 msgid "User Configuration"
-msgstr ""
+msgstr "Kullanıcı yapılandırması"
 
-#: ../../source/translate/index.rst:242
+#: ../../source/translate/index.rst:241
 msgid "Allowed Target Languages for All Users"
-msgstr ""
+msgstr "Tüm kullanıcılar için izin verilen hedef diller"
 
-#: ../../source/translate/index.rst:244
+#: ../../source/translate/index.rst:243
 msgid ""
 "Defines the languages in which elements can be translated by all users."
 msgstr ""
+"Tüm kullanıcıların bileşenleri hangi dillere çevirebileceğini belirler."
 
-#: ../../source/translate/index.rst:245
+#: ../../source/translate/index.rst:244
 msgid "Default values: Languages proposed by DeepL"
-msgstr ""
+msgstr "Varsayılan değerler: DeepL tarafından önerilen diller"
 
-#: ../../source/translate/index.rst:248
+#: ../../source/translate/index.rst:247
 msgid "Allowed Translatable Elements for All Users"
-msgstr ""
+msgstr "Tüm kullanıcılar için izin verilen çevrilebilir bileşenler"
+
+#: ../../source/translate/index.rst:249
+msgid "Defines the elements that can be translated by all users."
+msgstr "Tüm kullanıcılar tarafından çevrilebilen bileşenleri belirler."
 
 #: ../../source/translate/index.rst:250
-msgid "Defines the elements that can be translated by all users."
-msgstr ""
-
-#: ../../source/translate/index.rst:251
 msgid ""
 "Default values: Ticket, Follow-up, Ticket Task, Solution, Validation Request"
 msgstr ""
+"Varsayılan değerler: Destek kaydı, İzleme, Destek kaydı görevi, Çözüm, "
+"Doğrulama isteği"
 
-#: ../../source/translate/index.rst:254
+#: ../../source/translate/index.rst:253
 msgid "Rights"
-msgstr ""
+msgstr "İzinler"
 
-#: ../../source/translate/index.rst:257
+#: ../../source/translate/index.rst:256
 msgid ""
 "Allow translation of displayed elements (language configured in preferences)"
 msgstr ""
+"Görüntülenen bileşenlerin çevirisine izin ver (ayarlardan yapılandırılan "
+"dil)"
 
-#: ../../source/translate/index.rst:259
+#: ../../source/translate/index.rst:258
 msgid ""
 "This right defines whether a profile can translate timeline elements of a "
 "ticket (Ticket, Follow-up, Task, Solution, Validation Request)."
 msgstr ""
+"Bu izin, bir profilin bir destek kaydının zaman akışı bileşenlerini (Destek "
+"kaydı, İzleme, Görev, Çözüm, Doğrulama isteği) çevirip çeviremeyeceğini "
+"belirler."
 
-#: ../../source/translate/index.rst:262
+#: ../../source/translate/index.rst:261
 msgid "Allow translation while writing"
-msgstr ""
+msgstr "Yazarken çeviri yapılabilsin"
 
-#: ../../source/translate/index.rst:264
+#: ../../source/translate/index.rst:263
 msgid ""
 "This right defines whether a profile can translate the content of a follow-"
 "up before sending."
 msgstr ""
+"Bu izin, bir profilin bir izleme iletisinin içeriğini göndermeden önce "
+"çevirip çeviremeyeceğini belirler."
 
-#: ../../source/translate/index.rst:267
+#: ../../source/translate/index.rst:266
 msgid "FAQ"
-msgstr ""
+msgstr "SSS"
 
-#: ../../source/translate/index.rst:269
+#: ../../source/translate/index.rst:268
 msgid ""
 "If you have any questions about using the plugin, please consult `our FAQ "
 "<https://faq.teclib.com/04_Plugins/Translate/>`_"
 msgstr ""
+"Eklentinin kullanımıyla ilgili herhangi bir sorunuz varsa `SSS "
+"<https://faq.teclib.com/04_Plugins/Translate/>`_ bölümüne bakabilirsiniz."
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Creative Commons Lisansı"

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2020-01-24 06:36+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -69,337 +69,365 @@ msgstr "8.1"
 msgid "8.2"
 msgstr "8.2"
 
-#: ../../source/credit/index.rst:22
+#: ../../source/include/no_subscription.rst:2
 msgid ""
-"This plugin is available without a GLPI-Network subscription. It is also "
-"available in `Cloud <https://glpi-network.cloud/>`_"
+"This plugin is available without a `GLPI Network <https://services.glpi-"
+"network.com/#offers>`_ subscription. It is also available on `GLPI Cloud "
+"<https://glpi-network.cloud>`_."
 msgstr ""
 
-#: ../../source/credit/index.rst-1 ../../source/credit/index.rst:25
+#: ../../source/credit/index.rst-1 ../../source/credit/index.rst:24
 msgid "Install the plugin"
-msgstr "Uygulama ekini kur"
+msgstr "Eklentiyi kurmak"
 
-#: ../../source/credit/index.rst:27
+#: ../../source/credit/index.rst:26
 msgid "Go to the marketplace. Download and install the plugin “**Credit**”."
-msgstr ""
+msgstr "Mağazaya gidin. **Credit** eklentisini indirip kurun."
 
-#: ../../source/credit/index.rst:34
+#: ../../source/credit/index.rst:33
 msgid "Setting up the plugin"
-msgstr ""
+msgstr "Eklentiyi kurmak"
 
-#: ../../source/credit/index.rst:37
+#: ../../source/credit/index.rst:36
 msgid "Creating a credit type"
-msgstr ""
+msgstr "Bir kredi türü oluşturuluyor"
+
+#: ../../source/credit/index.rst:38
+msgid "From **Setup > Dropdowns**,"
+msgstr "**Kurulum > Açılan kutular** bölümünden,"
 
 #: ../../source/credit/index.rst:39
-msgid "From **Setup > Dropdowns**,"
-msgstr ""
-
-#: ../../source/credit/index.rst:40
 msgid "click on **Credits** then **Credit types**."
-msgstr ""
+msgstr "**Krediler** ve **Kredi türleri** üzerine tıklayın."
 
 #: ../../source/credit/index.rst-1
 msgid "search credit"
-msgstr ""
+msgstr "kredi ara"
+
+#: ../../source/credit/index.rst:45
+msgid "Click on **add**."
+msgstr "**Ekle** üzerine tıklayın"
 
 #: ../../source/credit/index.rst:46
-msgid "Click on **add**."
-msgstr ""
-
-#: ../../source/credit/index.rst:47
 msgid "Enter a name representing the type of credit granted"
-msgstr ""
+msgstr "İzin verilen kredi türü için bir ad yazın"
 
 #: ../../source/credit/index.rst-1
 msgid "add credit"
-msgstr ""
+msgstr "kredi ekle"
 
-#: ../../source/credit/index.rst:54
+#: ../../source/credit/index.rst:53
 msgid "Add credit to customer entity(ies)"
-msgstr ""
+msgstr "Müşteri varlıklarına kredi eklemek"
 
-#: ../../source/credit/index.rst:56
+#: ../../source/credit/index.rst:55
 msgid "Example : We will create 3 types of credit:"
-msgstr ""
+msgstr "Örnek: 3 kredi türü ekleyeceğiz"
+
+#: ../../source/credit/index.rst:57
+msgid "For a new follow-up"
+msgstr "Yeni bir izleme için"
 
 #: ../../source/credit/index.rst:58
-msgid "For a new follow-up"
-msgstr ""
+msgid "For a new task"
+msgstr "Yeni bir görev için"
 
 #: ../../source/credit/index.rst:59
-msgid "For a new task"
-msgstr ""
-
-#: ../../source/credit/index.rst:60
 msgid "For a new solution"
-msgstr ""
+msgstr "Yeni bir çözüm için"
 
-#: ../../source/credit/index.rst:62
+#: ../../source/credit/index.rst:61
 msgid ""
 "You can create a single type of credit which will group together the 3, it "
 "depends on the management of each case."
 msgstr ""
+"Her bir olayın yönetimine bağlı olarak, 3 türü bir arada gruplayacak şekilde"
+" tek bir kredi türü oluşturabilirsiniz."
 
-#: ../../source/credit/index.rst:64
+#: ../../source/credit/index.rst:63
 msgid ""
 "In **Administration > Entities**, select the entity that will receive the "
 "credits."
-msgstr ""
+msgstr "**Yönetim > Varlıklar** bölümünden kredileri alacak varlığı seçin."
 
-#: ../../source/credit/index.rst:65 ../../source/credit/index.rst:91
+#: ../../source/credit/index.rst:64 ../../source/credit/index.rst:90
 msgid "Go to the **Credit** section"
-msgstr ""
+msgstr "**Krediler** bölümüne gidin"
+
+#: ../../source/credit/index.rst:65
+msgid "In the section **Add a credit**, enter a name for the new credit"
+msgstr "**Kredi ekle** bölümünden yeni kredi için bir ad yazın"
 
 #: ../../source/credit/index.rst:66
-msgid "In the section **Add a credit**, enter a name for the new credit"
-msgstr ""
+msgid "Define the type of credit created earlier"
+msgstr "Daha önce oluşturulmuş kredi türünü tanımlayın"
 
 #: ../../source/credit/index.rst:67
-msgid "Define the type of credit created earlier"
-msgstr ""
+msgid "The start and end dates of the credit"
+msgstr "Kredinin başlangıç ​​ve bitiş tarihleri"
 
 #: ../../source/credit/index.rst:68
-msgid "The start and end dates of the credit"
-msgstr ""
+msgid "Activate it,"
+msgstr "Etkinleştirin,"
 
 #: ../../source/credit/index.rst:69
-msgid "Activate it,"
-msgstr ""
-
-#: ../../source/credit/index.rst:70
 msgid ""
 "Make it available or not in the child entities (note that if you are in the "
 "parent entity, it will be accessible to all entities)"
 msgstr ""
+"Alt varlıklarda kullanıma açın ya da kapatın (üst varlıktaysanız, tüm "
+"varlıklar tarafından erişilebilir olacağını unutmayın)"
+
+#: ../../source/credit/index.rst:70
+msgid "The quantity of credit sold"
+msgstr "Satılan kredi tutarı"
 
 #: ../../source/credit/index.rst:71
-msgid "The quantity of credit sold"
-msgstr ""
+msgid "The authorisation to overconsume or not"
+msgstr "Sınırı aşma izni verin ya da vermeyin"
 
 #: ../../source/credit/index.rst:72
-msgid "The authorisation to overconsume or not"
-msgstr ""
-
-#: ../../source/credit/index.rst:73
 msgid "Click on **add**"
-msgstr ""
+msgstr "**Ekle** üzerine tıklayın"
 
 #: ../../source/credit/index.rst-1
 msgid "add voucher"
-msgstr ""
+msgstr "kupon ekleyin"
 
-#: ../../source/credit/index.rst:79
+#: ../../source/credit/index.rst:78
 msgid ""
 "Here, we’ll do the same for the 3 types of credit (followup, task and "
 "solution)"
 msgstr ""
+"Burada aynı işlemi 3 kredi türü (izleme, görev ve çözüm) için yapacağız."
 
-#: ../../source/credit/index.rst:81
+#: ../../source/credit/index.rst:80
 msgid ""
 "It is therefore possible to enter different values (number of credits, "
 "validity, overconsumption, etc.) for each credit:"
 msgstr ""
+"Bu nedenle her kredi için farklı değerler (kredi sayısı, geçerlilik, sınır "
+"aşma vb.) belirtilebilir:"
 
 #: ../../source/credit/index.rst-1
 msgid "list voucher"
-msgstr ""
+msgstr "kuponu listeleyin"
 
-#: ../../source/credit/index.rst:88
+#: ../../source/credit/index.rst:87
 msgid "Define default values"
-msgstr ""
+msgstr "Varsayılan değerleri tanımlayın"
 
-#: ../../source/credit/index.rst:90
+#: ../../source/credit/index.rst:89
 msgid ""
 "In **Administration > Entities**, select the entity that will receive the "
 "credits"
-msgstr ""
+msgstr "**Yönetim > Varlıklar** bölümünden kredileri alacak varlığı seçin"
+
+#: ../../source/credit/index.rst:91
+msgid "In the **Default options for entity** section"
+msgstr "**Varlığın varsayılan seçenekleri** bölümünden"
 
 #: ../../source/credit/index.rst:92
-msgid "In the **Default options for entity** section"
-msgstr ""
-
-#: ../../source/credit/index.rst:93
 msgid "Select the type of credit by action"
-msgstr ""
+msgstr "İşleme göre kredi türünü seçin"
 
 #: ../../source/credit/index.rst:0
 msgid "default credit"
-msgstr ""
+msgstr "Varsayılan kredi"
 
-#: ../../source/credit/index.rst:100 ../../source/credit/index.rst:148
+#: ../../source/credit/index.rst:99 ../../source/credit/index.rst:147
 msgid "Click on **Update**"
-msgstr ""
+msgstr "**Güncelle** üzerine tıklayın"
 
-#: ../../source/credit/index.rst:103
+#: ../../source/credit/index.rst:102
 msgid ""
 "\"Caution Indicating credit types does not allow automatic settlement. It "
 "pre-selects the credit but it must be settled by the technician."
 msgstr ""
+"\"Dikkat: Kredi türlerini belirtmek otomatik atanmalarını sağlamaz. Kredi "
+"önceden seçilir ancak teknisyen tarafından atanması gerekir."
 
-#: ../../source/credit/index.rst:106
+#: ../../source/credit/index.rst:105
 msgid "Counting credits"
-msgstr ""
+msgstr "Kredilerin sayılması"
 
-#: ../../source/credit/index.rst:108
+#: ../../source/credit/index.rst:107
 msgid ""
 "When a ticket is created, you can choose whether or not to deduct the "
 "corresponding credits."
 msgstr ""
+"Bir destek kaydı oluşturulduğunda, ilgili kredilerin düşülüp düşülmeyeceğini"
+" seçebilirsiniz."
 
-#: ../../source/credit/index.rst:111
+#: ../../source/credit/index.rst:110
 msgid "In our example, we have chosen to deduct each action."
-msgstr ""
+msgstr "Örneğimizde her bir işlemi düşmeyi seçtik."
 
-#: ../../source/credit/index.rst:113
+#: ../../source/credit/index.rst:112
 msgid ""
 "If we are doing a **follow-up**, we can deduct the credit assigned by "
 "default:"
-msgstr ""
+msgstr "**İzleme** yapıyorsak, varsayılan olarak atanan krediyi düşebiliriz:"
 
 #: ../../source/credit/index.rst-1
 msgid "add credit on ticket"
-msgstr ""
+msgstr "Destek kaydına kredi ekleyin"
 
-#: ../../source/credit/index.rst:119
+#: ../../source/credit/index.rst:118
 msgid "The same for a **task**:"
-msgstr ""
+msgstr "Bir **görev** için de aynıdır:"
 
 #: ../../source/credit/index.rst-1
 msgid "add credit on task"
-msgstr ""
+msgstr "Göreve kredi ekleyin"
 
-#: ../../source/credit/index.rst:125
+#: ../../source/credit/index.rst:124
 msgid "And for a **solution** :"
-msgstr ""
+msgstr "Ve bir **çözüm** için:"
 
 #: ../../source/credit/index.rst-1
 msgid "add credit on solution"
-msgstr ""
+msgstr "Çözüme kredi ekleyin"
 
-#: ../../source/credit/index.rst:131
+#: ../../source/credit/index.rst:130
 msgid ""
 "In the **Credit** section of the ticket you can see a summary of credits "
 "spent and remaining"
 msgstr ""
+"Destek kaydının **Kredi** bölümünde harcanan ve kalan kredilerin özetini "
+"görebilirsiniz"
 
 #: ../../source/credit/index.rst-1
 msgid "list of credits"
-msgstr ""
+msgstr "Kredilerin listesi"
 
-#: ../../source/credit/index.rst:138
+#: ../../source/credit/index.rst:137
 msgid "Modify a credit on a ticket"
-msgstr ""
+msgstr "Bir destek kaydının kredisini değiştirin"
 
-#: ../../source/credit/index.rst:141
+#: ../../source/credit/index.rst:140
 msgid "Increase or decrease a granted credit"
-msgstr ""
+msgstr "Verilen krediyi artırın ya da azaltın"
 
-#: ../../source/credit/index.rst:143
+#: ../../source/credit/index.rst:142
 msgid "You can modify credits on a ticket if a readjustment is necessary."
 msgstr ""
+"Yeniden düzenlenmesi gerekirse destek kaydındaki kredileri "
+"değiştirebilirsiniz."
+
+#: ../../source/credit/index.rst:144
+msgid "From the ticket in question, go to the **credit** section"
+msgstr "İlgili destek kaydında **Kredi** bölümüne gidin"
 
 #: ../../source/credit/index.rst:145
-msgid "From the ticket in question, go to the **credit** section"
-msgstr ""
-
-#: ../../source/credit/index.rst:146
 msgid "Select the credit you wish to adjust"
-msgstr ""
+msgstr "Ayarlamak istediğiniz krediyi seçin"
 
-#: ../../source/credit/index.rst:147 ../../source/credit/index.rst:163
+#: ../../source/credit/index.rst:146 ../../source/credit/index.rst:162
 msgid "Click on **Actions**"
-msgstr ""
+msgstr "**İşlemler** üzerine tıklayın"
 
-#: ../../source/credit/index.rst:149
+#: ../../source/credit/index.rst:148
 msgid "Click on **Quantity consumed** then add the desired quantity"
 msgstr ""
+"**Kullanılan tutar** üzerine tıklayın ve ardından istediğiniz tutarı ekleyin"
 
-#: ../../source/credit/index.rst:150 ../../source/credit/index.rst:165
+#: ../../source/credit/index.rst:149 ../../source/credit/index.rst:164
 msgid "Click on **Send**"
-msgstr ""
+msgstr "**Gönder** üzerine tıklayın"
 
-#: ../../source/credit/index.rst:155 ../../source/credit/index.rst:170
+#: ../../source/credit/index.rst:154 ../../source/credit/index.rst:169
 msgid "See how to proceed"
-msgstr ""
+msgstr "Nasıl ilerleyeceğinizi görün"
 
 #: ../../source/credit/index.rst:0
 msgid "modify credit on ticket"
-msgstr ""
+msgstr "Destek kaydının kredisini değiştirin"
 
-#: ../../source/credit/index.rst:159
+#: ../../source/credit/index.rst:158
 msgid "Delete deducted credits"
-msgstr ""
+msgstr "Düşülen kredileri silin"
+
+#: ../../source/credit/index.rst:160
+msgid "From the ticket in question, go to the **Credit** section"
+msgstr "İlgili destek kaydında **Kredi** bölümüne gidin"
 
 #: ../../source/credit/index.rst:161
-msgid "From the ticket in question, go to the **Credit** section"
-msgstr ""
-
-#: ../../source/credit/index.rst:162
 msgid "Select the credit you wish to delete"
-msgstr ""
+msgstr "Silmek istediğiniz krediyi seçin"
 
-#: ../../source/credit/index.rst:164
+#: ../../source/credit/index.rst:163
 msgid "Click on **Delete permanently**"
-msgstr ""
+msgstr "**Kalıcı olarak sil** üzerine tıklayın"
 
 #: ../../source/credit/index.rst:0
 msgid "delete credit on ticket"
-msgstr ""
+msgstr "Destek kaydının kredisini silin"
 
-#: ../../source/credit/index.rst:173
+#: ../../source/credit/index.rst:172
 msgid "Credits will be automatically reallocated in the credit bank"
-msgstr ""
+msgstr "Krediler kredi bankasından otomatik olarak yeniden atanır"
 
-#: ../../source/credit/index.rst:176
+#: ../../source/credit/index.rst:175
 msgid "Including an expired credit"
-msgstr ""
+msgstr "Geçerlilik süresi geçmiş bir krediyi katmak"
 
-#: ../../source/credit/index.rst:178
+#: ../../source/credit/index.rst:177
 msgid ""
 "If the credit has expired, it will not be proposed in the list of available "
 "credits. You will not be able to deduct it. You will need to change the end "
 "date of the credit to be able to use it again."
 msgstr ""
+"Kredinin geçerlilik süresi dolmuşsa, kullanılabilir krediler listesinde "
+"önerilmez. Krediyi düşemezsiniz. Yeniden kullanabilmek için kredinin bitiş "
+"tarihini değiştirmeniz gerekir."
 
-#: ../../source/credit/index.rst:181
+#: ../../source/credit/index.rst:180
 msgid "Notification of expired credits"
-msgstr ""
+msgstr "Geçerlilik süresi dolmuş kredilerin bildirilmesi"
 
-#: ../../source/credit/index.rst:183
+#: ../../source/credit/index.rst:182
 msgid ""
 "An automatic action is available to notify you when a credit has expired."
 msgstr ""
+"Bir kredinin geçerlilik süresi dolduğunda size otomatik olarak bildirecek "
+"bir işlem vardır."
 
-#: ../../source/credit/index.rst:185
+#: ../../source/credit/index.rst:184
 msgid ""
 "From **Setup > Automatic actions**, modify the **creditexpired** action to "
 "suit your needs."
 msgstr ""
+"**Kurulum > Otomatik işlemler** bölümünden **Kredi geçerlilik süresi dolma**"
+" işlemini size uygun şekilde değiştirin."
 
-#: ../../source/credit/index.rst:186
+#: ../../source/credit/index.rst:185
 msgid "Click on **Save**"
-msgstr ""
+msgstr "**Kaydet** üzerine tıklayın"
 
 #: ../../source/credit/index.rst-1
 msgid "automatic action"
-msgstr ""
+msgstr "Otomatik işlem"
 
-#: ../../source/credit/index.rst:192
+#: ../../source/credit/index.rst:191
 msgid ""
 "You can of course customise the notification to suit your needs (**Setup > "
 "Notifications > Notifications > credit expired**)"
 msgstr ""
+"Bildirimi size uygun şekilde özelleştirebilirsiniz (**Kurulum > Bildirimler "
+"> Kredi geçerlilik süresi dolma**)"
 
-#: ../../source/credit/index.rst:196
+#: ../../source/credit/index.rst:195
 msgid "FAQ"
-msgstr ""
+msgstr "SSS"
 
-#: ../../source/credit/index.rst:198
+#: ../../source/credit/index.rst:197
 msgid ""
 "If you have any questions about using the plugin, please consult `our FAQ "
 "<https://faq.teclib.com/04_Plugins/Cr%C3%A9dit/>`_"
 msgstr ""
+"Eklentinin kullanımıyla ilgili herhangi bir sorunuz varsa `SSS "
+"<https://faq.teclib.com/04_Plugins/Cr%C3%A9dit/>`_ bölümüne bakabilirsiniz."
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"

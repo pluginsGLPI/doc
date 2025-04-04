@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2017-02-09 07:26+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -36,7 +36,7 @@ msgstr ""
 
 #: ../../source/formcreator/targets.rst:7
 msgid "Targets are currently tickets only."
-msgstr "Hedefler şu anda yalnız destek kayıtları olabilir."
+msgstr "Hedefler şu anda yalnızca destek kayıtları olabilir."
 
 #: ../../source/formcreator/targets.rst:10
 msgid ""
@@ -51,8 +51,8 @@ msgid ""
 "Open the tab `Destination` and create a target with a name and a type "
 "(currently ticket only)."
 msgstr ""
-"`Hedef` sekmesini açın ve bir ad ve tür seçerek bir hedef oluşturun (yalnız "
-"geçerli destek kaydı için)."
+"`Hedef` sekmesini açın ve bir ad ve tür seçerek bir hedef oluşturun "
+"(yalnızca geçerli destek kaydı için)."
 
 #: ../../source/formcreator/targets.rst:16
 msgid "Target ticket"
@@ -118,7 +118,7 @@ msgstr "Konumu ayarlayabilirsiniz,"
 #: ../../source/formcreator/targets.rst:33
 msgid "assign tags to the ticket if the plugin `Tags` is available,"
 msgstr ""
-"`Tags` uygulama eki kullanılabiliyorsa destek kaydına etiketler "
+"`Etiketler` eklentisi kullanılabiliyorsa destek kaydına etiketler "
 "atayabilirsiniz,"
 
 #: ../../source/formcreator/targets.rst:34
@@ -431,7 +431,7 @@ msgstr "Değişiklik kategorisini ayarlayabilirsiniz."
 
 #: ../../source/formcreator/targets.rst:137
 msgid "Target description templating"
-msgstr ""
+msgstr "Hedef açıklama kalıbı"
 
 #: ../../source/formcreator/targets.rst:139
 msgid ""
@@ -440,22 +440,29 @@ msgid ""
 "where all questions and sections are displayed in the same order as the "
 "form."
 msgstr ""
+"Hedef destek kaydı ve hedef değişikliğinin her ikisinin de açıklama kalıbı "
+"vardır. Kalıp varsayılan olarak ``##FULLFORM##`` etiketini kullanır. Bu "
+"etiket, tüm soruların ve bölümlerin formla aynı sırayla görüntülendiği "
+"varsayılan bir kalıptır."
 
 #: ../../source/formcreator/targets.rst:141
 msgid "Each question has 2 tags"
-msgstr ""
+msgstr "Her soruda 2 etiket bulunur"
 
 #: ../../source/formcreator/targets.rst:143
 msgid ""
 "``##question_x##`` which is replaced by the label of the question. X is the "
 "ID of the question."
 msgstr ""
+"``##question_x##`` sorunun etiketi ile değiştirilir. X sorunun kimliğidir."
 
 #: ../../source/formcreator/targets.rst:144
 msgid ""
 "``##answer_x##`` which is replaced by the answer to a question. X is the ID "
 "of the matching question."
 msgstr ""
+"``##answer_x##`` bir sorunun yanıtı ile değiştirilir. X eşleşen sorunun "
+"kimliğidir."
 
 #: ../../source/formcreator/targets.rst:146
 msgid ""
@@ -464,6 +471,10 @@ msgid ""
 "after the dot is the name of a property available in the search options of "
 "the itemtype of the dropdown question."
 msgstr ""
+"Açılır kutu türündeki sorular ``##answer_x.name##`` gibi daha karmaşık "
+"ifadeleri destekler. ``x`` sorunun kimliğidir. Noktadan sonraki sözcük, "
+"açılır kutu sorunun öge türü arama seçeneklerinde bulunan bir özelliğin "
+"adıdır."
 
 #: ../../source/formcreator/targets.rst:148
 msgid ""
@@ -473,6 +484,11 @@ msgid ""
 "address, postcode, state, building, and many other data. To find them, the "
 "admin may rely on the list available in the search filters for a location."
 msgstr ""
+"Örnek olarak, konumları gösteren bir açılır kutu sorusu düşünün. Form "
+"tasarımcısı tarafından ayarlanan öge türü \"Konum\" olur. Tasarımcı, hedefte"
+" istekte bulunanın seçtiği konumun adres, posta kodu, il, bina ve diğer "
+"veriler gibi birçok alanını görüntüleyebilir. Bunları bulmak için yönetici, "
+"bir konum için arama süzgeçlerinde bulunan listeyi kullanabilir."
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
@@ -480,4 +496,4 @@ msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Creative Commons Lisansı"

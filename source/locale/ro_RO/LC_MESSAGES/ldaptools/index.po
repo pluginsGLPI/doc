@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 13:57+0200\n"
 "PO-Revision-Date: 2024-01-26 14:56+0000\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/teclib/teams/28042/ro_RO/)\n"
 "MIME-Version: 1.0\n"
@@ -49,18 +49,18 @@ msgstr ""
 msgid "8.2"
 msgstr ""
 
-#: ../../source/ldaptools/index.rst:14
+#: ../../source/include/basic_subscription.rst:2
 msgid ""
-"A `basic licence <https://services.glpi-network.com/#offers>`_ (or higher) "
-"is required. This plugin is also available from the `Cloud <https://glpi-"
-"network.cloud/>`_."
+"A `GLPI Network BASIC <https://services.glpi-network.com/#offers>`_ "
+"subscription (or higher) is required. This plugin is also available for all "
+"GLPI Network `Cloud instances <https://glpi-network.cloud>`_."
 msgstr ""
 
-#: ../../source/ldaptools/index.rst:17
+#: ../../source/ldaptools/index.rst:16
 msgid "Install the plugin"
 msgstr ""
 
-#: ../../source/ldaptools/index.rst:19
+#: ../../source/ldaptools/index.rst:18
 msgid "Go to the marketplace. Download and install the plugin **LDAP Tools**."
 msgstr ""
 
@@ -68,11 +68,11 @@ msgstr ""
 msgid "install the plugin"
 msgstr ""
 
-#: ../../source/ldaptools/index.rst:25
+#: ../../source/ldaptools/index.rst:24
 msgid "Using the plugin"
 msgstr ""
 
-#: ../../source/ldaptools/index.rst:27
+#: ../../source/ldaptools/index.rst:26
 msgid ""
 "From **tools > LDAP Tools**, if you have synchronised LDAP directories, they"
 " will appear directly."
@@ -82,41 +82,41 @@ msgstr ""
 msgid "use the plugin"
 msgstr ""
 
-#: ../../source/ldaptools/index.rst:33
+#: ../../source/ldaptools/index.rst:32
 msgid ""
 "Each directory has a number of tests which may or may not be validated "
 "depending on your configuration:"
 msgstr ""
 
-#: ../../source/ldaptools/index.rst:36
+#: ../../source/ldaptools/index.rst:35
 msgid "`Flux TCP`"
 msgstr ""
 
-#: ../../source/ldaptools/index.rst:37
+#: ../../source/ldaptools/index.rst:36
 msgid "`BaseDN`"
 msgstr ""
 
-#: ../../source/ldaptools/index.rst:38
+#: ../../source/ldaptools/index.rst:37
 msgid "`LDAP URI`"
 msgstr ""
 
-#: ../../source/ldaptools/index.rst:39
+#: ../../source/ldaptools/index.rst:38
 msgid "`Bind Auth`"
 msgstr ""
 
-#: ../../source/ldaptools/index.rst:40
+#: ../../source/ldaptools/index.rst:39
 msgid "`Generic search`"
 msgstr ""
 
-#: ../../source/ldaptools/index.rst:41
+#: ../../source/ldaptools/index.rst:40
 msgid "`Filtered search`"
 msgstr ""
 
-#: ../../source/ldaptools/index.rst:42
+#: ../../source/ldaptools/index.rst:41
 msgid "`Attributes`"
 msgstr ""
 
-#: ../../source/ldaptools/index.rst:44
+#: ../../source/ldaptools/index.rst:43
 msgid ""
 "As soon as one of the tests fails, the following tests will not be "
 "performed. You must start by correcting the 1st anomaly before the other "

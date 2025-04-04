@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kaya Zeren <kayazeren@gmail.com>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2024-06-24 08:21+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,129 +23,133 @@ msgstr ""
 
 #: ../../source/saml/entra.rst:2
 msgid "Entra"
-msgstr ""
+msgstr "Entra"
 
 #: ../../source/saml/tabs/add-app.rst:2
 msgid "Add a new SAML Application on GLPI"
-msgstr ""
+msgstr "GLPI üzerine yeni bir SAML uygulaması ekleyin"
 
 #: ../../source/saml/tabs/add-app.rst:4
 msgid ""
 "First of all, you need to add a SAML application on GLPI because we need to "
 "report some information on GLPI <-> Entra/Google."
 msgstr ""
+"Öncelikle GLPI üzerine bir SAML uygulaması eklemeniz gerekiyor çünkü GLPI "
+"<-> Entra/Google üzerinde bazı bilgileri bildirmemiz gerekiyor."
 
 #: ../../source/saml/tabs/add-app.rst:6
 msgid "In **Setup** > **SAML SSO Applications**, click on **+ Add**"
 msgstr ""
+"**Kurulum** > **SAML SSO uygulamaları** bölümünden **+ Ekle** üzerine "
+"tıklayın"
 
 #: ../../source/saml/tabs/add-app.rst:7
 msgid "Give a **name** to your application"
-msgstr ""
+msgstr "Uygulamanıza bir **ad** verin"
 
 #: ../../source/saml/tabs/add-app.rst:8
 msgid "Click on **is active**"
-msgstr ""
+msgstr "**Etkin** üzerine tıklayın"
 
 #: ../../source/saml/tabs/add-app.rst:10
 msgid "Click on **Save**"
-msgstr ""
+msgstr "**Kaydet** üzerine tıklayın"
 
 #: ../../source/saml/tabs/add-app.rst-1
 msgid "Add GLPI app"
-msgstr ""
+msgstr "GLPI uygulaması ekleyin"
 
 #: ../../source/saml/tabs/for-entra.rst:1
 msgid "For Entra, in **Transit** tab, select :"
-msgstr ""
+msgstr "Entra için **Geçiş** sekmesinden şunu seçin :"
 
 #: ../../source/saml/tabs/for-entra.rst:3
 msgid "Compress requests"
-msgstr ""
+msgstr "İsteği sıkıştır"
 
 #: ../../source/saml/tabs/for-entra.rst:4
 msgid "Compress responses"
-msgstr ""
+msgstr "Yanıtları sıkıştır"
 
 #: ../../source/saml/tabs/for-entra.rst-1
 msgid "Setup the transit"
-msgstr ""
+msgstr "Geçişi kur"
 
 #: ../../source/saml/entra.rst:9
 msgid "Add an app in Entra"
-msgstr ""
+msgstr "Uygulamayı Entra üzerine ekleyin"
 
 #: ../../source/saml/entra.rst:11
 msgid "Connect to your `Entra portal <https://portal.azure.com/#home>`_"
-msgstr ""
+msgstr "`Entra portal <https://entra.microsoft.com/#home>`_ sayfasını açın"
 
 #: ../../source/saml/entra.rst:12
 msgid "Click on **Entreprise Application**"
-msgstr ""
+msgstr "**Kurumsal uygulama** üzerine tıklayın"
 
 #: ../../source/saml/entra.rst:13
 msgid "**And + New application**"
-msgstr ""
+msgstr "**Ve + Yeni uygulama** üzerine tıklayın"
 
 #: ../../source/saml/entra.rst:14
 msgid "In the search bar, enter **saml toolkit**"
-msgstr ""
+msgstr "Arama alanın **saml toolkit** yazın"
 
 #: ../../source/saml/entra.rst:15
 msgid "Click on **Microsoft Entra SAML Toolkit**"
-msgstr ""
+msgstr "**Microsoft Entra SAML Toolkit** üzerine tıklayın"
 
 #: ../../source/saml/entra.rst-1
 msgid "create app entra"
-msgstr ""
+msgstr "Entra uygulaması oluşturun"
 
 #: ../../source/saml/entra.rst:21
 msgid "Optionnal : You can rename this app"
-msgstr ""
+msgstr "İsteğe bağlı: Bu uygulamayı yeniden adlandırabilirsiniz"
 
 #: ../../source/saml/entra.rst:22
 msgid "Click on **Create**"
-msgstr ""
+msgstr "**Oluştur** üzerine tıklayın"
 
 #: ../../source/saml/entra.rst:24
 msgid "When the application is created :"
-msgstr ""
+msgstr "Uygulama oluşturulduğunda:"
 
 #: ../../source/saml/entra.rst:26
 msgid "Go to **Single sign-on**"
-msgstr ""
+msgstr "**Tek oturum açma** bölümüne gidin"
 
 #: ../../source/saml/entra.rst:27
 msgid "Click on SAML"
-msgstr ""
+msgstr "SAML üzerine tıklayın"
 
 #: ../../source/saml/entra.rst-1
 msgid "create SAM app entra"
-msgstr ""
+msgstr "SAM Entra uygulaması oluşturun"
 
 #: ../../source/saml/entra.rst:34
 msgid "Setup the app"
-msgstr ""
+msgstr "Uygulamayı kurun"
 
 #: ../../source/saml/entra.rst:36
 msgid "In the 1st insert, click on **Edit**"
-msgstr ""
+msgstr "Birinci alanda **Düzenle** üzerine tıklayın"
 
 #: ../../source/saml/entra.rst:37
 msgid "Copy the values as follows"
-msgstr ""
+msgstr "Değerleri şu şekilde kopyalayın"
 
 #: ../../source/saml/entra.rst-1
 msgid "Report the values in entra"
-msgstr ""
+msgstr "Entra üzerindeki değerleri bildirin"
 
 #: ../../source/saml/entra.rst-1
 msgid "See the values in GLPI"
-msgstr ""
+msgstr "GLPI üzerindeki değerlere bakın"
 
 #: ../../source/saml/entra.rst:48
 msgid "Setup the Service Provider"
-msgstr ""
+msgstr "Hizmet sağlayıcıyı yapılandırın"
 
 #: ../../source/saml/entra.rst:50
 msgid ""
@@ -149,71 +157,83 @@ msgid ""
 " place of those already present. There are no strict requirements for these "
 "certificates, other than that they are valid X509 certificates."
 msgstr ""
+"**Sağlayıcı sertifikası** ve **Sağlayıcı kişisel anahtarı** alanlarında, var"
+" olanların yerine sertifikanızı kopyalayıp yapıştırın. Bu sertifikalar için "
+"geçerli X509 sertifikaları olmaları dışında katı gereklilikler yoktur."
 
 #: ../../source/saml/entra.rst-1
 msgid "setup the values"
-msgstr ""
+msgstr "Değerleri ayarlayın"
 
 #: ../../source/saml/entra.rst:58
 msgid "Setup the Identity Provider"
-msgstr ""
+msgstr "Kimlik hizmeti sağlayıcısını kurun"
 
 #: ../../source/saml/entra.rst:60
 msgid ""
 "In the third insert of Entra app, click on **Download** from **Certificate "
 "(Base64)**"
 msgstr ""
+"Entra uygulamasının üçüncü alanında **Sertifika (Base64)** bölümünde "
+"**İndir** üzerine tıklayın"
 
 #: ../../source/saml/entra.rst-1
 msgid "Download certificate"
-msgstr ""
+msgstr "Sertifikayı indirin"
 
 #: ../../source/saml/entra.rst:66
 msgid ""
 "**Open** this certificate with notepad ++ (or other tool which can read this"
 " type of certificate)"
 msgstr ""
+"Bu sertifikayı Notepad ++ (ya da bu tür sertifikaları okuyabilen başka bir "
+"araç) ile **Açın**"
 
 #: ../../source/saml/entra.rst:67
 msgid "**Copy** the content of the certificate in GLPI with the tags"
-msgstr ""
+msgstr "GLPI üzerindeki sertifikanın içeriğini kod imleri ile **kopyalayın**"
 
 #: ../../source/saml/entra.rst:68
 msgid ""
 "**Paste** the certificate in **Identity provider** > **X509 certificate**"
 msgstr ""
+"Sertifikayı **Kimlik sağlayıcısı** > **X509 sertifikası** alanına "
+"**yapıştırın**"
 
 #: ../../source/saml/entra.rst:69
 msgid ""
 "Then fill in the fields as follows withe the informations in the fourth "
 "insert :"
-msgstr ""
+msgstr "Ardından dördüncü alandaki bilgileri aşağıdaki gibi doldurun:"
 
 #: ../../source/saml/entra.rst-1
 msgid "Paste certificate and setup the values"
-msgstr ""
+msgstr "Sertifikayı yapıştırın ve değerleri ayarlayın"
 
 #: ../../source/saml/entra.rst:80
 msgid "It is advisable to use **none** as the **REQ AUTHN CONTEXT**"
-msgstr ""
+msgstr "**REQ AUTHN CONTEXT** olarak **none** kullanılması önerilir"
 
 #: ../../source/saml/entra.rst:83
 msgid "Security"
-msgstr ""
+msgstr "Güvenlik"
 
 #: ../../source/saml/entra.rst:85
 msgid "For a production instance, you must activate the **Strict** option."
 msgstr ""
+"Bir üretim kopyası için **Strict** seçeneğini etkinleştirmeniz gerekir."
 
 #: ../../source/saml/entra.rst:87
 msgid ""
 "We advise you to activate **JIT user creation**. This will allow the rules "
 "you create from JIT Rules to be applied."
 msgstr ""
+"**JIT kullanıcı oluşturma** özelliğini etkinleştirmenizi öneririz. Bu "
+"seçenek, JIT Kuralları ile oluşturduğunuz kuralların uygulanmasını sağlar."
 
 #: ../../source/saml/entra.rst-1
 msgid "options for security"
-msgstr ""
+msgstr "Güvenlik ayarları"
 
 #: ../../source/saml/entra.rst:94
 msgid ""
@@ -227,40 +247,53 @@ msgid ""
 "guaranteed to be unique in GLPI and it is essential that a unique identifier"
 " is used to allow authorisation of a specific GLPI user."
 msgstr ""
+"Eklentinin bir kullanıcıyı doğrulaması için, alan **e-posta** olarak "
+"biçimlendirilmiş **geçerli bir UPN** içermelidir. Bu davranış, kullanıcılar "
+"LDAP üzerinden ayrıldığında GLPI üzerinde yinelenen kayıtlara yol açabilir. "
+"Bu önemli bir ayrıntıdır çünkü belirli senaryolarda Active Directory "
+"üzerinden ayrılan bazı kullanıcılar Entra üzerinde UPN olarak hala usersam "
+"hesap adını (eski netbui adları) kullanır. Sonuç olarak, samlResponse "
+"paketindeki nameId alanı geçerli bir e-posta adresiyle doldurulmaz. "
+"Kullanıcı adı alanı kullanılır çünkü e-posta alanının GLPI üzerinde "
+"benzersiz olması garanti edilmez ve belirli bir GLPI kullanıcısının "
+"yetkilendirilmesine izin vermek için benzersiz bir kimliğin kullanılması "
+"önemlidir."
 
 #: ../../source/saml/entra.rst:104
 msgid "Add users allowed to use SAML"
-msgstr ""
+msgstr "SAML kullanma izni olan kullanıcıları ekleyin"
 
 #: ../../source/saml/entra.rst:106
 msgid ""
 "SAML needs users/groups to be added so that they are authorised to use "
 "authentication."
 msgstr ""
+"SAML kimlik doğrulamasını kullanabilmeleri için kullanıcı/grup eklenmesi "
+"gerekir."
 
 #: ../../source/saml/entra.rst:108
 msgid "Click on **users and groups** tab,"
-msgstr ""
+msgstr "**Kullanıcılar ve gruplar** sekmesine tıklayın,"
 
 #: ../../source/saml/entra.rst:109
 msgid "Click on **+ Add user/group**"
-msgstr ""
+msgstr "**+ Kullanıcı/grup ekle** üzerine tıklayın"
 
 #: ../../source/saml/entra.rst:110
 msgid "Select all the users and groups required"
-msgstr ""
+msgstr "Gerekli tüm kullanıcıları ve grupları seçin"
 
 #: ../../source/saml/entra.rst:111
 msgid "Click on **Assign**"
-msgstr ""
+msgstr "**Ata** üzerine tıklayın"
 
 #: ../../source/saml/entra.rst-1
 msgid "add user allowed"
-msgstr ""
+msgstr "İzin verilecek kullanıcıyı ekleyin"
 
 #: ../../source/saml/entra.rst:118
 msgid "Mapping"
-msgstr ""
+msgstr "Eşleştirme"
 
 #: ../../source/saml/entra.rst:120
 msgid ""
@@ -268,74 +301,81 @@ msgid ""
 "Attributes & Claims. Your profile will be populated with the information "
 "entered in Entra."
 msgstr ""
+"Profilinize ek bilgi eklemek isterseniz, Öznitelikleri ve İstekleri "
+"kullanabilirsiniz. Profiliniz Entra üzerine girilen bilgilerle doldurulur."
 
 #: ../../source/saml/entra.rst:123
 msgid "In **Single sign on**, click on **Edit**"
-msgstr ""
+msgstr "**Tek oturum açma** bölümünde **Düzenle** üzerine tıklayın"
 
 #: ../../source/saml/entra.rst:124
 msgid "Copy the URL of the one of the other claim"
-msgstr ""
+msgstr "Diğer isteklerden birinin adresini kopyalayın"
 
 #: ../../source/saml/entra.rst-1
 msgid "Copy the URL schema"
-msgstr ""
+msgstr "Adres şemasını kopyalayın"
 
 #: ../../source/saml/entra.rst:130
 msgid "Click on **+ Add new claim**"
-msgstr ""
+msgstr "**+ Yeni istek ekle** üzerine tıklayın"
 
 #: ../../source/saml/entra.rst:131
 msgid "Select a name"
-msgstr ""
+msgstr "Bir ad seçin"
 
 #: ../../source/saml/entra.rst:132
 msgid "Paste the URL you've just copied ine **Namespace**"
-msgstr ""
+msgstr "Az önce kopyaladığınız adresi **Ad alanı** içine yapıştırın"
 
 #: ../../source/saml/entra.rst:133
 msgid "Selct **attribute**"
-msgstr ""
+msgstr "**Öznitelik** seçin"
 
 #: ../../source/saml/entra.rst:134
 msgid "Search the value that you want in the **Source attribute**"
-msgstr ""
+msgstr "**Kaynak özniteliği** olarak istediğiniz değeri arayın"
 
 #: ../../source/saml/entra.rst:135
 msgid "Save your modification"
-msgstr ""
+msgstr "Değişikliklerinizi kaydedin"
 
 #: ../../source/saml/entra.rst:136
 msgid "Repeat this step for all the desired values"
-msgstr ""
+msgstr "Gerekli tüm değerler için bu adımı yineleyin"
 
 #: ../../source/saml/entra.rst-1
 msgid "add claims in Entra"
-msgstr ""
+msgstr "Entra içinde istekleri ekleyin"
 
 #: ../../source/saml/entra.rst-1
 msgid "see claims in Entra"
-msgstr ""
+msgstr "Entra içindeki istekleri görüntüleyin"
 
 #: ../../source/saml/tabs/rules.rst:2
 msgid "Rules for assigning authorisations"
-msgstr ""
+msgstr "Yetki atama kuralları"
 
 #: ../../source/saml/tabs/rules.rst:5
 msgid ""
 "It will be necessary to establish rules for assigning authorisations to your"
 " users (to give them a profile, for example)."
 msgstr ""
+"Kullanıcılarınıza yetki atamak için kurallar oluşturmanız (örneğin, onlara "
+"bir profil vermeniz) gerekir."
 
 #: ../../source/saml/tabs/rules.rst:7
 msgid ""
 "To do this, go to **Administration** > **Rules** > **GLPI SAML - Saml import"
 " rules** or by the button **JIT Rules** directly in the plugin"
 msgstr ""
+"Bunu yapmak için **Yönetim** > **Kurallar** > **GLPI SAML - SAML içe aktarma"
+" kuralları** bölümüne gidin veya doğrudan eklentideki **JIT kuralları** "
+"düğmesine tıklayın"
 
 #: ../../source/saml/tabs/rules.rst:10
 msgid "add rule"
-msgstr ""
+msgstr "Kural ekleyin"
 
 #: ../../source/saml/tabs/rules.rst:14
 msgid ""
@@ -344,39 +384,48 @@ msgid ""
 "SamlClaims, currently it only allows the value communicated via the nameId "
 "property or emailaddress claim."
 msgstr ""
+"Var olan eklentideki kuralların yalnızca 'e-posta' koşuluna bağlanabilmesi "
+"gibi bir katı sınırlama var. Bunu ek SamlClaims ile bağlamaya izin vermeyi "
+"planlıyoruz. Şu anda yalnızca nameId özelliği veya emailaddress isteği ile "
+"iletilen değere izin veriyor."
 
 #: ../../source/saml/tabs/rules.rst:18
 msgid ""
 "For example, you want your users with SAML authentication to obtain the "
 "Self-Service profile."
 msgstr ""
+"Örneğin, SAML kimlik doğrulaması kullanan kullanıcılarınızın Self-Service "
+"profilini edinmesini istiyorsunuz."
 
 #: ../../source/saml/tabs/rules.rst:20
 msgid "You would set your criteria and action as shown here:"
 msgstr ""
+"Ölçütlerinizi ve işlemlerinizi burada gösterildiği gibi belirleyebilirsiniz:"
 
 #: ../../source/saml/tabs/rules.rst:23
 msgid "manage cable type"
-msgstr ""
+msgstr "Kablo türünü yönetin"
 
 #: ../../source/saml/tabs/source.rst:2
 msgid "Sources"
-msgstr ""
+msgstr "Kaynaklar"
 
 #: ../../source/saml/tabs/source.rst:4
 msgid ""
 "Microsoft Entra : https://learn.microsoft.com/en-us/entra/architecture/auth-"
 "saml"
 msgstr ""
+"Microsoft Entra : https://learn.microsoft.com/en-us/entra/architecture/auth-"
+"saml"
 
 #: ../../source/saml/tabs/source.rst:6
 msgid "Google : https://support.google.com/a/answer/6087519?hl=en"
-msgstr ""
+msgstr "Google : https://support.google.com/a/answer/6087519?hl=en"
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Creative Commons Lisansı"

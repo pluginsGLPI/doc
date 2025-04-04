@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2016-12-20 09:45+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -107,7 +107,7 @@ msgid ""
 "You can take an look to `the full changelog from plugin sources "
 "<https://github.com/pluginsGLPI/formcreator/blob/master/CHANGELOG.md>`_."
 msgstr ""
-"Tüm değişikliklerin listesine uygulama eki kaynaklarından bakabilirsiniz "
+"Tüm değişikliklerin listesine eklenti kaynaklarından bakabilirsiniz "
 "<https://github.com/pluginsGLPI/formcreator/blob/master/CHANGELOG.md>`_."
 
 #: ../../<rst_epilog>:2

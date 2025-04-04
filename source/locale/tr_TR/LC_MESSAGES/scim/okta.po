@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kaya Zeren <kayazeren@gmail.com>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2024-01-26 14:57+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,121 +23,133 @@ msgstr ""
 
 #: ../../source/scim/okta.rst:2
 msgid "OKTA"
-msgstr ""
+msgstr "OKTA"
 
 #: ../../source/scim/okta.rst:5
 msgid "References"
-msgstr ""
+msgstr "Başvurular"
 
 #: ../../source/scim/okta.rst:7
 msgid "`Understanding SCIM <https://developer.okta.com/docs/concepts/scim/>`_"
-msgstr ""
+msgstr "`SCIM nedir <https://developer.okta.com/docs/concepts/scim/>`_"
 
 #: ../../source/scim/okta.rst:8
 msgid ""
 "`Add SCIM provisioning to app integrations <https://help.okta.com/en-"
 "us/Content/Toimages/Apps/Apps_App_Integration_Wizard_SCIM.htm>`_"
 msgstr ""
+"`Uygulama bütünleştirmelerine SCIM sağlayıcısını eklemek "
+"<https://help.okta.com/en-"
+"us/Content/Toimages/Apps/Apps_App_Integration_Wizard_SCIM.htm>`_"
 
 #: ../../source/scim/okta.rst:9
 msgid ""
 "`Assign applications to users <https://help.okta.com/en-"
 "us/Content/Toimages/users-groups-profiles/usgp-assign-apps.htm>`_"
 msgstr ""
+"`Uygulamaları kullanıcılara atamak <https://help.okta.com/en-"
+"us/Content/Toimages/users-groups-profiles/usgp-assign-apps.htm>`_"
 
 #: ../../source/scim/okta.rst:13
 msgid "Create application"
-msgstr ""
+msgstr "Uygulamayı oluşturun"
 
 #: ../../source/scim/okta.rst:15
 msgid "From your `OKTA portal <https://login.okta.com/>`_"
-msgstr ""
+msgstr "`OKTA portal <https://login.okta.com/>`_ panonuza gidin"
 
 #: ../../source/scim/okta.rst:16
 msgid "Click on **Applications**"
-msgstr ""
+msgstr "**Uygulamalar** üzerine tıklayın"
 
 #: ../../source/scim/okta.rst:17
 msgid "And **Create app integration**"
-msgstr ""
+msgstr "**Uygulama bütünleştirmesi oluştur** üzerine tıklayın"
 
 #: ../../source/scim/okta.rst-1
 msgid "Okta create app"
-msgstr ""
+msgstr "OKTA uygulaması oluşturun"
 
 #: ../../source/scim/okta.rst:23
 msgid "Select **SWA - Secure Web Authentication**"
-msgstr ""
+msgstr "**SWA - Secure Web Authentication** üzerine tıklayın"
 
 #: ../../source/scim/okta.rst-1
 msgid "Select SWA Sign in"
-msgstr ""
+msgstr "SWA oturum açmayı seçin"
 
 #: ../../source/scim/okta.rst:29
 msgid "Add a name to your application"
-msgstr ""
+msgstr "Uygulamanıza bir ad verin"
 
 #: ../../source/scim/okta.rst:30
 msgid ""
 "Add the URL of your GLPI instance (this will redirect your user to your GLPI"
 " if this application is avaiblable to the OKTA user portal)"
 msgstr ""
+"GLPI kopyanızın adresini ekleyin (böylece bu uygulama OKTA kullanıcı "
+"portalında varsa kullanıcınız GLPI sitenize yönlendirilir)"
 
 #: ../../source/scim/okta.rst:31
 msgid "Click **Finish**"
-msgstr ""
+msgstr "**Finish** üzerine tıklayın"
 
 #: ../../source/scim/okta.rst-1
 msgid "add integration"
-msgstr ""
+msgstr "Bütünleştirme ekleyin"
 
 #: ../../source/scim/okta.rst:38
 msgid "Setup the application"
-msgstr ""
+msgstr "Uygulamayı kurmak"
 
 #: ../../source/scim/okta.rst:40
 msgid "Go back to **General**"
-msgstr ""
+msgstr "**General** bölümüne dönün"
 
 #: ../../source/scim/okta.rst:41
 msgid "Click **Edit**"
-msgstr ""
+msgstr "**Edit** üzerine tıklayın"
 
 #: ../../source/scim/okta.rst:42
 msgid "Name the label"
-msgstr ""
+msgstr "Etiketi adlandırın"
 
 #: ../../source/scim/okta.rst:43
 msgid "Select SCIM to activate the service"
-msgstr ""
+msgstr "Hizmeti etkinleştirmek için SCIM olarak seçin"
 
 #: ../../source/scim/okta.rst:44
 msgid "Click **Save**"
-msgstr ""
+msgstr "**Save** üzerine tıklayın"
 
 #: ../../source/scim/okta.rst-1
 msgid "setup general"
-msgstr ""
+msgstr "Genel kurulum"
 
 #: ../../source/scim/okta.rst:50
 msgid ""
 "To setup the provisioning, you need to setup GLPI. Refer to `setup GLPI "
 "<setup_plugin.html>`_ to configure **URL API** and **JWT Token**"
 msgstr ""
+"Sağlama işlemini kurmak için GLPI kurmanız gerekir. **API adresi** ve **JWT "
+"kodu** değerlerini yapılandırmak için `GLPI kurulumu <setup_plugin.html>`_ "
+"bölümüne bakın"
 
 #: ../../source/scim/okta.rst:52
 msgid ""
 "Copy the **API URL** and the **JWT token**, you need to paste this "
 "information in OKTA."
 msgstr ""
+"**API adresi** ve **JWT kodu** değerlerini kopyalayın. Bu bilgileri OKTA "
+"üzerine yapıştırmanız gerekiyor."
 
 #: ../../source/scim/okta.rst:56
 msgid "Go back to your OKTA application"
-msgstr ""
+msgstr "OKTA uygulamanıza geri dönün"
 
 #: ../../source/scim/okta.rst:57
 msgid "Paste the API URL"
-msgstr ""
+msgstr "API adresini yapıştırın"
 
 #: ../../source/scim/okta.rst:58
 msgid ""
@@ -141,44 +157,50 @@ msgid ""
 " name.givenName, id, userName, email,* etc. This will be the method to "
 "authenticate the users)"
 msgstr ""
+"Kullanıcılar için benzersiz tanımlayıcı alanını seçin (*name.familyName, "
+"phoneNumber, name.givenName, id, userName, email,* vb. Bu tanımlayıcı, "
+"kullanıcıları doğrulama yöntemi olur)"
 
 #: ../../source/scim/okta.rst:59
 msgid "Select the actions which can be supported"
-msgstr ""
+msgstr "Desteklenebilecek işlemleri seçin"
 
 #: ../../source/scim/okta.rst:60
 msgid "Select **HTTP Header**"
-msgstr ""
+msgstr "**HTTP Header** seçin"
 
 #: ../../source/scim/okta.rst:61
 msgid "Paste the **JWT token**"
-msgstr ""
+msgstr "**JWT kodu** değerini yapıştırın"
 
 #: ../../source/scim/okta.rst:64
 msgid "You need to **paste the JWT token** not the secret"
-msgstr ""
+msgstr "**JWT kodunu yapıştırmanız** gerekiyor, parolayı değil"
 
 #: ../../source/scim/okta.rst-1
 msgid "setup provisionning"
-msgstr ""
+msgstr "Sağlamayı kurun"
 
 #: ../../source/scim/okta.rst:70
 msgid "Click **Test Connector Configuration**"
-msgstr ""
+msgstr "**Bağlantı yapılandırmasını sına** üzerine tıklayın"
 
 #: ../../source/scim/okta.rst-1
 msgid "Test connection"
-msgstr ""
+msgstr "Bağlantıyı sınayın"
 
 #: ../../source/scim/okta.rst:76
 msgid "you can now **close** this window and **save** your configuration"
 msgstr ""
+"Artık bu pencereyi **kapatabilir** ve yapılandırmanızı **kaydedebilirsiniz**"
 
 #: ../../source/scim/okta.rst:78
 msgid ""
 "Always in **provisioning**, you can edit and select the possible actions for"
 " updating your user data."
 msgstr ""
+"Her zaman **sağlama** aşamasında, kullanıcı verilerinizi güncellemek için "
+"olası işlemleri düzenleyebilir ve seçebilirsiniz."
 
 #: ../../source/scim/okta.rst:81
 msgid ""
@@ -186,62 +208,68 @@ msgid ""
 "plugins.readthedocs.io/en/latest/oauthsso/okta.html>`_ to authenticate your "
 "user."
 msgstr ""
+"Kullanıcınızı doğrulamak için **Parolayı eşitle** seçeneğinin işaretini "
+"kaldırmanızı ve `OAuth SSO <https://glpi-"
+"plugins.readthedocs.io/en/latest/oauthsso/okta.html>`_ kullanmanızı "
+"öneririz."
 
 #: ../../source/scim/okta.rst-1
 msgid "Enable update data"
-msgstr ""
+msgstr "Güncelleme verilerini etkinleştirin"
 
 #: ../../source/scim/okta.rst:87
 msgid "The last step is to assign your application to users"
-msgstr ""
+msgstr "Son adım, uygulamanızı kullanıcılara atamaktır"
 
 #: ../../source/scim/okta.rst:90
 msgid "Synchronising all users"
-msgstr ""
+msgstr "Tüm kullanıcıları eşitlemek"
 
 #: ../../source/scim/okta.rst:92 ../../source/scim/okta.rst:107
 msgid "Go to admin console"
-msgstr ""
+msgstr "Yönetim panosuna gidin"
 
 #: ../../source/scim/okta.rst:93
 msgid "Select **Directory > Groups**"
-msgstr ""
+msgstr "**Dizin > Gruplar** seçin"
 
 #: ../../source/scim/okta.rst:94
 msgid "Select **Everyone**"
-msgstr ""
+msgstr "**Herkes** seçin"
 
 #: ../../source/scim/okta.rst:95 ../../source/scim/okta.rst:110
 msgid "In **Applications**, click **Assign applications**"
-msgstr ""
+msgstr "**Uygulamalar** bölümünde **Uygulamaları ata** üzerine tıklayın"
 
 #: ../../source/scim/okta.rst:96 ../../source/scim/okta.rst:111
 msgid "Click on assign on your SCIM application"
-msgstr ""
+msgstr "SCIM uygulamanızda atamayı tıklayın"
 
 #: ../../source/scim/okta.rst:97 ../../source/scim/okta.rst:112
 msgid "Click **Save and Go Back**"
-msgstr ""
+msgstr "**Kaydedip geri dön** üzerine tıklayın."
 
 #: ../../source/scim/okta.rst-1
 msgid "assign everyone"
-msgstr ""
+msgstr "Herkesi atayın"
 
 #: ../../source/scim/okta.rst:105
 msgid "Synchronising selected groups and users"
-msgstr ""
+msgstr "Seçilmiş grupları ve kullanıcıları eşitlemek"
 
 #: ../../source/scim/okta.rst:108
 msgid "Select **Directory > People**"
-msgstr ""
+msgstr "**Dizin > Kişiler** seçin"
 
 #: ../../source/scim/okta.rst:109
 msgid "Select the **User** you want to import"
-msgstr ""
+msgstr "İçe aktarmak istediğiniz **Kullanıcı** kaydını seçin"
 
 #: ../../source/scim/okta.rst:114
 msgid "Repeat this step for all users and groups you want to import."
 msgstr ""
+"İçe aktarmak istediğiniz tüm kullanıcılar ve gruplar için bu adımı "
+"yineleyin."
 
 #: ../../source/scim/okta.rst:117
 msgid ""
@@ -249,11 +277,14 @@ msgid ""
 "plugins.readthedocs.io/en/latest/oauthsso/okta.html>`_ plugin to "
 "authenticate users in GLPI."
 msgstr ""
+"GLPI üzerinde kullanıcıların kimliğini doğrulamak için `OAuth SSO "
+"<https://glpi-plugins.readthedocs.io/en/latest/oauthsso/okta.html>`_ "
+"eklentisini kurma yönergesine bakın."
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Creative Commons Lisansı"

@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kaya Zeren <kayazeren@gmail.com>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2024-01-31 13:12+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,175 +23,193 @@ msgstr ""
 
 #: ../../source/oauthsso/okta.rst:2
 msgid "OKTA"
-msgstr ""
+msgstr "OKTA"
 
 #: ../../source/oauthsso/okta.rst:5
 msgid "Create application"
-msgstr ""
+msgstr "Uygulamayı oluşturun"
 
 #: ../../source/oauthsso/okta.rst:7
 msgid "First, go to GLPI and download the Oauthsso plugin"
-msgstr ""
+msgstr "Öncelikle GLPI panosuna gidin ve Oauthsso eklentisini indirin"
 
 #: ../../source/oauthsso/okta.rst:8
 msgid "Navigate to the **Setup > Oauth SSO applications**"
-msgstr ""
+msgstr "**Kurulum > Oauth SSO uygulamaları** bölümüne gidin"
 
 #: ../../source/oauthsso/okta.rst:9 ../../source/oauthsso/okta.rst:98
 msgid "Click on **Add**"
-msgstr ""
+msgstr "**Ekle** üzerine tıklayın"
 
 #: ../../source/oauthsso/okta.rst-1
 msgid "add SSO GLPI"
-msgstr ""
+msgstr "SSO GLPI ekleyin"
 
 #: ../../source/oauthsso/okta.rst:16
 msgid "Keep this window active and retain the callback URL :"
-msgstr ""
+msgstr "Bu pencereyi açık tutun ve dönüş adresini koruyun:"
 
 #: ../../source/oauthsso/okta.rst-1
 msgid "copy callback URL"
-msgstr ""
+msgstr "Dönüş adresini kopyalayın"
 
 #: ../../source/oauthsso/okta.rst:23
 msgid "In your OKTA interface, go to **Applications**"
-msgstr ""
+msgstr "OKTA arayüzünüzde **Uygulamalar** bölümüne gidin"
 
 #: ../../source/oauthsso/okta.rst:24
 msgid "**Create App Integration**"
-msgstr ""
+msgstr "**Uygulama bütünleştirmesi oluştur**"
 
 #: ../../source/oauthsso/okta.rst-1
 msgid "create app"
-msgstr ""
+msgstr "Uygulamayı oluşturun"
 
 #: ../../source/oauthsso/okta.rst:31
 msgid ""
 "Select option **OIDC – OpenID Connect** in the 1st insert and **Web "
 "Application** in the second"
 msgstr ""
+"İlk olarak **OIDC – OpenID Connect** seçeneğini ardından **Web uygulaması** "
+"seçeneğini seçin"
 
 #: ../../source/oauthsso/okta.rst:32
 msgid "Click on **Next**"
-msgstr ""
+msgstr "**Sonraki** üzerine tıklayın"
 
 #: ../../source/oauthsso/okta.rst-1
 msgid "select sign-in"
-msgstr ""
+msgstr "Oturum açmayı seçin"
 
 #: ../../source/oauthsso/okta.rst:39
 msgid "Enter an application name and check the box **Client credentials**"
 msgstr ""
+"Bir uygulama adı yazın ve **İstemci kimlik doğrulama bilgileri** kutusunu "
+"işaretleyin"
 
 #: ../../source/oauthsso/okta.rst-1
 msgid "web integration"
-msgstr ""
+msgstr "Web bütünleştirmesi"
 
 #: ../../source/oauthsso/okta.rst:46
 msgid "Enter the return URL, retrieved above, in Sign-in redirect URIs."
 msgstr ""
+"Yukarıdan alınan dönüş adresini oturum açma yönlendirmesi adresi olarak "
+"yazın."
 
 #: ../../source/oauthsso/okta.rst-1
 msgid "paste URL callback"
-msgstr ""
+msgstr "Dönüş adresini yapıştırın"
 
 #: ../../source/oauthsso/okta.rst:54
 msgid "Assignments"
-msgstr ""
+msgstr "Atamalar"
 
 #: ../../source/oauthsso/okta.rst:56
 msgid ""
 "In the last box, select the option that suits you best (here we authorize "
 "all users present in OKTA)"
 msgstr ""
+"Son kutuda size uygun seçeneği seçin (burada OKTA üzerinde bulunan tüm "
+"kullanıcıları yetkilendiriyoruz)"
 
 #: ../../source/oauthsso/okta.rst:57
 msgid "Finally, click on **Save**"
-msgstr ""
+msgstr "Son olarak **Kaydet** üzerine tıklayın"
 
 #: ../../source/oauthsso/okta.rst-1
 msgid "assignments"
-msgstr ""
+msgstr "Atamalar"
 
 #: ../../source/oauthsso/okta.rst:65
 msgid "Setup GLPI"
-msgstr ""
+msgstr "GLPI kurulumu"
 
 #: ../../source/oauthsso/okta.rst:67
 msgid ""
 "In GLPI, go back to the Oauth SSO plugin configuration window and enter your"
 " OKTA tenant information :"
 msgstr ""
+"GLPI üzerinde Oauth SSO eklentisini yapılandırma penceresine dönün ve OKTA "
+"kiracı bilgilerinizi yazın:"
 
 #: ../../source/oauthsso/okta.rst-1
 msgid "setup GLPI"
-msgstr ""
+msgstr "GLPI kurulumu"
 
 #: ../../source/oauthsso/okta.rst:74
 msgid "Give your provider a name, which will appear on the login page."
-msgstr ""
+msgstr "Sağlayıcınıza, oturum açma sayfasında görüntülenecek bir ad verin"
 
 #: ../../source/oauthsso/okta.rst:76
 msgid "Indicate this as active"
-msgstr ""
+msgstr "Bunu etkin olarak belirtin"
 
 #: ../../source/oauthsso/okta.rst:78
 msgid "Enter OKTA as provider Oauth"
-msgstr ""
+msgstr "OAuth sağlayıcı olarak OKTA seçin"
 
 #: ../../source/oauthsso/okta.rst:80
 msgid ""
 "Enter the application ID found in the application previously created in OKTA"
 msgstr ""
+"Daha önce OKTA üzerinde oluşturulan uygulamada bulunan uygulama kimliğini "
+"yazın"
 
 #: ../../source/oauthsso/okta.rst-1
 msgid "client ID"
-msgstr ""
+msgstr "İstemci kimliği"
 
 #: ../../source/oauthsso/okta.rst:87
 msgid "Specify the ID field to be mapped with OKTA"
-msgstr ""
+msgstr "OKTA ile eşleştirilecek kimlik alanını belirtin"
 
 #: ../../source/oauthsso/okta.rst:89
 msgid ""
 "Specify the customer secret available in OKTA in the previously created "
 "application"
 msgstr ""
+"Daha önce oluşturulan uygulamada OKTA üzerinde bulunan istemci parolasını "
+"yazın"
 
 #: ../../source/oauthsso/okta.rst-1
 msgid "add secret"
-msgstr ""
+msgstr "Parolayı ekleyin"
 
 #: ../../source/oauthsso/okta.rst:96
 msgid ""
 "Enter the name of your OKTA instance (https://XXXXXXXXX.okta.com), available"
 " in the account creation confirmation e-mail."
 msgstr ""
+"Hesap oluşturma onay e-postasında bulunan OKTA kopyanızın adını "
+"(https://XXXXXXXXX.okta.com) girin."
 
 #: ../../source/oauthsso/okta.rst:99
 msgid "In the plugin, you will see the approval message:"
-msgstr ""
+msgstr "Eklentide onay iletisini göreceksiniz:"
 
 #: ../../source/oauthsso/okta.rst-1
 msgid "test connexion"
-msgstr ""
+msgstr "Bağlantıyı sınayın"
 
 #: ../../source/oauthsso/okta.rst:106
 msgid "Now that the configuration is complete, you can test it with a user."
 msgstr ""
+"Artık yapılandırmanız tamamlandığına göre bunu bir kullanıcıyla "
+"sınayabilirsiniz."
 
 #: ../../source/oauthsso/okta.rst-1
 msgid "login page"
-msgstr ""
+msgstr "Oturum açma sayfası"
 
 #: ../../source/oauthsso/okta.rst-1
 msgid "home page"
-msgstr ""
+msgstr "Giriş sayfası"
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Creative Commons Lisansı"

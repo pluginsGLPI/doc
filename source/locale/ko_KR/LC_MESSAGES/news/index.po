@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 13:57+0200\n"
 "PO-Revision-Date: 2020-01-24 06:36+0000\n"
 "Last-Translator: 조성현 (jaymz9634) <jaymz9634@gmail.com>, 2024\n"
 "Language-Team: Korean (Korea) (https://app.transifex.com/teclib/teams/28042/ko_KR/)\n"
@@ -69,153 +69,154 @@ msgstr ""
 msgid "8.2"
 msgstr ""
 
-#: ../../source/news/index.rst:22
+#: ../../source/include/no_subscription.rst:2
 msgid ""
-"This plugin is available without a GLPI-Network subscription. It is also "
-"available in `Cloud <https://glpi-network.cloud/>`_"
+"This plugin is available without a `GLPI Network <https://services.glpi-"
+"network.com/#offers>`_ subscription. It is also available on `GLPI Cloud "
+"<https://glpi-network.cloud>`_."
 msgstr ""
 
-#: ../../source/news/index.rst:26
+#: ../../source/news/index.rst:24
 msgid "Features"
 msgstr "특징"
 
-#: ../../source/news/index.rst:28
+#: ../../source/news/index.rst:26
 msgid ""
 "This plugin allows to display alerts messages on GLPI homepage and / or "
 "login page."
 msgstr "이 플러그인은 GLPI 홈페이지 그리고 / 또는 로그인 페이지에서 경고 메시지를 표시하게 해 줍니다."
 
-#: ../../source/news/index.rst:30
+#: ../../source/news/index.rst:28
 msgid "Create alert with rich text as for notes."
 msgstr "메모 같은 서식있는 텍스트로 경고를 생성합니다."
 
-#: ../../source/news/index.rst:31
+#: ../../source/news/index.rst:29
 msgid "Choice of begin/end publication date."
 msgstr "게시 시작/종료 일자 선택."
 
-#: ../../source/news/index.rst:32
+#: ../../source/news/index.rst:30
 msgid "Manage alerts by entity."
 msgstr "개체 별 경고 관리."
 
-#: ../../source/news/index.rst:33
+#: ../../source/news/index.rst:31
 msgid "Target : display alerts by profile / group / user."
 msgstr "대상 : 프로필 / 그룹 / 사용자 별 경고 표시."
 
-#: ../../source/news/index.rst:37
+#: ../../source/news/index.rst:35
 msgid "Install the Plugin"
 msgstr "플러그인 설치"
 
-#: ../../source/news/index.rst:38
+#: ../../source/news/index.rst:36
 msgid "Uncompress the archive."
 msgstr "아카이브를 압축해제 합니다."
 
-#: ../../source/news/index.rst:39
+#: ../../source/news/index.rst:37
 msgid "Move the ``news`` directory to the ``<GLPI_ROOT>/plugins`` directory"
 msgstr "``news`` 디렉토리를 ``<GLPI_ROOT>/plugins``  디렉토리로 이동"
 
-#: ../../source/news/index.rst:40
+#: ../../source/news/index.rst:38
 msgid "Navigate to the *Configuration > Plugins* page,"
 msgstr "*구성 > 플러그인* 페이지로 이동해서,"
 
-#: ../../source/news/index.rst:41
+#: ../../source/news/index.rst:39
 msgid "Install and activate the plugin."
 msgstr "플러그인을 설치하고 활성화 합니다."
 
-#: ../../source/news/index.rst:44
+#: ../../source/news/index.rst:42
 msgid "Usage"
 msgstr "사용"
 
-#: ../../source/news/index.rst:46
+#: ../../source/news/index.rst:44
 msgid ""
 "The plugin will create required tables in the database  automatically. Those"
 " tables will be updated along with the plugin."
 msgstr "플러그인은 자동으로 데이터베이스에 필수 테이블을 생성하게됩니다. 해당 테이블들은 플러그인과 함께 갱신되게 됩니다."
 
-#: ../../source/news/index.rst:48
+#: ../../source/news/index.rst:46
 msgid "Plugin usage is quite simple:"
 msgstr "플러그인 사용법은 아주 간단합니다:"
 
-#: ../../source/news/index.rst:50
+#: ../../source/news/index.rst:48
 msgid "configure alerts"
 msgstr "경고 구성"
 
-#: ../../source/news/index.rst:52
+#: ../../source/news/index.rst:50
 msgid "You will access the plugin configuration from the *Tools* > *Alerts*."
 msgstr "*도구* > *경고* 에서 플러그인 구성에 접근하게 됩니다."
 
-#: ../../source/news/index.rst:56
+#: ../../source/news/index.rst:54
 msgid "Create alerts"
 msgstr "경고 생성"
 
-#: ../../source/news/index.rst:58
+#: ../../source/news/index.rst:56
 msgid "Name : display as talert title"
 msgstr "이름 : 경고 제목으로 표시"
 
-#: ../../source/news/index.rst:59
+#: ../../source/news/index.rst:57
 msgid "Active : is active or not"
 msgstr "활성화 : 활성화 유무"
 
-#: ../../source/news/index.rst:60
+#: ../../source/news/index.rst:58
 msgid "Description : content of alert"
 msgstr "상세 : 경고 내용"
 
-#: ../../source/news/index.rst:61
+#: ../../source/news/index.rst:59
 msgid "Visibility start / end : period of Visibility"
 msgstr "노출 시작 / 종료 : 노출 기간"
 
-#: ../../source/news/index.rst:62
+#: ../../source/news/index.rst:60
 msgid "Type : type of alert (General, Information, Warning, Problem)"
 msgstr "유형 : 경고 유형 (일반, 정보, 경고, 문제)"
 
-#: ../../source/news/index.rst:63
+#: ../../source/news/index.rst:61
 msgid "Can close alert : User can close alert ?"
 msgstr "경고 닫기 가능여부 : 사용자 경고 닫기 여부 ?"
 
-#: ../../source/news/index.rst:64
+#: ../../source/news/index.rst:62
 msgid "Show on login page : display or not alert on login page"
 msgstr "로그인 페이지에 표시 : 로그인 페이지에 경고 표시 유무"
 
-#: ../../source/news/index.rst:65
+#: ../../source/news/index.rst:63
 msgid "Show on helpdesk page : display or not alert on helpdesk page"
 msgstr "안내 페이지에 표시 : 안내 페이지에 경고 표시 유무"
 
-#: ../../source/news/index.rst:66
+#: ../../source/news/index.rst:64
 msgid "Sub-entity : display or not on sub-entity"
 msgstr "하위-개체 : 하위-개체에 표시 유무"
 
-#: ../../source/news/index.rst:72
+#: ../../source/news/index.rst:70
 msgid "Targets"
 msgstr "대상"
 
-#: ../../source/news/index.rst:74
+#: ../../source/news/index.rst:72
 msgid "You can define target by type"
 msgstr "유형 별로 대상을 정의할 수 있습니다"
 
-#: ../../source/news/index.rst:76
+#: ../../source/news/index.rst:74
 msgid "Group : for all users of group"
 msgstr "그룹 : 그룹의 모든 사용자 대상"
 
-#: ../../source/news/index.rst:77
+#: ../../source/news/index.rst:75
 msgid "Profil : for all users with profile"
 msgstr "프로필 : 프로필이 있는 모든 사용자 대상"
 
-#: ../../source/news/index.rst:78
+#: ../../source/news/index.rst:76
 msgid "User : for specifi user"
 msgstr "사용자 : 특정 사용자 대상"
 
-#: ../../source/news/index.rst:84
+#: ../../source/news/index.rst:82
 msgid "Display on login page"
 msgstr "로그인 페이지에 표시"
 
-#: ../../source/news/index.rst:90
+#: ../../source/news/index.rst:88
 msgid "Display on helpdesk page"
 msgstr "안내 페이지에 표시"
 
-#: ../../source/news/index.rst:97
+#: ../../source/news/index.rst:95
 msgid "FAQ"
 msgstr "FAQ"
 
-#: ../../source/news/index.rst:99
+#: ../../source/news/index.rst:97
 msgid ""
 "If you have any questions about using the plugin, please consult `our FAQ "
 "<https://faq.teclib.com/04_Plugins/News/>`_"

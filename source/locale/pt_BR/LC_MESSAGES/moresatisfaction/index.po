@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 13:57+0200\n"
 "PO-Revision-Date: 2024-02-01 06:43+0000\n"
 "Last-Translator: Eduardo Scott <edu.scott01@gmail.com>, 2024\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/teclib/teams/28042/pt_BR/)\n"
@@ -53,18 +53,27 @@ msgstr "8.1"
 msgid "8.2"
 msgstr "8.2"
 
-#: ../../source/moresatisfaction/index.rst:15
+#: ../../source/include/basic_subscription.rst:2
 msgid ""
-"A `basic licence <https://services.glpi-network.com/#offers>`_ (or higher) "
-"is required. This plugin is also available on `Cloud <https://glpi-"
-"network.cloud/fr/>`_."
+"A `GLPI Network BASIC <https://services.glpi-network.com/#offers>`_ "
+"subscription (or higher) is required. This plugin is also available for all "
+"GLPI Network `Cloud instances <https://glpi-network.cloud>`_."
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:18
+#: ../../source/moresatisfaction/index.rst:16
+msgid ""
+"The plugin **cannot work with anonymous users** (with email only) The plugin"
+" needs a GLPI account to use the user's token and allow one-click responses "
+"without authentication (the plugin takes care of this via the token). In "
+"this context you will need to use an external satisfaction survey, for "
+"example google forms."
+msgstr ""
+
+#: ../../source/moresatisfaction/index.rst:22
 msgid "Install the plugin"
 msgstr "Instalar o plugin"
 
-#: ../../source/moresatisfaction/index.rst:20
+#: ../../source/moresatisfaction/index.rst:24
 msgid ""
 "Go to the marketplace. Download and install the plugin **More satisfaction**"
 msgstr "Vá para o marketplace. Baixe e instale o plugin **Mais satisfação**"
@@ -73,23 +82,23 @@ msgstr "Vá para o marketplace. Baixe e instale o plugin **Mais satisfação**"
 msgid "install the plugin"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:26
+#: ../../source/moresatisfaction/index.rst:30
 msgid "Create a survey"
 msgstr "Criar uma pesquisa"
 
-#: ../../source/moresatisfaction/index.rst:28
+#: ../../source/moresatisfaction/index.rst:32
 msgid "Once installed, go to **Administration > Satisfaction survey**"
 msgstr "Uma vez instalado, vá para **Administração > Pesquisa de satisfação**"
 
-#: ../../source/moresatisfaction/index.rst:29
+#: ../../source/moresatisfaction/index.rst:33
 msgid "Click on **Add**"
 msgstr "Clique em **Adicionar**"
 
-#: ../../source/moresatisfaction/index.rst:30
+#: ../../source/moresatisfaction/index.rst:34
 msgid "Name your survey and set it as active"
 msgstr "Nomeie sua pesquisa e defina-a como ativa"
 
-#: ../../source/moresatisfaction/index.rst:31
+#: ../../source/moresatisfaction/index.rst:35
 msgid ""
 "Also remember to tick the sub-entity box if you want it to be available to "
 "all child entities"
@@ -97,7 +106,7 @@ msgstr ""
 "Também lembre-se de marcar a caixa de subentidade se você deseja que ela "
 "esteja disponível para todas as entidades filhas."
 
-#: ../../source/moresatisfaction/index.rst:32
+#: ../../source/moresatisfaction/index.rst:36
 msgid "Then click on **Add**"
 msgstr "Então clique em **Adicionar**"
 
@@ -105,7 +114,7 @@ msgstr "Então clique em **Adicionar**"
 msgid "add satisfaction survey"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:39
+#: ../../source/moresatisfaction/index.rst:43
 msgid ""
 "It is only possible to create one survey per entity. If you wish to create "
 "several for different entities, remember to position yourself in the "
@@ -119,25 +128,25 @@ msgstr ""
 msgid "sub entity"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:46
+#: ../../source/moresatisfaction/index.rst:50
 msgid "Create a question"
 msgstr "Criar uma pergunta"
 
-#: ../../source/moresatisfaction/index.rst:48
+#: ../../source/moresatisfaction/index.rst:52
 msgid "Enter your survey and go to the **Question** tab"
 msgstr "Digite sua pesquisa e vá para a guia **Pergunta**"
 
-#: ../../source/moresatisfaction/index.rst:49
+#: ../../source/moresatisfaction/index.rst:53
 msgid "Click on Add a question"
 msgstr "Clique em Adicionar uma pergunta"
 
-#: ../../source/moresatisfaction/index.rst:50
+#: ../../source/moresatisfaction/index.rst:54
 msgid ""
 "Select the type of question **Yes/No** and enter the text that suits you"
 msgstr ""
 "Selecione o tipo de pergunta **Sim/Não** e digite o texto que lhe convém."
 
-#: ../../source/moresatisfaction/index.rst:51
+#: ../../source/moresatisfaction/index.rst:55
 msgid "Then click **Add**"
 msgstr "Então clique em **Adicionar**"
 
@@ -145,20 +154,20 @@ msgstr "Então clique em **Adicionar**"
 msgid "create question"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:58
+#: ../../source/moresatisfaction/index.rst:62
 msgid "Create a text field"
 msgstr "Adicionar um campo de texto"
 
-#: ../../source/moresatisfaction/index.rst:60
-#: ../../source/moresatisfaction/index.rst:71
+#: ../../source/moresatisfaction/index.rst:64
+#: ../../source/moresatisfaction/index.rst:75
 msgid "In the question tab, click on **Add a question**"
 msgstr "Na guia de perguntas, clique em **Adicionar uma pergunta**."
 
-#: ../../source/moresatisfaction/index.rst:61
+#: ../../source/moresatisfaction/index.rst:65
 msgid "Select the **Text** type"
 msgstr "Selecione o tipo de **Texto**"
 
-#: ../../source/moresatisfaction/index.rst:62
+#: ../../source/moresatisfaction/index.rst:66
 msgid "Enter the text to be displayed and click **Add**"
 msgstr "Digite o texto a ser exibido e clique em **Adicionar**"
 
@@ -166,19 +175,19 @@ msgstr "Digite o texto a ser exibido e clique em **Adicionar**"
 msgid "text for question"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:69
+#: ../../source/moresatisfaction/index.rst:73
 msgid "Create a note"
 msgstr "Criar uma nota"
 
-#: ../../source/moresatisfaction/index.rst:72
+#: ../../source/moresatisfaction/index.rst:76
 msgid "select the **Note** type"
 msgstr "Selecione o tipo de **Nota**"
 
-#: ../../source/moresatisfaction/index.rst:73
+#: ../../source/moresatisfaction/index.rst:77
 msgid "You can select a score up to 10 and set a default value"
 msgstr "Você pode selecionar uma pontuação até 10 e definir um valor padrão."
 
-#: ../../source/moresatisfaction/index.rst:74
+#: ../../source/moresatisfaction/index.rst:78
 msgid "Click on \"Add\" when you are happy with your settings"
 msgstr "Clique em \"Adicionar\" quando estiver satisfeito com suas configurações."
 
@@ -186,11 +195,11 @@ msgstr "Clique em \"Adicionar\" quando estiver satisfeito com suas configuraçõ
 msgid "add note"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:81
+#: ../../source/moresatisfaction/index.rst:85
 msgid "Preview"
 msgstr "Pré-visualização"
 
-#: ../../source/moresatisfaction/index.rst:83
+#: ../../source/moresatisfaction/index.rst:87
 msgid ""
 "The preview tab allows you to see what users will receive once their ticket "
 "has been closed"
@@ -202,11 +211,11 @@ msgstr ""
 msgid "preview"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:90
+#: ../../source/moresatisfaction/index.rst:94
 msgid "Translation"
 msgstr "Tradução"
 
-#: ../../source/moresatisfaction/index.rst:92
+#: ../../source/moresatisfaction/index.rst:96
 msgid ""
 "You can translate each of the questions asked in the questionnaire into the "
 "language of your choice"
@@ -214,11 +223,11 @@ msgstr ""
 "Você pode traduzir cada uma das perguntas feitas no questionário para o "
 "idioma de sua escolha."
 
-#: ../../source/moresatisfaction/index.rst:94
+#: ../../source/moresatisfaction/index.rst:98
 msgid "Go to the **Translations** tab"
 msgstr "Vá para a guia **Traduções**"
 
-#: ../../source/moresatisfaction/index.rst:95
+#: ../../source/moresatisfaction/index.rst:99
 msgid ""
 "Choose the language you want and then, question by question, write the "
 "translation"
@@ -230,11 +239,11 @@ msgstr ""
 msgid "translate"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:102
+#: ../../source/moresatisfaction/index.rst:106
 msgid "Schedule reminders"
 msgstr "Agendar lembretes"
 
-#: ../../source/moresatisfaction/index.rst:104
+#: ../../source/moresatisfaction/index.rst:108
 msgid ""
 "In the event of a non-response to the survey, you can send out reminders to "
 "follow-up with the user. You can create your own reminder or select a "
@@ -244,36 +253,36 @@ msgstr ""
 "fazer um acompanhamento com o usuário. Você pode criar seu próprio lembrete "
 "ou selecionar um pré-definido."
 
-#: ../../source/moresatisfaction/index.rst:107
+#: ../../source/moresatisfaction/index.rst:111
 msgid "Customised reminder"
 msgstr "Lembrete personalizado"
 
-#: ../../source/moresatisfaction/index.rst:109
-#: ../../source/moresatisfaction/index.rst:124
+#: ../../source/moresatisfaction/index.rst:113
+#: ../../source/moresatisfaction/index.rst:128
 msgid "Go to the **Reminders** tab"
 msgstr "Ir para a guia **Lembretes**"
 
-#: ../../source/moresatisfaction/index.rst:110
+#: ../../source/moresatisfaction/index.rst:114
 msgid "Click on **Add a reminder**."
 msgstr "Clique em **Adicionar um lembrete**."
 
-#: ../../source/moresatisfaction/index.rst:115
+#: ../../source/moresatisfaction/index.rst:119
 msgid "Enter a :"
 msgstr "Digite um:"
 
-#: ../../source/moresatisfaction/index.rst:112
+#: ../../source/moresatisfaction/index.rst:116
 msgid "**Name**"
 msgstr "**Nome**"
 
-#: ../../source/moresatisfaction/index.rst:113
+#: ../../source/moresatisfaction/index.rst:117
 msgid "**Type of duration (day or month)**"
 msgstr "**Tipo de duração (dia ou mês)**"
 
-#: ../../source/moresatisfaction/index.rst:114
+#: ../../source/moresatisfaction/index.rst:118
 msgid "The **duration** of the reminder"
 msgstr "A **duração** do lembrete"
 
-#: ../../source/moresatisfaction/index.rst:115
+#: ../../source/moresatisfaction/index.rst:119
 msgid "**Activate** your reminder"
 msgstr "**Ative** seu lembrete"
 
@@ -281,15 +290,15 @@ msgstr "**Ative** seu lembrete"
 msgid "custom reminder"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:122
+#: ../../source/moresatisfaction/index.rst:126
 msgid "Predefined reminder"
 msgstr "Lembrete pré-definido"
 
-#: ../../source/moresatisfaction/index.rst:125
+#: ../../source/moresatisfaction/index.rst:129
 msgid "Click on **Add a predefined reminder**"
 msgstr "Clique em **Adicionar um lembrete predefinido**"
 
-#: ../../source/moresatisfaction/index.rst:126
+#: ../../source/moresatisfaction/index.rst:130
 msgid "You will have 3 options to choose from:"
 msgstr "Você terá 3 opções para escolher:"
 
@@ -297,27 +306,27 @@ msgstr "Você terá 3 opções para escolher:"
 msgid "predefined reminder"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:132
+#: ../../source/moresatisfaction/index.rst:136
 msgid "1 week: reminder every 7 days,"
 msgstr "1 semana: lembrete a cada 7 dias,"
 
-#: ../../source/moresatisfaction/index.rst:133
+#: ../../source/moresatisfaction/index.rst:137
 msgid "2 weeks: reminder every 14 days."
 msgstr "2 semanas: lembrete a cada 14 dias."
 
-#: ../../source/moresatisfaction/index.rst:134
+#: ../../source/moresatisfaction/index.rst:138
 msgid "1 month: monthly reminder."
 msgstr "1 mês: lembrete mensal."
 
-#: ../../source/moresatisfaction/index.rst:136
+#: ../../source/moresatisfaction/index.rst:140
 msgid "Select the option that suits you and click on **Add**"
 msgstr "Selecione a opção que mais lhe convém e clique em **Adicionar**"
 
-#: ../../source/moresatisfaction/index.rst:139
+#: ../../source/moresatisfaction/index.rst:143
 msgid "Limit the number of reminders"
 msgstr "Limite o número de lembretes"
 
-#: ../../source/moresatisfaction/index.rst:141
+#: ../../source/moresatisfaction/index.rst:145
 msgid ""
 "In the **Setup maximum number of days to send reminder** section, enter a "
 "limit for the **Maximum number of days to send a reminder**"
@@ -325,7 +334,7 @@ msgstr ""
 "Na seção **Configurar o número máximo de dias para enviar lembrete**, insira"
 " um limite para o **Número máximo de dias para enviar um lembrete**."
 
-#: ../../source/moresatisfaction/index.rst:143
+#: ../../source/moresatisfaction/index.rst:147
 msgid ""
 "**Example** : If a person has not responded after 3 reminders, GLPI will no "
 "longer send reminders and the satisfaction survey will then remain "
@@ -338,11 +347,11 @@ msgstr ""
 msgid "reminder example"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:150
+#: ../../source/moresatisfaction/index.rst:154
 msgid "Set up the automatic action"
 msgstr "Configurar a ação automática"
 
-#: ../../source/moresatisfaction/index.rst:152
+#: ../../source/moresatisfaction/index.rst:156
 msgid ""
 "Survey reminders are sent via an automatic action already created by the "
 "plugin. Make sure that this is activated and set up correctly"
@@ -351,11 +360,11 @@ msgstr ""
 " pelo plugin. Certifique-se de que isso esteja ativado e configurado "
 "corretamente."
 
-#: ../../source/moresatisfaction/index.rst:154
+#: ../../source/moresatisfaction/index.rst:158
 msgid "Go to **Setup > Automatic actions**"
 msgstr "Ir para **Configuração > Ações automáticas**"
 
-#: ../../source/moresatisfaction/index.rst:155
+#: ../../source/moresatisfaction/index.rst:159
 msgid "Select the **SatisfactionReminder** action."
 msgstr "Selecione a ação **LembretedeSatisfação**."
 
@@ -363,11 +372,11 @@ msgstr "Selecione a ação **LembretedeSatisfação**."
 msgid "automatic action"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:162
+#: ../../source/moresatisfaction/index.rst:166
 msgid "FAQ"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:164
+#: ../../source/moresatisfaction/index.rst:168
 msgid ""
 "If you have any questions about using the plugin, please consult `our FAQ "
 "<https://faq.teclib.com/04_Plugins/Satisfaction_survey/>`_"

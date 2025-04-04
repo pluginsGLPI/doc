@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -7,15 +7,16 @@
 # Eduardo Scott <edu.scott01@gmail.com>, 2024
 # Pablo Pierri <pablo.terdulino@gmail.com>, 2024
 # Luis José Machado Sousa <luisjosemachado@gmail.com>, 2024
+# Diego Nobre <diego@koruma.com.br>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2024-01-26 14:56+0000\n"
-"Last-Translator: Luis José Machado Sousa <luisjosemachado@gmail.com>, 2024\n"
+"Last-Translator: Diego Nobre <diego@koruma.com.br>, 2024\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/teclib/teams/28042/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -55,11 +56,11 @@ msgstr "8.1"
 msgid "8.2"
 msgstr "8.2"
 
-#: ../../source/advanceddashboard/index.rst:14
+#: ../../source/include/standard_subscription.rst:2
 msgid ""
-"A `standard licence <https://services.glpi-network.com/#offers>`_ (or "
-"higher) is required. This plugin is also available from the `Cloud "
-"<https://glpi-network.cloud/fr/>`_."
+"A `GLPI Network STANDARD <https://services.glpi-network.com/#offers>`_ "
+"subscription (or higher) is required. This plugin is also available for all "
+"GLPI Network `Cloud instances <https://glpi-network.cloud>`_."
 msgstr ""
 
 #: ../../source/advanceddashboard/index.rst-1
@@ -237,13 +238,15 @@ msgstr "o cartão está pronto"
 
 #: ../../source/advanceddashboard/index.rst:145
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: ../../source/advanceddashboard/index.rst:147
 msgid ""
 "If you have any questions about using the plugin, please consult `our FAQ "
 "<https://faq.teclib.com/04_Plugins/Advanced_dashboard/>`_"
 msgstr ""
+"Se você tem alguma dúvida sobre o uso do plugin, consulte `nosso FAQ "
+"<https://faq.teclib.com/04_Plugins/Advanced_dashboard/>`_"
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"

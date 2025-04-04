@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 13:57+0200\n"
 "PO-Revision-Date: 2020-01-24 13:02+0000\n"
 "Last-Translator: David Stepan <stepand@tiscali.cz>, 2020\n"
 "Language-Team: Czech (Czech Republic) (https://app.transifex.com/teclib/teams/28042/cs_CZ/)\n"
@@ -77,17 +77,18 @@ msgstr "Microsoft System Center Configuration Manager"
 msgid "Microsoft Drivers for PHP for Microsoft SQL Server"
 msgstr "Microsoft ovladače pro PHP pro Microsoft SQL Server"
 
-#: ../../source/sccm/index.rst:26
+#: ../../source/include/no_subscription_no_cloud.rst:2
 msgid ""
-"This plugin is available without a GLPI-Network subscription. It is not "
-"available in `Cloud <https://glpi-network.cloud/>`_"
+"This plugin is available without a `GLPI Network <https://services.glpi-"
+"network.com/#offers>`_ subscription. It is not available on `GLPI Cloud "
+"<https://glpi-network.cloud>`_."
 msgstr ""
 
-#: ../../source/sccm/index.rst:30
+#: ../../source/sccm/index.rst:29
 msgid "Features"
 msgstr "Funkce"
 
-#: ../../source/sccm/index.rst:32
+#: ../../source/sccm/index.rst:31
 msgid ""
 "Plugin to synchronize computers from SCCM (version 1802) to GLPI (version "
 "9.3 and 9.4). It uses the \"FusionInventory for GLPI\" plugin and the power "
@@ -97,28 +98,28 @@ msgstr ""
 "a 9.4). Využívá zásuvný modul Fusioninventory pro GLPI  a sílu jeho "
 "interního enginu."
 
-#: ../../source/sccm/index.rst:36
+#: ../../source/sccm/index.rst:35
 msgid "Workflow"
 msgstr "Pracovní postup"
 
-#: ../../source/sccm/index.rst:38
+#: ../../source/sccm/index.rst:37
 msgid "This plugin add two automatic actions : \"SCCMCollect\" et \"SCCMPush\""
 msgstr "Zásuvný modul přidává dvě automatické akce: \"SCCMCollect\" a \"SCCMPush\""
 
-#: ../../source/sccm/index.rst:39
+#: ../../source/sccm/index.rst:38
 msgid ""
 "The automatic action \"SCCMCollect\" queries the SCCM server with MsSQL "
 "queries."
 msgstr "Automatická akce \"SCCMCollect\" se dotazuje SCCM serveru dotazy MSSQL"
 
-#: ../../source/sccm/index.rst:40
+#: ../../source/sccm/index.rst:39
 msgid ""
 "This same action builds an XML foreach computer (in FusionInventory format)."
 msgstr ""
 "Stejná akce vytvoří XML soubor pro každý počítač (ve formátu "
 "Fusioninventory)."
 
-#: ../../source/sccm/index.rst:41
+#: ../../source/sccm/index.rst:40
 msgid ""
 "The automatic action \"SCCMPush\" injects XML files into GLPI over HTTP(s) "
 "(via cURL and FusionInventory) to display computer in GLPI."
@@ -126,22 +127,22 @@ msgstr ""
 "Automatická akce \"SCCMPush\" vloží XML soubory do GLPI cestou HTTP(s) "
 "(skrze CURL a Fusioninventory) pro zobrazení počítače v GLPI."
 
-#: ../../source/sccm/index.rst:45
+#: ../../source/sccm/index.rst:44
 msgid "Schematic diagram"
 msgstr "Schematický diagram"
 
-#: ../../source/sccm/index.rst:52
+#: ../../source/sccm/index.rst:51
 msgid "Collected data"
 msgstr "Sebraná data"
 
-#: ../../source/sccm/index.rst:54
+#: ../../source/sccm/index.rst:53
 msgid ""
 "Depending on data availability in the SCCM server, foreach computer we "
 "collect:"
 msgstr ""
 "V závislosti na dostupnosti dat v SCCM serveru sbíráme pro každý počítač:"
 
-#: ../../source/sccm/index.rst:56
+#: ../../source/sccm/index.rst:55
 msgid ""
 "Computer: name, last connected user, UUID, user login, domain, comments, "
 "serial"
@@ -149,11 +150,11 @@ msgstr ""
 "Počítač: název, poslední připojený uživatel, UUID, přihlašovací jméno, "
 "doména, komentáře, sériové číslo"
 
-#: ../../source/sccm/index.rst:57
+#: ../../source/sccm/index.rst:56
 msgid "Operating system: name, architecture, version, service pack"
 msgstr "Operační systém: název, architektura, verze, service pack"
 
-#: ../../source/sccm/index.rst:58
+#: ../../source/sccm/index.rst:57
 msgid ""
 "BIOS information: tag, model, type, manufacturer, serial, install date, "
 "version"
@@ -161,7 +162,7 @@ msgstr ""
 "BIOS informace: štítek, model, typ, výrobce, sériové číslo, datum instalace,"
 " verze"
 
-#: ../../source/sccm/index.rst:59
+#: ../../source/sccm/index.rst:58
 msgid ""
 "CPU: description (or name), manufacturer, frequency, type (arch), nb core, "
 "nb threads"
@@ -169,49 +170,49 @@ msgstr ""
 "CPU: popis (nebo název), výrobce, taktovací kmitočet, typ (architektura), "
 "počet jader, počet vláken"
 
-#: ../../source/sccm/index.rst:60
+#: ../../source/sccm/index.rst:59
 msgid "Softwares: name, version, editor, install date"
 msgstr "Software: název, verze, editor, datum instalace"
 
-#: ../../source/sccm/index.rst:61
+#: ../../source/sccm/index.rst:60
 msgid "Memory (RAM): capacity, decription, frequency, type, bus, serial"
 msgstr ""
 "Paměť (RAM): velikost, popis, taktovací kmitočet, typ, sběrnice, sériové "
 "číslo"
 
-#: ../../source/sccm/index.rst:62
+#: ../../source/sccm/index.rst:61
 msgid "Graphical card: name, chipset, memory"
 msgstr "Grafická karta: název, chipset, paměť"
 
-#: ../../source/sccm/index.rst:63
+#: ../../source/sccm/index.rst:62
 msgid "Sound card: name, manufacturer"
 msgstr "Zvuková karta: název, výrobce"
 
-#: ../../source/sccm/index.rst:64
+#: ../../source/sccm/index.rst:63
 msgid "Network card: name, MAC address, IP address (v4, v6)"
 msgstr "Síťová karta: název, MAC adresa, IP adresa (IPv4, IPv6)"
 
-#: ../../source/sccm/index.rst:65
+#: ../../source/sccm/index.rst:64
 msgid "Disk part: name, mount type, total size"
 msgstr "Diskový oddíl: název, typ připojení, celková velikost"
 
-#: ../../source/sccm/index.rst:69
+#: ../../source/sccm/index.rst:68
 msgid "Automatic actions"
 msgstr "Automatické akce"
 
-#: ../../source/sccm/index.rst:76
+#: ../../source/sccm/index.rst:75
 msgid "SCCMCollect"
 msgstr "SCCMCollect"
 
-#: ../../source/sccm/index.rst:78
+#: ../../source/sccm/index.rst:77
 msgid "Action to collect data from SCCM to XML files."
 msgstr "Akce pro sběr dat z SCCM do XML souborů."
 
-#: ../../source/sccm/index.rst:83
+#: ../../source/sccm/index.rst:82
 msgid "SCCMPush"
 msgstr "SCCMPush"
 
-#: ../../source/sccm/index.rst:85
+#: ../../source/sccm/index.rst:84
 msgid "Action to push XML file to FusionInventory plugin"
 msgstr "Akce pro vložení XML souboru do zásuvného modulu Fusioninventory"
 

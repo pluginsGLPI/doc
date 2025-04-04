@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 13:57+0200\n"
 "PO-Revision-Date: 2020-01-24 06:36+0000\n"
 "Language-Team: Spanish (Latin America) (https://app.transifex.com/teclib/teams/28042/es_419/)\n"
 "MIME-Version: 1.0\n"
@@ -65,17 +65,18 @@ msgstr ""
 msgid "8.2"
 msgstr ""
 
-#: ../../source/tag/index.rst:23
+#: ../../source/include/no_subscription.rst:2
 msgid ""
-"This plugin is available without a GLPI-Network subscription. It is also "
-"available in Cloud."
+"This plugin is available without a `GLPI Network <https://services.glpi-"
+"network.com/#offers>`_ subscription. It is also available on `GLPI Cloud "
+"<https://glpi-network.cloud>`_."
 msgstr ""
 
-#: ../../source/tag/index.rst:26
+#: ../../source/tag/index.rst:25
 msgid "Install the plugin"
 msgstr ""
 
-#: ../../source/tag/index.rst:28
+#: ../../source/tag/index.rst:27
 msgid "Go to the marketplace. Download and install the plugin “**Tag**”."
 msgstr ""
 
@@ -83,19 +84,19 @@ msgstr ""
 msgid "install the plugin"
 msgstr ""
 
-#: ../../source/tag/index.rst:35
+#: ../../source/tag/index.rst:34
 msgid "Setting up the plugin"
 msgstr ""
 
-#: ../../source/tag/index.rst:37
+#: ../../source/tag/index.rst:36
 msgid "From **Setup > Dropdowns**"
 msgstr ""
 
-#: ../../source/tag/index.rst:38
+#: ../../source/tag/index.rst:37
 msgid "Click on **Tag management**"
 msgstr ""
 
-#: ../../source/tag/index.rst:39
+#: ../../source/tag/index.rst:38
 msgid "Then **Tags**"
 msgstr ""
 
@@ -103,19 +104,19 @@ msgstr ""
 msgid "setup tags"
 msgstr ""
 
-#: ../../source/tag/index.rst:45
+#: ../../source/tag/index.rst:44
 msgid "Enter a name that will be visible when tags are added"
 msgstr ""
 
-#: ../../source/tag/index.rst:46
+#: ../../source/tag/index.rst:45
 msgid "Enter a description (optional)"
 msgstr ""
 
-#: ../../source/tag/index.rst:47
+#: ../../source/tag/index.rst:46
 msgid "Add a colour"
 msgstr ""
 
-#: ../../source/tag/index.rst:48
+#: ../../source/tag/index.rst:47
 msgid ""
 "Associate one or more elements. If nothing is ticked, it will not be visible"
 " in any element by default."
@@ -125,20 +126,20 @@ msgstr ""
 msgid "add new tag"
 msgstr ""
 
-#: ../../source/tag/index.rst:56
+#: ../../source/tag/index.rst:55
 msgid "Choose where to find the tag"
 msgstr ""
 
-#: ../../source/tag/index.rst:58
+#: ../../source/tag/index.rst:57
 msgid ""
 "You can indicate whether the tag should be at the top or bottom of the list."
 msgstr ""
 
-#: ../../source/tag/index.rst:61
+#: ../../source/tag/index.rst:60
 msgid "From **Setup > General > Tag management**, specify the tag location."
 msgstr ""
 
-#: ../../source/tag/index.rst:63
+#: ../../source/tag/index.rst:62
 msgid "Bottom :"
 msgstr ""
 
@@ -146,7 +147,7 @@ msgstr ""
 msgid "tag on bottom"
 msgstr ""
 
-#: ../../source/tag/index.rst:69
+#: ../../source/tag/index.rst:68
 msgid "Top:"
 msgstr ""
 
@@ -154,23 +155,23 @@ msgstr ""
 msgid "tag on top"
 msgstr ""
 
-#: ../../source/tag/index.rst:76
+#: ../../source/tag/index.rst:75
 msgid "Adding rules"
 msgstr ""
 
-#: ../../source/tag/index.rst:78
+#: ../../source/tag/index.rst:77
 msgid ""
 "You can add business rules (tickets, computers, etc.) to add tags to "
 "particular items."
 msgstr ""
 
-#: ../../source/tag/index.rst:80
+#: ../../source/tag/index.rst:79
 msgid ""
 "Example : Assign a VIP tag when a member of the management group writes a "
 "ticket."
 msgstr ""
 
-#: ../../source/tag/index.rst:82
+#: ../../source/tag/index.rst:81
 msgid ""
 "Here are the criteria to be implemented from **Administration > Rules > "
 "Business rules for tickets**"
@@ -184,7 +185,7 @@ msgstr ""
 msgid "criterion and action"
 msgstr ""
 
-#: ../../source/tag/index.rst:92
+#: ../../source/tag/index.rst:91
 msgid "After creating a ticket :"
 msgstr ""
 
@@ -192,17 +193,17 @@ msgstr ""
 msgid "result"
 msgstr ""
 
-#: ../../source/tag/index.rst:99
+#: ../../source/tag/index.rst:98
 msgid ""
 "Tags can, of course, be added manually if they have been set to be visible "
 "in the specified item."
 msgstr ""
 
-#: ../../source/tag/index.rst:103
+#: ../../source/tag/index.rst:102
 msgid "FAQ"
 msgstr ""
 
-#: ../../source/tag/index.rst:105
+#: ../../source/tag/index.rst:104
 msgid ""
 "If you have any questions about using the plugin, please consult `our FAQ "
 "<https://faq.teclib.com/04_Plugins/Tags/>`_"

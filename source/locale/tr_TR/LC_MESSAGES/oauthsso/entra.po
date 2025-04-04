@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kaya Zeren <kayazeren@gmail.com>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2024-01-31 13:12+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +23,11 @@ msgstr ""
 
 #: ../../source/oauthsso/entra.rst:2
 msgid "Entra"
-msgstr ""
+msgstr "Entra"
 
 #: ../../source/oauthsso/entra.rst:5
 msgid "Register your application in Entra"
-msgstr ""
+msgstr "Uygulamanızı Entra üzerine kaydedin"
 
 #: ../../source/oauthsso/entra.rst:7
 msgid ""
@@ -31,10 +35,13 @@ msgid ""
 " client. This will provide you with an application ID for your application "
 "and allow it to receive tokens."
 msgstr ""
+"Öncelikle uygulamanızı Entra Active Directory (Entra AD) istemcinize "
+"kaydedin. Bu işlem, uygulamanız için bir uygulama kimliği sağlar ve kodlar "
+"almasını sağlar."
 
 #: ../../source/oauthsso/entra.rst:9
 msgid "Connect to the `Entra portal <https://entra.microsoft.com/#home>`_"
-msgstr ""
+msgstr "`Entra portal <https://entra.microsoft.com/#home>`_ sayfasını açın"
 
 #: ../../source/oauthsso/entra.rst:10
 msgid ""
@@ -42,64 +49,73 @@ msgid ""
 "corner of the page. Then select the **Change directory** navigation bar, "
 "then the desired tenant"
 msgstr ""
+"Sayfanın sağ üst köşesinden hesabınızı seçerek Entra AD kiracınızı seçin. "
+"**Dizin değiştir** gezinme çubuğunu ve ardından istediğiniz kiracıyı seçin"
 
 #: ../../source/oauthsso/entra.rst:11
 msgid ""
 "Skip this step if you only have one Entra AD tenant under your account or if"
 " you have already selected one"
 msgstr ""
+"Hesabınızda yalnızca bir Entra AD kiracısı varsa ya da zaten bir tane "
+"seçtiyseniz bu adımı atlayın"
 
 #: ../../source/oauthsso/entra.rst-1
 msgid "change tenant"
-msgstr ""
+msgstr "Kiracıyı değiştirin"
 
 #: ../../source/oauthsso/entra.rst:18
 msgid "In the Entra Portal, search for and select **Entra Active Directory**"
 msgstr ""
+"Entra Portal üzerinde **Entra Active Directory** ögesini arayın ve seçin"
 
 #: ../../source/oauthsso/entra.rst:19
 msgid "From the left-hand **Active Directory** menu"
-msgstr ""
+msgstr "Sol taraftaki **Active Directory** menüsünden"
 
 #: ../../source/oauthsso/entra.rst:20
 msgid "select **Application Registrations**"
-msgstr ""
+msgstr "**Uygulama kayıtları** ögesini seçin"
 
 #: ../../source/oauthsso/entra.rst:21
 msgid "Then **New Registration**."
-msgstr ""
+msgstr "**Yeni kayıt** üzerine tıklayın."
 
 #: ../../source/oauthsso/entra.rst-1
 msgid "add new app"
-msgstr ""
+msgstr "Yeni uygulama ekleyin"
 
 #: ../../source/oauthsso/entra.rst:28
 msgid ""
 "Enter **web** in the redirect URI and paste the return URL of your GLPI "
 "instance:"
 msgstr ""
+"Yönlendirme adresi olarak **web** yazın ve  GLPI kopyanızın dönüş adresini "
+"yapıştırın:"
 
 #: ../../source/oauthsso/entra.rst-1
 msgid "register app"
-msgstr ""
+msgstr "Uygulamayı kaydedin"
 
 #: ../../source/oauthsso/entra.rst-1
 msgid "copy callback"
-msgstr ""
+msgstr "Geri dönüş adresini kopyalayın"
 
 #: ../../source/oauthsso/entra.rst:39
 msgid "Secret and certificate"
-msgstr ""
+msgstr "Parola ve sertifika"
 
 #: ../../source/oauthsso/entra.rst:41
 msgid ""
 "In the **certificates and secrets** tab, create a new secret that will need "
 "to be transferred to your Oauth SSO application on the GLPI side:"
 msgstr ""
+"**Sertifikalar ve parolalar** sekmesinden, GLPI tarafındaki OAuth SSO "
+"uygulamanıza aktarılması gereken yeni bir parola oluşturun:"
 
 #: ../../source/oauthsso/entra.rst-1
 msgid "add new secret"
-msgstr ""
+msgstr "Yeni parola ekleyin"
 
 #: ../../source/oauthsso/entra.rst:48
 msgid ""
@@ -108,14 +124,17 @@ msgid ""
 "longer be able to access it. Remember to **store it in a safe place** as we "
 "will need it later"
 msgstr ""
+"**Ekle** üzerine tıkladığınızda, **Parola yalnızca bir kez görüntülenir**. "
+"Bu sayfadan ayrılır ayrılmaz, **parola gizlenir** ve bir daha erişilemez. "
+"Daha sonra gerek duyacağımız için **güvenli bir yerde saklamayı** unutmayın"
 
 #: ../../source/oauthsso/entra.rst:0
 msgid "copy value"
-msgstr ""
+msgstr "Değeri kopyalayın"
 
 #: ../../source/oauthsso/entra.rst:55
 msgid "Claims"
-msgstr ""
+msgstr "İstekler"
 
 #: ../../source/oauthsso/entra.rst:58
 msgid ""
@@ -123,26 +142,28 @@ msgid ""
 "on the Entra side **must be entered manually** and should preferably be of "
 "type **ID**."
 msgstr ""
+"**SSO V2** kullanıyorsanız, ek bir adım gereklidir. Entra tarafındaki "
+"**istekler** **el ile** yazılmalı ve tercihen **ID** türünde olmalıdır."
 
 #: ../../source/oauthsso/entra.rst:60
 msgid "In the **Token configuration** tab"
-msgstr ""
+msgstr "**Kod yapılandırması** sekmesinde"
 
 #: ../../source/oauthsso/entra.rst:61
 msgid "Click on **Add an optional claim**"
-msgstr ""
+msgstr "**İsteğe bağlı bir istek ekle** seçeneğine tıklayın"
 
 #: ../../source/oauthsso/entra.rst:62
 msgid "Add the 4 claims below:"
-msgstr ""
+msgstr "Aşağıdaki 4 isteği ekleyin:"
 
 #: ../../source/oauthsso/entra.rst-1
 msgid "add token"
-msgstr ""
+msgstr "Kod ekleyin"
 
 #: ../../source/oauthsso/entra.rst-1 ../../source/oauthsso/entra.rst:69
 msgid "API authorisations"
-msgstr ""
+msgstr "API yetkilendirmeleri"
 
 #: ../../source/oauthsso/entra.rst:71
 msgid ""
@@ -150,89 +171,94 @@ msgid ""
 " - In **API permissions** - Click on the API already present (Microsoft "
 "Graph for our example)"
 msgstr ""
+"GLPI bağlantı için kullanabilmek amacıyla kullanıcı bilgilerini "
+"okuyabilmelidir - **API izinleri** bölümünden - Var olan API üzerine "
+"tıklayın (örneğimizde Microsoft Graph)"
 
 #: ../../source/oauthsso/entra.rst-1
 msgid "add API"
-msgstr ""
+msgstr "API ekleyin"
 
 #: ../../source/oauthsso/entra.rst:83
 msgid "Select :"
-msgstr ""
+msgstr "Seçin:"
 
 #: ../../source/oauthsso/entra.rst:85
 msgid "email"
-msgstr ""
+msgstr "email"
 
 #: ../../source/oauthsso/entra.rst:86
 msgid "offline_access"
-msgstr ""
+msgstr "offline_access"
 
 #: ../../source/oauthsso/entra.rst:87
 msgid "profile"
-msgstr ""
+msgstr "profile"
 
 #: ../../source/oauthsso/entra.rst:88
 msgid "user.read"
-msgstr ""
+msgstr "user.read"
 
 #: ../../source/oauthsso/entra.rst:90
 msgid "Then remember to save your changes."
-msgstr ""
+msgstr "Son olarak değişikliklerinizi kaydetmeyi unutmayın."
 
 #: ../../source/oauthsso/entra.rst:93
 msgid "Setup GLPI"
-msgstr ""
+msgstr "GLPI kurulumu"
 
 #: ../../source/oauthsso/entra.rst:95
 msgid ""
 "Entra AD provides a description with the essential information you need:"
-msgstr ""
+msgstr "Entra AD, gerek duyduğunuz temel bilgileri içeren bir açıklama sunar:"
 
 #: ../../source/oauthsso/entra.rst-1
 msgid "overview app"
-msgstr ""
+msgstr "Uygulama özeti"
 
 #: ../../source/oauthsso/entra.rst:101
 msgid "Specify an application **name** visible to end users."
-msgstr ""
+msgstr "Son kullanıcıların görebileceği bir uygulama **adı** belirtin."
 
 #: ../../source/oauthsso/entra.rst-1
 msgid "setup GLPI"
-msgstr ""
+msgstr "GLPI kurulumu"
 
 #: ../../source/oauthsso/entra.rst:107
 msgid "Copy the values from the fields above:"
-msgstr ""
+msgstr "Yukarıdaki alanlardaki değerleri kopyalayın:"
 
 #: ../../source/oauthsso/entra.rst:109
 msgid "Application ID"
-msgstr ""
+msgstr "Uygulama kimliği"
 
 #: ../../source/oauthsso/entra.rst:110
 msgid "The holder ID"
-msgstr ""
+msgstr "Sahip kimliği"
 
 #: ../../source/oauthsso/entra.rst:111
 msgid "The **value** of the secret copied in the previous step"
-msgstr ""
+msgstr "Önceki adımda kopyalanan parola **değeri**"
 
 #: ../../source/oauthsso/entra.rst:114
 msgid ""
 "Please check that the **value** of the secret is filled in correctly.If the "
 "ID of the secret is copied, your application will fall into error."
 msgstr ""
+"Lütfen parola **değerinin** doğru olarak doldurulduğundan emin olun. Parola "
+"kimliği kopyalanırsa, uygulamanız hata verir."
 
 #: ../../source/oauthsso/entra.rst:117
 msgid "Explanation of ID field"
-msgstr ""
+msgstr "Kimlik alanının açıklaması"
 
 #: ../../source/oauthsso/entra.rst:119
 msgid "3 values are available in this insert:"
-msgstr ""
+msgstr "Bu bölümde 3 değer bulunur:"
 
 #: ../../source/oauthsso/entra.rst-1
 msgid "choose ID field"
-msgstr ""
+msgstr "Kimlik alanını seçin"
 
 #: ../../source/oauthsso/entra.rst:125
 msgid ""
@@ -241,33 +267,43 @@ msgid ""
 "only the username to be visible (without the @mondomaine.com, see the "
 "**XXXXXXXXXX** paragraph)."
 msgstr ""
+"**Kullanıcı asıl adı (UPN)**: Bu seçenek oturum açan kullanıcının tam "
+"kullanıcı adını görüntüler (örneğin, ad.soyad@ornek.com). Yalnızca kullanıcı"
+" adının görünür olmasını istiyorsanız (@ornek.com olmadan, **XXXXXXXXXX** "
+"paragrafına bakın)."
 
 #: ../../source/oauthsso/entra.rst:126
 msgid ""
 "**Entra user ID (OID)**: this option takes the object ID from the Entra AD. "
 "This ID will be used for the user login"
 msgstr ""
+"**Entra kullanıcı kimliği (OID)**: Bu seçenek Entra AD üzerinden nesne "
+"kimliğini alır. Bu kimlik kullanıcıların oturum açması için kullanılır"
 
 #: ../../source/oauthsso/entra.rst-1
 msgid "what is objet ID"
-msgstr ""
+msgstr "Nesne kimliği nedir"
 
 #: ../../source/oauthsso/entra.rst:132
 msgid ""
 "**Email address**: This option specifies the user’s email address. This "
 "field will be used for the login. If it is empty, the UPN will be used."
 msgstr ""
+"**E-posta adresi**: Bu seçenek kullanıcının e-posta adresini belirtir. Bu "
+"alan oturum açmak için kullanılır. Boş ise, UPN kullanılır."
 
 #: ../../source/oauthsso/entra.rst:134
 msgid ""
 "If you need to find your application in the Entra portal, select "
 "**Application subscriptions**, then **Display all applications**."
 msgstr ""
+"Uygulamanızı Entra portalında bulmanız gerekiyorsa **Uygulama abonelikleri**"
+" üzerine ve ardından **Tüm uygulamaları görüntüle** üzerine tıklayın."
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Creative Commons Lisansı"

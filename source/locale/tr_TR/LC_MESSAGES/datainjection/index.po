@@ -1,19 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Kaya Zeren <kayazeren@gmail.com>, 2021
+# Kaya Zeren <kayazeren@gmail.com>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2020-01-30 07:19+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2021\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,285 +23,321 @@ msgstr ""
 
 #: ../../source/datainjection/index.rst:2
 msgid "Datainjection"
-msgstr "Veri aktarımı"
+msgstr "Veri içe aktarma"
 
 #: ../../source/datainjection/index.rst:7
 msgid "Download"
-msgstr ""
+msgstr "İndir"
 
 #: ../../source/datainjection/index.rst:8
 msgid "Sources"
-msgstr ""
+msgstr "Kaynaklar"
 
 #: ../../source/datainjection/index.rst:9
 msgid "`<https://github.com/pluginsGLPI/datainjection/releases>`_"
-msgstr ""
+msgstr "`<https://github.com/pluginsGLPI/datainjection/releases>`_"
 
 #: ../../source/datainjection/index.rst:10
 msgid "`<https://github.com/pluginsGLPI/datainjection>`_"
-msgstr ""
+msgstr "`<https://github.com/pluginsGLPI/datainjection>`_"
 
 #: ../../source/datainjection/index.rst:13
 msgid "Requirements (on-premise)"
-msgstr ""
+msgstr "Gereksinimler (özel kurulum)"
 
 #: ../../source/datainjection/index.rst:16
 msgid "GLPI Version"
-msgstr ""
+msgstr "GLPI sürümü"
 
 #: ../../source/datainjection/index.rst:16
 msgid "Minimum PHP"
-msgstr ""
+msgstr "En düşük PHP sürümü"
 
 #: ../../source/datainjection/index.rst:16
 msgid "Recommended"
-msgstr ""
+msgstr "Önerilen"
 
 #: ../../source/datainjection/index.rst:18
 msgid "10.0.x"
-msgstr ""
+msgstr "10.0.x"
 
 #: ../../source/datainjection/index.rst:18
 msgid "8.1"
-msgstr ""
+msgstr "8.1"
 
 #: ../../source/datainjection/index.rst:18
 msgid "8.2"
-msgstr ""
+msgstr "8.2"
 
-#: ../../source/datainjection/index.rst:22
+#: ../../source/include/no_subscription.rst:2
 msgid ""
-"This plugin is available without a GLPI-Network subscription. It is also "
-"available in `Cloud <https://glpi-network.cloud/>`_"
+"This plugin is available without a `GLPI Network <https://services.glpi-"
+"network.com/#offers>`_ subscription. It is also available on `GLPI Cloud "
+"<https://glpi-network.cloud>`_."
 msgstr ""
 
-#: ../../source/datainjection/index.rst:25
+#: ../../source/datainjection/index.rst:24
 msgid "Plugin installation"
-msgstr ""
+msgstr "Eklentiyi kurmak"
 
-#: ../../source/datainjection/index.rst:27
+#: ../../source/datainjection/index.rst:26
 msgid ""
 "Go to the marketplace. Download and install the plugin **Data Injection**"
-msgstr ""
+msgstr "Mağazaya gidin. **Veri içe aktarma** eklentisini indirip kurun."
 
 #: ../../source/datainjection/index.rst-1
 msgid "install the plugin"
-msgstr ""
+msgstr "Eklentiyi kurmak"
 
-#: ../../source/datainjection/index.rst:35
+#: ../../source/datainjection/index.rst:34
 msgid "Rights management"
-msgstr ""
+msgstr "İzin yönetimi"
 
-#: ../../source/datainjection/index.rst:37
+#: ../../source/datainjection/index.rst:36
 msgid ""
 "Once the plugin has been installed via the marketplace, you can configure "
 "rights according to profile:"
 msgstr ""
+"Eklentiyi market üzerinden kurduktan sonra, profile göre izinleri "
+"yapılandırabilirsiniz:"
+
+#: ../../source/datainjection/index.rst:38
+msgid "From **Administration > Profiles**, select the profile in question"
+msgstr "**Yönetim > Profiller** bölümünden söz konusu profili seçin"
 
 #: ../../source/datainjection/index.rst:39
-msgid "From **Administration > Profiles**, select the profile in question"
-msgstr ""
-
-#: ../../source/datainjection/index.rst:40
 msgid "Go to **Data injection**"
-msgstr ""
+msgstr "**Veri içe aktarma** bölümüne gidin"
 
-#: ../../source/datainjection/index.rst:42
+#: ../../source/datainjection/index.rst:41
 msgid "For each user profile, you can grant the following rights:"
-msgstr ""
+msgstr "Her kullanıcı profili için aşağıdaki izinleri verebilirsiniz:"
+
+#: ../../source/datainjection/index.rst:43
+msgid "**Model management** : Read / Update / Create / Purge"
+msgstr "**Model yönetimi** : Okuma / Güncelleme / Ekleme / Silme"
 
 #: ../../source/datainjection/index.rst:44
-msgid "**Model management** : Read / Update / Create / Purge"
-msgstr ""
-
-#: ../../source/datainjection/index.rst:45
 msgid "**Import file** : Read"
-msgstr ""
+msgstr "**Dosya içe aktar** : Okuma"
 
-#: ../../source/datainjection/index.rst:48
+#: ../../source/datainjection/index.rst:47
 msgid "Configuration"
 msgstr "Yapılandırma"
 
-#: ../../source/datainjection/index.rst:50
+#: ../../source/datainjection/index.rst:49
 msgid ""
 "You can find the plugin configuration at **Tools > Data injection** The "
 "extension is presented in the form of a wizard, each operation is broken "
 "down into steps and it is possible to return to the previous step to correct"
 " a choice."
 msgstr ""
+"Eklenti yapılandırmasını **Araçlar > Veri içe aktarma** adresinde "
+"bulabilirsiniz. Eklenti bir yardımcı olarak sunulur. Her işlem adımlara "
+"ayrılır ve bir seçimi düzeltmek için bir önceki adıma geri dönülebilir."
 
-#: ../../source/datainjection/index.rst:53
+#: ../../source/datainjection/index.rst:52
 msgid "Managing or using a model"
-msgstr ""
+msgstr "Bir modeli yönetmek veya kullanmak"
 
-#: ../../source/datainjection/index.rst:55
+#: ../../source/datainjection/index.rst:54
 msgid ""
 "The first step allows you to choose the operation to be carried out, "
 "depending on your rights."
 msgstr ""
+"İlk adımda izinlerinize bağlı olarak hangi işlemin yapılacağını "
+"seçebilirsiniz."
 
-#: ../../source/datainjection/index.rst:57
+#: ../../source/datainjection/index.rst:56
 msgid "Use an existing template in the drop-down menu"
-msgstr ""
+msgstr "Açılır menüden var olan bir kalıbı kullanmak"
 
-#: ../../source/datainjection/index.rst:59
+#: ../../source/datainjection/index.rst:58
 msgid "Manage templates to :"
-msgstr ""
+msgstr "Kalıp yönetimi:"
+
+#: ../../source/datainjection/index.rst:60
+msgid "Create a new template"
+msgstr "Yeni bir kalıp oluşturmak"
 
 #: ../../source/datainjection/index.rst:61
-msgid "Create a new template"
-msgstr ""
+msgid "Modify an existing template"
+msgstr "Var olan bir kalıbı değiştirmek"
 
 #: ../../source/datainjection/index.rst:62
-msgid "Modify an existing template"
-msgstr ""
+msgid "Delete an existing template"
+msgstr "Var olan bir kalıbı silmek"
 
 #: ../../source/datainjection/index.rst:63
-msgid "Delete an existing template"
-msgstr ""
-
-#: ../../source/datainjection/index.rst:64
 msgid "Use an existing template"
-msgstr ""
+msgstr "Var olan bir kalıbı kullanmak"
 
-#: ../../source/datainjection/index.rst:67
+#: ../../source/datainjection/index.rst:66
 msgid "Creating a template"
-msgstr ""
+msgstr "Bir kalıp oluşturmak"
 
-#: ../../source/datainjection/index.rst:69
+#: ../../source/datainjection/index.rst:68
 msgid "The first step is to create a template if none exists."
-msgstr ""
+msgstr "İlk adım, herhangi bir kalıp yoksa bir kalıp oluşturmaktır."
+
+#: ../../source/datainjection/index.rst:70
+msgid "From **Tools > Data injection**"
+msgstr "**Araçlar > Veri içe aktarma** bölümüne gidin"
 
 #: ../../source/datainjection/index.rst:71
-msgid "From **Tools > Data injection**"
-msgstr ""
+msgid "Click on **Template**"
+msgstr "**Kalıp** üzerine tıklayın"
 
 #: ../../source/datainjection/index.rst:72
-msgid "Click on **Template**"
-msgstr ""
-
-#: ../../source/datainjection/index.rst:73
 msgid "Click on **Add**"
-msgstr ""
+msgstr "**Ekle** üzerine tıklayın"
 
 #: ../../source/datainjection/index.rst-1
 msgid "add template"
-msgstr ""
+msgstr "Kalıbı ekleyin"
 
-#: ../../source/datainjection/index.rst:80
+#: ../../source/datainjection/index.rst:79
 msgid "Defining the model"
-msgstr ""
+msgstr "Model tanımlamak"
 
-#: ../../source/datainjection/index.rst:82
+#: ../../source/datainjection/index.rst:81
 msgid "This step allows you to define the main options for the extension:"
-msgstr ""
+msgstr "Bu adım, eklentinin temel seçeneklerini tanımlamanızı sağlar:"
+
+#: ../../source/datainjection/index.rst:83
+msgid "**Name**: the name that will be visible from the drop-down list"
+msgstr "**Ad**: Açılır listede görüntülenecek ad"
 
 #: ../../source/datainjection/index.rst:84
-msgid "**Name**: the name that will be visible from the drop-down list"
-msgstr ""
-
-#: ../../source/datainjection/index.rst:85
 msgid ""
 "**Visibility**: defines whether it will be visible to other users or not"
-msgstr ""
+msgstr "**Görünürlük**: Diğer kullanıcılar tarafından görülüp görülmeyeceği"
 
-#: ../../source/datainjection/index.rst:86
+#: ../../source/datainjection/index.rst:85
 msgid ""
 "**Entity** and **sub-entity**: the template can be visible in the creation "
 "entity only (sub-entity set to no) or in the entity and all sub-entity (sub-"
 "entity set to yes)."
 msgstr ""
+"**Varlık** ve **Alt varlık**: Kalıp yalnızca oluşturulduğu varlıkta (alt "
+"varlık ayarı hayır) ya da  varlık ve tüm alt varlıklarında (alt varlık ayarı"
+" evet) görülebilir."
+
+#: ../../source/datainjection/index.rst:86
+msgid "**Comment**: a comment for the template."
+msgstr "**Açıklama**: Kalıp ile ilgili açıklamalar."
 
 #: ../../source/datainjection/index.rst:87
-msgid "**Comment**: a comment for the template."
-msgstr ""
-
-#: ../../source/datainjection/index.rst:88
 msgid ""
 "**Type of data to import**: the type of data present in the file to be "
 "imported. A file only consists of data of the same type."
 msgstr ""
+"**İçe aktarılacak veri türü**: İçe aktarılacak dosyada bulunan veri türü. "
+"Bir dosya yalnızca aynı türdeki verilerden oluşur."
 
-#: ../../source/datainjection/index.rst:89
+#: ../../source/datainjection/index.rst:88
 msgid ""
 "**Allow lines creation**: tells the plugin to create objects if the line "
 "does not correspond to an existing element in the database."
 msgstr ""
+"**Satırlar eklenebilsin**: Eklentiye, satırdaki veri, veri tabanında var "
+"olan bir bileşene karşılık gelmiyorsa nesneyi eklemesini belirtir."
 
-#: ../../source/datainjection/index.rst:90
+#: ../../source/datainjection/index.rst:89
 msgid ""
 "**Allow update rows**: tells the plugin to modify existing objects using the"
 " data in the file."
 msgstr ""
+"**Satır güncellenebilsin**: Eklentiye, dosyadaki verileri kullanarak var "
+"olan nesneleri değiştirmesini belirtir."
 
-#: ../../source/datainjection/index.rst:91
+#: ../../source/datainjection/index.rst:90
 msgid ""
 "**Header’s presence**: tells the plugin whether the headings present in the "
 "file (location, type of equipment, models, etc.) should be created. Creation"
 " will also be limited by the rights of the template user."
 msgstr ""
+"**Başlığın varlığı**: Eklentiye, dosyada başlık bulunup bulunmadığını "
+"(konum, aygıt türü, model, vb.) belirtir. Ekleme ayrıca kalıp kullanıcısının"
+" izinleriyle de sınırlıdır."
 
-#: ../../source/datainjection/index.rst:92
+#: ../../source/datainjection/index.rst:91
 msgid ""
 "**Update existing fields**: the extension whether the data in the file can "
 "replace fields already filled in."
 msgstr ""
+"**Var olan alanlar güncellensin**: Eklentiye, dosyadaki verilerin daha önce "
+"doldurulmuş alanları değiştirip değiştirmeyeceğini belirtir."
 
-#: ../../source/datainjection/index.rst:93
+#: ../../source/datainjection/index.rst:92
 msgid ""
 "**Date format**: the date format is contained in the CSV file. If the format"
 " is incorrect, the date cannot be imported."
 msgstr ""
+"**Tarih biçimi**: CSV dosyasında bulunan tarih biçimi. Biçim yanlışsa, tarih"
+" içe aktarılamaz."
 
-#: ../../source/datainjection/index.rst:94
+#: ../../source/datainjection/index.rst:93
 msgid ""
 "**Decimal number format**: the format used for the numbers in the CSV file. "
 "If the format is incorrect, the numbers cannot be imported."
 msgstr ""
+"**Ondalık sayı biçimi**: CSV dosyasında kullanılan sayı biçimi. Biçim "
+"yanlışsa, sayılar içe aktarılamaz."
 
-#: ../../source/datainjection/index.rst:96
+#: ../../source/datainjection/index.rst:95
 msgid "**After validation of the model**, the following fields are added:"
-msgstr ""
+msgstr "**Model doğrulandıktan sonra** şu alanlar eklenir:"
 
-#: ../../source/datainjection/index.rst:98
+#: ../../source/datainjection/index.rst:97
 msgid ""
 "**Presence of a header**: indicates whether the first line of the CSV file "
 "is a header line, so that you can see the contents of the columns to "
 "identify the contents of the columns"
 msgstr ""
+"**Başlığın varlığı**: CSV dosyasının ilk satırının başlık satırı olup "
+"olmadığını belirtir. Böylece içeriği belirleyerek sütunların içeriğini "
+"görebilirsiniz"
 
-#: ../../source/datainjection/index.rst:99
+#: ../../source/datainjection/index.rst:98
 msgid "**File delimiter**: field separator (by default a semicolon)"
-msgstr ""
+msgstr "**Dosya ayracı**: Alan ayracı (varsayılan olarak noktalı virgül)"
 
-#: ../../source/datainjection/index.rst:102
+#: ../../source/datainjection/index.rst:101
 msgid "File to be injected"
-msgstr ""
+msgstr "İçe aktarılacak dosya"
 
-#: ../../source/datainjection/index.rst:104
+#: ../../source/datainjection/index.rst:103
 msgid ""
 "From the **File to inject** tab, you need to choose a file on your computer "
 "with exactly the same structure as the data already imported."
 msgstr ""
+"**İçe aktarılacak dosya** sekmesinden, bilgisayarınızda içe aktarılmış "
+"verilerle aynı yapıda bir dosya seçmelisiniz."
 
-#: ../../source/datainjection/index.rst:105
+#: ../../source/datainjection/index.rst:104
 msgid ""
 "Then define the **encoding** (ISO8859-1 for Windows files, UTF-8 for Linux "
 "files. Automatic detection can be used to determine the encoding, but will "
 "slow down file processing. We strongly recommend that you always work in "
 "UTF-8.)"
 msgstr ""
+"Ardından **kodlamayı** belirtin (Windows dosyaları için ISO8859-1, Linux "
+"dosyaları için UTF-8. Kodlamayı belirlemek için otomatik algılama "
+"kullanılabilir. Ancak dosyanın işlenmesi yavaşlar. Her zaman UTF-8 "
+"kullanmanızı önemle öneririz.)"
 
-#: ../../source/datainjection/index.rst:107
+#: ../../source/datainjection/index.rst:106
 msgid ""
 "Once the file has been validated, you will be taken to the **Mappings** tab"
 msgstr ""
+"Dosya doğrulandıktan sonra **Eşleştirmeler** sekmesine yönlendirileceksiniz"
 
-#: ../../source/datainjection/index.rst:110
+#: ../../source/datainjection/index.rst:109
 msgid "Mappings"
-msgstr ""
+msgstr "Eşleştirmeler"
 
-#: ../../source/datainjection/index.rst:112
+#: ../../source/datainjection/index.rst:111
 msgid ""
 "This stage is essential. It defines, for each column in the file, the "
 "corresponding field in the database. The columns are identified by the "
@@ -311,46 +347,62 @@ msgid ""
 "preview the first lines of the file and check their content and the "
 "interpretation made by the plugin."
 msgstr ""
+"Bu aşama önemlidir. Dosyadaki her sütuna veri tabanındaki karşılık gelen "
+"alanı belirler. Sütunlar, başlık satırının içeriğiyle (önceki adımda "
+"tanımlanan varlık) veya konumlarıyla (0 ile başlayarak) tanımlanır. Bir "
+"ayraç hatası (önceki adımda) verinin yanlış bölünmesine neden olur. "
+"**Dosyayı görüntüle** düğmesi, dosyanın ilk satırlarını ön izlemek ve "
+"içerikleri ile eklenti tarafından yapılan yorumu kontrol etmek için "
+"kullanılır."
 
-#: ../../source/datainjection/index.rst:116
+#: ../../source/datainjection/index.rst:115
 msgid "For each column, you can choose"
-msgstr ""
+msgstr "Her sütun için şunları seçebilirsiniz:"
 
-#: ../../source/datainjection/index.rst:118
+#: ../../source/datainjection/index.rst:117
 msgid ""
 "**Do not retrieve data from this column** (leave the **Choose a table** "
 "option)"
 msgstr ""
+"**Bu sütundan veri alınmasın** (**Bir tablo seçin** seçeneğini bırakın)"
 
-#: ../../source/datainjection/index.rst:119
+#: ../../source/datainjection/index.rst:118
 msgid ""
 "**Choose a table**: the data type defined in step 2 or the financial "
 "information"
 msgstr ""
+"**Bir tablo seçin**: 2. adımda tanımlanan veri türü veya mali bilgiler "
+"tablosu"
+
+#: ../../source/datainjection/index.rst:119
+msgid "**Choose a field**: which will be populated by the import"
+msgstr "**Bir alan seçin**: İçe aktarma tarafından doldurulacak alan"
 
 #: ../../source/datainjection/index.rst:120
-msgid "**Choose a field**: which will be populated by the import"
-msgstr ""
-
-#: ../../source/datainjection/index.rst:121
 msgid ""
 "**Link field**: to indicate that this column will be used to check the "
 "existence of the data in the database and to choose between creating a new "
 "object or update. Candidate fields are, for example, the **Serial number**, "
 "the **Name** or the **Inventory number**"
 msgstr ""
+"**Bağlantı alanı**: Bu sütunun veri tabanındaki verilerin varlığını kontrol "
+"etmek ve yeni bir nesne oluşturmak ya da güncellemek arasında seçim "
+"yapılmasını sağlar. Aday alan örnekleri, **Seri numarası**, **Ad** veya "
+"**Envanter numarası**"
 
-#: ../../source/datainjection/index.rst:125
+#: ../../source/datainjection/index.rst:124
 msgid ""
 "It is mandatory to define at least 1 linking field. If a field is checked, "
 "it must be entered in your **csv** file used for importing."
 msgstr ""
+"En az 1 bağlantı alanı tanımlanması zorunludur. Bir alan işaretlenmişse, içe"
+" aktarma için kullanılan **CSV** dosyanızda bulunması gerekir."
 
 #: ../../source/datainjection/index.rst-1
 msgid "match the fields"
-msgstr ""
+msgstr "Alanları eşleştirin"
 
-#: ../../source/datainjection/index.rst:132
+#: ../../source/datainjection/index.rst:131
 msgid ""
 "It is possible to define **Comments** or **Notes** as the destination for "
 "several columns in the file. Each column will be added to the field on a "
@@ -358,68 +410,85 @@ msgid ""
 " damage the inventory data. It is therefore advisable to test the import on "
 "a test database or to and reserve this function for advanced users."
 msgstr ""
+"Dosyadaki birkaç sütun için hedef olarak **Açıklamalar** veya **Notlar** "
+"tanımlanabilir. Her sütun alana farklı bir satırda eklenecektir. Bu adım "
+"özellikle önemlidir ve yanlış bir seçim envanter verilerine zarar verebilir."
+" Bu nedenle içe aktarmayı bir deneme veri tabanında sınamanız ya da bu "
+"özelliği kullanmayı deneyimli kullanıcılara bırakmanız önerilir."
 
-#: ../../source/datainjection/index.rst:137
+#: ../../source/datainjection/index.rst:136
 msgid "Additional information"
-msgstr ""
+msgstr "Ek bilgiler"
 
-#: ../../source/datainjection/index.rst:139
+#: ../../source/datainjection/index.rst:138
 msgid ""
 "This step is used to define the fields that can/should be populated by the "
 "user when a file is injected. For each field, the same value will be used "
 "for each line of the file and will take precedence over the contents of the "
 "file."
 msgstr ""
+"Bu adım, bir dosya içe aktarıldığında kullanıcı tarafından "
+"doldurulabilecek/doldurulması gereken alanları tanımlamak için kullanılır. "
+"Her alan için, dosyanın her satırı için aynı değer kullanılır ve dosyanın "
+"içeriklerine göre öncelik kazanır."
+
+#: ../../source/datainjection/index.rst:141
+msgid "**Table**: the data type defined in step **Matching**"
+msgstr "**Tablo**: **Eşleştirme** adımında tanımlanan veri türü"
 
 #: ../../source/datainjection/index.rst:142
-msgid "**Table**: the data type defined in step **Matching**"
-msgstr ""
+msgid "**Field**: will be populated by the import"
+msgstr "**Alan**: İçe aktarma tarafından doldurulacak alan"
 
 #: ../../source/datainjection/index.rst:143
-msgid "**Field**: will be populated by the import"
-msgstr ""
-
-#: ../../source/datainjection/index.rst:144
 msgid ""
 "**Mandatory information**: whether model user input is mandatory or optional"
 msgstr ""
+"**Zorunlu bilgiler**: Model kullanıcı girişinin zorunlu mu yoksa isteğe "
+"bağlı mı olduğu"
 
-#: ../../source/datainjection/index.rst:146
+#: ../../source/datainjection/index.rst:145
 msgid "Example of use :"
-msgstr ""
+msgstr "Kullanım örneği:"
+
+#: ../../source/datainjection/index.rst:147
+msgid "Purchase date when importing a delivery note"
+msgstr "Bir teslimat notunu içe aktarırken satın alma tarihi"
 
 #: ../../source/datainjection/index.rst:148
-msgid "Purchase date when importing a delivery note"
-msgstr ""
-
-#: ../../source/datainjection/index.rst:149
 msgid ""
 "Comments to define a criterion that can be used in the search engine "
 "(e.g. IMPORT ON 31/10)"
 msgstr ""
+"Arama motorunda kullanılabilecek bir ölçütü tanımlayan yorumlar (örneğin "
+"31/10 İÇE AKTARIM)"
 
-#: ../../source/datainjection/index.rst:153
+#: ../../source/datainjection/index.rst:152
 msgid "Model validation"
-msgstr ""
+msgstr "Model doğrulaması"
 
-#: ../../source/datainjection/index.rst:155
+#: ../../source/datainjection/index.rst:154
 msgid ""
 "From the Validation tab, you can confirm the registration. It is still "
 "possible to return to the previous steps to check and correct certain "
 "options."
 msgstr ""
+"Doğrulama sekmesinden kaydı onaylayabilirsiniz. Belirli seçenekleri kontrol "
+"etmek ve düzeltmek için önceki adımlara geri dönebilirsiniz."
 
 #: ../../source/datainjection/index.rst-1
 msgid "template validation"
-msgstr ""
+msgstr "Kalıp doğrulaması"
 
-#: ../../source/datainjection/index.rst:164
+#: ../../source/datainjection/index.rst:163
 msgid ""
 "If you are working with a sub-entity, you must select the desired entity "
 "before importing."
 msgstr ""
+"Bir alt varlıkla çalışıyorsanız, içe aktarma işleminden önce istediğiniz "
+"varlığı seçmelisiniz."
 
-#: ../../source/datainjection/index.rst:167
+#: ../../source/datainjection/index.rst:166
 msgid ""
 "Some fields in your CSV file will need to be filled in as Booleans. This is "
 "the case, for example, with double-choice fields, such as: “Ports” "
@@ -428,85 +497,103 @@ msgid ""
 "will see an error in the report indicating that the wrong type of data has "
 "been entered."
 msgstr ""
+"CSV dosyanızdaki bazı alanların Boolean olarak doldurulması gerekir. Bunlar,"
+" örneğin yazıcılar için \"Bağlantı noktaları\" (seri/paralel/USB) gibi çift "
+"seçenekli alanlarda geçerlidir. CSV dosyanıza **Evet | Hayır** yazmak "
+"yerine, uygun şekilde **1 | 0** yazın. Bu değerler değiştirilmezse, raporda "
+"yanlış türde veri bulunduğunu belirten bir hata görürsünüz."
 
-#: ../../source/datainjection/index.rst:171
+#: ../../source/datainjection/index.rst:170
 msgid "Using a template"
-msgstr ""
+msgstr "Bir kalıp kullanmak"
 
-#: ../../source/datainjection/index.rst:174
+#: ../../source/datainjection/index.rst:173
 msgid "Choosing a template"
-msgstr ""
+msgstr "Bir kalıp seçmek"
 
-#: ../../source/datainjection/index.rst:176
+#: ../../source/datainjection/index.rst:175
 msgid ""
 "From **Tools > Data injection**, select the template you require from the "
 "drop-down list"
 msgstr ""
+"**Araçlar > Veri içe aktarma** bölümünde açılır listeden kullanmak "
+"istediğiniz kalıbı seçin"
+
+#: ../../source/datainjection/index.rst:176
+msgid "Then enter the path to the CSV file to be injected"
+msgstr "Ardından içe aktarılacak CSV dosyasının yolunu yazın"
 
 #: ../../source/datainjection/index.rst:177
-msgid "Then enter the path to the CSV file to be injected"
-msgstr ""
-
-#: ../../source/datainjection/index.rst:178
 msgid ""
 "Specify the **Encoding** of the file if you know it. If not, leave on "
 "**Automatic detection**"
 msgstr ""
+"Biliyorsanız dosyanın **Kodlamasını** belirtin. Bilmiyorsanız **Otomatik "
+"algılama** olarak bırakın"
 
-#: ../../source/datainjection/index.rst:179
+#: ../../source/datainjection/index.rst:178
 msgid "Click on **Proceed with import**"
-msgstr ""
+msgstr "**İçe aktarmayı başlat** üzerine tıklayın"
 
 #: ../../source/datainjection/index.rst-1
 msgid "import file"
-msgstr ""
+msgstr "Dosyayı içe aktar"
 
-#: ../../source/datainjection/index.rst:186
+#: ../../source/datainjection/index.rst:185
 msgid "Confirmation before import"
-msgstr ""
+msgstr "İçe aktarma öncesi onayı"
 
-#: ../../source/datainjection/index.rst:188
+#: ../../source/datainjection/index.rst:187
 msgid ""
 "A popup will ask you to confirm or not the import of the selected file."
 msgstr ""
+"Seçilmiş dosyanın içe aktarılmasını onaylayıp onaylamadığınızı soran bir "
+"pencere açılır."
 
-#: ../../source/datainjection/index.rst:191
+#: ../../source/datainjection/index.rst:190
 msgid "Import result"
 msgstr "İçe aktarma sonuçları"
 
-#: ../../source/datainjection/index.rst:193
+#: ../../source/datainjection/index.rst:192
 msgid ""
 "From this last stage, by clicking on the coloured circle, you can view a "
 "report on the import and, in particular, locate any errors"
 msgstr ""
+"Bu son aşamada, renkli daireye tıklayarak, içe aktarmayla ilgili bir rapor "
+"görüntüleyebilir ve özellikle herhangi bir sorunu görebilirsiniz."
 
 #: ../../source/datainjection/index.rst-1
 msgid "import result"
-msgstr ""
+msgstr "İçe aktarma sonuçları"
 
-#: ../../source/datainjection/index.rst:200
+#: ../../source/datainjection/index.rst:199
 msgid "Complete the operation"
-msgstr ""
+msgstr "İşlemi tamamlamak"
 
-#: ../../source/datainjection/index.rst:202
+#: ../../source/datainjection/index.rst:201
 msgid ""
 "A popup window will ask you whether or not you want to confirm the import of"
 " the selected file. Once the progress bar is full, click on **Finish**"
 msgstr ""
+"Açılan bir pencerede, seçilmiş dosyanın içe aktarılmasını onaylamak isteyip "
+"istemediğiniz sorulur. İlerleme çubuğu dolduğunda **Tamam** üzerine tıklayın"
 
 #: ../../source/datainjection/index.rst-1
 msgid "import completed"
-msgstr ""
+msgstr "İçe aktarım tamamlanmış olur"
 
-#: ../../source/datainjection/index.rst:211
+#: ../../source/datainjection/index.rst:210
 msgid "FAQ"
-msgstr ""
+msgstr "SSS"
 
-#: ../../source/datainjection/index.rst:213
+#: ../../source/datainjection/index.rst:212
 msgid ""
 "If you have any questions about using the plugin, please consult `our FAQ "
 "<https://faq.teclib.com/04_Plugins/Data_injection/>`_"
 msgstr ""
+"Eklentinin kullanımıyla ilgili herhangi bir sorunuz varsa `SSS "
+"<https://faq.teclib.com/04_Plugins/Data_injection/>`_ bölümüne "
+"bakabilirsiniz."
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
@@ -514,4 +601,4 @@ msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Creative Commons Lisansı"

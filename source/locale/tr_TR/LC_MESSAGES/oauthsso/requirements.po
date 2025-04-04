@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kaya Zeren <kayazeren@gmail.com>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2024-01-31 13:12+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,79 +23,91 @@ msgstr ""
 
 #: ../../source/oauthsso/requirements.rst:2
 msgid "Requirements (on-premise)"
-msgstr ""
+msgstr "Gereksinimler (özel kurulum)"
 
 #: ../../source/oauthsso/requirements.rst:5
 msgid "GLPI Version"
-msgstr ""
+msgstr "GLPI sürümü"
 
 #: ../../source/oauthsso/requirements.rst:5
 msgid "Minimum PHP"
-msgstr ""
+msgstr "En düşük PHP sürümü"
 
 #: ../../source/oauthsso/requirements.rst:5
 msgid "Recommended"
-msgstr ""
+msgstr "Önerilen"
 
 #: ../../source/oauthsso/requirements.rst:7
 msgid "10.0.x"
-msgstr ""
+msgstr "10.0.x"
 
 #: ../../source/oauthsso/requirements.rst:7
 msgid "8.1"
-msgstr ""
+msgstr "8.1"
 
 #: ../../source/oauthsso/requirements.rst:7
 msgid "8.2"
-msgstr ""
+msgstr "8.2"
 
-#: ../../source/oauthsso/requirements.rst:11
+#: ../../source/include/basic_subscription.rst:2
 msgid ""
-"A `basic licence <https://services.glpi-network.com/#offers>`_ (or higher) "
-"is required. This plugin is also available from the `Cloud <https://glpi-"
-"network.cloud/fr/>`_."
+"A `GLPI Network BASIC <https://services.glpi-network.com/#offers>`_ "
+"subscription (or higher) is required. This plugin is also available for all "
+"GLPI Network `Cloud instances <https://glpi-network.cloud>`_."
 msgstr ""
 
-#: ../../source/oauthsso/requirements.rst:14
+#: ../../source/oauthsso/requirements.rst:13
 msgid "External Authentication"
-msgstr ""
+msgstr "Dış kimlik doğrulaması"
 
-#: ../../source/oauthsso/requirements.rst:16
+#: ../../source/oauthsso/requirements.rst:15
 msgid ""
 "The plugin uses GLPI’s **External Authentication** functionality and to be "
 "functional, it needs some initial Setup."
 msgstr ""
+"Eklenti, GLPI **Dış kimlik doğrulama** işlevini kullanır ve çalışması için "
+"bazı ilk kurulumlar gerekir."
 
-#: ../../source/oauthsso/requirements.rst:18
+#: ../../source/oauthsso/requirements.rst:17
 msgid "Go to **Setup > Authentication > Other authentication methods**"
 msgstr ""
+"**Kurulum > Kimlik doğrulama > Diğer kimlik doğrulama yöntemleri** bölümüne "
+"gidin"
 
-#: ../../source/oauthsso/requirements.rst:19
+#: ../../source/oauthsso/requirements.rst:18
 msgid ""
 "In the **Other authentication transmitted in the HTTP request** section"
-msgstr ""
+msgstr "**HTTP isteğinde iletilen diğer kimlik doğrulama** bölümüne gidin"
 
-#: ../../source/oauthsso/requirements.rst:20
+#: ../../source/oauthsso/requirements.rst:19
 msgid ""
 "The **Storage fields for the identifier in the HTTP request** field must be "
 "defined, usually **HTTP_AUTH_USER**."
 msgstr ""
+"HTTP isteğindeki tanımlayıcı için **Depolama alanları** tanımlanmalıdır. "
+"Genellikle **HTTP_AUTH_USER**."
 
-#: ../../source/oauthsso/requirements.rst:21
+#: ../../source/oauthsso/requirements.rst:20
 msgid ""
 "The **Delete the domain from identifiers of the form identifier@domain** "
 "field can be set to **Yes** or **No**."
 msgstr ""
+"**Form kimlik@etkialani tanımlayıcılarından etki alanı silinsin** alanı "
+"**Evet** ya da **Hayır** olarak ayarlanabilir."
 
-#: ../../source/oauthsso/requirements.rst:24
+#: ../../source/oauthsso/requirements.rst:23
 msgid ""
 "In the case of authentication via SSO, the option **Delete the domain of "
 "identifiers in the form identifier@domain** can be set to **Yes**, which "
 "will allow 2 user records to be merged if they are already present in the "
 "database (internal or LDAP(S))."
 msgstr ""
+"SSO ile kimlik doğrulaması durumunda, **kimlik@etkialani biçimindeki "
+"kimliklerin etki alanı silinsin** seçeneği **Evet** olarak ayarlanabilir. "
+"Böylece, veri tabanında (iç veya LDAP) zaten var olan 2 kullanıcı kaydı "
+"birleştirilebilir."
 
-#: ../../source/oauthsso/requirements.rst:27
+#: ../../source/oauthsso/requirements.rst:26
 msgid ""
 "Be careful because this option is subject to identity theft. If your "
 "application is open to users other than your own, it is possible that one "
@@ -100,108 +116,133 @@ msgid ""
 " By deleting the domain, the 2 records will be merged and the John Does will"
 " have the same account."
 msgstr ""
+"Dikkatli olun çünkü bu seçenek kimlik hırsızlığına maruz kalabilir. "
+"Uygulamanız kendi kullanıcınız dışındaki kullanıcılara açıksa, bir kullanıcı"
+" başka biriyle birleştirilebilir. Örneğin, **ali.kaya@ornek.com** için bir "
+"ad varken **ali.kaya@baskaornek.com** gibi farklı bir e-posta adresi "
+"olabilir. Etki alanı silinerek, 2 kayıt birleştirilir ve Ali Kaya tek hesaba"
+" sahip olur."
 
-#: ../../source/oauthsso/requirements.rst:30
+#: ../../source/oauthsso/requirements.rst:29
 msgid ""
 "The users who are going to authenticate themselves will not be known to "
 "GLPI, so it is necessary to populate certain fields to create their record "
 "in GLPI with a minimum of information."
 msgstr ""
+"Kendilerini doğrulayacak kullanıcılar GLPI tarafından bilinmeyeceğinden, "
+"GLPI üzerinde kayıtları oluşturmak için belirli alanların doldurulması ve "
+"olabilecek en az bilginin yazılması gereklidir."
 
-#: ../../source/oauthsso/requirements.rst:32
+#: ../../source/oauthsso/requirements.rst:31
 msgid "The fields that can be retrieved by SSO are as follows:"
-msgstr ""
+msgstr "SSO ile alınabilecek alanlar şunlardır:"
+
+#: ../../source/oauthsso/requirements.rst:33
+msgid "Last name : **givenName**"
+msgstr "Soyadı: **givenName**"
 
 #: ../../source/oauthsso/requirements.rst:34
-msgid "Last name : **givenName**"
-msgstr ""
+msgid "First name: **familyName**"
+msgstr "Adı: **familyName**"
 
 #: ../../source/oauthsso/requirements.rst:35
-msgid "First name: **familyName**"
-msgstr ""
+msgid "Email: **email**"
+msgstr "E-posta adresi: **email**"
 
 #: ../../source/oauthsso/requirements.rst:36
-msgid "Email: **email**"
-msgstr ""
+msgid "Email2: **email2**"
+msgstr "2. e-posta adresi: **email2**"
 
 #: ../../source/oauthsso/requirements.rst:37
-msgid "Email2: **email2**"
-msgstr ""
+msgid "Telephone number: **phone**"
+msgstr "Telefon numarası: **phone**"
 
 #: ../../source/oauthsso/requirements.rst:38
-msgid "Telephone number: **phone**"
-msgstr ""
+msgid "Mobile: **mobile**"
+msgstr "Cep telefonu numarası: **mobile**"
 
 #: ../../source/oauthsso/requirements.rst:39
-msgid "Mobile: **mobile**"
-msgstr ""
+msgid "Title: **title**"
+msgstr "Ünvan: **title**"
 
 #: ../../source/oauthsso/requirements.rst:40
-msgid "Title: **title**"
-msgstr ""
-
-#: ../../source/oauthsso/requirements.rst:41
 msgid "Language: **language**"
-msgstr ""
+msgstr "Dil: **language**"
 
 #: ../../source/oauthsso/requirements.rst-1
 msgid "field to complete"
-msgstr ""
+msgstr "Tamamlanacak alan"
 
-#: ../../source/oauthsso/requirements.rst:47
+#: ../../source/oauthsso/requirements.rst:46
 msgid "Save your Setup"
-msgstr ""
+msgstr "Kurulumunuzu kaydedin"
 
-#: ../../source/oauthsso/requirements.rst:49
+#: ../../source/oauthsso/requirements.rst:48
 msgid ""
 "You must also activate the automatic addition of users in GLPI to create "
 "them in GLPI at the time of authentication"
 msgstr ""
+"Ayrıca kimlik doğrulama sırasında GLPI üzerinde kullanıcı oluşturmak için "
+"GLPI ayarlarından otomatik kullanıcı ekleme seçeneğini de açmalısınız"
+
+#: ../../source/oauthsso/requirements.rst:50
+msgid "In the **Setup > Authentication > Setup** menu"
+msgstr "Menüden **Kurulum > Kimlik doğrulama > Kurulum** üzerine tıklayın"
 
 #: ../../source/oauthsso/requirements.rst:51
-msgid "In the **Setup > Authentication > Setup** menu"
-msgstr ""
-
-#: ../../source/oauthsso/requirements.rst:52
 msgid ""
 "The **Automatically add users from external authentication sources** field "
 "must be changed to **Yes**"
 msgstr ""
+"**Dış kimlik doğrulama kaynaklarından kullanıcılar otomatik olarak "
+"eklensin** alanı **Evet** olarak değiştirilmelidir"
 
 #: ../../source/oauthsso/requirements.rst-1
 msgid "add user auto"
-msgstr ""
+msgstr "Kullanıcıları otomatik olarak ekleyin"
 
-#: ../../source/oauthsso/requirements.rst:59
+#: ../../source/oauthsso/requirements.rst:58
 msgid "Fetch information from user profile option"
-msgstr ""
+msgstr "Bilgileri kullanıcı profilinden alma seçeneği"
 
-#: ../../source/oauthsso/requirements.rst:61
+#: ../../source/oauthsso/requirements.rst:60
 msgid ""
 "You can choose if you want to retrieve informations from the user profile. "
 "In **setup > Oauth SSO applications** select yes or no as required."
 msgstr ""
+"Kullanıcı profilinden bilgi almak isteyip istemediğinizi seçebilirsiniz. "
+"**Kurulum > OAuth SSO uygulamaları** bölümünde Evet ya da Hayır olarak "
+"seçin."
 
-#: ../../source/oauthsso/requirements.rst:65
+#: ../../source/oauthsso/requirements.rst:64
 msgid ""
 "If **OAuth SSO** is your **only source of authentication AND provisioning**,"
 " we recommend that you set the **Fetch information from user profile "
 "option** to **Yes** so that user information can be fetched. Please note "
 "that claims must also be set correctly on the provider side."
 msgstr ""
+"**OAuth SSO** sizin **tek kimlik doğrulama VE sağlama kaynağınız** ise, "
+"kullanıcı bilgilerinin alınabilmesi için **Bilgiler kullanıcı profilinden "
+"alınsın** seçeneğini **Evet** olarak ayarlamanızı öneririz. Lütfen "
+"isteklerin sağlayıcı tarafında da doğru şekilde ayarlanması gerektiğini "
+"unutmayın."
 
-#: ../../source/oauthsso/requirements.rst:68
+#: ../../source/oauthsso/requirements.rst:67
 msgid ""
 "If you are using an **external provisioning source** such as SCIM, we "
 "recommend that you set the **Fetch information from user profile option** to"
 " **No** so that user information is not overwritten and replaced by that of "
 "the OAuth SSO plugin."
 msgstr ""
+"SCIM gibi bir **dış sağlama kaynağı** kullanıyorsanız, kullanıcı "
+"bilgilerinin üzerine yazılmaması ve OAuth SSO eklentisinin bilgileriyle "
+"değiştirilmemesi için **Bilgiler kullanıcı profilinden alınsın** seçeneğini "
+"**Hayır** olarak ayarlamanızı öneririz."
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Creative Commons Lisansı"

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2016-10-25 19:22+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -32,10 +32,10 @@ msgid ""
 "provided specific features; while core's may provided features everyone (or "
 "almost!) mays find usefull."
 msgstr ""
-"Uygulama ekleri ile çekirdek kaynak kodu değiştirilmeden`GLPI <http://glpi-"
+"Eklentiler ile çekirdek kaynak kodu değiştirilmeden`GLPI <http://glpi-"
 "project.org>`_ kullanım alanları genişletilebilir. Kusursuz bir dünyada "
 "çekirdek kodu herkes (ya da çoğu kişi) tarafından kullanışlı bulunacak "
-"özellikleri sağlarken belirli özellikler uygulama ekleri tarafından "
+"özellikleri sağlarken belirli özellikler eklentiler tarafından "
 "sağlanmalıdır."
 
 #: ../../source/presentation.rst:6
@@ -45,11 +45,11 @@ msgid ""
 "Some may provide you configuration possibilities, acces rights management, "
 "and so on.... Or not! There are so many plugins already!"
 msgstr ""
-"Var olan uygulama eklerinin bazıları oldukça karmaşıkken bazıları da oldukça"
-" basittir. Bazı uygulama eklerini kullanabilmek için önce belgelerini okumak"
-" gerekirken bazıları için gerekmez... Bazı uygulama eklerinde yapılandırma "
+"Var olan eklentilerin bazıları oldukça karmaşıkken bazıları da oldukça "
+"basittir. Bazı eklentileri kullanabilmek için önce belgelerini okumak "
+"gerekirken bazıları için gerekmez... Bazı eklentilerde yapılandırma "
 "seçenekleri, erişim izinleri yönetimi gibi ek ayarlar bulunur... Oldukça çok"
-" uygulama eki vardır!"
+" eklenti vardır!"
 
 #: ../../source/presentation.rst:8
 msgid ""
@@ -58,18 +58,17 @@ msgid ""
 " You can search for a plugin name or a feature, see what core's versions are"
 " compatible, and so on."
 msgstr ""
-"Henüz GLPI çekirdeğinde bulunmayan bir özellik arıyorsanız `uygulama ekleri "
-"deposuna <http://plugins.glpi-project.org/>`_. bakın. Uygulama eki adı, "
-"özellik ya da uyumlu çekirdek sürümüne gibi ölçütlere göre arama "
-"yapılabilir."
+"Henüz GLPI çekirdeğinde bulunmayan bir özellik arıyorsanız `eklenti deposuna"
+" <http://plugins.glpi-project.org/>`_. bakın. Eklenti adı, özellik ya da "
+"uyumlu çekirdek sürümü gibi ölçütlere göre arama yapılabilir."
 
 #: ../../source/presentation.rst:10
 msgid ""
 "The goal of the present documentation is to centralize documentations, but "
 "we cannot pretend all plugins documentations are hosted here."
 msgstr ""
-"Güncel belgelerin amacı, belgeleri bir araya getirmektir. Ancak tüm uygulama"
-" eki belgelerinin buradan sunulması amaçlanmıyor."
+"Güncel belgelerin amacı, belgeleri bir araya getirmektir. Ancak tüm eklenti "
+"belgelerinin buradan sunulması amaçlanmıyor."
 
 #: ../../source/presentation.rst:12
 msgid "Anyways, happy GLPI-ing!"

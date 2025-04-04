@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2020-01-24 08:41+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -69,29 +69,28 @@ msgstr "8.1"
 msgid "8.2"
 msgstr "8.2"
 
-#: ../../source/uninstall/index.rst:22
+#: ../../source/include/no_subscription.rst:2
 msgid ""
-"This plugin is available without a GLPI-Network subscription. It is also "
-"available in `Cloud <https://glpi-network.cloud/>`_"
+"This plugin is available without a `GLPI Network <https://services.glpi-"
+"network.com/#offers>`_ subscription. It is also available on `GLPI Cloud "
+"<https://glpi-network.cloud>`_."
 msgstr ""
-"Bu uygulama eki bir GLPI-Network aboneliği olmadan kullanılabilir. Ayrıca "
-"`Cloud <https://glpi-network.cloud/>`_ üzerinde de bulunuyor"
 
-#: ../../source/uninstall/index.rst:25
+#: ../../source/uninstall/index.rst:24
 msgid "Features"
 msgstr "Özellikler"
 
-#: ../../source/uninstall/index.rst:26
+#: ../../source/uninstall/index.rst:25
 msgid ""
 "This plugin, named \"uninstall\" or \"Item Uninstallation\", allows you to "
 "remove / replace devices from the inventory by automating certain actions on"
 " the fields."
 msgstr ""
-"\"Kaldır\" ya da \"Öğe kaldır\" olarak adlandırılan bu uygulama eki, alanlar"
-" üzerinde yapılan belirli işlemleri otomatikleştirerek aygıtları envanterden"
-" kaldırmanızı / değiştirmenizi sağlar."
+"\"Kaldır\" ya da \"Öge kaldır\" olarak adlandırılan bu eklenti, alanlar "
+"üzerinde yapılan belirli işlemleri otomatikleştirerek aygıtları envanterden "
+"kaldırmanızı / değiştirmenizi sağlar."
 
-#: ../../source/uninstall/index.rst:28
+#: ../../source/uninstall/index.rst:27
 msgid ""
 "It allows to manage the different stages of the life cycle of a hardware. It"
 " has been designed, among other things, to handle the following cases:"
@@ -99,53 +98,53 @@ msgstr ""
 "Bir donanımın yaşam döngüsünün farklı aşamalarının yönetilmesini sağlar. "
 "Diğer şeylerin yanında aşağıdaki durumları ele almak üzere tasarlanmıştır:"
 
-#: ../../source/uninstall/index.rst:31
+#: ../../source/uninstall/index.rst:30
 msgid "scrapping of equipment"
 msgstr "Aygıtın hurdaya çıkarılması"
 
-#: ../../source/uninstall/index.rst:32
+#: ../../source/uninstall/index.rst:31
 msgid "removal from inventory of temporary equipment due to breakdown"
 msgstr "Bozulma nedeniyle geçici aygıtın envanterden çıkarılması"
 
-#: ../../source/uninstall/index.rst:33
+#: ../../source/uninstall/index.rst:32
 msgid ""
 "Replacement of equipment under a warranty for example (See: Replacement "
 "Equipment Feature)"
 msgstr "Aygıtın garanti kapsamında değiştirilmesi (aygıt değiştirme özelliği)"
 
-#: ../../source/uninstall/index.rst:35
+#: ../../source/uninstall/index.rst:34
 msgid "Once installed, the plugin includes :"
-msgstr "Kurulduğunda uygulama ekinde şunlar bulunur:"
+msgstr "Kurulduğunda eklentide şunlar bulunur:"
 
-#: ../../source/uninstall/index.rst:37
+#: ../../source/uninstall/index.rst:36
 msgid ""
 "a rights management directly accessible from Administration -> Profiles (in "
 "the Plugins tab -> uninstall),"
 msgstr ""
 "Yönetim -> Profiller bölümünden doğrudan erişilebilen bir izin yönetimi "
-"(Uygulama ekleri sekmesinde -> Kaldır),"
+"(Eklentiler sekmesinde -> Kaldır),"
 
-#: ../../source/uninstall/index.rst:38
+#: ../../source/uninstall/index.rst:37
 msgid "a \"hardware uninstall\" menu in \"Configuration\","
 msgstr "\"Yapılandırma\" bölümünde \"Donanımı kaldır\" menüsü,"
 
-#: ../../source/uninstall/index.rst:39
+#: ../../source/uninstall/index.rst:38
 msgid "an \"uninstall\" menu in the user preferences."
-msgstr "Kullanıcı ayarlarında \"kaldır\" menüsü."
+msgstr "Kullanıcı ayarlarında \"Kaldır\" menüsü."
 
-#: ../../source/uninstall/index.rst:43
+#: ../../source/uninstall/index.rst:42
 msgid "Right managment"
 msgstr "İzin yönetimi"
 
-#: ../../source/uninstall/index.rst:45
+#: ../../source/uninstall/index.rst:44
 msgid ""
 "It is possible to deny access to the plugin or to allow it by specifying the"
 " read or write option on the templates."
 msgstr ""
-"Uygulama ekinin erişimi reddedilebilir ya da kalıplarda okuma ya da yazma "
+"Eklentinin erişimi reddedilebilir ya da kalıplarda okuma ya da yazma "
 "seçeneği belirtilerek izin verilebilir."
 
-#: ../../source/uninstall/index.rst:47
+#: ../../source/uninstall/index.rst:46
 msgid ""
 "To do this, simply go to the menu \"Administration\" > \"Profiles\", to "
 "select the profile you wish to modify, then in the \"Uninstallation\" tab "
@@ -155,44 +154,44 @@ msgstr ""
 "istediğiniz profili seçin. Ardından \"Kaldır\" sekmesinde aşağıdaki "
 "seçenekleri ayarlayın:"
 
-#: ../../source/uninstall/index.rst:51
+#: ../../source/uninstall/index.rst:50
 msgid "*No access*: the plugin does not appear in the menu 'Plugin'."
-msgstr "*Erişim yok*: Uygulama eki 'Uygulama ekleri' menüsünde görüntülenmez."
+msgstr "*Erişim yok*: Eklenti 'Eklenti' menüsünde görüntülenmez."
+
+#: ../../source/uninstall/index.rst:51
+msgid "*Playback*: only the use of previously created templates is possible"
+msgstr "*Oynatma*: Yalnızca önceden oluşturulmuş kalıplar kullanılabilir"
 
 #: ../../source/uninstall/index.rst:52
-msgid "*Playback*: only the use of previously created templates is possible"
-msgstr "*Oynatma*: Yalnız önceden oluşturulmuş kalıplar kullanılabilir"
-
-#: ../../source/uninstall/index.rst:53
 msgid "*Writing*: Template creation is possible."
 msgstr "*Writing*: Kalıp oluşturulabilir."
 
-#: ../../source/uninstall/index.rst:54
+#: ../../source/uninstall/index.rst:53
 msgid "*Hardware replacement*: standard hardware replacement is possible"
 msgstr "*Donanım değişikliği*: Standart donanım değişikliği yapılabilir"
 
-#: ../../source/uninstall/index.rst:58
+#: ../../source/uninstall/index.rst:57
 msgid "Uninstall feature"
 msgstr "Kaldırma özelliği"
 
-#: ../../source/uninstall/index.rst:60
+#: ../../source/uninstall/index.rst:59
 msgid ""
 "This functionality of the plugin 'Item Uninstallation' adds the possibility "
 "of modifying the value of certain fields and of removing the inventory of a "
 "computer of the OCS base or the cleaning of the FusionInventory tables."
 msgstr ""
-"'Öğe kaldır' uygulama ekinin bu özelliği, belirli alanların değerini "
-"değiştirme ve OCS tabanındaki bir bilgisayarın envanterini kaldırma ya da "
+"'Öge kaldır' eklentisinin bu özelliği, belirli alanların değerini değiştirme"
+" ve OCS tabanındaki bir bilgisayarın envanterini kaldırma ya da "
 "FusionInventory tablolarını temizleme olanağı sağlar."
 
-#: ../../source/uninstall/index.rst:62
+#: ../../source/uninstall/index.rst:61
 msgid ""
 "The uninstall templates can be accessed in the \"Administration > Uninstall "
 "Hardware\" menu."
 msgstr ""
 "Kaldırma kalıplarına \"Yönetim > Donanımı kaldır\" menüsünden erişilebilir."
 
-#: ../../source/uninstall/index.rst:64
+#: ../../source/uninstall/index.rst:63
 msgid ""
 "You can create as many uninstall templates as you want. Each template can "
 "contain different features, and be visible in the sub-entities or not."
@@ -201,7 +200,7 @@ msgstr ""
 "özellikler bulunabilir ve alt birimlerde görüntülenebilir ya da "
 "görüntülenmeyebilir."
 
-#: ../../source/uninstall/index.rst:67
+#: ../../source/uninstall/index.rst:66
 msgid ""
 "Uninstall equipment is a transfer of the equipment to itself. During its "
 "transfer, a certain number of actions are performed, as specified in the "
@@ -210,11 +209,11 @@ msgstr ""
 "Aygıt kaldırma, aygıtın kendisine devredilmesidir. Aktarım sırasında, "
 "aktarım tanımında belirtilen işlemler gerçekleştirilir."
 
-#: ../../source/uninstall/index.rst:72
+#: ../../source/uninstall/index.rst:71
 msgid "*Name*: the name of the uninstall template"
 msgstr "*Ad*: Kaldırma kalıbının adı"
 
-#: ../../source/uninstall/index.rst:73
+#: ../../source/uninstall/index.rst:72
 msgid ""
 "*Sub-entities*: indicates whether the template is visible in the creation "
 "entity and its sub-entities"
@@ -222,18 +221,18 @@ msgstr ""
 "*Alt birimler*: Kalıbın oluşturulduğu birimde ve alt birimlerinde görünür "
 "olup olmayacağını belirtir"
 
-#: ../../source/uninstall/index.rst:74
+#: ../../source/uninstall/index.rst:73
 msgid ""
 "*Model type*: indicates which type of model should be used (either Uninstall"
 " or Replace)"
 msgstr ""
 "*Model türü*: Kullanılacak model türünü belirtir (kaldır ya da değiştir)"
 
-#: ../../source/uninstall/index.rst:75
+#: ../../source/uninstall/index.rst:74
 msgid "*Comments*: free fields to add details about the model"
 msgstr "*Yorumlar*: Modelle ilgili ayrıntıların yazılabileceği alanlar sağlar"
 
-#: ../../source/uninstall/index.rst:76
+#: ../../source/uninstall/index.rst:75
 msgid ""
 "*Transfer template to be used*: Indicates the transfer template to be used "
 "when uninstalling the system."
@@ -241,7 +240,7 @@ msgstr ""
 "*Kullanılacak aktarım kalıbı*: Sistemi kaldırırken kullanılacak aktarım "
 "kalıbını belirtir."
 
-#: ../../source/uninstall/index.rst:77
+#: ../../source/uninstall/index.rst:76
 msgid ""
 "*New hardware status*: indicates which status the hardware should take once "
 "uninstalled"
@@ -249,14 +248,14 @@ msgstr ""
 "*Yeni donanım durumu*: Kaldırıldıktan sonra donanıma atanacak durumu "
 "belirtir"
 
-#: ../../source/uninstall/index.rst:78
+#: ../../source/uninstall/index.rst:77
 msgid ""
 "*New group*: indicates the group to which the hardware can belong once "
 "uninstalled."
 msgstr ""
 "*Yeni grup*: Kaldırıldıktan sonra donanımın ait olabileceği grubu belirtir."
 
-#: ../../source/uninstall/index.rst:80
+#: ../../source/uninstall/index.rst:79
 msgid ""
 "*Software History Deletion* : Allows deletion of all lines in a computer's "
 "history that are relevant to software installations/uninstallations."
@@ -264,23 +263,23 @@ msgstr ""
 "*Yazılım geçmişi silme* : Bir bilgisayarın geçmişindeki yazılım "
 "kurma/kaldırma işlemleriyle ilgili tüm satırların silinmesini sağlar."
 
-#: ../../source/uninstall/index.rst:81
+#: ../../source/uninstall/index.rst:80
 msgid "*REMOVE Name* : removes the name of the hardware during uninstallation"
 msgstr "*Adı sil* : Kaldırma sırasında donanımın adını kaldırır"
 
-#: ../../source/uninstall/index.rst:83
+#: ../../source/uninstall/index.rst:82
 msgid ""
 "*RAZ Contact* : removes the contact reassembled by OCS during uninstallation"
 msgstr ""
 "*RAZ ilgili* : Kaldırma sırasında OCS tarafından eklenen ilgiliyi kaldırır"
 
-#: ../../source/uninstall/index.rst:84
+#: ../../source/uninstall/index.rst:83
 msgid ""
 "*Network reset*: resets the \"network\" field of the equipment record to "
 "zero."
 msgstr "*Ağ sıfırlama*: Aygıt kaydının \"ağ\" alanını sıfır olarak ayarlar."
 
-#: ../../source/uninstall/index.rst:85
+#: ../../source/uninstall/index.rst:84
 msgid ""
 "*RAZ OS*: Removes OS information (OS, Version, Service Pack, Product Key, "
 "Product ID) when uninstalling."
@@ -289,11 +288,11 @@ msgstr ""
 "(işletim sistemi sürüm, hizmet paketi, ürün anahtarı, ürün kimliği) "
 "kaldırır."
 
-#: ../../source/uninstall/index.rst:86
+#: ../../source/uninstall/index.rst:85
 msgid "*RAZ domain* : removes the \"domain\" field from the hardware"
 msgstr "*RAZ etki alanı* : Donanımdan \"etki alanı\" alanını kaldırır"
 
-#: ../../source/uninstall/index.rst:87
+#: ../../source/uninstall/index.rst:86
 msgid ""
 "*Remove IP & Gateway & Hacker & Subnet*: removes network information (except"
 " for the MAC address, which is hardware-related) during uninstallation"
@@ -301,7 +300,7 @@ msgstr ""
 "*IP ve ağ geçidini ve hacker ve alt ağı kaldır*: Kaldırma sırasında ağ "
 "bilgilerini (donanımla ilgili MAC adresi dışında) kaldırır"
 
-#: ../../source/uninstall/index.rst:88
+#: ../../source/uninstall/index.rst:87
 msgid ""
 "*Remove the machine from OCS* : when uninstalling a computer in GLPI, remove"
 " from the OCS base the corresponding machine"
@@ -309,7 +308,7 @@ msgstr ""
 "*Bilgisayarı OCS üzerinden kaldır* : GLPI üzerinde bir bilgisayarı "
 "kaldırırken, OCS veri tabanından da kaldırır"
 
-#: ../../source/uninstall/index.rst:89
+#: ../../source/uninstall/index.rst:88
 msgid ""
 "*Delete FusionInventory info*: Delete all FusionInventory info for this "
 "material"
@@ -317,23 +316,23 @@ msgstr ""
 "*FusionInventory bilgilerini sil*: Bu materyal için tüm FusionInventory "
 "bilgilerini siler"
 
-#: ../../source/uninstall/index.rst:96
+#: ../../source/uninstall/index.rst:95
 msgid "Uninstall hardware"
 msgstr "Donanımı kaldırmak"
 
-#: ../../source/uninstall/index.rst:98
+#: ../../source/uninstall/index.rst:97
 msgid "There are 2 possibilities to uninstall a hardware:"
 msgstr "Bir donanımı kaldırmanın 2 yolu vardır:"
 
-#: ../../source/uninstall/index.rst:100
+#: ../../source/uninstall/index.rst:99
 msgid "from its file, in the tab \"Uninstallation\"."
 msgstr "Donanım kaydındaki \"Kaldır\" sekmesinden."
 
-#: ../../source/uninstall/index.rst:101
+#: ../../source/uninstall/index.rst:100
 msgid "from the massive modifications list"
 msgstr "Toplu değişiklik listesinden"
 
-#: ../../source/uninstall/index.rst:103
+#: ../../source/uninstall/index.rst:102
 msgid ""
 "Since a template can be recursive (visible in the sub-entities), the list of"
 " templates displayed in the massive actions indicates all the templates "
@@ -346,11 +345,11 @@ msgstr ""
 " ya da bu birimin üzerindeki bir birimde ve alt birimlerinde "
 "görüntülenenler)."
 
-#: ../../source/uninstall/index.rst:106
+#: ../../source/uninstall/index.rst:105
 msgid "Change of location on uninstallation"
 msgstr "Kaldırma sırasında konumu değiştirmek"
 
-#: ../../source/uninstall/index.rst:108
+#: ../../source/uninstall/index.rst:107
 msgid ""
 "It is possible to change the location of the hardware once it has been "
 "uninstalled. This selection is made either :"
@@ -358,15 +357,15 @@ msgstr ""
 "Kaldırıldıktan sonra donanımın konumu değiştirilebilir. Bu işlem iki şekilde"
 " yapılabilir:"
 
-#: ../../source/uninstall/index.rst:111
+#: ../../source/uninstall/index.rst:110
 msgid "in the hardware file, once the uninstallation model has been chosen."
 msgstr "Kaldırma modeli seçildikten sonra donanım dosyasından."
 
-#: ../../source/uninstall/index.rst:112
+#: ../../source/uninstall/index.rst:111
 msgid "from the user's preferences for uninstallation by massive modification"
 msgstr "Toplu değişiklikle kaldırma için kullanıcının ayarlarından"
 
-#: ../../source/uninstall/index.rst:114
+#: ../../source/uninstall/index.rst:113
 msgid ""
 "It should be noted that a location is declared within an entity. It is "
 "therefore possible, depending on the current entity, to define an uninstall "
@@ -375,23 +374,23 @@ msgstr ""
 "Bir birim içinde bir konumun bildirildiğine dikkat edilmelidir. Bu nedenle, "
 "var olan birime bağlı olarak bir kaldırma konumu belirtilebilir."
 
-#: ../../source/uninstall/index.rst:118
+#: ../../source/uninstall/index.rst:117
 msgid "Replace feature"
 msgstr "Değiştirme özelliği"
 
-#: ../../source/uninstall/index.rst:120
+#: ../../source/uninstall/index.rst:119
 msgid ""
 "This feature of the 'Item Uninstallation' plugin adds the possibility to "
 "replace one hardware by another."
 msgstr ""
-"'Öge kaldır' uygulama ekinin bu özelliği, bir donanımın diğeriyle "
+"'Öge kaldır' eklentisinin bu özelliği, bir donanımın diğeriyle "
 "değiştirilebilmesini sağlar."
 
-#: ../../source/uninstall/index.rst:123
+#: ../../source/uninstall/index.rst:122
 msgid "Replacement Model Form"
 msgstr "Değişiklik modeli formu"
 
-#: ../../source/uninstall/index.rst:125
+#: ../../source/uninstall/index.rst:124
 msgid ""
 "Replacement models are managed in the same way as uninstall models: They are"
 " accessible in the menu \"Administration > Uninstall hardware\". Each model "
@@ -403,18 +402,18 @@ msgstr ""
 "özellikler bulunabilir ve alt birimlerde görüntülenmesi ya da "
 "görüntülenmemesi sağlanabilir."
 
-#: ../../source/uninstall/index.rst:129
+#: ../../source/uninstall/index.rst:128
 msgid "In this form there are 4 tabs :"
 msgstr "Bu formda 4 sekme bulunur:"
 
-#: ../../source/uninstall/index.rst:131
+#: ../../source/uninstall/index.rst:130
 msgid ""
 "Main: allows to display on the page only the main information of the "
 "template."
 msgstr ""
 "Temel: Sayfada kalıbın yalnızca temel bilgilerinin görüntülenmesini sağlar."
 
-#: ../../source/uninstall/index.rst:132
+#: ../../source/uninstall/index.rst:131
 msgid ""
 "Replacing data: displays the various actions to be performed when replacing "
 "one piece of equipment with another."
@@ -422,15 +421,15 @@ msgstr ""
 "Verileri değiştirme: Bir aygıtı bir başkasıyla değiştirirken yapılacak "
 "çeşitli işlemleri görüntüler."
 
-#: ../../source/uninstall/index.rst:133
+#: ../../source/uninstall/index.rst:132
 msgid "All: displays all the tabs on the same page"
 msgstr "Tümü: Tüm sekmeleri aynı sayfada görüntüler"
 
-#: ../../source/uninstall/index.rst:138
+#: ../../source/uninstall/index.rst:137
 msgid "Here is the description of the fields of the main tab :"
 msgstr "Temel bilgiler sekmesindeki alanlar şunlardır:"
 
-#: ../../source/uninstall/index.rst:140
+#: ../../source/uninstall/index.rst:139
 msgid ""
 "*Name*: the name of the replacement model *Sub-entities*: indicates whether "
 "the template is visible in the creation entity and its sub-entities *Model "
@@ -445,26 +444,26 @@ msgstr ""
 "Modelle ilgili ayrıntıların eklenebileceği boş alanlar *Yeni donanım "
 "durumu*: Değiştirildikten sonra eski donanıma atanacak durum"
 
-#: ../../source/uninstall/index.rst:148
+#: ../../source/uninstall/index.rst:147
 msgid "Replacing data tab"
 msgstr "Değişiklik bilgileri sekmesi"
 
-#: ../../source/uninstall/index.rst:153
+#: ../../source/uninstall/index.rst:152
 msgid "Here is the description of the fields of the actions tab."
 msgstr "İşlemler sekmesindeki alanlar şunlardır:"
 
-#: ../../source/uninstall/index.rst:156
+#: ../../source/uninstall/index.rst:155
 msgid "*General Information*"
 msgstr "*Genel bilgiler*"
 
-#: ../../source/uninstall/index.rst:158
+#: ../../source/uninstall/index.rst:157
 msgid ""
 "*Copy name*: allows you to define if you want to copy the name of the old "
 "hardware to the new one."
 msgstr ""
 "*Ad kopyalansın*: Eski donanımın adının yenisine kopyalanmasını sağlar."
 
-#: ../../source/uninstall/index.rst:159
+#: ../../source/uninstall/index.rst:158
 msgid ""
 "*Copy the serial number*: Allows you to define if you wish to copy the "
 "serial number of the old equipment to the new one."
@@ -472,7 +471,7 @@ msgstr ""
 "*Seri numarası kopyalansın*: Eski aygıtın seri numarasının yenisine "
 "kopyalanmasını sağlar."
 
-#: ../../source/uninstall/index.rst:160
+#: ../../source/uninstall/index.rst:159
 msgid ""
 "*Copy the inventory number*: allows you to define if you want to copy the "
 "inventory number of the old equipment to the new one."
@@ -480,7 +479,7 @@ msgstr ""
 "*Envanter numarası kopyalansın*: Eski aygıtın envanter numarasının yenisine "
 "kopyalanmasını sağlar."
 
-#: ../../source/uninstall/index.rst:161
+#: ../../source/uninstall/index.rst:160
 msgid ""
 "*Overwrite information* (from the old material to the new one): this option "
 "allows you to choose the behavior to adopt if one of the unique information "
@@ -497,30 +496,30 @@ msgstr ""
 "seçildiğinde, eski aygıt bilgileri ASLA yeni aygıt bilgilerinin üzerine "
 "yazılmaz."
 
-#: ../../source/uninstall/index.rst:163
+#: ../../source/uninstall/index.rst:162
 msgid "*Method of archiving old material*"
 msgstr "*Eski aygıtın arşivlenme yöntemi*"
 
-#: ../../source/uninstall/index.rst:165
+#: ../../source/uninstall/index.rst:164
 msgid ""
 "In this option, we define the behavior that the uninstall plugin must adopt "
 "with the old hardware :"
 msgstr ""
-"Bu seçenekte, kaldırma uygulama ekinin eski aygıttan alması gereken bilgiler"
-" tanımlanır:"
+"Bu seçenekte, kaldırma eklentisinin eski aygıttan alması gereken bilgiler "
+"tanımlanır:"
 
-#: ../../source/uninstall/index.rst:167
+#: ../../source/uninstall/index.rst:166
 msgid ""
 "*Purge + PDF / CSV*: if you have the PDF plugin the old hardware will be "
 "purged from the GLPI database and its information will be attached to the "
 "new hardware in a PDF document. If you do not have the PDF plugin, they will"
 " be stored in CSV format."
 msgstr ""
-"*Temizle + PDF / CSV*: PDF uygulama ekiniz varsa, eski aygıt GLPI veri "
-"tabanından temizlenir ve bilgileri bir PDF belgesi olarak yeni donanıma "
-"eklenir. PDF uygulama ekiniz yoksa, bu bilgiler CSV biçiminde kaydedilir."
+"*Temizle + PDF / CSV*: PDF eklentiniz varsa, eski aygıt GLPI veri tabanından"
+" temizlenir ve bilgileri bir PDF belgesi olarak yeni donanıma eklenir. PDF "
+"eklentiniz yoksa, bu bilgiler CSV biçiminde kaydedilir."
 
-#: ../../source/uninstall/index.rst:168
+#: ../../source/uninstall/index.rst:167
 msgid ""
 "*Deletion + Comments*: the old hardware is put in the trash and a comment is"
 " added in each of the two hardware (\"This hardware has been replaced "
@@ -530,11 +529,11 @@ msgstr ""
 " açıklama eklenir (\"Bu aygıtın yerine şu aygıt takıldı... ve \"Bu aygıt şu "
 "aygıtın yerine takıldı...\") ."
 
-#: ../../source/uninstall/index.rst:170
+#: ../../source/uninstall/index.rst:169
 msgid "*Data location - Connection with other hardware*"
 msgstr "*Konum verisi - Diğer donanımlarla bağlantı*"
 
-#: ../../source/uninstall/index.rst:172
+#: ../../source/uninstall/index.rst:171
 msgid ""
 "*Copy Documents*: Allows you to attach documents from old equipment to new "
 "equipment."
@@ -542,7 +541,7 @@ msgstr ""
 "*Belgeler kopyalansın*: Eski aygıttaki belgelerin yeni aygıta aktarılmasını "
 "sağlar."
 
-#: ../../source/uninstall/index.rst:173
+#: ../../source/uninstall/index.rst:172
 msgid ""
 "*Copy Contracts*: allows you to attach the contracts from the old equipment "
 "to the new equipment."
@@ -550,7 +549,7 @@ msgstr ""
 "*Sözleşmeler kopyalansın*: Eski aygıttaki sözleşmelerin yeni aygıta "
 "aktarılmasını sağlar."
 
-#: ../../source/uninstall/index.rst:174
+#: ../../source/uninstall/index.rst:173
 msgid ""
 "*Copy financial information*: allows you to attach financial information "
 "from the old equipment to the new equipment. Warning: if the \"Overwrite "
@@ -562,7 +561,7 @@ msgstr ""
 "etkinleştirildiğinde, yeni aygıtın mali bilgileri var olsa bile, eski "
 "aygıtın bilgileri ile değiştirilir."
 
-#: ../../source/uninstall/index.rst:175
+#: ../../source/uninstall/index.rst:174
 msgid ""
 "*Copy Reservations*: Allows you to attach the reservations made on the old "
 "equipment to the new equipment. Attention: same remark as for the financial "
@@ -573,7 +572,7 @@ msgstr ""
 " etkinleştirildiğinde, yeni aygıtın ayırtma bilgileri var olsa bile, eski "
 "aygıtın bilgileri ile değiştirilir."
 
-#: ../../source/uninstall/index.rst:176
+#: ../../source/uninstall/index.rst:175
 msgid ""
 "*Copy the user*: allows you to pass on the user of the old equipment to the "
 "new one. Caution: same remark as for the financial information."
@@ -583,7 +582,7 @@ msgstr ""
 "etkinleştirildiğinde, yeni aygıtın kullanıcı bilgileri var olsa bile, eski "
 "aygıtın bilgileri ile değiştirilir."
 
-#: ../../source/uninstall/index.rst:177
+#: ../../source/uninstall/index.rst:176
 msgid ""
 "*Copy group*: Allows you to assign the group of the old equipment to the new"
 " equipment. Caution: same remark as for the financial information."
@@ -593,7 +592,7 @@ msgstr ""
 "etkinleştirildiğinde, yeni aygıtın grup bilgileri var olsa bile, eski "
 "aygıtın bilgileri ile değiştirilir."
 
-#: ../../source/uninstall/index.rst:178
+#: ../../source/uninstall/index.rst:177
 msgid ""
 "*Copy the tickets*: Allows you to attach the tickets of the old equipment to"
 " the new equipment."
@@ -601,7 +600,7 @@ msgstr ""
 "*Destek kayıtları kopyalansın*: Eski aygıttaki destek kayıtlarının yeni "
 "aygıta aktarılmasını sağlar."
 
-#: ../../source/uninstall/index.rst:179
+#: ../../source/uninstall/index.rst:178
 msgid ""
 "*Copy network connections*: Allows you to transfer the network connections "
 "from the old hardware to the new hardware."
@@ -609,7 +608,7 @@ msgstr ""
 "*Ağ bağlantıları kopyalansın*: Eski aygıttaki ağ bağlantılarının yeni aygıta"
 " aktarılmasını sağlar."
 
-#: ../../source/uninstall/index.rst:180
+#: ../../source/uninstall/index.rst:179
 msgid ""
 "*Copy direct connections*: Allows you to transfer the direct connections "
 "(Monitor, Printer, Device, Phone) from the old hardware to the new hardware."
@@ -617,24 +616,24 @@ msgstr ""
 "*Doğrudan bağlantılar kopyalansın*: Eski aygıttaki doğrudan bağlantıların "
 "(ekran, yazıcı, aygıt, telefon) yeni aygıta aktarılmasını sağlar."
 
-#: ../../source/uninstall/index.rst:185
+#: ../../source/uninstall/index.rst:184
 msgid "Replace hardware"
 msgstr "Donanım değiştirme"
 
-#: ../../source/uninstall/index.rst:187
+#: ../../source/uninstall/index.rst:186
 msgid ""
 "As well as uninstalling equipment, there are two ways to replace equipment:"
 msgstr "Aygıtı kaldırmanın yanında aygıtı değiştirmenin de iki yolu vardır:"
 
-#: ../../source/uninstall/index.rst:189
+#: ../../source/uninstall/index.rst:188
 msgid "from the card of this one, in the tab \"Plugins -> Uninstallation\","
-msgstr "Kartından, \"Uygulama ekleri -> Kaldır\" sekmesinden,"
+msgstr "Kartından, \"Eklentiler -> Kaldır\" sekmesinden,"
 
-#: ../../source/uninstall/index.rst:190
+#: ../../source/uninstall/index.rst:189
 msgid "from the massive modification list."
 msgstr "Toplu değişiklik listesinden."
 
-#: ../../source/uninstall/index.rst:192
+#: ../../source/uninstall/index.rst:191
 msgid ""
 "Since a replacement template can be recursive (visible in the sub-entities),"
 " the list of templates displayed in the massive actions indicates all the "
@@ -647,7 +646,7 @@ msgstr ""
 "tanımlananlar ya da bu birimin üzerindeki bir birimde ve alt birimlerinde "
 "görüntülenenler)."
 
-#: ../../source/uninstall/index.rst:194
+#: ../../source/uninstall/index.rst:193
 msgid ""
 "Once you have selected the hardware to be replaced via the massive actions, "
 "or you use the \"Uninstall\" tab directly in it :"
@@ -655,15 +654,15 @@ msgstr ""
 "Toplu işlemlerle değiştirilecek donanımı seçtikten ya da doğrudan kartındaki"
 " \"Kaldır\" sekmesini kullandıktan sonra:"
 
-#: ../../source/uninstall/index.rst:196
+#: ../../source/uninstall/index.rst:195
 msgid ""
 "a summary of the selected template appears in order to show you the actions "
 "that will be performed by the plugin."
 msgstr ""
-"Uygulama eki tarafından gerçekleştirilecek işlemleri size göstermek için "
-"seçilen kalıbın bir özeti görüntülenir."
+"Eklenti tarafından gerçekleştirilecek işlemleri size göstermek için seçilen "
+"kalıbın bir özeti görüntülenir."
 
-#: ../../source/uninstall/index.rst:197
+#: ../../source/uninstall/index.rst:196
 msgid ""
 "the list of the selected hardware(s) appears and you can choose the "
 "replacement hardware in the same way as when you choose a hardware in a "
@@ -672,11 +671,11 @@ msgstr ""
 "Seçilmiş donanım(lar)ın listesi görüntülenir ve bir destek kaydında bir "
 "donanım seçerken olduğu gibi değiştirilen donanımı seçebilirsiniz."
 
-#: ../../source/uninstall/index.rst:205
+#: ../../source/uninstall/index.rst:204
 msgid "Change of location on replacement"
 msgstr "Değiştirme sırasında konumu değiştirmek"
 
-#: ../../source/uninstall/index.rst:207
+#: ../../source/uninstall/index.rst:206
 msgid ""
 "It is possible to change the location of the equipment once it has been "
 "replaced. This selection is made either :"
@@ -684,15 +683,15 @@ msgstr ""
 "Değiştirildikten sonra aygıtın yeri değiştirilebilir. Bu seçim şu şekillerde"
 " yapılabilir:"
 
-#: ../../source/uninstall/index.rst:210
+#: ../../source/uninstall/index.rst:209
 msgid "in the equipment sheet, once the replacement model has been chosen,"
 msgstr "aygıt sayfasında değiştirilecek model seçildikten sonra,"
 
-#: ../../source/uninstall/index.rst:211
+#: ../../source/uninstall/index.rst:210
 msgid "from the user's preferences for massive modification replacement."
 msgstr "toplu değişiklik değişimi için kullanıcının ayarlarından."
 
-#: ../../source/uninstall/index.rst:213
+#: ../../source/uninstall/index.rst:212
 msgid ""
 "Note that a location is declared within an entity. It is therefore possible,"
 " depending on the current entity, to define a replacement location."
@@ -700,16 +699,16 @@ msgstr ""
 "Bir birim içinde bir konumun bildirildiğine dikkat edilmelidir. Bu nedenle, "
 "var olan birime bağlı olarak bir değiştirme konumu belirtilebilir."
 
-#: ../../source/uninstall/index.rst:216
+#: ../../source/uninstall/index.rst:215
 msgid "FAQ"
 msgstr "SSS"
 
-#: ../../source/uninstall/index.rst:218
+#: ../../source/uninstall/index.rst:217
 msgid ""
 "If you have any questions about using the plugin, please consult `our FAQ "
 "<https://faq.teclib.com/04_Plugins/Uninstall/>`_"
 msgstr ""
-"Uygulama ekinin kullanımıyla ilgili herhangi bir sorunuz varsa `SSS "
+"Eklentinin kullanımıyla ilgili herhangi bir sorunuz varsa `SSS "
 "<https://faq.teclib.com/04_Plugins/Uninstall/>`_ bölümüne bakabilirsiniz."
 
 #: ../../<rst_epilog>:2

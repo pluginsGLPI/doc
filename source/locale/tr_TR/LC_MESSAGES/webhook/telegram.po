@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kaya Zeren <kayazeren@gmail.com>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2024-02-14 07:35+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,79 +23,91 @@ msgstr ""
 
 #: ../../source/webhook/telegram.rst:2
 msgid "Telegram"
-msgstr ""
+msgstr "Telegram"
 
 #: ../../source/webhook/telegram.rst:4
 msgid ""
 "From Telegram, start a new chat with the bot **@BotFather** and run the "
 "following command **/newbot**"
 msgstr ""
+"Telegram üzerinde **@BotFather** botuyla yeni bir sohbet başlatın ve şu "
+"komutu çalıştırın **/newbot**<br>"
 
 #: ../../source/webhook/telegram.rst:5
 msgid "Answer the few questions you will be asked to set up your bot"
-msgstr ""
+msgstr "Botunuzu kurmak için sorulacak birkaç soruyu yanıtlayın"
 
 #: ../../source/webhook/telegram.rst:6
 msgid "Once finished, a token will be sent to you:"
-msgstr ""
+msgstr "İşleminiz tamamlandığında size bir kod gönderilir:"
 
 #: ../../source/webhook/telegram.rst-1
 msgid "token HTTP API"
-msgstr ""
+msgstr "HTTP API kodu"
 
 #: ../../source/webhook/telegram.rst:12
 msgid ""
 "If you have already created a dedicated channel to receive GLPI "
 "notifications, add your bot to it."
 msgstr ""
+"GLPI bildirimlerini almak için özel bir kanal oluşturduysanız, botunuzu bu "
+"kanala ekleyin."
 
 #: ../../source/webhook/telegram.rst:13
 msgid "Otherwise, create your own channel"
-msgstr ""
+msgstr "Bir özel kanal yoksa kendi kanalınızı oluşturun"
 
 #: ../../source/webhook/telegram.rst:14
 msgid "add the newly created bot"
-msgstr ""
+msgstr "Yeni oluşturulan botu ekleyin"
 
 #: ../../source/webhook/telegram.rst:16
 msgid ""
 "Send a message in the channel created to initiate a conversation and "
 "generate the various IDs we will need."
 msgstr ""
+"Yazışmayı başlatmak için oluşturulan kanala bir ileti gönderin ve gerek "
+"duyacağımız çeşitli kimlikleri oluşturun."
 
 #: ../../source/webhook/telegram.rst:18
 msgid "From your browser, enter the following URL:"
-msgstr ""
+msgstr "Tarayıcınızda şu adresi yazın:"
 
 #: ../../source/webhook/telegram.rst:20
 msgid "https://api.telegram.org/botmytoken/getupdates\\"
-msgstr ""
+msgstr "https://api.telegram.org/botmytoken/getupdates\\"
 
 #: ../../source/webhook/telegram.rst:22
 msgid "Replace *mytoken* with the value of the token generated above"
-msgstr ""
+msgstr "*mytoken* yerine yukarıda oluşturulan kod değerini yazın"
 
 #: ../../source/webhook/telegram.rst:25
 msgid ""
 "Telegram bot URLs take the form **https://api.telegram.org/bot{mytoken}**"
 msgstr ""
+"Telegram bot adresleri şu biçimdedir: "
+"**https://api.telegram.org/bot{mytoken}**"
 
 #: ../../source/webhook/telegram.rst:27
 msgid "You should see a similar result:"
-msgstr ""
+msgstr "Benzer bir sonuç görmelisiniz:"
 
 #: ../../source/webhook/telegram.rst:56
 msgid "In the **my_chat_member** copy the **ID** value of the **chat**."
-msgstr ""
+msgstr "**My_chat_member** üzerinde **chat** için **ID** değerini kopyalayın."
 
 #: ../../source/webhook/telegram.rst:59
 msgid "The negative sign **-** must also be copied"
+msgstr "Negatif simgesi de **-** kopyalanmalıdır"
+
+#: ../../source/webhook/telegram.rst:62
+msgid "Go to :doc:`setup the webhook in GLPI <setup_glpi>`"
 msgstr ""
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Creative Commons Lisansı"

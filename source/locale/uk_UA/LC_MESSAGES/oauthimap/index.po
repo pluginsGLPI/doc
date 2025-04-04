@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 13:57+0200\n"
 "PO-Revision-Date: 2024-01-26 14:57+0000\n"
 "Language-Team: Ukrainian (Ukraine) (https://app.transifex.com/teclib/teams/28042/uk_UA/)\n"
 "MIME-Version: 1.0\n"
@@ -83,49 +83,50 @@ msgstr ""
 msgid "8.2"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:28
+#: ../../source/include/no_subscription.rst:2
 msgid ""
-"This plugin is available without a GLPI-Network subscription. It is also "
-"available in `Cloud <https://glpi-network.cloud/>`_"
+"This plugin is available without a `GLPI Network <https://services.glpi-"
+"network.com/#offers>`_ subscription. It is also available on `GLPI Cloud "
+"<https://glpi-network.cloud>`_."
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:32
+#: ../../source/oauthimap/index.rst:31
 msgid "Supported mail services"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:34
+#: ../../source/oauthimap/index.rst:33
 msgid "OAuth IMAP support :"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:36
+#: ../../source/oauthimap/index.rst:35
 msgid ""
 "Gmail : https://developers.google.com/gmail/imap/xoauth2-protocol?hl=fr"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:37
+#: ../../source/oauthimap/index.rst:36
 msgid ""
 "Entra : https://learn.microsoft.com/fr-fr/power-platform/admin/connect-"
 "gmail-oauth2"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst-1 ../../source/oauthimap/index.rst:41
+#: ../../source/oauthimap/index.rst-1 ../../source/oauthimap/index.rst:40
 msgid "Install the plugin"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:43
+#: ../../source/oauthimap/index.rst:42
 msgid "Go to the marketplace. Download Oauth IMAP and enable it"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:49
+#: ../../source/oauthimap/index.rst:48
 msgid ""
 "Open the `Azure Portal <https://portal.azure.com/#home>`_ for your tenant"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:50
+#: ../../source/oauthimap/index.rst:49
 msgid "In the search box type **registration**"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:51
+#: ../../source/oauthimap/index.rst:50
 msgid "then select **App registrations**"
 msgstr ""
 
@@ -133,25 +134,25 @@ msgstr ""
 msgid "add app Entra"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:57
+#: ../../source/oauthimap/index.rst:56
 msgid ""
 "Here are the configuration steps including configuration phases on the Entra"
 " side."
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:60
+#: ../../source/oauthimap/index.rst:59
 msgid "Register your Entra application"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:63
+#: ../../source/oauthimap/index.rst:62
 msgid "Create the application"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:65
+#: ../../source/oauthimap/index.rst:64
 msgid "Click on **New registration**"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:66
+#: ../../source/oauthimap/index.rst:65
 msgid ""
 "Enter the desired name, select the type of account supported then enter the "
 "redirection URL (present in the configuration of the plugin from your GLPI "
@@ -160,7 +161,7 @@ msgid ""
 " specifying the **Web** option"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:68
+#: ../../source/oauthimap/index.rst:67
 msgid "Then click on **Register**."
 msgstr ""
 
@@ -168,19 +169,19 @@ msgstr ""
 msgid "register app"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:75
+#: ../../source/oauthimap/index.rst:74
 msgid "Add a secret"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:77
+#: ../../source/oauthimap/index.rst:76
 msgid "In the **Certificates and secrets** tab"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:78
+#: ../../source/oauthimap/index.rst:77
 msgid "Click on **Client secrets**"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:79
+#: ../../source/oauthimap/index.rst:78
 msgid "Then **New client secret**"
 msgstr ""
 
@@ -188,11 +189,11 @@ msgstr ""
 msgid "add secret"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:85
+#: ../../source/oauthimap/index.rst:84
 msgid "Enter a description and then an expiration date"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:86
+#: ../../source/oauthimap/index.rst:85
 msgid ""
 "A secret **value** is then generated. Keep this value well because once you "
 "have left this page, it will no longer be recoverable"
@@ -202,7 +203,7 @@ msgstr ""
 msgid "select value secret"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:92
+#: ../../source/oauthimap/index.rst:91
 msgid ""
 "Return to the **Overview** tab and **copy** the following values ​​and the "
 "secret seen above"
@@ -213,10 +214,50 @@ msgid "overview"
 msgstr ""
 
 #: ../../source/oauthimap/index.rst:99
-msgid "Setup GLPI"
+msgid "Add API permissions"
 msgstr ""
 
 #: ../../source/oauthimap/index.rst:101
+msgid "In the **API Permissions** tab"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:102
+msgid "Click on **your API** (Microsoft Graph in this case)"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:103
+msgid "Then select **Delegated permission**"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:104
+msgid "Select :"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:106
+msgid "email"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:107
+msgid "offline_access"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:108
+msgid "openid"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:109
+msgid "profile"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst-1
+msgid "add api permissions"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:116
+msgid "Setup GLPI"
+msgstr ""
+
+#: ../../source/oauthimap/index.rst:118
 msgid ""
 "Now go back to your GLPI interface **Setup > Application Aouth IMAP** and "
 "indicate the information collected previously :"
@@ -226,11 +267,11 @@ msgstr ""
 msgid "setup GLPI"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:107
+#: ../../source/oauthimap/index.rst:124
 msgid "Click **Add**"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:108
+#: ../../source/oauthimap/index.rst:125
 msgid ""
 "Now in the **Oauth authorization** tab, click **Create an authorization**"
 msgstr ""
@@ -239,19 +280,19 @@ msgstr ""
 msgid "Oauth Auhorization"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:114
+#: ../../source/oauthimap/index.rst:131
 msgid ""
 "When you click on **Create authorization**, you will be redirected to the "
 "Microsoft services sign-in page"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:115
+#: ../../source/oauthimap/index.rst:132
 msgid ""
 "Enter the email address and password of the account that will be used for "
 "the collector"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:116
+#: ../../source/oauthimap/index.rst:133
 msgid ""
 "You will also need to accept the necessary permissions related to the "
 "plugin."
@@ -265,11 +306,11 @@ msgstr ""
 msgid "check account"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:127
+#: ../../source/oauthimap/index.rst:144
 msgid "FAQ"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst:129
+#: ../../source/oauthimap/index.rst:146
 msgid ""
 "If you have any questions about using the plugin, please consult `our FAQ "
 "<https://faq.teclib.com/04_Plugins/OAuth_IMAP/>`_"

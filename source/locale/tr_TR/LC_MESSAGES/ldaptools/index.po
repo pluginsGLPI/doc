@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kaya Zeren <kayazeren@gmail.com>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2024-01-26 14:56+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,114 +23,120 @@ msgstr ""
 
 #: ../../source/ldaptools/index.rst:2
 msgid "LDAP Tools"
-msgstr ""
+msgstr "LDAP Araçları"
 
 #: ../../source/ldaptools/index.rst:5
 msgid "Requirements (on-premise)"
-msgstr ""
+msgstr "Gereksinimler (özel kurulum)"
 
 #: ../../source/ldaptools/index.rst:8
 msgid "GLPI Version"
-msgstr ""
+msgstr "GLPI sürümü"
 
 #: ../../source/ldaptools/index.rst:8
 msgid "Minimum PHP"
-msgstr ""
+msgstr "En düşük PHP sürümü"
 
 #: ../../source/ldaptools/index.rst:8
 msgid "Recommended"
-msgstr ""
+msgstr "Önerilen"
 
 #: ../../source/ldaptools/index.rst:10
 msgid "10.0.x"
-msgstr ""
+msgstr "10.0.x"
 
 #: ../../source/ldaptools/index.rst:10
 msgid "8.1"
-msgstr ""
+msgstr "8.1"
 
 #: ../../source/ldaptools/index.rst:10
 msgid "8.2"
-msgstr ""
+msgstr "8.2"
 
-#: ../../source/ldaptools/index.rst:14
+#: ../../source/include/basic_subscription.rst:2
 msgid ""
-"A `basic licence <https://services.glpi-network.com/#offers>`_ (or higher) "
-"is required. This plugin is also available from the `Cloud <https://glpi-"
-"network.cloud/>`_."
+"A `GLPI Network BASIC <https://services.glpi-network.com/#offers>`_ "
+"subscription (or higher) is required. This plugin is also available for all "
+"GLPI Network `Cloud instances <https://glpi-network.cloud>`_."
 msgstr ""
 
-#: ../../source/ldaptools/index.rst:17
+#: ../../source/ldaptools/index.rst:16
 msgid "Install the plugin"
-msgstr ""
+msgstr "Eklentiyi kurmak"
 
-#: ../../source/ldaptools/index.rst:19
+#: ../../source/ldaptools/index.rst:18
 msgid "Go to the marketplace. Download and install the plugin **LDAP Tools**."
-msgstr ""
+msgstr "Mağazaya gidin. **LDAP Araçları** eklentisini indirip kurun."
 
 #: ../../source/ldaptools/index.rst-1
 msgid "install the plugin"
-msgstr ""
+msgstr "Eklentiyi kurmak"
 
-#: ../../source/ldaptools/index.rst:25
+#: ../../source/ldaptools/index.rst:24
 msgid "Using the plugin"
-msgstr ""
+msgstr "Eklentiyi kullanmak"
 
-#: ../../source/ldaptools/index.rst:27
+#: ../../source/ldaptools/index.rst:26
 msgid ""
 "From **tools > LDAP Tools**, if you have synchronised LDAP directories, they"
 " will appear directly."
 msgstr ""
+"Eşitlenen LDAP dizinleriniz varsa **Araçlar > LDAP Araçları** bölümünde "
+"bunlar doğrudan görüntülenir."
 
 #: ../../source/ldaptools/index.rst-1
 msgid "use the plugin"
-msgstr ""
+msgstr "Eklentiyi kullanmak"
 
-#: ../../source/ldaptools/index.rst:33
+#: ../../source/ldaptools/index.rst:32
 msgid ""
 "Each directory has a number of tests which may or may not be validated "
 "depending on your configuration:"
 msgstr ""
+"Her dizinde, yapılandırmanıza bağlı olarak doğrulanabilen veya "
+"doğrulanamayan bazı sınamalar bulunur:"
+
+#: ../../source/ldaptools/index.rst:35
+msgid "`Flux TCP`"
+msgstr "`Flux TCP`"
 
 #: ../../source/ldaptools/index.rst:36
-msgid "`Flux TCP`"
-msgstr ""
+msgid "`BaseDN`"
+msgstr "`BaseDN`"
 
 #: ../../source/ldaptools/index.rst:37
-msgid "`BaseDN`"
-msgstr ""
+msgid "`LDAP URI`"
+msgstr "`LDAP URI`"
 
 #: ../../source/ldaptools/index.rst:38
-msgid "`LDAP URI`"
-msgstr ""
+msgid "`Bind Auth`"
+msgstr "`Bind Auth`"
 
 #: ../../source/ldaptools/index.rst:39
-msgid "`Bind Auth`"
-msgstr ""
+msgid "`Generic search`"
+msgstr "`Generic search`"
 
 #: ../../source/ldaptools/index.rst:40
-msgid "`Generic search`"
-msgstr ""
+msgid "`Filtered search`"
+msgstr "`Filtered search`"
 
 #: ../../source/ldaptools/index.rst:41
-msgid "`Filtered search`"
-msgstr ""
-
-#: ../../source/ldaptools/index.rst:42
 msgid "`Attributes`"
-msgstr ""
+msgstr "`Attributes`"
 
-#: ../../source/ldaptools/index.rst:44
+#: ../../source/ldaptools/index.rst:43
 msgid ""
 "As soon as one of the tests fails, the following tests will not be "
 "performed. You must start by correcting the 1st anomaly before the other "
 "tests are run."
 msgstr ""
+"Sınamalardan biri başarısız olursa sonraki sınamalar yapılmaz. Diğer "
+"sınamalar çalıştırılmadan önce ilk sorunu düzelterek yeniden başlamalısınız."
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Creative Commons Lisansı"

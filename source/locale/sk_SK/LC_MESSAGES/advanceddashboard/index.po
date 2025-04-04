@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 13:57+0200\n"
 "PO-Revision-Date: 2024-01-26 14:56+0000\n"
 "Language-Team: Slovak (Slovakia) (https://app.transifex.com/teclib/teams/28042/sk_SK/)\n"
 "MIME-Version: 1.0\n"
@@ -49,11 +49,11 @@ msgstr ""
 msgid "8.2"
 msgstr ""
 
-#: ../../source/advanceddashboard/index.rst:14
+#: ../../source/include/standard_subscription.rst:2
 msgid ""
-"A `standard licence <https://services.glpi-network.com/#offers>`_ (or "
-"higher) is required. This plugin is also available from the `Cloud "
-"<https://glpi-network.cloud/fr/>`_."
+"A `GLPI Network STANDARD <https://services.glpi-network.com/#offers>`_ "
+"subscription (or higher) is required. This plugin is also available for all "
+"GLPI Network `Cloud instances <https://glpi-network.cloud>`_."
 msgstr ""
 
 #: ../../source/advanceddashboard/index.rst-1

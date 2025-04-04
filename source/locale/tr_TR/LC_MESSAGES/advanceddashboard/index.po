@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016-2024, Teclib'
+# Copyright (C) 2016-2025, Teclib'
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kaya Zeren <kayazeren@gmail.com>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-24 10:21+0200\n"
+"POT-Creation-Date: 2025-04-04 12:58+0200\n"
 "PO-Revision-Date: 2024-01-26 14:56+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,57 +23,57 @@ msgstr ""
 
 #: ../../source/advanceddashboard/index.rst:2
 msgid "Advanced dashboards"
-msgstr ""
+msgstr "Gelişmiş panolar"
 
 #: ../../source/advanceddashboard/index.rst:5
 msgid "Requirements (on-premise)"
-msgstr ""
+msgstr "Gereksinimler (özel kurulum)"
 
 #: ../../source/advanceddashboard/index.rst:8
 msgid "GLPI Version"
-msgstr ""
+msgstr "GLPI sürümü"
 
 #: ../../source/advanceddashboard/index.rst:8
 msgid "Minimum PHP"
-msgstr ""
+msgstr "En düşük PHP sürümü"
 
 #: ../../source/advanceddashboard/index.rst:8
 msgid "Recommended"
-msgstr ""
+msgstr "Önerilen"
 
 #: ../../source/advanceddashboard/index.rst:10
 msgid "10.0.x"
-msgstr ""
+msgstr "10.0.x"
 
 #: ../../source/advanceddashboard/index.rst:10
 msgid "8.1"
-msgstr ""
+msgstr "8.1"
 
 #: ../../source/advanceddashboard/index.rst:10
 msgid "8.2"
-msgstr ""
+msgstr "8.2"
 
-#: ../../source/advanceddashboard/index.rst:14
+#: ../../source/include/standard_subscription.rst:2
 msgid ""
-"A `standard licence <https://services.glpi-network.com/#offers>`_ (or "
-"higher) is required. This plugin is also available from the `Cloud "
-"<https://glpi-network.cloud/fr/>`_."
+"A `GLPI Network STANDARD <https://services.glpi-network.com/#offers>`_ "
+"subscription (or higher) is required. This plugin is also available for all "
+"GLPI Network `Cloud instances <https://glpi-network.cloud>`_."
 msgstr ""
 
 #: ../../source/advanceddashboard/index.rst-1
 #: ../../source/advanceddashboard/index.rst:17
 msgid "Install the plugin"
-msgstr ""
+msgstr "Eklentiyi kurmak"
 
 #: ../../source/advanceddashboard/index.rst:19
 msgid ""
 "Go to the marketplace. Download and install the “**Advanced dashboard**” "
 "plugin."
-msgstr ""
+msgstr "Mağazaya gidin. **Gelişmiş panolar** eklentisini indirip kurun."
 
 #: ../../source/advanceddashboard/index.rst:26
 msgid "Setup the plugin"
-msgstr ""
+msgstr "Eklentiyi kurmak"
 
 #: ../../source/advanceddashboard/index.rst:30
 msgid ""
@@ -78,54 +82,65 @@ msgid ""
 "dashboards. It is also recommended that you **know the structure of GLPI "
 "tables**."
 msgstr ""
+"Bu eklenti, panolarda görünecek çeşitli sorguların belirli ölçütlerini "
+"ayarlayabilmek için **en az SQL bilgisi** gereklidir. Ayrıca **GLPI "
+"tablolarının yapısını bilmeniz** de önerilir."
 
 #: ../../source/advanceddashboard/index.rst:33
 msgid "Create an SQL query"
-msgstr ""
+msgstr "Bir SQL sorgusu oluştur"
 
 #: ../../source/advanceddashboard/index.rst:35
 msgid ""
 "The below example gives us the number of tickets on the root entity over the"
 " last 2 years:"
 msgstr ""
+"Aşağıdaki örnek bize son 2 yılda kök varlıktaki destek kaydı sayısını verir:"
 
 #: ../../source/advanceddashboard/index.rst:82
 msgid "Setting query-related parameters"
-msgstr ""
+msgstr "Sorguyla ilgili parametreleri ayarlamak"
 
 #: ../../source/advanceddashboard/index.rst:84
 msgid "From **tools** > **SQL for dashboards**, click on **add**"
 msgstr ""
+"**Araçlar** > **Panolar için SQL**' bölümünde **Ekle** üzerine tıklayın"
 
 #: ../../source/advanceddashboard/index.rst:85
 msgid ""
 "Name your query (the one that will be visible from the dashboards) and "
 "identify it as **active**."
 msgstr ""
+"Sorgunuzu (panolarda görüntülenecek olan) adlandırın ve **Etkin** olarak "
+"ayarlayın."
 
 #: ../../source/advanceddashboard/index.rst:86
 msgid ""
 "In the SQL Editor tab, paste the above query, taking care to change the name"
 " of the entity if you have changed it."
 msgstr ""
+"SQL düzenleyici sekmesine yukarıdaki sorguyu yapıştırın. Değiştirdiyseniz, "
+"varlığın adını değiştirmeyi unutmayın."
 
 #: ../../source/advanceddashboard/index.rst:87
 msgid ""
 "Click on the floppy icon to save the query and then on play icon to run the "
 "query."
 msgstr ""
+"Sorguyu kaydetmek için disket simgesine, yürütmek için ise oynat simgesine "
+"tıklayın."
 
 #: ../../source/advanceddashboard/index.rst-1
 msgid "SQL editor"
-msgstr ""
+msgstr "SQL düzenleyici"
 
 #: ../../source/advanceddashboard/index.rst:95
 msgid "An insert at the bottom will display the result of the query:"
-msgstr ""
+msgstr "Alttaki bölümde sorgu sonucunu görüntülenir:"
 
 #: ../../source/advanceddashboard/index.rst-1
 msgid "preview result"
-msgstr ""
+msgstr "Sonuç ön izlemesi"
 
 #: ../../source/advanceddashboard/index.rst:103
 msgid ""
@@ -134,6 +149,10 @@ msgid ""
 "label will be \"year\"*, *the number will be \"number of tickets\"* and the "
 "*main label will be \"\"number of tickets per year\"*."
 msgstr ""
+"**Alanları ayarla** sekmesinden, etiketi, numarayı ve ana etiketi (isteğe "
+"bağlı, tablonuzun adı) tanımlayın. Bizim durumumuzda, *etiket \"yıl\"* "
+"olacak, *numara \"destek kaydı sayısı\"* olacak ve *ana etiket \"\"yıl "
+"başına destek kaydı sayısı\"* olacak."
 
 #: ../../source/advanceddashboard/index.rst:104
 msgid ""
@@ -141,84 +160,93 @@ msgid ""
 " can preview your table; you will be asked to select the type of graph you "
 "want to appear in the tile later),"
 msgstr ""
+"Çizelge türünü seçin (yalnızca bilgilendirme amaçlıdır, böylece tablonun ön "
+"izlemesini görüntüleyebilirsiniz. Ardından karo içinde görüntülenmesini "
+"istediğiniz çizelge türünü seçmeniz istenir),"
 
 #: ../../source/advanceddashboard/index.rst:105
 msgid "You can limit the amount of data to be displayed."
-msgstr ""
+msgstr "Görüntülenecek veri miktarını sınırlayabilirsiniz."
 
 #: ../../source/advanceddashboard/index.rst:106
 msgid "Then click on **Save fields and preview**."
-msgstr ""
+msgstr "Ardından **Alanları kaydet ve ön izle** seçeneğine tıklayın."
 
 #: ../../source/advanceddashboard/index.rst-1
 msgid "card setup"
-msgstr ""
+msgstr "Kart kurulumu"
 
 #: ../../source/advanceddashboard/index.rst:114
 msgid "Dashboard settings"
-msgstr ""
+msgstr "Pano ayarları"
 
 #: ../../source/advanceddashboard/index.rst:116
 msgid ""
 "From **Assistance** > **Dashboard**, select the dashboard that is to receive"
 " the new tile"
 msgstr ""
+"**Yardım** > **Pano** bölümünden yeni karonun yerleştirileceği panoyu seçin"
 
 #: ../../source/advanceddashboard/index.rst:117
 msgid "Click on edit icon"
-msgstr ""
+msgstr "Düzenle simgesine tıklayın"
 
 #: ../../source/advanceddashboard/index.rst:118
 msgid "Add a new tile with plus icon"
-msgstr ""
+msgstr "Artı simgesi ile yeni bir karo ekleyin"
 
 #: ../../source/advanceddashboard/index.rst:119
 msgid "Select the query you have just created"
-msgstr ""
+msgstr "Oluşturduğunuz sorguyu seçin"
 
 #: ../../source/advanceddashboard/index.rst:120
 msgid "Choose a colour for your tile"
-msgstr ""
+msgstr "Karonuzun rengini seçin"
 
 #: ../../source/advanceddashboard/index.rst-1
 msgid "more card setup"
-msgstr ""
+msgstr "Başka kart kurulumu"
 
 #: ../../source/advanceddashboard/index.rst:128
 msgid "You will then be asked to select the chart type"
-msgstr ""
+msgstr "Çizelge türünü seçmeniz istenecek"
 
 #: ../../source/advanceddashboard/index.rst:129
 msgid ""
 "Some dashboards may ask you to use colours and display values and labels."
 msgstr ""
+"Bazı panolar için renk kullanmanız ve değerler ile etiketleri görüntülemeniz"
+" istenebilir."
 
 #: ../../source/advanceddashboard/index.rst-1
 msgid "label setup"
-msgstr ""
+msgstr "Etiket kurulumu"
 
 #: ../../source/advanceddashboard/index.rst:137
 msgid "Your tile is now ready"
-msgstr ""
+msgstr "Karonuz hazır"
 
 #: ../../source/advanceddashboard/index.rst-1
 msgid "the card is ready"
-msgstr ""
+msgstr "Kart hazır"
 
 #: ../../source/advanceddashboard/index.rst:145
 msgid "FAQ"
-msgstr ""
+msgstr "SSS"
 
 #: ../../source/advanceddashboard/index.rst:147
 msgid ""
 "If you have any questions about using the plugin, please consult `our FAQ "
 "<https://faq.teclib.com/04_Plugins/Advanced_dashboard/>`_"
 msgstr ""
+"Eklentinin kullanımıyla ilgili herhangi bir sorunuz varsa `SSS "
+"<https://faq.teclib.com/04_Plugins/Advanced_dashboard/>`_ bölümüne "
+"bakabilirsiniz."
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"
 
 #: ../../<rst_epilog>:0
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Creative Commons Lisansı"
