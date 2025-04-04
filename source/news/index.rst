@@ -18,9 +18,7 @@ GLPI Version Minimum PHP Recommended
 10.0.x       8.1         8.2
 ============ =========== ===========
 
-.. note::
-   This plugin is available without a GLPI-Network subscription. It is also available in `Cloud <https://glpi-network.cloud/>`_
-
+.. include:: ../tabs/no_subscription.rst
 
 Features
 --------

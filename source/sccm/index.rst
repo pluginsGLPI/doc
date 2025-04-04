@@ -22,8 +22,7 @@ This plugin requires :
 * Microsoft System Center Configuration Manager
 * Microsoft Drivers for PHP for Microsoft SQL Server
 
-.. Note::
-   This plugin is available without a GLPI-Network subscription. It is not available in `Cloud <https://glpi-network.cloud/>`_
+.. include:: ../tabs/no_subscription_no_cloud.rst
 
 
 Features
