@@ -19,7 +19,7 @@ Therefore the time 2024-03-01 02:00:00 is not visible in the table of carbon int
 
 The reverse occurs on 2023-10-29 02:00:00 where there are two rows with the same date (visible when the table displayed with timezone Europe/Paris) but internally, there is an interval of 1H between them (visible when the table is displayed with UTC)
 
-Assets not used
+Not used assets
 ---------------
 
 computer
