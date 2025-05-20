@@ -9,7 +9,7 @@ Mandatory informations are:
 *  A location with a country or a state filled
 *  A startup date or a delivery date
 *  A usage profile for computers
-*  a model or a type
+*  A model or a type
 *  A power consumption in the model or the type of the asset
 *  Financial information enabled with one of the fllowing dates filled (ordered by precedence)
   * use date
