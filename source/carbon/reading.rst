@@ -28,7 +28,8 @@ Data in orange are optional items with a slight impact on data quality
 Usage
 -----
 
-A graph displays energy consumption and carbon emissions per month
+A graph displays energy consumption and carbon emissions per completed month
+
 
 .. image:: images/usage.png
     :alt: Read the graph of energy consumption and carbon emissions per month
