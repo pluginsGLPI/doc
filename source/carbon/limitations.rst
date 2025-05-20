@@ -4,7 +4,7 @@ Limitations
 Dates handling
 --------------
 
-The plugin heavily relies on dates manipulation. Dates stored in its tables are set on time sone configured in general configuration of GLPI (** Setup > General > tab Personnalization**).
+The plugin heavily relies on dates manipulation. Dates stored in its tables are set on time zone configured in general configuration of GLPI (** Setup > General > tab Personnalization**).
 
 Dates are manipulated in the context of automatic actions, this means that changing the above setting **will** impact the timezone of dates manipulates after this change. This may will have an effect charts and reports. It is advised to carefully check the configuratin of time zone before starting to use the plugin and avoid any change after it began to download data from external sources.
 
