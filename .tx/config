@@ -585,3 +585,57 @@ file_filter = source/locale/<lang>/LC_MESSAGES/cloudinventory/search.po
 source_file = build/locale/cloudinventory/search.pot
 source_lang = en
 type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:carbon--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/carbon/index.po
+source_file = build/locale/carbon/index.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:carbon--carbon_reports]
+file_filter = source/locale/<lang>/LC_MESSAGES/carbon/carbon_reports.po
+source_file = build/locale/carbon/carbon_reports.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:carbon--configuration]
+file_filter = source/locale/<lang>/LC_MESSAGES/carbon/configuration.po
+source_file = build/locale/carbon/configuration.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:carbon--features]
+file_filter = source/locale/<lang>/LC_MESSAGES/carbon/features.po
+source_file = build/locale/carbon/features.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:carbon--installation]
+file_filter = source/locale/<lang>/LC_MESSAGES/carbon/installation.po
+source_file = build/locale/carbon/installation.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:carbon--limitations]
+file_filter = source/locale/<lang>/LC_MESSAGES/carbon/limitations.po
+source_file = build/locale/carbon/limitations.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:carbon--reading]
+file_filter = source/locale/<lang>/LC_MESSAGES/carbon/reading.po
+source_file = build/locale/carbon/reading.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:carbon--recommandations]
+file_filter = source/locale/<lang>/LC_MESSAGES/carbon/recommandations.po
+source_file = build/locale/carbon/recommandations.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:carbon--requirements]
+file_filter = source/locale/<lang>/LC_MESSAGES/carbon/requirements.po
+source_file = build/locale/carbon/requirements.pot
+source_lang = en
+type = PO

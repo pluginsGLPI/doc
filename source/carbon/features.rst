@@ -9,3 +9,5 @@ Features
 * Fallbacks to yearly world carbon intensity if no data is available for the region of an asset
 * Estimate consumed energy and carbon emission of assets
 * Show results as charts
+
+.. note:: RTE is free and ElectricityMaps but is very limitative in free version

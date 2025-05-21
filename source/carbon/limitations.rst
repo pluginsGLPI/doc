@@ -5,13 +5,14 @@ Carbon intensity of electricity
 -------------------------------------
 
 The plugin can collect carbon intensity from several sources. The accuracy if these datas varies :
+
 - Data from RTE which represents the carbon intensity of electricity production
 - Data from Electricity Map represents the carbon intensity oc electricity consumption (which is more accurate)
 
 Dates handling
 --------------
 
-The plugin heavily relies on dates manipulation. Dates stored in its tables are set on time zone configured in general configuration of GLPI (** Setup > General > tab Personnalization**).
+The plugin heavily relies on dates manipulation. Dates stored in its tables are set on time zone configured in general configuration of GLPI (**Setup > General > tab Personnalization**).
 
 Dates are manipulated in the context of automatic actions, this means that changing the above setting **will** impact the timezone of dates manipulates after this change. This may will have an effect charts and reports. It is advised to carefully check the configuration of time zone before starting to use the plugin and avoid any change after it began to download data from external sources.
 
@@ -20,7 +21,8 @@ Daylight saving time
 
 Handling timezones with daylight saving time (DST) is challenging because it is not possible to reliably convert dates from / to UTC.
 
-Example : France switches from GMT +01:00 to GMT+02:00 in last sunday of march and switches back to GMT+01:00 in last sunday of october. This event occurs at 02:00AM.
+**Example** :
+France switches from GMT +01:00 to GMT+02:00 in last sunday of march and switches back to GMT+01:00 in last sunday of october. This event occurs at 02:00AM.
 
 Therefore the time 2024-03-01 02:00:00 is not visible in the table of carbon intensities if its date is displayed with time zine Europe/Paris and 2 rows have the same date. However if the timezone is UTC the 2 rows show an interval of 1H.
 
