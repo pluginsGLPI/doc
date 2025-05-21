@@ -35,8 +35,9 @@ A graph displays energy consumption and carbon emissions per completed month
     :alt: Read the graph of energy consumption and carbon emissions per month
     :scale: 49%
 
-* Consumption in kWh appears in red
-* Carbon emissions in KgCO₂eq in green
+* Consumption appears in red
+* Carbon emissions appears in green
+
 
 Using the toolbar at the top right, you can:
 
