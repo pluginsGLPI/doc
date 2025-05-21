@@ -1,6 +1,13 @@
 Limitations
 ============
 
+Carbon intensity of electricity
+-------------------------------------
+
+The plugin can collect carbon intensity from several sources. The accuracy if these datas varies :
+- Data from RTE which represents the carbon intensity of electricity production
+- Data from Electricity Map represents the carbon intensity oc electricity consumption (which is more accurate)
+
 Dates handling
 --------------
 
