@@ -9,6 +9,8 @@ The plugin can collect carbon intensity from several sources. The accuracy if th
 - Data from RTE which represents the carbon intensity of electricity production
 - Data from Electricity Map represents the carbon intensity oc electricity consumption (which is more accurate)
 
+.. warning:: Electrcitymaps license keys. Some limitations may apply to free keys. With the free version, electricitymaps only provides intensity history for the last 24 hours.
+
 Dates handling
 --------------
 
