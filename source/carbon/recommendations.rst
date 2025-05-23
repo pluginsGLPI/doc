@@ -16,6 +16,17 @@ Mandatory informations are:
   * delivery date
   * order date
 
+.. tip:: It is possible to automatically add carbon intensity zones but under conditions. The asset location field must be written in English and strictly identical to the Bovizta zone field.
+
+  .. image:: images/location_carbon.png
+    :alt: see the location en carbon intensity zones
+    :scale: 49%
+
+  .. image:: images/location_asset.png
+   :alt: Report the location on the asset
+   :scale: 69%
+
 Optional informations are:
 
 * Category of computer filled in each computer type
+

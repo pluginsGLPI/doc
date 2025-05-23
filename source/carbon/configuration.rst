@@ -10,7 +10,7 @@ Check carefully that GLPI scheduler is running every minute.
 Downloading carbon intensitiy data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The plugin implements an automatic action for each data provider. Supported sources are : 
+The plugin implements an automatic action for each data provider. Supported sources are :
 
 * **RTE** for France (free, data back to 2012-01-01)
 * **Electricity Map** for most countries and regions in the world (free access limited to last 24 hours)
@@ -21,17 +21,31 @@ Enable / disable carbon intensity data download
 -----------------------------------------------
 
 * Navigate in GLPI to **Setup > Dropdowns > box GLPI Carbon > Carbon intensity sources**
-* Select a data provider
-* Open the tab **Carbon intensity zones**
-* Find the country y want to check or set
-* Toggle the flag **Download enabled** by clicking on its status
 
-.. image:: images/plugin_dropdowns.png
+.. image:: images/plugin_dropdowns_intensity.png
     :alt: select carbon in dropdown tab
     :scale: 38%
 
+* Select a data provider
+* Open the tab **Carbon intensity zones**
+* Find the country you want to check or set
+
+.. image:: images/choose_country.png
+    :alt: select the country
+    :scale: 44%
+
+
+* Toggle the flag **Download enabled** by clicking on its status
+
+.. image:: images/enable_download.png
+    :alt: enable download of the country
+    :scale: 44%
+
 .. note::
     If the list of regions or countries is empty then you need to run the automatic action of this source first.
+
+
+
 
 Inventory requirements
 ----------------------
