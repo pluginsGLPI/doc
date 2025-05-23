@@ -24,6 +24,7 @@ You'll find here user documentation for various `GLPI <http://glpi-project.org>`
    :maxdepth: 2
    :caption: 🧩 GLPI Plugins
 
+   carbon/index
    centreon/index
    credit/index
    datainjection/index
