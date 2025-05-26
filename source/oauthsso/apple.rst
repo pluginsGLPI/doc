@@ -5,7 +5,8 @@ Create a new identifier
 ~~~~~~~~~~~~~~~~~~~~
 
 * Go to this page to configure the `Apple provider <https://developer.apple.com/account/resources/certificates/list>`_
-* Create a new “Identifier” in ``identifiers`` tab
+* Create a new "Identifier" in the ``Identifiers`` tab.
+
 
 .. figure:: images/apple_identifier.png
     :alt: add Apple identifier
@@ -14,7 +15,8 @@ Create a new identifier
 * Select ``Apps IDs``
 
 .. figure:: images/apple_apps_id.png
-    :alt: Choose App IDs
+    :alt: Select ``App IDs``.
+
     :scale: 57 %
 
 
@@ -32,8 +34,8 @@ Create a new identifier
     :alt: Select sign in Apple
     :scale: 55 %
 
-* ``Team ID`` can be found here (1)
-* ``Client ID`` can be found here (2)
+* ``Team ID`` can be found here (1).
+* ``Client ID`` can be found here (2).
 
 .. figure:: images/apple_edit_conf.png
     :alt: Edit configuration Apple
@@ -48,7 +50,7 @@ Key File and Key ID
     :alt: Add apple key
     :scale: 57 %
 
-* Give a name and description (1)
+* Enter a name and description (1).
 
 .. figure:: images/apple_sign_in_key.png
     :alt: Edit your sign in key
@@ -62,22 +64,25 @@ Key File and Key ID
     :scale: 57 %
 
 
-After registering your app you will be able to get :
+After registering your app, you will be able to retrieve:
 
-* ``Key FIle`` (1)
+
+* ``Key File`` (1)
+
 * ``Key ID`` (2)
 
 .. figure:: images/apple_download_key.png
     :alt: download your key
     :scale: 57 %
 
-You now have all the information you need to create your provider on the OauthSSO plugin.
+You now have all the necessary information to configure your provider in the OauthSSO plugin.
 
 
-.. warning:: **Please note**: the processing of the Apple identifier and key may take some time on Apple’s side, potentially up to 48 hours.
+.. warning:: **Please note**: Processing of the Apple identifier and key may take some time on Apple's side, potentially up to 48 hours.
 
 
-Warning about fetching users informations
+Warning about fetching user information
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
