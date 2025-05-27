@@ -87,8 +87,8 @@ Warning about fetching user information
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-.. note:: User information retrieved from the identity provider is currently limited in terms of data richness and completeness.
-    For now, only the ``email``, ``subject identifier`` (sub), ``firstname``, and ``lastname`` can be retrieved from the identity provider.
+.. note:: For now, only the ``email``, ``subject identifier`` (sub), ``firstname``, and ``lastname`` can be retrieved from the identity provider.
+
 
 
 .. warning:: Concerning ``firstname`` / ``lastname`` fetching.
