@@ -78,7 +78,8 @@ After registering your app, you will be able to retrieve:
 You now have all the necessary information to configure your provider in the OauthSSO plugin.
 
 
-.. warning:: **Please note**: Processing of the Apple identifier and key may take some time on Apple's side, potentially up to 48 hours.
+.. warning:: **Please note**: Processing of the Apple identifier and key may take some time on Apple's side; potentially, up to 48 hours.
+
 
 
 Warning about fetching user information
