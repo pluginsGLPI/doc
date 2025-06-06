@@ -5,6 +5,7 @@ OAuth SSO
    :maxdepth: 2
 
    requirements
+   apple
    entra
    google
    okta

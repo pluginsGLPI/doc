@@ -333,6 +333,12 @@ source_file = build/locale/oauthsso/force_sso.pot
 source_lang = en
 type = PO
 
+[o:teclib:p:glpi-plugins-documentation:r:oauthsso--apple]
+file_filter = source/locale/<lang>/LC_MESSAGES/oauthsso/apple.po
+source_file = build/locale/oauthsso/apple.pot
+source_lang = en
+type = PO
+
 [o:teclib:p:glpi-plugins-documentation:r:oauthsso--google]
 file_filter = source/locale/<lang>/LC_MESSAGES/oauthsso/google.po
 source_file = build/locale/oauthsso/google.pot
