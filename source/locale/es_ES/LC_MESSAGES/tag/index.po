@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 13:57+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2020-01-24 06:36+0000\n"
 "Language-Team: Spanish (Spain) (https://app.transifex.com/teclib/teams/28042/es_ES/)\n"
 "MIME-Version: 1.0\n"
@@ -80,7 +80,7 @@ msgstr ""
 msgid "Go to the marketplace. Download and install the plugin “**Tag**”."
 msgstr ""
 
-#: ../../source/tag/index.rst-1
+#: ../../source/tag/index.rst:29
 msgid "install the plugin"
 msgstr ""
 
@@ -100,7 +100,7 @@ msgstr ""
 msgid "Then **Tags**"
 msgstr ""
 
-#: ../../source/tag/index.rst-1
+#: ../../source/tag/index.rst:40
 msgid "setup tags"
 msgstr ""
 
@@ -122,7 +122,7 @@ msgid ""
 " in any element by default."
 msgstr ""
 
-#: ../../source/tag/index.rst-1
+#: ../../source/tag/index.rst:50
 msgid "add new tag"
 msgstr ""
 
@@ -143,7 +143,7 @@ msgstr ""
 msgid "Bottom :"
 msgstr ""
 
-#: ../../source/tag/index.rst-1
+#: ../../source/tag/index.rst:64
 msgid "tag on bottom"
 msgstr ""
 
@@ -151,7 +151,7 @@ msgstr ""
 msgid "Top:"
 msgstr ""
 
-#: ../../source/tag/index.rst-1
+#: ../../source/tag/index.rst:70
 msgid "tag on top"
 msgstr ""
 
@@ -177,11 +177,11 @@ msgid ""
 "Business rules for tickets**"
 msgstr ""
 
-#: ../../source/tag/index.rst-1
+#: ../../source/tag/index.rst:83
 msgid "add new rule"
 msgstr ""
 
-#: ../../source/tag/index.rst-1
+#: ../../source/tag/index.rst:87
 msgid "criterion and action"
 msgstr ""
 
@@ -189,7 +189,7 @@ msgstr ""
 msgid "After creating a ticket :"
 msgstr ""
 
-#: ../../source/tag/index.rst-1
+#: ../../source/tag/index.rst:93
 msgid "result"
 msgstr ""
 
@@ -213,6 +213,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr ""
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr ""

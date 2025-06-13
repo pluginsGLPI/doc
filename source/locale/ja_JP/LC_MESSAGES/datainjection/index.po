@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 13:57+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2020-01-30 07:19+0000\n"
 "Language-Team: Japanese (Japan) (https://app.transifex.com/teclib/teams/28042/ja_JP/)\n"
 "MIME-Version: 1.0\n"
@@ -81,7 +81,7 @@ msgid ""
 "Go to the marketplace. Download and install the plugin **Data Injection**"
 msgstr ""
 
-#: ../../source/datainjection/index.rst-1
+#: ../../source/datainjection/index.rst:28
 msgid "install the plugin"
 msgstr ""
 
@@ -181,7 +181,7 @@ msgstr ""
 msgid "Click on **Add**"
 msgstr ""
 
-#: ../../source/datainjection/index.rst-1
+#: ../../source/datainjection/index.rst:74
 msgid "add template"
 msgstr ""
 
@@ -343,7 +343,7 @@ msgid ""
 "it must be entered in your **csv** file used for importing."
 msgstr ""
 
-#: ../../source/datainjection/index.rst-1
+#: ../../source/datainjection/index.rst:126
 msgid "match the fields"
 msgstr ""
 
@@ -406,7 +406,7 @@ msgid ""
 "options."
 msgstr ""
 
-#: ../../source/datainjection/index.rst-1
+#: ../../source/datainjection/index.rst:158
 msgid "template validation"
 msgstr ""
 
@@ -454,7 +454,7 @@ msgstr ""
 msgid "Click on **Proceed with import**"
 msgstr ""
 
-#: ../../source/datainjection/index.rst-1
+#: ../../source/datainjection/index.rst:180
 msgid "import file"
 msgstr ""
 
@@ -477,7 +477,7 @@ msgid ""
 "report on the import and, in particular, locate any errors"
 msgstr ""
 
-#: ../../source/datainjection/index.rst-1
+#: ../../source/datainjection/index.rst:194
 msgid "import result"
 msgstr ""
 
@@ -491,7 +491,7 @@ msgid ""
 " the selected file. Once the progress bar is full, click on **Finish**"
 msgstr ""
 
-#: ../../source/datainjection/index.rst-1
+#: ../../source/datainjection/index.rst:204
 msgid "import completed"
 msgstr ""
 
@@ -509,6 +509,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr ""
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr ""

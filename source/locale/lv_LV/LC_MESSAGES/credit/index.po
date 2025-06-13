@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 13:57+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2020-01-24 06:36+0000\n"
 "Language-Team: Latvian (Latvia) (https://app.transifex.com/teclib/teams/28042/lv_LV/)\n"
 "MIME-Version: 1.0\n"
@@ -72,7 +72,7 @@ msgid ""
 "<https://glpi-network.cloud>`_."
 msgstr ""
 
-#: ../../source/credit/index.rst-1 ../../source/credit/index.rst:24
+#: ../../source/credit/index.rst:24 ../../source/credit/index.rst:28
 msgid "Install the plugin"
 msgstr ""
 
@@ -96,7 +96,7 @@ msgstr ""
 msgid "click on **Credits** then **Credit types**."
 msgstr ""
 
-#: ../../source/credit/index.rst-1
+#: ../../source/credit/index.rst:41
 msgid "search credit"
 msgstr ""
 
@@ -108,7 +108,7 @@ msgstr ""
 msgid "Enter a name representing the type of credit granted"
 msgstr ""
 
-#: ../../source/credit/index.rst-1
+#: ../../source/credit/index.rst:48
 msgid "add credit"
 msgstr ""
 
@@ -182,7 +182,7 @@ msgstr ""
 msgid "Click on **add**"
 msgstr ""
 
-#: ../../source/credit/index.rst-1
+#: ../../source/credit/index.rst:74
 msgid "add voucher"
 msgstr ""
 
@@ -198,7 +198,7 @@ msgid ""
 "validity, overconsumption, etc.) for each credit:"
 msgstr ""
 
-#: ../../source/credit/index.rst-1
+#: ../../source/credit/index.rst:82
 msgid "list voucher"
 msgstr ""
 
@@ -220,7 +220,7 @@ msgstr ""
 msgid "Select the type of credit by action"
 msgstr ""
 
-#: ../../source/credit/index.rst:0
+#: ../../source/credit/index.rst:94
 msgid "default credit"
 msgstr ""
 
@@ -254,7 +254,7 @@ msgid ""
 "default:"
 msgstr ""
 
-#: ../../source/credit/index.rst-1
+#: ../../source/credit/index.rst:114
 msgid "add credit on ticket"
 msgstr ""
 
@@ -262,7 +262,7 @@ msgstr ""
 msgid "The same for a **task**:"
 msgstr ""
 
-#: ../../source/credit/index.rst-1
+#: ../../source/credit/index.rst:120
 msgid "add credit on task"
 msgstr ""
 
@@ -270,7 +270,7 @@ msgstr ""
 msgid "And for a **solution** :"
 msgstr ""
 
-#: ../../source/credit/index.rst-1
+#: ../../source/credit/index.rst:126
 msgid "add credit on solution"
 msgstr ""
 
@@ -280,7 +280,7 @@ msgid ""
 "spent and remaining"
 msgstr ""
 
-#: ../../source/credit/index.rst-1
+#: ../../source/credit/index.rst:132
 msgid "list of credits"
 msgstr ""
 
@@ -316,11 +316,11 @@ msgstr ""
 msgid "Click on **Send**"
 msgstr ""
 
-#: ../../source/credit/index.rst:154 ../../source/credit/index.rst:169
+#: ../../source/credit/index.rst:152 ../../source/credit/index.rst:167
 msgid "See how to proceed"
 msgstr ""
 
-#: ../../source/credit/index.rst:0
+#: ../../source/credit/index.rst:153
 msgid "modify credit on ticket"
 msgstr ""
 
@@ -340,7 +340,7 @@ msgstr ""
 msgid "Click on **Delete permanently**"
 msgstr ""
 
-#: ../../source/credit/index.rst:0
+#: ../../source/credit/index.rst:168
 msgid "delete credit on ticket"
 msgstr ""
 
@@ -378,7 +378,7 @@ msgstr ""
 msgid "Click on **Save**"
 msgstr ""
 
-#: ../../source/credit/index.rst-1
+#: ../../source/credit/index.rst:187
 msgid "automatic action"
 msgstr ""
 
@@ -402,6 +402,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr ""
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr ""

@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Kaya Zeren <kayazeren@gmail.com>, 2024
+# Kaya Zeren <kayazeren@gmail.com>, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 12:58+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-02-14 18:27+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2025\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -59,6 +59,9 @@ msgid ""
 "subscription (or higher) is required. This plugin is also available for all "
 "GLPI Network `Cloud instances <https://glpi-network.cloud>`_."
 msgstr ""
+"Bir `GLPI Network STANDARD <https://services.glpi-network.com/#offers>`_ "
+"aboneliği (ya da üzeri) gereklidir. Bu eklenti tüm GLPI Network `Cloud "
+"kopyaları <https://glpi-network.cloud>`_ ile de edinilebilir."
 
 #: ../../source/approvalbymail/index.rst:16
 msgid "Install the plugin"
@@ -69,7 +72,7 @@ msgid ""
 "Go to the marketplace. Download and install the plugin **ApprovalByMail**."
 msgstr "Mağazaya gidin. **E-posta ile onay** eklentisini indirip kurun."
 
-#: ../../source/approvalbymail/index.rst-1
+#: ../../source/approvalbymail/index.rst:20
 msgid "install the plugin"
 msgstr "Eklentiyi kurmak"
 
@@ -96,7 +99,7 @@ msgstr ""
 "Yeni bir destek kaydında onay isteğinde bulunulacak kişinin veya grubun "
 "adını yazın."
 
-#: ../../source/approvalbymail/index.rst-1
+#: ../../source/approvalbymail/index.rst:30
 msgid "add approbation"
 msgstr "Onay ekle"
 
@@ -121,7 +124,7 @@ msgstr "Onaylama bağlantısı"
 msgid "The refusal link"
 msgstr "Reddetme bağlantısı"
 
-#: ../../source/approvalbymail/index.rst-1
+#: ../../source/approvalbymail/index.rst:40
 msgid "see the email"
 msgstr "E-postayı görüntüle"
 
@@ -132,7 +135,7 @@ msgid ""
 msgstr ""
 "Form onaylandığında, onay bildirimiyle GLPI üzerine yönlendirilirsiniz:"
 
-#: ../../source/approvalbymail/index.rst-1
+#: ../../source/approvalbymail/index.rst:47
 msgid "validation ok"
 msgstr "Onaylandı"
 
@@ -141,7 +144,7 @@ msgid ""
 "If the form is refused, a comment will be requested to validate the refusal:"
 msgstr "Form reddedilirse, reddi doğrulamak için bir yorum yazılması istenir:"
 
-#: ../../source/approvalbymail/index.rst-1
+#: ../../source/approvalbymail/index.rst:54
 msgid "add text refused"
 msgstr "Reddetme metnini ekleyin"
 
@@ -151,7 +154,7 @@ msgid ""
 " be displayed:"
 msgstr "Onay 2 kez yanıtlanamaz. Bir hata iletisi görüntülenir:"
 
-#: ../../source/approvalbymail/index.rst-1
+#: ../../source/approvalbymail/index.rst:61
 msgid "refused"
 msgstr "Reddedildi"
 
@@ -172,6 +175,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr "Creative Commons Lisansı"

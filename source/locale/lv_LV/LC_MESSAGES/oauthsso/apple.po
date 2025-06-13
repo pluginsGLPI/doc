@@ -1,0 +1,168 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2025, Teclib'
+# This file is distributed under the same license as the GLPI plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI plugins\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
+"PO-Revision-Date: 2025-06-13 12:51+0000\n"
+"Language-Team: Latvian (Latvia) (https://app.transifex.com/teclib/teams/28042/lv_LV/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: lv_LV\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+#: ../../source/oauthsso/apple.rst:2
+msgid "Apple"
+msgstr ""
+
+#: ../../source/oauthsso/apple.rst:5
+msgid "Create a new identifier"
+msgstr ""
+
+#: ../../source/oauthsso/apple.rst:7
+msgid ""
+"Go to this page to configure the `Apple provider "
+"<https://developer.apple.com/account/resources/certificates/list>`_"
+msgstr ""
+
+#: ../../source/oauthsso/apple.rst:8
+msgid "Create a new \"Identifier\" in the ``Identifiers`` tab."
+msgstr ""
+
+#: ../../source/oauthsso/apple.rst:11
+msgid "add Apple identifier"
+msgstr ""
+
+#: ../../source/oauthsso/apple.rst:15
+msgid "Select ``Apps IDs``"
+msgstr ""
+
+#: ../../source/oauthsso/apple.rst:17
+msgid "Select ``App IDs``."
+msgstr ""
+
+#: ../../source/oauthsso/apple.rst:22 ../../source/oauthsso/apple.rst:29
+msgid "Then continue"
+msgstr ""
+
+#: ../../source/oauthsso/apple.rst:23
+msgid "Select ``type`` => ``App``"
+msgstr ""
+
+#: ../../source/oauthsso/apple.rst:25
+msgid "Select the app's type"
+msgstr ""
+
+#: ../../source/oauthsso/apple.rst:30
+msgid "Select ``Sign in with Apple`` capability"
+msgstr ""
+
+#: ../../source/oauthsso/apple.rst:32
+msgid "Select sign in Apple"
+msgstr ""
+
+#: ../../source/oauthsso/apple.rst:36
+msgid "``Team ID`` can be found here (1)."
+msgstr ""
+
+#: ../../source/oauthsso/apple.rst:37
+msgid "``Client ID`` can be found here (2)."
+msgstr ""
+
+#: ../../source/oauthsso/apple.rst:39
+msgid "Edit configuration Apple"
+msgstr ""
+
+#: ../../source/oauthsso/apple.rst:44
+msgid "Key File and Key ID"
+msgstr ""
+
+#: ../../source/oauthsso/apple.rst:46
+msgid ""
+"Go here to create `Key file "
+"<https://developer.apple.com/account/resources/authkeys/list>`_"
+msgstr ""
+
+#: ../../source/oauthsso/apple.rst:48
+msgid "Add apple key"
+msgstr ""
+
+#: ../../source/oauthsso/apple.rst:52
+msgid "Enter a name and description (1)."
+msgstr ""
+
+#: ../../source/oauthsso/apple.rst:54
+msgid "Edit your sign in key"
+msgstr ""
+
+#: ../../source/oauthsso/apple.rst:58
+msgid "Select ``Sign in with Apple``"
+msgstr ""
+
+#: ../../source/oauthsso/apple.rst:59
+msgid "Click on ``Configure`` (2) to select ``Apps ID`` previously created"
+msgstr ""
+
+#: ../../source/oauthsso/apple.rst:61
+msgid "Setup your key"
+msgstr ""
+
+#: ../../source/oauthsso/apple.rst:66
+msgid "After registering your app, you will be able to retrieve:"
+msgstr ""
+
+#: ../../source/oauthsso/apple.rst:69
+msgid "``Key File`` (1)"
+msgstr ""
+
+#: ../../source/oauthsso/apple.rst:71
+msgid "``Key ID`` (2)"
+msgstr ""
+
+#: ../../source/oauthsso/apple.rst:73
+msgid "download your key"
+msgstr ""
+
+#: ../../source/oauthsso/apple.rst:77
+msgid ""
+"You now have all the necessary information to configure your provider in the"
+" OauthSSO plugin."
+msgstr ""
+
+#: ../../source/oauthsso/apple.rst:80
+msgid ""
+"**Please note**: Processing of the Apple identifier and key may take some "
+"time on Apple's side; potentially, up to 48 hours."
+msgstr ""
+
+#: ../../source/oauthsso/apple.rst:84
+msgid "Warning about fetching user information"
+msgstr ""
+
+#: ../../source/oauthsso/apple.rst:89
+msgid ""
+"For now, only the ``email``, ``subject identifier`` (sub), ``firstname``, "
+"and ``lastname`` can be retrieved from the identity provider."
+msgstr ""
+
+#: ../../source/oauthsso/apple.rst:93
+msgid ""
+"Concerning ``firstname`` / ``lastname`` fetching. Please note that this "
+"information is only available **during the user's first login**, provided "
+"that the user **consents to sharing their information**. For subsequent "
+"logins, **only the user identifier** will be retrieved."
+msgstr ""
+
+#: ../../<rst_epilog>:2
+msgid "|ccbyncnd|"
+msgstr ""
+
+#: ../../<rst_epilog>:4
+msgid "Creative Commons License"
+msgstr ""

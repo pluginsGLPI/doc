@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 13:57+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-01-26 14:57+0000\n"
 "Language-Team: Catalan (Spain) (https://app.transifex.com/teclib/teams/28042/ca_ES/)\n"
 "MIME-Version: 1.0\n"
@@ -109,7 +109,7 @@ msgid ""
 "gmail-oauth2"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst-1 ../../source/oauthimap/index.rst:40
+#: ../../source/oauthimap/index.rst:40 ../../source/oauthimap/index.rst:44
 msgid "Install the plugin"
 msgstr ""
 
@@ -130,7 +130,7 @@ msgstr ""
 msgid "then select **App registrations**"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst-1
+#: ../../source/oauthimap/index.rst:52
 msgid "add app Entra"
 msgstr ""
 
@@ -165,7 +165,7 @@ msgstr ""
 msgid "Then click on **Register**."
 msgstr ""
 
-#: ../../source/oauthimap/index.rst-1
+#: ../../source/oauthimap/index.rst:69
 msgid "register app"
 msgstr ""
 
@@ -185,7 +185,7 @@ msgstr ""
 msgid "Then **New client secret**"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst-1
+#: ../../source/oauthimap/index.rst:80
 msgid "add secret"
 msgstr ""
 
@@ -199,7 +199,7 @@ msgid ""
 "have left this page, it will no longer be recoverable"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst-1
+#: ../../source/oauthimap/index.rst:87
 msgid "select value secret"
 msgstr ""
 
@@ -209,7 +209,7 @@ msgid ""
 "secret seen above"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst-1
+#: ../../source/oauthimap/index.rst:93
 msgid "overview"
 msgstr ""
 
@@ -249,7 +249,7 @@ msgstr ""
 msgid "profile"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst-1
+#: ../../source/oauthimap/index.rst:111
 msgid "add api permissions"
 msgstr ""
 
@@ -263,7 +263,7 @@ msgid ""
 "indicate the information collected previously :"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst-1
+#: ../../source/oauthimap/index.rst:120
 msgid "setup GLPI"
 msgstr ""
 
@@ -276,7 +276,7 @@ msgid ""
 "Now in the **Oauth authorization** tab, click **Create an authorization**"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst-1
+#: ../../source/oauthimap/index.rst:127
 msgid "Oauth Auhorization"
 msgstr ""
 
@@ -298,11 +298,11 @@ msgid ""
 "plugin."
 msgstr ""
 
-#: ../../source/oauthimap/index.rst-1
+#: ../../source/oauthimap/index.rst:135
 msgid "app Auhorization"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst-1
+#: ../../source/oauthimap/index.rst:139
 msgid "check account"
 msgstr ""
 
@@ -320,6 +320,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr ""
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr ""

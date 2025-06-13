@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 12:58+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-01-26 14:57+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -66,7 +66,7 @@ msgstr "**Uygulamalar** üzerine tıklayın"
 msgid "And **Create app integration**"
 msgstr "**Uygulama bütünleştirmesi oluştur** üzerine tıklayın"
 
-#: ../../source/scim/okta.rst-1
+#: ../../source/scim/okta.rst:19
 msgid "Okta create app"
 msgstr "OKTA uygulaması oluşturun"
 
@@ -74,7 +74,7 @@ msgstr "OKTA uygulaması oluşturun"
 msgid "Select **SWA - Secure Web Authentication**"
 msgstr "**SWA - Secure Web Authentication** üzerine tıklayın"
 
-#: ../../source/scim/okta.rst-1
+#: ../../source/scim/okta.rst:25
 msgid "Select SWA Sign in"
 msgstr "SWA oturum açmayı seçin"
 
@@ -94,7 +94,7 @@ msgstr ""
 msgid "Click **Finish**"
 msgstr "**Finish** üzerine tıklayın"
 
-#: ../../source/scim/okta.rst-1
+#: ../../source/scim/okta.rst:33
 msgid "add integration"
 msgstr "Bütünleştirme ekleyin"
 
@@ -122,7 +122,7 @@ msgstr "Hizmeti etkinleştirmek için SCIM olarak seçin"
 msgid "Click **Save**"
 msgstr "**Save** üzerine tıklayın"
 
-#: ../../source/scim/okta.rst-1
+#: ../../source/scim/okta.rst:46
 msgid "setup general"
 msgstr "Genel kurulum"
 
@@ -177,7 +177,7 @@ msgstr "**JWT kodu** değerini yapıştırın"
 msgid "You need to **paste the JWT token** not the secret"
 msgstr "**JWT kodunu yapıştırmanız** gerekiyor, parolayı değil"
 
-#: ../../source/scim/okta.rst-1
+#: ../../source/scim/okta.rst:66
 msgid "setup provisionning"
 msgstr "Sağlamayı kurun"
 
@@ -185,7 +185,7 @@ msgstr "Sağlamayı kurun"
 msgid "Click **Test Connector Configuration**"
 msgstr "**Bağlantı yapılandırmasını sına** üzerine tıklayın"
 
-#: ../../source/scim/okta.rst-1
+#: ../../source/scim/okta.rst:72
 msgid "Test connection"
 msgstr "Bağlantıyı sınayın"
 
@@ -213,7 +213,7 @@ msgstr ""
 "plugins.readthedocs.io/en/latest/oauthsso/okta.html>`_ kullanmanızı "
 "öneririz."
 
-#: ../../source/scim/okta.rst-1
+#: ../../source/scim/okta.rst:83
 msgid "Enable update data"
 msgstr "Güncelleme verilerini etkinleştirin"
 
@@ -249,7 +249,7 @@ msgstr "SCIM uygulamanızda atamayı tıklayın"
 msgid "Click **Save and Go Back**"
 msgstr "**Kaydedip geri dön** üzerine tıklayın."
 
-#: ../../source/scim/okta.rst-1
+#: ../../source/scim/okta.rst:99
 msgid "assign everyone"
 msgstr "Herkesi atayın"
 
@@ -285,6 +285,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr "Creative Commons Lisansı"

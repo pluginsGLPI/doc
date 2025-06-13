@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 12:58+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-01-26 14:56+0000\n"
 "Last-Translator: 조성현 (jaymz9634) <jaymz9634@gmail.com>, 2024\n"
 "Language-Team: Korean (Korea) (https://app.transifex.com/teclib/teams/28042/ko_KR/)\n"
@@ -60,8 +60,8 @@ msgid ""
 "GLPI Network `Cloud instances <https://glpi-network.cloud>`_."
 msgstr ""
 
-#: ../../source/advanceddashboard/index.rst-1
 #: ../../source/advanceddashboard/index.rst:17
+#: ../../source/advanceddashboard/index.rst:21
 msgid "Install the plugin"
 msgstr "플러그인 설치"
 
@@ -121,7 +121,7 @@ msgid ""
 "query."
 msgstr "질의어를 저장하려면 플로피 아이콘을 클릭하고 실행 아이콘을 클릭하여 질의어를 실행합니다."
 
-#: ../../source/advanceddashboard/index.rst-1
+#: ../../source/advanceddashboard/index.rst:89
 msgid "SQL editor"
 msgstr "SQL 편집기"
 
@@ -129,7 +129,7 @@ msgstr "SQL 편집기"
 msgid "An insert at the bottom will display the result of the query:"
 msgstr "하단에 삽입하면 쿼리 결과가 표시됩니다:"
 
-#: ../../source/advanceddashboard/index.rst-1
+#: ../../source/advanceddashboard/index.rst:97
 msgid "preview result"
 msgstr "결과 미리보기"
 
@@ -160,7 +160,7 @@ msgstr "표시될 데이터의 양을 제한할 수 있습니다."
 msgid "Then click on **Save fields and preview**."
 msgstr "그리고 **항목 저장 및 미리보기**를 클릭하세요."
 
-#: ../../source/advanceddashboard/index.rst-1
+#: ../../source/advanceddashboard/index.rst:108
 msgid "card setup"
 msgstr "카드 설정"
 
@@ -190,7 +190,7 @@ msgstr "당신이 방금 생성한 질의어를 선택하세요"
 msgid "Choose a colour for your tile"
 msgstr "타일 색상을 선택하세요"
 
-#: ../../source/advanceddashboard/index.rst-1
+#: ../../source/advanceddashboard/index.rst:122
 msgid "more card setup"
 msgstr "추가 카드 설정"
 
@@ -203,7 +203,7 @@ msgid ""
 "Some dashboards may ask you to use colours and display values and labels."
 msgstr "일부 대시보드에서는 색상 사용 및 값과 라벨 표시에 대해서 물어볼 수도 있습니다."
 
-#: ../../source/advanceddashboard/index.rst-1
+#: ../../source/advanceddashboard/index.rst:131
 msgid "label setup"
 msgstr "라벨 설정"
 
@@ -211,7 +211,7 @@ msgstr "라벨 설정"
 msgid "Your tile is now ready"
 msgstr "이제 타일이 준비되었습니다"
 
-#: ../../source/advanceddashboard/index.rst-1
+#: ../../source/advanceddashboard/index.rst:139
 msgid "the card is ready"
 msgstr "카드가 준비되었습니다"
 
@@ -231,6 +231,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr "저작물사용 허가표시"

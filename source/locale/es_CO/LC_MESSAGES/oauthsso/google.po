@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 13:57+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-01-31 13:12+0000\n"
 "Language-Team: Spanish (Colombia) (https://app.transifex.com/teclib/teams/28042/es_CO/)\n"
 "MIME-Version: 1.0\n"
@@ -43,7 +43,7 @@ msgstr ""
 msgid "Click on **Create**"
 msgstr ""
 
-#: ../../source/oauthsso/google.rst:0
+#: ../../source/oauthsso/google.rst:12
 msgid "add project"
 msgstr ""
 
@@ -55,7 +55,7 @@ msgstr ""
 msgid "Select your project"
 msgstr ""
 
-#: ../../source/oauthsso/google.rst:0
+#: ../../source/oauthsso/google.rst:20
 msgid "select the project"
 msgstr ""
 
@@ -71,7 +71,7 @@ msgstr ""
 msgid "Then **OAuth consent screen**"
 msgstr ""
 
-#: ../../source/oauthsso/google.rst:0
+#: ../../source/oauthsso/google.rst:31
 msgid "add API"
 msgstr ""
 
@@ -85,7 +85,7 @@ msgstr ""
 msgid "Then click on **Create**."
 msgstr ""
 
-#: ../../source/oauthsso/google.rst:0
+#: ../../source/oauthsso/google.rst:39
 msgid "user type"
 msgstr ""
 
@@ -112,7 +112,7 @@ msgstr ""
 msgid "Add **auth/userinfo.email** **auth/userinfo.profile** and **openid**"
 msgstr ""
 
-#: ../../source/oauthsso/google.rst:0
+#: ../../source/oauthsso/google.rst:51
 msgid "update scopes"
 msgstr ""
 
@@ -140,7 +140,7 @@ msgstr ""
 msgid "Then **Oauth client ID**."
 msgstr ""
 
-#: ../../source/oauthsso/google.rst:0
+#: ../../source/oauthsso/google.rst:66
 msgid "add credentials"
 msgstr ""
 
@@ -164,7 +164,7 @@ msgstr ""
 msgid "Where can I find my callback URL?"
 msgstr ""
 
-#: ../../source/oauthsso/google.rst:0
+#: ../../source/oauthsso/google.rst:79
 msgid "find url callback"
 msgstr ""
 
@@ -174,7 +174,7 @@ msgid ""
 "will be requested in GLPI."
 msgstr ""
 
-#: ../../source/oauthsso/google.rst:0
+#: ../../source/oauthsso/google.rst:87
 msgid "Overview"
 msgstr ""
 
@@ -210,7 +210,7 @@ msgstr ""
 msgid "Enter the **field user ID**  [1]_"
 msgstr ""
 
-#: ../../source/oauthsso/google.rst:0
+#: ../../source/oauthsso/google.rst:102
 msgid "setup GLPI"
 msgstr ""
 
@@ -218,7 +218,7 @@ msgstr ""
 msgid "From the home page, the new Oauth SSO login option will be visible:"
 msgstr ""
 
-#: ../../source/oauthsso/google.rst-1
+#: ../../source/oauthsso/google.rst:111
 msgid "home page"
 msgstr ""
 
@@ -238,6 +238,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr ""
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr ""

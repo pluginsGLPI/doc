@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Luis Angel Uriarte <luisuriarte@gmail.com>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 13:57+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2025-04-04 10:58+0000\n"
+"Last-Translator: Luis Angel Uriarte <luisuriarte@gmail.com>, 2025\n"
 "Language-Team: Spanish (Argentina) (https://app.transifex.com/teclib/teams/28042/es_AR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,35 +23,35 @@ msgstr ""
 
 #: ../../source/agent_config/index.rst:2
 msgid "Agent Config"
-msgstr ""
+msgstr "Configuración del Agente"
 
 #: ../../source/agent_config/index.rst:5
 msgid "Requirements (on-premise)"
-msgstr ""
+msgstr "Requisitos (locales)"
 
 #: ../../source/agent_config/index.rst:8
 msgid "GLPI Version"
-msgstr ""
+msgstr "Versión de GLPI"
 
 #: ../../source/agent_config/index.rst:8
 msgid "Minimum PHP"
-msgstr ""
+msgstr "Mínimo PHP"
 
 #: ../../source/agent_config/index.rst:8
 msgid "Recommended"
-msgstr ""
+msgstr "Recomendado"
 
 #: ../../source/agent_config/index.rst:10
 msgid "10.0.x"
-msgstr ""
+msgstr "10.0.x"
 
 #: ../../source/agent_config/index.rst:10
 msgid "8.1"
-msgstr ""
+msgstr "8.1"
 
 #: ../../source/agent_config/index.rst:10
 msgid "8.2"
-msgstr ""
+msgstr "8.2"
 
 #: ../../source/include/basic_subscription.rst:2
 msgid ""
@@ -55,42 +59,53 @@ msgid ""
 "subscription (or higher) is required. This plugin is also available for all "
 "GLPI Network `Cloud instances <https://glpi-network.cloud>`_."
 msgstr ""
+"Se requiere una suscripción a GLPI Network BASIC <https://services.glpi-"
+"network.com/#offers>`_ (o superior). Este complemento también está "
+"disponible para todas las instancias de GLPI Network Cloud <https://glpi-"
+"network.cloud>`_."
 
-#: ../../source/agent_config/index.rst-1
 #: ../../source/agent_config/index.rst:16
+#: ../../source/agent_config/index.rst:20
 msgid "Install the plugin"
-msgstr ""
+msgstr "Instalar el complemento"
 
 #: ../../source/agent_config/index.rst:18
 msgid ""
 "Go to the marketplace. Download and install the “`Agent config`”   plugin."
-msgstr ""
+msgstr "Vaya a la tienda. Descargue e instale el complemento «Agent config»."
 
 #: ../../source/agent_config/index.rst:26
 msgid "Setting up the plugin"
-msgstr ""
+msgstr "Configuración del complemento"
 
 #: ../../source/agent_config/index.rst:28
 msgid ""
 "In **Setup** > **General** > **GLPI Agent Contiguration**, select the "
 "options you want :"
 msgstr ""
+"En **Configuración** > **General** > **Configuración del agente GLPI**, "
+"seleccione las opciones que desee:"
 
 #: ../../source/agent_config/index.rst:30
 msgid "By default, the URL of the inventory is indicated"
-msgstr ""
+msgstr "Por defecto se indica la URL del inventario"
 
 #: ../../source/agent_config/index.rst:31
 msgid ""
 "To secure your instance and limit feedback from your mobile devices, you can"
 " enter a **login** and **password** for each mobile device to be inventoried"
 msgstr ""
+"Para proteger su instancia y limitar los comentarios desde sus dispositivos "
+"móviles, puede ingresar un **nombre de usuario** y una **contraseña** para "
+"cada dispositivo móvil que se inventariará."
 
 #: ../../source/agent_config/index.rst:32
 msgid ""
 "You can use a **tag entity** (choose **Yes** and indicate your **tag** if "
 "needed)"
 msgstr ""
+"Puede utilizar una **entidad de etiqueta** (elija **Sí** e indique su "
+"**etiqueta** si es necesario)"
 
 #: ../../source/agent_config/index.rst:33
 msgid ""
@@ -98,36 +113,41 @@ msgid ""
 "indicates the type of device by default, but can be modified individually "
 "from each device)"
 msgstr ""
+"Elige el **tipo de activo** por defecto (Computadores o teléfonos, este dato"
+" indica el tipo de dispositivo por defecto, pero se puede modificar "
+"individualmente desde cada dispositivo)"
 
 #: ../../source/agent_config/index.rst:35
 msgid "Display **QR Code** (on central page)"
-msgstr ""
+msgstr "Mostrar **Código QR** (en la página central)"
 
 #: ../../source/agent_config/index.rst:36
 msgid "Display **Deeplink** (on central page)"
-msgstr ""
+msgstr "Mostrar **Deeplink** (en la página central)"
 
 #: ../../source/agent_config/index.rst:37
 msgid "Manage **automatic inventory and frequency** for android"
-msgstr ""
+msgstr "Administrar **inventario automático y frecuencia** para Android"
 
-#: ../../source/agent_config/index.rst-1
+#: ../../source/agent_config/index.rst:39
 msgid "setup the plugin"
-msgstr ""
+msgstr "configurar el complemento"
 
 #: ../../source/agent_config/index.rst:45
 msgid "Central page"
-msgstr ""
+msgstr "Página Central"
 
 #: ../../source/agent_config/index.rst:47
 msgid ""
 "On **Home** > **GLPI Agent Config** use Deep link or QR Code to preconfigure"
 " the agent :"
 msgstr ""
+"En **Inicio** > **Configuración del agente GLPI** use un enlace profundo o "
+"un código QR para preconfigurar el agente:"
 
-#: ../../source/agent_config/index.rst-1
+#: ../../source/agent_config/index.rst:49
 msgid "Deeplink of QRCode"
-msgstr ""
+msgstr "Enlace profundo o código QR"
 
 #: ../../source/agent_config/index.rst:54
 msgid ""
@@ -136,124 +156,140 @@ msgid ""
 "**QR Code** to configure the agent with the serial number previously "
 "generated and inventoried in GLPI."
 msgstr ""
+"Cuando se realiza un restablecimiento de fábrica en el teléfono, el número "
+"de serie generado automáticamente por el agente cambia Puedes utilizar "
+"**Deep Link** / **QR Code** para configurar el agente con el número de serie"
+" previamente generado e inventariado en GLPI."
 
 #: ../../source/agent_config/index.rst:59
 msgid "Setup mobile device"
-msgstr ""
+msgstr "Configurar el dispositivo móvil"
 
 #: ../../source/agent_config/index.rst:61
 msgid "Download the **Agent GLPI** on the Google Store"
-msgstr ""
+msgstr "Descargue el **Agente GLPI** en Google Store"
 
-#: ../../source/agent_config/index.rst-1
+#: ../../source/agent_config/index.rst:63
 msgid "Install agent on the Google Store"
-msgstr ""
+msgstr "Instalar agente en Google Store"
 
 #: ../../source/agent_config/index.rst:68
 msgid "With Deep Link"
-msgstr ""
+msgstr "Con Enlace Profundo"
 
 #: ../../source/agent_config/index.rst:70
 msgid "Go to GLPI with your device web browser"
-msgstr ""
+msgstr "Vaya a GLPI con el navegador web de su dispositivo"
 
 #: ../../source/agent_config/index.rst:71
 msgid "Click on the DeepLink"
-msgstr ""
+msgstr "Clic en el Enlace Profundo"
 
-#: ../../source/agent_config/index.rst-1
+#: ../../source/agent_config/index.rst:73
 msgid "Click on Deeplink"
-msgstr ""
+msgstr "Clic en Enlace Profundo"
 
 #: ../../source/agent_config/index.rst:77
 msgid "App will open and pre-fill the fields for adding a server"
 msgstr ""
+"La aplicación se abrirá y completará previamente los campos para agregar un "
+"servidor."
 
 #: ../../source/agent_config/index.rst:78
 msgid "Then click on **Add server**"
-msgstr ""
+msgstr "Luego haga clic en **Agregar servidor**"
 
-#: ../../source/agent_config/index.rst-1
+#: ../../source/agent_config/index.rst:80
+#: ../../source/agent_config/index.rst:99
 msgid "Add server"
-msgstr ""
+msgstr "Agregar servidor"
 
 #: ../../source/agent_config/index.rst:85
 msgid "With QR Code"
-msgstr ""
+msgstr "Con código QR"
 
 #: ../../source/agent_config/index.rst:87
 msgid "Open **GLPI Agent** on your device"
-msgstr ""
+msgstr "Abra **GLPI Agent** en su dispositivo"
 
 #: ../../source/agent_config/index.rst:88
 msgid "Go to **Advanced Settings** > **Open List Server** > **Add servers**"
 msgstr ""
+"Vaya a **Configuración avanzada** > **Abrir servidor de lista** > **Agregar "
+"servidores**"
 
 #: ../../source/agent_config/index.rst:89
 msgid "Click on **QR Code** button"
-msgstr ""
+msgstr "Haga clic en el botón **Código QR**"
 
 #: ../../source/agent_config/index.rst:90
 msgid "Flash QR Code"
-msgstr ""
+msgstr "Código QR Flash"
 
-#: ../../source/agent_config/index.rst-1
+#: ../../source/agent_config/index.rst:92
 msgid "Use QR Code"
-msgstr ""
+msgstr "Utilice el código QR"
 
 #: ../../source/agent_config/index.rst:96
 msgid "App pre-fill the fields for adding a server"
-msgstr ""
+msgstr "La aplicación rellena previamente los campos para agregar un servidor"
 
 #: ../../source/agent_config/index.rst:97
 msgid "Then add server."
-msgstr ""
+msgstr "Luego agrega el servidor."
 
 #: ../../source/agent_config/index.rst:104
 msgid "Category Global"
-msgstr ""
+msgstr "Categoría Global"
 
 #: ../../source/agent_config/index.rst:106
 msgid ""
 "In mobile device, menu > advanced settings > Category global, "
 "select/unselect the informations you want to inventory"
 msgstr ""
+"En el dispositivo móvil, menú > configuración avanzada > Categoría global, "
+"seleccione/deseleccione la información que desea inventariar"
 
-#: ../../source/agent_config/index.rst-1
+#: ../../source/agent_config/index.rst:108
 msgid "Show catgory you want to inventory"
-msgstr ""
+msgstr "Muestra la categoría que deseas inventariar"
 
 #: ../../source/agent_config/index.rst:113
 msgid "Contributing"
-msgstr ""
+msgstr "Contribuyendo"
 
 #: ../../source/agent_config/index.rst:115
 msgid "Open a ticket for each bug/feature so it can be discussed"
 msgstr ""
+"Abra un ticket para cada error/característica para que pueda discutirse"
 
 #: ../../source/agent_config/index.rst:116
 msgid ""
 "Follow `development guidelines <http://glpi-developer-"
 "documentation.readthedocs.io/en/latest/plugins/index.html>`_"
 msgstr ""
+"Siga las `pautas de desarrollo <http://glpi-developer-"
+"documentation.readthedocs.io/es/latest/plugins/index.html>`_"
 
 #: ../../source/agent_config/index.rst:117
 msgid ""
 "Refer to `GitFlow <http://git-flow.readthedocs.io/>`_ process for branching"
 msgstr ""
+"Consulte el proceso `GitFlow <http://git-flow.readthedocs.io/>`_ para la "
+"ramificación"
 
 #: ../../source/agent_config/index.rst:118
 msgid "Work on a new branch on your own fork"
-msgstr ""
+msgstr "Trabaja en una nueva rama en tu propia bifurcación"
 
 #: ../../source/agent_config/index.rst:119
 msgid "Open a PR that will be reviewed by a developer"
-msgstr ""
+msgstr "Abrir un PR que será revisado por un desarrollador"
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Licencia Creative Commons"

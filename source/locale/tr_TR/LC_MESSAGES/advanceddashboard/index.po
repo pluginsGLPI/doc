@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Kaya Zeren <kayazeren@gmail.com>, 2024
+# Kaya Zeren <kayazeren@gmail.com>, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 12:58+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-01-26 14:56+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2025\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -59,9 +59,12 @@ msgid ""
 "subscription (or higher) is required. This plugin is also available for all "
 "GLPI Network `Cloud instances <https://glpi-network.cloud>`_."
 msgstr ""
+"Bir `GLPI Network STANDARD <https://services.glpi-network.com/#offers>`_ "
+"aboneliği (ya da üzeri) gereklidir. Bu eklenti tüm GLPI Network `Cloud "
+"kopyaları <https://glpi-network.cloud>`_ ile de edinilebilir."
 
-#: ../../source/advanceddashboard/index.rst-1
 #: ../../source/advanceddashboard/index.rst:17
+#: ../../source/advanceddashboard/index.rst:21
 msgid "Install the plugin"
 msgstr "Eklentiyi kurmak"
 
@@ -130,7 +133,7 @@ msgstr ""
 "Sorguyu kaydetmek için disket simgesine, yürütmek için ise oynat simgesine "
 "tıklayın."
 
-#: ../../source/advanceddashboard/index.rst-1
+#: ../../source/advanceddashboard/index.rst:89
 msgid "SQL editor"
 msgstr "SQL düzenleyici"
 
@@ -138,7 +141,7 @@ msgstr "SQL düzenleyici"
 msgid "An insert at the bottom will display the result of the query:"
 msgstr "Alttaki bölümde sorgu sonucunu görüntülenir:"
 
-#: ../../source/advanceddashboard/index.rst-1
+#: ../../source/advanceddashboard/index.rst:97
 msgid "preview result"
 msgstr "Sonuç ön izlemesi"
 
@@ -172,7 +175,7 @@ msgstr "Görüntülenecek veri miktarını sınırlayabilirsiniz."
 msgid "Then click on **Save fields and preview**."
 msgstr "Ardından **Alanları kaydet ve ön izle** seçeneğine tıklayın."
 
-#: ../../source/advanceddashboard/index.rst-1
+#: ../../source/advanceddashboard/index.rst:108
 msgid "card setup"
 msgstr "Kart kurulumu"
 
@@ -203,7 +206,7 @@ msgstr "Oluşturduğunuz sorguyu seçin"
 msgid "Choose a colour for your tile"
 msgstr "Karonuzun rengini seçin"
 
-#: ../../source/advanceddashboard/index.rst-1
+#: ../../source/advanceddashboard/index.rst:122
 msgid "more card setup"
 msgstr "Başka kart kurulumu"
 
@@ -218,7 +221,7 @@ msgstr ""
 "Bazı panolar için renk kullanmanız ve değerler ile etiketleri görüntülemeniz"
 " istenebilir."
 
-#: ../../source/advanceddashboard/index.rst-1
+#: ../../source/advanceddashboard/index.rst:131
 msgid "label setup"
 msgstr "Etiket kurulumu"
 
@@ -226,7 +229,7 @@ msgstr "Etiket kurulumu"
 msgid "Your tile is now ready"
 msgstr "Karonuz hazır"
 
-#: ../../source/advanceddashboard/index.rst-1
+#: ../../source/advanceddashboard/index.rst:139
 msgid "the card is ready"
 msgstr "Kart hazır"
 
@@ -247,6 +250,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr "Creative Commons Lisansı"

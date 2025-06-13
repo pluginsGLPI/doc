@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 13:57+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-01-26 14:56+0000\n"
 "Language-Team: German (Austria) (https://app.transifex.com/teclib/teams/28042/de_AT/)\n"
 "MIME-Version: 1.0\n"
@@ -64,7 +64,7 @@ msgstr ""
 msgid "Go to the marketplace. Download and install the **Branding** plugin."
 msgstr ""
 
-#: ../../source/branding/index.rst-1
+#: ../../source/branding/index.rst:22
 msgid "install the plugin"
 msgstr ""
 
@@ -96,7 +96,7 @@ msgstr ""
 msgid "the icon in the browser bar"
 msgstr ""
 
-#: ../../source/branding/index.rst-1
+#: ../../source/branding/index.rst:37
 msgid "list of custom"
 msgstr ""
 
@@ -108,7 +108,7 @@ msgstr ""
 msgid "You can modify certain elements by entity:"
 msgstr ""
 
-#: ../../source/branding/index.rst-1
+#: ../../source/branding/index.rst:49
 msgid "custom by entity"
 msgstr ""
 
@@ -189,6 +189,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr ""
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr ""

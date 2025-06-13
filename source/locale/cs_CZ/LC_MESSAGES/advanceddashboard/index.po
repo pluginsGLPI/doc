@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 12:58+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-01-26 14:56+0000\n"
 "Last-Translator: David Stepan <stepand@tiscali.cz>, 2024\n"
 "Language-Team: Czech (Czech Republic) (https://app.transifex.com/teclib/teams/28042/cs_CZ/)\n"
@@ -60,8 +60,8 @@ msgid ""
 "GLPI Network `Cloud instances <https://glpi-network.cloud>`_."
 msgstr ""
 
-#: ../../source/advanceddashboard/index.rst-1
 #: ../../source/advanceddashboard/index.rst:17
+#: ../../source/advanceddashboard/index.rst:21
 msgid "Install the plugin"
 msgstr "Nainstalovat zásuvný modul"
 
@@ -132,7 +132,7 @@ msgstr ""
 "Klikněte na ikonu diskety pro uložení dotazu a poté na ikonu přehrávání pro "
 "spuštění dotazu."
 
-#: ../../source/advanceddashboard/index.rst-1
+#: ../../source/advanceddashboard/index.rst:89
 msgid "SQL editor"
 msgstr "Editor SQL"
 
@@ -140,7 +140,7 @@ msgstr "Editor SQL"
 msgid "An insert at the bottom will display the result of the query:"
 msgstr "Vložení v dolní části zobrazí výsledek dotazu:"
 
-#: ../../source/advanceddashboard/index.rst-1
+#: ../../source/advanceddashboard/index.rst:97
 msgid "preview result"
 msgstr "náhled výsledku"
 
@@ -174,7 +174,7 @@ msgstr "Můžete omezit množství zobrazovaných dat."
 msgid "Then click on **Save fields and preview**."
 msgstr "Poté klikněte na **Uložit pole a náhled**."
 
-#: ../../source/advanceddashboard/index.rst-1
+#: ../../source/advanceddashboard/index.rst:108
 msgid "card setup"
 msgstr "nastavení karty"
 
@@ -206,7 +206,7 @@ msgstr "Vyberte dotaz, který jste právě vytvořili"
 msgid "Choose a colour for your tile"
 msgstr "Vyberte si barvu dlaždice"
 
-#: ../../source/advanceddashboard/index.rst-1
+#: ../../source/advanceddashboard/index.rst:122
 msgid "more card setup"
 msgstr "další nastavení karty"
 
@@ -221,7 +221,7 @@ msgstr ""
 "Některé řídicí panely mohou vyžadovat použití barev a zobrazení hodnot a "
 "názvů."
 
-#: ../../source/advanceddashboard/index.rst-1
+#: ../../source/advanceddashboard/index.rst:131
 msgid "label setup"
 msgstr "nastavení názvu"
 
@@ -229,7 +229,7 @@ msgstr "nastavení názvu"
 msgid "Your tile is now ready"
 msgstr "Vaše dlaždice je nyní připravena"
 
-#: ../../source/advanceddashboard/index.rst-1
+#: ../../source/advanceddashboard/index.rst:139
 msgid "the card is ready"
 msgstr "karta je připravena"
 
@@ -250,6 +250,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr "Licence Creative Commons"

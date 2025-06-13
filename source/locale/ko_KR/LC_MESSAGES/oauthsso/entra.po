@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 13:57+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-01-31 13:12+0000\n"
 "Last-Translator: 조성현 (jaymz9634) <jaymz9634@gmail.com>, 2024\n"
 "Language-Team: Korean (Korea) (https://app.transifex.com/teclib/teams/28042/ko_KR/)\n"
@@ -53,7 +53,7 @@ msgid ""
 " you have already selected one"
 msgstr ""
 
-#: ../../source/oauthsso/entra.rst-1
+#: ../../source/oauthsso/entra.rst:13
 msgid "change tenant"
 msgstr ""
 
@@ -73,7 +73,7 @@ msgstr ""
 msgid "Then **New Registration**."
 msgstr ""
 
-#: ../../source/oauthsso/entra.rst-1
+#: ../../source/oauthsso/entra.rst:23
 msgid "add new app"
 msgstr ""
 
@@ -83,11 +83,11 @@ msgid ""
 "instance:"
 msgstr ""
 
-#: ../../source/oauthsso/entra.rst-1
+#: ../../source/oauthsso/entra.rst:30
 msgid "register app"
 msgstr ""
 
-#: ../../source/oauthsso/entra.rst-1
+#: ../../source/oauthsso/entra.rst:34
 msgid "copy callback"
 msgstr ""
 
@@ -101,7 +101,7 @@ msgid ""
 "to be transferred to your Oauth SSO application on the GLPI side:"
 msgstr ""
 
-#: ../../source/oauthsso/entra.rst-1
+#: ../../source/oauthsso/entra.rst:43
 msgid "add new secret"
 msgstr ""
 
@@ -113,7 +113,7 @@ msgid ""
 "will need it later"
 msgstr ""
 
-#: ../../source/oauthsso/entra.rst:0
+#: ../../source/oauthsso/entra.rst:50
 msgid "copy value"
 msgstr ""
 
@@ -140,11 +140,11 @@ msgstr ""
 msgid "Add the 4 claims below:"
 msgstr ""
 
-#: ../../source/oauthsso/entra.rst-1
+#: ../../source/oauthsso/entra.rst:64
 msgid "add token"
 msgstr ""
 
-#: ../../source/oauthsso/entra.rst-1 ../../source/oauthsso/entra.rst:69
+#: ../../source/oauthsso/entra.rst:69 ../../source/oauthsso/entra.rst:75
 msgid "API authorisations"
 msgstr ""
 
@@ -155,7 +155,7 @@ msgid ""
 "Graph for our example)"
 msgstr ""
 
-#: ../../source/oauthsso/entra.rst-1
+#: ../../source/oauthsso/entra.rst:79
 msgid "add API"
 msgstr ""
 
@@ -192,7 +192,7 @@ msgid ""
 "Entra AD provides a description with the essential information you need:"
 msgstr ""
 
-#: ../../source/oauthsso/entra.rst-1
+#: ../../source/oauthsso/entra.rst:97
 msgid "overview app"
 msgstr ""
 
@@ -200,7 +200,7 @@ msgstr ""
 msgid "Specify an application **name** visible to end users."
 msgstr ""
 
-#: ../../source/oauthsso/entra.rst-1
+#: ../../source/oauthsso/entra.rst:103
 msgid "setup GLPI"
 msgstr ""
 
@@ -234,7 +234,7 @@ msgstr ""
 msgid "3 values are available in this insert:"
 msgstr ""
 
-#: ../../source/oauthsso/entra.rst-1
+#: ../../source/oauthsso/entra.rst:121
 msgid "choose ID field"
 msgstr ""
 
@@ -252,7 +252,7 @@ msgid ""
 "This ID will be used for the user login"
 msgstr ""
 
-#: ../../source/oauthsso/entra.rst-1
+#: ../../source/oauthsso/entra.rst:128
 msgid "what is objet ID"
 msgstr ""
 
@@ -272,6 +272,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr ""

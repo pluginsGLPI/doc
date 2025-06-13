@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 13:57+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-01-26 14:55+0000\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/teclib/teams/28042/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -56,7 +56,7 @@ msgid ""
 "GLPI Network `Cloud instances <https://glpi-network.cloud>`_."
 msgstr ""
 
-#: ../../source/GDPR/index.rst-1 ../../source/GDPR/index.rst:17
+#: ../../source/GDPR/index.rst:17 ../../source/GDPR/index.rst:21
 msgid "Install the plugin"
 msgstr ""
 
@@ -149,7 +149,7 @@ msgstr ""
 msgid "Inactive users without tickets"
 msgstr ""
 
-#: ../../source/GDPR/index.rst-1
+#: ../../source/GDPR/index.rst:71
 msgid "setup"
 msgstr ""
 
@@ -169,7 +169,7 @@ msgid ""
 "action then configure it according to your needs."
 msgstr ""
 
-#: ../../source/GDPR/index.rst-1
+#: ../../source/GDPR/index.rst:82
 msgid "automatic action"
 msgstr ""
 
@@ -187,6 +187,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr ""
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr ""

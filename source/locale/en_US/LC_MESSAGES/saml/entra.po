@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 13:57+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-06-24 08:21+0000\n"
 "Language-Team: English (United States) (https://app.transifex.com/teclib/teams/28042/en_US/)\n"
 "MIME-Version: 1.0\n"
@@ -47,7 +47,7 @@ msgstr ""
 msgid "Click on **Save**"
 msgstr ""
 
-#: ../../source/saml/tabs/add-app.rst-1
+#: ../../source/saml/tabs/add-app.rst:12
 msgid "Add GLPI app"
 msgstr ""
 
@@ -63,7 +63,7 @@ msgstr ""
 msgid "Compress responses"
 msgstr ""
 
-#: ../../source/saml/tabs/for-entra.rst-1
+#: ../../source/saml/tabs/for-entra.rst:6
 msgid "Setup the transit"
 msgstr ""
 
@@ -91,7 +91,7 @@ msgstr ""
 msgid "Click on **Microsoft Entra SAML Toolkit**"
 msgstr ""
 
-#: ../../source/saml/entra.rst-1
+#: ../../source/saml/entra.rst:17
 msgid "create app entra"
 msgstr ""
 
@@ -115,7 +115,7 @@ msgstr ""
 msgid "Click on SAML"
 msgstr ""
 
-#: ../../source/saml/entra.rst-1
+#: ../../source/saml/entra.rst:29
 msgid "create SAM app entra"
 msgstr ""
 
@@ -131,11 +131,11 @@ msgstr ""
 msgid "Copy the values as follows"
 msgstr ""
 
-#: ../../source/saml/entra.rst-1
+#: ../../source/saml/entra.rst:39
 msgid "Report the values in entra"
 msgstr ""
 
-#: ../../source/saml/entra.rst-1
+#: ../../source/saml/entra.rst:43
 msgid "See the values in GLPI"
 msgstr ""
 
@@ -150,7 +150,7 @@ msgid ""
 "certificates, other than that they are valid X509 certificates."
 msgstr ""
 
-#: ../../source/saml/entra.rst-1
+#: ../../source/saml/entra.rst:53 ../../source/saml/entra.rst:76
 msgid "setup the values"
 msgstr ""
 
@@ -164,7 +164,7 @@ msgid ""
 "(Base64)**"
 msgstr ""
 
-#: ../../source/saml/entra.rst-1
+#: ../../source/saml/entra.rst:62
 msgid "Download certificate"
 msgstr ""
 
@@ -189,7 +189,7 @@ msgid ""
 "insert :"
 msgstr ""
 
-#: ../../source/saml/entra.rst-1
+#: ../../source/saml/entra.rst:72
 msgid "Paste certificate and setup the values"
 msgstr ""
 
@@ -211,7 +211,7 @@ msgid ""
 "you create from JIT Rules to be applied."
 msgstr ""
 
-#: ../../source/saml/entra.rst-1
+#: ../../source/saml/entra.rst:89
 msgid "options for security"
 msgstr ""
 
@@ -254,7 +254,7 @@ msgstr ""
 msgid "Click on **Assign**"
 msgstr ""
 
-#: ../../source/saml/entra.rst-1
+#: ../../source/saml/entra.rst:113
 msgid "add user allowed"
 msgstr ""
 
@@ -277,7 +277,7 @@ msgstr ""
 msgid "Copy the URL of the one of the other claim"
 msgstr ""
 
-#: ../../source/saml/entra.rst-1
+#: ../../source/saml/entra.rst:126
 msgid "Copy the URL schema"
 msgstr ""
 
@@ -309,11 +309,11 @@ msgstr ""
 msgid "Repeat this step for all the desired values"
 msgstr ""
 
-#: ../../source/saml/entra.rst-1
+#: ../../source/saml/entra.rst:139
 msgid "add claims in Entra"
 msgstr ""
 
-#: ../../source/saml/entra.rst-1
+#: ../../source/saml/entra.rst:143
 msgid "see claims in Entra"
 msgstr ""
 
@@ -377,6 +377,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr ""
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr ""

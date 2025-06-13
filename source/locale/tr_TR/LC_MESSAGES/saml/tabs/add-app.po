@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 12:58+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-06-24 08:21+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -51,7 +51,7 @@ msgstr "**Etkin** üzerine tıklayın"
 msgid "Click on **Save**"
 msgstr "**Kaydet** üzerine tıklayın"
 
-#: ../../source/saml/tabs/add-app.rst-1
+#: ../../source/saml/tabs/add-app.rst:12
 msgid "Add GLPI app"
 msgstr "GLPI uygulaması ekleyin"
 
@@ -59,6 +59,6 @@ msgstr "GLPI uygulaması ekleyin"
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr "Creative Commons Lisansı"

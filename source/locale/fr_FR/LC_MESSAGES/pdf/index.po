@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 12:58+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-01-31 13:12+0000\n"
 "Last-Translator: Johan Cwiklinski, 2024\n"
 "Language-Team: French (France) (https://app.transifex.com/teclib/teams/28042/fr_FR/)\n"
@@ -68,7 +68,7 @@ msgstr "Installer le plugin"
 msgid "Go to the marketplace. Download and install the plugin **PDF**"
 msgstr "Allez sur le marketplace. Téléchargez et installez le plugin **PDF**."
 
-#: ../../source/pdf/index.rst-1
+#: ../../source/pdf/index.rst:20
 msgid "install the plugin"
 msgstr "Installer le plugin"
 
@@ -89,7 +89,7 @@ msgstr "votre devise préférée"
 msgid "Any text that will be displayed on the PDF."
 msgstr "N'importe quel texte qui sera affiché sur le PDF."
 
-#: ../../source/pdf/index.rst-1
+#: ../../source/pdf/index.rst:33
 msgid "setup the plugin"
 msgstr "Configurer le plugin"
 
@@ -115,11 +115,11 @@ msgstr "Depuis l'onglet **Imprimer PDF**"
 msgid "Click on **Print**"
 msgstr "Cliquez sur **Imprimer**"
 
-#: ../../source/pdf/index.rst-1
+#: ../../source/pdf/index.rst:48
 msgid "example"
 msgstr "exemple"
 
-#: ../../source/pdf/index.rst-1
+#: ../../source/pdf/index.rst:53
 msgid "print PDF"
 msgstr "imprimer PDF"
 
@@ -127,6 +127,6 @@ msgstr "imprimer PDF"
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr "Licence Creative Commons"

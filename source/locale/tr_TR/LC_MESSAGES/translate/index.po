@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Kaya Zeren <kayazeren@gmail.com>, 2024
+# Kaya Zeren <kayazeren@gmail.com>, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 12:58+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-01-26 14:57+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2025\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -59,6 +59,9 @@ msgid ""
 "subscription (or higher) is required. This plugin is also available for all "
 "GLPI Network `Cloud instances <https://glpi-network.cloud>`_."
 msgstr ""
+"Bir `GLPI Network BASIC <https://services.glpi-network.com/#offers>`_ "
+"aboneliği (ya da üzeri) gereklidir. Bu eklenti tüm GLPI Network `Cloud "
+"kopyaları <https://glpi-network.cloud>`_ ile de edinilebilir."
 
 #: ../../source/translate/index.rst:17
 msgid "Introduction"
@@ -152,11 +155,11 @@ msgstr ""
 "çeviri düğmesinin etkinleştirilmesiyle yapılır. Hedef dil, kullanıcının "
 "yeğlediği dile karşılık gelir."
 
-#: ../../source/translate/index.rst-1
+#: ../../source/translate/index.rst:48
 msgid "Translate Button"
 msgstr "Çeviri düğmesi"
 
-#: ../../source/translate/index.rst:58
+#: ../../source/translate/index.rst:54
 msgid ""
 "If the translation button does not appear, it may be due to various reasons:"
 msgstr "Çeviri düğmesi görünmüyorsa bunun çeşitli nedenleri olabilir:"
@@ -193,7 +196,7 @@ msgstr ""
 "bileşenin sağ üst köşesinde bulunan, bileşeni çevirmek için kullanılan aynı "
 "düğme ile yapılır."
 
-#: ../../source/translate/index.rst-1
+#: ../../source/translate/index.rst:65
 msgid "Undo Translation Button"
 msgstr "Çeviriyi geri al düğmesi"
 
@@ -211,7 +214,7 @@ msgstr ""
 "\"Kaydet\" düğmesinin yanında ek seçenekler menüsünü görüntüleyin. Ardından,"
 " \"Tüm bileşenleri çevir\" üzerine tıklayın."
 
-#: ../../source/translate/index.rst-1
+#: ../../source/translate/index.rst:74
 msgid "Translate All Elements"
 msgstr "Tüm bileşenleri çevirin"
 
@@ -232,7 +235,7 @@ msgstr ""
 "menüsünü görüntüleyin. Ardından, \"Tüm bileşenlerin çevirisini geri al\" "
 "üzerine tıklayın."
 
-#: ../../source/translate/index.rst-1
+#: ../../source/translate/index.rst:83
 msgid "Undo All Translations"
 msgstr "Tüm çevirileri geri alın"
 
@@ -267,11 +270,11 @@ msgid ""
 msgstr ""
 "Bu özellik görevler, doğrulama istekleri ve çözümler için de kullanılabilir."
 
-#: ../../source/translate/index.rst-1
+#: ../../source/translate/index.rst:96
 msgid "Translate Follow-up"
 msgstr "İzlemeyi çevirin"
 
-#: ../../source/translate/index.rst:105
+#: ../../source/translate/index.rst:102
 msgid ""
 "If the translation menu does not appear, it may be due to various reasons:"
 msgstr "Çeviri menüsü görünmüyorsa bunun çeşitli nedenleri olabilir:"
@@ -403,7 +406,7 @@ msgstr "İlk yapılandırma"
 msgid "After installing the plugin, it is necessary to enter a DeepL API key."
 msgstr "Eklentiyi kurduktan sonra DeepL API anahtarını yazmanız gerekir."
 
-#: ../../source/translate/index.rst-1
+#: ../../source/translate/index.rst:177
 msgid "Enter API Key"
 msgstr "API anahtarını yazın"
 
@@ -606,6 +609,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr "Creative Commons Lisansı"

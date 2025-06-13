@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Kaya Zeren <kayazeren@gmail.com>, 2024
+# Kaya Zeren <kayazeren@gmail.com>, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 12:58+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-01-26 14:56+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2025\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -59,6 +59,9 @@ msgid ""
 "subscription (or higher) is required. This plugin is also available for all "
 "GLPI Network `Cloud instances <https://glpi-network.cloud>`_."
 msgstr ""
+"Bir `GLPI Network BASIC <https://services.glpi-network.com/#offers>`_ "
+"aboneliği (ya da üzeri) gereklidir. Bu eklenti tüm GLPI Network `Cloud "
+"kopyaları <https://glpi-network.cloud>`_ ile de edinilebilir."
 
 #: ../../source/branding/index.rst:17
 msgid "Install the plugin"
@@ -68,7 +71,7 @@ msgstr "Eklentiyi kurmak"
 msgid "Go to the marketplace. Download and install the **Branding** plugin."
 msgstr "Mağazaya gidin. **Marka** eklentisini indirip kurun."
 
-#: ../../source/branding/index.rst-1
+#: ../../source/branding/index.rst:22
 msgid "install the plugin"
 msgstr "Eklentiyi kurmak"
 
@@ -100,7 +103,7 @@ msgstr "Oturum açma sayfasının arka planı,"
 msgid "the icon in the browser bar"
 msgstr "Tarayıcı çubuğundaki simge"
 
-#: ../../source/branding/index.rst-1
+#: ../../source/branding/index.rst:37
 msgid "list of custom"
 msgstr "Özelleştirmelerin listesi"
 
@@ -112,7 +115,7 @@ msgstr "Varlığa göre özelleştirme"
 msgid "You can modify certain elements by entity:"
 msgstr "Belirli bileşenleri varlığa göre değiştirebilirsiniz:"
 
-#: ../../source/branding/index.rst-1
+#: ../../source/branding/index.rst:49
 msgid "custom by entity"
 msgstr "Varlığa göre özelleştirme"
 
@@ -211,6 +214,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr "Creative Commons Lisansı"

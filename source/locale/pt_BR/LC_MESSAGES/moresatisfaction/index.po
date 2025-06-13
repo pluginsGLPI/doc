@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 13:57+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-02-01 06:43+0000\n"
 "Last-Translator: Eduardo Scott <edu.scott01@gmail.com>, 2024\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/teclib/teams/28042/pt_BR/)\n"
@@ -78,7 +78,7 @@ msgid ""
 "Go to the marketplace. Download and install the plugin **More satisfaction**"
 msgstr "Vá para o marketplace. Baixe e instale o plugin **Mais satisfação**"
 
-#: ../../source/moresatisfaction/index.rst-1
+#: ../../source/moresatisfaction/index.rst:26
 msgid "install the plugin"
 msgstr ""
 
@@ -110,7 +110,7 @@ msgstr ""
 msgid "Then click on **Add**"
 msgstr "Então clique em **Adicionar**"
 
-#: ../../source/moresatisfaction/index.rst-1
+#: ../../source/moresatisfaction/index.rst:38
 msgid "add satisfaction survey"
 msgstr ""
 
@@ -124,7 +124,7 @@ msgstr ""
 "várias pesquisas para entidades diferentes, lembre-se de posicionar-se na "
 "entidade apropriada e não marque a caixa de sub-entidade."
 
-#: ../../source/moresatisfaction/index.rst:0
+#: ../../source/moresatisfaction/index.rst:45
 msgid "sub entity"
 msgstr ""
 
@@ -150,7 +150,7 @@ msgstr ""
 msgid "Then click **Add**"
 msgstr "Então clique em **Adicionar**"
 
-#: ../../source/moresatisfaction/index.rst-1
+#: ../../source/moresatisfaction/index.rst:57
 msgid "create question"
 msgstr ""
 
@@ -171,7 +171,7 @@ msgstr "Selecione o tipo de **Texto**"
 msgid "Enter the text to be displayed and click **Add**"
 msgstr "Digite o texto a ser exibido e clique em **Adicionar**"
 
-#: ../../source/moresatisfaction/index.rst-1
+#: ../../source/moresatisfaction/index.rst:68
 msgid "text for question"
 msgstr ""
 
@@ -191,7 +191,7 @@ msgstr "Você pode selecionar uma pontuação até 10 e definir um valor padrão
 msgid "Click on \"Add\" when you are happy with your settings"
 msgstr "Clique em \"Adicionar\" quando estiver satisfeito com suas configurações."
 
-#: ../../source/moresatisfaction/index.rst-1
+#: ../../source/moresatisfaction/index.rst:80
 msgid "add note"
 msgstr ""
 
@@ -207,7 +207,7 @@ msgstr ""
 "A guia de pré-visualização permite que você veja o que os usuários receberão"
 " assim que o ticket deles for fechado."
 
-#: ../../source/moresatisfaction/index.rst-1
+#: ../../source/moresatisfaction/index.rst:89
 msgid "preview"
 msgstr ""
 
@@ -235,7 +235,7 @@ msgstr ""
 "Escolha o idioma que você deseja e, em seguida, pergunta por pergunta, "
 "escreva a tradução."
 
-#: ../../source/moresatisfaction/index.rst-1
+#: ../../source/moresatisfaction/index.rst:101
 msgid "translate"
 msgstr ""
 
@@ -266,7 +266,7 @@ msgstr "Ir para a guia **Lembretes**"
 msgid "Click on **Add a reminder**."
 msgstr "Clique em **Adicionar um lembrete**."
 
-#: ../../source/moresatisfaction/index.rst:119
+#: ../../source/moresatisfaction/index.rst:115
 msgid "Enter a :"
 msgstr "Digite um:"
 
@@ -286,7 +286,7 @@ msgstr "A **duração** do lembrete"
 msgid "**Activate** your reminder"
 msgstr "**Ative** seu lembrete"
 
-#: ../../source/moresatisfaction/index.rst-1
+#: ../../source/moresatisfaction/index.rst:121
 msgid "custom reminder"
 msgstr ""
 
@@ -302,7 +302,7 @@ msgstr "Clique em **Adicionar um lembrete predefinido**"
 msgid "You will have 3 options to choose from:"
 msgstr "Você terá 3 opções para escolher:"
 
-#: ../../source/moresatisfaction/index.rst-1
+#: ../../source/moresatisfaction/index.rst:132
 msgid "predefined reminder"
 msgstr ""
 
@@ -343,7 +343,7 @@ msgstr ""
 "**Exemplo**: Se uma pessoa não responder após 3 lembretes, o GLPI não "
 "enviará mais lembretes e a pesquisa de satisfação ficará sem resposta."
 
-#: ../../source/moresatisfaction/index.rst-1
+#: ../../source/moresatisfaction/index.rst:149
 msgid "reminder example"
 msgstr ""
 
@@ -368,7 +368,7 @@ msgstr "Ir para **Configuração > Ações automáticas**"
 msgid "Select the **SatisfactionReminder** action."
 msgstr "Selecione a ação **LembretedeSatisfação**."
 
-#: ../../source/moresatisfaction/index.rst-1
+#: ../../source/moresatisfaction/index.rst:161
 msgid "automatic action"
 msgstr ""
 
@@ -386,6 +386,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr "Licença Creative Commons"

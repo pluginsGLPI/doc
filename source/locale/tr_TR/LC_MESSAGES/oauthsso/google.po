@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 12:58+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-01-31 13:12+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -49,7 +49,7 @@ msgstr "Projenizin adını yazın"
 msgid "Click on **Create**"
 msgstr "**Oluştur** üzerine tıklayın"
 
-#: ../../source/oauthsso/google.rst:0
+#: ../../source/oauthsso/google.rst:12
 msgid "add project"
 msgstr "Proje ekleyin"
 
@@ -61,7 +61,7 @@ msgstr "Kuruluşunuza dönün,"
 msgid "Select your project"
 msgstr "Projenizi seçin"
 
-#: ../../source/oauthsso/google.rst:0
+#: ../../source/oauthsso/google.rst:20
 msgid "select the project"
 msgstr "Projeyi seçin"
 
@@ -77,7 +77,7 @@ msgstr "Menüden **API ve Hizmetler** üzerine tıklayın"
 msgid "Then **OAuth consent screen**"
 msgstr "Ardından **OAuth onay ekranı** üzerine tıklayın"
 
-#: ../../source/oauthsso/google.rst:0
+#: ../../source/oauthsso/google.rst:31
 msgid "add API"
 msgstr "API ekleyin"
 
@@ -91,7 +91,7 @@ msgstr "Uygulamaya verilecek erişim türünü seçin (iç ya da dış kullanıc
 msgid "Then click on **Create**."
 msgstr "Ardından **Oluştur** üzerine tıklayın"
 
-#: ../../source/oauthsso/google.rst:0
+#: ../../source/oauthsso/google.rst:39
 msgid "user type"
 msgstr "Kullanıcı türü"
 
@@ -121,7 +121,7 @@ msgid "Add **auth/userinfo.email** **auth/userinfo.profile** and **openid**"
 msgstr ""
 "**auth/userinfo.email**, **auth/userinfo.profile** ve **openid** ekleyin"
 
-#: ../../source/oauthsso/google.rst:0
+#: ../../source/oauthsso/google.rst:51
 msgid "update scopes"
 msgstr "Kapsamları güncelleyin"
 
@@ -149,7 +149,7 @@ msgstr "**Kimlik doğrulama bilgileri oluştur** üzerine tıklayın"
 msgid "Then **Oauth client ID**."
 msgstr "Ardından **OAuth istemci kimliği** üzerine tıklayın"
 
-#: ../../source/oauthsso/google.rst:0
+#: ../../source/oauthsso/google.rst:66
 msgid "add credentials"
 msgstr "Kimlik doğrulama bilgileri ekleyin"
 
@@ -173,7 +173,7 @@ msgstr "GLPI **dönüş adresi** değerini yazın"
 msgid "Where can I find my callback URL?"
 msgstr "Dönüş adresimi nerede bulabilirim?"
 
-#: ../../source/oauthsso/google.rst:0
+#: ../../source/oauthsso/google.rst:79
 msgid "find url callback"
 msgstr "Dönüş adresini bulun"
 
@@ -185,7 +185,7 @@ msgstr ""
 "Tanımlayıcı değerlerin olduğu bir sayfa açılır. GLPI tarafından isteneceği "
 "için bu bilgileri **saklayın**."
 
-#: ../../source/oauthsso/google.rst:0
+#: ../../source/oauthsso/google.rst:87
 msgid "Overview"
 msgstr "Özet"
 
@@ -221,7 +221,7 @@ msgstr "**İstemci parolasını** yazın (önceki ekran görüntüsündeki 2 num
 msgid "Enter the **field user ID**  [1]_"
 msgstr "**Kullanıcı kimliği alanını** [1] yazın"
 
-#: ../../source/oauthsso/google.rst:0
+#: ../../source/oauthsso/google.rst:102
 msgid "setup GLPI"
 msgstr "GLPI kurulumu"
 
@@ -229,7 +229,7 @@ msgstr "GLPI kurulumu"
 msgid "From the home page, the new Oauth SSO login option will be visible:"
 msgstr "Giriş sayfasında yeni OAuth SSO oturum açma seçeneği görüntülenir:"
 
-#: ../../source/oauthsso/google.rst-1
+#: ../../source/oauthsso/google.rst:111
 msgid "home page"
 msgstr "Giriş sayfası"
 
@@ -254,6 +254,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr "Creative Commons Lisansı"

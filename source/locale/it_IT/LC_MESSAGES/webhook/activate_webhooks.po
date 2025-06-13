@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 13:57+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-02-14 07:35+0000\n"
 "Last-Translator: Davide <spam@habilitas.it>, 2024\n"
 "Language-Team: Italian (Italy) (https://app.transifex.com/teclib/teams/28042/it_IT/)\n"
@@ -30,7 +30,7 @@ msgid "In the tab **Setup > Notifications** activate Webhooks notifications"
 msgstr ""
 "Nella scheda **Configurazione > Notifiche**, attiva le notifiche webhook"
 
-#: ../../source/webhook/activate_webhooks.rst-1
+#: ../../source/webhook/activate_webhooks.rst:6
 msgid "activate webhooks"
 msgstr "attiva i webhook"
 
@@ -38,6 +38,6 @@ msgstr "attiva i webhook"
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr "Creative Commons License"

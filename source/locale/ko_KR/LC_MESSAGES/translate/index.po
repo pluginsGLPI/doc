@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 13:57+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-01-26 14:57+0000\n"
 "Last-Translator: 조성현 (jaymz9634) <jaymz9634@gmail.com>, 2024\n"
 "Language-Team: Korean (Korea) (https://app.transifex.com/teclib/teams/28042/ko_KR/)\n"
@@ -140,11 +140,11 @@ msgid ""
 "correspond to the user's preferred language."
 msgstr ""
 
-#: ../../source/translate/index.rst-1
+#: ../../source/translate/index.rst:48
 msgid "Translate Button"
 msgstr ""
 
-#: ../../source/translate/index.rst:58
+#: ../../source/translate/index.rst:54
 msgid ""
 "If the translation button does not appear, it may be due to various reasons:"
 msgstr ""
@@ -177,7 +177,7 @@ msgid ""
 "located at the top right of the element."
 msgstr ""
 
-#: ../../source/translate/index.rst-1
+#: ../../source/translate/index.rst:65
 msgid "Undo Translation Button"
 msgstr ""
 
@@ -192,7 +192,7 @@ msgid ""
 "button. Then, click on \"Translate all elements.\""
 msgstr ""
 
-#: ../../source/translate/index.rst-1
+#: ../../source/translate/index.rst:74
 msgid "Translate All Elements"
 msgstr ""
 
@@ -208,7 +208,7 @@ msgid ""
 "elements.\""
 msgstr ""
 
-#: ../../source/translate/index.rst-1
+#: ../../source/translate/index.rst:83
 msgid "Undo All Translations"
 msgstr ""
 
@@ -236,11 +236,11 @@ msgid ""
 "solutions."
 msgstr ""
 
-#: ../../source/translate/index.rst-1
+#: ../../source/translate/index.rst:96
 msgid "Translate Follow-up"
 msgstr ""
 
-#: ../../source/translate/index.rst:105
+#: ../../source/translate/index.rst:102
 msgid ""
 "If the translation menu does not appear, it may be due to various reasons:"
 msgstr ""
@@ -357,7 +357,7 @@ msgstr ""
 msgid "After installing the plugin, it is necessary to enter a DeepL API key."
 msgstr ""
 
-#: ../../source/translate/index.rst-1
+#: ../../source/translate/index.rst:177
 msgid "Enter API Key"
 msgstr ""
 
@@ -533,6 +533,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr ""

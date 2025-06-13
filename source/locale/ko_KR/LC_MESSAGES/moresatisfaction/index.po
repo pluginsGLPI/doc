@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 13:57+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-02-01 06:43+0000\n"
 "Last-Translator: 조성현 (jaymz9634) <jaymz9634@gmail.com>, 2024\n"
 "Language-Team: Korean (Korea) (https://app.transifex.com/teclib/teams/28042/ko_KR/)\n"
@@ -78,7 +78,7 @@ msgid ""
 "Go to the marketplace. Download and install the plugin **More satisfaction**"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst-1
+#: ../../source/moresatisfaction/index.rst:26
 msgid "install the plugin"
 msgstr ""
 
@@ -108,7 +108,7 @@ msgstr ""
 msgid "Then click on **Add**"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst-1
+#: ../../source/moresatisfaction/index.rst:38
 msgid "add satisfaction survey"
 msgstr ""
 
@@ -119,7 +119,7 @@ msgid ""
 "appropriate entity and do not tick the sub-entity box"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:0
+#: ../../source/moresatisfaction/index.rst:45
 msgid "sub entity"
 msgstr ""
 
@@ -144,7 +144,7 @@ msgstr ""
 msgid "Then click **Add**"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst-1
+#: ../../source/moresatisfaction/index.rst:57
 msgid "create question"
 msgstr ""
 
@@ -165,7 +165,7 @@ msgstr ""
 msgid "Enter the text to be displayed and click **Add**"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst-1
+#: ../../source/moresatisfaction/index.rst:68
 msgid "text for question"
 msgstr ""
 
@@ -185,7 +185,7 @@ msgstr ""
 msgid "Click on \"Add\" when you are happy with your settings"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst-1
+#: ../../source/moresatisfaction/index.rst:80
 msgid "add note"
 msgstr ""
 
@@ -199,7 +199,7 @@ msgid ""
 "has been closed"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst-1
+#: ../../source/moresatisfaction/index.rst:89
 msgid "preview"
 msgstr ""
 
@@ -223,7 +223,7 @@ msgid ""
 "translation"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst-1
+#: ../../source/moresatisfaction/index.rst:101
 msgid "translate"
 msgstr ""
 
@@ -251,7 +251,7 @@ msgstr ""
 msgid "Click on **Add a reminder**."
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst:119
+#: ../../source/moresatisfaction/index.rst:115
 msgid "Enter a :"
 msgstr ""
 
@@ -271,7 +271,7 @@ msgstr ""
 msgid "**Activate** your reminder"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst-1
+#: ../../source/moresatisfaction/index.rst:121
 msgid "custom reminder"
 msgstr ""
 
@@ -287,7 +287,7 @@ msgstr ""
 msgid "You will have 3 options to choose from:"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst-1
+#: ../../source/moresatisfaction/index.rst:132
 msgid "predefined reminder"
 msgstr ""
 
@@ -324,7 +324,7 @@ msgid ""
 "unanswered"
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst-1
+#: ../../source/moresatisfaction/index.rst:149
 msgid "reminder example"
 msgstr ""
 
@@ -346,7 +346,7 @@ msgstr ""
 msgid "Select the **SatisfactionReminder** action."
 msgstr ""
 
-#: ../../source/moresatisfaction/index.rst-1
+#: ../../source/moresatisfaction/index.rst:161
 msgid "automatic action"
 msgstr ""
 
@@ -364,6 +364,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 13:57+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-01-26 14:56+0000\n"
 "Language-Team: German (Austria) (https://app.transifex.com/teclib/teams/28042/de_AT/)\n"
 "MIME-Version: 1.0\n"
@@ -64,7 +64,7 @@ msgstr ""
 msgid "Go to the marketplace. Download and install the **Holiday** plugin."
 msgstr ""
 
-#: ../../source/holidays/index.rst-1
+#: ../../source/holidays/index.rst:20
 msgid "install the plugin"
 msgstr ""
 
@@ -92,7 +92,7 @@ msgstr ""
 msgid "Then click on **Insert holiday dates**"
 msgstr ""
 
-#: ../../source/holidays/index.rst-1
+#: ../../source/holidays/index.rst:33
 msgid "setup"
 msgstr ""
 
@@ -112,7 +112,7 @@ msgstr ""
 msgid "enter **Closing** and click on **Closing times**"
 msgstr ""
 
-#: ../../source/holidays/index.rst-1
+#: ../../source/holidays/index.rst:45
 msgid "list of holidays"
 msgstr ""
 
@@ -138,7 +138,7 @@ msgstr ""
 msgid "Delete permanently"
 msgstr ""
 
-#: ../../source/holidays/index.rst-1
+#: ../../source/holidays/index.rst:57
 msgid "mass removal"
 msgstr ""
 
@@ -156,6 +156,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr ""
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr ""

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 12:58+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-01-31 13:12+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -60,7 +60,7 @@ msgstr ""
 "Hesabınızda yalnızca bir Entra AD kiracısı varsa ya da zaten bir tane "
 "seçtiyseniz bu adımı atlayın"
 
-#: ../../source/oauthsso/entra.rst-1
+#: ../../source/oauthsso/entra.rst:13
 msgid "change tenant"
 msgstr "Kiracıyı değiştirin"
 
@@ -81,7 +81,7 @@ msgstr "**Uygulama kayıtları** ögesini seçin"
 msgid "Then **New Registration**."
 msgstr "**Yeni kayıt** üzerine tıklayın."
 
-#: ../../source/oauthsso/entra.rst-1
+#: ../../source/oauthsso/entra.rst:23
 msgid "add new app"
 msgstr "Yeni uygulama ekleyin"
 
@@ -93,11 +93,11 @@ msgstr ""
 "Yönlendirme adresi olarak **web** yazın ve  GLPI kopyanızın dönüş adresini "
 "yapıştırın:"
 
-#: ../../source/oauthsso/entra.rst-1
+#: ../../source/oauthsso/entra.rst:30
 msgid "register app"
 msgstr "Uygulamayı kaydedin"
 
-#: ../../source/oauthsso/entra.rst-1
+#: ../../source/oauthsso/entra.rst:34
 msgid "copy callback"
 msgstr "Geri dönüş adresini kopyalayın"
 
@@ -113,7 +113,7 @@ msgstr ""
 "**Sertifikalar ve parolalar** sekmesinden, GLPI tarafındaki OAuth SSO "
 "uygulamanıza aktarılması gereken yeni bir parola oluşturun:"
 
-#: ../../source/oauthsso/entra.rst-1
+#: ../../source/oauthsso/entra.rst:43
 msgid "add new secret"
 msgstr "Yeni parola ekleyin"
 
@@ -128,7 +128,7 @@ msgstr ""
 "Bu sayfadan ayrılır ayrılmaz, **parola gizlenir** ve bir daha erişilemez. "
 "Daha sonra gerek duyacağımız için **güvenli bir yerde saklamayı** unutmayın"
 
-#: ../../source/oauthsso/entra.rst:0
+#: ../../source/oauthsso/entra.rst:50
 msgid "copy value"
 msgstr "Değeri kopyalayın"
 
@@ -157,11 +157,11 @@ msgstr "**İsteğe bağlı bir istek ekle** seçeneğine tıklayın"
 msgid "Add the 4 claims below:"
 msgstr "Aşağıdaki 4 isteği ekleyin:"
 
-#: ../../source/oauthsso/entra.rst-1
+#: ../../source/oauthsso/entra.rst:64
 msgid "add token"
 msgstr "Kod ekleyin"
 
-#: ../../source/oauthsso/entra.rst-1 ../../source/oauthsso/entra.rst:69
+#: ../../source/oauthsso/entra.rst:69 ../../source/oauthsso/entra.rst:75
 msgid "API authorisations"
 msgstr "API yetkilendirmeleri"
 
@@ -175,7 +175,7 @@ msgstr ""
 "okuyabilmelidir - **API izinleri** bölümünden - Var olan API üzerine "
 "tıklayın (örneğimizde Microsoft Graph)"
 
-#: ../../source/oauthsso/entra.rst-1
+#: ../../source/oauthsso/entra.rst:79
 msgid "add API"
 msgstr "API ekleyin"
 
@@ -212,7 +212,7 @@ msgid ""
 "Entra AD provides a description with the essential information you need:"
 msgstr "Entra AD, gerek duyduğunuz temel bilgileri içeren bir açıklama sunar:"
 
-#: ../../source/oauthsso/entra.rst-1
+#: ../../source/oauthsso/entra.rst:97
 msgid "overview app"
 msgstr "Uygulama özeti"
 
@@ -220,7 +220,7 @@ msgstr "Uygulama özeti"
 msgid "Specify an application **name** visible to end users."
 msgstr "Son kullanıcıların görebileceği bir uygulama **adı** belirtin."
 
-#: ../../source/oauthsso/entra.rst-1
+#: ../../source/oauthsso/entra.rst:103
 msgid "setup GLPI"
 msgstr "GLPI kurulumu"
 
@@ -256,7 +256,7 @@ msgstr "Kimlik alanının açıklaması"
 msgid "3 values are available in this insert:"
 msgstr "Bu bölümde 3 değer bulunur:"
 
-#: ../../source/oauthsso/entra.rst-1
+#: ../../source/oauthsso/entra.rst:121
 msgid "choose ID field"
 msgstr "Kimlik alanını seçin"
 
@@ -280,7 +280,7 @@ msgstr ""
 "**Entra kullanıcı kimliği (OID)**: Bu seçenek Entra AD üzerinden nesne "
 "kimliğini alır. Bu kimlik kullanıcıların oturum açması için kullanılır"
 
-#: ../../source/oauthsso/entra.rst-1
+#: ../../source/oauthsso/entra.rst:128
 msgid "what is objet ID"
 msgstr "Nesne kimliği nedir"
 
@@ -304,6 +304,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr "Creative Commons Lisansı"

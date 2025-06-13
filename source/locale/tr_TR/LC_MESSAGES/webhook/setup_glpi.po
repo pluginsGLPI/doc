@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 12:58+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-02-14 07:35+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -58,7 +58,7 @@ msgstr "Türü"
 msgid "the URL."
 msgstr "Adresi"
 
-#: ../../source/webhook/setup_glpi.rst-1
+#: ../../source/webhook/setup_glpi.rst:15
 msgid "setup GLPI"
 msgstr "GLPI kurulumu"
 
@@ -74,7 +74,7 @@ msgstr ""
 "Telegram için internet kancasına yeniden girmeniz ve daha önce seçtiğiniz "
 "**chat_id** değerini eklemeniz gerekir"
 
-#: ../../source/webhook/setup_glpi.rst:0
+#: ../../source/webhook/setup_glpi.rst:25
 msgid "paste chat_ID"
 msgstr "chat_ID değerini yapıştırın"
 
@@ -86,7 +86,7 @@ msgstr ""
 "İnternet kancanızı seçip **Bildirim gönder** üzerine tıklayarak nasıl "
 "çalıştığını sınayabilirsiniz"
 
-#: ../../source/webhook/setup_glpi.rst-1
+#: ../../source/webhook/setup_glpi.rst:33
 msgid "test your webhook"
 msgstr "İnternet kancanızı sınayın"
 
@@ -119,7 +119,7 @@ msgstr ""
 "**Alıcılar** sekmesinden internet kancanızı ekleyin ve ardından **Güncelle**"
 " üzerine tıklayın."
 
-#: ../../source/webhook/setup_glpi.rst-1
+#: ../../source/webhook/setup_glpi.rst:46
 msgid "setup recipients"
 msgstr "Alıcıları ayarlayın"
 
@@ -147,7 +147,7 @@ msgstr ""
 "İnternet kancanız kullanılmaya hazır. Kalıbı gereksinimlerinize uygun olarak"
 " **Yeni** üzerine tıklayarak özelleştirebilirsiniz."
 
-#: ../../source/webhook/setup_glpi.rst-1
+#: ../../source/webhook/setup_glpi.rst:58
 msgid "custom notification"
 msgstr "Özel bildirim"
 
@@ -155,6 +155,6 @@ msgstr "Özel bildirim"
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr "Creative Commons Lisansı"

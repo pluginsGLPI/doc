@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 13:57+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-01-26 14:57+0000\n"
 "Last-Translator: Eduardo Scott <edu.scott01@gmail.com>, 2024\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/teclib/teams/28042/pt_BR/)\n"
@@ -126,7 +126,7 @@ msgstr ""
 "Entra: https://learn.microsoft.com/fr-fr/power-platform/admin/connect-gmail-"
 "oauth2"
 
-#: ../../source/oauthimap/index.rst-1 ../../source/oauthimap/index.rst:40
+#: ../../source/oauthimap/index.rst:40 ../../source/oauthimap/index.rst:44
 msgid "Install the plugin"
 msgstr "Instalar o plugin"
 
@@ -147,7 +147,7 @@ msgstr "Na caixa de pesquisa, digite **registration**"
 msgid "then select **App registrations**"
 msgstr "então selecione **Registros de aplicativos**"
 
-#: ../../source/oauthimap/index.rst-1
+#: ../../source/oauthimap/index.rst:52
 msgid "add app Entra"
 msgstr ""
 
@@ -189,7 +189,7 @@ msgstr ""
 msgid "Then click on **Register**."
 msgstr "Então clique em **Registrar**."
 
-#: ../../source/oauthimap/index.rst-1
+#: ../../source/oauthimap/index.rst:69
 msgid "register app"
 msgstr ""
 
@@ -209,7 +209,7 @@ msgstr "Clique em **Segredos do cliente**"
 msgid "Then **New client secret**"
 msgstr "Então **Novo segredo do cliente**"
 
-#: ../../source/oauthimap/index.rst-1
+#: ../../source/oauthimap/index.rst:80
 msgid "add secret"
 msgstr ""
 
@@ -225,7 +225,7 @@ msgstr ""
 "Um **valor** secreto é então gerado. Guarde bem esse valor porque uma vez "
 "que você sair desta página, ele não poderá mais ser recuperado."
 
-#: ../../source/oauthimap/index.rst-1
+#: ../../source/oauthimap/index.rst:87
 msgid "select value secret"
 msgstr ""
 
@@ -237,7 +237,7 @@ msgstr ""
 "Retorne para a guia **Visão geral** e **copie** os seguintes valores e o "
 "segredo acima mencionado."
 
-#: ../../source/oauthimap/index.rst-1
+#: ../../source/oauthimap/index.rst:93
 msgid "overview"
 msgstr ""
 
@@ -277,7 +277,7 @@ msgstr ""
 msgid "profile"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst-1
+#: ../../source/oauthimap/index.rst:111
 msgid "add api permissions"
 msgstr ""
 
@@ -293,7 +293,7 @@ msgstr ""
 "Agora volte para a sua interface GLPI **Configuração > Aplicação Aouth "
 "IMAP** e indique as informações coletadas anteriormente:"
 
-#: ../../source/oauthimap/index.rst-1
+#: ../../source/oauthimap/index.rst:120
 msgid "setup GLPI"
 msgstr ""
 
@@ -307,7 +307,7 @@ msgid ""
 msgstr ""
 "Agora na guia **Autorização Oauth**, clique em **Criar uma autorização**."
 
-#: ../../source/oauthimap/index.rst-1
+#: ../../source/oauthimap/index.rst:127
 msgid "Oauth Auhorization"
 msgstr ""
 
@@ -334,11 +334,11 @@ msgstr ""
 "Você também precisará aceitar as permissões necessárias relacionadas ao "
 "plugin."
 
-#: ../../source/oauthimap/index.rst-1
+#: ../../source/oauthimap/index.rst:135
 msgid "app Auhorization"
 msgstr ""
 
-#: ../../source/oauthimap/index.rst-1
+#: ../../source/oauthimap/index.rst:139
 msgid "check account"
 msgstr ""
 
@@ -356,6 +356,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr "Licença Creative Commons"

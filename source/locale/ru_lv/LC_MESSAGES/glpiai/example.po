@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 13:57+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-03-12 08:29+0000\n"
 "Language-Team: Russian (Latvia) (https://app.transifex.com/teclib/teams/28042/ru_lv/)\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgid ""
 "followups to highlight the main information."
 msgstr ""
 
-#: ../../source/glpiai/example.rst-1
+#: ../../source/glpiai/example.rst:7
 msgid "glpiai in action"
 msgstr ""
 
@@ -40,6 +40,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr ""
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr ""

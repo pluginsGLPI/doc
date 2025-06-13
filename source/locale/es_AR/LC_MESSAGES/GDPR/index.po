@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 13:57+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-01-26 14:55+0000\n"
 "Last-Translator: Nicolás Gaviola, 2024\n"
 "Language-Team: Spanish (Argentina) (https://app.transifex.com/teclib/teams/28042/es_AR/)\n"
@@ -60,7 +60,7 @@ msgid ""
 "GLPI Network `Cloud instances <https://glpi-network.cloud>`_."
 msgstr ""
 
-#: ../../source/GDPR/index.rst-1 ../../source/GDPR/index.rst:17
+#: ../../source/GDPR/index.rst:17 ../../source/GDPR/index.rst:21
 msgid "Install the plugin"
 msgstr ""
 
@@ -160,7 +160,7 @@ msgstr "Usuarios inactivos sin tickets actuales"
 msgid "Inactive users without tickets"
 msgstr "Usuarios inactivos sin tickets"
 
-#: ../../source/GDPR/index.rst-1
+#: ../../source/GDPR/index.rst:71
 msgid "setup"
 msgstr ""
 
@@ -184,7 +184,7 @@ msgstr ""
 "Vaya a **Configuración > Acciones automáticas** y seleccione la acción "
 "**limpiarusuarioinactivo** y luego configúrela según sus necesidades."
 
-#: ../../source/GDPR/index.rst-1
+#: ../../source/GDPR/index.rst:82
 msgid "automatic action"
 msgstr ""
 
@@ -202,6 +202,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr "Creative Commons License"

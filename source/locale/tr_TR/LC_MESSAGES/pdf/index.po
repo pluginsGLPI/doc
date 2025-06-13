@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Kaya Zeren <kayazeren@gmail.com>, 2024
+# Kaya Zeren <kayazeren@gmail.com>, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 12:58+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-01-31 13:12+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2025\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -59,6 +59,9 @@ msgid ""
 "network.com/#offers>`_ subscription. It is also available on `GLPI Cloud "
 "<https://glpi-network.cloud>`_."
 msgstr ""
+"Bu eklenti bir `GLPI-Network <https://services.glpi-network.com/#offers>`_ "
+"aboneliği olmadan kullanılabilir. Ayrıca `GLPI Cloud <https://glpi-"
+"network.cloud/>`_ üzerinden de edinilebilir."
 
 #: ../../source/pdf/index.rst:16
 msgid "Install the plugin"
@@ -68,7 +71,7 @@ msgstr "Eklentiyi kurmak"
 msgid "Go to the marketplace. Download and install the plugin **PDF**"
 msgstr "Mağazaya gidin. **PDF** eklentisini indirip kurun."
 
-#: ../../source/pdf/index.rst-1
+#: ../../source/pdf/index.rst:20
 msgid "install the plugin"
 msgstr "Eklentiyi kurmak"
 
@@ -88,7 +91,7 @@ msgstr "Kullanmak istediğiniz para birimi"
 msgid "Any text that will be displayed on the PDF."
 msgstr "PDF üzerinde görüntülenecek herhangi bir metin."
 
-#: ../../source/pdf/index.rst-1
+#: ../../source/pdf/index.rst:33
 msgid "setup the plugin"
 msgstr "Eklentiyi kurmak"
 
@@ -112,11 +115,11 @@ msgstr "**PDF olarak yazdır** sekmesinden"
 msgid "Click on **Print**"
 msgstr "**Yazdır** üzerine tıklayın"
 
-#: ../../source/pdf/index.rst-1
+#: ../../source/pdf/index.rst:48
 msgid "example"
 msgstr "Örnek"
 
-#: ../../source/pdf/index.rst-1
+#: ../../source/pdf/index.rst:53
 msgid "print PDF"
 msgstr "PDF olarak yazdır"
 
@@ -124,6 +127,6 @@ msgstr "PDF olarak yazdır"
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr "Creative Commons Lisansı"

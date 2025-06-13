@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 12:58+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-03-12 08:29+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
@@ -43,7 +43,7 @@ msgstr ""
 "**Kuruluş kimliği** değerini kaydedin. Bunu GLPI AI eklentisi "
 "yapılandırmasına eklemeniz gerekecek."
 
-#: ../../source/glpiai/organization.rst-1
+#: ../../source/glpiai/organization.rst:8
 msgid "create organization"
 msgstr "Kuruluş oluşturmak"
 
@@ -51,6 +51,6 @@ msgstr "Kuruluş oluşturmak"
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr "Creative Commons Lisansı"

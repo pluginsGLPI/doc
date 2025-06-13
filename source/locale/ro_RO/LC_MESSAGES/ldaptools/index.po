@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 13:57+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-01-26 14:56+0000\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/teclib/teams/28042/ro_RO/)\n"
 "MIME-Version: 1.0\n"
@@ -64,7 +64,7 @@ msgstr ""
 msgid "Go to the marketplace. Download and install the plugin **LDAP Tools**."
 msgstr ""
 
-#: ../../source/ldaptools/index.rst-1
+#: ../../source/ldaptools/index.rst:20
 msgid "install the plugin"
 msgstr ""
 
@@ -78,7 +78,7 @@ msgid ""
 " will appear directly."
 msgstr ""
 
-#: ../../source/ldaptools/index.rst-1
+#: ../../source/ldaptools/index.rst:28
 msgid "use the plugin"
 msgstr ""
 
@@ -127,6 +127,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr ""
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr ""

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 12:58+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-01-26 14:56+0000\n"
 "Last-Translator: 조성현 (jaymz9634) <jaymz9634@gmail.com>, 2024\n"
 "Language-Team: Korean (Korea) (https://app.transifex.com/teclib/teams/28042/ko_KR/)\n"
@@ -68,7 +68,7 @@ msgstr "플러그인 설치"
 msgid "Go to the marketplace. Download and install the **Branding** plugin."
 msgstr "마켓플레이스로 이동하세요. 플러그인 “**Branding**” 을 내려받고 설치하세요."
 
-#: ../../source/branding/index.rst-1
+#: ../../source/branding/index.rst:22
 msgid "install the plugin"
 msgstr "플러그인 설치"
 
@@ -100,7 +100,7 @@ msgstr "로그인 페이지 배경,"
 msgid "the icon in the browser bar"
 msgstr "탐색 바 아이콘"
 
-#: ../../source/branding/index.rst-1
+#: ../../source/branding/index.rst:37
 msgid "list of custom"
 msgstr "맞춤 목록"
 
@@ -112,7 +112,7 @@ msgstr ""
 msgid "You can modify certain elements by entity:"
 msgstr ""
 
-#: ../../source/branding/index.rst-1
+#: ../../source/branding/index.rst:49
 msgid "custom by entity"
 msgstr ""
 
@@ -193,6 +193,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr "저작물사용 허가표시"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 13:57+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-06-24 08:21+0000\n"
 "Language-Team: Latvian (Latvia) (https://app.transifex.com/teclib/teams/28042/lv_LV/)\n"
 "MIME-Version: 1.0\n"
@@ -29,7 +29,7 @@ msgstr ""
 msgid "Compress responses"
 msgstr ""
 
-#: ../../source/saml/tabs/for-entra.rst-1
+#: ../../source/saml/tabs/for-entra.rst:6
 msgid "Setup the transit"
 msgstr ""
 
@@ -37,6 +37,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr ""
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr ""

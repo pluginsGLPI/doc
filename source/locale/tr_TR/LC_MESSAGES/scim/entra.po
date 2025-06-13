@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Kaya Zeren <kayazeren@gmail.com>, 2024
+# Kaya Zeren <kayazeren@gmail.com>, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 12:58+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-06-24 08:21+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2025\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,7 +27,7 @@ msgstr "Entra"
 
 #: ../../source/scim/entra.rst:5
 msgid "References"
-msgstr ""
+msgstr "Başvurular"
 
 #: ../../source/scim/entra.rst:7
 msgid ""
@@ -61,7 +61,7 @@ msgstr "**Ekle** üzerine tıklayın"
 msgid "then **Enterprise application**."
 msgstr "**Kurumsal uygulama** üzerine tıklayın"
 
-#: ../../source/scim/entra.rst-1
+#: ../../source/scim/entra.rst:19
 msgid "add application"
 msgstr "Uygulama ekleyin"
 
@@ -79,7 +79,7 @@ msgstr ""
 "**Galeride bulunmayan herhangi bir uygulamayı bütünleştir** seçeneğini "
 "seçin."
 
-#: ../../source/scim/entra.rst-1
+#: ../../source/scim/entra.rst:26
 msgid "create application"
 msgstr "Uygulamayı oluşturun"
 
@@ -91,7 +91,7 @@ msgstr "Uygulamayı kurmak"
 msgid "Once you've created your application, go to **Provisioning**."
 msgstr "Uygulamanızı oluşturduktan sonra **Sağlama** bölümüne gidin."
 
-#: ../../source/scim/entra.rst-1
+#: ../../source/scim/entra.rst:36
 msgid "add provisionning"
 msgstr "Sağlama ekle"
 
@@ -115,7 +115,7 @@ msgstr ""
 "Uygulamanızın düzgün çalışmasını sağlamak için **Kodu (JWT kodu) "
 "yapıştırdığınızdan** emin olun."
 
-#: ../../source/scim/entra.rst-1
+#: ../../source/scim/entra.rst:45 ../../source/scim/entra.rst:51
 msgid "setup provisionning"
 msgstr "Sağlamayı kurun"
 
@@ -135,7 +135,8 @@ msgstr ""
 "Aynı sayfada, başarısızlık veya yanlışlıkla silme durumunda "
 "kullanabileceğiniz bir e-posta adresi ve numara da yapılandırabilirsiniz."
 
-#: ../../source/scim/entra.rst-1
+#: ../../source/scim/entra.rst:57 ../../source/scim/entra.rst:112
+#: ../../source/scim/entra.rst:118
 msgid "check provisionning"
 msgstr "Sağlamayı denetleyin"
 
@@ -158,7 +159,7 @@ msgstr ""
 "**Ayarlar > Kapsam** sekmesine gidin ve **Tüm kullanıcılar ve gruplar "
 "eşitlensin** seçeneğini seçin."
 
-#: ../../source/scim/entra.rst-1
+#: ../../source/scim/entra.rst:71
 msgid "sync all"
 msgstr "Tümünü eşitleyin"
 
@@ -184,7 +185,7 @@ msgstr ""
 "**Yalnızca atanmış kullanıcılar ve gruplar eşitlensin** seçeneğini "
 "belirleyin"
 
-#: ../../source/scim/entra.rst-1
+#: ../../source/scim/entra.rst:82
 msgid "sync selection"
 msgstr "Eşitleme seçimi"
 
@@ -208,7 +209,7 @@ msgstr "Sağdaki kutudan istediğiniz grupları ve kullanıcıları seçin"
 msgid "Then **Select** and **Assign**."
 msgstr "Ardından **Seç** ve **Ata** üzerine tıklayın."
 
-#: ../../source/scim/entra.rst-1
+#: ../../source/scim/entra.rst:92
 msgid "select users/groupes"
 msgstr "Kullanıcıları/grupları seçin"
 
@@ -224,7 +225,7 @@ msgstr "\"Sağlama\" bölümüne gidin"
 msgid "Change the status from **Disabled** to **Enabled**"
 msgstr "Durumu **Etkisiz** yerine **Etkin** olarak değiştirin"
 
-#: ../../source/scim/entra.rst-1
+#: ../../source/scim/entra.rst:102
 msgid "enable sync"
 msgstr "Eşitlemeyi etkinleştirin"
 
@@ -264,6 +265,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr "Creative Commons Lisansı"

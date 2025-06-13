@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 12:58+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-02-14 18:27+0000\n"
 "Last-Translator: Diego Nobre <diego@koruma.com.br>, 2025\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/teclib/teams/28042/pt_BR/)\n"
@@ -70,7 +70,7 @@ msgid ""
 "Go to the marketplace. Download and install the plugin **ApprovalByMail**."
 msgstr "Vá ao marketplace. Baixe e instale o plugin **ApprovalByMail**."
 
-#: ../../source/approvalbymail/index.rst-1
+#: ../../source/approvalbymail/index.rst:20
 msgid "install the plugin"
 msgstr "Instale o plug-in"
 
@@ -96,7 +96,7 @@ msgstr ""
 "Em um novo ticket, insira o nome da pessoa ou grupo que receberá a "
 "solicitação da aprovação."
 
-#: ../../source/approvalbymail/index.rst-1
+#: ../../source/approvalbymail/index.rst:30
 msgid "add approbation"
 msgstr "adicionar aprovação"
 
@@ -122,7 +122,7 @@ msgstr "O link de aceitação"
 msgid "The refusal link"
 msgstr "O link de recusa"
 
-#: ../../source/approvalbymail/index.rst-1
+#: ../../source/approvalbymail/index.rst:40
 msgid "see the email"
 msgstr "veja o email"
 
@@ -134,7 +134,7 @@ msgstr ""
 "Quando o formulário for validado, você será redirecionado ao GLPI com uma "
 "notificação de aceitação:"
 
-#: ../../source/approvalbymail/index.rst-1
+#: ../../source/approvalbymail/index.rst:47
 msgid "validation ok"
 msgstr "validação ok"
 
@@ -145,7 +145,7 @@ msgstr ""
 "Caso o formulário seja recusado, será solicitado um comentário para validar "
 "a recusa:"
 
-#: ../../source/approvalbymail/index.rst-1
+#: ../../source/approvalbymail/index.rst:54
 msgid "add text refused"
 msgstr "adicionar texto recusado"
 
@@ -157,7 +157,7 @@ msgstr ""
 "Não é possível responder 2 vezes à validação, será exibida uma mensagem de "
 "erro:"
 
-#: ../../source/approvalbymail/index.rst-1
+#: ../../source/approvalbymail/index.rst:61
 msgid "refused"
 msgstr "recusado"
 
@@ -177,6 +177,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr "Licença Creative Commons"

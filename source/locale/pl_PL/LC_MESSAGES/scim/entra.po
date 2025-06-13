@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 13:57+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-06-24 08:21+0000\n"
 "Language-Team: Polish (Poland) (https://app.transifex.com/teclib/teams/28042/pl_PL/)\n"
 "MIME-Version: 1.0\n"
@@ -53,7 +53,7 @@ msgstr ""
 msgid "then **Enterprise application**."
 msgstr ""
 
-#: ../../source/scim/entra.rst-1
+#: ../../source/scim/entra.rst:19
 msgid "add application"
 msgstr ""
 
@@ -68,7 +68,7 @@ msgid ""
 "the gallery`**."
 msgstr ""
 
-#: ../../source/scim/entra.rst-1
+#: ../../source/scim/entra.rst:26
 msgid "create application"
 msgstr ""
 
@@ -80,7 +80,7 @@ msgstr ""
 msgid "Once you've created your application, go to **Provisioning**."
 msgstr ""
 
-#: ../../source/scim/entra.rst-1
+#: ../../source/scim/entra.rst:36
 msgid "add provisionning"
 msgstr ""
 
@@ -100,7 +100,7 @@ msgid ""
 "works properly."
 msgstr ""
 
-#: ../../source/scim/entra.rst-1
+#: ../../source/scim/entra.rst:45 ../../source/scim/entra.rst:51
 msgid "setup provisionning"
 msgstr ""
 
@@ -116,7 +116,8 @@ msgid ""
 "case of failure or accidental deletions."
 msgstr ""
 
-#: ../../source/scim/entra.rst-1
+#: ../../source/scim/entra.rst:57 ../../source/scim/entra.rst:112
+#: ../../source/scim/entra.rst:118
 msgid "check provisionning"
 msgstr ""
 
@@ -137,7 +138,7 @@ msgid ""
 "Go to the **Settings > Scope** tab and select **Sync all users and groups**."
 msgstr ""
 
-#: ../../source/scim/entra.rst-1
+#: ../../source/scim/entra.rst:71
 msgid "sync all"
 msgstr ""
 
@@ -159,7 +160,7 @@ msgstr ""
 msgid "Select **Synchronise assigned users and groups only**"
 msgstr ""
 
-#: ../../source/scim/entra.rst-1
+#: ../../source/scim/entra.rst:82
 msgid "sync selection"
 msgstr ""
 
@@ -183,7 +184,7 @@ msgstr ""
 msgid "Then **Select** and **Assign**."
 msgstr ""
 
-#: ../../source/scim/entra.rst-1
+#: ../../source/scim/entra.rst:92
 msgid "select users/groupes"
 msgstr ""
 
@@ -199,7 +200,7 @@ msgstr ""
 msgid "Change the status from **Disabled** to **Enabled**"
 msgstr ""
 
-#: ../../source/scim/entra.rst-1
+#: ../../source/scim/entra.rst:102
 msgid "enable sync"
 msgstr ""
 
@@ -231,6 +232,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr ""
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr ""

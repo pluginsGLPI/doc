@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 13:57+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2020-01-21 14:02+0000\n"
 "Last-Translator: Haider López <hlopez@itsoluciones.com.co>, 2020\n"
 "Language-Team: Spanish (Colombia) (https://app.transifex.com/teclib/teams/28042/es_CO/)\n"
@@ -380,6 +380,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr ""

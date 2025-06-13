@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Kaya Zeren <kayazeren@gmail.com>, 2024
+# Kaya Zeren <kayazeren@gmail.com>, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 12:58+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2020-01-24 06:36+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2025\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -75,8 +75,11 @@ msgid ""
 "network.com/#offers>`_ subscription. It is also available on `GLPI Cloud "
 "<https://glpi-network.cloud>`_."
 msgstr ""
+"Bu eklenti bir `GLPI-Network <https://services.glpi-network.com/#offers>`_ "
+"aboneliği olmadan kullanılabilir. Ayrıca `GLPI Cloud <https://glpi-"
+"network.cloud/>`_ üzerinden de edinilebilir."
 
-#: ../../source/credit/index.rst-1 ../../source/credit/index.rst:24
+#: ../../source/credit/index.rst:24 ../../source/credit/index.rst:28
 msgid "Install the plugin"
 msgstr "Eklentiyi kurmak"
 
@@ -100,7 +103,7 @@ msgstr "**Kurulum > Açılan kutular** bölümünden,"
 msgid "click on **Credits** then **Credit types**."
 msgstr "**Krediler** ve **Kredi türleri** üzerine tıklayın."
 
-#: ../../source/credit/index.rst-1
+#: ../../source/credit/index.rst:41
 msgid "search credit"
 msgstr "kredi ara"
 
@@ -112,7 +115,7 @@ msgstr "**Ekle** üzerine tıklayın"
 msgid "Enter a name representing the type of credit granted"
 msgstr "İzin verilen kredi türü için bir ad yazın"
 
-#: ../../source/credit/index.rst-1
+#: ../../source/credit/index.rst:48
 msgid "add credit"
 msgstr "kredi ekle"
 
@@ -190,7 +193,7 @@ msgstr "Sınırı aşma izni verin ya da vermeyin"
 msgid "Click on **add**"
 msgstr "**Ekle** üzerine tıklayın"
 
-#: ../../source/credit/index.rst-1
+#: ../../source/credit/index.rst:74
 msgid "add voucher"
 msgstr "kupon ekleyin"
 
@@ -209,7 +212,7 @@ msgstr ""
 "Bu nedenle her kredi için farklı değerler (kredi sayısı, geçerlilik, sınır "
 "aşma vb.) belirtilebilir:"
 
-#: ../../source/credit/index.rst-1
+#: ../../source/credit/index.rst:82
 msgid "list voucher"
 msgstr "kuponu listeleyin"
 
@@ -231,7 +234,7 @@ msgstr "**Varlığın varsayılan seçenekleri** bölümünden"
 msgid "Select the type of credit by action"
 msgstr "İşleme göre kredi türünü seçin"
 
-#: ../../source/credit/index.rst:0
+#: ../../source/credit/index.rst:94
 msgid "default credit"
 msgstr "Varsayılan kredi"
 
@@ -269,7 +272,7 @@ msgid ""
 "default:"
 msgstr "**İzleme** yapıyorsak, varsayılan olarak atanan krediyi düşebiliriz:"
 
-#: ../../source/credit/index.rst-1
+#: ../../source/credit/index.rst:114
 msgid "add credit on ticket"
 msgstr "Destek kaydına kredi ekleyin"
 
@@ -277,7 +280,7 @@ msgstr "Destek kaydına kredi ekleyin"
 msgid "The same for a **task**:"
 msgstr "Bir **görev** için de aynıdır:"
 
-#: ../../source/credit/index.rst-1
+#: ../../source/credit/index.rst:120
 msgid "add credit on task"
 msgstr "Göreve kredi ekleyin"
 
@@ -285,7 +288,7 @@ msgstr "Göreve kredi ekleyin"
 msgid "And for a **solution** :"
 msgstr "Ve bir **çözüm** için:"
 
-#: ../../source/credit/index.rst-1
+#: ../../source/credit/index.rst:126
 msgid "add credit on solution"
 msgstr "Çözüme kredi ekleyin"
 
@@ -297,7 +300,7 @@ msgstr ""
 "Destek kaydının **Kredi** bölümünde harcanan ve kalan kredilerin özetini "
 "görebilirsiniz"
 
-#: ../../source/credit/index.rst-1
+#: ../../source/credit/index.rst:132
 msgid "list of credits"
 msgstr "Kredilerin listesi"
 
@@ -336,11 +339,11 @@ msgstr ""
 msgid "Click on **Send**"
 msgstr "**Gönder** üzerine tıklayın"
 
-#: ../../source/credit/index.rst:154 ../../source/credit/index.rst:169
+#: ../../source/credit/index.rst:152 ../../source/credit/index.rst:167
 msgid "See how to proceed"
 msgstr "Nasıl ilerleyeceğinizi görün"
 
-#: ../../source/credit/index.rst:0
+#: ../../source/credit/index.rst:153
 msgid "modify credit on ticket"
 msgstr "Destek kaydının kredisini değiştirin"
 
@@ -360,7 +363,7 @@ msgstr "Silmek istediğiniz krediyi seçin"
 msgid "Click on **Delete permanently**"
 msgstr "**Kalıcı olarak sil** üzerine tıklayın"
 
-#: ../../source/credit/index.rst:0
+#: ../../source/credit/index.rst:168
 msgid "delete credit on ticket"
 msgstr "Destek kaydının kredisini silin"
 
@@ -405,7 +408,7 @@ msgstr ""
 msgid "Click on **Save**"
 msgstr "**Kaydet** üzerine tıklayın"
 
-#: ../../source/credit/index.rst-1
+#: ../../source/credit/index.rst:187
 msgid "automatic action"
 msgstr "Otomatik işlem"
 
@@ -433,6 +436,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr "Creative Commons Lisansı"

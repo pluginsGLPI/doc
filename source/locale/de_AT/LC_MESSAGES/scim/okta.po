@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 13:57+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-01-26 14:57+0000\n"
 "Language-Team: German (Austria) (https://app.transifex.com/teclib/teams/28042/de_AT/)\n"
 "MIME-Version: 1.0\n"
@@ -57,7 +57,7 @@ msgstr ""
 msgid "And **Create app integration**"
 msgstr ""
 
-#: ../../source/scim/okta.rst-1
+#: ../../source/scim/okta.rst:19
 msgid "Okta create app"
 msgstr ""
 
@@ -65,7 +65,7 @@ msgstr ""
 msgid "Select **SWA - Secure Web Authentication**"
 msgstr ""
 
-#: ../../source/scim/okta.rst-1
+#: ../../source/scim/okta.rst:25
 msgid "Select SWA Sign in"
 msgstr ""
 
@@ -83,7 +83,7 @@ msgstr ""
 msgid "Click **Finish**"
 msgstr ""
 
-#: ../../source/scim/okta.rst-1
+#: ../../source/scim/okta.rst:33
 msgid "add integration"
 msgstr ""
 
@@ -111,7 +111,7 @@ msgstr ""
 msgid "Click **Save**"
 msgstr ""
 
-#: ../../source/scim/okta.rst-1
+#: ../../source/scim/okta.rst:46
 msgid "setup general"
 msgstr ""
 
@@ -158,7 +158,7 @@ msgstr ""
 msgid "You need to **paste the JWT token** not the secret"
 msgstr ""
 
-#: ../../source/scim/okta.rst-1
+#: ../../source/scim/okta.rst:66
 msgid "setup provisionning"
 msgstr ""
 
@@ -166,7 +166,7 @@ msgstr ""
 msgid "Click **Test Connector Configuration**"
 msgstr ""
 
-#: ../../source/scim/okta.rst-1
+#: ../../source/scim/okta.rst:72
 msgid "Test connection"
 msgstr ""
 
@@ -187,7 +187,7 @@ msgid ""
 "user."
 msgstr ""
 
-#: ../../source/scim/okta.rst-1
+#: ../../source/scim/okta.rst:83
 msgid "Enable update data"
 msgstr ""
 
@@ -223,7 +223,7 @@ msgstr ""
 msgid "Click **Save and Go Back**"
 msgstr ""
 
-#: ../../source/scim/okta.rst-1
+#: ../../source/scim/okta.rst:99
 msgid "assign everyone"
 msgstr ""
 
@@ -254,6 +254,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr ""
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr ""

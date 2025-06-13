@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 13:57+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-01-31 13:12+0000\n"
 "Language-Team: Polish (Poland) (https://app.transifex.com/teclib/teams/28042/pl_PL/)\n"
 "MIME-Version: 1.0\n"
@@ -51,7 +51,7 @@ msgstr ""
 msgid "Click on **Create**"
 msgstr ""
 
-#: ../../source/oauthsso/keycloak.rst-1
+#: ../../source/oauthsso/keycloak.rst:16
 msgid "create Realm"
 msgstr ""
 
@@ -69,7 +69,7 @@ msgid ""
 "your LDAP if necessary)"
 msgstr ""
 
-#: ../../source/oauthsso/keycloak.rst-1
+#: ../../source/oauthsso/keycloak.rst:26
 msgid "create user"
 msgstr ""
 
@@ -83,7 +83,7 @@ msgstr ""
 msgid "Click on **Create** once you’ve entered your details."
 msgstr ""
 
-#: ../../source/oauthsso/keycloak.rst-1
+#: ../../source/oauthsso/keycloak.rst:33
 msgid "email verified"
 msgstr ""
 
@@ -95,7 +95,8 @@ msgstr ""
 msgid "Then **Set pasword**"
 msgstr ""
 
-#: ../../source/oauthsso/keycloak.rst-1
+#: ../../source/oauthsso/keycloak.rst:40
+#: ../../source/oauthsso/keycloak.rst:114
 msgid "add credentials"
 msgstr ""
 
@@ -109,7 +110,7 @@ msgstr ""
 msgid "Click on save then **Save password**"
 msgstr ""
 
-#: ../../source/oauthsso/keycloak.rst-1
+#: ../../source/oauthsso/keycloak.rst:47
 msgid "setup credentials"
 msgstr ""
 
@@ -147,7 +148,7 @@ msgstr ""
 msgid "Go to **Clients**"
 msgstr ""
 
-#: ../../source/oauthsso/keycloak.rst-1
+#: ../../source/oauthsso/keycloak.rst:68
 msgid "create client"
 msgstr ""
 
@@ -171,7 +172,7 @@ msgstr ""
 msgid "Keep this page active, we’ll come back to it later."
 msgstr ""
 
-#: ../../source/oauthsso/keycloak.rst-1
+#: ../../source/oauthsso/keycloak.rst:78
 msgid "client type"
 msgstr ""
 
@@ -189,7 +190,7 @@ msgid ""
 "screen)"
 msgstr ""
 
-#: ../../source/oauthsso/keycloak.rst-1
+#: ../../source/oauthsso/keycloak.rst:88
 msgid "add SSO GLPI"
 msgstr ""
 
@@ -199,7 +200,7 @@ msgid ""
 "redirect URIs** field"
 msgstr ""
 
-#: ../../source/oauthsso/keycloak.rst-1
+#: ../../source/oauthsso/keycloak.rst:94
 msgid "copy URL callback"
 msgstr ""
 
@@ -208,7 +209,7 @@ msgid ""
 "Back in GLPI’s Oauth SSO plugin configuration, fill in the required fields:"
 msgstr ""
 
-#: ../../source/oauthsso/keycloak.rst-1
+#: ../../source/oauthsso/keycloak.rst:100
 msgid "setup GLPI"
 msgstr ""
 
@@ -249,7 +250,7 @@ msgstr ""
 msgid "In the plugin, to see the approval message:"
 msgstr ""
 
-#: ../../source/oauthsso/keycloak.rst-1
+#: ../../source/oauthsso/keycloak.rst:124
 msgid "test connexion"
 msgstr ""
 
@@ -259,15 +260,15 @@ msgid ""
 "user you created earlier, or with your LDAP user."
 msgstr ""
 
-#: ../../source/oauthsso/keycloak.rst-1
+#: ../../source/oauthsso/keycloak.rst:130
 msgid "login page"
 msgstr ""
 
-#: ../../source/oauthsso/keycloak.rst-1
+#: ../../source/oauthsso/keycloak.rst:134
 msgid "connexion Keycloak"
 msgstr ""
 
-#: ../../source/oauthsso/keycloak.rst-1
+#: ../../source/oauthsso/keycloak.rst:138
 msgid "home page"
 msgstr ""
 
@@ -275,6 +276,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr ""
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr ""

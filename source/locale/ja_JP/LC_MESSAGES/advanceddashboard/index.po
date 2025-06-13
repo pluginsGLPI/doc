@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 13:57+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-01-26 14:56+0000\n"
 "Language-Team: Japanese (Japan) (https://app.transifex.com/teclib/teams/28042/ja_JP/)\n"
 "MIME-Version: 1.0\n"
@@ -56,8 +56,8 @@ msgid ""
 "GLPI Network `Cloud instances <https://glpi-network.cloud>`_."
 msgstr ""
 
-#: ../../source/advanceddashboard/index.rst-1
 #: ../../source/advanceddashboard/index.rst:17
+#: ../../source/advanceddashboard/index.rst:21
 msgid "Install the plugin"
 msgstr ""
 
@@ -115,7 +115,7 @@ msgid ""
 "query."
 msgstr ""
 
-#: ../../source/advanceddashboard/index.rst-1
+#: ../../source/advanceddashboard/index.rst:89
 msgid "SQL editor"
 msgstr ""
 
@@ -123,7 +123,7 @@ msgstr ""
 msgid "An insert at the bottom will display the result of the query:"
 msgstr ""
 
-#: ../../source/advanceddashboard/index.rst-1
+#: ../../source/advanceddashboard/index.rst:97
 msgid "preview result"
 msgstr ""
 
@@ -150,7 +150,7 @@ msgstr ""
 msgid "Then click on **Save fields and preview**."
 msgstr ""
 
-#: ../../source/advanceddashboard/index.rst-1
+#: ../../source/advanceddashboard/index.rst:108
 msgid "card setup"
 msgstr ""
 
@@ -180,7 +180,7 @@ msgstr ""
 msgid "Choose a colour for your tile"
 msgstr ""
 
-#: ../../source/advanceddashboard/index.rst-1
+#: ../../source/advanceddashboard/index.rst:122
 msgid "more card setup"
 msgstr ""
 
@@ -193,7 +193,7 @@ msgid ""
 "Some dashboards may ask you to use colours and display values and labels."
 msgstr ""
 
-#: ../../source/advanceddashboard/index.rst-1
+#: ../../source/advanceddashboard/index.rst:131
 msgid "label setup"
 msgstr ""
 
@@ -201,7 +201,7 @@ msgstr ""
 msgid "Your tile is now ready"
 msgstr ""
 
-#: ../../source/advanceddashboard/index.rst-1
+#: ../../source/advanceddashboard/index.rst:139
 msgid "the card is ready"
 msgstr ""
 
@@ -219,6 +219,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr ""
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr ""

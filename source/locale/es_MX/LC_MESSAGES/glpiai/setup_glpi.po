@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 13:57+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-03-12 08:29+0000\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/teclib/teams/28042/es_MX/)\n"
 "MIME-Version: 1.0\n"
@@ -29,7 +29,7 @@ msgstr ""
 msgid "Fill in the fields with the values copied previously"
 msgstr ""
 
-#: ../../source/glpiai/setup_glpi.rst-1
+#: ../../source/glpiai/setup_glpi.rst:7
 msgid "fill fields"
 msgstr ""
 
@@ -39,7 +39,7 @@ msgid ""
 "entries, your consumption and your preferences."
 msgstr ""
 
-#: ../../source/glpiai/setup_glpi.rst-1
+#: ../../source/glpiai/setup_glpi.rst:13
 msgid "field check"
 msgstr ""
 
@@ -47,6 +47,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr ""
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 13:57+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2025-04-04 10:58+0000\n"
 "Language-Team: English (United States) (https://app.transifex.com/teclib/teams/28042/en_US/)\n"
 "MIME-Version: 1.0\n"
@@ -56,8 +56,8 @@ msgid ""
 "GLPI Network `Cloud instances <https://glpi-network.cloud>`_."
 msgstr ""
 
-#: ../../source/agent_config/index.rst-1
 #: ../../source/agent_config/index.rst:16
+#: ../../source/agent_config/index.rst:20
 msgid "Install the plugin"
 msgstr ""
 
@@ -111,7 +111,7 @@ msgstr ""
 msgid "Manage **automatic inventory and frequency** for android"
 msgstr ""
 
-#: ../../source/agent_config/index.rst-1
+#: ../../source/agent_config/index.rst:39
 msgid "setup the plugin"
 msgstr ""
 
@@ -125,7 +125,7 @@ msgid ""
 " the agent :"
 msgstr ""
 
-#: ../../source/agent_config/index.rst-1
+#: ../../source/agent_config/index.rst:49
 msgid "Deeplink of QRCode"
 msgstr ""
 
@@ -145,7 +145,7 @@ msgstr ""
 msgid "Download the **Agent GLPI** on the Google Store"
 msgstr ""
 
-#: ../../source/agent_config/index.rst-1
+#: ../../source/agent_config/index.rst:63
 msgid "Install agent on the Google Store"
 msgstr ""
 
@@ -161,7 +161,7 @@ msgstr ""
 msgid "Click on the DeepLink"
 msgstr ""
 
-#: ../../source/agent_config/index.rst-1
+#: ../../source/agent_config/index.rst:73
 msgid "Click on Deeplink"
 msgstr ""
 
@@ -173,7 +173,8 @@ msgstr ""
 msgid "Then click on **Add server**"
 msgstr ""
 
-#: ../../source/agent_config/index.rst-1
+#: ../../source/agent_config/index.rst:80
+#: ../../source/agent_config/index.rst:99
 msgid "Add server"
 msgstr ""
 
@@ -197,7 +198,7 @@ msgstr ""
 msgid "Flash QR Code"
 msgstr ""
 
-#: ../../source/agent_config/index.rst-1
+#: ../../source/agent_config/index.rst:92
 msgid "Use QR Code"
 msgstr ""
 
@@ -219,7 +220,7 @@ msgid ""
 "select/unselect the informations you want to inventory"
 msgstr ""
 
-#: ../../source/agent_config/index.rst-1
+#: ../../source/agent_config/index.rst:108
 msgid "Show catgory you want to inventory"
 msgstr ""
 
@@ -254,6 +255,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr ""
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr ""

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 12:58+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-02-14 18:27+0000\n"
 "Last-Translator: Rui Melo <viper5000pt@gmail.com>, 2024\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/teclib/teams/28042/pt_PT/)\n"
@@ -70,7 +70,7 @@ msgid ""
 msgstr ""
 "Visite o marketplace. Descarregue e instale o plugin **Mais satisfação**"
 
-#: ../../source/approvalbymail/index.rst-1
+#: ../../source/approvalbymail/index.rst:20
 msgid "install the plugin"
 msgstr "Instalar o plugin"
 
@@ -91,7 +91,7 @@ msgid ""
 "approval request."
 msgstr ""
 
-#: ../../source/approvalbymail/index.rst-1
+#: ../../source/approvalbymail/index.rst:30
 msgid "add approbation"
 msgstr ""
 
@@ -114,7 +114,7 @@ msgstr ""
 msgid "The refusal link"
 msgstr ""
 
-#: ../../source/approvalbymail/index.rst-1
+#: ../../source/approvalbymail/index.rst:40
 msgid "see the email"
 msgstr "ver o email"
 
@@ -124,7 +124,7 @@ msgid ""
 "of acceptance:"
 msgstr ""
 
-#: ../../source/approvalbymail/index.rst-1
+#: ../../source/approvalbymail/index.rst:47
 msgid "validation ok"
 msgstr "Validação ok"
 
@@ -133,7 +133,7 @@ msgid ""
 "If the form is refused, a comment will be requested to validate the refusal:"
 msgstr ""
 
-#: ../../source/approvalbymail/index.rst-1
+#: ../../source/approvalbymail/index.rst:54
 msgid "add text refused"
 msgstr "adicionar texto recusado"
 
@@ -143,7 +143,7 @@ msgid ""
 " be displayed:"
 msgstr ""
 
-#: ../../source/approvalbymail/index.rst-1
+#: ../../source/approvalbymail/index.rst:61
 msgid "refused"
 msgstr "Recusado"
 
@@ -161,6 +161,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr "Licença Creative Commons"

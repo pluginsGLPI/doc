@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 13:57+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-01-31 13:12+0000\n"
 "Language-Team: Catalan (Spain) (https://app.transifex.com/teclib/teams/28042/ca_ES/)\n"
 "MIME-Version: 1.0\n"
@@ -37,7 +37,7 @@ msgstr ""
 msgid "Click on **Add**"
 msgstr ""
 
-#: ../../source/oauthsso/okta.rst-1
+#: ../../source/oauthsso/okta.rst:11
 msgid "add SSO GLPI"
 msgstr ""
 
@@ -45,7 +45,7 @@ msgstr ""
 msgid "Keep this window active and retain the callback URL :"
 msgstr ""
 
-#: ../../source/oauthsso/okta.rst-1
+#: ../../source/oauthsso/okta.rst:18
 msgid "copy callback URL"
 msgstr ""
 
@@ -57,7 +57,7 @@ msgstr ""
 msgid "**Create App Integration**"
 msgstr ""
 
-#: ../../source/oauthsso/okta.rst-1
+#: ../../source/oauthsso/okta.rst:26
 msgid "create app"
 msgstr ""
 
@@ -71,7 +71,7 @@ msgstr ""
 msgid "Click on **Next**"
 msgstr ""
 
-#: ../../source/oauthsso/okta.rst-1
+#: ../../source/oauthsso/okta.rst:34
 msgid "select sign-in"
 msgstr ""
 
@@ -79,7 +79,7 @@ msgstr ""
 msgid "Enter an application name and check the box **Client credentials**"
 msgstr ""
 
-#: ../../source/oauthsso/okta.rst-1
+#: ../../source/oauthsso/okta.rst:41
 msgid "web integration"
 msgstr ""
 
@@ -87,7 +87,7 @@ msgstr ""
 msgid "Enter the return URL, retrieved above, in Sign-in redirect URIs."
 msgstr ""
 
-#: ../../source/oauthsso/okta.rst-1
+#: ../../source/oauthsso/okta.rst:48
 msgid "paste URL callback"
 msgstr ""
 
@@ -105,7 +105,7 @@ msgstr ""
 msgid "Finally, click on **Save**"
 msgstr ""
 
-#: ../../source/oauthsso/okta.rst-1
+#: ../../source/oauthsso/okta.rst:59
 msgid "assignments"
 msgstr ""
 
@@ -119,7 +119,7 @@ msgid ""
 " OKTA tenant information :"
 msgstr ""
 
-#: ../../source/oauthsso/okta.rst-1
+#: ../../source/oauthsso/okta.rst:69
 msgid "setup GLPI"
 msgstr ""
 
@@ -140,7 +140,7 @@ msgid ""
 "Enter the application ID found in the application previously created in OKTA"
 msgstr ""
 
-#: ../../source/oauthsso/okta.rst-1
+#: ../../source/oauthsso/okta.rst:82
 msgid "client ID"
 msgstr ""
 
@@ -154,7 +154,7 @@ msgid ""
 "application"
 msgstr ""
 
-#: ../../source/oauthsso/okta.rst-1
+#: ../../source/oauthsso/okta.rst:91
 msgid "add secret"
 msgstr ""
 
@@ -168,7 +168,7 @@ msgstr ""
 msgid "In the plugin, you will see the approval message:"
 msgstr ""
 
-#: ../../source/oauthsso/okta.rst-1
+#: ../../source/oauthsso/okta.rst:101
 msgid "test connexion"
 msgstr ""
 
@@ -176,11 +176,11 @@ msgstr ""
 msgid "Now that the configuration is complete, you can test it with a user."
 msgstr ""
 
-#: ../../source/oauthsso/okta.rst-1
+#: ../../source/oauthsso/okta.rst:108
 msgid "login page"
 msgstr ""
 
-#: ../../source/oauthsso/okta.rst-1
+#: ../../source/oauthsso/okta.rst:113
 msgid "home page"
 msgstr ""
 
@@ -188,6 +188,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr ""
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr ""

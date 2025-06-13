@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Kaya Zeren <kayazeren@gmail.com>, 2024
+# Kaya Zeren <kayazeren@gmail.com>, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 12:58+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-01-26 14:57+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2025\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -102,6 +102,9 @@ msgid ""
 "network.com/#offers>`_ subscription. It is also available on `GLPI Cloud "
 "<https://glpi-network.cloud>`_."
 msgstr ""
+"Bu eklenti bir `GLPI-Network <https://services.glpi-network.com/#offers>`_ "
+"aboneliği olmadan kullanılabilir. Ayrıca `GLPI Cloud <https://glpi-"
+"network.cloud/>`_ üzerinden de edinilebilir."
 
 #: ../../source/oauthimap/index.rst:31
 msgid "Supported mail services"
@@ -125,7 +128,7 @@ msgstr ""
 "Entra : https://learn.microsoft.com/fr-fr/power-platform/admin/connect-"
 "gmail-oauth2"
 
-#: ../../source/oauthimap/index.rst-1 ../../source/oauthimap/index.rst:40
+#: ../../source/oauthimap/index.rst:40 ../../source/oauthimap/index.rst:44
 msgid "Install the plugin"
 msgstr "Eklentiyi kurmak"
 
@@ -148,7 +151,7 @@ msgstr "Arama kutusuna **kayıt** yazın"
 msgid "then select **App registrations**"
 msgstr "ardından **Uygulama kayıtları** ögesini seçin"
 
-#: ../../source/oauthimap/index.rst-1
+#: ../../source/oauthimap/index.rst:52
 msgid "add app Entra"
 msgstr "Uygulamayı Entra üzerine ekleyin"
 
@@ -189,7 +192,7 @@ msgstr ""
 msgid "Then click on **Register**."
 msgstr "Ardından **Kaydet** üzerine tıklayın"
 
-#: ../../source/oauthimap/index.rst-1
+#: ../../source/oauthimap/index.rst:69
 msgid "register app"
 msgstr "Uygulamayı kaydedin"
 
@@ -209,7 +212,7 @@ msgstr "**İstemci parolaları** üzerine tıklayın"
 msgid "Then **New client secret**"
 msgstr "Ardından **Yeni istemci parolası** üzerine tıklayın"
 
-#: ../../source/oauthimap/index.rst-1
+#: ../../source/oauthimap/index.rst:80
 msgid "add secret"
 msgstr "Parolayı ekleyin"
 
@@ -226,7 +229,7 @@ msgstr ""
 "Ardından bir parola **değeri** oluşturulur. Bu değeri iyi saklayın çünkü bu "
 "sayfadan ayrıldıktan sonra bir daha görüntülenmez"
 
-#: ../../source/oauthimap/index.rst-1
+#: ../../source/oauthimap/index.rst:87
 msgid "select value secret"
 msgstr "Parola değerini seçin"
 
@@ -238,49 +241,49 @@ msgstr ""
 "**Özet** sekmesine dönün ve aşağıdaki değerler ile yukarıda görülen parolayı"
 " **kopyalayın**"
 
-#: ../../source/oauthimap/index.rst-1
+#: ../../source/oauthimap/index.rst:93
 msgid "overview"
 msgstr "Özet"
 
 #: ../../source/oauthimap/index.rst:99
 msgid "Add API permissions"
-msgstr ""
+msgstr "API izinleri ekle"
 
 #: ../../source/oauthimap/index.rst:101
 msgid "In the **API Permissions** tab"
-msgstr ""
+msgstr "**API izinleri** sekmesinde"
 
 #: ../../source/oauthimap/index.rst:102
 msgid "Click on **your API** (Microsoft Graph in this case)"
-msgstr ""
+msgstr "**API uygulamanız** üzerine tıklayın (bu durumda Microsoft Graph)"
 
 #: ../../source/oauthimap/index.rst:103
 msgid "Then select **Delegated permission**"
-msgstr ""
+msgstr "Ardından **Yetkilendirilmiş izin** seçin"
 
 #: ../../source/oauthimap/index.rst:104
 msgid "Select :"
-msgstr ""
+msgstr "Şunu seçin:"
 
 #: ../../source/oauthimap/index.rst:106
 msgid "email"
-msgstr ""
+msgstr "e-posta"
 
 #: ../../source/oauthimap/index.rst:107
 msgid "offline_access"
-msgstr ""
+msgstr "offline_access"
 
 #: ../../source/oauthimap/index.rst:108
 msgid "openid"
-msgstr ""
+msgstr "openid"
 
 #: ../../source/oauthimap/index.rst:109
 msgid "profile"
-msgstr ""
+msgstr "profil"
 
-#: ../../source/oauthimap/index.rst-1
+#: ../../source/oauthimap/index.rst:111
 msgid "add api permissions"
-msgstr ""
+msgstr "API izinleri ekle"
 
 #: ../../source/oauthimap/index.rst:116
 msgid "Setup GLPI"
@@ -294,7 +297,7 @@ msgstr ""
 "Şimdi GLPI arayüzünüze dönün, **Kurulum > OAuth IMAP uygulaması** bölümüne "
 "gidin ve daha önce topladığınız bilgileri belirtin:"
 
-#: ../../source/oauthimap/index.rst-1
+#: ../../source/oauthimap/index.rst:120
 msgid "setup GLPI"
 msgstr "GLPI kurulumu"
 
@@ -309,7 +312,7 @@ msgstr ""
 "**OAuth yetkilendirmesi** sekmesinden, **Bir yetkilendirme oluştur** üzerine"
 " tıklayın"
 
-#: ../../source/oauthimap/index.rst-1
+#: ../../source/oauthimap/index.rst:127
 msgid "Oauth Auhorization"
 msgstr "OAuth yetkilendirmesi"
 
@@ -334,11 +337,11 @@ msgid ""
 "plugin."
 msgstr "Eklentiyle ilgili gerekli izinleri de vermeniz gerekecektir."
 
-#: ../../source/oauthimap/index.rst-1
+#: ../../source/oauthimap/index.rst:135
 msgid "app Auhorization"
 msgstr "Uygulama yetkilendirmesi"
 
-#: ../../source/oauthimap/index.rst-1
+#: ../../source/oauthimap/index.rst:139
 msgid "check account"
 msgstr "Hesabı denetle"
 
@@ -358,6 +361,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr "|ccbyncnd|"
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr "Creative Commons Lisansı"

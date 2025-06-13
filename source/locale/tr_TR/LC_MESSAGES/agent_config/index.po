@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the GLPI plugins package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Kaya Zeren <kayazeren@gmail.com>, 2025
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 13:57+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2025-04-04 10:58+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2025\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/teclib/teams/28042/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,35 +23,35 @@ msgstr ""
 
 #: ../../source/agent_config/index.rst:2
 msgid "Agent Config"
-msgstr ""
+msgstr "Aracı yapılandırması"
 
 #: ../../source/agent_config/index.rst:5
 msgid "Requirements (on-premise)"
-msgstr ""
+msgstr "Gereksinimler (özel kurulum)"
 
 #: ../../source/agent_config/index.rst:8
 msgid "GLPI Version"
-msgstr ""
+msgstr "GLPI sürümü"
 
 #: ../../source/agent_config/index.rst:8
 msgid "Minimum PHP"
-msgstr ""
+msgstr "En düşük PHP sürümü"
 
 #: ../../source/agent_config/index.rst:8
 msgid "Recommended"
-msgstr ""
+msgstr "Önerilen"
 
 #: ../../source/agent_config/index.rst:10
 msgid "10.0.x"
-msgstr ""
+msgstr "10.0.x"
 
 #: ../../source/agent_config/index.rst:10
 msgid "8.1"
-msgstr ""
+msgstr "8.1"
 
 #: ../../source/agent_config/index.rst:10
 msgid "8.2"
-msgstr ""
+msgstr "8.2"
 
 #: ../../source/include/basic_subscription.rst:2
 msgid ""
@@ -55,42 +59,52 @@ msgid ""
 "subscription (or higher) is required. This plugin is also available for all "
 "GLPI Network `Cloud instances <https://glpi-network.cloud>`_."
 msgstr ""
+"Bir `GLPI Network BASIC <https://services.glpi-network.com/#offers>`_ "
+"aboneliği (ya da üzeri) gereklidir. Bu eklenti tüm GLPI Network `Cloud "
+"kopyaları <https://glpi-network.cloud>`_ ile de edinilebilir."
 
-#: ../../source/agent_config/index.rst-1
 #: ../../source/agent_config/index.rst:16
+#: ../../source/agent_config/index.rst:20
 msgid "Install the plugin"
-msgstr ""
+msgstr "Eklentiyi kurmak"
 
 #: ../../source/agent_config/index.rst:18
 msgid ""
 "Go to the marketplace. Download and install the “`Agent config`”   plugin."
-msgstr ""
+msgstr "Mağazaya gidin. **Agent config** eklentisini indirip kurun."
 
 #: ../../source/agent_config/index.rst:26
 msgid "Setting up the plugin"
-msgstr ""
+msgstr "Eklentiyi kurmak"
 
 #: ../../source/agent_config/index.rst:28
 msgid ""
 "In **Setup** > **General** > **GLPI Agent Contiguration**, select the "
 "options you want :"
 msgstr ""
+"**Kurulum** > **Genel** > **GLPI Agent Configuration** bölümünden "
+"istediğiniz ayarları yapın:"
 
 #: ../../source/agent_config/index.rst:30
 msgid "By default, the URL of the inventory is indicated"
-msgstr ""
+msgstr "Varsayılan olarak, varlığın adresi belirtilir"
 
 #: ../../source/agent_config/index.rst:31
 msgid ""
 "To secure your instance and limit feedback from your mobile devices, you can"
 " enter a **login** and **password** for each mobile device to be inventoried"
 msgstr ""
+"Kopyanızın güvenliğini sağlamak ve mobil aygıtlarınızdan gelen geri "
+"bildirimleri sınırlamak için, varlık kayıtlarına eklenecek her mobil aygıt "
+"için bir **kullanıcı adı** ve **parola** belirtebilirsiniz."
 
 #: ../../source/agent_config/index.rst:32
 msgid ""
 "You can use a **tag entity** (choose **Yes** and indicate your **tag** if "
 "needed)"
 msgstr ""
+"Bir **etiket varlığı** kullanabilirsiniz (**Evet** seçin ve gerekirse "
+"**etiketinizi** belirtin)"
 
 #: ../../source/agent_config/index.rst:33
 msgid ""
@@ -98,36 +112,41 @@ msgid ""
 "indicates the type of device by default, but can be modified individually "
 "from each device)"
 msgstr ""
+"Varsayılan olarak **varlık türünü** seçin (bilgisayarlar veya telefonlar, bu"
+" bilgiler varsayılan olarak aygıt türünü gösterir, ancak her aygıttan ayrı "
+"ayrı değiştirilebilir)"
 
 #: ../../source/agent_config/index.rst:35
 msgid "Display **QR Code** (on central page)"
-msgstr ""
+msgstr "**Kare kodu** görüntüleyin (merkez sayfada)"
 
 #: ../../source/agent_config/index.rst:36
 msgid "Display **Deeplink** (on central page)"
-msgstr ""
+msgstr "**Derin bağlantıyı** görüntüleyin (merkez sayfada)"
 
 #: ../../source/agent_config/index.rst:37
 msgid "Manage **automatic inventory and frequency** for android"
-msgstr ""
+msgstr "Android için **otomatik envanter ve sıklık** ayarını yapın"
 
-#: ../../source/agent_config/index.rst-1
+#: ../../source/agent_config/index.rst:39
 msgid "setup the plugin"
-msgstr ""
+msgstr "eklentiyi kurun"
 
 #: ../../source/agent_config/index.rst:45
 msgid "Central page"
-msgstr ""
+msgstr "Merkez sayfa"
 
 #: ../../source/agent_config/index.rst:47
 msgid ""
 "On **Home** > **GLPI Agent Config** use Deep link or QR Code to preconfigure"
 " the agent :"
 msgstr ""
+"**Giriş** > **GLPI Agent Config** bölümünden aracıyı önceden yapılandırmak "
+"için derin bağlantıyı ya da kare kodu kullanın:"
 
-#: ../../source/agent_config/index.rst-1
+#: ../../source/agent_config/index.rst:49
 msgid "Deeplink of QRCode"
-msgstr ""
+msgstr "Derin bağlantı ya da kare kod"
 
 #: ../../source/agent_config/index.rst:54
 msgid ""
@@ -136,124 +155,144 @@ msgid ""
 "**QR Code** to configure the agent with the serial number previously "
 "generated and inventoried in GLPI."
 msgstr ""
+"Telefon fabrika ayarlarına sıfırlandığında, aracı tarafından otomatik olarak"
+" oluşturulan seri numarası değişir. Aracıyı daha önce oluşturulan ve GLPI "
+"üzerinde varlık kaydı yapılmış seri numarasıyla yapılandırmak için **derin "
+"bağlantı** / **Kare kod** kullanabilirsiniz."
 
 #: ../../source/agent_config/index.rst:59
 msgid "Setup mobile device"
-msgstr ""
+msgstr "Mobil aygıtı kurun"
 
 #: ../../source/agent_config/index.rst:61
 msgid "Download the **Agent GLPI** on the Google Store"
-msgstr ""
+msgstr "Google Store üzerinden **Agent GLPI** uygulamasını indirin "
 
-#: ../../source/agent_config/index.rst-1
+#: ../../source/agent_config/index.rst:63
 msgid "Install agent on the Google Store"
-msgstr ""
+msgstr "Google Store üzerinden aracıyı kurun"
 
 #: ../../source/agent_config/index.rst:68
 msgid "With Deep Link"
-msgstr ""
+msgstr "Derin bağlantı ile"
 
 #: ../../source/agent_config/index.rst:70
 msgid "Go to GLPI with your device web browser"
-msgstr ""
+msgstr "Aygıtınızın tarayıcısı ile GLPI kopyanıza gidin"
 
 #: ../../source/agent_config/index.rst:71
 msgid "Click on the DeepLink"
-msgstr ""
+msgstr "Derin bağlantıya tıklayın"
 
-#: ../../source/agent_config/index.rst-1
+#: ../../source/agent_config/index.rst:73
 msgid "Click on Deeplink"
-msgstr ""
+msgstr "Derin bağlantıya tıklayın"
 
 #: ../../source/agent_config/index.rst:77
 msgid "App will open and pre-fill the fields for adding a server"
 msgstr ""
+"Uygulama bir sunucu eklemek için gerekli alanlar önceden doldurulmuş olarak "
+"açılır"
 
 #: ../../source/agent_config/index.rst:78
 msgid "Then click on **Add server**"
-msgstr ""
+msgstr "Ardından **Sunucu ekle** üzerine tıklayın"
 
-#: ../../source/agent_config/index.rst-1
+#: ../../source/agent_config/index.rst:80
+#: ../../source/agent_config/index.rst:99
 msgid "Add server"
-msgstr ""
+msgstr "Sunucu ekle"
 
 #: ../../source/agent_config/index.rst:85
 msgid "With QR Code"
-msgstr ""
+msgstr "Kare kod ile"
 
 #: ../../source/agent_config/index.rst:87
 msgid "Open **GLPI Agent** on your device"
-msgstr ""
+msgstr "Aygıtınız üzerinde **GLPI aracısı** uygulamasını açın"
 
 #: ../../source/agent_config/index.rst:88
 msgid "Go to **Advanced Settings** > **Open List Server** > **Add servers**"
 msgstr ""
+"**Gelişmiş ayarlar** > **Açık liste sunucusu** > **Sunucu ekle** üzerine "
+"dokunun"
 
 #: ../../source/agent_config/index.rst:89
 msgid "Click on **QR Code** button"
-msgstr ""
+msgstr "**Kare kod** üzerine dokunun"
 
 #: ../../source/agent_config/index.rst:90
 msgid "Flash QR Code"
-msgstr ""
+msgstr "Kare kodu okutun"
 
-#: ../../source/agent_config/index.rst-1
+#: ../../source/agent_config/index.rst:92
 msgid "Use QR Code"
-msgstr ""
+msgstr "Kare kodu kullanın"
 
 #: ../../source/agent_config/index.rst:96
 msgid "App pre-fill the fields for adding a server"
-msgstr ""
+msgstr "Uygulama bir sunucu eklemek için gerekli alanları doldurur"
 
 #: ../../source/agent_config/index.rst:97
 msgid "Then add server."
-msgstr ""
+msgstr "Ardından sunucuyu ekleyin."
 
 #: ../../source/agent_config/index.rst:104
 msgid "Category Global"
-msgstr ""
+msgstr "Genel kategori"
 
 #: ../../source/agent_config/index.rst:106
 msgid ""
 "In mobile device, menu > advanced settings > Category global, "
 "select/unselect the informations you want to inventory"
 msgstr ""
+"Mobil aygıtta, Menü > Gelişmiş ayarlar > Genel kategori, varlık kaydını "
+"yapmak istediğiniz bilgileri seçin ya da seçimini kaldırın"
 
-#: ../../source/agent_config/index.rst-1
+#: ../../source/agent_config/index.rst:108
 msgid "Show catgory you want to inventory"
-msgstr ""
+msgstr "Varlık kaydını yapmak istediğiniz kategoriyi görüntüleyin"
 
 #: ../../source/agent_config/index.rst:113
 msgid "Contributing"
-msgstr ""
+msgstr "Katkıda bulunun"
 
 #: ../../source/agent_config/index.rst:115
 msgid "Open a ticket for each bug/feature so it can be discussed"
 msgstr ""
+"Değerlendirilmesi için hatalar veya istediğiniz özellikler ile ilgili bir "
+"destek kaydı açın"
 
 #: ../../source/agent_config/index.rst:116
 msgid ""
 "Follow `development guidelines <http://glpi-developer-"
 "documentation.readthedocs.io/en/latest/plugins/index.html>`_"
 msgstr ""
+"`Geliştirme rehberi <http://glpi-developer-"
+"documentation.readthedocs.io/en/latest/plugins/index.html>`_ belgesindeki "
+"önerileri uygulayın"
 
 #: ../../source/agent_config/index.rst:117
 msgid ""
 "Refer to `GitFlow <http://git-flow.readthedocs.io/>`_ process for branching"
 msgstr ""
+"Dallandırmak için `GitFlow <http://git-flow.readthedocs.io/>`_ işlemine "
+"bakın"
 
 #: ../../source/agent_config/index.rst:118
 msgid "Work on a new branch on your own fork"
-msgstr ""
+msgstr "Kendi yeni dalınız üzerinde çalışın"
 
 #: ../../source/agent_config/index.rst:119
 msgid "Open a PR that will be reviewed by a developer"
 msgstr ""
+"Bir geliştirici tarafından değerlendirilmesi için bir çekme isteği (PR) "
+"oluşturun"
 
 #: ../../<rst_epilog>:2
 msgid "|ccbyncnd|"
-msgstr ""
+msgstr "|ccbyncnd|"
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
-msgstr ""
+msgstr "Creative Commons Lisansı"

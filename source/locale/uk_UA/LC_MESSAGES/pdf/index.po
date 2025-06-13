@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 13:57+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-01-31 13:12+0000\n"
 "Language-Team: Ukrainian (Ukraine) (https://app.transifex.com/teclib/teams/28042/uk_UA/)\n"
 "MIME-Version: 1.0\n"
@@ -64,7 +64,7 @@ msgstr ""
 msgid "Go to the marketplace. Download and install the plugin **PDF**"
 msgstr ""
 
-#: ../../source/pdf/index.rst-1
+#: ../../source/pdf/index.rst:20
 msgid "install the plugin"
 msgstr ""
 
@@ -84,7 +84,7 @@ msgstr ""
 msgid "Any text that will be displayed on the PDF."
 msgstr ""
 
-#: ../../source/pdf/index.rst-1
+#: ../../source/pdf/index.rst:33
 msgid "setup the plugin"
 msgstr ""
 
@@ -108,11 +108,11 @@ msgstr ""
 msgid "Click on **Print**"
 msgstr ""
 
-#: ../../source/pdf/index.rst-1
+#: ../../source/pdf/index.rst:48
 msgid "example"
 msgstr ""
 
-#: ../../source/pdf/index.rst-1
+#: ../../source/pdf/index.rst:53
 msgid "print PDF"
 msgstr ""
 
@@ -120,6 +120,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr ""
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr ""

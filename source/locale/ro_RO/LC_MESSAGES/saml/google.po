@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI plugins\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-04 13:57+0200\n"
+"POT-Creation-Date: 2025-06-13 14:51+0200\n"
 "PO-Revision-Date: 2024-06-24 08:21+0000\n"
 "Language-Team: Romanian (Romania) (https://app.transifex.com/teclib/teams/28042/ro_RO/)\n"
 "MIME-Version: 1.0\n"
@@ -48,7 +48,7 @@ msgstr ""
 msgid "Click on **Save**"
 msgstr ""
 
-#: ../../source/saml/tabs/add-app.rst-1
+#: ../../source/saml/tabs/add-app.rst:12
 msgid "Add GLPI app"
 msgstr ""
 
@@ -76,7 +76,7 @@ msgstr ""
 msgid "And **Add custom SAML app**"
 msgstr ""
 
-#: ../../source/saml/google.rst-1
+#: ../../source/saml/google.rst:15
 msgid "create app Google"
 msgstr ""
 
@@ -88,7 +88,7 @@ msgstr ""
 msgid "Click on **Continue**"
 msgstr ""
 
-#: ../../source/saml/google.rst-1
+#: ../../source/saml/google.rst:22
 msgid "give a name to your app"
 msgstr ""
 
@@ -104,11 +104,11 @@ msgstr ""
 msgid "Enter the values as shown in the 2 screenshots below"
 msgstr ""
 
-#: ../../source/saml/google.rst-1
+#: ../../source/saml/google.rst:33
 msgid "IDP info Google"
 msgstr ""
 
-#: ../../source/saml/google.rst-1
+#: ../../source/saml/google.rst:37
 msgid "report the values in GLPI"
 msgstr ""
 
@@ -126,11 +126,11 @@ msgstr ""
 msgid "In Service provider details, report the values from GLPI to Google :"
 msgstr ""
 
-#: ../../source/saml/google.rst-1
+#: ../../source/saml/google.rst:48
 msgid "Service provider info GLPI"
 msgstr ""
 
-#: ../../source/saml/google.rst-1
+#: ../../source/saml/google.rst:52
 msgid "Report the values form GLPI"
 msgstr ""
 
@@ -153,7 +153,7 @@ msgid ""
 "certificates, other than that they are valid X509 certificates."
 msgstr ""
 
-#: ../../source/saml/google.rst-1
+#: ../../source/saml/google.rst:63
 msgid "setup the values"
 msgstr ""
 
@@ -161,7 +161,7 @@ msgstr ""
 msgid "Then **Finish**"
 msgstr ""
 
-#: ../../source/saml/google.rst-1 ../../source/saml/google.rst:70
+#: ../../source/saml/google.rst:70 ../../source/saml/google.rst:72
 msgid "Your app is now created"
 msgstr ""
 
@@ -181,7 +181,7 @@ msgid ""
 "you create from JIT Rules to be applied."
 msgstr ""
 
-#: ../../source/saml/google.rst-1
+#: ../../source/saml/google.rst:83
 msgid "options for security"
 msgstr ""
 
@@ -216,7 +216,7 @@ msgstr ""
 msgid "Click on **On for everyone**"
 msgstr ""
 
-#: ../../source/saml/google.rst-1
+#: ../../source/saml/google.rst:105 ../../source/saml/google.rst:125
 msgid "Allow users to use app"
 msgstr ""
 
@@ -245,7 +245,7 @@ msgstr ""
 msgid "Add informations that you want"
 msgstr ""
 
-#: ../../source/saml/google.rst-1
+#: ../../source/saml/google.rst:121
 msgid "add attributes for Google"
 msgstr ""
 
@@ -309,6 +309,6 @@ msgstr ""
 msgid "|ccbyncnd|"
 msgstr ""
 
-#: ../../<rst_epilog>:0
+#: ../../<rst_epilog>:4
 msgid "Creative Commons License"
 msgstr ""
