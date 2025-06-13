@@ -2,7 +2,7 @@ Apple
 -----
 
 Create a new identifier
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
 
 * Go to this page to configure the `Apple provider <https://developer.apple.com/account/resources/certificates/list>`_
 * Create a new "Identifier" in the ``Identifiers`` tab.
@@ -16,7 +16,6 @@ Create a new identifier
 
 .. figure:: images/apple_apps_id.png
     :alt: Select ``App IDs``.
-
     :scale: 57 %
 
 
