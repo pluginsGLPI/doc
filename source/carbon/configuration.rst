@@ -69,7 +69,7 @@ To do so, the plugin seearches for the following dates on order of decreasing pr
 
 .. note:: Monitors rely on the location of the computer it is connected to, so there is no need to add it manually
 
-2. The plugin needs to know where is an asset to determine which carbon intensity is applied to its energy consumption. The associated location mist have the field **Country** filled
+2. The plugin needs to know where is an asset to determine which carbon intensity is applied to its energy consumption. The associated location must have the field **Country** filled
 
 3. Each asset must be associated with a model so that the plugin can estimate CO2 emissions as closely as possible. This information can be pre-filled from a `template <https://glpi-user-documentation.readthedocs.io/fr/latest/modules/overview/templates.html>`_
 
