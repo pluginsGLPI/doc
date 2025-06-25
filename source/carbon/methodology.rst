@@ -10,14 +10,14 @@ Depending on the enabled engine, the methodology of embodied impact may vary.
 Boaviztapi
 ^^^^^^^^^^
 
-Boaviztapi is a tool produced by Boavizta, an association helping organizations to assess, manage and reduce the environmental impact of their digital in a simple, fast and reliable way.
+Boaviztapi is a tool produced by Boavizta, an association helping organizations to assess, manage and reduce the environmental impact of their digital assets in a simple, fast and reliable way.
 
-It maintains a tool which calculates impacts of digital assets from its internal database. The Carbon plugin sends queries to this tool to get metrics which are locally saved and agregated.
+The Carbon plugin sends queries to this tool to get metrics which are locally saved and agregated.
 
 Usage impacts
 ----------------
 
-The plugin calculates internally the emissions of C0_2Eq, using carbon intensity of local electricity of each assset. Other impacts are calculated by external tools.
+The plugin internally calculates the emissions of C0_2Eq, using the carbon intensity of the local electricity supplier of each asset. Other impacts are calculated by external tools.
 
 Greenhouse gas emissions
 ^^^^^^^^^^^^^^^^^^^^^^^^
