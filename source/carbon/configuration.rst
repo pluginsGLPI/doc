@@ -44,7 +44,19 @@ Enable / disable carbon intensity data download
 .. note::
     If the list of regions or countries is empty then you need to run the automatic action of this source first.
 
+Enable / disable automatic geocoding
+------------------------------------
 
+Boaviztapi needs an encoded country designation to improve the accuracy of its results. This is done by the plugin using geocoding services from Nominatim. It is disabled by default and can be enabled in the configuration page of the plugin. When enabled, it monitors changes in locations and tries to resolve the encoded country designation from the fields country, state, and town filled in a location.
+
+It also has an automatic action to find the country designation for locations already in the database at installation time. This automatic action works only if geocoding is enabled, and runs once a day to solve 10 locations at a time to obey the Nominatim usage policy.
+
+.. note::
+    If you need to import a large number of locations, disable geocoding first to avoid any abuse, then let the automatic action resolve them slowly.
+
+To enable it, go to **Setup > Plugins**, locate the Carbon plugin, click on its wrench and check the box **Enable geocoding**.
+
+When the geocoding feature is disabled, it is advised to select the country field manually. This field is under the map and duplicates the native text field **Country** from GLPI.
 
 
 Inventory requirements
