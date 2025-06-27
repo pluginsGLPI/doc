@@ -55,7 +55,7 @@ All assets
 
 1. To calculate the emission of greenhouse gas related to energy consumed during use of your assets, the plugin needs to know when an asset is used for the first time and when its services is stopped.
 
-To do so, the plugin seearches for the following dates on order of decreasing precedence:
+To do so, the plugin searches for the following dates on order of decreasing precedence:
 
 * **startup date** (Financial and administrative informations) : **this information is mandatory**
 * **delivery date** (Financial and administrative informations)
