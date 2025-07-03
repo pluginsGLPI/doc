@@ -8,7 +8,7 @@ Requirements (on-premise)
 GLPI Version Minimum PHP Recommended
 ============ =========== ===========
 10.0.x       8.1         8.2
-11.0.x       8.2         8.3
+11.0.x       8.2         8.4
 ============ =========== ===========
 
 .. note:: A `basic license <https://services.glpi-network.com/#offers>`_ (or higher) is required. This plugin is also available from the `Cloud <https://glpi-network.cloud/fr/>`_.
