@@ -67,7 +67,7 @@ All assets
 
 1. To calculate the emission of greenhouse gas related to energy consumed during use of your assets, the plugin needs to know when an asset is used for the first time and when its services is stopped.
 
-To do so, the plugin seearches for the following dates on order of decreasing precedence:
+To do so, the plugin searches for the following dates on order of decreasing precedence:
 
 * **startup date** (Financial and administrative informations) : **this information is mandatory**
 * **delivery date** (Financial and administrative informations)
@@ -81,7 +81,7 @@ To do so, the plugin seearches for the following dates on order of decreasing pr
 
 .. note:: Monitors rely on the location of the computer it is connected to, so there is no need to add it manually
 
-2. The plugin needs to know where is an asset to determine which carbon intensity is applied to its energy consumption. The associated location mist have the field **Country** filled
+2. The plugin needs to know where is an asset to determine which carbon intensity is applied to its energy consumption. The associated location must have the field **Country** filled
 
 3. Each asset must be associated with a model so that the plugin can estimate CO2 emissions as closely as possible. This information can be pre-filled from a `template <https://glpi-user-documentation.readthedocs.io/fr/latest/modules/overview/templates.html>`_
 
