@@ -12,7 +12,7 @@ https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_FullReport.pdf
 Antimony equivalent
 --------------------
 
-The antimony is a metaloid: it has properties of both metals and non-metals. It is used in life cycle assessment to assess the impact of tie extraction from the Earth crust of non biotic resources, like minerals and fossil fuels.
+Antimony is a metalloid: it has properties of both metals and non-metals. It is used in life cycle assessments to assess the impact of tie extraction from the Earth crust of non-biotic resources, like minerals and fossil fuels.
 
 
 Primary energy
