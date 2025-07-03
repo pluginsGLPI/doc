@@ -18,4 +18,4 @@ Antimony is a metalloid: it has properties of both metals and non-metals. It is 
 Primary energy
 --------------
 
-The primary energy is the energy contained in natural resources before any conversion or transformation. It is used in life cycle assessment to assess the impact of energy extraction from the Earth.
+The primary energy is the energy contained in natural resources before any conversion or transformation. It is used in lifecycle assessments to assess the impact of energy extraction from the Earth.
