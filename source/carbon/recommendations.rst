@@ -12,6 +12,7 @@ Mandatory informations are:
 *  A model or a type
 *  A power consumption in the model or the type of the asset
 *  Financial information enabled with one of the fllowing dates filled (ordered by precedence)
+
   * use date
   * delivery date
   * order date
