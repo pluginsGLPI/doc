@@ -19,4 +19,3 @@ Cloud Inventory
    dashboard
    rule_asset
    log
-   faq
