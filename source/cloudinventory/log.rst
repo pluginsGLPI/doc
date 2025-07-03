@@ -12,3 +12,7 @@ A new log file will be automatically created and will contain various informatio
 Ex : for ``Ovh`` provider and ``VPS`` synchronisation a file named ``ovh-{{instance-type}}-{{provider_name}}-error.log`` will be created in the ``glpi/files/_log/`` folder and will contain the errors encountered during its execution
 
 
+FAQ
+---
+
+If you have any questions about using the plugin, please consult `our FAQ <https://help.glpi-project.org/faq-plugins/cloud-inventory>`_

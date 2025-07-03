@@ -484,3 +484,104 @@ source_lang = en
 type = PO
 
 
+[o:teclib:p:glpi-plugins-documentation:r:cloudinventory--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/cloudinventory/index.po
+source_file = build/locale/cloudinventory/index.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:cloudinventory--alibaba]
+file_filter = source/locale/<lang>/LC_MESSAGES/cloudinventory/alibaba.po
+source_file = build/locale/cloudinventory/alibaba.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:cloudinventory--amazon]
+file_filter = source/locale/<lang>/LC_MESSAGES/cloudinventory/amazon.po
+source_file = build/locale/cloudinventory/amazon.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:cloudinventory--cloud_instance]
+file_filter = source/locale/<lang>/LC_MESSAGES/cloudinventory/cloud_instance.po
+source_file = build/locale/cloudinventory/cloud_instance.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:cloudinventory--crontask]
+file_filter = source/locale/<lang>/LC_MESSAGES/cloudinventory/crontask.po
+source_file = build/locale/cloudinventory/crontask.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:cloudinventory--dashboard]
+file_filter = source/locale/<lang>/LC_MESSAGES/cloudinventory/dashboard.po
+source_file = build/locale/cloudinventory/dashboard.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:cloudinventory--discovery]
+file_filter = source/locale/<lang>/LC_MESSAGES/cloudinventory/discovery.po
+source_file = build/locale/cloudinventory/discovery.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:cloudinventory--entra]
+file_filter = source/locale/<lang>/LC_MESSAGES/cloudinventory/entra.po
+source_file = build/locale/cloudinventory/entra.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:cloudinventory--google]
+file_filter = source/locale/<lang>/LC_MESSAGES/cloudinventory/google.po
+source_file = build/locale/cloudinventory/google.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:cloudinventory--log]
+file_filter = source/locale/<lang>/LC_MESSAGES/cloudinventory/log.po
+source_file = build/locale/cloudinventory/log.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:cloudinventory--ovh]
+file_filter = source/locale/<lang>/LC_MESSAGES/cloudinventory/ovh.po
+source_file = build/locale/cloudinventory/ovh.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:cloudinventory--providers]
+file_filter = source/locale/<lang>/LC_MESSAGES/cloudinventory/providers.po
+source_file = build/locale/cloudinventory/providers.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:cloudinventory--requirements]
+file_filter = source/locale/<lang>/LC_MESSAGES/cloudinventory/requirements.po
+source_file = build/locale/cloudinventory/requirements.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:cloudinventory--right]
+file_filter = source/locale/<lang>/LC_MESSAGES/cloudinventory/right.po
+source_file = build/locale/cloudinventory/right.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:cloudinventory--rule_asset]
+file_filter = source/locale/<lang>/LC_MESSAGES/cloudinventory/rule_asset.po
+source_file = build/locale/cloudinventory/rule_asset.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:cloudinventory--scaleway]
+file_filter = source/locale/<lang>/LC_MESSAGES/cloudinventory/scaleway.po
+source_file = build/locale/cloudinventory/scaleway.pot
+source_lang = en
+type = PO
+
+[o:teclib:p:glpi-plugins-documentation:r:cloudinventory--search]
+file_filter = source/locale/<lang>/LC_MESSAGES/cloudinventory/search.po
+source_file = build/locale/cloudinventory/search.pot
+source_lang = en
+type = PO

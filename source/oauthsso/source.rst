@@ -9,4 +9,4 @@ Resources
 FAQ
 ---
 
-If you have any questions about using the plugin, please consult `our FAQ <https://faq.teclib.com/04_Plugins/Authentication_and_SSO/>`_
+If you have any questions about using the plugin, please consult `our FAQ <https://help.glpi-project.org/faq-plugins/authentication_and_sso>`_
