@@ -31,3 +31,6 @@ Optional informations are:
 
 * Category of computer filled in each computer type
 
+.. image:: images/computer_type_category_view.png
+    :alt: Asset's components
+    :scale: 43%

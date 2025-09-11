@@ -6,5 +6,6 @@ Several types of data are available such as monthly carbon emissions, biggest mo
 
 This dashboard works like the classic GLPI dashboard and can be customized in the same way.
 
-.. note:: The plugin is still under development, so some changes are still being made.
-    Since the dashboards are not finalized, we are not yet able to provide you with a visual.
+.. image:: images/quick_report_view.png
+    :alt: Asset's components
+    :scale: 35%

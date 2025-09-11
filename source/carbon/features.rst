@@ -10,4 +10,21 @@ Features
 * Estimate consumed energy and carbon emission of assets
 * Show results as charts
 
+Supported assets
+^^^^^^^^^^^^^^^^
+
+the table below describes how assets are supported by the plugin.
+
++-------------------+---------------+-----------+-----------+
+|                   | Manufacturing |   Usage   | Recycling |
++===================+===============+===========+===========+
+| Computer          |      Yes      |    Yes    |    No     |
++-------------------+---------------+-----------+-----------+
+| Monitor           |      Yes      |    Yes    |    No     |
++-------------------+---------------+-----------+-----------+
+| Network equipment |      No       |    Yes    |    No     |
++-------------------+---------------+-----------+-----------+
+| Smartphone        |      Yes      |    Yes    |    No     |
++-------------------+---------------+-----------+-----------+
+
 .. note:: RTE is free and ElectricityMaps but is very limitative in free version
