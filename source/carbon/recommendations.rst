@@ -1,5 +1,5 @@
 Recommmendations
-----------------
+================
 
 The plugin provides a diagnosis view for supported assets, in the tab Environmental impact. The administrator
 should refer to this page to easily find out which data is missing for a single asset.

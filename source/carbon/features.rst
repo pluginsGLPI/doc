@@ -1,5 +1,5 @@
 Features
---------
+========
 
 * Collect carbon intensity of electricity from various sources
   * RTE (France)
@@ -11,7 +11,7 @@ Features
 * Show results as charts
 
 Supported assets
-^^^^^^^^^^^^^^^^
+----------------
 
 the table below describes how assets are supported by the plugin.
 
