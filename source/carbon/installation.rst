@@ -1,8 +1,9 @@
 Install the Plugin
-------------------
+==================
 
 From the marketplace
-^^^^^^^^^^^^^^^^^^^^
+--------------------
+
 .. warning::
 
    The plugin is not available in the marketplace yet.
@@ -10,7 +11,7 @@ From the marketplace
    You can install it manually from the archive.
 
 Manually
-^^^^^^^^
+--------
 
 * Uncompress the archive.
 * Move the ``carbon`` directory to the ``<GLPI_ROOT>/plugins`` directory
@@ -28,7 +29,7 @@ Manually
    Only one directory must contains the plugin's files of a single plugin in the GLPI plugins directory. **Don't rename the plugin's directory for backup, move it!**
 
 Install plugin dependencies
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------
 
 The plugin requires Boavizta to calculate non-GWP impact of assets. It is recommended to set it up using Docker as described in the README file of the project https://github.com/Boavizta/boaviztapi.
 

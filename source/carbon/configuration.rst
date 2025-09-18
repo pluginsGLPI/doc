@@ -58,6 +58,9 @@ To enable it, go to **Setup > Plugins**, locate the Carbon plugin, click on its 
 
 When the geocoding feature is disabled, it is advised to select the country field manually. This field is under the map and duplicates the native text field **Country** from GLPI.
 
+.. image:: images/location_view.png
+    :alt: view location information
+    :scale: 36%
 
 Inventory requirements
 ----------------------
@@ -69,11 +72,12 @@ All assets
 
 To do so, the plugin searches for the following dates on order of decreasing precedence:
 
-* **startup date** (Financial and administrative informations) : **this information is mandatory**
+* **startup date** (Financial and administrative informations)
 * **delivery date** (Financial and administrative informations)
 * **date of purchase** (Financial and administrative informations)
-* **creation date in inventory**
-* **modification date in inventory**
+* **creation date in the inventory**
+
+One of these date fields must be populated.
 
 .. image:: images/financial_information.png
     :alt: view financial information
@@ -81,9 +85,9 @@ To do so, the plugin searches for the following dates on order of decreasing pre
 
 .. note:: Monitors rely on the location of the computer it is connected to, so there is no need to add it manually
 
-2. The plugin needs to know where is an asset to determine which carbon intensity is applied to its energy consumption. The associated location must have the field **Country** filled
+1. The plugin needs to know where is an asset to determine which carbon intensity is applied to its energy consumption. The associated location must have the field **Country** filled, in english language.
 
-3. Each asset must be associated with a model so that the plugin can estimate CO2 emissions as closely as possible. This information can be pre-filled from a `template <https://glpi-user-documentation.readthedocs.io/fr/latest/modules/overview/templates.html>`_
+2. Each asset must be associated with a model so that the plugin can estimate CO2 emissions as closely as possible. This information can be pre-filled from a `template <https://glpi-user-documentation.readthedocs.io/fr/latest/modules/overview/templates.html>`_
 
 .. image:: images/computer_model.png
     :alt: Asset's model
@@ -111,4 +115,7 @@ To create an usage profile, go in **Setup > Dropdowns > box GLPI Carbon > Comput
     :alt: select carbon in dropdown tab
     :scale: 38%
 
-.. note:: It is considered that the network equipment is on 24/7 and therefore does not have an associated profile
+Network equipments
+^^^^^^^^^^^^^^^^^^
+
+.. note:: The plugin assumes that the network equipments are powered on 24/7 and therefore there is no usage profile linked to them.

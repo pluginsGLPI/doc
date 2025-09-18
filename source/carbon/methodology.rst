@@ -17,7 +17,7 @@ The Carbon plugin sends queries to this tool to get metrics which are locally sa
 Usage impacts
 ----------------
 
-The plugin internally calculates the emissions of C0_2Eq, using the carbon intensity of the local electricity supplier of each asset. Other impacts are calculated by external tools.
+The plugin internally calculates the emissions of carbon dioxide equivalent, using the carbon intensity of the local electricity supplier of each asset. Other impacts are calculated by external tools.
 
 Greenhouse gas emissions
 ^^^^^^^^^^^^^^^^^^^^^^^^

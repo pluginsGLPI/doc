@@ -4,12 +4,17 @@ Limitations
 Carbon intensity of electricity
 -------------------------------------
 
-The plugin can collect carbon intensity from several sources. The accuracy if these datas varies :
+The plugin can collect carbon intensity from several sources. The accuracy of these datas varies :
 
 - Data from RTE which represents the carbon intensity of electricity production
-- Data from Electricity Map represents the carbon intensity oc electricity consumption (which is more accurate)
+- Data from Electricity Map represents the carbon intensity of electricity consumption (which is more accurate)
 
 .. warning:: Electrcitymaps license keys. Some limitations may apply to free keys. With the free version, electricitymaps only provides intensity history for the last 24 hours.
+
+Locations
+---------
+
+The plugin uses locations to find the appropriate electricity source. The field **Country** must be populated in english. It is expected to be solved soon.
 
 Dates handling
 --------------
@@ -33,7 +38,7 @@ The reverse occurs on 2023-10-29 02:00:00 where there are two rows with the same
 Not used assets
 ---------------
 
-computer
+Computer
 ^^^^^^^^
 
 When a computer is not used it is recommended to remove its usage profile.

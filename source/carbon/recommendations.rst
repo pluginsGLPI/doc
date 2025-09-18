@@ -1,5 +1,5 @@
 Recommmendations
-----------------
+================
 
 The plugin provides a diagnosis view for supported assets, in the tab Environmental impact. The administrator
 should refer to this page to easily find out which data is missing for a single asset.
@@ -31,3 +31,6 @@ Optional informations are:
 
 * Category of computer filled in each computer type
 
+.. image:: images/computer_type_category_view.png
+    :alt: Asset's components
+    :scale: 43%

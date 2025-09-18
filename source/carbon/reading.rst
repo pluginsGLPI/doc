@@ -33,7 +33,7 @@ Data in orange are optional items with a slight impact on data quality
 Usage
 -----
 
-A graph displays energy consumption and carbon emissions per month
+A graph displays energy consumption and carbon emissions per month for the last complete 12 months.
 
 .. image:: images/usage.png
     :alt: Read the graph of energy consumption and carbon emissions per month
@@ -54,12 +54,12 @@ Additional data, ``gSbeq``, is available.
 These are grams of antimony equivalent. This index is used to measure the depletion of abiotic resources (rare earths, minerals, etc.).
 
 You can reset and calculate this data with the corresponding buttons (There is an automatic action ``UsageImpact`` to set them if they are not already calculated.
-The buttons may be useful to update values after we change an asset property.)
+The buttons may be useful to update values after a change of an asset property.)
 
 Embodied data
 -------------
 
-In the life cycle of an asset, we can measure the environmental impact associated with its manufacture/destruction/recycling. 
+In the life cycle of an asset, we can measure the environmental impact associated with its manufacture/destruction/recycling.
 This data is visible in this insert
 
 .. image:: images/embodied_impact.png
