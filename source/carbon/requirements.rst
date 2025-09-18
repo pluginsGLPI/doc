@@ -12,7 +12,7 @@ Requirements (on-premise)
 ============ =========== =========== ============
 GLPI Version Minimum PHP Recommended Minimum DBMS
 ============ =========== =========== ============
-10.0.19       8.3         8.3         Mysql 8.0 or MariaDB 10.2
+10.0.19       8.2         8.2         Mysql 8.0 or MariaDB 10.2
 ============ =========== =========== ============
 
 
